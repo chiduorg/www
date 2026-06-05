@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>能量尺度详情</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌌</text></svg>">
+  <link rel="preconnect" href="https://fonts.loli.net">
+  <link rel="preconnect" href="https://fonts.loli.net" crossorigin>
+  <link href="https://fonts.loli.net/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .detail-page { max-width: 800px; margin: 0 auto; padding: 100px 24px 80px; }
+    .detail-back { display: inline-flex; align-items: center; gap: 8px; color: var(--color-text-muted); text-decoration: none; font-family: var(--font-display); font-size: 0.8rem; letter-spacing: 0.05em; margin-bottom: 32px; transition: color var(--transition-smooth); }
+    .detail-back:hover { color: var(--color-accent-green); }
+    .detail-header { display: flex; align-items: center; gap: 20px; margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .detail-icon { font-size: 3rem; width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; background: rgba(0,229,160,0.08); border-radius: var(--radius-md); flex-shrink: 0; }
+    .detail-name { font-family: var(--font-display); font-size: 1.6rem; font-weight: 600; color: var(--color-accent-green); letter-spacing: 0.05em; }
+    .detail-meta { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
+    .detail-meta-item { font-family: var(--font-display); font-size: 0.75rem; color: var(--color-text-secondary); padding: 4px 12px; background: rgba(0,229,160,0.06); border-radius: 20px; border: 1px solid rgba(0,229,160,0.15); }
+    .detail-section { margin-bottom: 40px; }
+    .detail-section h2 { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; color: var(--color-accent-green); letter-spacing: 0.05em; margin: 0 0 16px 0; padding-left: 12px; border-left: 3px solid var(--color-accent-green); }
+    .detail-section p { font-size: 0.95rem; color: var(--color-text-secondary); line-height: 2; margin: 0; }
+    .detail-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .detail-tag { font-family: var(--font-display); font-size: 0.7rem; color: var(--color-accent-purple); padding: 4px 10px; background: rgba(168,85,247,0.08); border-radius: 20px; border: 1px solid rgba(168,85,247,0.15); cursor: pointer; transition: all var(--transition-smooth); text-decoration: none; }
+    .detail-tag:hover { background: rgba(168,85,247,0.18); border-color: rgba(168,85,247,0.4); color: var(--color-accent-green); }
+    .detail-loading { text-align: center; padding: 80px 0; color: var(--color-text-muted); font-family: var(--font-display); letter-spacing: 0.05em; }
+    @media (max-width: 767px) { .detail-page { padding: 80px 16px 60px; } .detail-header { flex-direction: column; align-items: flex-start; gap: 12px; } .detail-name { font-size: 1.3rem; } .detail-icon { width: 56px; height: 56px; font-size: 2rem; } }
+.detail-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+.detail-nav-btn {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  padding: 10px 20px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 24px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.detail-nav-btn:hover {
+  background: rgba(168,85,247,0.1);
+  border-color: rgba(168,85,247,0.3);
+  color: var(--color-primary);
+}
+.detail-nav-btn .nav-arrow { font-size: 1.1rem; }
+.detail-nav-btn .nav-label { font-size: 0.65rem; opacity: 0.5; }
+  </style>
+</head>
+<body data-page="energy">
+  <a href="#main-content" class="skip-to-content">跳到主内容</a>
+  <div id="particles"></div>
+  <nav class="nav" aria-label="主导航">
+    <a href="../index.html" class="nav-logo">🌌尺度</a>
+    <button class="nav-menu-toggle" aria-label="菜单" aria-expanded="false"><span></span></button>
+    <div class="nav-links">
+      <a href="space.html" class="nav-link space-link">空间尺度</a>
+      <a href="time.html" class="nav-link time-link">时间尺度</a>
+      <a href="energy.html" class="nav-link energy-link active">能量尺度</a>
+    </div>
+    <div class="nav-search" role="search">
+      <input type="text" class="nav-search-input" placeholder="搜索全站尺度..." aria-label="搜索全站尺度">
+      <span class="nav-search-icon" aria-hidden="true">🔍</span>
+      <span class="nav-search-hint" aria-hidden="true">/</span>
+      <div class="nav-search-results" role="listbox"></div>
+    </div>
+  </nav>
+  <div class="nav-menu-overlay"></div>
+  <div class="page-wrapper" id="main-content">
+    <div class="detail-page page-content">
+      <a href="energy.html" class="detail-back">← 返回能量尺度</a>
+      <div id="detail-content">
+        <div class="skeleton skeleton-header"></div>
+        <div class="skeleton skeleton-line"></div>
+        <div class="skeleton skeleton-line medium"></div>
+        <div class="skeleton skeleton-section">
+          <div class="skeleton skeleton-section-title"></div>
+          <div class="skeleton skeleton-text"></div>
+          <div class="skeleton skeleton-text"></div>
+          <div class="skeleton skeleton-text"></div>
+        </div>
+        <div class="skeleton skeleton-section">
+          <div class="skeleton skeleton-section-title"></div>
+          <div class="skeleton skeleton-text"></div>
+          <div class="skeleton skeleton-text"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../js/main.js"></script>
+  <script>
+    (function() {
+      var params = new URLSearchParams(window.location.search);
+      var id = params.get('id');
+      if (!id) { document.getElementById('detail-content').innerHTML = '<p class="detail-loading">未指定项目</p>'; return; }
+      var container = document.getElementById('detail-content');
+
+      function resolveConcept(name) {
+        var map = {
+          // Energy scale self-references
+          '绝对零度': ['energy-detail.html', 'absolute-zero'],
+          '玻色-爱因斯坦凝聚': ['energy-detail.html', 'bose-einstein'],
+          '核退磁制冷': ['energy-detail.html', 'nuclear-demagnetization-cooling'],
+          '氦-3超流': ['energy-detail.html', 'helium-3-superfluid'],
+          '超流': ['energy-detail.html', 'superfluid'],
+          '液氦': ['energy-detail.html', 'superfluid'],
+          '超导': ['energy-detail.html', 'niobium-superconducting-transition'],
+          '铌超导': ['energy-detail.html', 'niobium-superconducting-transition'],
+          '液氢': ['energy-detail.html', 'liquid-hydrogen'],
+          '液氮': ['energy-detail.html', 'liquid-nitrogen'],
+          '液氧': ['energy-detail.html', 'liquid-oxygen'],
+          '高温超导': ['energy-detail.html', 'ybco-superconducting-transition'],
+          'YBCO': ['energy-detail.html', 'ybco-superconducting-transition'],
+          '干冰': ['energy-detail.html', 'dry-ice-sublimation'],
+          '冰点': ['energy-detail.html', 'water-freezing'],
+          '沸点': ['energy-detail.html', 'boiling-water'],
+          '室温': ['energy-detail.html', 'room-temperature'],
+          '人体体温': ['energy-detail.html', 'human-body-temperature'],
+          '汞沸点': ['energy-detail.html', 'mercury-boiling'],
+          '铝熔点': ['energy-detail.html', 'aluminum-melting'],
+          '铁熔点': ['energy-detail.html', 'iron-melting'],
+          '钨熔点': ['energy-detail.html', 'tungsten-melting'],
+          '地球内核': ['energy-detail.html', 'earths-core'],
+          '闪电': ['energy-detail.html', 'lightning'],
+          '太阳表面': ['energy-detail.html', 'sun-surface'],
+          '天狼星': ['energy-detail.html', 'sirius-surface'],
+          '参宿七': ['energy-detail.html', 'rigel-surface'],
+          '太阳核心': ['energy-detail.html', 'sun-core'],
+          '核聚变': ['energy-detail.html', 'sun-core'],
+          '碳核聚变': ['energy-detail.html', 'carbon-fusion'],
+          '硅燃烧': ['energy-detail.html', 'silicon-burning'],
+          '中子星': ['energy-detail.html', 'neutron-star-surface'],
+          '中子星核心': ['energy-detail.html', 'neutron-star-core'],
+          '超新星爆发': ['energy-detail.html', 'supernova'],
+          '超新星': ['energy-detail.html', 'supernova'],
+          '夸克-胶子等离子体': ['energy-detail.html', 'quark-gluon'],
+          '电弱统一': ['energy-detail.html', 'electroweak'],
+          '电弱统一相变': ['energy-detail.html', 'electroweak'],
+          '大统一相变': ['energy-detail.html', 'gut'],
+          '普朗克温度': ['energy-detail.html', 'planck-temperature'],
+          '量子引力': ['energy-detail.html', 'planck-temperature'],
+          // Space scale
+          '普朗克长度': ['space-detail.html', 'planck'],
+          '量子涨落': ['space-detail.html', 'quantum-fluctuation'],
+          '量子泡沫': ['space-detail.html', 'quantum-fluctuation'],
+          '超弦理论': ['space-detail.html', 'superstring'],
+          '超弦': ['space-detail.html', 'superstring'],
+          '弦理论': ['space-detail.html', 'superstring'],
+          '大统一理论': ['space-detail.html', 'gut-scale'],
+          'GUT': ['space-detail.html', 'gut-scale'],
+          '暴胀': ['space-detail.html', 'inflation'],
+          '宇宙暴胀（空间尺度）': ['space-detail.html', 'inflation'],
+          '中微子': ['space-detail.html', 'neutrino'],
+          '夸克': ['space-detail.html', 'quark'],
+          '强相互作用': ['space-detail.html', 'strong-force'],
+          '质子': ['space-detail.html', 'proton'],
+          '原子核': ['space-detail.html', 'uranium-nucleus'],
+          '氢原子': ['space-detail.html', 'atom'],
+          'DNA': ['space-detail.html', 'dna'],
+          '蛋白质': ['space-detail.html', 'protein'],
+          '病毒': ['space-detail.html', 'virus'],
+          '细菌': ['space-detail.html', 'bacteria'],
+          '细胞': ['space-detail.html', 'cell'],
+          '人类': ['space-detail.html', 'human'],
+          '地球': ['space-detail.html', 'earth'],
+          '太阳': ['space-detail.html', 'sun'],
+          '太阳系': ['space-detail.html', 'solar-system'],
+          '银河系': ['space-detail.html', 'milky-way'],
+          '可观测宇宙': ['space-detail.html', 'observable-universe'],
+          '宇宙微波背景辐射': ['space-detail.html', 'observable-universe'],
+          '暗物质': ['space-detail.html', 'milky-way'],
+          '暗能量': ['space-detail.html', 'observable-universe'],
+          '黑洞': ['space-detail.html', 'galactic-center'],
+          '超大质量黑洞': ['space-detail.html', 'galactic-center'],
+          // Time scale
+          '大爆炸': ['time-detail.html', 'big-bang'],
+          '宇宙大爆炸': ['time-detail.html', 'big-bang'],
+          '普朗克时期': ['time-detail.html', 'planck-era'],
+          '大统一时期': ['time-detail.html', 'grand-unification-epoch'],
+          '宇宙暴胀': ['time-detail.html', 'inflation'],
+          '电弱时期': ['time-detail.html', 'electroweak-epoch'],
+          '夸克时代': ['time-detail.html', 'quark-era'],
+          '强子时代': ['time-detail.html', 'hadron-era'],
+          '轻子时期': ['time-detail.html', 'lepton-epoch'],
+          '原初核合成': ['time-detail.html', 'nucleosynthesis'],
+          '复合时期': ['time-detail.html', 'recombination'],
+          '黑暗时代': ['time-detail.html', 'dark-ages'],
+          '第一代恒星': ['time-detail.html', 'first-stars'],
+          '再电离时期': ['time-detail.html', 'reionization-epoch'],
+          '星系形成': ['time-detail.html', 'galaxy-formation'],
+          '银河系形成': ['time-detail.html', 'milky-way-formation'],
+          '重元素富集': ['time-detail.html', 'heavy-element-enrichment'],
+          '太阳系形成': ['time-detail.html', 'solar-system'],
+          '地球形成': ['time-detail.html', 'earth-formation'],
+          '生命起源': ['time-detail.html', 'first-life'],
+          '寒武纪大爆发': ['time-detail.html', 'cambrian'],
+          '恐龙时代': ['time-detail.html', 'dinosaurs'],
+          '早期人类': ['time-detail.html', 'first-humans'],
+          '恒星核合成': ['time-detail.html', 'heavy-element-enrichment'],
+          '原初引力波': ['space-detail.html', 'inflation'],
+          '重子数不对称': ['space-detail.html', 'gut-scale'],
+          '量子力学': ['space-detail.html', 'planck'],
+          '相对论': ['space-detail.html', 'observable-universe'],
+          '宇宙膨胀': ['space-detail.html', 'observable-universe'],
+          '稀释制冷': ['energy-detail.html', 'dilution-refrigerator'],
+          '氖沸点': ['energy-detail.html', 'neon-boiling-point'],
+          '褐矮星': ['energy-detail.html', 'coldest-brown-dwarf'],
+          'CO2临界点': ['energy-detail.html', 'co2-critical-point'],
+          '纸自燃': ['energy-detail.html', 'paper-autoignition'],
+          '铅熔点': ['energy-detail.html', 'lead-melting-point'],
+          '金熔点': ['energy-detail.html', 'gold-melting-point'],
+          '铜熔点': ['energy-detail.html', 'copper-melting-point'],
+          '熔岩': ['energy-detail.html', 'lava-temperature'],
+          '本生灯': ['energy-detail.html', 'bunsen-burner-flame'],
+          '参宿四': ['energy-detail.html', 'betelgeuse-surface'],
+          '氧乙炔火焰': ['energy-detail.html', 'oxyacetylene-flame'],
+          '织女星': ['energy-detail.html', 'vega-surface'],
+          '白矮星': ['energy-detail.html', 'white-dwarf-surface'],
+          'O型星': ['energy-detail.html', 'o-type-star-surface'],
+          '日冕': ['energy-detail.html', 'solar-corona'],
+          '新星爆发': ['energy-detail.html', 'nova-outburst'],
+          '氧核聚变': ['energy-detail.html', 'oxygen-fusion'],
+          'Ia型超新星': ['energy-detail.html', 'type-ia-supernova'],
+          '极超新星': ['energy-detail.html', 'hypernova'],
+          '中子星': ['space-detail.html', 'neutron-star'],
+          '土星': ['space-detail.html', 'saturn'],
+          '宇宙黎明': ['time-detail.html', 'cosmic-dawn'],
+          '雪球地球': ['time-detail.html', 'snowball-earth'],
+          // New energy scale concepts
+          '铑铁温度计': ['energy-detail.html', 'rhodium-iron-thermometer'], '极低温测温': ['energy-detail.html', 'rhodium-iron-thermometer'], '低温物理': ['energy-detail.html', 'rhodium-iron-thermometer'],
+          '回力棒星云': ['energy-detail.html', 'boomerang-nebula'], '宇宙最冷': ['energy-detail.html', 'boomerang-nebula'], '行星状星云': ['energy-detail.html', 'boomerang-nebula'],
+          'SQUID': ['energy-detail.html', 'squid-working-temperature'], '超导量子干涉仪': ['energy-detail.html', 'squid-working-temperature'], '约瑟夫森结': ['energy-detail.html', 'squid-working-temperature'],
+          '冥王星表面': ['energy-detail.html', 'pluto-surface'], '冥王星': ['energy-detail.html', 'pluto-surface'], '新视野号': ['energy-detail.html', 'pluto-surface'], '柯伊伯带': ['energy-detail.html', 'pluto-surface'],
+          '火星表面': ['energy-detail.html', 'mars-surface'], '火星': ['energy-detail.html', 'mars-surface'], '火星温度': ['energy-detail.html', 'mars-surface'],
+          '钠熔点': ['energy-detail.html', 'sodium-melting'], '钠': ['energy-detail.html', 'sodium-melting'], '碱金属': ['energy-detail.html', 'sodium-melting'],
+          '金星表面': ['energy-detail.html', 'venus-surface'], '金星': ['energy-detail.html', 'venus-surface'], '温室效应': ['energy-detail.html', 'venus-surface'], '金星温度': ['energy-detail.html', 'venus-surface'],
+          '镁熔点': ['energy-detail.html', 'magnesium-melting'], '镁': ['energy-detail.html', 'magnesium-melting'], '轻金属': ['energy-detail.html', 'magnesium-melting'],
+          '地球热层': ['energy-detail.html', 'thermosphere'], '电离层': ['energy-detail.html', 'thermosphere'], '极光': ['energy-detail.html', 'thermosphere'], '大气层': ['energy-detail.html', 'thermosphere'],
+          '硅熔点': ['energy-detail.html', 'silicon-melting'], '硅': ['energy-detail.html', 'silicon-melting'], '半导体': ['energy-detail.html', 'silicon-melting'],
+          '白炽灯钨丝': ['energy-detail.html', 'tungsten-filament'], '钨丝': ['energy-detail.html', 'tungsten-filament'], '白炽灯': ['energy-detail.html', 'tungsten-filament'], '黑体辐射': ['energy-detail.html', 'tungsten-filament'],
+          '太阳色球层': ['energy-detail.html', 'solar-chromosphere'], '色球层': ['energy-detail.html', 'solar-chromosphere'], '太阳大气': ['energy-detail.html', 'solar-chromosphere'], '日珥': ['energy-detail.html', 'solar-chromosphere'],
+          '太阳过渡区': ['energy-detail.html', 'solar-transition-region'], '过渡区': ['energy-detail.html', 'solar-transition-region'], '日冕加热': ['energy-detail.html', 'solar-transition-region'],
+          '黑洞吸积盘': ['energy-detail.html', 'black-hole-accretion-disk'], '吸积盘': ['energy-detail.html', 'black-hole-accretion-disk'], '黑洞': ['energy-detail.html', 'black-hole-accretion-disk'], 'X射线双星': ['energy-detail.html', 'black-hole-accretion-disk'],
+          '聚变堆等离子体': ['energy-detail.html', 'fusion-reactor-plasma'], '聚变堆': ['energy-detail.html', 'fusion-reactor-plasma'], 'ITER': ['energy-detail.html', 'fusion-reactor-plasma'], '托卡马克': ['energy-detail.html', 'fusion-reactor-plasma'], '核聚变': ['energy-detail.html', 'fusion-reactor-plasma'],
+          '红巨星核心': ['energy-detail.html', 'red-giant-core'], '红巨星': ['energy-detail.html', 'red-giant-core'], '氦闪': ['energy-detail.html', 'red-giant-core'], '恒星演化': ['energy-detail.html', 'red-giant-core']
+        };
+        return map[name] || null;
+      }
+
+      Promise.all([
+        fetch('../data/energy.json').then(function(r) { return r.json(); }),
+        fetch('../data/energy-detail.json').then(function(r) { return r.json(); })
+      ]).then(function(results) {
+        var energyData = results[0];
+        var detailData = results[1];
+        var item = null; var itemIndex = -1;
+        for (var i = 0; i < energyData.energies.length; i++) {
+          if (energyData.energies[i].id === id) { item = energyData.energies[i]; itemIndex = i; break; }
+        }
+        if (!item) { container.innerHTML = '<p class="detail-loading">未找到该项目</p>'; return; }
+        var detail = detailData[id] || {};
+        document.title = item.name + ' —— 能量尺度详情';
+
+        var html = '';
+        html += '<div class="detail-header">';
+        html += '<div class="detail-icon">' + item.icon + '</div>';
+        html += '<div>';
+        html += '<div class="detail-name">' + item.name + '</div>';
+        html += '<div class="detail-meta">';
+        html += '<span class="detail-meta-item">温度：' + item.temperature + '</span>';
+        html += '<span class="detail-meta-item">能量：' + item.energy + '</span>';
+        html += '<span class="detail-meta-item">现象：' + item.phenomenon + '</span>';
+        html += '<span class="detail-meta-item">分类：' + item.category + '</span>';
+        html += '</div></div></div>';
+        html += '<p style="font-size:0.95rem;color:var(--color-text-secondary);line-height:2;margin-bottom:40px;">' + item.description + '</p>';
+
+        if (detail.history) { html += '<div class="detail-section"><h2>历史背景</h2><p>' + detail.history + '</p></div>'; }
+        if (detail.scientists) { html += '<div class="detail-section"><h2>关键科学家</h2><p>' + detail.scientists + '</p></div>'; }
+        if (detail.methods) { html += '<div class="detail-section"><h2>科学方法与实验</h2><p>' + detail.methods + '</p></div>'; }
+        if (detail.significance) { html += '<div class="detail-section"><h2>科学意义</h2><p>' + detail.significance + '</p></div>'; }
+
+        if (detail.related) {
+          html += '<div class="detail-section"><h2>相关概念</h2><div class="detail-tags">';
+          var relatedItems = detail.related.split('、');
+          for (var j = 0; j < relatedItems.length; j++) {
+            var tag = relatedItems[j].trim();
+            var resolved = resolveConcept(tag);
+            if (resolved) {
+              html += '<a href="' + resolved[0] + '?id=' + resolved[1] + '" class="detail-tag">' + tag + '</a>';
+            } else {
+              html += '<span class="detail-tag">' + tag + '</span>';
+            }
+          }
+          html += '</div></div>';
+        }
+        container.innerHTML = html;
+
+        // Prev/Next navigation
+        var prevItem = itemIndex > 0 ? energyData.energies[itemIndex - 1] : null;
+        var nextItem = itemIndex < energyData.energies.length - 1 ? energyData.energies[itemIndex + 1] : null;
+        var navHtml = '<div class="detail-nav">';
+        if (prevItem) {
+          navHtml += '<a href="energy-detail.html?id=' + prevItem.id + '" class="detail-nav-btn"><span class="nav-arrow">←</span><span><span class="nav-label">上一条</span><br>' + prevItem.icon + ' ' + prevItem.name + '</span></a>';
+        } else {
+          navHtml += '<span></span>';
+        }
+        if (nextItem) {
+          navHtml += '<a href="energy-detail.html?id=' + nextItem.id + '" class="detail-nav-btn"><span><span class="nav-label">下一条</span><br>' + nextItem.icon + ' ' + nextItem.name + '</span><span class="nav-arrow">→</span></a>';
+        } else {
+          navHtml += '<span></span>';
+        }
+        navHtml += '</div>';
+        container.innerHTML += navHtml;
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'ArrowLeft' && prevItem) {
+            window.location.href = 'energy-detail.html?id=' + prevItem.id;
+          }
+          if (e.key === 'ArrowRight' && nextItem) {
+            window.location.href = 'energy-detail.html?id=' + nextItem.id;
+          }
+        });
+      }).catch(function() { container.innerHTML = '<div class="error-state"><div class="error-state-icon">⚠️</div><div class="error-state-text">加载失败，请检查网络连接</div><button class="error-state-btn" onclick="location.reload()">重新加载</button></div>'; });
+    })();
+  </script>
+  <div class="mobile-bottom-search">
+    <div class="mobile-bottom-search-wrapper">
+      <input type="text" class="mobile-bottom-search-input" placeholder="搜索全站尺度..." aria-label="搜索全站尺度">
+      <span class="mobile-bottom-search-icon">🔍</span>
+      <div class="mobile-bottom-search-results"></div>
+    </div>
+  </div>
+</body>
+</html>

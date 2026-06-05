@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>时间尺度详情</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌌</text></svg>">
+  <link rel="preconnect" href="https://fonts.loli.net">
+  <link rel="preconnect" href="https://fonts.loli.net" crossorigin>
+  <link href="https://fonts.loli.net/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .detail-page { max-width: 800px; margin: 0 auto; padding: 100px 24px 80px; }
+    .detail-back { display: inline-flex; align-items: center; gap: 8px; color: var(--color-text-muted); text-decoration: none; font-family: var(--font-display); font-size: 0.8rem; letter-spacing: 0.05em; margin-bottom: 32px; transition: color var(--transition-smooth); }
+    .detail-back:hover { color: var(--color-accent-orange); }
+    .detail-header { display: flex; align-items: center; gap: 20px; margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .detail-icon { font-size: 3rem; width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; background: rgba(255,107,53,0.08); border-radius: var(--radius-md); flex-shrink: 0; }
+    .detail-name { font-family: var(--font-display); font-size: 1.6rem; font-weight: 600; color: var(--color-accent-orange); letter-spacing: 0.05em; }
+    .detail-meta { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
+    .detail-meta-item { font-family: var(--font-display); font-size: 0.75rem; color: var(--color-text-secondary); padding: 4px 12px; background: rgba(255,107,53,0.06); border-radius: 20px; border: 1px solid rgba(255,107,53,0.15); }
+    .detail-section { margin-bottom: 40px; }
+    .detail-section h2 { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; color: var(--color-accent-orange); letter-spacing: 0.05em; margin: 0 0 16px 0; padding-left: 12px; border-left: 3px solid var(--color-accent-orange); }
+    .detail-section p { font-size: 0.95rem; color: var(--color-text-secondary); line-height: 2; margin: 0; }
+    .detail-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .detail-tag { font-family: var(--font-display); font-size: 0.7rem; color: var(--color-accent-purple); padding: 4px 10px; background: rgba(168,85,247,0.08); border-radius: 20px; border: 1px solid rgba(168,85,247,0.15); cursor: pointer; transition: all var(--transition-smooth); text-decoration: none; }
+    .detail-tag:hover { background: rgba(168,85,247,0.18); border-color: rgba(168,85,247,0.4); color: var(--color-accent-orange); }
+    .detail-loading { text-align: center; padding: 80px 0; color: var(--color-text-muted); font-family: var(--font-display); letter-spacing: 0.05em; }
+    @media (max-width: 767px) { .detail-page { padding: 80px 16px 60px; } .detail-header { flex-direction: column; align-items: flex-start; gap: 12px; } .detail-name { font-size: 1.3rem; } .detail-icon { width: 56px; height: 56px; font-size: 2rem; } }
+.detail-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+.detail-nav-btn {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  padding: 10px 20px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 24px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.detail-nav-btn:hover {
+  background: rgba(168,85,247,0.1);
+  border-color: rgba(168,85,247,0.3);
+  color: var(--color-primary);
+}
+.detail-nav-btn .nav-arrow { font-size: 1.1rem; }
+.detail-nav-btn .nav-label { font-size: 0.65rem; opacity: 0.5; }
+  </style>
+</head>
+<body data-page="time">
+  <a href="#main-content" class="skip-to-content">跳到主内容</a>
+  <div id="particles"></div>
+  <nav class="nav" aria-label="主导航">
+    <a href="../index.html" class="nav-logo">🌌尺度</a>
+    <button class="nav-menu-toggle" aria-label="菜单" aria-expanded="false"><span></span></button>
+    <div class="nav-links">
+      <a href="space.html" class="nav-link space-link">空间尺度</a>
+      <a href="time.html" class="nav-link time-link active">时间尺度</a>
+      <a href="energy.html" class="nav-link energy-link">能量尺度</a>
+    </div>
+    <div class="nav-search" role="search">
+      <input type="text" class="nav-search-input" placeholder="搜索全站尺度..." aria-label="搜索全站尺度">
+      <span class="nav-search-icon" aria-hidden="true">🔍</span>
+      <span class="nav-search-hint" aria-hidden="true">/</span>
+      <div class="nav-search-results" role="listbox"></div>
+    </div>
+  </nav>
+  <div class="nav-menu-overlay"></div>
+  <div class="page-wrapper" id="main-content">
+    <div class="detail-page page-content">
+      <a href="time.html" class="detail-back">← 返回时间尺度</a>
+      <div id="detail-content">
+        <div class="skeleton skeleton-header"></div>
+        <div class="skeleton skeleton-line"></div>
+        <div class="skeleton skeleton-line medium"></div>
+        <div class="skeleton skeleton-section">
+          <div class="skeleton skeleton-section-title"></div>
+          <div class="skeleton skeleton-text"></div>
+          <div class="skeleton skeleton-text"></div>
+          <div class="skeleton skeleton-text"></div>
+        </div>
+        <div class="skeleton skeleton-section">
+          <div class="skeleton skeleton-section-title"></div>
+          <div class="skeleton skeleton-text"></div>
+          <div class="skeleton skeleton-text"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../js/main.js"></script>
+  <script>
+    (function() {
+      var params = new URLSearchParams(window.location.search);
+      var id = params.get('id');
+      if (!id) { document.getElementById('detail-content').innerHTML = '<p class="detail-loading">未指定项目</p>'; return; }
+      var container = document.getElementById('detail-content');
+
+      // Cross-scale concept mapping: concept name → [page, itemId]
+      function resolveConcept(name) {
+        var map = {
+          '普朗克时期': ['time-detail.html', 'planck-era'],
+          '宇宙大爆炸': ['time-detail.html', 'big-bang'],
+          '宇宙暴胀': ['time-detail.html', 'inflation'],
+          '原初核合成': ['time-detail.html', 'nucleosynthesis'],
+          '复合时期': ['time-detail.html', 'recombination'],
+          '黑暗时代': ['time-detail.html', 'dark-ages'],
+          '再电离': ['time-detail.html', 'reionization-epoch'],
+          '再电离时期': ['time-detail.html', 'reionization-epoch'],
+          '第一代恒星': ['time-detail.html', 'first-stars'],
+          '星系形成': ['time-detail.html', 'galaxy-formation'],
+          '银河系形成': ['time-detail.html', 'milky-way-formation'],
+          '太阳系形成': ['time-detail.html', 'solar-system'],
+          '生命起源': ['time-detail.html', 'first-life'],
+          '寒武纪大爆发': ['time-detail.html', 'cambrian'],
+          '寒武纪生命大爆发': ['time-detail.html', 'cambrian'],
+          '恐龙': ['time-detail.html', 'dinosaurs'],
+          '恐龙时代': ['time-detail.html', 'dinosaurs'],
+          '人类起源': ['time-detail.html', 'first-humans'],
+          '早期人类': ['time-detail.html', 'first-humans'],
+          '农业革命': ['time-detail.html', 'agricultural-revolution'],
+          '工业革命': ['time-detail.html', 'industrial-revolution'],
+          '大统一时期': ['time-detail.html', 'grand-unification-epoch'],
+          '电弱时期': ['time-detail.html', 'electroweak-epoch'],
+          '夸克时代': ['time-detail.html', 'quark-era'],
+          '强子时代': ['time-detail.html', 'hadron-era'],
+          '轻子时期': ['time-detail.html', 'lepton-epoch'],
+          '光子时期': ['time-detail.html', 'photon-epoch'],
+          '物质辐射相等': ['time-detail.html', 'matter-radiation-equality'],
+          '重元素富集': ['time-detail.html', 'heavy-element-enrichment'],
+          '地球形成': ['time-detail.html', 'earth-formation'],
+          '晚期重轰炸': ['time-detail.html', 'late-heavy-bombardment'],
+          '大氧化事件': ['time-detail.html', 'great-oxidation-event'],
+          '真核生物': ['time-detail.html', 'eukaryotes-emergence'],
+          '多细胞生命': ['time-detail.html', 'multicellular-life'],
+          '植物登陆': ['time-detail.html', 'land-plants'],
+          '二叠纪-三叠纪大灭绝': ['time-detail.html', 'permian-triassic-extinction'],
+          '白垩纪-古近纪灭绝': ['time-detail.html', 'k-pg-extinction'],
+          'K-Pg灭绝': ['time-detail.html', 'k-pg-extinction'],
+          '哺乳动物辐射': ['time-detail.html', 'mammal-radiation'],
+          '人亚科起源': ['time-detail.html', 'hominins-emerge'],
+          // Space scale
+          '普朗克长度': ['space-detail.html', 'planck'],
+          '量子涨落': ['space-detail.html', 'quantum-fluctuation'],
+          '超弦理论': ['space-detail.html', 'superstring'],
+          '超弦': ['space-detail.html', 'superstring'],
+          '弦理论': ['space-detail.html', 'superstring'],
+          '大统一理论': ['space-detail.html', 'gut-scale'],
+          'GUT': ['space-detail.html', 'gut-scale'],
+          '暴胀': ['space-detail.html', 'inflation'],
+          '中微子': ['space-detail.html', 'neutrino'],
+          '夸克': ['space-detail.html', 'quark'],
+          '强相互作用': ['space-detail.html', 'strong-force'],
+          '质子': ['space-detail.html', 'proton'],
+          '原子核': ['space-detail.html', 'uranium-nucleus'],
+          '氢原子': ['space-detail.html', 'atom'],
+          'DNA': ['space-detail.html', 'dna'],
+          '蛋白质': ['space-detail.html', 'protein'],
+          '病毒': ['space-detail.html', 'virus'],
+          '细菌': ['space-detail.html', 'bacteria'],
+          '细胞': ['space-detail.html', 'cell'],
+          '人类': ['space-detail.html', 'human'],
+          '蓝鲸': ['space-detail.html', 'blue-whale'],
+          '珠穆朗玛峰': ['space-detail.html', 'everest'],
+          '地球': ['space-detail.html', 'earth'],
+          '木星': ['space-detail.html', 'jupiter'],
+          '太阳': ['space-detail.html', 'sun'],
+          '太阳系': ['space-detail.html', 'solar-system'],
+          '银河系': ['space-detail.html', 'milky-way'],
+          '可观测宇宙': ['space-detail.html', 'observable-universe'],
+          '宇宙微波背景辐射': ['space-detail.html', 'observable-universe'],
+          '暗物质': ['space-detail.html', 'milky-way'],
+          '暗能量': ['space-detail.html', 'observable-universe'],
+          '黑洞': ['space-detail.html', 'galactic-center'],
+          '超大质量黑洞': ['space-detail.html', 'galactic-center'],
+          // Energy scale
+          '绝对零度': ['energy-detail.html', 'absolute-zero'],
+          '玻色-爱因斯坦凝聚': ['energy-detail.html', 'bose-einstein'],
+          '超流': ['energy-detail.html', 'superfluid'],
+          '超导': ['energy-detail.html', 'niobium-superconducting-transition'],
+          '高温超导': ['energy-detail.html', 'ybco-superconducting-transition'],
+          '核聚变': ['energy-detail.html', 'sun-core'],
+          '太阳核心': ['energy-detail.html', 'sun-core'],
+          '超新星爆发': ['energy-detail.html', 'supernova'],
+          '超新星': ['energy-detail.html', 'supernova'],
+          '夸克-胶子等离子体': ['energy-detail.html', 'quark-gluon'],
+          '电弱统一': ['energy-detail.html', 'electroweak'],
+          '电弱统一相变': ['energy-detail.html', 'electroweak'],
+          '大统一相变': ['energy-detail.html', 'gut'],
+          '普朗克温度': ['energy-detail.html', 'planck-temperature'],
+          '量子引力': ['energy-detail.html', 'planck-temperature'],
+          '中子星': ['energy-detail.html', 'neutron-star-surface'],
+          '恒星核合成': ['energy-detail.html', 'carbon-fusion'],
+          '碳核聚变': ['energy-detail.html', 'carbon-fusion'],
+          '硅燃烧': ['energy-detail.html', 'silicon-burning'],
+          '原初引力波': ['space-detail.html', 'inflation'],
+          '重子数不对称': ['space-detail.html', 'gut-scale'],
+          '量子力学': ['space-detail.html', 'planck'],
+          '相对论': ['space-detail.html', 'observable-universe'],
+          '宇宙膨胀': ['space-detail.html', 'observable-universe'],
+          '板块构造': ['space-detail.html', 'earth'],
+          '大爆炸': ['time-detail.html', 'big-bang'],
+          '重子生成': ['time-detail.html', 'baryogenesis'],
+          '夸克-强子相变': ['time-detail.html', 'quark-hadron-phase-transition'],
+          '中微子退耦': ['time-detail.html', 'neutrino-decoupling'],
+          '氘瓶颈': ['time-detail.html', 'deuterium-bottleneck'],
+          '重子声学振荡': ['time-detail.html', 'baryon-acoustic-oscillations'],
+          'BAO': ['time-detail.html', 'baryon-acoustic-oscillations'],
+          '第一代分子': ['time-detail.html', 'first-molecules'],
+          '宇宙黎明': ['time-detail.html', 'cosmic-dawn'],
+          '暗能量主导': ['time-detail.html', 'dark-energy-domination'],
+          '恒星形成高峰': ['time-detail.html', 'peak-star-formation'],
+          'LUCA': ['time-detail.html', 'luca'],
+          '雪球地球': ['time-detail.html', 'snowball-earth'],
+          '埃迪卡拉生物群': ['time-detail.html', 'ediacaran-biota'],
+          '最早的鱼类': ['time-detail.html', 'first-fish'],
+          '四足动物': ['time-detail.html', 'first-tetrapods'],
+          '最早的哺乳动物': ['time-detail.html', 'first-mammals'],
+          '智人崛起': ['time-detail.html', 'rise-homo-sapiens'],
+          '青铜时代': ['time-detail.html', 'bronze-age'],
+          '科学革命': ['time-detail.html', 'scientific-revolution'],
+          '数字时代': ['time-detail.html', 'digital-age'],
+          '中子星': ['space-detail.html', 'neutron-star'],
+          '土星': ['space-detail.html', 'saturn'],
+          '柯伊伯带': ['space-detail.html', 'kuiper-belt'],
+          '蟹状星云': ['space-detail.html', 'crab-nebula'],
+          // 电弱对称性破缺
+          '电弱对称性破缺': ['time-detail.html', 'electroweak-symmetry-breaking'],
+          '电弱统一': ['time-detail.html', 'electroweak-symmetry-breaking'],
+          '希格斯机制': ['time-detail.html', 'electroweak-symmetry-breaking'],
+          // 重子-反重子不对称性
+          '重子不对称性': ['time-detail.html', 'baryon-asymmetry-establishment'],
+          '物质起源': ['time-detail.html', 'baryon-asymmetry-establishment'],
+          'CP破坏': ['time-detail.html', 'baryon-asymmetry-establishment'],
+          // 质子-反质子湮灭
+          '质子反质子湮灭': ['time-detail.html', 'proton-antiproton-annihilation'],
+          '强子湮灭': ['time-detail.html', 'proton-antiproton-annihilation'],
+          // μ子湮灭
+          'μ子湮灭': ['time-detail.html', 'muon-antimuon-annihilation'],
+          'μ子': ['time-detail.html', 'muon-antimuon-annihilation'],
+          '轻子时期': ['time-detail.html', 'muon-antimuon-annihilation'],
+          // 电子-正电子湮灭
+          '电子正电子湮灭': ['time-detail.html', 'electron-positron-annihilation'],
+          '正电子': ['time-detail.html', 'electron-positron-annihilation'],
+          // 锂-7合成
+          '锂-7合成': ['time-detail.html', 'lithium-7-synthesis'],
+          '锂丰度': ['time-detail.html', 'lithium-7-synthesis'],
+          '核合成': ['time-detail.html', 'lithium-7-synthesis'],
+          // 第一批星系团
+          '星系团': ['time-detail.html', 'first-galaxy-clusters'],
+          '结构形成': ['time-detail.html', 'first-galaxy-clusters'],
+          // 原始海洋
+          '原始海洋': ['time-detail.html', 'formation-of-oceans'],
+          '水圈': ['time-detail.html', 'formation-of-oceans'],
+          // 奥陶纪生物大辐射
+          '奥陶纪生物大辐射': ['time-detail.html', 'ordovician-radiation'],
+          '奥陶纪': ['time-detail.html', 'ordovician-radiation'],
+          '生物多样性': ['time-detail.html', 'ordovician-radiation'],
+          'GOBE': ['time-detail.html', 'ordovician-radiation'],
+          // 晚泥盆纪大灭绝
+          '晚泥盆纪大灭绝': ['time-detail.html', 'late-devonian-extinction'],
+          '泥盆纪': ['time-detail.html', 'late-devonian-extinction'],
+          '大灭绝事件': ['time-detail.html', 'late-devonian-extinction'],
+          // 石炭纪
+          '石炭纪': ['time-detail.html', 'carboniferous-period'],
+          '石炭纪时期': ['time-detail.html', 'carboniferous-period'],
+          '煤炭形成': ['time-detail.html', 'carboniferous-period'],
+          '巨虫时代': ['time-detail.html', 'carboniferous-period'],
+          // 侏罗纪
+          '侏罗纪': ['time-detail.html', 'jurassic-period'],
+          '侏罗纪时期': ['time-detail.html', 'jurassic-period'],
+          '恐龙': ['time-detail.html', 'jurassic-period'],
+          // 末次冰期高峰
+          '末次冰期高峰': ['time-detail.html', 'last-glacial-maximum'],
+          'LGM': ['time-detail.html', 'last-glacial-maximum'],
+          '冰期': ['time-detail.html', 'last-glacial-maximum'],
+          '海平面': ['time-detail.html', 'last-glacial-maximum'],
+          // 文字发明
+          '文字发明': ['time-detail.html', 'invention-of-writing'],
+          '楔形文字': ['time-detail.html', 'invention-of-writing'],
+          '苏美尔': ['time-detail.html', 'invention-of-writing'],
+          '文明': ['time-detail.html', 'invention-of-writing']
+        };
+        return map[name] || null;
+      }
+
+      Promise.all([
+        fetch('../data/time.json').then(function(r) { return r.json(); }),
+        fetch('../data/time-detail.json').then(function(r) { return r.json(); })
+      ]).then(function(results) {
+        var timeData = results[0];
+        var detailData = results[1];
+        var item = null; var itemIndex = -1;
+        for (var i = 0; i < timeData.timeline.length; i++) {
+          if (timeData.timeline[i].id === id) { item = timeData.timeline[i]; itemIndex = i; break; }
+        }
+        if (!item) { container.innerHTML = '<p class="detail-loading">未找到该项目</p>'; return; }
+        var detail = detailData[id] || {};
+        document.title = item.event + ' —— 时间尺度详情';
+
+        var html = '';
+        html += '<div class="detail-header">';
+        html += '<div class="detail-icon">' + item.icon + '</div>';
+        html += '<div>';
+        html += '<div class="detail-name">' + item.event + '</div>';
+        html += '<div class="detail-meta">';
+        html += '<span class="detail-meta-item">时间：' + item.timeAfterBigBang + '</span>';
+        html += '<span class="detail-meta-item">时代：' + item.era + '</span>';
+        html += '<span class="detail-meta-item">温度：' + item.temperature + '</span>';
+        html += '</div></div></div>';
+        html += '<p style="font-size:0.95rem;color:var(--color-text-secondary);line-height:2;margin-bottom:40px;">' + item.description + '</p>';
+
+        if (detail.history) { html += '<div class="detail-section"><h2>历史背景</h2><p>' + detail.history + '</p></div>'; }
+        if (detail.scientists) { html += '<div class="detail-section"><h2>关键科学家</h2><p>' + detail.scientists + '</p></div>'; }
+        if (detail.methods) { html += '<div class="detail-section"><h2>科学方法与实验</h2><p>' + detail.methods + '</p></div>'; }
+        if (detail.significance) { html += '<div class="detail-section"><h2>科学意义</h2><p>' + detail.significance + '</p></div>'; }
+
+        if (detail.related) {
+          html += '<div class="detail-section"><h2>相关概念</h2><div class="detail-tags">';
+          var relatedItems = detail.related.split('、');
+          for (var j = 0; j < relatedItems.length; j++) {
+            var tag = relatedItems[j].trim();
+            var resolved = resolveConcept(tag);
+            if (resolved) {
+              html += '<a href="' + resolved[0] + '?id=' + resolved[1] + '" class="detail-tag">' + tag + '</a>';
+            } else {
+              html += '<span class="detail-tag">' + tag + '</span>';
+            }
+          }
+          html += '</div></div>';
+        }
+        container.innerHTML = html;
+
+        // Prev/Next navigation
+        var prevItem = itemIndex > 0 ? timeData.timeline[itemIndex - 1] : null;
+        var nextItem = itemIndex < timeData.timeline.length - 1 ? timeData.timeline[itemIndex + 1] : null;
+        var navHtml = '<div class="detail-nav">';
+        if (prevItem) {
+          navHtml += '<a href="time-detail.html?id=' + prevItem.id + '" class="detail-nav-btn"><span class="nav-arrow">←</span><span><span class="nav-label">上一条</span><br>' + prevItem.icon + ' ' + prevItem.event + '</span></a>';
+        } else {
+          navHtml += '<span></span>';
+        }
+        if (nextItem) {
+          navHtml += '<a href="time-detail.html?id=' + nextItem.id + '" class="detail-nav-btn"><span><span class="nav-label">下一条</span><br>' + nextItem.icon + ' ' + nextItem.event + '</span><span class="nav-arrow">→</span></a>';
+        } else {
+          navHtml += '<span></span>';
+        }
+        navHtml += '</div>';
+        container.innerHTML += navHtml;
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'ArrowLeft' && prevItem) {
+            window.location.href = 'time-detail.html?id=' + prevItem.id;
+          }
+          if (e.key === 'ArrowRight' && nextItem) {
+            window.location.href = 'time-detail.html?id=' + nextItem.id;
+          }
+        });
+      }).catch(function() { container.innerHTML = '<div class="error-state"><div class="error-state-icon">⚠️</div><div class="error-state-text">加载失败，请检查网络连接</div><button class="error-state-btn" onclick="location.reload()">重新加载</button></div>'; });
+    })();
+  </script>
+  <div class="mobile-bottom-search">
+    <div class="mobile-bottom-search-wrapper">
+      <input type="text" class="mobile-bottom-search-input" placeholder="搜索全站尺度..." aria-label="搜索全站尺度">
+      <span class="mobile-bottom-search-icon">🔍</span>
+      <div class="mobile-bottom-search-results"></div>
+    </div>
+  </div>
+</body>
+</html>
