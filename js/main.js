@@ -408,22 +408,63 @@
           renderSpaceNodes(container, data);
           setupScaleClickHandler(container, 'space-detail.html');
           initCategoryFilter();
+          updateScaleStats(data, 'space');
         });
       } else if (dataType === 'time') {
         loadScaleData('../data/time.json', function(data) {
           renderTimeNodes(container, data);
           setupScaleClickHandler(container, 'time-detail.html');
           initCategoryFilter();
+          updateScaleStats(data, 'time');
         });
       } else if (dataType === 'energy') {
         loadScaleData('../data/energy.json', function(data) {
           renderEnergyNodes(container, data);
           setupScaleClickHandler(container, 'energy-detail.html');
           initCategoryFilter();
+          updateScaleStats(data, 'energy');
         });
       }
     }
 
+    // Update scale statistics in page descriptions (dynamic)
+    function updateScaleStats(data, scale) {
+      // Calculate counts
+      var count = 0;
+      if (scale === 'space') count = data.scales ? data.scales.length : 0;
+      else if (scale === 'time') count = data.timeline ? data.timeline.length : 0;
+      else if (scale === 'energy') count = data.energies ? data.energies.length : 0;
+
+      // Calculate orders of magnitude span
+      var orders = 0;
+      if (scale === 'space' && data.scales && data.scales.length > 1) {
+        var minOrder = Infinity, maxOrder = -Infinity;
+        for (var i = 0; i < data.scales.length; i++) {
+          var o = parseFloat(data.scales[i].order || data.scales[i].orderOfMagnitude);
+          if (!isNaN(o)) { if (o < minOrder) minOrder = o; if (o > maxOrder) maxOrder = o; }
+        }
+        orders = Math.round(maxOrder - minOrder);
+      } else if (scale === 'energy' && data.energies && data.energies.length > 1) {
+        var minE = Infinity, maxE = -Infinity;
+        for (var i = 0; i < data.energies.length; i++) {
+          var o = parseFloat(data.energies[i].order);
+          if (!isNaN(o)) { if (o < minE) minE = o; if (o > maxE) maxE = o; }
+        }
+        orders = Math.round(maxE - minE);
+      }
+
+      // Update all matching stat spans
+      var countSpans = document.querySelectorAll('.scale-stat[data-scale="' + scale + '"][data-stat="count"]');
+      for (var i = 0; i < countSpans.length; i++) { countSpans[i].textContent = count; }
+
+      if (orders > 0) {
+        var orderSpans = document.querySelectorAll('.scale-stat[data-scale="' + scale + '"][data-stat="orders"]');
+        for (var i = 0; i < orderSpans.length; i++) { orderSpans[i].textContent = orders; }
+      }
+    }
+
+    // Initialize theme toggle
+    initThemeToggle();
     // Initialize nav search
     initNavSearch();
     // Initialize page search
@@ -684,6 +725,32 @@
     document.addEventListener('click', function(e) {
       if (!e.target.closest('.mobile-bottom-search')) {
         results.classList.remove('active');
+      }
+    });
+  }
+
+  function initThemeToggle() {
+    var btn = document.getElementById('themeToggle');
+    if (!btn) return;
+    // Apply saved preference
+    var saved = localStorage.getItem('theme');
+    if (saved === 'light') {
+      document.documentElement.setAttribute('data-theme', 'light');
+      btn.textContent = '☀️';
+    } else {
+      btn.textContent = '🌙';
+    }
+    btn.addEventListener('click', function() {
+      var html = document.documentElement;
+      var isLight = html.getAttribute('data-theme') === 'light';
+      if (isLight) {
+        html.removeAttribute('data-theme');
+        btn.textContent = '🌙';
+        localStorage.setItem('theme', 'dark');
+      } else {
+        html.setAttribute('data-theme', 'light');
+        btn.textContent = '☀️';
+        localStorage.setItem('theme', 'light');
       }
     });
   }

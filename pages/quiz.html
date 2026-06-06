@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>宇宙知识问答 —— 尺度</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌌</text></svg>">
+  <link rel="preconnect" href="https://fonts.loli.net">
+  <link rel="preconnect" href="https://fonts.loli.net" crossorigin>
+  <link href="https://fonts.loli.net/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    body { background: var(--color-bg); }
+    .quiz-page { padding: 120px 24px 120px; max-width: 800px; margin: 0 auto; position: relative; z-index: 1; min-height: 100vh; display: flex; flex-direction: column; align-items: center; }
+
+    /* Level Display */
+    .level-display { text-align: center; margin-bottom: 48px; width: 100%; animation: fadeInUp 0.8s ease-out; }
+    .level-badge { display: inline-flex; align-items: center; gap: 16px; margin-bottom: 16px; }
+    .level-icon { font-size: 3rem; line-height: 1; }
+    .level-name { font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 2.5rem); font-weight: 800; background: linear-gradient(135deg, #A78BFA, #F472B6, #FB923C); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: 0.08em; }
+    .level-progress-container { max-width: 500px; margin: 16px auto 0; background: rgba(255,255,255,0.06); border-radius: 12px; height: 8px; overflow: hidden; position: relative; }
+    .level-progress-fill { height: 100%; border-radius: 12px; background: linear-gradient(90deg, #A78BFA, #F472B6, #FB923C); transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1); width: 0%; }
+    .level-label { font-family: var(--font-display); font-size: 0.7rem; color: var(--color-text-muted); margin-top: 8px; letter-spacing: 0.05em; }
+    .level-stats { display: flex; gap: 24px; justify-content: center; margin-top: 16px; }
+    .level-stat { font-family: var(--font-display); font-size: 0.75rem; color: var(--color-text-secondary); letter-spacing: 0.03em; }
+    .level-stat span { color: var(--color-primary); font-weight: 700; }
+
+    /* Question Card */
+    .question-card { width: 100%; max-width: 640px; background: rgba(255,255,255,0.03); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 40px 32px; animation: fadeInUp 0.5s ease-out; }
+    .question-scale { font-family: var(--font-display); font-size: 0.65rem; color: var(--color-text-muted); letter-spacing: 0.1em; margin-bottom: 16px; padding: 4px 12px; display: inline-block; border-radius: 12px; border: 1px solid var(--color-border); }
+    .question-scale.space { color: var(--color-primary); border-color: rgba(74,158,255,0.3); }
+    .question-scale.time { color: var(--color-accent-orange); border-color: rgba(255,107,53,0.3); }
+    .question-scale.energy { color: var(--color-accent-green); border-color: rgba(0,229,160,0.3); }
+    .question-text { font-family: var(--font-display); font-size: clamp(1rem, 2vw, 1.15rem); line-height: 1.7; color: var(--color-text); letter-spacing: 0.03em; margin-bottom: 28px; }
+
+    /* Options */
+    .options { display: flex; flex-direction: column; gap: 12px; }
+    .option-btn { display: block; width: 100%; padding: 16px 20px; background: rgba(255,255,255,0.04); border: 1px solid var(--color-border); border-radius: var(--radius-md); color: var(--color-text-secondary); font-family: var(--font-body); font-size: 0.92rem; line-height: 1.6; cursor: pointer; text-align: left; transition: all var(--transition-fast); }
+    .option-btn:hover { background: rgba(255,255,255,0.08); border-color: rgba(168,85,247,0.3); color: var(--color-text); }
+    .option-btn:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; }
+    .option-btn.correct { background: rgba(0,229,160,0.15); border-color: rgba(0,229,160,0.4); color: var(--color-accent-green); }
+    .option-btn.wrong { background: rgba(255,107,53,0.15); border-color: rgba(255,107,53,0.4); color: var(--color-accent-orange); }
+    .option-btn.disabled { pointer-events: none; opacity: 0.7; }
+    .option-index { display: inline-block; width: 24px; height: 24px; line-height: 24px; text-align: center; border-radius: 50%; background: rgba(255,255,255,0.06); font-family: var(--font-display); font-size: 0.65rem; margin-right: 12px; flex-shrink: 0; }
+    .option-text { flex: 1; }
+
+    /* Feedback */
+    .feedback { text-align: center; margin-top: 20px; animation: fadeInUp 0.3s ease-out; }
+    .feedback-text { font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.05em; padding: 12px 20px; border-radius: var(--radius-md); display: inline-block; }
+    .feedback-text.correct { color: var(--color-accent-green); background: rgba(0,229,160,0.1); }
+    .feedback-text.wrong { color: var(--color-accent-orange); background: rgba(255,107,53,0.1); }
+
+    /* Next button */
+    .next-btn { display: none; margin: 20px auto 0; padding: 12px 32px; font-family: var(--font-display); font-size: 0.8rem; background: rgba(168,85,247,0.15); border: 1px solid rgba(168,85,247,0.35); color: var(--color-accent-purple); border-radius: 24px; cursor: pointer; letter-spacing: 0.08em; transition: all var(--transition-fast); }
+    .next-btn.visible { display: block; }
+    .next-btn:hover { background: rgba(168,85,247,0.25); border-color: rgba(168,85,247,0.5); box-shadow: 0 0 20px rgba(168,85,247,0.15); }
+
+    /* Navigation bar */
+    .quiz-nav-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; gap: 12px; }
+    .quiz-nav-btn { padding: 10px 20px; font-family: var(--font-display); font-size: 0.75rem; background: rgba(255,255,255,0.04); border: 1px solid var(--color-border); color: var(--color-text-secondary); border-radius: 20px; cursor: pointer; letter-spacing: 0.05em; transition: all var(--transition-fast); }
+    .quiz-nav-btn:hover { background: rgba(255,255,255,0.08); border-color: rgba(168,85,247,0.3); color: var(--color-text); }
+    .quiz-nav-btn.disabled { opacity: 0.3; pointer-events: none; cursor: default; }
+    .prev-btn { display: block; }
+    .next-btn { margin: 0; }
+
+    /* Loading */
+    .quiz-loading { display: flex; flex-direction: column; align-items: center; gap: 16px; padding: 60px 0; }
+    .quiz-loading-spinner { width: 48px; height: 48px; border: 2px solid var(--color-border); border-top-color: var(--color-primary); border-radius: 50%; animation: spin 1s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .quiz-loading-text { font-family: var(--font-display); font-size: 0.8rem; color: var(--color-text-muted); }
+
+    /* Loading skeleton for questions */
+    .question-skeleton { width: 100%; }
+    .question-skeleton .skeleton { margin-bottom: 12px; }
+    .question-skeleton .skeleton:last-child { width: 80%; }
+
+    /* Level up animation */
+    @keyframes levelUpPulse { 0% { transform: scale(1); } 50% { transform: scale(1.15); } 100% { transform: scale(1); } }
+    .level-up { animation: levelUpPulse 0.5s ease-in-out; }
+
+    /* Empty / data error */
+    .quiz-empty { text-align: center; padding: 80px 20px; }
+    .quiz-empty-icon { font-size: 3rem; margin-bottom: 16px; }
+    .quiz-empty-text { font-family: var(--font-display); font-size: 0.9rem; color: var(--color-text-muted); }
+
+    /* Detail link */
+    .quiz-detail-link { display: inline-block; margin-top: 12px; padding: 6px 16px; font-family: var(--font-display); font-size: 0.7rem; color: var(--color-primary); border-radius: 16px; text-decoration: none; letter-spacing: 0.05em; transition: all var(--transition-fast); }
+    .quiz-detail-link:hover { background: rgba(255,255,255,0.06); }
+    .quiz-detail-link.space { color: var(--color-primary); }
+    .quiz-detail-link.time { color: var(--color-accent-orange); }
+    .quiz-detail-link.energy { color: var(--color-accent-green); }
+
+    @media (max-width: 768px) {
+      .quiz-page { padding: 100px 16px 100px; }
+      .question-card { padding: 28px 20px; }
+      .option-btn { padding: 14px 16px; font-size: 0.85rem; }
+      .level-stats { gap: 16px; flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body data-page="quiz">
+  <a href="#quiz-content" class="skip-to-content">跳到主内容</a>
+
+  <nav class="nav" aria-label="主导航">
+    <a href="../index.html" class="nav-logo">🌌尺度</a>
+    <button class="nav-menu-toggle" aria-label="菜单" aria-expanded="false"><span></span></button>
+    <div class="nav-links">
+      <a href="space.html" class="nav-link space-link">🔭空间</a>
+      <a href="time.html" class="nav-link time-link">⏳时间</a>
+      <a href="energy.html" class="nav-link energy-link">⚡能量</a>
+      <a href="quiz.html" class="nav-link" style="color:var(--color-accent-purple);border-color:rgba(168,85,247,0.35);background:rgba(168,85,247,0.1);">🧠问答</a>
+    </div>
+    <div class="nav-search" role="search">
+      <input type="text" class="nav-search-input" placeholder="搜索全站尺度..." aria-label="搜索全站尺度">
+      <span class="nav-search-icon" aria-hidden="true">🔍</span>
+      <span class="nav-search-hint" aria-hidden="true">/</span>
+      <div class="nav-search-results" role="listbox"></div>
+    </div>
+    <button class="theme-toggle" id="themeToggle" aria-label="切换明暗模式">🌙</button>
+  </nav>
+  <div class="nav-menu-overlay"></div>
+
+  <div id="quiz-content" class="quiz-page page-content">
+    <div class="level-display">
+      <div class="level-badge">
+        <span class="level-icon" id="levelIcon">🌱</span>
+        <span class="level-name" id="levelName">炼气一层</span>
+      </div>
+      <div class="level-progress-container">
+        <div class="level-progress-fill" id="levelProgress"></div>
+      </div>
+      <div class="level-label" id="levelLabel">共 56 阶 · 答对升级 · 答错降级</div>
+      <div class="level-stats">
+        <span class="level-stat">正确 <span id="correctCount">0</span></span>
+        <span class="level-stat">错误 <span id="wrongCount">0</span></span>
+        <span class="level-stat">连对 <span id="streakCount">0</span></span>
+      </div>
+    </div>
+
+    <div id="questionContainer" style="width:100%;display:flex;flex-direction:column;align-items:center;">
+      <div class="quiz-loading">
+        <div class="quiz-loading-spinner"></div>
+        <span class="quiz-loading-text">加载宇宙知识数据...</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-bottom-search">
+    <div class="mobile-bottom-search-wrapper">
+      <input type="text" class="mobile-bottom-search-input" placeholder="搜索全站尺度..." aria-label="搜索全站尺度">
+      <span class="mobile-bottom-search-icon">🔍</span>
+      <div class="mobile-bottom-search-results"></div>
+    </div>
+  </div>
+
+  <script src="../js/main.js"></script>
+  <script>
+  (function() {
+    'use strict';
+
+    var LEVELS = [
+      '炼气一层','炼气二层','炼气三层','炼气四层','炼气五层','炼气六层','炼气七层','炼气八层','炼气九层','炼气十层',
+      '炼气十一层','炼气十二层','炼气十三层',
+      '筑基初期','筑基中期','筑基后期','筑基巅峰',
+      '结丹初期','结丹中期','结丹后期','结丹巅峰',
+      '元婴初期','元婴中期','元婴后期','元婴巅峰',
+      '化神初期','化神中期','化神后期','化神巅峰',
+      '炼虚初期','炼虚中期','炼虚后期','炼虚巅峰',
+      '合体初期','合体中期','合体后期','合体巅峰',
+      '大乘初期','大乘中期','大乘后期','大乘巅峰',
+      '渡劫期',
+      '真仙初期','真仙中期','真仙后期','真仙巅峰',
+      '金仙初期','金仙中期','金仙后期','金仙巅峰',
+      '太乙仙初期','太乙仙中期','太乙仙后期','太乙仙巅峰',
+      '大罗仙初期','大罗仙中期','大罗仙后期','大罗仙巅峰',
+      '大罗仙圆满',
+      '道祖'
+    ];
+
+    var LEVEL_ICONS = [
+      '🌱','🌿','🌱','🌿','🌱','🌿','🌱','🌿','🌱','🌿',
+      '🌱','🌿','🌱',
+      '🪨','🪨','🪨','🪨',
+      '💎','💎','💎','💎',
+      '🔮','🔮','🔮','🔮',
+      '🔥','🔥','🔥','🔥',
+      '🌊','🌊','🌊','🌊',
+      '💫','💫','💫','💫',
+      '⚡','⚡','⚡','⚡',
+      '🌩️',
+      '✨','✨','✨','✨',
+      '🌟','🌟','🌟','🌟',
+      '🌞','🌞','🌞','🌞',
+      '👑','👑','👑','👑',
+      '👑',
+      '☯'
+    ];
+
+    var currentLevel = 0; // Index into LEVELS
+    var correctTotal = 0;
+    var wrongTotal = 0;
+    var streak = 0;
+    var questions = [];
+    var currentQuestion = null;
+    var answered = false;
+    var questionHistory = [];
+    var historyIndex = -1;
+    var db = null; // IndexedDB handle
+    var spaceData = null;
+    var timeData = null;
+    var energyData = null;
+
+    function loadData() {
+      Promise.all([
+        fetch('../data/space.json').then(function(r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.json();
+        }),
+        fetch('../data/time.json').then(function(r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.json();
+        }),
+        fetch('../data/energy.json').then(function(r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.json();
+        })
+      ]).then(function(results) {
+        spaceData = results[0];
+        timeData = results[1];
+        energyData = results[2];
+        try {
+          generateQuestions();
+        } catch(e) {
+          console.error('generateQuestions error:', e);
+          throw new Error('题目生成失败: ' + e.message);
+        }
+        return openDB();
+      }).then(function() {
+        loadProgress();
+      }).catch(function(e) {
+        console.error('Quiz init error:', e);
+        var msg = '数据加载失败';
+        if (e && e.message) msg += '（' + e.message + '）';
+        msg += '，请刷新重试';
+        document.getElementById('questionContainer').innerHTML =
+          '<div class="quiz-empty"><div class="quiz-empty-icon">⚠️</div><div class="quiz-empty-text">' + msg + '</div></div>';
+      });
+    }
+
+    // === IndexedDB for progress persistence ===
+    function openDB() {
+      return new Promise(function(resolve, reject) {
+        var req = indexedDB.open('QuizDB', 1);
+        req.onupgradeneeded = function(e) {
+          var d = e.target.result;
+          if (!d.objectStoreNames.contains('progress')) {
+            d.createObjectStore('progress', { keyPath: 'key' });
+          }
+        };
+        req.onsuccess = function(e) {
+          db = e.target.result;
+          resolve();
+        };
+        req.onerror = function(e) {
+          reject(new Error('数据库无法打开，请检查浏览器设置'));
+        };
+      });
+    }
+
+    function saveProgress() {
+      if (!db) return;
+      var tx = db.transaction('progress', 'readwrite');
+      var store = tx.objectStore('progress');
+      store.put({ key: 'level', value: currentLevel });
+      store.put({ key: 'correct', value: correctTotal });
+      store.put({ key: 'wrong', value: wrongTotal });
+      store.put({ key: 'streak', value: streak });
+    }
+
+    function loadProgress() {
+      if (!db) { updateLevelDisplay(); showQuestion(); return; }
+      var tx = db.transaction('progress', 'readonly');
+      var store = tx.objectStore('progress');
+      var getLevel = store.get('level');
+      getLevel.onsuccess = function() {
+        if (getLevel.result) {
+          currentLevel = getLevel.result.value;
+        }
+        // Get remaining values with separate requests
+        var getCorrect = store.get('correct');
+        getCorrect.onsuccess = function() {
+          correctTotal = getCorrect.result ? getCorrect.result.value : 0;
+          var getWrong = store.get('wrong');
+          getWrong.onsuccess = function() {
+            wrongTotal = getWrong.result ? getWrong.result.value : 0;
+            var getStreak = store.get('streak');
+            getStreak.onsuccess = function() {
+              streak = getStreak.result ? getStreak.result.value : 0;
+              updateLevelDisplay();
+              showQuestion();
+            };
+            getStreak.onerror = function() { updateLevelDisplay(); showQuestion(); };
+          };
+          getWrong.onerror = function() { updateLevelDisplay(); showQuestion(); };
+        };
+        getCorrect.onerror = function() { updateLevelDisplay(); showQuestion(); };
+      };
+      getLevel.onerror = function() {
+        updateLevelDisplay();
+        showQuestion();
+      };
+    }
+
+    // === Question Generation ===
+    function generateQuestions() {
+      questions = [];
+
+      function makeDescQuestion(item, typeLabel) {
+      var desc = item.description || '';
+      if (desc.length < 20) return null;
+
+      var answer = item.name || item.event || '';
+      if (!answer || answer.length < 2) return null;
+
+      // Deep-clean: remove answer name and all its substrings (>=3 chars)
+      var cleanDesc = deepCleanDescription(desc, answer);
+
+      // Clean up dangling patterns
+      cleanDesc = cleanDesc.replace(/的[，,。、：;\s]+/g, '，');
+      cleanDesc = cleanDesc.replace(/[，,]{2,}/g, '，');
+      cleanDesc = cleanDesc.replace(/^[，,、。\s]+/, '');
+      cleanDesc = cleanDesc.trim();
+
+      if (cleanDesc.length < 15) return null;
+
+      // Final safety: if any answer substring (>=3 chars) still appears, skip
+      if (containsAnswerSubstring(cleanDesc, answer, 3)) return null;
+
+      // Prepend "它是" to make the description read naturally
+      var questionDesc = '它是' + cleanDesc.charAt(0).toLowerCase() + cleanDesc.slice(1);
+      // For Chinese, toLowerCase doesn't change anything, so just prepend
+      // But if the description starts with a clause, it might be more natural
+      if (!/^[它是其这那此]/g.test(cleanDesc.charAt(0))) {
+        // First character is not a pronoun/starter, so prepend directly
+      }
+
+      // Add ending period if needed
+      if (!/[。！？\n]/.test(questionDesc.slice(-1))) {
+        questionDesc += '。';
+      }
+
+      // Pick wrong options from the same scale
+      var wrongs = pickWrongsForType(typeLabel, item.id, 3);
+      if (wrongs.length < 3) return null;
+
+      var allOptions = shuffle([answer].concat(wrongs));
+      if (allOptions.length !== 4) return null;
+
+      return {
+        type: typeLabel === '空间尺度' ? 'space' : typeLabel === '时间尺度' ? 'time' : 'energy',
+        scaleLabel: typeLabel,
+        text: questionDesc + '<br><br><strong>它是什么？</strong>',
+        answer: answer,
+        answerId: item.id,
+        icon: item.icon || '📖',
+        options: allOptions
+      };
+    }
+
+      // Space scale
+      if (spaceData && spaceData.scales) {
+        spaceData.scales.forEach(function(s) {
+          var q = makeDescQuestion(s, '空间尺度');
+          if (q) questions.push(q);
+          // Also try: description-based where wrong options come from same category
+          if (s.category) {
+            var sameCat = spaceData.scales.filter(function(x) { return x.category === s.category && x.id !== s.id; });
+            var catWrongs = shuffle(sameCat).slice(0, 3);
+            if (catWrongs.length === 3) {
+              var q2 = makeDescQuestionWithWrongs(s, '空间尺度', catWrongs.map(function(x) { return x.name; }));
+              if (q2) questions.push(q2);
+            }
+          }
+        });
+      }
+
+      // Time scale
+      if (timeData && timeData.timeline) {
+        timeData.timeline.forEach(function(t) {
+          var q = makeDescQuestion(t, '时间尺度');
+          if (q) questions.push(q);
+          if (t.era) {
+            var sameEra = timeData.timeline.filter(function(x) { return x.era === t.era && x.id !== t.id; });
+            var eraWrongs = shuffle(sameEra).slice(0, 3);
+            if (eraWrongs.length === 3) {
+              var q2 = makeDescQuestionWithWrongs(t, '时间尺度', eraWrongs.map(function(x) { return x.event; }));
+              if (q2) questions.push(q2);
+            }
+          }
+        });
+      }
+
+      // Energy scale
+      if (energyData && energyData.energies) {
+        energyData.energies.forEach(function(e) {
+          var q = makeDescQuestion(e, '能量尺度');
+          if (q) questions.push(q);
+          if (e.category) {
+            var sameCat = energyData.energies.filter(function(x) { return x.category === e.category && x.id !== e.id; });
+            var catWrongs = shuffle(sameCat).slice(0, 3);
+            if (catWrongs.length === 3) {
+              var q2 = makeDescQuestionWithWrongs(e, '能量尺度', catWrongs.map(function(x) { return x.name; }));
+              if (q2) questions.push(q2);
+            }
+          }
+        });
+      }
+
+      questions = shuffle(questions);
+    }
+
+    function removeAllOccurrences(text, target) {
+      var result = text;
+      var idx;
+      while ((idx = result.indexOf(target)) !== -1) {
+        result = result.substring(0, idx) + result.substring(idx + target.length);
+      }
+      return result;
+    }
+
+    // Deep-clean: remove answer and all its substrings (>=3 chars) from description
+    function deepCleanDescription(desc, answer) {
+      if (!answer || answer.length < 2) return desc;
+      var result = desc;
+
+      // 1. Remove full answer
+      result = removeAllOccurrences(result, answer);
+
+      // 2. Remove bare name (without parenthetical content)
+      var bareName = answer.split('（')[0].split('(')[0].trim();
+      if (bareName && bareName !== answer && bareName.length >= 2) {
+        result = removeAllOccurrences(result, bareName);
+      }
+
+      // 3. Remove all substrings of answer with length >= 3
+      // This catches abbreviated forms like "碳-12核" (dropped "原子")
+      var subs = getAllSubstringsMinLen(answer, 3);
+      for (var si = 0; si < subs.length; si++) {
+        result = removeAllOccurrences(result, subs[si]);
+      }
+
+      return result;
+    }
+
+    function getAllSubstringsMinLen(str, minLen) {
+      var list = [];
+      for (var i = 0; i < str.length; i++) {
+        for (var j = i + minLen; j <= str.length; j++) {
+          list.push(str.substring(i, j));
+        }
+      }
+      // Longest first to avoid partial removal issues
+      list.sort(function(a, b) { return b.length - a.length; });
+      return list;
+    }
+
+    function containsAnswerSubstring(text, answer, minLen) {
+      if (!answer || answer.length < minLen) return false;
+      for (var ci = 0; ci < answer.length; ci++) {
+        for (var cj = ci + minLen; cj <= answer.length; cj++) {
+          if (text.indexOf(answer.substring(ci, cj)) !== -1) {
+            return true;
+          }
+        }
+      }
+      return false;
+    }
+
+    // Helper: make description question with custom wrong answers
+    function makeDescQuestionWithWrongs(item, typeLabel, wrongAnswers) {
+      var desc = item.description || '';
+      if (desc.length < 20) return null;
+      var answer = item.name || item.event || '';
+      if (!answer || answer.length < 2) return null;
+
+      var cleanDesc = deepCleanDescription(desc, answer);
+      cleanDesc = cleanDesc.replace(/的[，,。、：;\s]+/g, '，');
+      cleanDesc = cleanDesc.replace(/[，,]{2,}/g, '，');
+      cleanDesc = cleanDesc.replace(/^[，,、。\s]+/, '');
+      cleanDesc = cleanDesc.trim();
+      if (cleanDesc.length < 15) return null;
+
+      // Final safety: if any answer substring (>=3 chars) still appears, skip
+      if (containsAnswerSubstring(cleanDesc, answer, 3)) return null;
+
+      var questionDesc = '它是' + cleanDesc;
+      if (!/[。！？\n]/.test(questionDesc.slice(-1))) {
+        questionDesc += '。';
+      }
+
+      var allOptions = shuffle([answer].concat(wrongAnswers));
+      if (allOptions.length !== 4) return null;
+
+      return {
+        type: typeLabel === '空间尺度' ? 'space' : typeLabel === '时间尺度' ? 'time' : 'energy',
+        scaleLabel: typeLabel,
+        text: questionDesc + '<br><br><strong>它是什么？</strong>',
+        answer: answer,
+        answerId: item.id,
+        icon: item.icon || '📖',
+        options: allOptions
+      };
+    }
+
+    function pickWrongsForType(typeLabel, excludeId, count) {
+      var arr;
+      var nameField;
+      if (typeLabel === '空间尺度' && spaceData) {
+        arr = spaceData.scales;
+        nameField = 'name';
+      } else if (typeLabel === '时间尺度' && timeData) {
+        arr = timeData.timeline;
+        nameField = 'event';
+      } else if (typeLabel === '能量尺度' && energyData) {
+        arr = energyData.energies;
+        nameField = 'name';
+      } else {
+        return [];
+      }
+      var candidates = [];
+      for (var i = 0; i < arr.length; i++) {
+        if (arr[i].id !== excludeId) candidates.push(arr[i][nameField]);
+      }
+      var shuffled = shuffle(candidates);
+      return shuffled.slice(0, count);
+    }
+
+    function shuffle(arr) {
+      for (var i = arr.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+      }
+      return arr;
+    }
+
+    function getDetailUrl(type, id) {
+      var page = type === 'space' ? 'space-detail.html' : type === 'time' ? 'time-detail.html' : 'energy-detail.html';
+      return page + '?id=' + id;
+    }
+
+    function getDetailLinkHtml(q) {
+      if (!q || !q.answerId) return '';
+      var url = getDetailUrl(q.type, q.answerId);
+      return '<a href="' + url + '" class="quiz-detail-link ' + q.type + '" target="_blank">' + (q.icon || '📖') + ' 了解' + q.answer + '</a>';
+    }
+
+    // === UI ===
+    function updateLevelDisplay() {
+      var icon = LEVEL_ICONS[currentLevel] || '🌱';
+      var name = LEVELS[currentLevel] || '炼气一层';
+      document.getElementById('levelIcon').textContent = icon;
+      document.getElementById('levelName').textContent = name;
+      var progress = ((currentLevel + 1) / LEVELS.length) * 100;
+      document.getElementById('levelProgress').style.width = progress + '%';
+      document.getElementById('correctCount').textContent = correctTotal;
+      document.getElementById('wrongCount').textContent = wrongTotal;
+      document.getElementById('streakCount').textContent = streak;
+      saveProgress();
+    }
+
+    function showQuestion(goToIndex) {
+      var container = document.getElementById('questionContainer');
+      if (questions.length === 0) {
+        container.innerHTML = '<div class="quiz-empty"><div class="quiz-empty-icon">📚</div><div class="quiz-empty-text">题目生成中...</div></div>';
+        setTimeout(showQuestion, 500);
+        return;
+      }
+
+      // If navigating to a specific history position
+      if (goToIndex !== undefined && goToIndex >= 0 && goToIndex < questionHistory.length) {
+        historyIndex = goToIndex;
+        currentQuestion = questionHistory[historyIndex];
+        answered = currentQuestion.answered; // Restore answered state
+        renderQuestion(container, currentQuestion, historyIndex);
+        return;
+      }
+
+      // Pick a random new question
+      var idx = Math.floor(Math.random() * questions.length);
+      currentQuestion = questions[idx];
+
+      // Add to history (truncate future if we went back)
+      questionHistory.length = historyIndex + 1;
+      questionHistory.push({
+        text: currentQuestion.text,
+        answer: currentQuestion.answer,
+        answerId: currentQuestion.answerId,
+        icon: currentQuestion.icon,
+        options: currentQuestion.options,
+        type: currentQuestion.type,
+        scaleLabel: currentQuestion.scaleLabel,
+        answered: false,
+        selectedAnswer: null,
+        isCorrect: null
+      });
+      historyIndex = questionHistory.length - 1;
+      currentQuestion = questionHistory[historyIndex];
+      answered = false;
+
+      renderQuestion(container, currentQuestion, historyIndex);
+    }
+
+    function renderQuestion(container, q, idx) {
+      var scaleClass = q.type;
+      var labels = ['A', 'B', 'C', 'D'];
+      var optionsHtml = '';
+      for (var i = 0; i < q.options.length; i++) {
+        optionsHtml += '<button class="option-btn" data-index="' + i + '"><span class="option-index">' + labels[i] + '</span><span class="option-text">' + q.options[i] + '</span></button>';
+      }
+
+      var prevBtnHtml = '<button class="quiz-nav-btn prev-btn' + (historyIndex <= 0 ? ' disabled' : '') + '" id="prevBtn" title="上一题（←）">← 上一题</button>';
+
+      container.innerHTML =
+        '<div class="question-card">' +
+        '<span class="question-scale ' + scaleClass + '">' + q.scaleLabel + '</span>' +
+        '<div class="question-text">' + q.text + '</div>' +
+        '<div class="options">' + optionsHtml + '</div>' +
+        '<div class="feedback" id="feedback"></div>' +
+        '<div class="quiz-nav-bar">' +
+        prevBtnHtml +
+        '<button class="next-btn" id="nextBtn">下一题 →</button>' +
+        '</div>' +
+        '</div>';
+
+      // If this question was already answered (e.g. navigating back), restore state
+      if (q.answered) {
+        var allOpts = container.querySelectorAll('.option-btn');
+        for (var i = 0; i < allOpts.length; i++) {
+          allOpts[i].classList.add('disabled');
+          var optText = allOpts[i].querySelector('.option-text').textContent;
+          if (optText === q.answer) {
+            allOpts[i].classList.add('correct');
+          }
+          if (q.selectedAnswer !== null && optText === q.selectedAnswer && q.selectedAnswer !== q.answer) {
+            allOpts[i].classList.add('wrong');
+          }
+        }
+        if (q.isCorrect === true) {
+          document.getElementById('feedback').innerHTML = '<div class="feedback-text correct">✓ ' + q.answer + '</div>' + getDetailLinkHtml(q);
+        } else if (q.isCorrect === false) {
+          document.getElementById('feedback').innerHTML = '<div class="feedback-text wrong">✗ 正确答案是「' + q.answer + '」</div>' + getDetailLinkHtml(q);
+        }
+        document.getElementById('nextBtn').classList.add('visible');
+      }
+
+      // Bind option clicks
+      var opts = container.querySelectorAll('.option-btn');
+      for (var j = 0; j < opts.length; j++) {
+        opts[j].addEventListener('click', function() {
+          handleAnswer(this);
+        });
+      }
+
+      // Bind next button
+      var nextBtn = document.getElementById('nextBtn');
+      if (nextBtn) {
+        nextBtn.addEventListener('click', function() {
+          showQuestion();
+        });
+      }
+
+      // Bind prev button
+      var prevBtn = document.getElementById('prevBtn');
+      if (prevBtn && !prevBtn.classList.contains('disabled')) {
+        prevBtn.addEventListener('click', function() {
+          showQuestion(historyIndex - 1);
+        });
+      }
+    }
+
+    function handleAnswer(btn) {
+      if (answered) return;
+      var q = questionHistory[historyIndex];
+      if (!q || q.answered) return;
+
+      answered = true;
+      q.answered = true;
+
+      var idx = parseInt(btn.getAttribute('data-index'), 10);
+      var selected = q.options[idx];
+      var isCorrect = selected === q.answer;
+      q.selectedAnswer = selected;
+      q.isCorrect = isCorrect;
+
+      // Mark all options
+      var allOpts = document.querySelectorAll('.option-btn');
+      for (var i = 0; i < allOpts.length; i++) {
+        allOpts[i].classList.add('disabled');
+        var optText = allOpts[i].querySelector('.option-text').textContent;
+        if (optText === q.answer) {
+          allOpts[i].classList.add('correct');
+        }
+      }
+
+      if (isCorrect) {
+        btn.classList.add('correct');
+        btn.classList.remove('disabled');
+        correctTotal++;
+        streak++;
+        if (currentLevel < LEVELS.length - 1) {
+          currentLevel++;
+          document.getElementById('levelName').classList.add('level-up');
+          setTimeout(function() {
+            document.getElementById('levelName').classList.remove('level-up');
+          }, 500);
+        }
+        document.getElementById('feedback').innerHTML = '<div class="feedback-text correct">✓ 正确！修为提升！</div>' + getDetailLinkHtml(q);
+      } else {
+        btn.classList.add('wrong');
+        btn.classList.remove('disabled');
+        wrongTotal++;
+        streak = 0;
+        if (currentLevel > 0) {
+          currentLevel--;
+        }
+        document.getElementById('feedback').innerHTML =
+          '<div class="feedback-text wrong">✗ 不正确，正确答案是「' + q.answer + '」</div>' + getDetailLinkHtml(q);
+      }
+
+      updateLevelDisplay();
+      document.getElementById('nextBtn').classList.add('visible');
+
+      // Enable prev button if history has previous
+      var prevBtn = document.getElementById('prevBtn');
+      if (prevBtn && historyIndex > 0) {
+        prevBtn.classList.remove('disabled');
+      }
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', function(e) {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        var prevBtn = document.getElementById('prevBtn');
+        if (prevBtn && !prevBtn.classList.contains('disabled')) {
+          showQuestion(historyIndex - 1);
+        }
+      }
+      if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        var nextBtn = document.getElementById('nextBtn');
+        if (nextBtn && nextBtn.classList.contains('visible')) {
+          showQuestion();
+        }
+      }
+    });
+
+    // Init
+    if (location.protocol === 'file:') {
+      console.warn('检测到 file:// 协议，fetch API 可能被浏览器限制。建议使用本地服务器访问。');
+    }
+    loadData();
+  })();
+  </script>
+</body>
+</html>
