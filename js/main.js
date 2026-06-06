@@ -480,27 +480,31 @@
   var searchLoading = false;
 
   function initNavSearch() {
-    var searchInput = document.querySelector('.nav-search-input');
-    var searchResults = document.querySelector('.nav-search-results');
+    initSearchWidget('nav-search', { shortcut: true });
+  }
+
+  function initSearchWidget(cls, opts) {
+    opts = opts || {};
+    var searchInput = document.querySelector('.' + cls + '-input');
+    var searchResults = document.querySelector('.' + cls + '-results');
     if (!searchInput || !searchResults) return;
 
     searchInput.addEventListener('focus', function() {
       loadSearchIndex();
       if (this.value.trim()) {
-        performSearch(this.value.trim(), searchResults);
+        performSearch(this.value.trim(), searchResults, cls);
       }
     });
 
     searchInput.addEventListener('input', function() {
       loadSearchIndex();
-      performSearch(this.value.trim(), searchResults);
+      performSearch(this.value.trim(), searchResults, cls);
     });
 
-    // Keyboard navigation
     searchInput.addEventListener('keydown', function(e) {
       if (e.key === 'ArrowDown') {
         e.preventDefault();
-        var firstItem = searchResults.querySelector('.nav-search-result-item');
+        var firstItem = searchResults.querySelector('.' + cls + '-result-item');
         if (firstItem) firstItem.focus();
       }
       if (e.key === 'Escape') {
@@ -509,22 +513,24 @@
       }
     });
 
-    // Keyboard shortcut: press / to focus search
-    document.addEventListener('keydown', function(e) {
-      if (e.key === '/' && document.activeElement !== searchInput && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
-        e.preventDefault();
-        searchInput.focus();
-        searchInput.select();
-      }
-      if (e.key === 'Escape' && document.activeElement === searchInput) {
-        searchResults.classList.remove('active');
-        searchInput.blur();
-      }
-    });
+    if (opts.shortcut) {
+      document.addEventListener('keydown', function(e) {
+        var active = typeof opts.shortcut === 'function' ? opts.shortcut() : true;
+        if (!active) return;
+        if (e.key === '/' && document.activeElement !== searchInput && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+          e.preventDefault();
+          searchInput.focus();
+          searchInput.select();
+        }
+        if (e.key === 'Escape' && document.activeElement === searchInput) {
+          searchResults.classList.remove('active');
+          searchInput.blur();
+        }
+      });
+    }
 
-    // Close results when clicking outside
     document.addEventListener('click', function(e) {
-      if (!e.target.closest('.nav-search')) {
+      if (!e.target.closest('.' + cls)) {
         searchResults.classList.remove('active');
       }
     });
@@ -602,41 +608,7 @@
   }
 
   function initPageSearch() {
-    var searchInput = document.querySelector('.page-search-input');
-    var searchResults = document.querySelector('.page-search-results');
-    if (!searchInput || !searchResults) return;
-
-    searchInput.addEventListener('focus', function() {
-      loadSearchIndex();
-      if (this.value.trim()) {
-        performSearch(this.value.trim(), searchResults, 'page-search');
-      }
-    });
-
-    searchInput.addEventListener('input', function() {
-      loadSearchIndex();
-      performSearch(this.value.trim(), searchResults, 'page-search');
-    });
-
-    // Keyboard navigation
-    searchInput.addEventListener('keydown', function(e) {
-      if (e.key === 'ArrowDown') {
-        e.preventDefault();
-        var firstItem = searchResults.querySelector('.page-search-result-item');
-        if (firstItem) firstItem.focus();
-      }
-      if (e.key === 'Escape') {
-        searchResults.classList.remove('active');
-        searchInput.blur();
-      }
-    });
-
-    // Close results when clicking outside
-    document.addEventListener('click', function(e) {
-      if (!e.target.closest('.page-search')) {
-        searchResults.classList.remove('active');
-      }
-    });
+    initSearchWidget('page-search');
   }
 
   // Mobile hamburger menu
@@ -678,54 +650,8 @@
   function initMobileBottomSearch() {
     var container = document.querySelector('.mobile-bottom-search');
     if (!container) return;
-    var input = container.querySelector('.mobile-bottom-search-input');
-    var results = container.querySelector('.mobile-bottom-search-results');
-    if (!input || !results) return;
-
-    input.addEventListener('focus', function() {
-      loadSearchIndex();
-      if (this.value.trim()) {
-        performSearch(this.value.trim(), results, 'mobile-bottom-search');
-      }
-    });
-
-    input.addEventListener('input', function() {
-      loadSearchIndex();
-      performSearch(this.value.trim(), results, 'mobile-bottom-search');
-    });
-
-    // Keyboard navigation
-    input.addEventListener('keydown', function(e) {
-      if (e.key === 'ArrowDown') {
-        e.preventDefault();
-        var firstItem = results.querySelector('.mobile-bottom-search-result-item');
-        if (firstItem) firstItem.focus();
-      }
-      if (e.key === 'Escape') {
-        results.classList.remove('active');
-        input.blur();
-      }
-    });
-
-    // Keyboard shortcut: press / to focus search
-    document.addEventListener('keydown', function(e) {
-      if (window.innerWidth > 768) return;
-      if (e.key === '/' && document.activeElement !== input && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
-        e.preventDefault();
-        input.focus();
-        input.select();
-      }
-      if (e.key === 'Escape' && document.activeElement === input) {
-        results.classList.remove('active');
-        input.blur();
-      }
-    });
-
-    // Close results when clicking outside
-    document.addEventListener('click', function(e) {
-      if (!e.target.closest('.mobile-bottom-search')) {
-        results.classList.remove('active');
-      }
+    initSearchWidget('mobile-bottom-search', {
+      shortcut: function() { return window.innerWidth <= 768; }
     });
   }
 

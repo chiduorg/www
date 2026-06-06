@@ -236,7 +236,9 @@ body {
   display: block;
 }
 
-.nav-search-result-item {
+.nav-search-result-item,
+.page-search-result-item,
+.mobile-bottom-search-result-item {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -246,16 +248,22 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
 
-.nav-search-result-item:last-child {
+.nav-search-result-item:last-child,
+.page-search-result-item:last-child,
+.mobile-bottom-search-result-item:last-child {
   border-bottom: none;
 }
 
-.nav-search-result-item:hover {
+.nav-search-result-item:hover,
+.page-search-result-item:hover,
+.mobile-bottom-search-result-item:hover {
   background: rgba(168, 85, 247, 0.1);
 }
 
-.nav-search-result-icon {
-  font-size: 1.2rem;
+.nav-search-result-icon,
+.page-search-result-icon,
+.mobile-bottom-search-result-icon {
+  font-size: 1.1rem;
   width: 32px;
   height: 32px;
   display: flex;
@@ -266,14 +274,18 @@ body {
   flex-shrink: 0;
 }
 
-.nav-search-result-name {
+.nav-search-result-name,
+.page-search-result-name,
+.mobile-bottom-search-result-name {
   font-family: var(--font-display);
   font-size: 0.85rem;
   color: var(--color-text);
   letter-spacing: 0.03em;
 }
 
-.nav-search-result-scale {
+.nav-search-result-scale,
+.page-search-result-scale,
+.mobile-bottom-search-result-scale {
   font-family: var(--font-display);
   font-size: 0.65rem;
   color: var(--color-text-muted);
@@ -282,7 +294,9 @@ body {
   flex-shrink: 0;
 }
 
-.nav-search-no-results {
+.nav-search-no-results,
+.page-search-no-results,
+.mobile-bottom-search-no-results {
   padding: 20px;
   text-align: center;
   color: var(--color-text-muted);
@@ -1495,54 +1509,6 @@ body {
     display: block;
   }
 
-  .mobile-bottom-search-result-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 14px;
-    cursor: pointer;
-    transition: background var(--transition-fast);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-  }
-
-  .mobile-bottom-search-result-item:last-child {
-    border-bottom: none;
-  }
-
-  .mobile-bottom-search-result-item:hover,
-  .mobile-bottom-search-result-item:focus {
-    background: rgba(168, 85, 247, 0.1);
-    outline: none;
-  }
-
-  .mobile-bottom-search-result-icon {
-    font-size: 1.1rem;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 6px;
-    flex-shrink: 0;
-  }
-
-  .mobile-bottom-search-result-name {
-    font-family: var(--font-display);
-    font-size: 0.8rem;
-    color: var(--color-text);
-    letter-spacing: 0.03em;
-  }
-
-  .mobile-bottom-search-result-scale {
-    font-family: var(--font-display);
-    font-size: 0.6rem;
-    color: var(--color-text-muted);
-    letter-spacing: 0.05em;
-    margin-left: auto;
-    flex-shrink: 0;
-  }
-
   .mobile-bottom-search-no-results {
     padding: 16px;
     text-align: center;
@@ -1675,53 +1641,7 @@ body {
 .page-search-results.active {
   display: block;
 }
-.page-search-result-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 16px;
-  cursor: pointer;
-  transition: background var(--transition-fast);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-}
-.page-search-result-item:last-child {
-  border-bottom: none;
-}
-.page-search-result-item:hover {
-  background: rgba(168, 85, 247, 0.1);
-}
-.page-search-result-icon {
-  font-size: 1.1rem;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 8px;
-  flex-shrink: 0;
-}
-.page-search-result-name {
-  font-family: var(--font-display);
-  font-size: 0.85rem;
-  color: var(--color-text);
-  letter-spacing: 0.03em;
-}
-.page-search-result-scale {
-  font-family: var(--font-display);
-  font-size: 0.65rem;
-  color: var(--color-text-muted);
-  letter-spacing: 0.05em;
-  margin-left: auto;
-  flex-shrink: 0;
-}
-.page-search-no-results {
-  padding: 20px;
-  text-align: center;
-  color: var(--color-text-muted);
-  font-family: var(--font-display);
-  font-size: 0.8rem;
-}
+
 
 /* ===== Accessibility ===== */
 .skip-to-content {
