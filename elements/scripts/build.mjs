@@ -1,0 +1,13 @@
+import path from 'node:path';
+import fs from 'node:fs/promises';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+import {buildSite} from '@universe-atlas/engine/build';
+const siteRoot=path.resolve(import.meta.dirname,'..');
+const contentRoot=path.dirname(fileURLToPath(import.meta.resolve('@universe-atlas/content/package.json')));
+await buildSite({siteRoot,contentRoot});
+const {elements,closedShells,periods}=await import(pathToFileURL(path.join(siteRoot,'src/elements-data.mjs')).href);
+const {properties,propertySource}=await import(pathToFileURL(path.join(siteRoot,'src/element-properties.mjs')).href);
+await fs.writeFile(path.join(siteRoot,'dist/elements.json'),JSON.stringify({closedShells,periods,elements,properties,propertySource},null,2));
+await fs.rm(path.join(siteRoot,'dist/elements-data.mjs'),{force:true});
+await fs.rm(path.join(siteRoot,'dist/element-properties.mjs'),{force:true});
+console.log(`elements 数据集已输出：${elements.length} 个元素、${closedShells.length} 个闭壳节点、${Object.keys(properties).length} 组属性`);

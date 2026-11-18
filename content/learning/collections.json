@@ -1,0 +1,356 @@
+[
+  {
+    "id": "collection-micro",
+    "title": "从夸克到原子",
+    "intro": "从夸克出发，经质子、中子这些束缚态，到原子核与原子。顺序沿“基本组分→复合粒子→原子”的层级展开，每一步都在更大的空间尺度上重组前一层的组分。",
+    "entries": [
+      "space.quark",
+      "space.proton",
+      "space.neutron",
+      "space.atomic-nucleus",
+      "space.atom",
+      "mass.proton",
+      "mass.electron"
+    ]
+  },
+  {
+    "id": "collection-atom-molecule",
+    "title": "原子与分子",
+    "intro": "先看原子核与原子，再进入氢分子、水分子、苯环、葡萄糖和氨基酸。顺序按“单原子→简单分子→有机小分子”递进，展示化学结构如何逐层变复杂。",
+    "entries": [
+      "space.atomic-nucleus",
+      "space.atom",
+      "space.hydrogen-molecule",
+      "space.water-molecule",
+      "space.benzene",
+      "space.glucose",
+      "space.amino-acid",
+      "elements.h",
+      "elements.o"
+    ]
+  },
+  {
+    "id": "collection-life-scale",
+    "title": "生命尺度",
+    "intro": "从DNA、蛋白质、病毒、细菌、细胞、变形虫到人。顺序沿分子—细胞器—单细胞—多细胞个体上行，便于比较生命在不同层级上的尺寸跃迁。",
+    "entries": [
+      "space.dna",
+      "space.protein",
+      "space.virus",
+      "space.bacteria",
+      "space.cell",
+      "space.amoeba",
+      "space.human"
+    ]
+  },
+  {
+    "id": "collection-human-scale",
+    "title": "人体尺度",
+    "intro": "从突触间隙、神经元、发丝、手指、手掌到整个人体。先看微观结构与组织，再进入器官与身体，顺序帮助我们把厘米与微米放在同一把尺上。",
+    "entries": [
+      "space.synaptic-cleft",
+      "space.neuron",
+      "space.hair",
+      "space.finger",
+      "space.hand",
+      "space.human"
+    ]
+  },
+  {
+    "id": "collection-everyday",
+    "title": "日常人造物",
+    "intro": "从硬币、银行卡、铅笔、手机、A4纸、篮球到咖啡杯。按常见物品的典型尺寸由小到大排列，用熟悉物件建立厘米与分米的直觉。",
+    "entries": [
+      "space.coin",
+      "space.credit-card",
+      "space.pencil",
+      "space.smartphone",
+      "space.a4-paper",
+      "space.basketball",
+      "space.coffee-cup"
+    ]
+  },
+  {
+    "id": "collection-engineering",
+    "title": "建筑与工程",
+    "intro": "从自由女神像、金字塔、埃菲尔铁塔、金门大桥、哈利法塔、上海中心、长城到国际空间站。先看单体高度，再看桥梁与城墙的线性跨度，最后到轨道尺度。",
+    "entries": [
+      "space.statue-of-liberty",
+      "space.great-pyramid",
+      "space.eiffel-tower",
+      "space.golden-gate-bridge",
+      "space.burj-khalifa",
+      "space.shanghai-tower",
+      "space.great-wall",
+      "space.iss"
+    ]
+  },
+  {
+    "id": "collection-earth-landforms",
+    "title": "地球地貌",
+    "intro": "从珠峰、喜马拉雅、科罗拉多大峡谷、马里亚纳海沟，到撒哈拉、亚马孙河与南极洲。先看垂直高度与深度，再转向水平延展，最后落到大陆级范围。",
+    "entries": [
+      "space.everest",
+      "space.himalaya",
+      "space.grand-canyon",
+      "space.mariana-trench",
+      "space.sahara",
+      "space.amazon-river",
+      "space.antarctica"
+    ]
+  },
+  {
+    "id": "collection-solar-system",
+    "title": "太阳系",
+    "intro": "从水星、金星、地球、火星，到木星、土星、天王星、海王星。按日心距离由近及远排列，先读岩石行星，再读气态与冰巨星，便于对照体积与温度。",
+    "entries": [
+      "space.mercury",
+      "space.venus",
+      "space.earth",
+      "space.mars",
+      "space.jupiter",
+      "space.saturn",
+      "space.uranus",
+      "space.neptune",
+      "mass.sun",
+      "mass.earth"
+    ]
+  },
+  {
+    "id": "collection-stellar-evolution",
+    "title": "恒星演化",
+    "intro": "从猎户座星云、红巨星、行星状星云、白矮星，到超新星遗迹、中子星与黑洞事件视界。顺序按类太阳恒星与更大质量恒星的归宿分岔展开。",
+    "entries": [
+      "space.orion-nebula",
+      "space.red-giant",
+      "space.planetary-nebula",
+      "space.white-dwarf",
+      "space.supernova-remnant",
+      "space.neutron-star",
+      "space.black-hole-event-horizon",
+      "time.supernova-duration",
+      "mass.sun",
+      "elements.he",
+      "elements.fe"
+    ]
+  },
+  {
+    "id": "collection-compact",
+    "title": "致密天体",
+    "intro": "从白矮星、中子星，到银心黑洞与M87黑洞，再到中子星表面温度、霍金温度与黑洞蒸发。先建立尺度与观测，再进入热力学与极长时间。",
+    "entries": [
+      "space.white-dwarf",
+      "space.neutron-star",
+      "space.sagittarius-a-star",
+      "space.m87-black-hole",
+      "temperature.neutron-star-surface",
+      "temperature.hawking-temperature",
+      "time.black-hole-evaporation",
+      "mass.sgr-a-star",
+      "mass.m87-black-hole",
+      "mass.psr-j0348-0432"
+    ]
+  },
+  {
+    "id": "collection-galaxies",
+    "title": "星系与宇宙",
+    "intro": "从银河系、仙女座星系、本星系群、室女座星系团、拉尼亚凯亚、宇宙网，到可观测宇宙。顺序由单个星系逐级扩展到更大结构，最后收束到观测边界。",
+    "entries": [
+      "space.milky-way",
+      "space.andromeda-galaxy",
+      "space.local-group",
+      "space.virgo-cluster",
+      "space.laniakea",
+      "space.cosmic-web",
+      "space.observable-universe",
+      "mass.milky-way",
+      "mass.andromeda",
+      "mass.virgo-cluster"
+    ]
+  },
+  {
+    "id": "collection-cosmic-history",
+    "title": "宇宙史",
+    "intro": "从大爆炸、复合、第一批恒星、宇宙黎明、再电离、首批星系团，到暗能量主导。按宇宙年龄推进，先读物质与光的解耦，再读结构形成与加速膨胀。",
+    "entries": [
+      "time.big-bang",
+      "time.recombination",
+      "time.first-stars",
+      "time.cosmic-dawn",
+      "time.reionization-epoch",
+      "time.first-galaxy-clusters",
+      "time.dark-energy-domination",
+      "mass.total-matter-universe",
+      "mass.dark-matter-mass"
+    ]
+  },
+  {
+    "id": "collection-earth-history",
+    "title": "地球史",
+    "intro": "从冥古宙、太古宙、元古宙、显生宙，到寒武纪、中生代、新生代与人类世提案。顺序按地质年代层级展开，先立框架，再用关键纪与当代边界细化。",
+    "entries": [
+      "time.hadean",
+      "time.archean",
+      "time.proterozoic",
+      "time.phanerozoic",
+      "time.cambrian",
+      "time.mesozoic",
+      "time.cenozoic",
+      "time.anthropocene-proposal"
+    ]
+  },
+  {
+    "id": "collection-life-evolution",
+    "title": "生命演化",
+    "intro": "从最早生命、LUCA、真核生物、多细胞生命，到寒武纪、四足动物、哺乳动物与智人。顺序沿生命复杂度与登陆、繁衍的关键节点推进。",
+    "entries": [
+      "time.first-life",
+      "time.luca",
+      "time.eukaryotes-emergence",
+      "time.multicellular-life",
+      "time.cambrian",
+      "time.first-tetrapods",
+      "time.first-mammals",
+      "time.rise-homo-sapiens"
+    ]
+  },
+  {
+    "id": "collection-civilization",
+    "title": "文明史",
+    "intro": "从农业革命、城市起源、文字、青铜时代、铁器时代、古典时代、中世纪到工业革命。顺序围绕定居、记录、金属技术与能源转换展开，呈现文明结构的累积。",
+    "entries": [
+      "time.agricultural-revolution",
+      "time.origin-of-cities",
+      "time.invention-of-writing",
+      "time.bronze-age",
+      "time.iron-age",
+      "time.classical-antiquity",
+      "time.middle-ages",
+      "time.industrial-revolution"
+    ]
+  },
+  {
+    "id": "collection-technology",
+    "title": "技术史",
+    "intro": "从蒸汽机、电网、计算机起源、首次飞行、互联网、智能手机到人工智能时代。顺序按能量、信息与交通三条线索交错，展示技术如何压缩时空。",
+    "entries": [
+      "time.steam-engine",
+      "time.electricity-grid",
+      "time.origin-of-computing",
+      "time.first-flight",
+      "time.internet-birth",
+      "time.smartphone-era",
+      "time.ai-era"
+    ]
+  },
+  {
+    "id": "collection-future",
+    "title": "未来",
+    "intro": "从未来超大陆、地球不宜居、仙女座碰撞、太阳红巨星，到最后的恒星、黑洞时代与热寂。按时间由近及远排列，把地球、太阳与宇宙的终点串成一条线。",
+    "entries": [
+      "time.future-supercontinent",
+      "time.earth-uninhabitable",
+      "time.andromeda-collision",
+      "time.sun-red-giant-phase",
+      "time.last-stars",
+      "time.black-hole-era",
+      "time.heat-death"
+    ]
+  },
+  {
+    "id": "collection-temperature-daily",
+    "title": "温度日常",
+    "intro": "从水的冰点、室温、体温、发热、桑拿、沸水到烤箱。按温度由低到高排列，用日常经验建立开尔文与摄氏的对应感。",
+    "entries": [
+      "temperature.water-freezing",
+      "temperature.room-temperature",
+      "temperature.human-body-temperature",
+      "temperature.fever",
+      "temperature.sauna",
+      "temperature.boiling-water",
+      "temperature.oven",
+      "elements.h",
+      "elements.o"
+    ]
+  },
+  {
+    "id": "collection-extreme-cold",
+    "title": "极端低温",
+    "intro": "从液氮、液氢、太空背景、回力镖星云、玻色—爱因斯坦凝聚到绝对零度。顺序逐级逼近零点，说明技术制冷与宇宙自然低温各自能走多远。",
+    "entries": [
+      "temperature.liquid-nitrogen",
+      "temperature.liquid-hydrogen",
+      "temperature.space-background",
+      "temperature.boomerang-nebula",
+      "temperature.bose-einstein",
+      "temperature.absolute-zero"
+    ]
+  },
+  {
+    "id": "collection-stellar-temperature",
+    "title": "恒星温度",
+    "intro": "从红矮星、太阳、A型星、参宿七、白矮星、O型星到中子星表面。按表面温度渐次升高排列，同时展示恒星类型与致密天体在温度轴上的位置。",
+    "entries": [
+      "temperature.red-dwarf-surface",
+      "temperature.sun-surface",
+      "temperature.a-type-star",
+      "temperature.rigel-surface",
+      "temperature.white-dwarf-surface",
+      "temperature.o-type-star-surface",
+      "temperature.neutron-star-surface"
+    ]
+  },
+  {
+    "id": "collection-radius-diameter",
+    "title": "对照：半径还是直径",
+    "intro": "同一个天体，报半径与报直径会差两倍。这一组把地球、太阳、内核与黑洞放在一起，专门练习“先看标签，再读数字”，避免把半径当直径、把直径当半径。",
+    "entries": [
+      "space.earth",
+      "space.earth-core",
+      "space.sun",
+      "space.sun_diameter",
+      "space.black-hole-event-horizon",
+      "space.sagittarius-a-star"
+    ]
+  },
+  {
+    "id": "collection-air-vs-surface",
+    "title": "对照：气温与地表温度",
+    "intro": "百叶箱里的气温、雪面与冰盖的表面温度、海面与深海温度，都不是同一个测量对象。这一组按“空气—雪冰面—水体”排列，训练把测量高度、介质与辐射条件一起读。",
+    "entries": [
+      "temperature.antarctic_min_temp",
+      "temperature.snow-surface",
+      "temperature.glacier-ice",
+      "temperature.ice-sheet",
+      "temperature.sea-surface",
+      "temperature.deep-ocean"
+    ]
+  },
+  {
+    "id": "collection-matter-vs-radiation",
+    "title": "对照：物质温度与辐射温度",
+    "intro": "人体、雪面与室温可以用温度计接触测量；宇宙微波背景、空间背景与真空温度描述的则是辐射场或等效温度。这一组并排两类口径，避免把 2.725 K 当成环境气温。",
+    "entries": [
+      "temperature.human-body-temperature",
+      "temperature.snow-surface",
+      "temperature.room-temperature",
+      "temperature.cmb",
+      "temperature.space-background",
+      "temperature.vacuum-temperature",
+      "mass.photon"
+    ]
+  },
+  {
+    "id": "collection-second-fractions",
+    "title": "对照：一秒的细分",
+    "intro": "从秒、毫秒、微秒、纳秒，到心跳与脉冲星周期。这一组把同一个时间单位逐级切小，并用生物与天体节律作对照，区分“单位换算”与“真实过程持续多久”。",
+    "entries": [
+      "time.second",
+      "time.millisecond",
+      "time.microsecond",
+      "time.nanosecond",
+      "time.heartbeat",
+      "time.pulsar-period"
+    ]
+  }
+]

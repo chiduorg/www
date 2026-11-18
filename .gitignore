@@ -1,0 +1,13 @@
+node_modules/
+dist/
+artifacts/
+work/
+preview/
+qa/
+*.tar.gz
+*.zip
+*.7z
+.env
+.env.*
+*.log
+*.tmp

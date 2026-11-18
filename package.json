@@ -1,0 +1,46 @@
+{
+  "name": "universe-atlas-workspace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "migrate": "node scripts/migrate.mjs",
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "preview": "node scripts/preview-hosts.mjs",
+    "check": "node scripts/check.mjs",
+    "check:content": "node scripts/check-content.mjs",
+    "audit:content": "node scripts/audit-content.mjs",
+    "check:migration": "node scripts/check-migration.mjs",
+    "check:learning": "node scripts/check-learning.mjs",
+    "snapshot": "node content/scripts/build.mjs",
+    "build:home": "node home/scripts/build.mjs",
+    "build:space": "node space/scripts/build.mjs",
+    "build:time": "node time/scripts/build.mjs",
+    "build:temperature": "node temperature/scripts/build.mjs",
+    "build:elements": "node elements/scripts/build.mjs",
+    "build:mass": "node mass/scripts/build.mjs",
+    "release:local": "node scripts/release-local.mjs",
+    "check:release": "node scripts/check-release.mjs",
+    "preview:sites": "node scripts/serve-sites.mjs",
+    "check:models": "node scripts/check-models.mjs",
+    "check:subdomains": "node scripts/check-subdomains.mjs",
+    "check:axe": "node scripts/axe-sites.mjs",
+    "check:axe:elements": "node scripts/axe-elements.mjs"
+  },
+  "dependencies": {
+    "@universe-atlas/content": "1.3.0",
+    "@universe-atlas/engine": "1.3.0",
+    "gray-matter": "4.0.3",
+    "markdown-it": "15.0.3",
+    "three": "0.187.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "axe-core": "^4.14.0",
+    "esbuild": "^0.25.10",
+    "playwright-core": "^1.65.0"
+  },
+  "version": "1.3.0"
+}

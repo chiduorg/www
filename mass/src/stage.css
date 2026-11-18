@@ -1,0 +1,518 @@
+/* 质量深渊：正式站首屏舞台。作用域限定在 .mass-immersive，避免影响下方知识层。 */
+.mass-page { overflow-x: clip; }
+.mass-page .mass-immersive {
+  --bg: #03060a;
+  --ink: #f2f7fb;
+  --muted: #8ea6b8;
+  --faint: #597083;
+  --cyan: #7fe8ff;
+  --gold: #ffd37a;
+  --accent: var(--gold);
+  --stage-glow: rgba(180, 150, 60, .15);
+  --stage-glow-2: rgba(40, 90, 150, .15);
+  position: relative;
+  z-index: 0;
+  width: 100vw;
+  height: 100dvh;
+  min-height: 640px;
+  margin: 0 calc(50% - 50vw) 0;
+  overflow: hidden;
+  isolation: isolate;
+  color: var(--ink);
+  font-family: "Inter", "SF Pro Display", "PingFang SC", "Noto Sans SC", ui-sans-serif, system-ui, sans-serif;
+  background:
+    radial-gradient(ellipse 54% 46% at 46% 42%, var(--stage-glow), transparent 70%),
+    radial-gradient(ellipse 40% 50% at 68% 36%, var(--stage-glow-2), transparent 72%),
+    linear-gradient(180deg, #04080d 0%, #03060a 55%, #020407 100%);
+}
+.mass-page .mass-immersive[data-band="zero"] { --accent: #9fd7ff; }
+
+.mass-page .mass-immersive #stage {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  cursor: grab;
+}
+.mass-page .mass-immersive #stage:active { cursor: grabbing; }
+.mass-page .mass-immersive #stage canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+.mass-page .mass-immersive .vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 75% 70% at 50% 48%, transparent 35%, rgba(3, 5, 9, .32) 75%, rgba(3, 5, 9, .82) 100%),
+    linear-gradient(180deg, rgba(4, 7, 11, .28) 0%, transparent 18%, transparent 70%, rgba(4, 7, 11, .68) 100%);
+}
+.mass-page .mass-immersive .scanlines {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  opacity: .24;
+  background: repeating-linear-gradient(180deg, rgba(255, 255, 255, .025) 0 1px, transparent 1px 3px);
+  mix-blend-mode: soft-light;
+}
+
+.mass-page .mass-immersive .eyebrow {
+  margin: 0;
+  color: var(--muted);
+  font-size: 9px;
+  letter-spacing: .2em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.mass-page .mass-immersive .eyebrow b { color: var(--accent); font-weight: 500; }
+.mass-page .mass-immersive .mass-intro {
+  position: absolute;
+  z-index: 22;
+  left: 34px;
+  top: 76px;
+  width: 280px;
+  pointer-events: none;
+}
+.mass-page .mass-immersive .mass-intro h1 {
+  margin: 12px 0 14px;
+  color: #f7fbfd;
+  font-size: clamp(24px, 3vw, 38px);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -.02em;
+}
+.mass-page .mass-immersive .mass-intro h1 em { color: var(--gold); font-style: normal; }
+.mass-page .mass-immersive .mass-lede {
+  max-width: 260px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.9;
+}
+.mass-page .mass-immersive .mass-depth {
+  position: absolute;
+  z-index: 23;
+  left: 50%;
+  top: 64px;
+  pointer-events: none;
+  text-align: center;
+  transform: translateX(-50%);
+}
+.mass-page .mass-immersive .mass-depth strong {
+  display: block;
+  color: var(--faint);
+  font-size: 8px;
+  font-weight: 400;
+  letter-spacing: .18em;
+}
+.mass-page .mass-immersive .mass-depth span {
+  display: block;
+  margin-top: 4px;
+  color: var(--gold);
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 18px;
+  letter-spacing: .03em;
+}
+.mass-page .mass-immersive .mass-depth em {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 8px;
+  font-style: normal;
+  letter-spacing: .1em;
+}
+.mass-page .mass-immersive .mass-watermark {
+  position: absolute;
+  z-index: 12;
+  left: 24px;
+  bottom: 208px;
+  color: rgba(255, 255, 255, .045);
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05em;
+  pointer-events: none;
+}
+.mass-page .mass-immersive .mass-watermark span {
+  color: rgba(255, 255, 255, .09);
+  font-size: 16px;
+  letter-spacing: .15em;
+  vertical-align: 15px;
+}
+.mass-page .mass-immersive .mass-axis {
+  position: absolute;
+  z-index: 12;
+  left: 48%;
+  top: 54%;
+  width: 1px;
+  height: 38%;
+  pointer-events: none;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, transparent, rgba(255, 211, 122, .1), transparent);
+}
+.mass-page .mass-immersive .mass-axis::after {
+  content: "";
+  position: absolute;
+  left: -44vw;
+  top: 50%;
+  width: 88vw;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 211, 122, .07), transparent);
+}
+
+.mass-page .mass-immersive .mass-rail {
+  position: absolute;
+  z-index: 22;
+  left: 34px;
+  top: clamp(320px, 38vh, 380px);
+  bottom: 180px;
+  width: 262px;
+  overflow: auto;
+  pointer-events: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, .15) transparent;
+}
+.mass-page .mass-immersive .mass-rail::-webkit-scrollbar { width: 3px; }
+.mass-page .mass-immersive .mass-rail::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, .15); }
+.mass-page .mass-immersive .band-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 2px 0;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .055);
+  background: transparent;
+  color: var(--faint);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.mass-page .mass-immersive .band-row:hover { color: var(--ink); }
+.mass-page .mass-immersive .band-row.active { color: var(--gold); }
+.mass-page .mass-immersive .band-row b {
+  min-width: 26px;
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .08em;
+}
+.mass-page .mass-immersive .band-row span {
+  overflow: hidden;
+  font-size: 10px;
+  letter-spacing: .06em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.mass-page .mass-immersive .band-row small { margin-left: auto; color: var(--faint); font-size: 8px; white-space: nowrap; }
+
+.mass-page .mass-immersive .panel {
+  background: linear-gradient(145deg, rgba(12, 22, 31, .78), rgba(5, 11, 17, .66));
+  border: 1px solid rgba(126, 232, 255, .14);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, .34), inset 0 1px 0 rgba(255, 255, 255, .04);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+.mass-page .mass-immersive .mass-card {
+  position: absolute;
+  z-index: 24;
+  top: 76px;
+  right: 34px;
+  width: 300px;
+  margin: 0;
+  padding: 18px 18px 16px;
+  border-radius: 2px;
+}
+.mass-page .mass-immersive .card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.mass-page .mass-immersive .pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 7px;
+  border: 1px solid rgba(255, 211, 122, .2);
+  background: rgba(255, 211, 122, .06);
+  color: var(--accent);
+  font-size: 9px;
+  letter-spacing: .1em;
+  white-space: nowrap;
+}
+.mass-page .mass-immersive .pill.muted {
+  color: var(--muted);
+  border-color: rgba(255, 255, 255, .1);
+  background: rgba(255, 255, 255, .03);
+}
+.mass-page .mass-immersive .symbol-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+.mass-page .mass-immersive .symbol-row .name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
+}
+.mass-page .mass-immersive .symbol-row .name span { font-size: 26px; line-height: 1.08; }
+.mass-page .mass-immersive .symbol-row .name em {
+  color: var(--muted);
+  font-size: 9px;
+  font-style: normal;
+  letter-spacing: .16em;
+}
+.mass-page .mass-immersive .mass-value {
+  margin: 4px 0 10px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  word-break: break-all;
+}
+.mass-page .mass-immersive .mass-measure {
+  display: -webkit-box;
+  margin: 0 0 12px;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.65;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.mass-page .mass-immersive .mass-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px 12px;
+  margin: 12px 0;
+}
+.mass-page .mass-immersive .stat { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.mass-page .mass-immersive .stat label { color: var(--faint); font-size: 9px; letter-spacing: .12em; white-space: nowrap; }
+.mass-page .mass-immersive .stat strong { color: var(--ink); font-size: 12px; font-weight: 400; white-space: normal; }
+.mass-page .mass-immersive .mass-ratio {
+  margin-bottom: 10px;
+  padding: 8px 9px;
+  border-left: 2px solid var(--gold);
+  background: rgba(255, 211, 122, .055);
+  color: #e5d9bd;
+  font-size: 10px;
+  line-height: 1.7;
+}
+.mass-page .mass-immersive .mass-ratio strong { color: var(--gold); font-weight: 500; }
+.mass-page .mass-immersive .summary {
+  display: -webkit-box;
+  margin: 0 0 12px;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.7;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.mass-page .mass-immersive .article-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, .09);
+  color: var(--accent);
+  font-size: 10px;
+  letter-spacing: .06em;
+  text-decoration: none;
+}
+.mass-page .mass-immersive .article-link span { color: var(--faint); }
+.mass-page .mass-immersive .article-link:hover { color: #fff; }
+
+.mass-page .mass-immersive .console {
+  position: absolute;
+  z-index: 26;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 12px 34px 14px;
+  border-top: 1px solid rgba(255, 211, 122, .14);
+  background: linear-gradient(180deg, rgba(4, 8, 12, .18), rgba(5, 10, 15, .88) 38%, rgba(4, 7, 11, .96));
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+.mass-page .mass-immersive .console-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 2px;
+}
+.mass-page .mass-immersive .console-head .label {
+  color: var(--faint);
+  font-size: 9px;
+  letter-spacing: .17em;
+  text-transform: uppercase;
+}
+.mass-page .mass-immersive .console-head strong { color: var(--accent); font-size: 13px; font-weight: 500; letter-spacing: .03em; }
+.mass-page .mass-immersive .console-head .spacer { flex: 1; }
+.mass-page .mass-immersive .console-head .meta { color: var(--muted); font-size: 9px; letter-spacing: .12em; white-space: nowrap; }
+.mass-page .mass-immersive input[type="range"] {
+  appearance: none;
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  height: 26px;
+  margin: 1px 0 0;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.mass-page .mass-immersive input[type="range"]::-webkit-slider-runnable-track {
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--accent) 0%, rgba(255, 211, 122, .35) 62%, rgba(255, 255, 255, .12) 100%);
+}
+.mass-page .mass-immersive input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  margin-top: -6px;
+  border: 1px solid rgba(255, 255, 255, .8);
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 5px rgba(255, 211, 122, .08), 0 0 22px rgba(255, 211, 122, .6);
+}
+.mass-page .mass-immersive input[type="range"]::-moz-range-track { height: 2px; background: var(--accent); }
+.mass-page .mass-immersive input[type="range"]::-moz-range-thumb { width: 14px; height: 14px; border: 0; border-radius: 50%; background: var(--accent); }
+.mass-page .mass-immersive .ticks { display: flex; align-items: center; justify-content: space-between; gap: 8px; height: 16px; padding: 0 2px; }
+.mass-page .mass-immersive .ticks span { color: var(--faint); font-size: 8px; letter-spacing: .08em; white-space: nowrap; }
+.mass-page .mass-immersive .ticks span.hot { color: var(--accent); }
+.mass-page .mass-immersive .ticks i { display: inline-block; width: 1px; height: 4px; margin-right: 5px; background: rgba(255, 255, 255, .2); }
+.mass-page .mass-immersive .actions { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+.mass-page .mass-immersive .stage-down {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 9px;
+  letter-spacing: .06em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.mass-page .mass-immersive .stage-down:hover,
+.mass-page .mass-immersive .stage-down:focus-visible { color: var(--gold); text-decoration: underline; }
+.mass-page .mass-immersive .btn {
+  appearance: none;
+  border: 1px solid rgba(255, 211, 122, .2);
+  background: rgba(255, 211, 122, .06);
+  color: var(--ink);
+  font: inherit;
+  font-size: 9px;
+  letter-spacing: .1em;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: border-color .2s, background .2s, color .2s;
+}
+.mass-page .mass-immersive .btn:hover { border-color: rgba(255, 211, 122, .55); background: rgba(255, 211, 122, .12); }
+.mass-page .mass-immersive .btn.active { border-color: var(--accent); background: rgba(255, 211, 122, .16); color: var(--accent); }
+.mass-page .mass-immersive .btn.ghost { border-color: rgba(255, 255, 255, .1); background: rgba(255, 255, 255, .02); color: var(--muted); }
+.mass-page .mass-immersive .hint { margin-left: auto; color: var(--faint); font-size: 8px; letter-spacing: .08em; white-space: nowrap; }
+
+.mass-page .mass-facts-brief {
+  padding: 28px 0 0;
+  border-bottom: 1px solid var(--m-line);
+}
+.mass-page .mass-facts-brief .mass-facts { margin-bottom: 0; }
+
+@media (max-width: 900px) {
+  .mass-page .mass-immersive { margin-top: 0; }
+  .mass-page .mass-immersive .mass-intro { left: 16px; top: 66px; width: 180px; }
+  .mass-page .mass-immersive .mass-intro h1 { margin: 9px 0 0; font-size: 22px; }
+  .mass-page .mass-immersive .mass-lede { display: none; }
+  .mass-page .mass-immersive .mass-rail { display: flex; left: 5px; top: 174px; bottom: 174px; width: 16px; overflow: visible; flex-direction: column; }
+  .mass-page .mass-immersive .mass-rail::before {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 2px;
+    bottom: 2px;
+    width: 1px;
+    pointer-events: none;
+    background: linear-gradient(180deg, rgba(255, 211, 122, .08), rgba(255, 211, 122, .3), rgba(255, 211, 122, .08));
+  }
+  .mass-page .mass-immersive .band-row {
+    flex: 1;
+    min-height: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font-size: 0;
+    overflow: visible;
+    justify-content: flex-start;
+  }
+  .mass-page .mass-immersive .band-row b,
+  .mass-page .mass-immersive .band-row span,
+  .mass-page .mass-immersive .band-row small { display: none; }
+  .mass-page .mass-immersive .band-row::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    margin-left: 5px;
+    border: 1px solid rgba(255, 211, 122, .3);
+    border-radius: 50%;
+    background: rgba(4, 7, 11, .7);
+    transition: all .2s;
+    flex: none;
+  }
+  .mass-page .mass-immersive .band-row.active::before {
+    width: 7px;
+    height: 7px;
+    margin-left: 4px;
+    border-color: var(--gold);
+    background: var(--gold);
+    box-shadow: 0 0 10px rgba(255, 211, 122, .7);
+  }
+  .mass-page .mass-immersive .mass-card { top: 66px; right: 12px; width: 206px; padding: 13px; }
+  .mass-page .mass-immersive .mass-value { font-size: 20px; }
+  .mass-page .mass-immersive .mass-measure,
+  .mass-page .mass-immersive .mass-meta,
+  .mass-page .mass-immersive .summary { display: none; }
+  .mass-page .mass-immersive .mass-ratio { padding: 6px 7px; font-size: 9px; }
+  .mass-page .mass-immersive .mass-watermark { display: none; }
+  .mass-page .mass-immersive .mass-axis { left: 44%; }
+  .mass-page .mass-immersive .mass-depth { top: 52px; }
+  .mass-page .mass-immersive .console { padding: 9px 14px 11px; }
+  .mass-page .mass-immersive .console-head strong { font-size: 11px; }
+}
+
+@media (max-width: 620px) {
+  .mass-page .mass-immersive {
+    height: 100dvh;
+    min-height: 560px;
+  }
+  .mass-page .mass-immersive .mass-intro { width: 150px; }
+  .mass-page .mass-immersive .mass-intro h1 { font-size: 20px; }
+  .mass-page .mass-immersive .mass-card { top: 64px; right: 10px; width: 182px; padding: 11px; }
+  .mass-page .mass-immersive .card-top { margin-bottom: 8px; }
+  .mass-page .mass-immersive .pill { padding: 3px 5px; font-size: 8px; }
+  .mass-page .mass-immersive .symbol-row .name span { font-size: 20px; }
+  .mass-page .mass-immersive .symbol-row .name em { font-size: 8px; }
+  .mass-page .mass-immersive .mass-value { margin: 2px 0 7px; font-size: 17px; }
+  .mass-page .mass-immersive .mass-ratio { font-size: 8px; line-height: 1.55; }
+  .mass-page .mass-immersive .mass-depth strong { font-size: 7px; }
+  .mass-page .mass-immersive .mass-depth span { font-size: 14px; }
+  .mass-page .mass-immersive .mass-depth em { font-size: 7px; }
+  .mass-page .mass-immersive .console-head .meta { display: none; }
+  .mass-page .mass-immersive .console-head strong { font-size: 10px; }
+  .mass-page .mass-immersive .ticks span:nth-child(even) { display: none; }
+  .mass-page .mass-immersive .hint { display: none; }
+}
+@media (max-height: 560px) {
+  .mass-page .mass-immersive .console { padding-top: 7px; padding-bottom: 8px; }
+  .mass-page .mass-immersive .actions { margin-top: 5px; }
+  .mass-page .mass-immersive .mass-watermark { display: none; }
+  .mass-page .mass-immersive .mass-intro,
+  .mass-page .mass-immersive .mass-card { top: 62px; }
+}

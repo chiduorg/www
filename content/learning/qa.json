@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "qa-earth-diameter",
+    "q": "地球的直径是多少？",
+    "a": "通常采用体积等效平均直径约12,742公里，由平均半径6,371公里乘二得到；它把地球折算成同体积球体，赤道与极向半径不同，引用时应说明口径。",
+    "entries": [
+      "space.earth"
+    ]
+  },
+  {
+    "id": "qa-earth-radius",
+    "q": "地球的半径用6,371公里还是6,378公里？",
+    "a": "两个都对，只是口径不同：体积等效平均半径6,371公里用于整体尺度比较；赤道半径6,378.137公里、极半径6,356.752公里描述椭球形状。",
+    "entries": [
+      "space.earth"
+    ]
+  },
+  {
+    "id": "qa-moon-diameter",
+    "q": "月球的直径是多少？",
+    "a": "月球体积等效平均直径约3,474.8公里，由平均半径1,737.4公里乘二得到；赤道直径约3,476.2公里、极直径约3,472.0公里，与地月距离不是一回事。",
+    "entries": [
+      "space.moon",
+      "space.moon_diameter"
+    ]
+  },
+  {
+    "id": "qa-earth-moon-distance",
+    "q": "地球到月球有多远？",
+    "a": "常用轨道半长轴约384,400公里；实际地心到月心距离在约363,300至405,500公里间变化，光走这段平均距离约1.28秒。",
+    "entries": [
+      "space.earth-moon-distance",
+      "space.light-second"
+    ]
+  },
+  {
+    "id": "qa-sun-diameter",
+    "q": "太阳的直径是多少？",
+    "a": "太阳参考直径约1,391,400公里，由平均半径695,700公里乘二得到，约为地球直径的109倍；该值不含延伸日冕。",
+    "entries": [
+      "space.sun",
+      "space.sun_diameter"
+    ]
+  },
+  {
+    "id": "qa-au-length",
+    "q": "一个天文单位有多长？",
+    "a": "1 au现定义为精确的149,597,870,700米，约1.496亿公里，约合499光秒；它不等于每个时刻的实际日地距离。",
+    "entries": [
+      "space.au"
+    ]
+  },
+  {
+    "id": "qa-light-year",
+    "q": "一光年等于多少公里？",
+    "a": "1光年是光在真空中一个儒略年走过的长度，约9.46万亿公里，精确为9,460,730,472,580,800米，约合63,241 au。",
+    "entries": [
+      "space.light-year"
+    ]
+  },
+  {
+    "id": "qa-light-second",
+    "q": "一光秒是多少公里？",
+    "a": "真空光速为299,792,458米每秒，因此一光秒精确等于299,792.458公里；它是长度单位，不是时间单位。",
+    "entries": [
+      "space.light-second"
+    ]
+  },
+  {
+    "id": "qa-proxima-distance",
+    "q": "离太阳最近的恒星有多远？",
+    "a": "比邻星距太阳约4.26光年，即约40万亿公里；这是恒星间的距离，不是比邻星自身的直径。",
+    "entries": [
+      "space.proxima-centauri",
+      "space.light-year"
+    ]
+  },
+  {
+    "id": "qa-andromeda-distance",
+    "q": "仙女座星系离我们有多远？",
+    "a": "约250万光年，换算约2.37×10²²米；NASA另一资料写约230万光年，差异来自距离标定与取整，不是星系直径。",
+    "entries": [
+      "space.andromeda-distance"
+    ]
+  },
+  {
+    "id": "qa-observable-universe",
+    "q": "可观测宇宙的直径是多少？",
+    "a": "在特定宇宙学模型下约为930亿光年，约8.8×10²⁶米；这是当前粒子视界直径的模型估算，不是宇宙整体边界。",
+    "entries": [
+      "space.observable-universe"
+    ]
+  },
+  {
+    "id": "qa-milky-way-size",
+    "q": "银河系有多大？",
+    "a": "银河系恒星盘的横向跨度约10万光年，约30千秒差距、9.46×10²⁰米；盘没有锐利边缘，也不含完整暗物质晕。",
+    "entries": [
+      "space.milky-way"
+    ]
+  },
+  {
+    "id": "qa-jupiter-diameter",
+    "q": "木星的直径是多少？",
+    "a": "木星体积等效平均直径约139,822公里，约为地球直径的11倍；赤道直径约142,984公里、极直径约133,708公里，差异来自明显扁率。",
+    "entries": [
+      "space.jupiter"
+    ]
+  },
+  {
+    "id": "qa-saturn-diameter",
+    "q": "土星的直径是多少，算不算环？",
+    "a": "土星主体平均直径约116,464公里，明确不含环；赤道直径约120,536公里，环系统的横向跨度需另计。",
+    "entries": [
+      "space.saturn"
+    ]
+  },
+  {
+    "id": "qa-mars-diameter",
+    "q": "火星的直径是多少？",
+    "a": "火星体积等效平均直径约6,779公里，约为地球的0.53倍；赤道直径约6,792公里、极直径约6,752公里，不含大气。",
+    "entries": [
+      "space.mars"
+    ]
+  },
+  {
+    "id": "qa-mercury-diameter",
+    "q": "水星的直径是多少？",
+    "a": "水星体积等效平均直径约4,879公里，约为地球的0.38倍、月球的1.4倍；赤道与极直径差别不足0.1%。",
+    "entries": [
+      "space.mercury",
+      "space.moon_diameter"
+    ]
+  },
+  {
+    "id": "qa-venus-diameter",
+    "q": "金星的直径是多少？",
+    "a": "金星体积等效平均直径约12,104公里，约为地球直径的95%；它赤道与极半径几乎相同，形状接近球体。",
+    "entries": [
+      "space.venus"
+    ]
+  },
+  {
+    "id": "qa-sun-earth-ratio",
+    "q": "太阳比地球大多少倍？",
+    "a": "按直径算约109倍；若地球直径缩成20厘米，太阳参考直径约21.8米。这是长度之比，不是质量或体积之比。",
+    "entries": [
+      "space.sun",
+      "space.earth"
+    ]
+  },
+  {
+    "id": "qa-betelgeuse-diameter",
+    "q": "参宿四的直径有多大？",
+    "a": "所引2022年研究采用1000太阳半径作工作假设，据此直径约1.39×10¹²米，约9.3 au；这是模型采用值，不是唯一实测尺寸。",
+    "entries": [
+      "space.betelgeuse",
+      "space.sun"
+    ]
+  },
+  {
+    "id": "qa-white-dwarf-size",
+    "q": "白矮星有多大？",
+    "a": "典型白矮星半径与地球相当，直径约1.27×10⁷米；其半径随质量增大而减小，1.27×10⁷米只是典型量级。",
+    "entries": [
+      "space.white-dwarf",
+      "space.earth"
+    ]
+  },
+  {
+    "id": "qa-neutron-star-size",
+    "q": "中子星有多大？",
+    "a": "入门概览常用约20公里直径，即2×10⁴米；真实半径随质量与内部物态方程变化，不是所有中子星都恰好20公里。",
+    "entries": [
+      "space.neutron-star"
+    ]
+  },
+  {
+    "id": "qa-visible-light-range",
+    "q": "可见光的波长范围是多少？",
+    "a": "约400至700纳米；550纳米是范围中值，对应5.5×10⁻⁷米。端点因个体视觉响应与资料约定略有差异。",
+    "entries": [
+      "space.visible-light"
+    ]
+  },
+  {
+    "id": "qa-blue-light-wavelength",
+    "q": "蓝光的波长是多少？",
+    "a": "蓝光常见范围约450至495纳米，代表值取470纳米，即4.7×10⁻⁷米；它不是可见光最短波段，紫光更短。",
+    "entries": [
+      "space.blue-light",
+      "space.visible-light"
+    ]
+  },
+  {
+    "id": "qa-red-light-wavelength",
+    "q": "红光的波长是多少？",
+    "a": "红光常见范围约620至750纳米，代表值取700纳米，即7×10⁻⁷米；它紧邻红外，但红光与红外不是一回事。",
+    "entries": [
+      "space.red-light",
+      "space.visible-light"
+    ]
+  },
+  {
+    "id": "qa-21cm-line",
+    "q": "氢的21厘米线是什么？",
+    "a": "它是中性氢基态超精细跃迁产生的射电谱线，静止波长约21厘米，频率约1420兆赫兹；不是氢原子的直径。",
+    "entries": [
+      "space.hydrogen-21cm"
+    ]
+  },
+  {
+    "id": "qa-atom-size",
+    "q": "原子有多大？",
+    "a": "氢原子常用两倍玻尔半径作比较长度，约1.058×10⁻¹⁰米；电子云没有硬边界，原子核直径约几到十几飞米。",
+    "entries": [
+      "space.atom",
+      "space.atomic-nucleus"
+    ]
+  },
+  {
+    "id": "qa-dna-width",
+    "q": "DNA双螺旋有多宽？",
+    "a": "DNA双螺旋的横向宽度约2纳米，即2×10⁻⁹米；这是宽度参考，不是整条DNA分子的长度。",
+    "entries": [
+      "space.dna"
+    ]
+  },
+  {
+    "id": "qa-cell-size",
+    "q": "人体细胞有多大？",
+    "a": "真核细胞常见直径约10–100微米，本页取20微米作入门参照；不同组织与物种的细胞可落在范围之外。",
+    "entries": [
+      "space.cell"
+    ]
+  },
+  {
+    "id": "qa-bacteria-size",
+    "q": "细菌有多大？",
+    "a": "原核细胞直径约0.1–5.0微米，本页取1微米作入门参照；具体菌种应说明量的是直径、长度还是宽度。",
+    "entries": [
+      "space.bacteria"
+    ]
+  },
+  {
+    "id": "qa-virus-size",
+    "q": "病毒有多大？",
+    "a": "病毒大小差别很大；本页以甲型流感80–120纳米范围中的100纳米作参照，即1×10⁻⁷米，不代表全部病毒。",
+    "entries": [
+      "space.virus"
+    ]
+  },
+  {
+    "id": "qa-universe-age",
+    "q": "宇宙的年龄有多大？",
+    "a": "标准宇宙学模型下约138亿年，即约4.354×10¹⁷秒；这是由膨胀史与微波背景拟合的圆整值，不是精确到年。",
+    "entries": [
+      "time.present",
+      "time.big-bang"
+    ]
+  },
+  {
+    "id": "qa-big-bang-center",
+    "q": "大爆炸发生在宇宙中的哪个位置？",
+    "a": "没有特殊中心：大爆炸指空间本身整体膨胀，不是已有空间里的一次爆炸，任何星系都会看到其他星系远离。",
+    "entries": [
+      "time.big-bang"
+    ]
+  },
+  {
+    "id": "qa-recombination-time",
+    "q": "宇宙多大时变得透明？",
+    "a": "约在大爆炸后38万年，自由电子被原子核俘获形成中性原子，光子得以自由传播；这是渐进过程的时代参考。",
+    "entries": [
+      "time.recombination",
+      "temperature.cmb"
+    ]
+  },
+  {
+    "id": "qa-first-stars-time",
+    "q": "第一代恒星什么时候出现？",
+    "a": "约在大爆炸后2亿至4亿年；韦布科普允许最早约1亿年，但这是时期范围，不是第一颗恒星的精确生日。",
+    "entries": [
+      "time.first-stars"
+    ]
+  },
+  {
+    "id": "qa-earth-formation-time",
+    "q": "地球是什么时候形成的？",
+    "a": "约45亿年前，由年轻太阳系盘中的气体和尘埃吸积形成；NIST另给约45.4亿年、约0.5亿年不确定范围的概览。",
+    "entries": [
+      "time.earth-formation"
+    ]
+  },
+  {
+    "id": "qa-cambrian-time",
+    "q": "寒武纪开始于多少年前？",
+    "a": "国际地层委员会2024/12版把寒武纪起始边界定在约5.388亿年前，不确定度0.6百万年；这不是所有动物同一天出现。",
+    "entries": [
+      "time.cambrian"
+    ]
+  },
+  {
+    "id": "qa-dinosaur-time",
+    "q": "恐龙最早出现在什么时候？",
+    "a": "恐龙支系最早约2.45亿年前出现于三叠纪中期；约2.3亿年前的晚三叠世已有多种可辨认的早期恐龙。",
+    "entries": [
+      "time.dinosaurs"
+    ]
+  },
+  {
+    "id": "qa-homo-fossil-time",
+    "q": "最早的人属化石有多久？",
+    "a": "埃塞俄比亚Ledi-Geraru下颌化石距今约280万至275万年；这是人属的早期化石证据，不等于智人起源。",
+    "entries": [
+      "time.first-humans"
+    ]
+  },
+  {
+    "id": "qa-homo-sapiens-time",
+    "q": "智人是什么时候出现的？",
+    "a": "摩洛哥杰贝尔伊尔胡德材料表明约30万年前已有具早期智人特征的人群；Britannica另取约31.5万年，均为圆整口径。",
+    "entries": [
+      "time.rise-homo-sapiens"
+    ]
+  },
+  {
+    "id": "qa-human-lifespan",
+    "q": "2023年全球出生时预期寿命是多少？",
+    "a": "世界卫生组织估计2023年全球出生时预期寿命约73.3年，约合2.31×10⁹秒；这是人口统计平均值，不是个体寿命。",
+    "entries": [
+      "time.human-lifespan"
+    ]
+  },
+  {
+    "id": "qa-year-seconds",
+    "q": "一年有多少秒？",
+    "a": "按公历平均年365.2425天计算，约3.1556952×10⁷秒；它衡量持续时长，不是大爆炸后第一年那个时点。",
+    "entries": [
+      "time.year"
+    ]
+  },
+  {
+    "id": "qa-second-definition",
+    "q": "一秒是按什么定义的？",
+    "a": "SI秒定义为铯-133原子基态两个超精细能级跃迁辐射的9,192,631,770个周期；它是时长单位，不是宇宙时刻。",
+    "entries": [
+      "time.second"
+    ]
+  },
+  {
+    "id": "qa-sun-red-giant",
+    "q": "太阳什么时候变成红巨星？",
+    "a": "常见恒星演化模型把太阳进入红巨星阶段放在约50亿年后；有的计算把核心氢耗尽放在约65亿年后，只能作量级参考。",
+    "entries": [
+      "time.sun-red-giant-phase"
+    ]
+  },
+  {
+    "id": "qa-andromeda-collision",
+    "q": "银河系和仙女座什么时候相遇？",
+    "a": "常见模型把首次近距离接近放在约45亿年后，并合完成更晚，约60至70亿年；这是模型推断，不是观测日程。",
+    "entries": [
+      "time.andromeda-collision"
+    ]
+  },
+  {
+    "id": "qa-heat-death",
+    "q": "宇宙热死亡会发生在什么时候？",
+    "a": "常见理论估算把热死亡放在约10^100年后，约3.16×10^107秒；这是模型外推的渐近状态，不是可观测事件或确定日期。",
+    "entries": [
+      "time.heat-death"
+    ]
+  },
+  {
+    "id": "qa-absolute-zero",
+    "q": "绝对零度是多少摄氏度？",
+    "a": "绝对零度是0 K，等于−273.15 °C；它是热力学温标的零点，不代表微观运动完全消失，量子零点运动仍存在。",
+    "entries": [
+      "temperature.absolute-zero"
+    ]
+  },
+  {
+    "id": "qa-body-temp",
+    "q": "人体正常体温是多少？",
+    "a": "常用参考约37 °C，即310.15 K；体温随个体、时段和测量部位变化，大样本口腔温度平均约36.64 °C。",
+    "entries": [
+      "temperature.human-body-temperature"
+    ]
+  },
+  {
+    "id": "qa-boiling-point",
+    "q": "水在多少度沸腾？",
+    "a": "在标准大气压101.325 kPa附近约100 °C，即373.15 K；沸点随压力变化，海拔高处会更低。",
+    "entries": [
+      "temperature.boiling-water"
+    ]
+  },
+  {
+    "id": "qa-liquid-nitrogen",
+    "q": "液氮的温度是多少？",
+    "a": "氮的正常沸点约77.34 K，即约−195.81 °C；这对应约一个标准大气压下的气液平衡，不是任何液氮都同温。",
+    "entries": [
+      "temperature.liquid-nitrogen"
+    ]
+  },
+  {
+    "id": "qa-sun-surface-temp",
+    "q": "太阳表面温度是多少？",
+    "a": "太阳有效温度约5,772 K，由总辐射折算；它概括整体辐射，不表示光球各处都恰好同温，也不含日冕。",
+    "entries": [
+      "temperature.sun-surface",
+      "space.sun"
+    ]
+  },
+  {
+    "id": "qa-sun-core-temp",
+    "q": "太阳核心温度有多高？",
+    "a": "太阳核心温度约1,500万K，是内部核聚变区的量级；它远高于光球有效温度，不能与太阳表面温度混为一谈。",
+    "entries": [
+      "temperature.sun-core"
+    ]
+  },
+  {
+    "id": "qa-cmb-temp",
+    "q": "宇宙微波背景辐射的温度是多少？",
+    "a": "COBE/FIRAS测得黑体谱温度约2.725 K，不确定度0.002 K；它是辐射场温度，不是太空物质或某颗天体的温度。",
+    "entries": [
+      "temperature.cmb"
+    ]
+  },
+  {
+    "id": "qa-corona-temp",
+    "q": "日冕有多热？",
+    "a": "日冕温度可达约200万K，即2×10⁶ K量级；它是光学薄等离子体的诊断温度，不同高度和区域差异很大。",
+    "entries": [
+      "temperature.solar-corona"
+    ]
+  },
+  {
+    "id": "qa-o-star-temp",
+    "q": "O型星表面有多热？",
+    "a": "教学表把O型星放在约30,000–50,000 K，代表值约41,000 K；本页取40,000 K作教学锚点，不是单颗实测值。",
+    "entries": [
+      "temperature.o-type-star-surface"
+    ]
+  },
+  {
+    "id": "qa-red-dwarf-temp",
+    "q": "红矮星表面温度是多少？",
+    "a": "红矮星属M型主序星，温区约2,400–3,900 K；本页取3,000 K作锚点，M0V约3,850 K、M7V约2,680 K。",
+    "entries": [
+      "temperature.red-dwarf-surface"
+    ]
+  },
+  {
+    "id": "qa-a-star-temp",
+    "q": "A型星表面温度是多少？",
+    "a": "教学分类把A型星放在约7,500–11,000 K，本页取9,500 K作尺度锚点；类别内部温度有差异，不是统一值。",
+    "entries": [
+      "temperature.a-type-star"
+    ]
+  },
+  {
+    "id": "qa-white-dwarf-temp",
+    "q": "白矮星表面有多热？",
+    "a": "以天狼星B为例，NASA/Chandra给出表面温度约25,000 K；这是该白矮星的有效温度概览，不代表所有白矮星。",
+    "entries": [
+      "temperature.white-dwarf-surface"
+    ]
+  },
+  {
+    "id": "qa-neutron-star-temp",
+    "q": "中子星表面温度是多少？",
+    "a": "仙后座A中子星的碳大气模型给出表面有效温度约2×10⁶ K；不同年龄与大气成分的中子星会有不同温度。",
+    "entries": [
+      "temperature.neutron-star-surface"
+    ]
+  },
+  {
+    "id": "qa-fusion-plasma-temp",
+    "q": "聚变堆等离子体要达到多高温度？",
+    "a": "ITER的设计目标约1.5亿摄氏度，即约1.5×10⁸ K，约为太阳核心的十倍；这是设计参数，不是已实现运行值。",
+    "entries": [
+      "temperature.fusion-reactor-plasma",
+      "temperature.sun-core"
+    ]
+  },
+  {
+    "id": "qa-21cm-spin-temp",
+    "q": "21厘米自旋温度就是氢气的实际温度吗？",
+    "a": "不是。冷中性云的自旋温度典型约100 K，常见范围约10–1,000 K；它描述超精细能级布居，由碰撞、辐射场和莱曼阿尔法光子共同决定，不等于动理学温度。",
+    "entries": [
+      "temperature.21cm-spin-temperature",
+      "space.hydrogen-21cm"
+    ]
+  },
+  {
+    "id": "qa-sgr-a-horizon",
+    "q": "银河系中心黑洞的事件视界有多大？",
+    "a": "人马座A*质量约400万太阳质量，事件视界直径约2.4×10¹⁰米，史瓦西半径约1.2×10¹⁰米。这是视界，不是EHT阴影。",
+    "entries": [
+      "space.sagittarius-a-star"
+    ]
+  },
+  {
+    "id": "qa-m87-horizon",
+    "q": "M87*的事件视界有多大？",
+    "a": "M87*质量约65亿太阳质量，事件视界直径约3.8×10¹³米，即约380亿公里。该值由质量推算，不是阴影直径。",
+    "entries": [
+      "space.m87-black-hole"
+    ]
+  },
+  {
+    "id": "qa-quasar-host-size",
+    "q": "类星体本身有10万光年那么大吗？",
+    "a": "类星体本体没有10万光年量级：条目给的9.5×10²⁰米是宿主星系参考直径，核心吸积盘仅天文单位或更小。",
+    "entries": [
+      "space.quasar"
+    ]
+  },
+  {
+    "id": "qa-milky-way-width",
+    "q": "银河系的恒星盘有多宽？",
+    "a": "银河系恒星盘横向跨度约10万光年，约9.46×10²⁰米；这是盘尺度概览，不含完整暗物质晕。",
+    "entries": [
+      "space.milky-way"
+    ]
+  },
+  {
+    "id": "qa-local-group-span",
+    "q": "本星系群的跨度有多大？",
+    "a": "本星系群成员分布跨度约1000万光年，约9.46×10²²米。它是概览范围，不是清晰球壳或硬边界。",
+    "entries": [
+      "space.local-group"
+    ]
+  },
+  {
+    "id": "qa-virgo-cluster-span",
+    "q": "室女座星系团的横向跨度有多大？",
+    "a": "室女座星系团横向跨度约3.5 Mpc，约1.08×10²³米（约1100万光年），由约10°角径与约20 Mpc距离换算，不是维里半径。",
+    "entries": [
+      "space.virgo-cluster"
+    ]
+  },
+  {
+    "id": "qa-laniakea-span",
+    "q": "拉尼亚凯亚超星系团的直径有多大？",
+    "a": "拉尼亚凯亚在2014年速度场研究中近似圆形，直径约160 Mpc，约4.94×10²⁴米。边界由速度场定义，不是实体外壳。",
+    "entries": [
+      "space.laniakea"
+    ]
+  },
+  {
+    "id": "qa-observable-universe-diameter",
+    "q": "可观测宇宙的直径有多大？",
+    "a": "可观测宇宙直径约930亿光年，约8.8×10²⁶米。它是指定宇宙学模型中的粒子视界，不是宇宙整体的物理边缘。",
+    "entries": [
+      "space.observable-universe"
+    ]
+  },
+  {
+    "id": "qa-olympus-mons-base",
+    "q": "火星奥林匹斯山的基底跨度有多大？",
+    "a": "奥林匹斯山基底横向跨度约600公里，取NASA奥德赛口径；高度约27公里、中央山体宽约700公里是另外的口径。",
+    "entries": [
+      "space.olympus-mons"
+    ]
+  },
+  {
+    "id": "qa-europa-diameter",
+    "q": "木卫二的直径有多大？",
+    "a": "木卫二体积等效平均直径约3,122公里，由NASA平均半径1,560.8公里加倍得到；口径为冰壳表面，不含稀薄大气。",
+    "entries": [
+      "space.europa"
+    ]
+  },
+  {
+    "id": "qa-titan-diameter",
+    "q": "土卫六的固体直径有多大？",
+    "a": "土卫六固体表面平均直径约5,150公里，由平均半径2,575公里加倍得到；不含厚达数百公里的氮气大气与雾霾。",
+    "entries": [
+      "space.titan"
+    ]
+  },
+  {
+    "id": "qa-neuron-soma-size",
+    "q": "神经元的胞体有多大？",
+    "a": "神经元胞体典型直径约20微米，组织学范围约6–80微米；口径是胞体，不含树突和轴突长度。",
+    "entries": [
+      "space.neuron"
+    ]
+  },
+  {
+    "id": "qa-cambrian-start",
+    "q": "寒武纪从什么时候开始？",
+    "a": "寒武纪起始边界约5.388亿年前，采用ICS 2024/12的538.8±0.6 Ma。这是纪界参考，不代表所有动物在当天出现。",
+    "entries": [
+      "time.cambrian"
+    ]
+  },
+  {
+    "id": "qa-phanerozoic-span",
+    "q": "显生宙有多长？",
+    "a": "显生宙从约5.39亿年前延续至今，底界取538.8±0.6 Ma，只占地球历史约八分之一。它是复杂生命化石记录扩展的阶段。",
+    "entries": [
+      "time.phanerozoic"
+    ]
+  },
+  {
+    "id": "qa-mesozoic-span",
+    "q": "中生代从什么时候到什么时候？",
+    "a": "中生代约从2.52亿年前延续到6600万年前，含三叠纪、侏罗纪和白垩纪；起点取251.902±0.024 Ma。",
+    "entries": [
+      "time.mesozoic"
+    ]
+  },
+  {
+    "id": "qa-k-pg-age",
+    "q": "白垩纪—古近纪灭绝发生在什么时候？",
+    "a": "K–Pg界线约66.00 Ma，约6600万年前；约76%物种消失，非鸟恐龙灭绝。灭绝与生态恢复跨更长时间。",
+    "entries": [
+      "time.k-pg-extinction"
+    ]
+  },
+  {
+    "id": "qa-permian-extinction-age",
+    "q": "二叠纪末大灭绝发生在什么时候？",
+    "a": "二叠纪末大灭绝约251.9 Ma，即251.902±0.024 Ma，约96%物种损失；灭绝呈脉冲式，不是瞬间完成。",
+    "entries": [
+      "time.permian-triassic-extinction"
+    ]
+  },
+  {
+    "id": "qa-homo-sapiens-age",
+    "q": "最早的早期智人化石有多久？",
+    "a": "早期智人化石约30万年前，出自杰贝尔伊尔胡德；另有资料写约31.5万年。这是化石锚点，不等于物种全球起源时刻。",
+    "entries": [
+      "time.rise-homo-sapiens"
+    ]
+  },
+  {
+    "id": "qa-writing-age",
+    "q": "两河流域的早期文字出现在什么时候？",
+    "a": "两河流域早期文字约公元前3300年，约5300年前；乌鲁克原始楔形文字泥板约3200—3000 BCE。不是全球文字同日发明。",
+    "entries": [
+      "time.invention-of-writing"
+    ]
+  },
+  {
+    "id": "qa-middle-ages-span",
+    "q": "中世纪大概有多长？",
+    "a": "中世纪约从公元5世纪西罗马灭亡到文艺复兴，文艺复兴起点因地区在13、14或15世纪；476年仅是西欧参照。",
+    "entries": [
+      "time.middle-ages"
+    ]
+  },
+  {
+    "id": "qa-industrial-revolution-start",
+    "q": "英国工业革命从什么时候开始？",
+    "a": "英国工业化阶段约1760—1830年，1760年是导航锚点；它不是某台机器启动日，也不是各国同步进入工业时代。",
+    "entries": [
+      "time.industrial-revolution"
+    ]
+  },
+  {
+    "id": "qa-c14-half-life",
+    "q": "碳-14的半衰期是多少？",
+    "a": "碳-14半衰期约5700年，IAEA推荐5700±30年，教科书常写5730±40年；它衡量衰变一半的时长，不是文物年龄。",
+    "entries": [
+      "time.c14-half-life"
+    ]
+  },
+  {
+    "id": "qa-u238-half-life",
+    "q": "铀-238的半衰期是多少？",
+    "a": "铀-238半衰期约44.68亿年，IAEA推荐4.468±0.005十亿年；它是核素寿命，不是某个宇宙事件发生的时刻。",
+    "entries": [
+      "time.u238-half-life"
+    ]
+  },
+  {
+    "id": "qa-galactic-year",
+    "q": "一个银河年有多长？",
+    "a": "银河年约2.3亿年，即太阳系绕银心公转一圈；文献范围约2.25亿至2.5亿年，不是银河系年龄。",
+    "entries": [
+      "time.galactic-year"
+    ]
+  },
+  {
+    "id": "qa-black-hole-evaporation-10msun",
+    "q": "10倍太阳质量的黑洞多久会蒸发？",
+    "a": "10倍太阳质量史瓦西黑洞蒸发约6.6×10⁷⁷秒，约2×10⁷⁰年。按霍金辐射模型推算，不是观测记录。",
+    "entries": [
+      "time.black-hole-evaporation"
+    ]
+  },
+  {
+    "id": "qa-heat-death-time",
+    "q": "宇宙热死亡大约在什么时候？",
+    "a": "热死亡常见估算在约10¹⁰⁰年后，即3.16×10¹⁰⁷秒；这是理论渐近状态，不是可观测的瞬间日程。",
+    "entries": [
+      "time.heat-death"
+    ]
+  },
+  {
+    "id": "qa-future-supercontinent-time",
+    "q": "下一次超大陆聚合大约在什么时候？",
+    "a": "下次超大陆聚合模型参考约2.5亿年后，另有Amasia约2亿年后；不同情景布局不同，聚合并持续数千万年。",
+    "entries": [
+      "time.future-supercontinent"
+    ]
+  },
+  {
+    "id": "qa-aluminum-melting",
+    "q": "纯铝的熔点是多少？",
+    "a": "纯铝在常压约933.473 K熔化，即660.323°C，是ITS-90固定点；铝合金与商业纯铝不能套用这一位小数。",
+    "entries": [
+      "temperature.aluminum-melting"
+    ]
+  },
+  {
+    "id": "qa-iron-melting",
+    "q": "纯铁的熔点是多少？",
+    "a": "纯铁常压熔点约1811 K，即1538°C。它只适用于纯铁；钢含碳约0.1%–2%，熔化区间不同，地核铁也不适用。",
+    "entries": [
+      "temperature.iron-melting"
+    ]
+  },
+  {
+    "id": "qa-tungsten-melting",
+    "q": "钨的熔点是多少？",
+    "a": "纯钨常压熔点约3687 K，即3414°C，是熔点最高的金属。钨合金、碳化钨与灯丝工作温度不能套用此值。",
+    "entries": [
+      "temperature.tungsten-melting"
+    ]
+  },
+  {
+    "id": "qa-quartz-melting",
+    "q": "石英的熔点是多少？",
+    "a": "结晶石英常压熔点约1986 K，即1713°C；石英玻璃没有固定熔点，约1983 K（1710°C）附近软化，两者口径不同。",
+    "entries": [
+      "temperature.quartz-melting"
+    ]
+  },
+  {
+    "id": "qa-salt-melting",
+    "q": "食盐的熔点是多少？",
+    "a": "纯氯化钠常压熔点约1074 K，即801°C；这是NaCl晶体固液平衡，不是食盐水溶液沸点，也不是火焰温度。",
+    "entries": [
+      "temperature.salt-melting"
+    ]
+  },
+  {
+    "id": "qa-venus-surface-temp",
+    "q": "金星表面平均温度是多少？",
+    "a": "金星平均表面温度约737 K，即464°C，表面气压约92 bar。它是行星尺度平均参考，不是云顶或单点瞬时值。",
+    "entries": [
+      "temperature.venus-surface"
+    ]
+  },
+  {
+    "id": "qa-mars-surface-temp",
+    "q": "火星表面平均温度是多少？",
+    "a": "火星全球近地表平均温度约210 K，即−63°C，NASA大气平均约214 K；温度轴用208.15 K，属概览圆整值。",
+    "entries": [
+      "temperature.mars-surface"
+    ]
+  },
+  {
+    "id": "qa-jupiter-cloud-temp",
+    "q": "木星云顶温度是多少？",
+    "a": "木星1 bar参考层温度约165 K，即−108°C；0.1 bar处约112 K，有效温度约109.9 K。它没有固体表面。",
+    "entries": [
+      "temperature.jupiter-cloud"
+    ]
+  },
+  {
+    "id": "qa-titan-surface-temp",
+    "q": "土卫六表面温度是多少？",
+    "a": "土卫六表面温度约94 K，即−179°C，表面气压约1.5 bar。它是冰质表面温度，不是高层大气或内部温度。",
+    "entries": [
+      "temperature.titan-surface"
+    ]
+  },
+  {
+    "id": "qa-solar-corona-temp",
+    "q": "太阳日冕的温度是多少？",
+    "a": "日冕温度约2×10⁶ K，NASA概览称可达约200万°C；这是高温量级，区域与高度差异可达百万开尔文，不是均温。",
+    "entries": [
+      "temperature.solar-corona"
+    ]
+  },
+  {
+    "id": "qa-liquid-nitrogen-temp",
+    "q": "液氮的温度是多少？",
+    "a": "氮的正常沸点约77.34 K，即−195.81°C，对应约一个标准大气压下的液氮；其他压力下温度会不同。",
+    "entries": [
+      "temperature.liquid-nitrogen"
+    ]
+  },
+  {
+    "id": "qa-bec-temp",
+    "q": "玻色–爱因斯坦凝聚在多少温度出现？",
+    "a": "1995年稀薄铷气体在约170 nK，即1.7×10⁻⁷ K出现玻色–爱因斯坦凝聚；临界温度随原子种类、密度与阱参数变化。",
+    "entries": [
+      "temperature.bose-einstein"
+    ]
+  },
+  {
+    "id": "qa-hawking-temp",
+    "q": "10倍太阳质量黑洞的霍金温度是多少？",
+    "a": "10倍太阳质量史瓦西黑洞的霍金温度约6.2×10⁻⁹ K；1倍太阳质量约6.2×10⁻⁸ K。它是理论值，不是实测温度。",
+    "entries": [
+      "temperature.hawking-temperature"
+    ]
+  },
+  {
+    "id": "qa-sun-three-values",
+    "q": "太阳的直径、表面温度和核心温度分别是多少？",
+    "a": "太阳参考直径约1.3914×10⁹米；光球有效温度约5772 K；核心约1.5×10⁷ K。三个数分别对应尺寸、辐射与内部，不能互代。",
+    "entries": [
+      "space.sun",
+      "temperature.sun-surface",
+      "temperature.sun-core"
+    ]
+  },
+  {
+    "id": "qa-earth-three-values",
+    "q": "地球的直径、地核铁熔化温度和形成时间分别是多少？",
+    "a": "地球平均直径约1.2742×10⁷米；内核边界压力下纯铁熔化约6230±500 K；地球形成约45亿年前。三者分属尺寸、温度与时间。",
+    "entries": [
+      "space.earth",
+      "temperature.earths-core",
+      "time.earth-formation"
+    ]
+  },
+  {
+    "id": "qa-moon-three-values",
+    "q": "月球的直径、夜侧温度和形成时间分别是多少？",
+    "a": "月球平均直径约3474.8公里；夜侧表面约100 K，即−173°C；月球形成约45亿年前，取自大碰撞假说参考。",
+    "entries": [
+      "space.moon",
+      "temperature.moon-night",
+      "time.giant-impact"
+    ]
+  },
+  {
+    "id": "qa-andromeda-distance-vs-diameter",
+    "q": "仙女座星系的距离和直径有什么区别？",
+    "a": "仙女座到地球约250万光年，约2.37×10²²米；其恒星盘直径约20万光年，约1.89×10²¹米。距离与直径差一个量级以上，不能混用。",
+    "entries": [
+      "space.andromeda-distance",
+      "space.andromeda-galaxy"
+    ]
+  },
+  {
+    "id": "qa-milky-way-disk-vs-halo",
+    "q": "银河系的盘和恒星晕哪个更大？",
+    "a": "银河系恒星盘约10万光年，恒星晕直径约20万光年；暗物质晕更大。盘、恒星晕与暗晕是三个不同边界。",
+    "entries": [
+      "space.milky-way",
+      "space.milky-way-halo"
+    ]
+  },
+  {
+    "id": "qa-black-hole-horizon-vs-shadow",
+    "q": "黑洞的事件视界和EHT阴影是一回事吗？",
+    "a": "M87*事件视界直径约3.8×10¹³米；EHT阴影比视界更大，因光线在强引力下弯曲。视界、阴影与亮环不是同一口径。",
+    "entries": [
+      "space.m87-black-hole",
+      "space.black-hole-event-horizon"
+    ]
+  },
+  {
+    "id": "qa-cmb-temp-vs-wavelength",
+    "q": "宇宙微波背景的2.725 K对应什么波段？",
+    "a": "CMB黑体谱温度约2.725 K，属微波波段，波长约1毫米至1米，代表值1厘米。温度描述辐射场，不是物体表面温度。",
+    "entries": [
+      "temperature.cmb",
+      "space.microwave"
+    ]
+  },
+  {
+    "id": "qa-visible-light-vs-atom",
+    "q": "可见光的波长和原子尺度相比如何？",
+    "a": "可见光波长约400–700纳米，取中值550纳米；氢原子比较长度约1.058×10⁻¹⁰米。光波长比原子尺度大得多，不能放在同一把尺上。",
+    "entries": [
+      "space.visible-light",
+      "space.atom"
+    ]
+  },
+  {
+    "id": "qa-galactic-year-vs-formation",
+    "q": "银河年和银河系形成时间是一回事吗？",
+    "a": "银河年约2.3亿年，是太阳绕银心一圈的周期；银河厚盘早期形成在大爆炸后约8亿年。一个是时长，一个是形成时点。",
+    "entries": [
+      "time.galactic-year",
+      "time.milky-way-formation"
+    ]
+  },
+  {
+    "id": "qa-black-hole-evap-vs-hawking",
+    "q": "黑洞蒸发时间和霍金温度如何对应？",
+    "a": "10倍太阳质量黑洞蒸发约6.6×10⁷⁷秒，霍金温度约6.2×10⁻⁹ K；质量越大温度越低。两者都是模型推断，不能当观测。",
+    "entries": [
+      "time.black-hole-evaporation",
+      "temperature.hawking-temperature"
+    ]
+  },
+  {
+    "id": "qa-heat-death-vs-last-stars",
+    "q": "最后一代恒星和热死亡哪个更晚？",
+    "a": "最后一代恒星约10¹⁴年后，热死亡约10¹⁰⁰年后；热死亡晚得多，且是能量梯度消失的渐近状态，不是瞬间事件。",
+    "entries": [
+      "time.last-stars",
+      "time.heat-death"
+    ]
+  },
+  {
+    "id": "qa-supercontinent-vs-uninhabitable",
+    "q": "未来超大陆和地球不宜居哪个先发生？",
+    "a": "未来超大陆约2.5亿年后，地球不再宜居约15亿年后；超大陆聚合早于宜居性终止，二者都是模型推断。",
+    "entries": [
+      "time.future-supercontinent",
+      "time.earth-uninhabitable"
+    ]
+  },
+  {
+    "id": "qa-andromeda-collision-vs-red-giant",
+    "q": "银河—仙女座碰撞和太阳红巨星阶段哪个更早？",
+    "a": "银河—仙女座首次接近常见模型约45亿年后，太阳进入红巨星约50亿年后；碰撞略早于红巨星阶段，均为模型推断。",
+    "entries": [
+      "time.andromeda-collision",
+      "time.sun-red-giant-phase"
+    ]
+  },
+  {
+    "id": "qa-sauna-vs-boiling",
+    "q": "桑拿房空气和沸水温度接近，为什么风险不同？",
+    "a": "桑拿房空气约80°C，即353 K，强调是空气温度；水在常压约100°C，即373.15 K沸腾。温度接近但介质不同，不能把空气温度当安全上限。",
+    "entries": [
+      "temperature.sauna",
+      "temperature.boiling-water"
+    ]
+  },
+  {
+    "id": "qa-observable-universe-vs-age",
+    "q": "可观测宇宙为什么比宇宙年龄乘光速还大？",
+    "a": "可观测宇宙直径约930亿光年，即8.8×10²⁶米；宇宙年龄约138亿年。距离不是年龄乘光速，膨胀使当前视界更大。",
+    "entries": [
+      "space.observable-universe",
+      "time.present"
+    ]
+  },
+  {
+    "id": "qa-hour-seconds",
+    "q": "一小时等于多少秒？",
+    "a": "一小时等于 3,600 秒，这是基于 SI 秒的定义换算；它不等于一个真太阳时的长度，后者因地球自转变化略有差异。",
+    "entries": [
+      "time.hour",
+      "time.second"
+    ]
+  },
+  {
+    "id": "qa-liquid-nitrogen-temperature",
+    "q": "液氮的温度是多少？",
+    "a": "液氮在常压下约 77.34 K，即约 −195.81 °C；这是沸点温度，实际使用温度会因压力与容器条件不同。",
+    "entries": [
+      "temperature.liquid-nitrogen"
+    ]
+  },
+  {
+    "id": "qa-everest-height",
+    "q": "珠穆朗玛峰有多高？",
+    "a": "2020 年公布的雪面高程为 8,848.86 米；这是雪面高程，不是裸露岩面高度，也不等于山体高度。",
+    "entries": [
+      "space.everest"
+    ]
+  },
+  {
+    "id": "qa-mariana-depth",
+    "q": "马里亚纳海沟最深有多深？",
+    "a": "挑战者深渊最大深度约 10,935 米；这是水深测量值，不是海沟长度，也不代表整条海沟处处都这么深。",
+    "entries": [
+      "space.mariana-trench"
+    ]
+  },
+  {
+    "id": "qa-human-height",
+    "q": "人体尺度一般取多高？",
+    "a": "站点常用 1.7 米作为成人比较参考高度；这是自选比较值，不是全球平均身高，也不代表所有个体。",
+    "entries": [
+      "space.human"
+    ]
+  },
+  {
+    "id": "qa-sedna-aphelion-model",
+    "q": "塞德娜的远日点为什么是模型值，而不是一次实测距离？",
+    "a": "远日点是轨道拟合外推的结果，不是在天体到达那里时测到的距离。常用轨道解给约 937 au，另有解给约 1,007 au；两者都应标注为模型值，并说明观测弧与拟合方案。",
+    "entries": [
+      "space.sedna",
+      "space.oort-cloud"
+    ]
+  },
+  {
+    "id": "qa-inner-oort-boundary",
+    "q": "奥尔特云内层的 20,000 au 是观测到的边界吗？",
+    "a": "不是。它是理论模型与彗星轨道反推给出的分层约定；Britannica 把内层起点写在约 20,000 au，NASA 图版则给出整个云 5,000–100,000 au 的宽范围。奥尔特云从未被直接成像。",
+    "entries": [
+      "space.inner-oort-cloud",
+      "space.oort-cloud",
+      "space.sedna"
+    ]
+  },
+  {
+    "id": "qa-temperature-ladder-gaps",
+    "q": "温度阶梯里为什么保留空档，而不是每一级都填一个条目？",
+    "a": "空档只出现在没有同口径实测对象的区间，例如 10⁻⁸ K 与 10¹⁴–10³¹ K。后者虽有电弱过渡等模型温标，但不是实测值；保留空档，正是为了不把模型值与测量值混在同一把尺上。",
+    "entries": [
+      "temperature.bose-einstein",
+      "temperature.early-universe-1e-6-seconds",
+      "temperature.planck-temperature"
+    ]
+  }
+]

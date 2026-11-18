@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="质量不是体积，也不是重量。从 10⁻³⁶ kg 到 10⁵³ kg，90 个十进位压成 16 个覆盖带，每个带只回答一件事：这个对象本身有多少质量。">
+<meta property="og:title" content="质量 · 尺度 MAGNITUDE">
+<meta property="og:description" content="质量不是体积，也不是重量。从 10⁻³⁶ kg 到 10⁵³ kg，90 个十进位压成 16 个覆盖带，每个带只回答一件事：这个对象本身有多少质量。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="尺度 MAGNITUDE">
+<meta name="twitter:card" content="summary">
+<title>质量 · 尺度 MAGNITUDE</title>
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/refined.css">
+<link rel="stylesheet" href="./mass.css">
+<link rel="stylesheet" href="./stage.css">
+<script type="importmap">{"imports":{"three":"/vendor/three.module.js"}}</script>
+<script type="module" src="/brand.js"></script>
+<link rel="stylesheet" href="/theme.css"></head>
+<body class="mass-page">
+<a class="skip-link" href="#main">跳至正文</a>
+<header class="topbar">
+  <a class="brand" href="/"><span class="brand-mark">◎</span><strong>尺度</strong><span class="brand-en">MAGNITUDE</span></a>
+  <nav aria-label="尺度站点">
+    <a href="/space/">空间<span>SPACE</span></a>
+    <a href="/time/">时间<span>TIME</span></a>
+    <a href="/temperature/">温度<span>TEMPERATURE</span></a>
+    <a href="/elements/">元素<span>ELEMENTS</span></a>
+    <a class="active" aria-current="page" href="/mass/">质量<span>MASS</span></a>
+    <a href="/library/">知识库</a>
+  </nav>
+</header>
+<main id="main" tabindex="-1">
+  <section class="mass-immersive" id="mass-immersive" aria-label="质量深渊：引力场与质量对象三维示意">
+    <div id="stage" role="img" aria-label="质量深渊与引力场三维示意；拖动旋转，滚轮下潜"></div>
+    <div class="vignette" aria-hidden="true"></div>
+    <div class="scanlines" aria-hidden="true"></div>
+    <div class="mass-axis" aria-hidden="true"></div>
+
+    <div class="mass-intro">
+      <p class="eyebrow">THE MASS DESCENT <b>· 10⁻⁴⁰ → 10⁵³ kg</b></p>
+      <h1 data-en-html="The same world,<br>measured <em>differently</em>.">同一个世界，<br>换一把<em>秤</em>。</h1>
+      <p class="mass-lede" data-en="Mass is neither volume nor weight. Drag the logarithmic ruler to descend; every layer changes the gravity.">质量不是体积，也不是重量。拖动对数尺，向更重的地方下潜；每一层都换一种引力。</p>
+    </div>
+
+    <div class="mass-depth" aria-live="polite">
+      <strong data-en="DEPTH / Current depth">DEPTH / 当前深度</strong>
+      <span id="depthValue">10²⁴</span>
+      <em id="depthBand">B11 · 类地行星</em>
+    </div>
+
+    <div class="mass-watermark" aria-hidden="true">m<span>kg</span></div>
+
+    <nav class="mass-rail" id="bandRail" aria-label="质量覆盖带"></nav>
+
+    <aside class="mass-card card panel" aria-live="polite">
+      <div class="card-top">
+        <span class="pill" id="category">行星</span>
+        <span class="pill muted" id="band">B11</span>
+      </div>
+      <div class="symbol-row">
+        <div class="name"><span id="name">地球</span><em id="nameEn">EARTH</em></div>
+      </div>
+      <div class="mass-value" id="value">5.972×10²⁴ kg</div>
+      <p class="mass-measure" id="measure">地球总质量（含大气与海洋，不含暗物质）</p>
+      <div class="mass-meta">
+        <div class="stat"><label data-en="Basis">口径</label><strong id="type">总质量</strong></div>
+        <div class="stat"><label data-en="Dark matter">暗物质</label><strong id="dark">不含</strong></div>
+        <div class="stat"><label data-en="Method">方法</label><strong id="method">卫星轨道</strong></div>
+        <div class="stat"><label data-en="Uncertainty">不确定度</label><strong id="uncertainty">1×10⁻³</strong></div>
+      </div>
+      <div class="mass-ratio" id="ratio">≈ <strong>8.5×10²²</strong> 个成人</div>
+      <p class="summary" id="summary">地球总质量约 5.972×10²⁴ kg。数值由人造卫星轨道跟踪与引力场模型拟合。</p>
+      <a class="article-link" id="article" href="#" target="_blank" rel="noopener">阅读这个对象 <span>↗</span></a>
+    </aside>
+
+    <section class="console" aria-label="质量探索控制台">
+      <div class="console-head">
+        <span class="label">log₁₀(m / kg)</span>
+        <strong id="sliderCurrent">24.78 · 地球</strong>
+        <span class="spacer"></span>
+        <span class="meta" id="bandMeta">B11 · 10¹⁹–10²⁴ kg</span>
+      </div>
+      <input id="slider" type="range" min="-40" max="53" value="24.78" step="0.01" aria-label="质量对数尺">
+      <div class="ticks" id="ticks"></div>
+      <div class="actions">
+        <button class="btn" id="tour" aria-pressed="false" data-en-html="Begin descent <span>↗</span>">开始下潜 <span>↗</span></button>
+        <button class="btn ghost" id="reset" data-en="Back to Earth">回到地球</button>
+        <button class="btn ghost" id="photon" data-en="Zero-mass case">零质量特例</button>
+        <span class="hint" data-en="Drag to rotate · Scroll to descend · Click a band">拖动旋转 · 滚轮下潜 · 点击左侧覆盖带</span>
+        <a class="stage-down" href="#ladder-title">下方知识层 ↓</a>
+      </div>
+    </section>
+  </section>
+
+  <section class="mass-facts-brief" aria-label="质量轴概览">
+    <dl class="mass-facts">
+      <div><dt>94</dt><dd>个十进位（10⁻⁴⁰–10⁵³ kg）</dd></div>
+      <div><dt>16</dt><dd>个覆盖带，每带至少 6 条</dd></div>
+      <div><dt>146</dt><dd>条目标条目，按 M1–M6 补入</dd></div>
+      <div><dt>kg</dt><dd>唯一主单位，M☉ 只作显示换算</dd></div>
+    </dl>
+  </section>
+
+  <section class="mass-block" aria-labelledby="ladder-title">
+    <div class="mass-block-head">
+      <h2 id="ladder-title">质量阶梯</h2>
+      <p>纵向对数尺：先分 16 个覆盖带，再在带内排锚点。点进条目看读数、口径与来源；未补入的锚点保持“待补入”，不填占位数值。</p>
+    </div>
+    <p id="mass-summary" class="mass-summary">正在准备质量阶梯。若脚本未启用，下方覆盖带清单仍可阅读。</p>
+    <div id="mass-ladder" class="mass-ladder" aria-busy="true">
+      <p class="mass-placeholder">正在准备 16 个覆盖带…</p>
+    </div>
+  </section>
+
+  <section class="mass-block" aria-labelledby="measure-title">
+    <div class="mass-block-head">
+      <h2 id="measure-title">三种口径，不混用</h2>
+      <p>同样的“质量”二字，在粒子、物体和天体上不是同一套测量。</p>
+    </div>
+    <ul class="mass-measures">
+      <li>
+        <h3>粒子静质量</h3>
+        <p data-en="Invariant mass, using PDG values and fitted or direct measurements; energy from high-speed motion is not folded into quantity.value.">不变量质量。采用 PDG 版本与拟合/直接测量值；高速运动带来的能量不写进 <code>quantity.value</code>。</p>
+      </li>
+      <li>
+        <h3>束缚系统质量</h3>
+        <p>原子、分子与物体的整体实测质量。已包含结合能亏损，不能把质子、中子、电子的质量直接相加当原子质量。</p>
+      </li>
+      <li>
+        <h3>天体总质量</h3>
+        <p>由轨道、引力透镜或动力学拟合得到。必须注明是总质量、重子质量还是恒星质量，以及是否含暗物质。</p>
+      </li>
+      <li>
+        <h3>上下限</h3>
+        <p data-en="Neutrinos and photons have experimental upper limits only. Entries record bound: upper, and the article states the experiment and confidence level; an upper limit is never treated as a point value.">中微子与光子只有实验上限。条目写 <code>bound: upper</code>，正文给出实验名称与置信度，不把上限当点值。</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="mass-block" aria-labelledby="exclude-title">
+    <div class="mass-block-head">
+      <h2 id="exclude-title">这条轴不做什么</h2>
+      <p>边界写清楚，比多收几条更重要。</p>
+    </div>
+    <ul class="mass-excludes">
+      <li><strong>不把重量当质量。</strong>重量随重力变化，质量不随地点变化。</li>
+      <li><strong>不由体积或密度反推。</strong>质量、体积、密度是三个量；估算必须标注“由密度与体积估算”。</li>
+      <li><strong>不写类别平均。</strong>“一颗典型恒星”“一个星系”不是可命名个体，比较放在学习层。</li>
+      <li><strong>不把 E/c² 当光子质量。</strong>能量换算不是静质量；光子条目只承载实验上限。</li>
+    </ul>
+  </section>
+
+  <noscript>
+    <section class="mass-block" aria-labelledby="fallback-title">
+      <div class="mass-block-head">
+        <h2 id="fallback-title">16 个覆盖带</h2>
+        <p>脚本未启用，交互阶梯不可用；以下为完整覆盖带清单。</p>
+      </div>
+      <ol class="mass-fallback">
+        <li><strong>B1 · 10⁻⁴⁰–10⁻³¹ kg</strong> 中微子与轻子（10⁻⁴⁰–10⁻³⁹ 无同口径实测对象）</li>
+        <li><strong>B2 · 10⁻³⁰–10⁻²⁷ kg</strong> 夸克、轻子与核子</li>
+        <li><strong>B3 · 10⁻²⁶–10⁻²¹ kg</strong> 分子与生物大分子</li>
+        <li><strong>B4 · 10⁻²⁰–10⁻¹⁶ kg</strong> 病毒与蛋白机器</li>
+        <li><strong>B5 · 10⁻¹⁵–10⁻⁹ kg</strong> 细胞</li>
+        <li><strong>B6 · 10⁻⁸–10⁻³ kg</strong> 日常微粒</li>
+        <li><strong>B7 · 10⁻²–10² kg</strong> 人体与家具</li>
+        <li><strong>B8 · 10³–10⁷ kg</strong> 车辆与大型动物</li>
+        <li><strong>B9 · 10⁸–10¹² kg</strong> 巨型工程</li>
+        <li><strong>B10 · 10¹³–10¹⁸ kg</strong> 小天体</li>
+        <li><strong>B11 · 10¹⁹–10²⁴ kg</strong> 类地行星与卫星</li>
+        <li><strong>B12 · 10²⁵–10²⁸ kg</strong> 巨行星与系外行星</li>
+        <li><strong>B13 · 10²⁹–10³³ kg</strong> 恒星与致密遗迹</li>
+        <li><strong>B14 · 10³⁴–10⁴⁰ kg</strong> 黑洞与类星体</li>
+        <li><strong>B15 · 10⁴¹–10⁴⁷ kg</strong> 星系与星系团</li>
+        <li><strong>B16 · 10⁴⁸–10⁵³ kg</strong> 宇宙尺度</li>
+      </ol>
+    </section>
+  </noscript>
+</main>
+<footer class="site-footer"><span>尺度 MAGNITUDE <span class="footer-divider">·</span> 换一个尺度，看见另一个世界。</span><span><a href="/about/">关于</a><span class="footer-divider">·</span><a href="/license/">内容 CC BY 4.0 / 代码 MIT</a><span class="footer-divider">·</span>内容 v1.3.0</span></footer>
+<script type="module" src="./ladder.js"></script>
+<script type="module" src="./stage.js"></script>
+</body>
+</html>

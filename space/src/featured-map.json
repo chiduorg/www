@@ -1,0 +1,50 @@
+{
+  "space.planck": {
+    "scene": "space.planck"
+  },
+  "space.proton": {
+    "scene": "space.proton"
+  },
+  "space.atom": {
+    "scene": "space.atom"
+  },
+  "space.dna": {
+    "scene": "space.dna"
+  },
+  "space.virus": {
+    "scene": "space.virus"
+  },
+  "space.cell": {
+    "scene": "space.cell"
+  },
+  "space.sand-grain": {
+    "scene": "space.sand-grain"
+  },
+  "space.human": {
+    "scene": "space.human"
+  },
+  "space.moon": {
+    "scene": "space.moon"
+  },
+  "space.earth": {
+    "scene": "space.earth"
+  },
+  "space.jupiter": {
+    "scene": "space.jupiter"
+  },
+  "space.saturn": {
+    "scene": "space.saturn"
+  },
+  "space.sun": {
+    "scene": "space.sun"
+  },
+  "space.solar-system": {
+    "scene": "space.solar-system"
+  },
+  "space.milky-way": {
+    "scene": "space.milky-way"
+  },
+  "space.observable-universe": {
+    "scene": "space.observable-universe"
+  }
+}

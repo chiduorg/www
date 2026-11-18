@@ -1,0 +1,52 @@
+{
+  "name": "尺度 MAGNITUDE",
+  "tagline": "每一个尺度，都是一个世界。",
+  "brandStatus": "working",
+  "contentVersion": "1.3.0",
+  "engineVersion": "1.3.0",
+  "publicOrigin": "https://chidu.org",
+  "sites": {
+    "home": {
+      "label": "总览",
+      "path": "/",
+      "origin": "https://chidu.org",
+      "publicOrigin": "https://chidu.org"
+    },
+    "space": {
+      "label": "空间",
+      "path": "/",
+      "origin": "https://space.chidu.org",
+      "publicOrigin": "https://space.chidu.org",
+      "dimension": "length"
+    },
+    "time": {
+      "label": "时间",
+      "path": "/",
+      "origin": "https://time.chidu.org",
+      "publicOrigin": "https://time.chidu.org",
+      "dimension": "cosmic-time"
+    },
+    "temperature": {
+      "label": "温度",
+      "path": "/",
+      "origin": "https://temperature.chidu.org",
+      "publicOrigin": "https://temperature.chidu.org",
+      "dimension": "temperature"
+    },
+    "elements": {
+      "label": "元素",
+      "path": "/",
+      "origin": "https://elements.chidu.org",
+      "publicOrigin": "https://elements.chidu.org",
+      "dimension": "element"
+    },
+    "mass": {
+      "label": "质量",
+      "path": "/",
+      "origin": "https://mass.chidu.org",
+      "publicOrigin": "https://mass.chidu.org",
+      "dimension": "mass"
+    }
+  },
+  "staticOrigin": "https://static.chidu.org"
+}

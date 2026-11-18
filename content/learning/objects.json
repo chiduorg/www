@@ -1,0 +1,587 @@
+[
+  {
+    "id": "object-sun",
+    "title": "太阳",
+    "summary": "太阳是太阳系的光源与引力中心。直径约139万公里，光球约5,772 K，核心约1,500万K，日冕可达约200万K；时间上则有约11年活动周期与约50亿年后的红巨星阶段。",
+    "entries": [
+      "space.sun",
+      "space.sun_diameter",
+      "temperature.sun-surface",
+      "temperature.sun-core",
+      "temperature.solar-corona",
+      "time.sun-red-giant-phase",
+      "time.solar-cycle",
+      "mass.sun"
+    ]
+  },
+  {
+    "id": "object-earth",
+    "title": "地球",
+    "summary": "地球直径约12,742公里，内核半径约1,250公里、温度可达约6,230 K，海面约290 K。它约45亿年前形成，现有宜居环境预计还能维持约15亿年。",
+    "entries": [
+      "space.earth",
+      "space.earth-core",
+      "temperature.earths-core",
+      "temperature.sea-surface",
+      "time.earth-formation",
+      "time.present",
+      "time.earth-uninhabitable",
+      "mass.earth"
+    ]
+  },
+  {
+    "id": "object-moon",
+    "title": "月球",
+    "summary": "月球直径约3,474.8公里，与地球相距约384,400公里。向阳面约390 K、夜面约100 K；巨大温差与它约45亿年前可能经历的撞击形成史相连。",
+    "entries": [
+      "space.moon",
+      "space.moon_diameter",
+      "space.earth-moon-distance",
+      "temperature.moon-day",
+      "temperature.moon-night",
+      "time.giant-impact",
+      "mass.moon"
+    ]
+  },
+  {
+    "id": "object-mercury",
+    "title": "水星",
+    "summary": "水星直径约4,879公里，轨道半长轴约5,790万公里，向阳面可达约700 K。空间尺度、公转轨道与昼夜温度共同解释这颗最靠近太阳的行星。",
+    "entries": [
+      "space.mercury",
+      "space.mercury-orbit",
+      "temperature.mercury-day",
+      "time.solar-system",
+      "mass.mercury"
+    ]
+  },
+  {
+    "id": "object-venus",
+    "title": "金星",
+    "summary": "金星直径约12,104公里，大小接近地球，云层之下的表面约737 K。把空间尺寸与高温环境并读，能看到温室效应如何改写一颗类地行星。",
+    "entries": [
+      "space.venus",
+      "temperature.venus-surface",
+      "time.solar-system"
+    ]
+  },
+  {
+    "id": "object-mars",
+    "title": "火星",
+    "summary": "火星直径约6,779公里，奥林匹斯山基底跨度约600公里；表面约208 K，夜间约150 K。空间形态与低温环境共同塑造了这颗红色行星。",
+    "entries": [
+      "space.mars",
+      "space.olympus-mons",
+      "temperature.mars-surface",
+      "temperature.mars-night",
+      "time.solar-system"
+    ]
+  },
+  {
+    "id": "object-jupiter",
+    "title": "木星",
+    "summary": "木星直径约139,822公里，大红斑东西向约16,500公里，云顶约165 K。巨大尺度、长期风暴与寒冷云层构成同一颗气态巨行星的不同侧面。",
+    "entries": [
+      "space.jupiter",
+      "space.jupiter-red-spot",
+      "temperature.jupiter-cloud",
+      "time.solar-system",
+      "mass.jupiter"
+    ]
+  },
+  {
+    "id": "object-saturn",
+    "title": "土星",
+    "summary": "土星主体直径约116,464公里，主环外缘直径约273,560公里，云顶约134 K。把行星本体、环系与温度分开，才能理解它的尺度层次。",
+    "entries": [
+      "space.saturn",
+      "space.saturn-ring",
+      "temperature.saturn-cloud",
+      "time.solar-system",
+      "mass.saturn"
+    ]
+  },
+  {
+    "id": "object-uranus",
+    "title": "天王星",
+    "summary": "天王星直径约50,724公里，云顶约76 K。它以接近侧躺的姿态自转，空间姿态与极低温共同构成冰巨星的独特画像。",
+    "entries": [
+      "space.uranus",
+      "temperature.uranus-cloud",
+      "time.solar-system",
+      "mass.uranus"
+    ]
+  },
+  {
+    "id": "object-neptune",
+    "title": "海王星",
+    "summary": "海王星直径约49,244公里，云顶约72 K。远离太阳的空间位置与寒冷大气，让它成为太阳系外侧冰巨星的典型样本。",
+    "entries": [
+      "space.neptune",
+      "temperature.neptune-cloud",
+      "time.solar-system",
+      "mass.neptune"
+    ]
+  },
+  {
+    "id": "object-pluto",
+    "title": "冥王星",
+    "summary": "冥王星直径约2,376公里，表面约33–55 K，位于柯伊伯带。体积、温度与轨道环境共同说明它为何被归为矮行星。",
+    "entries": [
+      "space.pluto",
+      "temperature.pluto-surface",
+      "space.kuiper-belt",
+      "time.solar-system",
+      "mass.pluto"
+    ]
+  },
+  {
+    "id": "object-water",
+    "title": "水",
+    "summary": "水分子中两个氢核相距约0.15144纳米；它在273.15 K结冰、373.15 K沸腾，三相点为273.16 K。约44亿年前，地球表面已有液态水的线索。",
+    "entries": [
+      "space.water-molecule",
+      "temperature.water-freezing",
+      "temperature.water-triple-point",
+      "temperature.boiling-water",
+      "time.formation-of-oceans",
+      "elements.h",
+      "elements.o"
+    ]
+  },
+  {
+    "id": "object-iron",
+    "title": "铁",
+    "summary": "铁核电荷半径约3.7377飞米，纯铁熔点约1,811 K。恒星与超新星把铁散布到星际介质，其中一部分沉入地球核心，参与约6,230 K的高温环境。",
+    "entries": [
+      "space.iron-nucleus",
+      "temperature.iron-melting",
+      "temperature.earths-core",
+      "temperature.steelmaking_temp",
+      "time.heavy-element-enrichment",
+      "elements.fe"
+    ]
+  },
+  {
+    "id": "object-carbon",
+    "title": "碳",
+    "summary": "碳核电荷半径约2.4702飞米。它能组成0.335纳米的石墨烯层与0.7纳米的C₆₀，也能在约0.6–0.8 GK参与恒星聚变；石炭纪的碳循环另成一条时间线。",
+    "entries": [
+      "space.carbon-nucleus",
+      "space.graphene",
+      "space.fullerene",
+      "space.carbon-nanotube",
+      "temperature.carbon-fusion",
+      "temperature.carbon-sublimation",
+      "time.carboniferous-period",
+      "elements.c"
+    ]
+  },
+  {
+    "id": "object-oxygen",
+    "title": "氧",
+    "summary": "氧在约90.2 K液化。它参与约20亿K的恒星聚变，又在约24亿至21亿年前的大氧化事件中改变地球大气；从低温到高温再到地质时间，氧有多重身份。",
+    "entries": [
+      "space.atmosphere",
+      "temperature.oxygen-boiling",
+      "temperature.liquid-oxygen",
+      "temperature.oxygen-fusion",
+      "time.great-oxidation-event",
+      "elements.o"
+    ]
+  },
+  {
+    "id": "object-dna",
+    "title": "DNA",
+    "summary": "DNA宽约2纳米，B-DNA中每个核苷酸轴向上升约0.34纳米，凝缩成中期染色体约6微米。它承载人类基因组，其复制与体外培养细胞约24小时的分裂周期相扣。",
+    "entries": [
+      "space.dna",
+      "space.nucleotide",
+      "space.chromosome",
+      "time.human_genome",
+      "time.origin-of-sexual-reproduction",
+      "time.cell-division"
+    ]
+  },
+  {
+    "id": "object-cell",
+    "title": "细胞",
+    "summary": "细胞常以约20微米作入门参照，细菌约1微米，线粒体约2微米，叶绿体约5微米。约15亿年前的内共生，把不同尺度与一段演化时间连在一起。",
+    "entries": [
+      "space.cell",
+      "space.bacteria",
+      "space.ecoli",
+      "space.mitochondria",
+      "space.chloroplast",
+      "time.endosymbiosis",
+      "time.cell-division"
+    ]
+  },
+  {
+    "id": "object-human",
+    "title": "人类",
+    "summary": "人体高约1.7米，体温约310.15 K，全球出生预期寿命约73.3年。约30万年前智人特征出现，语言起源仍在约50万至10万年前之间被讨论。",
+    "entries": [
+      "space.human",
+      "time.human-lifespan",
+      "time.first-humans",
+      "time.rise-homo-sapiens",
+      "time.origin-of-language",
+      "temperature.human-body-temperature"
+    ]
+  },
+  {
+    "id": "object-milky-way",
+    "title": "银河系",
+    "summary": "银河系恒星盘直径约10万光年，太阳距银心约2.7万光年，银心黑洞事件视界直径约2.4×10¹⁰米。太阳绕行一周约2.3亿年，银河系约在宇宙8亿岁时开始成形。",
+    "entries": [
+      "space.milky-way",
+      "space.milky_way_disk",
+      "space.galactic-center",
+      "space.sagittarius-a-star",
+      "space.milky-way-halo",
+      "time.galactic-year",
+      "time.milky-way-formation",
+      "mass.milky-way"
+    ]
+  },
+  {
+    "id": "object-observable-universe",
+    "title": "可观测宇宙",
+    "summary": "可观测宇宙直径约930亿光年，微波背景约2.725 K，复合发生在宇宙约38万年。从大爆炸到宇宙黎明，尺度与历史互为坐标。",
+    "entries": [
+      "space.observable-universe",
+      "space.hubble-radius",
+      "space.cmb-surface",
+      "temperature.cmb",
+      "time.recombination",
+      "time.big-bang",
+      "time.cosmic-dawn",
+      "mass.observable-universe",
+      "mass.total-matter-universe"
+    ]
+  },
+  {
+    "id": "object-neutron-star",
+    "title": "中子星",
+    "summary": "中子星直径约20公里，表面可约2×10⁶ K，脉冲星热区约10⁶ K；脉冲周期从约1.4毫秒到11.8秒。极端密度、表面高温与稳定自转让它同时成为空间、温度与时间的参照。",
+    "entries": [
+      "space.neutron-star",
+      "temperature.neutron-star-surface",
+      "temperature.millisecond_pulsar",
+      "time.pulsar-period",
+      "mass.psr-j0348-0432"
+    ]
+  },
+  {
+    "id": "object-black-hole",
+    "title": "黑洞",
+    "summary": "恒星级黑洞事件视界半径约2.95×10⁴米，人马座A*视界直径约2.4×10¹⁰米，吸积盘模拟约10⁷ K；黑洞时代与蒸发把时间拉到10⁴⁷秒与10⁷⁷秒量级。",
+    "entries": [
+      "space.black-hole-event-horizon",
+      "space.sagittarius-a-star",
+      "temperature.black-hole-accretion-disk",
+      "time.black-hole-era",
+      "time.black-hole-evaporation",
+      "mass.sgr-a-star",
+      "mass.m87-black-hole"
+    ]
+  },
+  {
+    "id": "object-galaxy-cluster",
+    "title": "星系团",
+    "summary": "星系团跨度约9.46×10²²米（约1000万光年），室女座星系团约3.5 Mpc；早期原星系团可追溯到宇宙约6.5亿岁，星系穿越团内约需100亿年。",
+    "entries": [
+      "space.galaxy-cluster",
+      "space.virgo-cluster",
+      "time.first-galaxy-clusters",
+      "time.galaxy-cluster-crossing",
+      "mass.virgo-cluster"
+    ]
+  },
+  {
+    "id": "object-supernova",
+    "title": "超新星",
+    "summary": "超新星遗迹直径约9.5×10¹⁶米（约10光年），坍缩核心可达约10¹¹ K，激波突破约10⁹ K；整个爆发过程约1年，星族III超新星时代在宇宙约3亿岁。",
+    "entries": [
+      "space.supernova-remnant",
+      "temperature.supernova",
+      "temperature.supernova-shock-breakout",
+      "time.supernova-duration",
+      "time.pop-iii-supernovae",
+      "elements.fe"
+    ]
+  },
+  {
+    "id": "object-white-dwarf",
+    "title": "白矮星",
+    "summary": "白矮星典型直径约1.27×10⁷米（约地球大小），天狼星B表面约25,000 K；这类恒星残骸会一直冷却到“最后一代恒星”的遥远未来。",
+    "entries": [
+      "space.white-dwarf",
+      "temperature.white-dwarf-surface",
+      "time.last-stars"
+    ]
+  },
+  {
+    "id": "object-red-giant",
+    "title": "红巨星",
+    "summary": "类太阳红巨星阶段直径约3×10¹¹米，核心氦燃烧约10⁸ K；太阳进入这一阶段约在50亿年后。膨胀的外层与收缩的核心把空间与温度放在同一张图上。",
+    "entries": [
+      "space.red-giant",
+      "temperature.red-giant-core",
+      "time.solar-red-giant-time"
+    ]
+  },
+  {
+    "id": "object-atmosphere",
+    "title": "地球大气层",
+    "summary": "大气延伸到卡门线约100公里，平流层臭氧层约250 K；最早大气约在45亿年前出现，臭氧层的形成年代仍在核定。",
+    "entries": [
+      "space.atmosphere",
+      "temperature.ozone-layer",
+      "time.first-atmosphere",
+      "time.ozone_layer_formation"
+    ]
+  },
+  {
+    "id": "object-ocean",
+    "title": "海洋",
+    "summary": "太平洋东西向最大宽度约19,300公里，深海约2℃（275 K），温跃层约283 K；地球表面液态水的线索可追到约44亿年前。",
+    "entries": [
+      "space.pacific-ocean",
+      "temperature.deep-ocean",
+      "temperature.ocean-thermocline",
+      "time.formation-of-oceans"
+    ]
+  },
+  {
+    "id": "object-ice",
+    "title": "冰",
+    "summary": "大型冰山跨度上限约200米，冰川冰约260 K，冰盖表面约250 K；雪球地球与斯图尔特冰期发生在约7.17亿至6.60亿年前。",
+    "entries": [
+      "space.iceberg",
+      "temperature.glacier-ice",
+      "temperature.ice-sheet",
+      "time.snowball-earth"
+    ]
+  },
+  {
+    "id": "object-virus",
+    "title": "病毒",
+    "summary": "病毒约100纳米，COVID-19大流行被标定为2020年。语料目前只有空间与时间两个口径，温度维度暂无可核对条目，本页不补造数值。",
+    "entries": [
+      "space.virus",
+      "time.covid-pandemic"
+    ]
+  },
+  {
+    "id": "object-everest",
+    "title": "珠穆朗玛峰",
+    "summary": "珠峰雪面高程8,848.86米，雪面温度条目给出273.15 K的相变参照，造山过程典型持续约5×10⁷年。高程、表面相变与抬升时间共同定义这座山的“高度”。",
+    "entries": [
+      "space.everest",
+      "temperature.snow-surface",
+      "time.mountain-building"
+    ]
+  },
+  {
+    "id": "object-solar-system",
+    "title": "太阳系",
+    "summary": "太阳系以海王星轨道区域参考宽度约9×10¹²米计，太阳表面约5,772 K，形成于距今约46亿年。三个口径分别回答“多大、多热、何时形成”。",
+    "entries": [
+      "space.solar-system",
+      "temperature.sun-surface",
+      "time.solar-system",
+      "mass.sun"
+    ]
+  },
+  {
+    "id": "object-kuiper-belt",
+    "title": "柯伊伯带",
+    "summary": "柯伊伯带主区外缘约50 au，冥王星直径2,376公里、表面约33–55 K；它与太阳系形成同属一个时间框架。",
+    "entries": [
+      "space.kuiper-belt",
+      "space.pluto",
+      "temperature.pluto-surface",
+      "time.solar-system"
+    ]
+  },
+  {
+    "id": "object-oort-cloud",
+    "title": "奥尔特云",
+    "summary": "奥尔特云模型外缘约1.50×10¹⁶米（10万 au），内层起点约2.99×10¹⁵米（20,000 au），塞德娜远日点约1.40×10¹⁴米；这些距离都要放回太阳系形成的时间框架里读。",
+    "entries": [
+      "space.oort-cloud",
+      "space.inner-oort-cloud",
+      "space.sedna",
+      "time.solar-system"
+    ]
+  },
+  {
+    "id": "object-local-group",
+    "title": "本星系群",
+    "summary": "本星系群跨度约9.46×10²²米（约1000万光年），仙女座星系距我们约2.37×10²²米（250万光年）；银河与仙女座约45亿年后可能碰撞。空间、距离与时间三个口径在此交汇。",
+    "entries": [
+      "space.local-group",
+      "space.andromeda-distance",
+      "time.andromeda-collision",
+      "mass.local-group"
+    ]
+  },
+  {
+    "id": "object-sedna",
+    "title": "塞德娜",
+    "summary": "塞德娜远日点约1.40×10¹⁴米（937 au），位于日球层顶与奥尔特云内层之间。温度维度暂无可核对条目；时间维度只有太阳系形成背景，没有它的轨道周期条目。",
+    "entries": [
+      "space.sedna",
+      "space.oort-cloud",
+      "space.inner-oort-cloud",
+      "time.solar-system"
+    ]
+  },
+  {
+    "id": "object-earth-core",
+    "title": "地球内核",
+    "summary": "地球内核半径约1,250公里，内核边界纯铁熔化参照约6,230±500 K，铁在常压约1,811 K熔化；地球约45亿年前形成。",
+    "entries": [
+      "space.earth-core",
+      "temperature.earths-core",
+      "temperature.iron-melting",
+      "time.earth-formation",
+      "elements.fe"
+    ]
+  },
+  {
+    "id": "object-earth-mantle",
+    "title": "地幔",
+    "summary": "地幔底部固相线参照约3,570±200 K，地球直径12,742公里，造山过程可持续约5×10⁷年；同一圈层在空间、温度与时间上各有读数。",
+    "entries": [
+      "space.earth",
+      "temperature.earth-mantle",
+      "time.mountain-building"
+    ]
+  },
+  {
+    "id": "object-andromeda",
+    "title": "仙女座星系",
+    "summary": "仙女座星系直径约1.89×10²¹米（约20万光年），距我们约2.37×10²²米（250万光年）；银河与仙女座约45亿年后可能碰撞。",
+    "entries": [
+      "space.andromeda-galaxy",
+      "space.andromeda-distance",
+      "time.andromeda-collision",
+      "mass.andromeda"
+    ]
+  },
+  {
+    "id": "object-proxima-centauri",
+    "title": "比邻星",
+    "summary": "比邻星距离约4.26光年，作为红矮星表面约2,400–3,900 K。距离与表面温度是判断它周围行星环境的两把尺；时间维度暂无同口径条目。",
+    "entries": [
+      "space.proxima-centauri",
+      "temperature.red-dwarf-surface",
+      "mass.proxima-centauri"
+    ]
+  },
+  {
+    "id": "object-betelgeuse",
+    "title": "参宿四",
+    "summary": "参宿四直径约1.39×10¹²米，表面约3,600 K；作为大质量恒星，它的结局与超新星过程条目给出的约一年时间尺度相关。",
+    "entries": [
+      "space.betelgeuse",
+      "temperature.betelgeuse-surface",
+      "time.supernova-duration",
+      "mass.betelgeuse"
+    ]
+  },
+  {
+    "id": "object-quasar",
+    "title": "类星体",
+    "summary": "类星体宿主星系参考直径约9.5×10²⁰米（约10万光年），其活跃期与宇宙再电离阶段（约2亿至10亿年）重叠；温度维度暂无同口径条目。",
+    "entries": [
+      "space.quasar",
+      "time.reionization-epoch",
+      "mass.3c273"
+    ]
+  },
+  {
+    "id": "object-steel",
+    "title": "钢",
+    "summary": "钢晶粒典型直径约10微米，电弧炉出钢目标约1,893 K，铁在约1,811 K熔化；工业化早期转变约在250年前。",
+    "entries": [
+      "space.steel-grain",
+      "temperature.steelmaking_temp",
+      "temperature.iron-melting",
+      "time.industrial-revolution"
+    ]
+  },
+  {
+    "id": "object-glass",
+    "title": "玻璃",
+    "summary": "窗玻璃公称厚度约6毫米，玻璃转变区间约800–850 K，工作点约1,525 K；时间维度暂无同口径条目。",
+    "entries": [
+      "space.glass-pane",
+      "temperature.glass-transition",
+      "temperature.glass_melting"
+    ]
+  },
+  {
+    "id": "object-lightning",
+    "title": "闪电",
+    "summary": "闪电通道峰值可达约2.8×10⁴ K，弧光灯约4,000 K可作对照；时间维度可对照微秒条目（1微秒=10⁻⁶秒），但该条目只定义单位，不是闪电持续时间的实测值。空间维度暂无可核对条目。",
+    "entries": [
+      "temperature.lightning",
+      "temperature.arc-lamp",
+      "time.microsecond"
+    ]
+  },
+  {
+    "id": "object-tree",
+    "title": "树木",
+    "summary": "橡树成体高约25米，森林大火火焰约1,073 K，最早树木化石约在3.85亿年前。",
+    "entries": [
+      "space.oak-tree",
+      "temperature.forest-fire",
+      "time.first-trees"
+    ]
+  },
+  {
+    "id": "object-brain",
+    "title": "脑",
+    "summary": "成人脑前后径约15厘米，核心体温约310.15 K，早期智人化石线索约在30万年前。",
+    "entries": [
+      "space.brain",
+      "temperature.human-body-temperature",
+      "time.rise-homo-sapiens"
+    ]
+  },
+  {
+    "id": "object-heart",
+    "title": "心脏",
+    "summary": "成人心脏长径约12厘米，心跳周期0.6–1.0秒，核心体温约310.15 K。",
+    "entries": [
+      "space.heart",
+      "time.heartbeat",
+      "temperature.human-body-temperature"
+    ]
+  },
+  {
+    "id": "object-whale",
+    "title": "鲸",
+    "summary": "蓝鲸体长约30米，最早鲸类化石约在5,000万年前；人体体温条目给出约310 K的恒温动物核心温度参照，不能直接当成蓝鲸实测值。",
+    "entries": [
+      "space.blue-whale",
+      "time.first-whales",
+      "temperature.human-body-temperature"
+    ]
+  },
+  {
+    "id": "object-dinosaur",
+    "title": "恐龙",
+    "summary": "三角龙体长约9米，早期恐龙约在2.3亿年前出现，K–Pg灭绝约在6,600万年前；温度维度暂无可核对条目。",
+    "entries": [
+      "space.triceratops",
+      "time.dinosaurs",
+      "time.k-pg-extinction"
+    ]
+  }
+]

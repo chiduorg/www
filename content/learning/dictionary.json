@@ -1,0 +1,992 @@
+[
+  {
+    "id": "term-femtometer",
+    "term": "飞米",
+    "en": "femtometer",
+    "definition": "飞米是长度单位，1飞米等于10⁻¹⁵米，即千万亿分之一米；原子核直径通常为几飞米到十几飞米，常用于描述核与粒子尺度。",
+    "unit": "长度；1 飞米 = 10⁻¹⁵ 米",
+    "confusion": "把飞米与皮米、纳米混淆；原子核约几飞米，不是几纳米。",
+    "entries": [
+      "space.atomic-nucleus",
+      "space.proton"
+    ]
+  },
+  {
+    "id": "term-nanometer",
+    "term": "纳米",
+    "en": "nanometer",
+    "definition": "纳米是长度单位，1纳米等于10⁻⁹米，即十亿分之一米，也等于0.001微米；DNA双螺旋宽约2纳米，可见光波长约400至700纳米。",
+    "unit": "长度；1 纳米 = 10⁻⁹ 米 = 0.001 微米",
+    "confusion": "把纳米当成微米，或把芯片制程的纳米数当成实际物理宽度。",
+    "entries": [
+      "space.dna",
+      "space.visible-light"
+    ]
+  },
+  {
+    "id": "term-micrometer",
+    "term": "微米",
+    "en": "micrometer",
+    "definition": "微米是长度单位，1微米等于10⁻⁶米，即千分之一毫米；细菌常以1微米作量级参照，人体细胞约20微米，红细胞盘面直径约7.5微米。",
+    "unit": "长度；1 微米 = 10⁻⁶ 米 = 0.001 毫米",
+    "confusion": "把微米说成毫米，或把细菌的1微米当成所有细胞的大小。",
+    "entries": [
+      "space.bacteria",
+      "space.cell",
+      "space.red-blood-cell"
+    ]
+  },
+  {
+    "id": "term-meter",
+    "term": "米",
+    "en": "meter",
+    "definition": "米是国际单位制的基本长度单位，符号m，1米等于1000毫米；成人身高常取1.7米作日常参照，地球平均直径约1274万米。",
+    "unit": "长度；国际单位制基本单位，1 米 = 1000 毫米",
+    "confusion": "把长度单位米与平方米、立方米混为一谈，或把人体身高当成固定标准。",
+    "entries": [
+      "space.human",
+      "space.earth"
+    ]
+  },
+  {
+    "id": "term-kilometer",
+    "term": "千米",
+    "en": "kilometer",
+    "definition": "千米是长度单位，1千米等于1000米，也等于1公里；珠峰雪面高程8848.86米约合8.85千米，地球平均直径约12742千米，常用于比较地形与行星尺度。",
+    "unit": "长度；1 千米 = 1000 米",
+    "confusion": "以为千米和公里是两种单位，或把珠峰高程当成山体相对高度。",
+    "entries": [
+      "space.everest",
+      "space.earth"
+    ]
+  },
+  {
+    "id": "term-astronomical-unit",
+    "term": "天文单位",
+    "en": "astronomical unit",
+    "definition": "天文单位是天文学长度单位，定义为149,597,870,700米，约1.496亿千米，约合499光秒；它不是逐日变化的日地距离，2012年起为固定定义值。",
+    "unit": "长度；1 天文单位 = 149,597,870,700 米 ≈ 1.496 亿千米",
+    "confusion": "把1天文单位当成每天变化的日地距离，或把它与光年混用。",
+    "entries": [
+      "space.au",
+      "space.earth",
+      "space.solar-system"
+    ]
+  },
+  {
+    "id": "term-light-year",
+    "term": "光年",
+    "en": "light-year",
+    "definition": "光年是长度单位，指真空光在365.25日儒略年内走过的距离，等于9,460,730,472,580,800米，约合63,241天文单位，也约合3.262秒差距，是科普中最常用的星际距离单位。",
+    "unit": "长度；1 光年 ≈ 9.46×10¹⁵ 米 ≈ 63,241 天文单位",
+    "confusion": "把光年当成时间单位，误把“多少光年”读成年龄或旅行时长。",
+    "entries": [
+      "space.light-year",
+      "space.proxima-centauri"
+    ]
+  },
+  {
+    "id": "term-parsec",
+    "term": "秒差距",
+    "en": "parsec",
+    "definition": "秒差距是天文学长度单位，指恒星视差为1角秒时对应的距离，约等于3.26光年或3.09×10¹⁶米；它比光年略大，常用于恒星与星系距离。",
+    "unit": "长度；1 秒差距 ≈ 3.26 光年 ≈ 3.09×10¹⁶ 米",
+    "confusion": "把秒差距与光年当成等价单位，或误以为它是角度单位。",
+    "entries": [
+      "space.light-year",
+      "space.proxima-centauri",
+      "space.andromeda-distance"
+    ]
+  },
+  {
+    "id": "term-earth-radius",
+    "term": "地球半径",
+    "en": "Earth radius",
+    "definition": "地球半径没有唯一数值：体积等效平均半径约6371千米，赤道半径6378.137千米，极半径6356.752千米；引用时应说明采用哪一种口径。",
+    "unit": "长度；平均半径约 6371 千米（赤道 6378.137 千米，极半径 6356.752 千米）",
+    "confusion": "把6371千米当成沿任意方向的半径，忽略赤道与极半径的差异。",
+    "entries": [
+      "space.earth",
+      "space.everest"
+    ]
+  },
+  {
+    "id": "term-solar-radius",
+    "term": "太阳半径",
+    "en": "solar radius",
+    "definition": "太阳半径通常取光球平均半径695,700千米，约为地球半径的109倍；发光晕、喷发结构和向外延伸的日冕不计入这一比较口径。",
+    "unit": "长度；约 695,700 千米，约为地球半径的 109 倍",
+    "confusion": "把日冕或发光晕算进太阳半径，导致比较数值明显偏大。",
+    "entries": [
+      "space.sun",
+      "space.betelgeuse"
+    ]
+  },
+  {
+    "id": "term-solar-mass",
+    "term": "太阳质量",
+    "en": "solar mass",
+    "definition": "太阳质量是天文学质量单位，约等于1.99×10³⁰千克，常用于表示恒星、星团与黑洞的质量；10倍太阳质量约为1.99×10³¹千克。",
+    "unit": "质量；1 太阳质量 ≈ 1.99×10³⁰ 千克",
+    "confusion": "把太阳质量当成太阳大小，或把10倍太阳质量写成10倍太阳半径。",
+    "entries": [
+      "temperature.hawking-temperature",
+      "space.black-hole-event-horizon"
+    ]
+  },
+  {
+    "id": "term-schwarzschild-radius",
+    "term": "史瓦西半径",
+    "en": "Schwarzschild radius",
+    "definition": "史瓦西半径是不旋转球对称黑洞事件视界的半径，按Rs=2GM/c²计算，与质量成正比；10倍太阳质量对应约2.95×10⁴米，即约29.5千米。",
+    "unit": "长度；Rs = 2GM/c²，10 倍太阳质量约 2.95×10⁴ 米",
+    "confusion": "把史瓦西半径当成直径，于是把约30千米说成黑洞的宽度。",
+    "entries": [
+      "space.black-hole-event-horizon",
+      "temperature.hawking-temperature"
+    ]
+  },
+  {
+    "id": "term-event-horizon",
+    "term": "事件视界",
+    "en": "Event horizon",
+    "definition": "黑洞周围“有去无回”的边界：任何信号跨过它都无法逃到外界；对不旋转的球对称黑洞，它是一个半径等于史瓦西半径的球面。",
+    "unit": "半径；m，Rs=2GM/c²；10 倍太阳质量约 2.95×10⁴ m（约 30 km），M87* 的视界直径约 3.8×10¹³ m",
+    "confusion": "把事件视界当成实体表面，或把望远镜图像里的暗影直径直接当作视界直径；暗影受强引力透镜影响，通常比视界更大。",
+    "entries": [
+      "space.black-hole-event-horizon",
+      "space.m87-black-hole"
+    ]
+  },
+  {
+    "id": "term-observable-universe",
+    "term": "可观测宇宙",
+    "en": "observable universe",
+    "definition": "可观测宇宙指信息能够抵达观察者的范围，当前粒子视界直径约8.8×10²⁶米，即约930亿光年；它不是宇宙整体的物理边缘。",
+    "unit": "长度；当前粒子视界直径约 8.8×10²⁶ 米 ≈ 930 亿光年",
+    "confusion": "把可观测宇宙当成宇宙整体边界，以为边界外是一堵实体围墙。",
+    "entries": [
+      "space.observable-universe",
+      "time.recombination"
+    ]
+  },
+  {
+    "id": "term-second",
+    "term": "秒",
+    "en": "second",
+    "definition": "秒是国际单位制时间单位，定义为铯-133原子基态两个超精细能级跃迁辐射的9,192,631,770个周期；它衡量持续时长，不是宇宙时刻。",
+    "unit": "时间；SI 秒 = 9,192,631,770 个铯-133 跃迁周期",
+    "confusion": "把时间单位秒与大爆炸后一秒的宇宙时点混为一谈。",
+    "entries": [
+      "time.second",
+      "time.year"
+    ]
+  },
+  {
+    "id": "term-year",
+    "term": "年",
+    "en": "year",
+    "definition": "年是时间单位，公历平均年取365.2425日，约等于3.1556952×10⁷秒；回归年约365.2422日，两者每年相差约26秒，历法用它安排闰年与季节，不能随意混用。",
+    "unit": "时间；1 公历平均年 = 365.2425 日 ≈ 3.1556952×10⁷ 秒",
+    "confusion": "把365天当成精确年长，或把公历平均年与回归年混为一谈。",
+    "entries": [
+      "time.year",
+      "time.present"
+    ]
+  },
+  {
+    "id": "term-half-life",
+    "term": "半衰期",
+    "en": "Half-life",
+    "definition": "给定数量放射性核素中，约一半原子核发生衰变所需的时间；它是核素的统计性质，几乎不受温度、压力或化学状态影响。",
+    "unit": "时间；s 或年，1 年≈3.156×10⁷ s；碳-14 约 5,700 年（≈1.80×10¹¹ s），铀-238 约 44.68 亿年",
+    "confusion": "以为经过一个半衰期物质就“全部消失”或“恰好剩一半”；衰变是概率过程，样本越少统计波动越明显，不同核素的半衰期差异极大。",
+    "entries": [
+      "time.c14-half-life",
+      "time.u238-half-life"
+    ]
+  },
+  {
+    "id": "term-cosmic-age",
+    "term": "宇宙年龄",
+    "en": "age of the universe",
+    "definition": "宇宙年龄指自热大爆炸模型约定起点至今的时间，约138亿年，本站换算为约4.354×10¹⁷秒；它由观测与模型共同推断，不是直接测年。",
+    "unit": "时间；约 138 亿年 ≈ 4.354×10¹⁷ 秒",
+    "confusion": "把138亿年当成精确测年，或用年龄乘光速直接计算宇宙直径。",
+    "entries": [
+      "time.present",
+      "time.big-bang"
+    ]
+  },
+  {
+    "id": "term-epoch",
+    "term": "历元",
+    "en": "epoch",
+    "definition": "历元是时间轴上的具体时点，用来标记事件发生在何时，而不是一段过程持续多久；例如复合约发生在大爆炸后38万年，这是一个时代锚点。",
+    "unit": "时间坐标；标记时点，不表示持续时长",
+    "confusion": "把历元这个时点当成一段持续时长，例如把“38万年”读成事件长度。",
+    "entries": [
+      "time.recombination",
+      "time.big-bang",
+      "time.present"
+    ]
+  },
+  {
+    "id": "term-kelvin",
+    "term": "开尔文",
+    "en": "kelvin",
+    "definition": "开尔文是国际单位制热力学温度单位，符号K，零点为绝对零度；水在常压下的冰点为273.15K，温差1K与1°C相同，开尔文不称“度”。",
+    "unit": "热力学温度；SI 单位 K，0 K = −273.15 °C",
+    "confusion": "把开尔文说成“度”，或把273K当成273°C，混淆温差与绝对温度。",
+    "entries": [
+      "temperature.absolute-zero",
+      "temperature.water-triple-point",
+      "temperature.room-temperature"
+    ]
+  },
+  {
+    "id": "term-celsius",
+    "term": "摄氏度",
+    "en": "degree Celsius",
+    "definition": "摄氏度是常用温度标度，符号°C；摄氏温度等于开尔文温度减去273.15，20°C即293.15K，100°C即373.15K，以水的冰点与沸点为常用锚点，温差换算不需再加偏移。",
+    "unit": "温度；°C = K − 273.15",
+    "confusion": "把20°C当成10°C的两倍热，或换算温差时又加一次273.15，忽略零点偏移。",
+    "entries": [
+      "temperature.room-temperature",
+      "temperature.boiling-water"
+    ]
+  },
+  {
+    "id": "term-absolute-zero",
+    "term": "绝对零度",
+    "en": "absolute zero",
+    "definition": "绝对零度是热力学温标的零点，等于0K或−273.15°C；温度降到0K不等于微观运动完全停止，量子零点运动仍然存在。",
+    "unit": "温度；0 K = −273.15 °C",
+    "confusion": "以为绝对零度下粒子完全静止，忽略量子零点运动。",
+    "entries": [
+      "temperature.absolute-zero",
+      "temperature.bose-einstein"
+    ]
+  },
+  {
+    "id": "term-triple-point",
+    "term": "三相点",
+    "en": "triple point",
+    "definition": "三相点是物质固、液、气三相共存并达到热平衡的状态；水的三相点为273.16K，即0.01°C，对应压力611.657Pa，不是常压冰点，也是温标校准的重要参考点。",
+    "unit": "温度/压力状态点；水三相点 273.16 K（0.01 °C）、611.657 Pa",
+    "confusion": "把水三相点当成0°C冰点，忽略0.01K差异与611.657Pa压力条件，也把它当成普通冰水混合物。",
+    "entries": [
+      "temperature.water-triple-point",
+      "temperature.neon-triple-point"
+    ]
+  },
+  {
+    "id": "term-melting-point",
+    "term": "熔点",
+    "en": "melting point",
+    "definition": "熔点是固体在给定压力下转变为液体的温度；纯铁常压熔点约1811K，即约1538°C，钢、生铁等合金的熔化区间与纯铁不同。",
+    "unit": "温度；纯铁常压熔点约 1811 K = 1538 °C",
+    "confusion": "把1811K当成所有钢和铁的熔点，忽略合金成分与压力条件。",
+    "entries": [
+      "temperature.iron-melting",
+      "temperature.copper-melting-point"
+    ]
+  },
+  {
+    "id": "term-boiling-point",
+    "term": "沸点",
+    "en": "boiling point",
+    "definition": "沸点是液体蒸气压等于外界压力时的温度；水在标准大气压101.325kPa附近约373.15K沸腾，即约100°C，沸点随压力升高或降低。",
+    "unit": "温度；水在 101.325 kPa 下约 373.15 K = 100 °C",
+    "confusion": "把100°C当成任何气压下的沸点，忽略海拔与压力对沸点的影响。",
+    "entries": [
+      "temperature.boiling-water",
+      "temperature.ammonia_boiling"
+    ]
+  },
+  {
+    "id": "term-effective-temperature",
+    "term": "有效温度",
+    "en": "effective temperature",
+    "definition": "有效温度是把天体总辐射折算为同半径理想黑体所得的温度；太阳有效温度约5772K，B型星约20,000K，它不代表光球每处温度相同。",
+    "unit": "温度；太阳约 5772 K，B 型星约 20,000 K",
+    "confusion": "把有效温度当成恒星表面每处的实测温度，忽略局部差异。",
+    "entries": [
+      "temperature.sun-surface",
+      "temperature.b-type-star"
+    ]
+  },
+  {
+    "id": "term-brightness-temperature",
+    "term": "亮温度",
+    "en": "brightness temperature",
+    "definition": "亮温度是在给定波长上，用同强度黑体辐射反推的等效温度；宇宙微波背景约2.725K，碳弧灯亮斑约4,000K，它不是物质动理学温度。",
+    "unit": "温度；CMB 约 2.725 K，碳弧灯亮斑约 4,000 K",
+    "confusion": "把亮温度当成气体真实温度，忽略发射率、观测波长与色温度的区别。",
+    "entries": [
+      "temperature.cmb",
+      "temperature.arc-lamp",
+      "temperature.21cm-spin-temperature"
+    ]
+  },
+  {
+    "id": "term-spin-temperature",
+    "term": "自旋温度",
+    "en": "spin temperature",
+    "definition": "自旋温度描述中性氢21厘米跃迁两个超精细能级的布居比，冷中性云典型约100K；它不等于气体动理学温度，也不等于谱线亮温度。",
+    "unit": "温度；中性氢 21 厘米跃迁典型约 100 K",
+    "confusion": "把21厘米自旋温度直接当成氢气温度，或当成谱线亮温度。",
+    "entries": [
+      "temperature.21cm-spin-temperature",
+      "temperature.interstellar-medium"
+    ]
+  },
+  {
+    "id": "term-electron-temperature",
+    "term": "电子温度",
+    "en": "electron temperature",
+    "definition": "电子温度是用谱线或探针推断的电子能量分布所对应的温度；日冕约2×10⁶K，极光受热电子可达约10,000K，常为非热平衡值。",
+    "unit": "温度；日冕约 2×10⁶ K，极光电子可达约 10,000 K",
+    "confusion": "把日冕电子温度当成整层等离子体均匀温度，忽略非热平衡与区域差异。",
+    "entries": [
+      "temperature.solar-corona",
+      "temperature.aurora"
+    ]
+  },
+  {
+    "id": "term-blackbody",
+    "term": "黑体",
+    "en": "blackbody",
+    "definition": "黑体是能完全吸收并重新发出辐射的理想物体，其光谱仅由温度决定；宇宙微波背景的光谱非常接近2.725K的黑体谱，可用于校准温度。",
+    "unit": "概念/辐射模型；光谱由温度决定，CMB 近 2.725 K 黑体谱",
+    "confusion": "把黑体理解成颜色黑的物体，忽略它是理想吸收与辐射模型。",
+    "entries": [
+      "temperature.cmb",
+      "temperature.sun-surface"
+    ]
+  },
+  {
+    "id": "term-thermal-equilibrium",
+    "term": "热平衡",
+    "en": "thermal equilibrium",
+    "definition": "热平衡指系统各部分通过碰撞与能量交换达到温度一致、能量按统计分布的状态；早期宇宙热化约在10⁻³²秒量级，且并非全宇宙同时同温。",
+    "unit": "概念/热力学状态；早期宇宙热化约 10⁻³² 秒",
+    "confusion": "把热平衡当成全宇宙处处温度相同，忽略局部热化与粒子先后脱耦。",
+    "entries": [
+      "time.thermal-equilibrium",
+      "temperature.water-triple-point"
+    ]
+  },
+  {
+    "id": "term-parallax",
+    "term": "视差",
+    "en": "parallax",
+    "definition": "视差是观测位置变化引起的天体相对背景的角位移；恒星视差以地球轨道为基线，1角秒视差对应1秒差距，比邻星距离约4.26光年即由此类测量支持。",
+    "unit": "角度/距离推断；1 角秒视差对应 1 秒差距",
+    "confusion": "把视差当成亮度差异，或把1角秒视差与1光年混淆。",
+    "entries": [
+      "space.proxima-centauri",
+      "space.au",
+      "space.light-year"
+    ]
+  },
+  {
+    "id": "term-standard-candle",
+    "term": "标准烛光",
+    "en": "standard candle",
+    "definition": "标准烛光是已知内在光度的天体，用其视亮度反推距离；造父变星与Ia型超新星是常用标准烛光，仙女座星系距离就由这类方法逐级校准。",
+    "unit": "概念/测距方法；以已知光度换算距离，无量纲",
+    "confusion": "把标准烛光当成所有事件光度完全相同，忽略标定差异与观测分散。",
+    "entries": [
+      "temperature.type-ia-supernova",
+      "space.andromeda-distance",
+      "space.milky-way"
+    ]
+  },
+  {
+    "id": "term-redshift",
+    "term": "红移",
+    "en": "redshift",
+    "definition": "红移是天体光谱向长波方向移动的现象，常用红移量z表示；宇宙膨胀使遥远星系的光被拉长，红移可用于推断距离与发光时代。",
+    "unit": "无量纲比值；z = Δλ/λ，常用红移量表示",
+    "confusion": "把红移当成天体变红，或以为红移量可以直接等于距离。",
+    "entries": [
+      "space.observable-universe",
+      "time.recombination",
+      "time.baryon-acoustic-oscillations"
+    ]
+  },
+  {
+    "id": "term-distance-modulus",
+    "term": "距离模数",
+    "en": "distance modulus",
+    "definition": "距离模数是视星等与绝对星等之差，m−M=5lg(d/10pc)，其中d以秒差距计；它把星等读数与光度距离联系起来，不是以米为单位的长度。",
+    "unit": "星等差/距离换算；m − M = 5 lg(d/10 pc)",
+    "confusion": "把距离模数当成以米为单位的距离，忽略它是对数星等差。",
+    "entries": [
+      "space.andromeda-distance",
+      "space.milky-way"
+    ]
+  },
+  {
+    "id": "term-apparent-magnitude",
+    "term": "视星等",
+    "en": "apparent magnitude",
+    "definition": "视星等是按观测到的辐射流量定义的星等，数值越小表示越亮；它受距离、消光和观测波段影响，不能直接代表天体的内在光度。",
+    "unit": "星等（无量纲对数标度）；数值越小越亮",
+    "confusion": "把视星等当成天体固有亮度，忽略距离与星际消光的影响。",
+    "entries": [
+      "space.betelgeuse",
+      "space.andromeda-distance"
+    ]
+  },
+  {
+    "id": "term-absolute-magnitude",
+    "term": "绝对星等",
+    "en": "absolute magnitude",
+    "definition": "绝对星等是把天体放到10秒差距处所具有的视星等，用于比较内在光度；它与视星等只差距离模数，不随实际观测距离改变。",
+    "unit": "星等（无量纲对数标度）；定义为 10 秒差距处的视星等",
+    "confusion": "把绝对星等当成从地球看到的亮度，忽略它定义在10秒差距处。",
+    "entries": [
+      "space.andromeda-distance",
+      "temperature.type-ia-supernova"
+    ]
+  },
+  {
+    "id": "term-luminosity",
+    "term": "光度",
+    "en": "luminosity",
+    "definition": "光度是天体单位时间内辐射的总能量，常用瓦特表示；它描述内在输出，不等于肉眼看到的视亮度，太阳光度是恒星比较的常用基准。",
+    "unit": "功率；SI 单位瓦特（W），表示单位时间总辐射能量",
+    "confusion": "把光度当成肉眼看到的亮度，忽略距离造成的辐射衰减。",
+    "entries": [
+      "temperature.sun-surface",
+      "temperature.type-ia-supernova",
+      "space.quasar"
+    ]
+  },
+  {
+    "id": "term-wavelength",
+    "term": "波长",
+    "en": "wavelength",
+    "definition": "波长是波在一个完整周期内传播的距离，常用纳米或米表示；可见光约400至700纳米，中性氢21厘米线的静止波长约0.21米。",
+    "unit": "长度；可见光约 400–700 纳米，21 厘米线约 0.21 米",
+    "confusion": "把波长与频率当成同一量，或以为一种颜色只对应单一波长。",
+    "entries": [
+      "space.visible-light",
+      "space.hydrogen-21cm"
+    ]
+  },
+  {
+    "id": "term-frequency",
+    "term": "频率",
+    "en": "frequency",
+    "definition": "频率是单位时间内波完成的周期数，单位为赫兹；氢21厘米线约1420.4兆赫，可见光约4×10¹⁴至7.5×10¹⁴赫兹，与波长通过光速相联系。",
+    "unit": "频率；SI 单位赫兹（Hz），21 厘米线约 1420.4 兆赫",
+    "confusion": "把频率与波长混用，忽略二者通过光速互为倒数关系。",
+    "entries": [
+      "space.hydrogen-21cm",
+      "space.visible-light"
+    ]
+  },
+  {
+    "id": "term-hubble-constant",
+    "term": "哈勃常数",
+    "en": "Hubble constant",
+    "definition": "描述宇宙膨胀快慢的比例常数，也是退行速度随距离增加的斜率，通常记作 H₀；它并非永远不变，今天的测量值约为每百万秒差距每秒 67.4 公里。",
+    "unit": "膨胀率；km·s⁻¹·Mpc⁻¹ 或 s⁻¹；1 Mpc≈3.26×10⁶ 光年，67.4 km/s/Mpc≈2.18×10⁻¹⁸ s⁻¹（由 c/H₀≈1.37×10²⁶ m 换算）",
+    "confusion": "把哈勃常数当成固定速度或光速；它随宇宙时代变化，且 67.4 与约 73 km/s/Mpc 两套测量之间存在“哈勃张力”。",
+    "entries": [
+      "space.hubble-radius",
+      "space.observable-universe"
+    ]
+  },
+  {
+    "id": "term-cosmological-redshift",
+    "term": "宇宙学红移",
+    "en": "Cosmological redshift",
+    "definition": "宇宙空间膨胀把远处天体发出的光波拉长，观测波长相对静止波长的增量比例记作 z；它主要来自空间本身的伸展，而不是天体在既有空间中的普通运动。",
+    "unit": "无量纲；z=(λ_obs−λ_emit)/λ_emit，1+z 等于观测波长与静止波长之比；低红移可用退行速度 v≈cz 近似",
+    "confusion": "把宇宙学红移等同于星系自身运动的多普勒红移；低红移时二者可近似，高红移则主要由空间膨胀造成，不能只用狭义相对论公式解释。",
+    "entries": [
+      "time.recombination",
+      "temperature.cmb",
+      "space.cmb-surface"
+    ]
+  },
+  {
+    "id": "term-recombination",
+    "term": "复合",
+    "en": "Recombination",
+    "definition": "早期宇宙冷却到约 3000 K 时，自由电子被原子核俘获、形成中性原子的过程；自由电子减少后光子得以自由传播，宇宙由不透明转为透明。",
+    "unit": "宇宙时间；s，约 38 万年≈1.2×10¹³ s；对应温度约 3000 K，今天红移后的残留辐射约 2.725 K",
+    "confusion": "把“复合”理解为原子核第一次形成，或以为全体原子在同一秒完成结合；它发生在核合成之后，而且是一段渐进过程。",
+    "entries": [
+      "time.recombination",
+      "temperature.cmb"
+    ]
+  },
+  {
+    "id": "term-reionization",
+    "term": "再电离",
+    "en": "Reionization",
+    "definition": "宇宙黑暗时代后期，第一批恒星和星系的高能辐射把星系际中性氢再次电离的漫长阶段，整个过程大约从大爆炸后 2 亿年延续到 10 亿年。",
+    "unit": "宇宙时间；s 或年，约 2 亿–10 亿年（常用参考点约 6.3 亿年≈2.0×10¹⁶ s）",
+    "confusion": "把再电离与复合弄反；复合是电子被原子核俘获、宇宙变透明，再电离是氢又被剥离电子、星系际气体再次成为等离子体。",
+    "entries": [
+      "time.reionization-epoch",
+      "space.cmb-surface"
+    ]
+  },
+  {
+    "id": "term-dark-energy",
+    "term": "暗能量",
+    "en": "Dark energy",
+    "definition": "为解释宇宙晚期加速膨胀而引入的未知能量成分，它在大尺度上近似均匀分布并具有负压；其物理本质至今没有确定答案。",
+    "unit": "能量密度；J/m³，也常用无量纲密度参数 Ω_Λ 表示；加速膨胀大约始于大爆炸后 90 亿年",
+    "confusion": "把暗能量与暗物质混为一谈；暗物质靠引力成团、塑造星系结构，暗能量则均匀分布并推动膨胀加速，两者证据和效应都不同。",
+    "entries": [
+      "time.dark-energy-domination",
+      "space.hubble-radius"
+    ]
+  },
+  {
+    "id": "term-dark-matter",
+    "term": "暗物质",
+    "en": "Dark matter",
+    "definition": "不发光、也不与电磁辐射显著相互作用，却通过引力参与星系和星系团结构形成的物质；其粒子本质仍未确认。",
+    "unit": "质量；kg，常用太阳质量 M☉；银河系暗物质晕直径至少约 5.68×10²¹ m，也就是约 60 万光年",
+    "confusion": "把暗物质当成黑洞、暗气体或“看不见的恒星”；它不靠遮挡光被发现，主要证据来自星系旋转、引力透镜和宇宙大尺度结构。",
+    "entries": [
+      "space.dark-matter-halo",
+      "time.dark-matter-freeze-out"
+    ]
+  },
+  {
+    "id": "term-cmb",
+    "term": "宇宙微波背景",
+    "en": "Cosmic microwave background",
+    "definition": "复合之后残留下来、充满整个天空的微波辐射场；它随宇宙膨胀冷却到今天约 2.725 K，近黑体谱保存了早期宇宙的密度涨落。",
+    "unit": "温度；K，约 2.725 K（约 −270.4 °C）；对应微波波段，代表波长约 1 cm 量级",
+    "confusion": "把 2.725 K 当成“太空的环境温度”或某颗天体的表面温度；它描述全天平均的辐射场，不是局部物质温度。",
+    "entries": [
+      "temperature.cmb",
+      "space.cmb-surface",
+      "space.microwave"
+    ]
+  },
+  {
+    "id": "term-big-bang",
+    "term": "大爆炸",
+    "en": "Big Bang",
+    "definition": "描述宇宙从极热极密状态开始膨胀并逐渐冷却的热历史模型；“大爆炸”并非空间某一点发生的爆炸，而是整个可观测宇宙尺度演化的起点约定。",
+    "unit": "宇宙时间；s，t=0 是计时约定；据此推算的今天宇宙年龄约为 138 亿年",
+    "confusion": "想象一个悬在空间中的爆炸中心，并追问“爆炸之前是什么”；模型描述的是空间膨胀与温度下降，t=0 并不是可直接观测的物理事件。",
+    "entries": [
+      "time.big-bang",
+      "time.recombination",
+      "temperature.cmb"
+    ]
+  },
+  {
+    "id": "term-inflation",
+    "term": "暴胀",
+    "en": "Inflation",
+    "definition": "极早期宇宙经历极快空间膨胀的理论阶段，用来解释宇宙为何如此平坦、均匀，以及原初扰动从何而来；具体模型仍不唯一。",
+    "unit": "时间与尺度；结束时间约在 10⁻³⁶–10⁻³² s；膨胀倍率与最终空间尺度取决于所选模型，不能只用一个长度概括",
+    "confusion": "把暴胀当成今天由暗能量驱动的加速膨胀，或以为它已被单一观测直接证实；前者发生在晚期，后者发生在宇宙诞生后极短瞬间。",
+    "entries": [
+      "time.inflation",
+      "space.inflation"
+    ]
+  },
+  {
+    "id": "term-main-sequence",
+    "term": "主序星",
+    "en": "Main-sequence star",
+    "definition": "恒星核心稳定进行氢聚变的漫长阶段；此阶段光度与半径变化相对平缓，太阳目前正处在主序阶段，已经持续约 46 亿年。",
+    "unit": "恒星参数；温度 K，太阳核心约 1.5×10⁷ K、光球有效温度约 5,772 K；质量常用 M☉ 表示",
+    "confusion": "把主序星当成“刚诞生的恒星”或按颜色排列的某个序列位置；主序对应氢燃烧阶段，红巨星和白矮星都已离开主序。",
+    "entries": [
+      "temperature.sun-core",
+      "temperature.sun-surface",
+      "time.sun-red-giant-phase"
+    ]
+  },
+  {
+    "id": "term-red-giant",
+    "term": "红巨星",
+    "en": "Red giant",
+    "definition": "类太阳恒星耗尽核心氢燃料后，外层大幅膨胀、表面降温的演化阶段；直径可达约 1 天文单位，核心则转入氦燃烧。",
+    "unit": "直径；m，约 3×10¹¹ m（类太阳红巨星模型量级）；核心温度约 10⁸ K",
+    "confusion": "把红巨星当成质量更大的年轻恒星；它通常是中等质量恒星的晚年阶段，质量未必更大，只是外层膨胀、表面温度降低。",
+    "entries": [
+      "space.red-giant",
+      "temperature.red-giant-core",
+      "time.sun-red-giant-phase"
+    ]
+  },
+  {
+    "id": "term-white-dwarf",
+    "term": "白矮星",
+    "en": "White dwarf",
+    "definition": "低中质量恒星耗尽核燃料后留下的致密核心，由电子简并压支撑；它的质量接近太阳，直径却只有地球大小，之后会逐渐冷却。",
+    "unit": "直径；m，约 1.27×10⁷ m（地球大小）；表面温度因个体而异，天狼星 B 约 2.5×10⁴ K",
+    "confusion": "把白矮星当成“白色的矮恒星”或以为它仍在稳定进行氢聚变；它已停止主要核燃烧，靠残余热量发光并缓慢变冷。",
+    "entries": [
+      "space.white-dwarf",
+      "temperature.white-dwarf-surface",
+      "temperature.quantum-degeneracy"
+    ]
+  },
+  {
+    "id": "term-neutron-star",
+    "term": "中子星",
+    "en": "Neutron star",
+    "definition": "大质量恒星核心坍缩后形成的致密残骸，主要由中子组成，靠中子简并压支撑；它的直径通常只有约 20 公里，却保有超过太阳的质量。",
+    "unit": "直径约 20 km（2×10⁴ m）；表面温度因个体而异，仙后座 A 中子星约 2×10⁶ K；质量常以 M☉ 计",
+    "confusion": "把中子星与黑洞混同；中子星有实体表面、强磁场和可观测热辐射，黑洞则以事件视界为界，二者密度和时空结构不同。",
+    "entries": [
+      "space.neutron-star",
+      "temperature.neutron-star-surface",
+      "time.pulsar-period"
+    ]
+  },
+  {
+    "id": "term-black-hole",
+    "term": "黑洞",
+    "en": "Black hole",
+    "definition": "引力强到事件视界之内连光也无法逃逸的天体；可由大质量恒星坍缩或早期宇宙机制形成，其视界大小基本只由质量决定。",
+    "unit": "质量与半径；M☉ 与 m；史瓦西半径 Rs≈2.95×10⁴ m×(M/10M☉)，10 倍太阳质量约 30 km",
+    "confusion": "把黑洞想象成会主动吸走远处物质的“宇宙吸尘器”；只有在很近范围内其引力才占绝对主导，远处天体的轨道仍与普通大质量天体相似。",
+    "entries": [
+      "space.black-hole-event-horizon",
+      "temperature.hawking-temperature",
+      "time.first-black-holes"
+    ]
+  },
+  {
+    "id": "term-accretion-disk",
+    "term": "吸积盘",
+    "en": "Accretion disk",
+    "definition": "物质绕黑洞或恒星下落时，因角动量而在赤道面附近形成的旋转盘；黏性与磁流体过程把引力势能转化为热和辐射。",
+    "unit": "温度约 10⁷ K（黑洞吸积盘模拟量级）；尺度常以史瓦西半径 Rs 为单位，10 倍太阳质量时 1 Rs≈2.95×10⁴ m",
+    "confusion": "把吸积盘当成黑洞本体或一块平坦的固体盘；它是高速旋转的等离子体流，厚度、湍流和辐射区都依赖吸积率与模型。",
+    "entries": [
+      "temperature.black-hole-accretion-disk",
+      "space.sagittarius-a-star",
+      "space.m87-black-hole"
+    ]
+  },
+  {
+    "id": "term-quasar",
+    "term": "类星体",
+    "en": "Quasar",
+    "definition": "遥远星系中心超大质量黑洞猛烈吸积气体时形成的极亮活动核，亮度可超过整个宿主星系；常伴随强喷流和宽发射线。",
+    "unit": "尺度；宿主星系参考直径约 9.5×10²⁰ m（约 10 万光年）；光度常用太阳光度 L☉ 或绝对星等表示",
+    "confusion": "把类星体当成一种特殊星系或一颗恒星；它只是活动星系核中最亮的一类，宿主星系本身仍包围着这个明亮核心。",
+    "entries": [
+      "space.quasar",
+      "time.first-quasars"
+    ]
+  },
+  {
+    "id": "term-supernova",
+    "term": "超新星",
+    "en": "Supernova",
+    "definition": "大质量恒星核心坍缩或白矮星热核失控引发的剧烈爆发；它短时间内照亮整个星系，抛出重元素并留下不断膨胀的遗迹。",
+    "unit": "坍缩核心温度约 10¹¹ K；遗迹直径约 9.5×10¹⁶ m（约 10 光年）；过程持续约 1 年≈3.16×10⁷ s",
+    "confusion": "把超新星与普通新星混淆；新星多为白矮星表面氢燃烧的较温和爆发，超新星则常摧毁恒星核心并留下中子星或黑洞。",
+    "entries": [
+      "temperature.supernova",
+      "space.supernova-remnant",
+      "time.supernova-duration"
+    ]
+  },
+  {
+    "id": "term-radiometric-dating",
+    "term": "放射性定年",
+    "en": "Radiometric dating",
+    "definition": "利用放射性母体与子体的比例及已知半衰期，推算岩石、矿物或含碳样品年龄的方法；前提是所测体系在漫长岁月中基本保持封闭。",
+    "unit": "年龄；年（a），1 ka=10³ a、1 Ma=10⁶ a、1 Ga=10⁹ a；适用跨度从数千年到数十亿年",
+    "confusion": "以为放射性定年能给任何材料一个精确日期；它只适用于特定矿物和封闭体系，并受初始子体、混染、蚀变与后期加热的干扰。",
+    "entries": [
+      "time.c14-half-life",
+      "time.u238-half-life",
+      "time.earth-formation"
+    ]
+  },
+  {
+    "id": "term-era-period-epoch",
+    "term": "纪元·纪·世",
+    "en": "Era, period and epoch",
+    "definition": "地质年代单位按包含关系分为宙、代、纪、世等层级；对应的年代地层单位则称宇、界、系、统，二者名称不同但边界一一对应。",
+    "unit": "时间；Ma 或 Ga；新生代始于约 66 Ma，侏罗纪约 201.4–143.1 Ma，始新世约 56.0–33.9 Ma",
+    "confusion": "把“纪”和“世”当成同级单位，或把年代单位与地层单位混用；纪大于世，侏罗纪属于中生代，始新世属于古近纪。",
+    "entries": [
+      "time.cenozoic",
+      "time.jurassic-period",
+      "time.eocene-epoch"
+    ]
+  },
+  {
+    "id": "term-cambrian-explosion",
+    "term": "寒武纪大爆发",
+    "en": "Cambrian explosion",
+    "definition": "约 5.39 亿年前开始，动物门类在化石记录中快速多样化的一段演化事件；它不是单日爆发，而是持续数百万年甚至更久的生态扩展。",
+    "unit": "时间；距今约 5.39 亿年（539 Ma）；寒武纪本身延续到约 4.85 亿年前",
+    "confusion": "把寒武纪大爆发当成所有动物在同一刻出现，或与“动物起源”混同；动物谱系分化更早，约 6 亿年前，爆发强调形态与化石记录的快速扩展。",
+    "entries": [
+      "time.cambrian",
+      "time.origin-of-animals",
+      "time.phanerozoic"
+    ]
+  },
+  {
+    "id": "term-mass-extinction",
+    "term": "大灭绝",
+    "en": "Mass extinction",
+    "definition": "在相对短的地质时间内，大量物种消失、全球生物多样性骤降的事件；通常以灭绝率显著高于背景水平、且跨越多类群来识别。",
+    "unit": "时间；Ma；K–Pg 边界约 66 Ma，二叠纪末约 251.9 Ma；过程可持续数万年到数百万年",
+    "confusion": "把大灭绝当成瞬间杀死所有生物，或把单个物种的消失都算作大灭绝；它要求全球性、跨类群，并且速率远高于正常背景灭绝。",
+    "entries": [
+      "time.k-pg-extinction",
+      "time.permian-triassic-extinction"
+    ]
+  },
+  {
+    "id": "term-geologic-timescale",
+    "term": "地质时间尺度",
+    "en": "Geologic time scale",
+    "definition": "把地球约 45 亿年历史按生物、气候和构造事件划分的时间框架；最粗略的层级为冥古宙、太古宙、元古宙和显生宙。",
+    "unit": "时间；Ga 或 Ma，1 Ga=10⁹ 年；冥古宙约 45.4–40 亿年前，太古宙约 40–25 亿年前，显生宙约 5.39 亿年前至今",
+    "confusion": "把地质时间尺度当成等间隔刻度或按朝代先后排列的清单；各条界线由地层与事件证据定义，时间间隔并不相等。",
+    "entries": [
+      "time.hadean",
+      "time.archean",
+      "time.phanerozoic"
+    ]
+  },
+  {
+    "id": "term-phase-transition",
+    "term": "相变",
+    "en": "Phase transition",
+    "definition": "物质在温度、压力等条件改变时，从一种相转变为另一种相的过程，例如熔化、沸腾、凝结、升华以及玻璃转变。",
+    "unit": "温度 K 与压力 Pa；水三相点 273.16 K（0.01 °C）、611.657 Pa；钠钙玻璃转变约 800–850 K",
+    "confusion": "以为相变一定发生在某一确定温度且温度保持不变；合金、玻璃和高分子常在一定区间内渐进转变，过冷或过热也会移动实际转变点。",
+    "entries": [
+      "temperature.water-triple-point",
+      "temperature.glass-transition"
+    ]
+  },
+  {
+    "id": "term-critical-point",
+    "term": "临界点",
+    "en": "Critical point",
+    "definition": "相边界终止的临界状态：温度和压力超过临界值后，液体与气体之间不再有清晰界面，物质进入超临界流体状态。",
+    "unit": "温度 K 与压力 Pa；CO₂ 临界温度约 304.18 K（31.03 °C），临界压力约 7.38 MPa（73.80 bar）",
+    "confusion": "以为只要把温度升到临界温度就能进入超临界状态；临界点由温度和压力共同指定，只加热而不加压并不足够。",
+    "entries": [
+      "temperature.co2-critical-point",
+      "temperature.water-triple-point"
+    ]
+  },
+  {
+    "id": "term-plasma",
+    "term": "等离子体",
+    "en": "Plasma",
+    "definition": "电子与离子分离、整体近似电中性的电离气体；恒星内部、日冕、闪电通道和聚变装置芯部都属于等离子体，温度跨度极大。",
+    "unit": "温度 K；聚变堆等离子体约 1.5×10⁸ K，日冕约 2×10⁶ K，闪电通道可达约 2.8×10⁴ K",
+    "confusion": "把等离子体当成普通高温气体或与固液气三态中的气体完全相同；它有自由电荷和集体电磁行为，不能只用分子运动描述。",
+    "entries": [
+      "temperature.fusion-reactor-plasma",
+      "temperature.solar-corona",
+      "temperature.lightning"
+    ]
+  },
+  {
+    "id": "term-superconductivity",
+    "term": "超导",
+    "en": "Superconductivity",
+    "definition": "某些材料低于临界温度时电阻突然消失、并排斥磁场的宏观量子态；临界温度与超导能隙由材料、结构和掺杂决定。",
+    "unit": "临界温度 K；铌约 9.2 K，钇钡铜氧约 92 K；能隙常以 eV 或 K 表示，BCS 弱耦合近似 Δ(0)≈1.76k_BTc",
+    "confusion": "把超导当成“电阻很小的良导体”或以为它能在任意温度工作；超导是相变后的量子态，超过临界温度、磁场或电流就会失效。",
+    "entries": [
+      "temperature.niobium-superconducting-transition",
+      "temperature.ybco-superconducting-transition",
+      "temperature.superconducting-gap"
+    ]
+  },
+  {
+    "id": "term-bose-einstein-condensate",
+    "term": "玻色—爱因斯坦凝聚",
+    "en": "Bose-Einstein condensate",
+    "definition": "大量玻色子冷却到临界温度以下时，宏观数量的粒子占据同一最低量子态的物态；1995 年在稀薄铷原子气体中首次实现。",
+    "unit": "温度 K；约 170 nK（1.7×10⁻⁷ K）；激光冷却可达约 1 μK，1 nK=10⁻⁹ K、1 μK=10⁻⁶ K",
+    "confusion": "把玻色—爱因斯坦凝聚当成“原子完全静止”或与超流氦等同；它通常是弱相互作用稀薄气体的量子简并态，超流氦则是强相互作用的液体。",
+    "entries": [
+      "temperature.bose-einstein",
+      "temperature.laser-cooling"
+    ]
+  },
+  {
+    "id": "term-degeneracy-pressure",
+    "term": "简并压",
+    "en": "Degeneracy pressure",
+    "definition": "费米子因泡利不相容原理不能挤进同一量子态，被压到高动量态而产生的量子压强；它不依赖高温，温度降低也不会消失。",
+    "unit": "压强；Pa；电子简并压支撑白矮星，中子简并压支撑中子星；简并温区随系统不同，可从 μK 到 10⁴ K 量级",
+    "confusion": "把简并压当成普通热压强；热压强随温度下降而减小，简并压主要由粒子数密度决定，白矮星冷却后仍能靠它抵抗引力。",
+    "entries": [
+      "temperature.quantum-degeneracy",
+      "space.white-dwarf",
+      "temperature.neutron-star-core"
+    ]
+  },
+  {
+    "id": "term-thermal-radiation",
+    "term": "热辐射",
+    "en": "Thermal radiation",
+    "definition": "任何温度高于绝对零度的物体都会发出的电磁辐射；黑体谱的峰值波长随温度升高而变短，总辐射功率随温度四次方增长。",
+    "unit": "辐射出射度；W/m²，与绝对温度四次方成正比；太阳光球约 5,772 K，钨带灯丝实验参考约 2,800 K",
+    "confusion": "把热辐射当成只存在于高温物体，或把“红外辐射”直接等同于热；任何有温度的物体都辐射，只是峰值波段随温度移动。",
+    "entries": [
+      "temperature.sun-surface",
+      "temperature.tungsten-filament",
+      "temperature.cmb"
+    ]
+  },
+  {
+    "id": "term-greenhouse-effect",
+    "term": "温室效应",
+    "en": "Greenhouse effect",
+    "definition": "行星大气让可见阳光透过，却吸收并再辐射一部分红外热辐射，使表面温度高于无大气时的效应；强弱取决于气体成分与大气结构。",
+    "unit": "温度 K 或辐射强迫 W/m²；金星表面约 737 K（464 °C），地球对流层质量加权平均约 255 K（−18 °C）",
+    "confusion": "把温室效应说成大气像玻璃房一样直接阻止热空气外流，或与臭氧层空洞混同；关键在于辐射收支和红外吸收，不是阻挡对流。",
+    "entries": [
+      "temperature.venus-surface",
+      "temperature.troposphere"
+    ]
+  },
+  {
+    "id": "term-gravitational-lensing",
+    "term": "引力透镜",
+    "en": "Gravitational lensing",
+    "definition": "前景天体或星系团的引力弯曲背景光源的光线，使像增亮、拉伸，或形成多重像与爱因斯坦环的现象；也可用来测量透镜质量。",
+    "unit": "偏折角；角秒（1°=3600″），强透镜也可用无量纲会聚 κ；星系团尺度如后发座约 1.89×10²³ m",
+    "confusion": "把引力透镜当成普通光学折射或“望远镜镜头”，或以为它只产生一个放大像；它源于时空弯曲，可造成畸变、多重像和环状结构。",
+    "entries": [
+      "space.coma-cluster",
+      "space.virgo-cluster"
+    ]
+  },
+  {
+    "id": "term-standard-siren",
+    "term": "标准警报器",
+    "en": "Standard siren",
+    "definition": "引力波并合事件中，波形本身可直接给出光度距离的一类标准距离指示器；若伴有电磁对应体，还能独立定位宿主星系。",
+    "unit": "光度距离；Mpc，1 Mpc≈3.26×10⁶ 光年；2015 年 GW150914 实现引力波首次直接探测",
+    "confusion": "把标准警报器当成标准烛光；标准烛光依赖已知内禀光度，标准警报器靠引力波波形标定距离，两者误差来源和校准方式不同。",
+    "entries": [
+      "time.gravitational_waves",
+      "space.neutron-star"
+    ]
+  },
+  {
+    "id": "term-transit-method",
+    "term": "凌星法",
+    "en": "Transit method",
+    "definition": "当行星从恒星前方经过时，恒星亮度出现周期性轻微下降；下降深度、持续时间和重复周期可约束行星半径、轨道周期与倾角。",
+    "unit": "相对流量；无量纲，深度≈(R_p/R_*)²，常以百分比或 ppm 表示，1 ppm=10⁻⁶",
+    "confusion": "把凌星当成行星遮住了整颗恒星，或把亮度下降深度直接当成行星直径；深度只给出半径比，还要知道恒星半径才能换算。",
+    "entries": [
+      "space.exoplanet",
+      "space.venus"
+    ]
+  },
+  {
+    "id": "term-radial-velocity",
+    "term": "径向速度法",
+    "en": "Radial velocity method",
+    "definition": "行星引力使恒星绕共同质心摆动，恒星光谱线因此发生周期性多普勒位移；由位移幅度可推算行星的最小质量与轨道参数。",
+    "unit": "速度；m/s（1 m/s=3.6 km/h），也常用 km/s；系外行星引起的恒星视向速度变化常在 m/s 量级",
+    "confusion": "以为径向速度法测的是行星自身速度，或以为它能直接给出行星真实质量；它测的是恒星视向速度，通常只给出依赖轨道倾角的质量下限。",
+    "entries": [
+      "space.exoplanet",
+      "space.jupiter"
+    ]
+  },
+  {
+    "id": "term-spectral-line",
+    "term": "光谱线",
+    "en": "Spectral line",
+    "definition": "原子或分子在特定能级间跃迁时吸收或发射的窄波段电磁辐射；其静止波长可用于识别元素、温度，并借多普勒位移探测运动。",
+    "unit": "波长；m，氢 21 厘米线约 21 cm=0.21 m、频率约 1420 MHz；频率与波长满足 ν=c/λ",
+    "confusion": "把谱线当成物质固定不变的“颜色标签”；谱线会因运动红移或蓝移、磁场分裂和压力展宽而变化，必须区分静止波长与观测波长。",
+    "entries": [
+      "space.hydrogen-21cm",
+      "space.radio-wave"
+    ]
+  },
+  {
+    "id": "term-redshift-distance",
+    "term": "红移测距",
+    "en": "Redshift distance",
+    "definition": "先测量天体的红移，再用哈勃定律把退行速度换算成距离的测距方法；低红移下可用 d≈cz/H₀，高红移则必须依赖具体宇宙学模型。",
+    "unit": "距离；Mpc 或 m，1 Mpc≈3.26×10⁶ 光年；H₀≈67.4 km/s/Mpc，仙女座星系距离约 2.37×10²² m",
+    "confusion": "把红移测距当成适用于所有天体的直接尺子；它假设红移主要来自宇宙膨胀，近邻星系的本动速度会带来偏差，高红移结果还依赖模型参数。",
+    "entries": [
+      "space.andromeda-distance",
+      "space.hubble-radius",
+      "space.cmb-surface"
+    ]
+  },
+  {
+    "id": "term-cosmic-distance-ladder",
+    "term": "宇宙距离阶梯",
+    "en": "Cosmic distance ladder",
+    "definition": "把近邻几何测距、造父变星、Ia 型超新星等逐级校准起来的距离测量体系；每一级只对下一级有效，误差会沿链条逐层累积。",
+    "unit": "距离；pc 与 Mpc，1 pc≈3.26 光年、1 Mpc≈3.26×10⁶ 光年；仙女座约 250 万光年，最后散射面约 470 亿光年",
+    "confusion": "以为距离阶梯是一把从头用到尾的单一尺子；不同距离段使用不同指示器，任一环节校准改变都会让整条距离链条整体平移。",
+    "entries": [
+      "space.andromeda-distance",
+      "space.cmb-surface",
+      "space.hubble-radius"
+    ]
+  },
+  {
+    "id": "term-order-of-magnitude",
+    "term": "数量级",
+    "en": "Order of magnitude",
+    "definition": "用最接近的 10 的幂粗略表示一个量的大小，强调尺度层级而非精确倍数；在比较跨越极大范围的对象时尤其常用。",
+    "unit": "无量纲指数；以 10 的幂表示，如从 10⁻³⁵ m 到 10²⁶ m 跨越约 61 个数量级；增大 10 倍即上升 1 个数量级",
+    "confusion": "把数量级当成精确倍数或四舍五入后的绝对值；同一数量级内仍可相差近 10 倍，跨数量级比较不能替代有效数字与单位换算。",
+    "entries": [
+      "space.planck",
+      "space.observable-universe"
+    ]
+  },
+  {
+    "id": "term-hubble-radius",
+    "term": "哈勃半径",
+    "en": "Hubble radius",
+    "definition": "哈勃半径是光速除以哈勃常数得到的距离尺度，约 1.4×10²⁶ 米（约 140 亿光年）；它是宇宙膨胀的特征尺度，不等同于可观测宇宙半径。",
+    "unit": "长度；c/H₀ ≈ 1.4×10²⁶ 米",
+    "confusion": "把哈勃半径当成可观测宇宙的精确边界；两者接近但定义不同，可观测宇宙还受宇宙年龄与膨胀史影响。",
+    "entries": [
+      "space.hubble-radius",
+      "space.observable-universe"
+    ]
+  },
+  {
+    "id": "term-compton-wavelength",
+    "term": "康普顿波长",
+    "en": "Compton wavelength",
+    "definition": "康普顿波长是粒子量子波长的特征尺度，等于 h/(mc)；电子约 2.43×10⁻¹² 米，质子约 1.32×10⁻¹⁵ 米，用来标记粒子量子效应显著的尺度。",
+    "unit": "长度；λ=h/(mc)，电子约 2.43×10⁻¹² 米",
+    "confusion": "把康普顿波长当成粒子的物理半径；它是量子散射与波长尺度，不是硬球边界。",
+    "entries": [
+      "space.electron-compton",
+      "space.proton"
+    ]
+  }
+]

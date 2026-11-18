@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="原子序数不是一条连续刻度。七次闭壳、七次重新开始：从氢到鿫，每次多一个质子，看看电子进入哪一层、性质改变了什么。">
+<meta property="og:title" content="元素 · 尺度 MAGNITUDE">
+<meta property="og:description" content="原子序数不是一条连续刻度。七次闭壳、七次重新开始：从氢到鿫，每次多一个质子，看看电子进入哪一层、性质改变了什么。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="尺度 MAGNITUDE">
+<meta name="twitter:card" content="summary">
+<title>元素 · 尺度 MAGNITUDE</title>
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/refined.css">
+<link rel="stylesheet" href="./elements.css">
+<link rel="stylesheet" href="./stage.css">
+<script type="importmap">{"imports":{"three":"/vendor/three.module.js"}}</script>
+<script type="module" src="/brand.js"></script>
+<link rel="stylesheet" href="/theme.css"></head>
+<body class="elements-page">
+<a class="skip-link" href="#main">跳至正文</a>
+<header class="topbar">
+  <a class="brand" href="/"><span class="brand-mark">◎</span><strong>尺度</strong><span class="brand-en">MAGNITUDE</span></a>
+  <nav aria-label="尺度站点">
+    <a href="/space/">空间<span>SPACE</span></a>
+    <a href="/time/">时间<span>TIME</span></a>
+    <a href="/temperature/">温度<span>TEMPERATURE</span></a>
+    <a class="active" aria-current="page" href="/elements/">元素<span>ELEMENTS</span></a>
+    <a href="/mass/">质量<span>MASS</span></a>
+    <a href="/library/">知识库</a>
+  </nav>
+</header>
+<main id="main" tabindex="-1">
+  <section class="el-immersive" id="el-immersive" data-block="s" aria-label="原子剧场：原子核与电子概率云三维示意">
+    <div id="stage" role="img" aria-label="原子核与电子概率云三维示意；拖动旋转，滚轮切换原子序数"></div>
+    <div class="vignette" aria-hidden="true"></div>
+    <div class="scanlines" aria-hidden="true"></div>
+    <div class="el-axis" aria-hidden="true"></div>
+
+    <div class="el-intro">
+      <p class="eyebrow">THE ELEMENTAL ASCENT <b>· Z 1 → 118</b></p>
+      <h1 data-en-html="Add one proton,<br>and see <em>what changes</em>.">每多一个质子，<br>到底<em>改变了什么</em>。</h1>
+      <p class="el-lede" data-en="Seven closed shells, seven restarts. Drag the proton number to see which shell the electrons enter and why properties turn there.">七次闭壳，七次重新开始。拖动质子数，看看电子进入哪一层，以及性质为什么在那里拐弯。</p>
+      <div class="periods" id="periods" aria-label="按周期跳转"></div>
+      <p class="el-cloud-note" data-en-html="Probability cloud shown by default; shell guides are radial scales, not orbits<br>Colored cloud = s / p / d / f probability distribution">默认只显示概率云；壳层参考是球壳尺度，不是轨道<br>彩云 = s / p / d / f 概率分布</p>
+    </div>
+
+    <div class="el-watermark" aria-hidden="true">Z<span id="watermarkZ">=26</span></div>
+
+    <aside class="el-card card panel" aria-live="polite">
+      <div class="card-top">
+        <span class="pill" id="category">过渡金属</span>
+        <span class="pill muted" id="block">d 区</span>
+      </div>
+      <div class="symbol-row">
+        <strong id="symbol">Fe</strong>
+        <div class="name"><span id="name">铁</span><em id="nameEn">IRON</em></div>
+      </div>
+      <div class="config" id="config">1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s²</div>
+      <div class="stats">
+        <div class="stat"><label>第一电离能</label><div class="num"><strong id="ion">—</strong><small>eV</small></div></div>
+        <div class="stat"><label>原子半径</label><div class="num"><strong id="radius">—</strong><small>pm</small></div></div>
+        <div class="stat"><label>电负性</label><div class="num"><strong id="en">—</strong><small>Pauling</small></div></div>
+        <div class="stat"><label>质量数</label><div class="num"><strong id="massNumber">—</strong><small data-en="nucleons">核子</small></div></div>
+      </div>
+      <div class="delta" id="delta">正在读取元素数据…</div>
+      <p class="summary" id="summary">铁位于第 4 周期、d 区。</p>
+      <a class="article-link" id="article" href="#" target="_blank" rel="noopener" data-en-html="Read this element <span>↗</span>">阅读这个元素 <span>↗</span></a>
+    </aside>
+
+    <div class="el-footnote" data-en-html="Probability cloud shown by default, not orbits. Open “Shell guides” for radial shell scales, not electron paths. Colored clouds show s / p / d / f subshell probability; brightness shows that subshell's electron occupancy. Each subshell is drawn as one representative shape, not all 3 p / 5 d / 7 f orientations at once.<br>In the modern quantum model electrons have no definite orbit around the nucleus; the cloud does not move along planetary orbits. Color marks subshell type only, not the element's real appearance.">默认显示电子概率云，不画“轨道”；需要尺度参照时可打开“壳层参考”，它显示的是球壳半径，不是电子路径。彩色云团是 s / p / d / f 亚层的概率分布，亮度表示该亚层的电子占据比例。每个亚层只画一个代表形状，不表示 p 的 3 个、d 的 5 个、f 的 7 个取向全部同时出现。<br>现代量子模型中电子没有确定的绕核轨迹，云团也不是按行星轨道运行。颜色只表示亚层类型，不表示元素真实外观。</div>
+
+    <section class="console" aria-label="元素探索控制台">
+      <div class="console-head">
+        <span class="label" data-en="Z · Atomic number">Z · 原子序数</span>
+        <strong id="sliderCurrent">26 · Fe</strong>
+        <span class="spacer"></span>
+        <span class="meta" id="periodMeta">第 4 周期 · 3d→4p</span>
+      </div>
+      <input id="slider" type="range" min="1" max="118" value="26" step="1" aria-label="原子序数 Z">
+      <div class="ticks" id="ticks"></div>
+      <div class="el-trend">
+        <div class="el-trend-head"><span>PROPERTY TREND / 性质趋势</span><em data-en="Normalized per metric; shape only">各指标独立归一化，仅看形状</em></div>
+        <svg id="chart" viewBox="0 0 1000 52" preserveAspectRatio="none" aria-label="电离能、原子半径、电负性趋势">
+          <path class="area" id="areaPath" d=""></path>
+          <path id="ionPath" d=""></path>
+          <path id="radPath" d=""></path>
+          <path id="enPath" d=""></path>
+          <line class="marker" id="marker" x1="20" y1="4" x2="20" y2="48"></line>
+          <circle class="dot" id="dot" cx="20" cy="30" r="2.4"></circle>
+        </svg>
+        <div class="legend"><span class="ion" data-en="Ionization">电离能</span><span class="rad" data-en="Radius">半径</span><span class="en" data-en="Electronegativity">电负性</span></div>
+      </div>
+      <div class="actions">
+        <button class="btn" id="tour" aria-pressed="false" data-en-html="Auto tour <span>↗</span>">自动巡游 <span>↗</span></button>
+        <button class="btn ghost" id="reset" data-en="Back to Fe">回到 Fe</button>
+        <button class="btn ghost" id="valenceOnly" aria-pressed="false" data-en="Valence only">只看价层</button>
+        <button class="btn ghost" id="shellGuide" aria-pressed="false" data-en="Shell guides">壳层参考</button>
+        <span class="hint" data-en="Drag to rotate · Scroll to change Z · ←/→ step">拖动旋转 · 滚轮换 Z · ←/→ 步进</span>
+        <a class="stage-down" href="#ladder-title" data-en="Knowledge layer below ↓">下方知识层 ↓</a>
+      </div>
+    </section>
+  </section>
+
+  <section class="el-facts-brief" aria-label="元素轴概览">
+    <dl class="el-facts">
+      <div><dt>118</dt><dd>个原子序数节点</dd></div>
+      <div><dt>7</dt><dd>次闭壳（2·10·18·36·54·86·118）</dd></div>
+      <div><dt>6</dt><dd>个解释页回答“为什么长这样”</dd></div>
+      <div><dt>13</dt><dd>条可阅读的骨架条目</dd></div>
+    </dl>
+  </section>
+
+  <section class="el-block" aria-labelledby="ladder-title">
+    <div class="el-block-head">
+      <h2 id="ladder-title">壳层阶梯</h2>
+      <p>七级台阶，每级是一个周期的填充段。闭壳节点发光，碱金属标出“新层开始”。</p>
+    </div>
+    <div id="shell-ladder" class="el-ladder"></div>
+  </section>
+
+  <section class="el-block" aria-labelledby="table-title">
+    <div class="el-block-head">
+      <h2 id="table-title">周期表地图</h2>
+      <p>周期表是导航地图，不是 118 张等权卡片。点击任意格子，查看它相对 Z−1 多了什么。</p>
+    </div>
+    <div class="el-table-wrap">
+      <div id="periodic-table" class="el-table" role="group" aria-label="元素周期表"></div>
+    </div>
+    <div id="detail" class="el-detail" aria-live="polite">
+      <p class="el-placeholder">正在准备元素数据。若脚本未启用，可从下方闭壳节点与解释页开始阅读。</p>
+    </div>
+  </section>
+
+  <section class="el-block" aria-labelledby="hubs-title">
+    <div class="el-block-head">
+      <h2 id="hubs-title">七个闭壳节点</h2>
+      <p>每个节点回答两件事：这一层为什么在这里结束，下一层为什么从这里开始。</p>
+    </div>
+    <ul class="el-links">
+      <li><a href="/entry/elements/he/"><strong data-en="Z = 2 · Helium">Z = 2 · 氦</strong><span data-en="1s² filled, end of period 1">1s² 填满，第一周期结束</span></a></li>
+      <li><a href="/entry/elements/ne/"><strong data-en="Z = 10 · Neon">Z = 10 · 氖</strong><span data-en="2s²2p⁶ complete, end of period 2">2s²2p⁶ 收官，第二周期结束</span></a></li>
+      <li><a href="/entry/elements/ar/"><strong data-en="Z = 18 · Argon">Z = 18 · 氩</strong><span data-en="3s²3p⁶ filled, but 3d remains empty">3s²3p⁶ 填满，但 3d 空着</span></a></li>
+      <li><a href="/entry/elements/kr/"><strong data-en="Z = 36 · Krypton">Z = 36 · 氪</strong><span data-en="4s3d4p complete">4s3d4p 三段走完</span></a></li>
+      <li><a href="/entry/elements/xe/"><strong data-en="Z = 54 · Xenon">Z = 54 · 氙</strong><span data-en="5s4d5p complete; closed shells are no longer perfectly inert">5s4d5p 走完，闭壳不再绝对惰性</span></a></li>
+      <li><a href="/entry/elements/rn/"><strong data-en="Z = 86 · Radon">Z = 86 · 氡</strong><span data-en="Long-period endpoint after the 4f insertion">4f 插入后的长周期终点</span></a></li>
+      <li><a href="/entry/elements/og/"><strong data-en="Z = 118 · Oganesson">Z = 118 · 鿫</strong><span data-en="Predicted endpoint of period 7">预测的第七周期终点</span></a></li>
+    </ul>
+  </section>
+
+  <section class="el-block" aria-labelledby="explain-title">
+    <div class="el-block-head">
+      <h2 id="explain-title">解释层</h2>
+      <p>元素页回答“这一个”，解释页回答“为什么周期表长这样”。</p>
+    </div>
+    <ul id="explain-list" class="el-links el-links-compact">
+      <li><a href="/entry/elements/explain-configuration/"><strong>电子排布</strong><span>Aufbau 次序与 4s/3d 交错</span></a></li>
+      <li><a href="/entry/elements/explain-energy-levels/"><strong>能级与亚层</strong><span>2·8·8·18·18·32·32 从哪来</span></a></li>
+      <li><a href="/entry/elements/explain-shielding/"><strong>屏蔽与有效核电荷</strong><span>同周期上升、同族下降</span></a></li>
+      <li><a href="/entry/elements/explain-lanthanide-contraction/"><strong>镧系收缩与相对论</strong><span>汞为什么是液体</span></a></li>
+      <li><a href="/entry/elements/explain-nuclear-stability/"><strong>核稳定性与衰变</strong><span>稳定线、幻数、α/β/γ</span></a></li>
+      <li><a href="/entry/elements/explain-periodic-law/"><strong>周期律为什么成立</strong><span>从门捷列夫到量子力学</span></a></li>
+    </ul>
+  </section>
+
+  <noscript>
+    <p class="el-noscript">脚本未启用：壳层阶梯与交互式周期表不可用，但上方七个闭壳节点与六个解释页链接仍可直接阅读。每个闭壳页都包含“相对 Z−1”一节。</p>
+  </noscript>
+</main>
+<footer class="site-footer"><span>尺度 MAGNITUDE <span class="footer-divider">·</span> 换一个尺度，看见另一个世界。</span><span><a href="/about/">关于</a><span class="footer-divider">·</span><a href="/license/">内容 CC BY 4.0 / 代码 MIT</a><span class="footer-divider">·</span>内容 v1.3.0</span></footer>
+<script type="module" src="./app.js"></script>
+<script type="module" src="./stage.js"></script>
+</body>
+</html>

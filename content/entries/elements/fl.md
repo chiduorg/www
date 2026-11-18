@@ -1,0 +1,77 @@
+---
+id: elements.fl
+title: 𫓧：7p² 的第二个电子，把第 114 格推向易挥发金属
+titleEn: Flerovium
+summary: 鉨的 7p1 之后，𫓧把 7p 填到 7p2，进入第 14 族；相对论让 7p 分成两支，第二个电子落在较低一支。它的第一电离能、原子半径与电负性都没有实验值，只有理论预测，而且𫓧没有稳定同位素。
+dimension: element
+category: 超重元素
+displayValue: 'Z = 114 · [Rn]5f¹⁴6d¹⁰7s²7p²（预测）'
+quantity:
+  value: 114
+  unit: Z
+  measure: 原子序数（Z）
+  approximate: false
+element:
+  symbol: Fl
+  nameEn: Flerovium
+  period: 7
+  group: 14
+  block: p
+  configuration: '[Rn] 5f14 6d10 7s2 7p2'
+  valence: 5f14 6d10 7s2 7p2
+  level: C
+  predicted: true
+related: [elements.nh, elements.mc, time.nuclear-age, elements.source-artificial]
+conditions: 标准状态（298 K，1 bar）下的中性气态原子；超重元素数值为理论预测口径
+visual:
+  scene: elements.shell-ladder
+  caption: 第七周期第 14 列 · 7p 的第二级台阶
+  note: 阶梯为结构示意；𫓧的构型与挥发性均为理论预测，不是实测结果。
+reviewStatus: reviewed
+review:
+  method: source-check
+  date: '2026-11-09'
+  notes:
+    - "本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自 CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。"
+    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
+    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+sources:
+  - title: 'PubChem Element Summary: Flerovium'
+    url: 'https://pubchem.ncbi.nlm.nih.gov/element/114'
+    publisher: U.S. National Library of Medicine
+    accessed: '2026-11-09'
+  - title: 'Periodic Table: Flerovium'
+    url: 'https://www.rsc.org/periodic-table/element/114/flerovium'
+    publisher: Royal Society of Chemistry
+    accessed: '2026-11-09'
+tags: [元素, 超重元素, 第七周期, 𫓧, 预测值]
+rights:
+  status: rewritten
+  note: "依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。"
+---
+## 第 114 个质子把电子放进了哪里
+
+鉨的 7p1 再添一个电子，𫓧得到 7p2，进入第 14 族。新增电子仍在 7p，由于自旋-轨道分裂，7p1/2 与 7p3/2 能量不同，第二个电子落在较低的一支。[1] 预测 7p2 不会像碳族那样撑起稳定的四价骨架；这些性质是理论预测，没有实验测定。[1]
+
+## 相对 Z−1：六项差值
+
+- 第一电离能：𫓧无实验值，鉨也没有；只有理论量级估算，本页不伪造具体数字，也不给差值。[1]
+- 原子半径：𫓧无公认半径，鉨也没有；两格都缺实验数据，不能给出可靠差值。
+- 电负性：无公认 Pauling 电负性，鉨同样没有，无法比较。
+- 价电子构型：鉨为 5f14 6d10 7s2 7p1，𫓧为 5f14 6d10 7s2 7p2；新增电子进入 7p。
+- N/Z：质量数 289 给出 175 个中子，N/Z 约 1.535；鉨-286 为 173 个中子，N/Z 约 1.531；升高约 0.004。𫓧无稳定同位素。
+- 核来源：两者都记作人工重离子轰击；𫓧没有天然来源，Z−1 也没有。[2]
+
+能确定比较的仍是构型与 N/Z；三项属性因为缺实验值，只能定性讨论。
+
+## 怎样知道
+
+超重元素一次合成只有几个原子，靠衰变链识别；电离能、半径与电负性没有实验值，本页只保留构型与 N/Z 的差值。[1][2]
+
+## 为什么这一格重要
+
+计算预测𫓧是易挥发的金属，化学上可能比铅更不活泼，甚至带有接近闭壳的行为；7p2 的两枚电子是否参与成键，是检验相对论计算的关键。[2] 这些结论全部来自理论，没有实验测定。
+
+## 它从哪里来
+
+𫓧只能由重离子轰击产生，靠衰变链识别，产量以原子计。[2] 它挂在核时代时间轴上，属于人工合成；无稳定同位素，已知同位素半衰期极短，不能形成可称量的样品。[1]

@@ -1,0 +1,356 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Universe Atlas entry frontmatter",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "dimension",
+    "summary",
+    "quantity",
+    "related",
+    "reviewStatus",
+    "sources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(space|time|temperature|elements|mass)\\.[a-z0-9_-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dimension": {
+      "enum": [
+        "length",
+        "cosmic-time",
+        "temperature",
+        "element",
+        "mass"
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "quantity": {
+      "type": "object",
+      "required": [
+        "value",
+        "unit",
+        "measure",
+        "approximate"
+      ],
+      "properties": {
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "unit": {
+          "enum": [
+            "m",
+            "s",
+            "K",
+            "Z",
+            "kg"
+          ]
+        },
+        "measure": {
+          "type": "string",
+          "minLength": 1
+        },
+        "measureLabel": {
+          "type": "string"
+        },
+        "approximate": {
+          "type": "boolean"
+        },
+        "bound": {
+          "enum": [
+            "upper",
+            "lower"
+          ],
+          "description": "只给出上限或下限时必填；不得把上限当作点值。"
+        },
+        "status": {
+          "enum": [
+            "reference",
+            "undetermined"
+          ]
+        }
+      }
+    },
+    "element": {
+      "type": "object",
+      "properties": {
+        "symbol": {
+          "type": "string",
+          "minLength": 1
+        },
+        "nameEn": {
+          "type": "string"
+        },
+        "period": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "group": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 18
+        },
+        "block": {
+          "enum": [
+            "s",
+            "p",
+            "d",
+            "f"
+          ]
+        },
+        "configuration": {
+          "type": "string"
+        },
+        "valence": {
+          "type": "string"
+        },
+        "hub": {
+          "type": "boolean"
+        },
+        "closedShell": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 118
+        },
+        "periodStart": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 118
+        },
+        "periodEnd": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 118
+        },
+        "predicted": {
+          "type": "boolean"
+        },
+        "level": {
+          "type": "string",
+          "enum": ["A", "B", "C"],
+          "description": "条目深度等级：A 为 800–1200 字、3 条来源；B 为 450–800 字；C 为 300–500 字。"
+        }
+      }
+    },
+    "zeroMass": {
+      "type": "boolean",
+      "description": "零质量特例（如光子）：quantity.value 固定为 0，不参与质量阶梯排序。"
+    },
+    "grade": {
+      "type": "string",
+      "enum": ["A", "B", "C"],
+      "description": "质量条目数据等级：A 为直接测量或权威推荐值；B 为推导、模型拟合或估算；C 为仅上限或粗量级。仅用于质量轴统计，不改变正文字数门槛。"
+    },
+    "mass": {
+      "type": "object",
+      "description": "质量轴可选口径块：天体必须声明总质量/重子质量/恒星质量，并标明是否含暗物质。",
+      "required": [
+        "type",
+        "includesDarkMatter"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "total",
+            "baryonic",
+            "stellar",
+            "dynamical"
+          ]
+        },
+        "includesDarkMatter": {
+          "type": "boolean"
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uncertainty": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit"
+          ],
+          "properties": {
+            "value": {
+              "type": "number",
+              "minimum": 0
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "reviewStatus": {
+      "enum": [
+        "draft",
+        "needs-review",
+        "reviewed",
+        "published"
+      ]
+    },
+    "related": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "url",
+          "publisher",
+          "accessed"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https?://"
+          },
+          "publisher": {
+            "type": "string",
+            "minLength": 1
+          },
+          "accessed": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        }
+      }
+    },
+    "rights": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "legacy-unconfirmed",
+            "rewritten",
+            "licensed"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "visual": {
+      "type": "object",
+      "required": [
+        "scene",
+        "caption",
+        "note"
+      ],
+      "properties": {
+        "scene": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*\\.[a-z0-9-]+$"
+        },
+        "caption": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "chronology": {
+      "type": "object",
+      "properties": {
+        "plot": {
+          "type": "boolean"
+        },
+        "status": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "quantity": {
+            "properties": {
+              "value": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "quantity": {
+            "required": [
+              "status"
+            ],
+            "properties": {
+              "status": {
+                "const": "undetermined"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "dimension": {
+            "const": "cosmic-time"
+          },
+          "quantity": {
+            "properties": {
+              "value": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "chronology"
+        ],
+        "properties": {
+          "chronology": {
+            "required": [
+              "plot"
+            ],
+            "properties": {
+              "plot": {
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

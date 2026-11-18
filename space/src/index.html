@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="从微观到宇宙，用可信的比例，重新认识大小。">
+  <meta property="og:title" content="空间 · 尺度 MAGNITUDE"><meta property="og:description" content="从微观到宇宙，用可信的比例，重新认识大小。"><meta property="og:type" content="website"><meta property="og:site_name" content="尺度 MAGNITUDE"><meta name="twitter:card" content="summary"><title>空间 · 尺度 MAGNITUDE</title><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/refined.css"><link rel="stylesheet" href="./immersive.css"><script type="module" src="/brand.js"></script>
+  <script type="importmap">{"imports":{"three":"/vendor/three.module.js"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"空间 · 尺度 MAGNITUDE","description":"从微观到宇宙，用可信的比例，重新认识大小。","url":"https://space.chidu.org/","inLanguage":"zh-CN","isPartOf":{"@type":"WebSite","name":"尺度 MAGNITUDE","url":"https://chidu.org/"}}</script>
+<link rel="stylesheet" href="/theme.css"></head>
+<body class="space-page"><a class="skip-link" href="#main">跳至正文</a><div class="cosmic-backdrop" aria-hidden="true"><canvas id="universe" aria-label="可旋转和缩放的三维空间尺度场景">你的浏览器无法显示画布，可使用右侧的图文信息。</canvas></div>
+  <header class="topbar">
+    <a class="brand" href="/"><span class="brand-mark">◎</span><strong>尺度</strong><span class="brand-en">MAGNITUDE</span></a>
+    <nav aria-label="尺度站点"><a class="active" aria-current="page" href="/space/">空间<span>SPACE</span></a><a href="/time/">时间<span>TIME</span></a><a href="/temperature/">温度<span>TEMPERATURE</span></a><a href="/elements/">元素<span>ELEMENTS</span></a><a href="/mass/">质量<span>MASS</span></a><a href="/library/">知识库</a></nav>
+  </header>
+  <main class="explorer" id="main" tabindex="-1">
+    <aside class="catalog">
+      <div class="catalog-heading"><span class="eyebrow">THE OBSERVATORY</span><h1 data-en-html="Everything has a scale.">万物，皆有尺度。</h1><p data-en="From the invisible to the unimaginable.">从不可见，到不可想象。</p></div>
+      <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索空间对象" aria-label="搜索空间对象"><kbd>/</kbd></label>
+      <div class="catalog-meta"><span id="catalog-label">精选探索</span><span id="object-count">16 OBJECTS</span></div>
+      <div class="object-list" id="object-list" role="group" aria-label="空间对象"></div>
+      <span id="selection-status" class="visually-hidden" role="status" aria-live="polite"></span>
+      <div class="catalog-foot"><span class="status-dot"></span>开放的尺度知识库<span id="content-count">101 条空间内容</span></div>
+    </aside>
+    <section class="stage-shell" aria-label="空间尺度探索器">
+      <div class="stage" id="stage">
+
+        <div class="stage-top"><div><span class="live-dot"></span>空间观测台 <span class="stage-version">EXPLORER / 01</span></div><div class="observatory-status"><span id="environment-name">行星空间</span><span class="scene-status" id="scene-status">3D · 等比例观察</span></div></div>
+        <div class="stage-caption"><span class="eyebrow" id="scene-category">行星尺度 / PLANETARY</span><h2 id="scene-title">地球</h2><p id="scene-subtitle">EARTH</p><div class="scene-description" id="scene-description">我们认识宇宙的起点。</div><div class="mobile-measure" id="mobile-measure"><span>参考直径</span> <strong>12,742 km</strong> <em>≈ 1.27 × 10⁷ m</em><i class="mobile-disclaimer">几何与材质示意 · 非观测影像</i></div></div>
+        <div class="scene-actions"><button id="motion-toggle" aria-pressed="true">暂停动态 Ⅱ</button><button id="immersion-toggle" aria-pressed="false">沉浸模式 ⛶</button><button id="notes-toggle" aria-expanded="false">对象资料 ⓘ</button></div><div class="stage-tools"><button id="zoom-in" aria-label="放大视野中的物体">＋</button><button id="zoom-out" aria-label="缩小视野中的物体">−</button><button id="reset" aria-label="重置视角">⌖</button></div>
+        <div class="reference-label" id="reference-label"><span></span>几何与材质示意 · 非观测影像</div>
+        <div class="compare-labels" id="compare-labels" hidden><span id="label-a"></span><span id="label-b"></span></div>
+        <div class="stage-bottom"><div class="view-width"><span>当前视野宽度</span><strong id="view-width">32,000 km</strong><div class="scale-line"></div></div><span class="interaction-hint"><span id="motion-clock">动态预览 00:00</span><br>拖动旋转 · 滚轮缩放<br>双指捏合 · 尺度尺跨级探索</span></div>
+        <div class="canvas-fallback" id="canvas-fallback" hidden><strong>当前设备暂不能显示 3D</strong><p>对象信息、尺度尺、比较数据仍可使用。</p></div>
+      </div>
+      <div class="scale-console">
+        <div class="console-heading"><div class="mode-switch" role="group" aria-label="探索模式"><button class="active" id="explore-mode" aria-pressed="true">自由探索</button><button id="compare-mode" aria-pressed="false">大小比较</button></div><button class="tour-button" id="tour">开始尺度旅行 <span>↗</span></button></div>
+        <div id="explore-controls"><div class="scale-value-row"><span>向微观深入 <span>←</span></span><label for="scale-slider">观察尺度 <strong id="scale-value">10⁷ m</strong></label><span><span>→</span> 向宇宙远行</span></div><input id="scale-slider" type="range" min="-35" max="28" value="7.5" step="0.01" aria-label="对数观察尺度"><div class="scale-ticks"><span>10⁻³⁵ m</span><span>原子</span><span>细胞</span><span>人体</span><span>地球</span><span>星系</span><span>10²⁸ m</span></div></div>
+        <div id="compare-controls" hidden><div class="compare-selects"><label>参照对象<select id="compare-a" aria-label="比较对象一"></select></label><span>↔</span><label>比较对象<select id="compare-b" aria-label="比较对象二"></select></label></div><p id="compare-result" class="compare-result"></p></div>
+      </div>
+    </section>
+    <aside class="inspector">
+      <button id="close-notes" aria-label="关闭对象资料">×</button>
+      <div class="inspector-top"><span class="eyebrow">OBJECT NOTES</span><span id="object-number">NO. 061</span></div>
+      <span class="category-chip" id="detail-category">行星尺度</span><h2 id="detail-title">地球</h2><p class="english-name" id="detail-en">EARTH</p>
+      <div class="measurement"><span id="measure-label">参考尺寸</span><strong id="detail-size">12,742 <small>km</small></strong><span id="detail-exponent">≈ 1.27 × 10⁷ m</span></div>
+      <p class="detail-summary" id="detail-summary"></p>
+      <div class="human-reference"><span>以人体为参照</span><strong id="human-ratio">约 750 万倍</strong><span>线性尺寸比较 · 人体参考高度 1.7 m</span></div>
+      <button class="primary-button" id="detail-button">阅读这个尺度 <span>↗</span></button>
+      <button class="secondary-button" id="add-compare">与其他对象比较 <span>＋</span></button>
+      <div class="inspector-bottom"><div><span class="status-dot amber"></span><span id="detail-review-state">待来源核对</span></div><p id="detail-review-note">数值口径与来源随条目提供。</p><button id="share">复制当前观察链接 ↗</button><span id="share-status" role="status"></span><a class="credits-link" href="/assets.html">图像来源与制作说明 ↗</a></div>
+    </aside>
+  </main>
+  <footer class="site-footer"><span>尺度 MAGNITUDE <span class="footer-divider">·</span> 换一个尺度，看见另一个世界。</span><span><a href="/about/">关于</a><span class="footer-divider">·</span><a href="/license/">内容 CC BY 4.0 / 代码 MIT</a><span class="footer-divider">·</span>内容 v1.3.0</span></footer>
+  <dialog id="detail-dialog" aria-label="对象详情"><div class="dialog-heading"><span class="eyebrow">OPEN SCALE KNOWLEDGE</span><button id="close-dialog" aria-label="关闭详情">✕</button></div><div id="dialog-content"></div></dialog>
+  <script type="module" src="./app.js"></script>
+</body></html>

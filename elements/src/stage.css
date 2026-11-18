@@ -1,0 +1,501 @@
+/* 原子剧场：正式站首屏舞台。作用域限定在 .el-immersive，避免影响下方知识层。 */
+.elements-page { overflow-x: clip; }
+.elements-page .el-immersive {
+  --bg: #03060a;
+  --ink: #f2f7fb;
+  --muted: #8ea6b8;
+  --faint: #597083;
+  --cyan: #7fe8ff;
+  --blue: #6aa8ff;
+  --orange: #ffb36b;
+  --violet: #b89cff;
+  --gold: #ffd37a;
+  --accent: var(--cyan);
+  --stage-glow: rgba(42, 164, 196, .22);
+  --stage-glow-2: rgba(60, 90, 180, .16);
+  position: relative;
+  z-index: 0;
+  width: 100vw;
+  height: 100dvh;
+  min-height: 640px;
+  margin: 0 calc(50% - 50vw) 0;
+  overflow: hidden;
+  isolation: isolate;
+  color: var(--ink);
+  font-family: "Inter", "SF Pro Display", "PingFang SC", "Noto Sans SC", ui-sans-serif, system-ui, sans-serif;
+  background:
+    radial-gradient(ellipse 54% 46% at 46% 42%, var(--stage-glow), transparent 70%),
+    radial-gradient(ellipse 40% 50% at 68% 36%, var(--stage-glow-2), transparent 72%),
+    linear-gradient(180deg, #04080d 0%, #03060a 55%, #020407 100%);
+}
+.elements-page .el-immersive[data-block="p"] {
+  --accent: var(--blue);
+  --stage-glow: rgba(50, 112, 190, .24);
+  --stage-glow-2: rgba(112, 78, 190, .13);
+}
+.elements-page .el-immersive[data-block="d"] {
+  --accent: var(--orange);
+  --stage-glow: rgba(180, 94, 40, .2);
+  --stage-glow-2: rgba(110, 72, 30, .12);
+}
+.elements-page .el-immersive[data-block="f"] {
+  --accent: var(--violet);
+  --stage-glow: rgba(100, 66, 190, .22);
+  --stage-glow-2: rgba(40, 90, 140, .12);
+}
+
+.elements-page .el-immersive #stage {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  cursor: grab;
+}
+.elements-page .el-immersive #stage:active { cursor: grabbing; }
+.elements-page .el-immersive #stage canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+.elements-page .el-immersive .vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 75% 70% at 50% 48%, transparent 35%, rgba(3, 5, 9, .32) 75%, rgba(3, 5, 9, .82) 100%),
+    linear-gradient(180deg, rgba(4, 7, 11, .28) 0%, transparent 18%, transparent 70%, rgba(4, 7, 11, .68) 100%);
+}
+.elements-page .el-immersive .scanlines {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  opacity: .24;
+  background: repeating-linear-gradient(180deg, rgba(255, 255, 255, .025) 0 1px, transparent 1px 3px);
+  mix-blend-mode: soft-light;
+}
+
+.elements-page .el-immersive .eyebrow {
+  margin: 0;
+  font-size: 9px;
+  letter-spacing: .2em;
+  line-height: 1.5;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+.elements-page .el-immersive .eyebrow b { font-weight: 500; color: var(--accent); }
+.elements-page .el-immersive .el-intro {
+  position: absolute;
+  z-index: 22;
+  left: 34px;
+  top: 76px;
+  width: 360px;
+  pointer-events: none;
+}
+.elements-page .el-immersive .el-intro h1 {
+  margin: 12px 0 15px;
+  font-size: clamp(25px, 3.25vw, 42px);
+  font-weight: 500;
+  line-height: 1.06;
+  letter-spacing: -.025em;
+  color: #f6fbff;
+}
+.elements-page .el-immersive .el-intro h1 em { font-style: normal; color: var(--accent); }
+.elements-page .el-immersive .el-cloud-note {
+  margin: 12px 0 0;
+  font-size: 8px;
+  line-height: 1.8;
+  letter-spacing: .06em;
+  color: var(--faint);
+  pointer-events: none;
+}
+.elements-page .el-immersive .el-lede {
+  max-width: 280px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.9;
+  color: var(--muted);
+}
+.elements-page .el-immersive .periods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 18px;
+  pointer-events: auto;
+}
+.elements-page .el-immersive .periods button {
+  appearance: none;
+  border: 1px solid rgba(255, 255, 255, .1);
+  background: rgba(255, 255, 255, .025);
+  color: var(--muted);
+  font: inherit;
+  font-size: 8px;
+  letter-spacing: .08em;
+  padding: 5px 7px;
+  cursor: pointer;
+}
+.elements-page .el-immersive .periods button:hover { border-color: var(--accent); color: var(--ink); }
+.elements-page .el-immersive .periods button.active { border-color: var(--accent); color: var(--accent); background: rgba(126, 232, 255, .08); }
+
+.elements-page .el-immersive .el-watermark {
+  position: absolute;
+  z-index: 12;
+  left: 24px;
+  bottom: 208px;
+  margin: 0;
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05em;
+  color: rgba(255, 255, 255, .055);
+  pointer-events: none;
+}
+.elements-page .el-immersive .el-watermark span {
+  font-size: 18px;
+  letter-spacing: .15em;
+  vertical-align: 18px;
+  color: rgba(255, 255, 255, .1);
+}
+.elements-page .el-immersive .el-axis {
+  position: absolute;
+  z-index: 12;
+  left: 50%;
+  top: 54%;
+  width: 1px;
+  height: 38%;
+  pointer-events: none;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, transparent, rgba(126, 232, 255, .1), transparent);
+}
+.elements-page .el-immersive .el-axis::after {
+  content: "";
+  position: absolute;
+  left: -46vw;
+  top: 50%;
+  width: 92vw;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(126, 232, 255, .08), transparent);
+}
+.elements-page .el-immersive .el-footnote {
+  position: absolute;
+  z-index: 22;
+  left: 34px;
+  bottom: 200px;
+  max-width: 240px;
+  margin: 0;
+  font-size: 8px;
+  line-height: 1.8;
+  letter-spacing: .05em;
+  color: var(--faint);
+  pointer-events: none;
+}
+
+.elements-page .el-immersive .panel {
+  background: linear-gradient(145deg, rgba(12, 22, 31, .78), rgba(5, 11, 17, .66));
+  border: 1px solid rgba(126, 232, 255, .14);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, .34), inset 0 1px 0 rgba(255, 255, 255, .04);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+.elements-page .el-immersive .el-card {
+  position: absolute;
+  z-index: 24;
+  top: 76px;
+  right: 34px;
+  width: 300px;
+  margin: 0;
+  padding: 18px 18px 16px;
+  border-radius: 2px;
+}
+.elements-page .el-immersive .card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.elements-page .el-immersive .pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 7px;
+  border: 1px solid rgba(126, 232, 255, .18);
+  background: rgba(126, 232, 255, .06);
+  color: var(--accent);
+  font-size: 9px;
+  letter-spacing: .1em;
+  white-space: nowrap;
+}
+.elements-page .el-immersive .pill.muted {
+  color: var(--muted);
+  border-color: rgba(255, 255, 255, .1);
+  background: rgba(255, 255, 255, .03);
+}
+.elements-page .el-immersive .symbol-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  margin-bottom: 11px;
+}
+.elements-page .el-immersive .symbol-row strong {
+  font-size: 54px;
+  font-weight: 500;
+  line-height: .85;
+  letter-spacing: -.02em;
+  color: #fff;
+  text-shadow: 0 0 36px rgba(127, 232, 255, .28);
+}
+.elements-page .el-immersive .symbol-row .name {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-bottom: 2px;
+}
+.elements-page .el-immersive .symbol-row .name span { font-size: 20px; line-height: 1.1; }
+.elements-page .el-immersive .symbol-row .name em {
+  font-style: normal;
+  font-size: 9px;
+  letter-spacing: .16em;
+  color: var(--muted);
+}
+.elements-page .el-immersive .config {
+  margin-bottom: 12px;
+  padding: 7px 9px;
+  border-left: 2px solid var(--accent);
+  background: rgba(126, 232, 255, .055);
+  color: var(--accent);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 14px;
+  letter-spacing: .04em;
+}
+.elements-page .el-immersive .stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 12px;
+  margin: 12px 0 13px;
+}
+.elements-page .el-immersive .stat { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.elements-page .el-immersive .stat label {
+  font-size: 9px;
+  letter-spacing: .12em;
+  color: var(--faint);
+  white-space: nowrap;
+}
+.elements-page .el-immersive .stat .num { display: flex; align-items: baseline; gap: 4px; min-width: 0; }
+.elements-page .el-immersive .stat strong { font-size: 18px; font-weight: 500; line-height: 1.1; white-space: nowrap; }
+.elements-page .el-immersive .stat small { font-size: 9px; color: var(--muted); white-space: nowrap; }
+.elements-page .el-immersive .delta {
+  margin-bottom: 11px;
+  padding: 9px 10px;
+  border: 1px solid rgba(255, 255, 255, .08);
+  background: rgba(255, 255, 255, .025);
+  font-size: 10px;
+  line-height: 1.7;
+  color: #b7c9d6;
+}
+.elements-page .el-immersive .delta strong { color: var(--accent); font-weight: 500; }
+.elements-page .el-immersive .summary {
+  display: -webkit-box;
+  margin: 0 0 12px;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.75;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.elements-page .el-immersive .article-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, .09);
+  color: var(--accent);
+  font-size: 10px;
+  letter-spacing: .06em;
+  text-decoration: none;
+}
+.elements-page .el-immersive .article-link span { color: var(--faint); }
+.elements-page .el-immersive .article-link:hover { color: #fff; }
+
+.elements-page .el-immersive .console {
+  position: absolute;
+  z-index: 26;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 12px 34px 14px;
+  border-top: 1px solid rgba(126, 232, 255, .13);
+  background: linear-gradient(180deg, rgba(4, 8, 12, .18), rgba(5, 10, 15, .88) 38%, rgba(4, 7, 11, .96));
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+.elements-page .el-immersive .console-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 2px;
+}
+.elements-page .el-immersive .console-head .label {
+  color: var(--faint);
+  font-size: 9px;
+  letter-spacing: .17em;
+  text-transform: uppercase;
+}
+.elements-page .el-immersive .console-head strong { color: var(--accent); font-size: 13px; font-weight: 500; letter-spacing: .03em; }
+.elements-page .el-immersive .console-head .spacer { flex: 1; }
+.elements-page .el-immersive .console-head .meta { color: var(--muted); font-size: 9px; letter-spacing: .12em; white-space: nowrap; }
+.elements-page .el-immersive input[type="range"] {
+  appearance: none;
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  height: 26px;
+  margin: 1px 0 0;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.elements-page .el-immersive input[type="range"]::-webkit-slider-runnable-track {
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--accent) 0%, rgba(127, 232, 255, .35) 62%, rgba(255, 255, 255, .12) 100%);
+}
+.elements-page .el-immersive input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  margin-top: -6px;
+  border: 1px solid rgba(255, 255, 255, .8);
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 5px rgba(127, 232, 255, .08), 0 0 22px rgba(127, 232, 255, .6);
+}
+.elements-page .el-immersive input[type="range"]::-moz-range-track { height: 2px; background: var(--accent); }
+.elements-page .el-immersive input[type="range"]::-moz-range-thumb { width: 14px; height: 14px; border: 0; border-radius: 50%; background: var(--accent); box-shadow: 0 0 22px rgba(127, 232, 255, .6); }
+.elements-page .el-immersive .ticks { display: flex; align-items: center; justify-content: space-between; gap: 8px; height: 16px; padding: 0 2px; }
+.elements-page .el-immersive .ticks span { color: var(--faint); font-size: 8px; letter-spacing: .08em; white-space: nowrap; }
+.elements-page .el-immersive .ticks span.hot { color: var(--accent); }
+.elements-page .el-immersive .ticks i { display: inline-block; width: 1px; height: 4px; margin-right: 5px; background: rgba(255, 255, 255, .2); }
+.elements-page .el-immersive .actions { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+.elements-page .el-immersive .stage-down {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 9px;
+  letter-spacing: .06em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.elements-page .el-immersive .stage-down:hover,
+.elements-page .el-immersive .stage-down:focus-visible { color: var(--gold); text-decoration: underline; }
+.elements-page .el-immersive .btn {
+  appearance: none;
+  border: 1px solid rgba(126, 232, 255, .2);
+  background: rgba(126, 232, 255, .06);
+  color: var(--ink);
+  font: inherit;
+  font-size: 9px;
+  letter-spacing: .1em;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: border-color .2s, background .2s, color .2s;
+}
+.elements-page .el-immersive .btn:hover { border-color: rgba(126, 232, 255, .55); background: rgba(126, 232, 255, .12); }
+.elements-page .el-immersive .btn.active { border-color: var(--accent); background: rgba(126, 232, 255, .16); color: var(--accent); }
+.elements-page .el-immersive .btn.ghost { border-color: rgba(255, 255, 255, .1); background: rgba(255, 255, 255, .02); color: var(--muted); }
+.elements-page .el-immersive .hint { margin-left: auto; color: var(--faint); font-size: 8px; letter-spacing: .08em; white-space: nowrap; }
+.elements-page .el-immersive .el-trend { margin-top: 6px; }
+.elements-page .el-immersive .el-trend-head { display: flex; align-items: center; gap: 10px; margin-bottom: 1px; }
+.elements-page .el-immersive .el-trend-head span { color: var(--faint); font-size: 8px; letter-spacing: .14em; text-transform: uppercase; }
+.elements-page .el-immersive .el-trend-head em { margin-left: auto; color: var(--faint); font-size: 8px; font-style: normal; }
+.elements-page .el-immersive #chart { display: block; width: 100%; height: 50px; overflow: visible; }
+.elements-page .el-immersive #chart path { fill: none; vector-effect: non-scaling-stroke; stroke-width: 1.2; }
+.elements-page .el-immersive #chart .area { opacity: .1; fill: var(--accent); stroke: none; }
+.elements-page .el-immersive #chart .marker { stroke: var(--accent); stroke-width: 1; opacity: .85; }
+.elements-page .el-immersive #chart .dot { fill: var(--accent); stroke: #fff; stroke-width: 1; r: 2.4; }
+.elements-page .el-immersive .legend { display: flex; gap: 12px; margin-top: 0; color: var(--faint); font-size: 8px; letter-spacing: .06em; }
+.elements-page .el-immersive .legend span::before { content: ""; display: inline-block; width: 9px; height: 1px; margin-right: 4px; vertical-align: 2px; background: currentColor; }
+.elements-page .el-immersive .legend .ion { color: var(--cyan); }
+.elements-page .el-immersive .legend .rad { color: var(--orange); }
+.elements-page .el-immersive .legend .en { color: var(--violet); }
+
+.elements-page .el-facts-brief {
+  padding: 28px 0 0;
+  border-bottom: 1px solid var(--el-line);
+}
+.elements-page .el-facts-brief .el-facts { margin-bottom: 0; }
+
+@media (max-width: 900px) {
+  .elements-page .el-immersive { margin-top: 0; }
+  .elements-page .el-immersive .el-intro { left: 16px; top: 66px; width: 250px; }
+  .elements-page .el-immersive .el-intro h1 { margin: 10px 0 0; font-size: 24px; }
+  .elements-page .el-immersive .el-lede,
+  .elements-page .el-immersive .periods { display: none; }
+  .elements-page .el-immersive .el-footnote { display: none; }
+  .elements-page .el-immersive .el-card { top: 66px; right: 12px; width: 206px; padding: 13px; }
+  .elements-page .el-immersive .symbol-row strong { font-size: 40px; }
+  .elements-page .el-immersive .symbol-row .name span { font-size: 16px; }
+  .elements-page .el-immersive .summary { display: none; }
+  .elements-page .el-immersive .stats { gap: 7px 8px; margin: 9px 0; }
+  .elements-page .el-immersive .stat strong { font-size: 14px; }
+  .elements-page .el-immersive .delta { margin-bottom: 8px; padding: 7px 8px; font-size: 9px; }
+  .elements-page .el-immersive .console { padding: 9px 14px 11px; }
+  .elements-page .el-immersive .console-head strong { font-size: 11px; }
+  .elements-page .el-immersive #chart { height: 40px; }
+  .elements-page .el-immersive .el-watermark { display: none; }
+  .elements-page .el-immersive .el-axis { left: 44%; }
+  .elements-page .el-immersive .el-watermark,
+  .elements-page .el-immersive .el-axis { pointer-events: none; }
+}
+
+@media (max-width: 620px) {
+  .elements-page .el-immersive {
+    height: 100dvh;
+    min-height: 560px;
+    margin-top: 0;
+  }
+  .elements-page .el-immersive .el-intro { width: 220px; }
+  .elements-page .el-immersive .el-intro h1 { font-size: 19px; line-height: 1.12; }
+  .elements-page .el-immersive .el-card { top: 64px; right: 10px; width: 182px; padding: 11px; }
+  .elements-page .el-immersive .card-top { margin-bottom: 8px; }
+  .elements-page .el-immersive .pill { padding: 3px 5px; font-size: 8px; }
+  .elements-page .el-immersive .symbol-row { gap: 8px; margin-bottom: 8px; }
+  .elements-page .el-immersive .symbol-row strong { font-size: 34px; }
+  .elements-page .el-immersive .symbol-row .name span { font-size: 14px; }
+  .elements-page .el-immersive .symbol-row .name em { font-size: 8px; }
+  .elements-page .el-immersive .config { margin-bottom: 8px; padding: 5px 7px; font-size: 12px; }
+  .elements-page .el-immersive .stats { margin: 7px 0 8px; gap: 6px 7px; }
+  .elements-page .el-immersive .stats .stat:nth-child(n+3) { display: none; }
+  .elements-page .el-immersive .stat label { font-size: 8px; }
+  .elements-page .el-immersive .stat strong { font-size: 12px; }
+  .elements-page .el-immersive .stat small { display: none; }
+  .elements-page .el-immersive .delta { display: none; }
+  .elements-page .el-immersive .article-link { padding-top: 7px; font-size: 8px; }
+  .elements-page .el-immersive .console-head .meta { display: none; }
+  .elements-page .el-immersive .console-head strong { font-size: 10px; }
+  .elements-page .el-immersive .ticks span:nth-child(even) { display: none; }
+  .elements-page .el-immersive .legend { gap: 8px; font-size: 7px; }
+  .elements-page .el-immersive .hint { display: none; }
+}
+
+@media (max-width: 420px) {
+  .elements-page .el-immersive .el-intro { width: 175px; }
+  .elements-page .el-immersive .el-intro h1 { font-size: 17px; }
+  .elements-page .el-immersive .el-card { right: 8px; width: 170px; }
+  .elements-page .el-immersive .symbol-row strong { font-size: 30px; }
+  .elements-page .el-immersive .symbol-row .name span { font-size: 13px; }
+  .elements-page .el-immersive .config { font-size: 11px; }
+}
+@media (max-height: 560px) {
+  .elements-page .el-immersive .console { padding-top: 7px; padding-bottom: 8px; }
+  .elements-page .el-immersive #chart { height: 34px; }
+  .elements-page .el-immersive .actions { margin-top: 5px; }
+  .elements-page .el-immersive .el-footnote,
+  .elements-page .el-immersive .el-watermark { display: none; }
+  .elements-page .el-immersive .el-intro,
+  .elements-page .el-immersive .el-card { top: 62px; }
+}
+

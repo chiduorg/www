@@ -1,0 +1,192 @@
+[
+  {
+    "id": "method-parallax",
+    "title": "三角视差",
+    "question": "邻近恒星究竟有多远，视差角如何换算成距离？",
+    "method": "以地球绕日公转的轨道直径为基线，测量恒星相对背景的周年视差角；距离与视差角成反比，常用秒差距表示，1秒差距约3.26光年。",
+    "limits": "只适用于银河系内较近的恒星；角分辨率限制远处视差，星际尘埃与自行运动也会干扰，不能直接量星系距离。",
+    "entries": [
+      "space.proxima-centauri",
+      "space.light-year"
+    ]
+  },
+  {
+    "id": "method-standard-candle",
+    "title": "标准烛光",
+    "question": "已知本征亮度的天体，怎样用来测量遥远距离？",
+    "method": "先由视差或近距观测标定造父变星的周期—光度关系、Ia型超新星的光变与峰值亮度，再比较观测亮度按平方反比推出距离，逐级校准成距离阶梯。",
+    "limits": "依赖同类天体的统一性与消光、红移校正；样本少或标定误差会层层放大，不能把单颗超新星当成绝对尺。",
+    "entries": [
+      "space.andromeda-distance",
+      "temperature.type-ia-supernova"
+    ]
+  },
+  {
+    "id": "method-redshift",
+    "title": "宇宙学红移测距",
+    "question": "星系光谱的红移，怎样反映它与我们的距离？",
+    "method": "把光谱中的已知元素谱线位置与实验室波长比较，得到红移z；在低红移下用哈勃—勒梅特定律由红移推距离，高红移则须依赖宇宙学模型和距离定义。",
+    "limits": "红移还混有本动速度，且距离依赖宇宙学参数与所选口径；不能把红移直接当成光行时或物理速度。",
+    "entries": [
+      "space.cmb-surface",
+      "time.reionization-epoch",
+      "space.quasar"
+    ]
+  },
+  {
+    "id": "method-cmb",
+    "title": "宇宙微波背景观测",
+    "question": "全天微波辐射怎样约束早期宇宙的成分与几何？",
+    "method": "测量2.725 K黑体谱及其微开尔文级各向异性，把角功率谱中的声学峰位置与高度同宇宙学模型拟合，从而约束曲率、重子与暗物质密度。",
+    "limits": "前景辐射、仪器定标与模型先验会限制精度；它给出统计参数，不能直接拍到某个星系或确定局部天体。",
+    "entries": [
+      "space.cmb-surface",
+      "temperature.cmb",
+      "time.baryon-acoustic-oscillations"
+    ]
+  },
+  {
+    "id": "method-gravitational-wave",
+    "title": "引力波探测",
+    "question": "双黑洞并合的时空涟漪，怎样被探测器记录并还原？",
+    "method": "用激光干涉仪比较两条长臂的光程差，监测远小于原子尺度的应变；多台探测器符合信号并匹配广义相对论波形模板，推断并合天体的质量与距离。",
+    "limits": "应变极小、易受环境噪声干扰，波源定位与距离依赖模板和模型；不能据此直接成像，也难以探测极低频或极轻波源。",
+    "entries": [
+      "time.gravitational_waves",
+      "space.m87-black-hole",
+      "space.neutron-star"
+    ]
+  },
+  {
+    "id": "method-neutrino",
+    "title": "中微子探测",
+    "question": "几乎不与物质作用的中微子，怎样被实验捕捉？",
+    "method": "在大型水、冰或闪烁体探测器中等待中微子与原子核的弱作用，记录产生的带电粒子及其切伦科夫光或电离信号，再由事件能量与方向反推来源。",
+    "limits": "反应截面极小、本底高，探测器需巨大体积与长期积累；只能给出统计事件，难以重建单个中微子的精确轨迹。",
+    "entries": [
+      "space.neutrino",
+      "temperature.sun-core",
+      "time.neutrino-background-formation"
+    ]
+  },
+  {
+    "id": "method-collider",
+    "title": "粒子对撞实验",
+    "question": "怎样人工制造并识别自然界中不常见的基本粒子？",
+    "method": "把质子或电子加速到高能后对撞，用多层探测器重建带电粒子径迹、能量与动量，再由衰变产物的不变质量等守恒关系识别新粒子。",
+    "limits": "只能看到碰撞产生的稳定或长寿命粒子，能量与亮度受限；结果依赖探测器模拟和模型，不能直接探测普朗克尺度。",
+    "entries": [
+      "space.lhc",
+      "space.higgs-boson",
+      "space.top-quark"
+    ]
+  },
+  {
+    "id": "method-scattering",
+    "title": "散射实验",
+    "question": "怎样从粒子被弹开的角度，推断靶的内部结构？",
+    "method": "让电子、α粒子等探针射向靶，测量不同角度上的散射概率；把角分布与形状因子、理论模型比较，可提取电荷分布和核的均方根半径。",
+    "limits": "探针波长与统计量限制空间分辨率，结果依赖模型与辐射修正；得到的是分布宽度，不是硬球边界或单个粒子的照片。",
+    "entries": [
+      "space.proton",
+      "space.alpha-particle",
+      "space.atomic-nucleus"
+    ]
+  },
+  {
+    "id": "method-mass-spectrometry",
+    "title": "质谱与同位素分析",
+    "question": "样品里有哪些同位素，各自占多少，怎样测出？",
+    "method": "把样品原子电离并加速，按质荷比在电场或磁场中分离，用探测器计数离子；与标准样品比对可测同位素丰度，加速器质谱还能测极微量核素。",
+    "limits": "样品制备与同量异位素干扰会限制精度，丰度须用标准校正；不能单凭质量峰判断矿物成因或确定绝对年代。",
+    "entries": [
+      "space.uranium-nucleus",
+      "space.carbon-nucleus",
+      "time.c14-half-life"
+    ]
+  },
+  {
+    "id": "method-radiometric-dating",
+    "title": "放射性定年",
+    "question": "岩石或遗物形成于何时，怎样用核衰变读出年龄？",
+    "method": "测定样品中母体与子体同位素的比例，按已知半衰期和衰变方程推算时间；前提是体系封闭、初始子体量可估计，并用多种核素交叉校验。",
+    "limits": "开放体系、继承或后期改造会使年龄失真；适用范围受半衰期与样品材料限制，不能给所有事件一个统一日历。",
+    "entries": [
+      "time.c14-half-life",
+      "time.u238-half-life",
+      "time.earth-formation"
+    ]
+  },
+  {
+    "id": "method-stratigraphy",
+    "title": "地层年代学",
+    "question": "没有直接测年的沉积层，怎样排定先后与时代？",
+    "method": "依据地层层序、化石组合与标志层对比建立相对顺序，再用放射性测年、磁性地层和天文旋回把界线校准到绝对年代，形成国际年代地层表。",
+    "limits": "地层可能缺失、变形或穿时，不同剖面对比有误差；它给出顺序和界线年龄，不能直接读出每个物种的出现时刻。",
+    "entries": [
+      "time.k-pg-extinction",
+      "time.cretaceous-period",
+      "time.anthropocene-proposal"
+    ]
+  },
+  {
+    "id": "method-transit-radial-velocity",
+    "title": "系外行星凌星与径向速度",
+    "question": "看不见的行星，怎样测出它的大小、轨道与质量？",
+    "method": "凌星时星光周期性变暗，深度给出行星与恒星半径之比；恒星谱线的多普勒摆动给出轨道周期和质量下限，两者结合还能估算行星密度。",
+    "limits": "凌星要求轨道近乎侧向，径向速度只能给出质量下限并受恒星活动干扰；小暗弱行星信号弱，易与其他周期性变化混淆。",
+    "entries": [
+      "space.exoplanet",
+      "space.proxima-centauri",
+      "space.jupiter"
+    ]
+  },
+  {
+    "id": "method-thermometry",
+    "title": "接触式测温与 ITS-90 温标",
+    "question": "一支温度计怎样把冷热变成可以比较的数字？",
+    "method": "基于国际温标 ITS-90：用定义固定点（如水三相点 273.16 K）标定铂电阻、铑铁电阻与热电偶，再用内插公式把电阻或电动势换算成温度；接触测温要求探头与对象达到热平衡。",
+    "limits": "探头必须与对象接触并达到热平衡，读数是探头所在位置的温度；接触会扰动小尺度对象，低温与高温段分别受材料、漂移与自热限制，不确定度随温区变化。",
+    "entries": [
+      "temperature.water-triple-point",
+      "temperature.rhodium-iron-thermometer",
+      "temperature.human-body-temperature"
+    ]
+  },
+  {
+    "id": "method-radiation-thermometry",
+    "title": "辐射测温",
+    "question": "不能把温度计插进去的恒星，温度是怎样测出的？",
+    "method": "把天体的光谱或总辐射与黑体谱比较，拟合出有效温度；恒星常用斯特藩—玻尔兹曼关系由光度与半径反推，背景辐射则用黑体谱峰值或频段比值定温。",
+    "limits": "假定辐射接近黑体，并依赖半径、距离或发射率；尘埃消光、非热辐射与视角差异会偏温，得到的是有效温度或亮温度，不是内部温度。",
+    "entries": [
+      "temperature.sun-surface",
+      "temperature.sirius-surface",
+      "temperature.cmb"
+    ]
+  },
+  {
+    "id": "method-atomic-clock",
+    "title": "原子钟与脉冲星计时",
+    "question": "一秒有多长，原子钟和脉冲星计时怎样提供时间标准？",
+    "method": "以铯-133 特定跃迁的 9,192,631,770 个周期定义秒；原子钟用微波或光频跃迁锁定振荡器，脉冲星计时则用长期到达时间记录检验稳定度，二者都靠比对多台设备校准。",
+    "limits": "原子钟受温度、磁场与相对论效应影响，需持续比对与修正；脉冲星计时受星际介质与脉冲噪声限制，不能替代实验室秒定义。",
+    "entries": [
+      "time.second",
+      "time.nanosecond",
+      "time.pulsar-period"
+    ]
+  },
+  {
+    "id": "method-laser-interferometry",
+    "title": "激光干涉与长度传递",
+    "question": "从米尺到地月距离，长度怎样被逐级传递和测量？",
+    "method": "把激光分成两束、让一束走过待测路径再与参考束重合，数干涉条纹或测相位差得到光程；米由真空光速与秒定义，短距离用干涉仪，地月距离用激光反射器往返时间。",
+    "limits": "受大气折射、光学元件误差与目标反射器限制；只能测视线方向的光程，长基线还要扣除潮汐、板块运动与时钟误差，不能直接给出三维形状。",
+    "entries": [
+      "space.au",
+      "space.earth-moon-distance",
+      "space.gps-orbit"
+    ]
+  }
+]

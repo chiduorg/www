@@ -1,0 +1,486 @@
+[
+  {
+    "id": "ladder-space",
+    "title": "空间尺度阶梯",
+    "intro": "从质子到可观测宇宙，选出十六个代表性尺度；相邻两级跨越几个到十几个数量级不等。所有长度均按同一种口径记录：天体用直径，天体之间与轨道用日心或质心距离，粒子与结构用均方根半径或特征长度，标签注明所用口径。没有对应实体的区间显式标为空档，不强行填充。",
+    "steps": [
+      {
+        "label": "10⁻¹⁵ m / 质子（参考长度）",
+        "entry": "space.proton"
+      },
+      {
+        "label": "10⁻¹⁰ m / 原子（氢原子比较长度）",
+        "entry": "space.atom"
+      },
+      {
+        "label": "10⁻⁷ m / 病毒（100 纳米参照）",
+        "entry": "space.virus"
+      },
+      {
+        "label": "10⁻⁶ m / 细菌（1 微米量级）",
+        "entry": "space.bacteria"
+      },
+      {
+        "label": "10⁰ m / 人（身高）",
+        "entry": "space.human"
+      },
+      {
+        "label": "10³ m / 珠峰（2020 雪面高程）",
+        "entry": "space.everest"
+      },
+      {
+        "label": "10⁷ m / 地球（体积等效平均直径）",
+        "entry": "space.earth"
+      },
+      {
+        "label": "10⁹ m / 太阳（平均直径）",
+        "entry": "space.sun"
+      },
+      {
+        "label": "10¹² m / 太阳系（海王星轨道区域宽度）",
+        "entry": "space.solar-system"
+      },
+      {
+        "label": "10¹³ m / 日球层顶（旅行者 1 号穿越位置）",
+        "entry": "space.heliopause"
+      },
+      {
+        "label": "10¹⁴ m / 塞德娜远日点（轨道解参照）",
+        "entry": "space.sedna"
+      },
+      {
+        "label": "10¹⁵ m / 奥尔特云内层起始",
+        "entry": "space.inner-oort-cloud"
+      },
+      {
+        "label": "10¹⁶ m / 奥尔特云外缘上端",
+        "entry": "space.oort-cloud"
+      },
+      {
+        "label": "10¹⁷ m / 空档",
+        "gap": "跨越 1 个数量级，无同口径实测对象；再往外直接进入本地泡与恒星际尺度。"
+      },
+      {
+        "label": "10¹⁸ m / 本地泡（至少 300 光年单侧延展）",
+        "entry": "space.local-bubble"
+      },
+      {
+        "label": "10²¹ m / 银河系（恒星盘直径）",
+        "entry": "space.milky-way"
+      },
+      {
+        "label": "10²⁷ m / 可观测宇宙（粒子视界直径）",
+        "entry": "space.observable-universe"
+      }
+    ],
+    "entries": [
+      "space.proton",
+      "space.atom",
+      "space.virus",
+      "space.bacteria",
+      "space.human",
+      "space.everest",
+      "space.earth",
+      "space.sun",
+      "space.solar-system",
+      "space.heliopause",
+      "space.sedna",
+      "space.inner-oort-cloud",
+      "space.oort-cloud",
+      "space.local-bubble",
+      "space.milky-way",
+      "space.observable-universe"
+    ]
+  },
+  {
+    "id": "ladder-time",
+    "title": "时间尺度阶梯",
+    "intro": "从普朗克时代到今天，再单列一段模型未来，共十二级；每一步给出可对照的时长或时点，并区分“持续多久”和“发生在何时”。所有时间统一换算成秒，年按 31,557,600 秒计；没有同口径实测对象的区间显式标为空档。",
+    "steps": [
+      {
+        "label": "10⁻⁴³ s / 普朗克时代（理论边界）",
+        "entry": "time.planck-era"
+      },
+      {
+        "label": "10⁻³⁶ s / 暴胀（模型时期）",
+        "entry": "time.inflation"
+      },
+      {
+        "label": "10⁻¹² s / 夸克时代",
+        "entry": "time.quark-era"
+      },
+      {
+        "label": "10⁻¹¹–10⁻⁷ s / 空档",
+        "gap": "跨越 5 个数量级，无同口径实测对象；只有早期宇宙模型的分段描述。"
+      },
+      {
+        "label": "10⁻⁶ s / 强子时代",
+        "entry": "time.hadron-era"
+      },
+      {
+        "label": "10⁻⁵–10⁻¹ s / 空档",
+        "gap": "跨越 4 个数量级，无同口径实测对象；再往后进入轻子热史。"
+      },
+      {
+        "label": "10⁰ s / 轻子时代",
+        "entry": "time.lepton-epoch"
+      },
+      {
+        "label": "180 s / 原初核合成",
+        "entry": "time.nucleosynthesis"
+      },
+      {
+        "label": "3.8×10⁵ 年 / 复合",
+        "entry": "time.recombination"
+      },
+      {
+        "label": "5×10⁷ 年 / 造山过程（典型持续时长）",
+        "entry": "time.mountain-building"
+      },
+      {
+        "label": "4×10⁸ 年 / 第一代星系",
+        "entry": "time.first-galaxies"
+      },
+      {
+        "label": "45.4 亿年 / 地球年龄",
+        "entry": "time.earth-age"
+      },
+      {
+        "label": "距现在约 10¹² 年 / 恒星形成基本停止（模型未来）",
+        "entry": "time.stellar-formation-ceases",
+        "future": true
+      },
+      {
+        "label": "距现在约 10¹⁴ 年 / 最后一代恒星（模型未来）",
+        "entry": "time.last-stars",
+        "future": true
+      }
+    ],
+    "entries": [
+      "time.planck-era",
+      "time.inflation",
+      "time.quark-era",
+      "time.hadron-era",
+      "time.lepton-epoch",
+      "time.nucleosynthesis",
+      "time.recombination",
+      "time.mountain-building",
+      "time.first-galaxies",
+      "time.earth-age",
+      "time.stellar-formation-ceases",
+      "time.last-stars"
+    ]
+  },
+  {
+    "id": "ladder-temperature",
+    "title": "温度尺度阶梯",
+    "intro": "从绝对零度到普朗克温度，选出十四个参照点；每个参照都标明是物质温度、辐射场温度还是理论温标。所有温度统一用开尔文，摄氏只作对照；没有同口径实测对象的区间显式标为空档，不把模型值当作测量值。",
+    "steps": [
+      {
+        "label": "0 K / 绝对零度（定义点）",
+        "entry": "temperature.absolute-zero"
+      },
+      {
+        "label": "10⁻⁹ K / 蒸发冷却（原子气体）",
+        "entry": "temperature.evaporative-cooling"
+      },
+      {
+        "label": "10⁻⁸ K / 空档",
+        "gap": "跨越 1 个数量级，无同口径实测对象；再往下只有更低温的原子气体实验，未逐一纳入。"
+      },
+      {
+        "label": "1.7×10⁻⁷ K / 玻色—爱因斯坦凝聚",
+        "entry": "temperature.bose-einstein"
+      },
+      {
+        "label": "4.21×10⁻⁴ K / 核退磁制冷",
+        "entry": "temperature.nuclear-demagnetization-cooling"
+      },
+      {
+        "label": "10⁻² K / 稀释制冷",
+        "entry": "temperature.dilution-refrigerator"
+      },
+      {
+        "label": "2.725 K / 宇宙微波背景（辐射温度）",
+        "entry": "temperature.cmb"
+      },
+      {
+        "label": "273.15 K / 水冰点（标准压力）",
+        "entry": "temperature.water-freezing"
+      },
+      {
+        "label": "310.15 K / 人体体温（参考值）",
+        "entry": "temperature.human-body-temperature"
+      },
+      {
+        "label": "3,570 K / 地幔底部（核幔边界固相线参照）",
+        "entry": "temperature.earth-mantle"
+      },
+      {
+        "label": "5,772 K / 太阳表面（有效温度）",
+        "entry": "temperature.sun-surface"
+      },
+      {
+        "label": "1.5×10⁷ K / 太阳核心",
+        "entry": "temperature.sun-core"
+      },
+      {
+        "label": "10¹¹ K / 核心坍缩超新星",
+        "entry": "temperature.supernova"
+      },
+      {
+        "label": "1.5×10¹³ K / 大爆炸后 10⁻⁶ 秒（模型热史）",
+        "entry": "temperature.early-universe-1e-6-seconds"
+      },
+      {
+        "label": "10¹⁴–10³¹ K / 空档",
+        "gap": "跨越 17 个数量级，无同口径实测对象；10¹⁵ K 附近只有电弱过渡的模型值，不列入实测对照。"
+      },
+      {
+        "label": "1.4×10³² K / 普朗克温度（理论温标）",
+        "entry": "temperature.planck-temperature"
+      }
+    ],
+    "entries": [
+      "temperature.absolute-zero",
+      "temperature.evaporative-cooling",
+      "temperature.bose-einstein",
+      "temperature.nuclear-demagnetization-cooling",
+      "temperature.dilution-refrigerator",
+      "temperature.cmb",
+      "temperature.water-freezing",
+      "temperature.human-body-temperature",
+      "temperature.earth-mantle",
+      "temperature.sun-surface",
+      "temperature.sun-core",
+      "temperature.supernova",
+      "temperature.early-universe-1e-6-seconds",
+      "temperature.planck-temperature"
+    ]
+  },
+  {
+    "id": "ladder-astronomical",
+    "title": "天体尺度阶梯",
+    "intro": "从地球到可观测宇宙，用直径、轨道距离和星系间距分层比较；同一个“多少光年”可能指天体大小，也可能指它们之间的空隙。",
+    "steps": [
+      {
+        "label": "10⁷ m / 地球",
+        "entry": "space.earth"
+      },
+      {
+        "label": "10⁸ m / 地月距离",
+        "entry": "space.earth-moon-distance"
+      },
+      {
+        "label": "10⁹ m / 太阳",
+        "entry": "space.sun"
+      },
+      {
+        "label": "10¹³ m / 太阳系",
+        "entry": "space.solar-system"
+      },
+      {
+        "label": "10¹⁶ m / 比邻星距离",
+        "entry": "space.proxima-centauri"
+      },
+      {
+        "label": "10²¹ m / 银河系",
+        "entry": "space.milky-way"
+      },
+      {
+        "label": "10²² m / 仙女座星系距离",
+        "entry": "space.andromeda-distance"
+      },
+      {
+        "label": "10²⁷ m / 可观测宇宙",
+        "entry": "space.observable-universe"
+      }
+    ],
+    "entries": [
+      "space.earth",
+      "space.earth-moon-distance",
+      "space.sun",
+      "space.solar-system",
+      "space.proxima-centauri",
+      "space.milky-way",
+      "space.andromeda-distance",
+      "space.observable-universe"
+    ]
+  },
+  {
+    "id": "ladder-microscopic",
+    "title": "微观尺度阶梯",
+    "intro": "从夸克到细胞，逐级跨越核子、原子与分子层级；粒子没有硬球边界，分子与细胞也各有口径，标签只作量级锚点。",
+    "steps": [
+      {
+        "label": "无可比直径 / 夸克",
+        "entry": "space.quark"
+      },
+      {
+        "label": "10⁻¹⁵ m / 质子",
+        "entry": "space.proton"
+      },
+      {
+        "label": "10⁻¹⁴ m / 原子核",
+        "entry": "space.atomic-nucleus"
+      },
+      {
+        "label": "10⁻¹⁰ m / 原子",
+        "entry": "space.atom"
+      },
+      {
+        "label": "1.5×10⁻¹⁰ m / 水分子",
+        "entry": "space.water-molecule"
+      },
+      {
+        "label": "2×10⁻⁹ m / DNA",
+        "entry": "space.dna"
+      },
+      {
+        "label": "2×10⁻⁵ m / 细胞",
+        "entry": "space.cell"
+      }
+    ],
+    "entries": [
+      "space.quark",
+      "space.proton",
+      "space.atomic-nucleus",
+      "space.atom",
+      "space.water-molecule",
+      "space.dna",
+      "space.cell"
+    ]
+  },
+  {
+    "id": "ladder-geologic",
+    "title": "地质年代阶梯",
+    "intro": "从冥古宙到全新世，按国际年代地层表的界线由老到新排列；年龄是界线参考值，灭绝与演化过程并不都在同一天切换。",
+    "steps": [
+      {
+        "label": "45.4亿年前 / 冥古宙",
+        "entry": "time.hadean"
+      },
+      {
+        "label": "40.0亿年前 / 太古宙",
+        "entry": "time.archean"
+      },
+      {
+        "label": "25.0亿年前 / 元古宙",
+        "entry": "time.proterozoic"
+      },
+      {
+        "label": "5.39亿年前 / 古生代",
+        "entry": "time.paleozoic"
+      },
+      {
+        "label": "2.52亿年前 / 中生代",
+        "entry": "time.mesozoic"
+      },
+      {
+        "label": "6600万年前 / 新生代",
+        "entry": "time.cenozoic"
+      },
+      {
+        "label": "1.17万年前 / 全新世",
+        "entry": "time.holocene-epoch"
+      }
+    ],
+    "entries": [
+      "time.hadean",
+      "time.archean",
+      "time.proterozoic",
+      "time.paleozoic",
+      "time.mesozoic",
+      "time.cenozoic",
+      "time.holocene-epoch"
+    ]
+  },
+  {
+    "id": "ladder-civilization",
+    "title": "人类文明阶梯",
+    "intro": "从最早人属证据到数字时代，选八个可定位的路标；它们不是等间隔，也不代表全球所有地区同步进入同一阶段。",
+    "steps": [
+      {
+        "label": "约280万年前 / 最早人属证据",
+        "entry": "time.first-humans"
+      },
+      {
+        "label": "约1万年前 / 农业起源",
+        "entry": "time.agricultural-revolution"
+      },
+      {
+        "label": "约5300年前 / 文字出现",
+        "entry": "time.invention-of-writing"
+      },
+      {
+        "label": "公元前800年 / 古典时代",
+        "entry": "time.classical-antiquity"
+      },
+      {
+        "label": "公元500年 / 中世纪",
+        "entry": "time.middle-ages"
+      },
+      {
+        "label": "公元1400年 / 文艺复兴",
+        "entry": "time.renaissance"
+      },
+      {
+        "label": "约250年前 / 工业革命",
+        "entry": "time.industrial-revolution"
+      },
+      {
+        "label": "约50年前 / 数字时代",
+        "entry": "time.digital-age"
+      }
+    ],
+    "entries": [
+      "time.first-humans",
+      "time.agricultural-revolution",
+      "time.invention-of-writing",
+      "time.classical-antiquity",
+      "time.middle-ages",
+      "time.renaissance",
+      "time.industrial-revolution",
+      "time.digital-age"
+    ]
+  },
+  {
+    "id": "ladder-extreme",
+    "title": "极端物理尺度阶梯",
+    "intro": "从普朗克长度到可观测宇宙，把量子泡沫、黑洞视界与最后散射面放在同一长度轴；量子泡沫只有模型假说，没有可比直径。",
+    "steps": [
+      {
+        "label": "10⁻³⁵ m / 普朗克长度",
+        "entry": "space.planck"
+      },
+      {
+        "label": "未定量值 / 时空泡沫假说",
+        "entry": "space.quantum-foam-bubble"
+      },
+      {
+        "label": "10⁴ m / 恒星级黑洞视界",
+        "entry": "space.black-hole-event-horizon"
+      },
+      {
+        "label": "10¹³ m / M87* 视界",
+        "entry": "space.m87-black-hole"
+      },
+      {
+        "label": "10²⁶ m / 最后散射面",
+        "entry": "space.cmb-surface"
+      },
+      {
+        "label": "10²⁷ m / 可观测宇宙",
+        "entry": "space.observable-universe"
+      }
+    ],
+    "entries": [
+      "space.planck",
+      "space.quantum-foam-bubble",
+      "space.black-hole-event-horizon",
+      "space.m87-black-hole",
+      "space.cmb-surface",
+      "space.observable-universe"
+    ]
+  }
+]
