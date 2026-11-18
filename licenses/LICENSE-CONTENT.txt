@@ -1,0 +1,41 @@
+尺度 MAGNITUDE · 内容许可（CC BY 4.0）
+
+除非另有说明，本项目中由项目贡献者原创撰写的知识条目正文、条目元数据
+（标题、摘要、分类、标签、适用条件与图景说明）、学习路线文案、页面说明文字
+和项目文档，均以 Creative Commons Attribution 4.0 International（CC BY 4.0）
+许可提供。
+
+许可证全文：https://creativecommons.org/licenses/by/4.0/legalcode
+许可证摘要：https://creativecommons.org/licenses/by/4.0/
+
+推荐署名方式（可复制到引用场景）：
+
+  尺度 MAGNITUDE 贡献者，《条目名称》，
+  https://<轴>.chidu.org/entry/<轴>/<slug>/，
+  以 CC BY 4.0 许可提供；如有修改请注明。
+
+或者简短版：
+
+  © 2026 尺度 MAGNITUDE 贡献者 · CC BY 4.0 · https://chidu.org/license/
+
+你可以自由地共享（以任何媒介或格式复制、发行）和演绎（修改、转换、再创作）
+本许可覆盖的内容，包括商业用途，但须遵守以下条件：
+
+1. 署名：注明作者、来源链接和许可证，并说明是否作出修改。
+2. 不得增加额外限制：不得以法律条款或技术措施限制他人按许可证允许的方式使用。
+
+本许可不覆盖：
+
+- 源代码。源代码以 MIT 许可提供，见仓库根目录与 redesign/ 下的 LICENSE。
+- 第三方事实数据、论文、标准、数据库与网页内容。项目仅在必要时引用其中的
+  数值、日期与事实，并逐条记录来源；这些材料仍归各自权利人所有，不因出现在
+  本项目而改变许可。详见 docs/THIRD_PARTY_NOTICES.md。
+- 第三方图片与纹理。行星纹理来自 Solar System Scope / INOVE，以 CC BY 4.0
+  提供，署名与修改说明见 content/assets/CREDITS.md；Three.js 以 MIT 许可提供，
+  见产物中的 vendor/THREE-LICENSE.txt。
+- 商标、品牌名称与产品名称。文中提及仅用于识别与说明。
+
+科学数值与事实的来源记录在各条目的 sources 字段中。来源核对表示对资料与
+数值做了比对，不等于外部同行评审，也不构成对第三方内容的再许可。
+
+本说明不替代 CC BY 4.0 许可证全文；如本说明与许可证全文冲突，以许可证全文为准。

@@ -1,0 +1,102 @@
+---
+id: mass.mercury
+title: 水星：3.301×10²³ kg，MESSENGER 环绕测出的最轻行星
+summary: >-
+  水星是离太阳最近的行星，总质量约 3.301×10²³ kg，约为地球的十八分之一。它没有卫星，质量只能靠 MESSENGER
+  的轨道跟踪反演，相对不确定度约 0.1%。
+dimension: mass
+category: 行星
+displayValue: 3.301×10²³ kg
+quantity:
+  value: 3.301e+23
+  unit: kg
+  measure: 水星总质量（含铁镍核与硅酸盐幔，不含暗物质）；由 MESSENGER 在轨跟踪与引力场拟合得出，相对不确定度约 0.1%
+  approximate: false
+grade: A
+mass:
+  type: total
+  includesDarkMatter: false
+  method: spacecraft tracking and gravity-field fitting
+  uncertainty:
+    value: 0.001
+    unit: relative
+related:
+  - mass.moon
+  - mass.earth
+  - mass.pluto
+  - space.earth
+reviewStatus: reviewed
+review:
+  method: source-check
+  date: '2026-11-09'
+  notes:
+    - >-
+      本轮复核：结构、引用编号与量值口径完整；quantity.value 与 displayValue
+      数量级一致，bound/zeroMass/approximate、mass.type 与 includesDarkMatter
+      逐条核对；太阳、地球、银河、可观测宇宙、总物质、暗物质、哈勃体积、中微子与光子的人工复核一致。
+    - >-
+      来源可达性：72 个唯一来源中 48 个直接返回 2xx；其余为站点反爬、限流或超时。已修复 PDG 2024 目录页路径与中微子综述 PDF
+      两个死链。本轮未逐页重读全文，沿用条目既有 accessed 记录。
+    - >-
+      reviewed 指结构与来源口径核对，不是外部同行评审；总质量、重子质量、恒星质量与含暗物质口径按 quantity.measure 与 mass
+      字段保留。
+sources:
+  - title: Planetary Fact Sheet
+    url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/'
+    publisher: NASA Space Science Data Coordinated Archive
+    accessed: '2026-11-09'
+  - title: Solar System Dynamics
+    url: 'https://ssd.jpl.nasa.gov/'
+    publisher: NASA Jet Propulsion Laboratory
+    accessed: '2026-11-09'
+  - title: NASA Science
+    url: 'https://science.nasa.gov/'
+    publisher: NASA
+    accessed: '2026-11-09'
+tags:
+  - 质量
+  - 行星
+  - 水星
+  - 类地行星
+rights:
+  status: rewritten
+  note: 依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。
+conditions:
+  reference: 质量一律以 kg 计；阶梯位置按 log10(m/kg) 计算；不把重量、体积×密度或 E/c² 当作静质量。
+  scope: 水星总质量（含铁镍核与硅酸盐幔，不含暗物质）；由 MESSENGER 在轨跟踪与引力场拟合得出，相对不确定度约 0.1%
+  precision: A 级；记录值。
+  massType: 总质量
+  includesDarkMatter: 否
+  uncertainty: 相对约 0.1%
+visual:
+  template: mass-scale
+  scene: mass.scale
+  caption: B11 小行星与类地行星 · 3.301×10²³ kg
+  note: 位置按 log10(m/kg) 计算；16 个带的宽度按十进位跨度绘制，不代表线性质量比例，也不把体积或重量当作质量。
+  band: B11
+  bandLabel: 小行星与类地行星
+  log10: 23.519
+  position: 68.3
+  color: '#8fc9d8'
+  scaleMin: -40
+  scaleMax: 53
+---
+## 这个读数是什么
+
+水星是离太阳最近的行星，本条记录它的总质量约 3.301×10²³ kg。[1] 口径为天体总质量，包含巨大的铁镍核与硅酸盐幔，不包含暗物质。它只比月球重约 4.5 倍，却比地球轻约十八倍。
+
+## 口径与不确定度
+
+总质量口径包含全部岩石与金属。MESSENGER 在轨跟踪给出的相对不确定度约为 0.1%，定为 A 级，正文保留四位有效数字。[2] 水星的平均密度约为 5.43 g/cm³，接近地球，说明它的铁核占比很高；但密度是由质量与体积共同推出的，不能替代质量测量。
+
+## 怎么测出来的
+
+MESSENGER 在 2011 至 2015 年环绕水星，地面测控通过多普勒跟踪测量探测器速度变化，再由轨道摄动与引力场系数 J2 反演质量与低阶引力场。[2] 水星没有卫星，因此不能像冥王星那样借助卫星轨道反推质量，只能依赖航天器跟踪。[3] 这也让早期的水星质量估计长期带有较大误差。
+
+## 量级位置
+
+3.301×10²³ kg 位于 B11 带上段，约为地球质量的十八分之一、火星质量的九分之一。[1] 它比月球重约 4.5 倍，是太阳系八大行星中最轻的一颗。把它放在质量阶梯上，水星与火星之间的差距，恰好说明“类地行星”内部也有很大的质量跨度。水星的质量虽小，却因高密度铁核而拥有仅次于地球的未压缩平均密度。
+
+## 怎么继续走
+
+想看与它质量相近但更小的月球，去 mass.moon；想看更大的类地行星，去 mass.earth；想看同为岩石小天体的矮行星，去 mass.pluto；想看地球的空间图景，去 space.earth。
