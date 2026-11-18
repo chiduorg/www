@@ -1235,3 +1235,28 @@ html[data-theme="light"] .mass-page .mass-intro h1 em { color: #a06c2c !importan
 html[data-theme="light"] .mass-page .mass-lede { color: #365563; }
 html[data-theme="light"] .mass-page .mass-intro .eyebrow { color: #57727f; }
 html[data-theme="light"] .mass-page .mass-depth { color: #365563; }
+
+/* Brand mark · Cosmic Spiral 01 */
+.atlas-symbol,
+.brand-mark {
+  display: inline-block !important;
+  width: 28px !important;
+  height: 28px !important;
+  flex: 0 0 28px;
+  overflow: hidden;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  color: transparent !important;
+  text-indent: -9999px;
+  background: url('/symbol.svg?v=1.3.0') center / contain no-repeat !important;
+}
+html[data-theme="light"] .atlas-symbol,
+html[data-theme="light"] .brand-mark {
+  background-image: url('/symbol-light.svg?v=1.3.0') !important;
+}
+@media (max-width: 760px) {
+  .atlas-symbol, .brand-mark { width: 24px !important; height: 24px !important; flex-basis: 24px; }
+}
+@media (max-width: 600px) {
+  .atlas-symbol, .brand-mark { width: 22px !important; height: 22px !important; flex-basis: 22px; }
+}
