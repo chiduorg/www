@@ -1538,3 +1538,53 @@ html[data-theme="light"] .mass-page .mass-intro{
 html[data-theme="light"] .station-page canvas{
   filter:saturate(1.18) contrast(1.1) brightness(.98);
 }
+/* v19-unified-chrome */
+.atlas-header .brand-line{display:none!important}
+@media (max-width:600px){
+  .site-footer,.atlas-footer{
+    position:fixed!important;left:0;right:0;bottom:57px!important;
+    height:22px!important;min-height:22px!important;
+    padding:0 12px!important;display:flex!important;align-items:center!important;
+    justify-content:flex-end!important;gap:0!important;
+    background:linear-gradient(180deg,rgba(4,8,15,.55),rgba(4,8,15,.78));
+    border-top:1px solid rgba(160,190,220,.1);
+    z-index:30;overflow:hidden;white-space:nowrap;pointer-events:auto;
+  }
+  .site-footer .footer-brand,.atlas-footer .footer-brand{display:none!important}
+  .site-footer .footer-meta,.atlas-footer .footer-meta{display:inline-flex!important;align-items:center;gap:4px;font-size:8px!important;flex:0 0 auto}
+  .site-footer .footer-meta a,.atlas-footer .footer-meta a{font-size:8px!important}
+  .station-page .site-footer .footer-meta,.space-page .site-footer .footer-meta{display:inline-flex!important}
+  .site-footer .footer-legal,.atlas-footer .footer-legal{display:inline-flex!important;align-items:center;gap:5px;white-space:nowrap;font-size:8px!important}
+  html[data-theme="light"] .site-footer,html[data-theme="light"] .atlas-footer{
+    background:linear-gradient(180deg,rgba(248,251,253,.66),rgba(248,251,253,.9));
+    border-top-color:rgba(20,48,66,.12);
+  }
+  body{padding-bottom:79px!important}
+}
+html[data-theme="light"] .station-page .station-caption h2{font-weight:400!important}
+/* v19-space-mobile: 收起快捷对象条，压缩标题与读数，让地球回到画面中心 */
+@media (max-width:600px){
+  .space-page .catalog-meta,
+  .space-page .object-list{display:none!important}
+  .space-page .catalog{padding-bottom:8px!important}
+  .space-page #scene-subtitle{display:none!important}
+  .space-page .stage-caption #scene-title{font-size:30px!important;line-height:1.1!important;margin:4px 0 2px!important}
+  .space-page .stage-caption .scene-description{font-size:10.5px!important;line-height:1.45!important;margin:4px 0 6px!important}
+  .space-page .stage-caption{width:220px!important;max-width:calc(100vw - 32px)!important;padding:10px 12px 8px!important}
+  .space-page .mobile-measure{width:196px!important;max-width:calc(100vw - 32px)!important;padding:7px 9px!important}
+}
+/* v19-space-mobile-2: 收紧舞台信息层，给地球让出高度 */
+@media (max-width:600px){
+  .space-page .stage-top{top:110px!important}
+  .space-page .scene-actions{top:140px!important}
+  .space-page .stage-caption{top:202px!important}
+  .space-page .stage-tools{top:252px!important}
+  .space-page .stage-caption .eyebrow{display:block!important;font-size:7px!important;line-height:1.3!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important}
+  .space-page .stage-caption #scene-title{font-size:26px!important;line-height:1.1!important}
+  .space-page .stage-caption .scene-description{display:none!important}
+  .space-page .mobile-measure{padding:5px 8px!important}
+  .space-page .mobile-measure span{font-size:7px!important;line-height:1.2!important}
+  .space-page .mobile-measure strong{font-size:15px!important;line-height:1.2!important}
+  .space-page .mobile-measure em{font-size:8px!important;line-height:1.3!important}
+  .space-page .mobile-measure .mobile-disclaimer{font-size:6px!important;line-height:1.3!important}
+}
