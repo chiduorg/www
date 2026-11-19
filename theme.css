@@ -1570,15 +1570,20 @@ html[data-theme="light"] .station-page canvas{
 html[data-theme="light"] .station-page .station-caption h2{font-weight:400!important}
 html[data-theme="light"] .station-page .station-backdrop{background:#e8f0f5!important}
 html[data-theme="light"] .station-page .station-caption{
-  background:linear-gradient(100deg,rgba(255,255,255,.96),rgba(255,255,255,.82) 62%,rgba(255,255,255,0))!important;
-  border-color:rgba(18,50,66,.10)!important;
-  box-shadow:0 14px 40px rgba(20,52,68,.10);
+  background:#f8fbfc!important;
+  border:1px solid rgba(18,50,66,.08)!important;
+  box-shadow:0 10px 30px rgba(20,52,68,.12)!important;
+  z-index:8!important;
 }
 html[data-theme="light"] .station-page .station-caption::before{display:none!important}
 html[data-theme="light"] .station-page .station-caption .eyebrow{color:#5d7b85!important;text-shadow:none!important}
 html[data-theme="light"] .station-page .station-caption h2{color:#0a2733!important;text-shadow:none!important}
 html[data-theme="light"] .station-page .station-caption .scene-description{color:#4a6670!important;text-shadow:none!important}
 .mass-page .mass-immersive .summary{-webkit-line-clamp:4!important}
+@media (max-width:600px){
+  .mass-page .mass-immersive .console{bottom:24px!important;padding-bottom:9px!important}
+  .mass-page .mass-immersive .console .actions{margin-top:5px!important}
+}
 /* v19-space-mobile: 收起快捷对象条，压缩标题与读数，让地球回到画面中心 */
 @media (max-width:600px){
   .space-page .catalog-meta,
