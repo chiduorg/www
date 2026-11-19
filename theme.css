@@ -1478,18 +1478,18 @@ html[data-theme="light"] .mass-page .mass-intro{
     backdrop-filter:blur(8px);
   }
   html[data-theme="light"] .station-page .station-caption{
-    background:linear-gradient(100deg,rgba(249,252,253,.8),rgba(249,252,253,.34) 60%,rgba(249,252,253,0) 96%);
+    background:linear-gradient(100deg,rgba(249,252,253,.92),rgba(249,252,253,.44) 60%,rgba(249,252,253,0) 96%);
   }
   html[data-theme="dark"] .station-page .stage-readout{
     background:linear-gradient(90deg,rgba(3,10,22,.72),rgba(3,10,22,.16));
   }
   html[data-theme="light"] .station-page .stage-readout{
-    background:linear-gradient(120deg,rgba(255,255,255,.82),rgba(255,255,255,.5));
+    background:linear-gradient(120deg,rgba(255,255,255,.88),rgba(255,255,255,.58));
   }
 }
 @media (max-width:900px){
   html[data-theme="light"] .station-page .station-caption{
-    background:linear-gradient(100deg,rgba(249,252,253,.82),rgba(249,252,253,.42) 74%,rgba(249,252,253,0));
+    background:linear-gradient(100deg,rgba(249,252,253,.88),rgba(249,252,253,.48) 74%,rgba(249,252,253,0));
     -webkit-backdrop-filter:blur(10px);
     backdrop-filter:blur(10px);
   }
