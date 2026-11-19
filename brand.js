@@ -170,6 +170,28 @@ function updateThemeButton(button){
  button.setAttribute('aria-label',theme==='light'?'Switch to dark theme':'切换为浅色主题');
  button.title=theme==='light'?'Dark theme':'Light theme';
 }
+function updateFullscreenButton(button){
+ if(!button)return;
+ const active=!!(document.fullscreenElement||document.webkitFullscreenElement);
+ button.classList.toggle('is-active',active);
+ button.setAttribute('aria-pressed',active?'true':'false');
+ const zh=active?'退出全屏':'全屏显示';
+ const en=active?'Exit full screen':'Full screen';
+ button.setAttribute('aria-label',lang===EN?en:zh);
+ button.title=lang===EN?en:zh;
+}
+function toggleFullscreen(){
+ const root=document.documentElement;
+ const request=root.requestFullscreen||root.webkitRequestFullscreen;
+ const exit=document.exitFullscreen||document.webkitExitFullscreen;
+ try{
+  if(document.fullscreenElement||document.webkitFullscreenElement){
+   Promise.resolve(exit?.call(document)).catch(()=>{});
+  }else if(request){
+   Promise.resolve(request.call(root)).catch(()=>{});
+  }
+ }catch{}
+}
 function setHeaderLabels(){
  for(const link of document.querySelectorAll('.atlas-header nav a,.topbar nav a')){
   const href=link.getAttribute('href');
@@ -281,6 +303,7 @@ async function applyLanguage(){
   document.title=ORIGINAL_TITLE;
  }
  updateLangButton(document.querySelector('.lang-toggle'));
+ updateFullscreenButton(document.querySelector('.fullscreen-toggle'));
  for(const el of document.querySelectorAll('.brand strong')){
   if(!el.dataset.atlasZh)el.dataset.atlasZh=el.textContent;
   el.textContent=lang===EN?'MAGNITUDE':el.dataset.atlasZh;
@@ -323,7 +346,7 @@ function addChromeTools(){
  if(!header.querySelector('.chrome-tools')){
   const tools=document.createElement('div');
   tools.className='chrome-tools';
-  tools.innerHTML='<button class="lang-toggle" type="button" aria-label="中 / EN 切换语言"><span data-lang-label="zh">中</span><i>/</i><span data-lang-label="en">EN</span></button><button class="theme-toggle" type="button" aria-label="切换为浅色主题">☾</button>';
+  tools.innerHTML='<button class="lang-toggle" type="button" aria-label="中 / EN 切换语言"><span data-lang-label="zh">中</span><i>/</i><span data-lang-label="en">EN</span></button><button class="theme-toggle" type="button" aria-label="切换为浅色主题">☾</button><button class="fullscreen-toggle" type="button" aria-label="全屏显示" title="全屏显示"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>';
   header.append(tools);
   tools.querySelector('.lang-toggle').addEventListener('click',()=>{
    lang=lang===EN?ZH:EN;
@@ -335,6 +358,11 @@ function addChromeTools(){
    persist(THEME_KEY,theme);
    applyTheme();
   });
+  const fullscreen=tools.querySelector('.fullscreen-toggle');
+  if(fullscreen){
+   if(!(document.documentElement.requestFullscreen||document.documentElement.webkitRequestFullscreen))fullscreen.hidden=true;
+   fullscreen.addEventListener('click',toggleFullscreen);
+  }
  }
  const nav=header.querySelector('nav');
  const architecture=header.querySelector('.architecture-link');
@@ -343,6 +371,8 @@ function addChromeTools(){
 }
 
 addChromeTools();
+document.addEventListener('fullscreenchange',()=>updateFullscreenButton(document.querySelector('.fullscreen-toggle')));
+document.addEventListener('webkitfullscreenchange',()=>updateFullscreenButton(document.querySelector('.fullscreen-toggle')));
 setHeaderLabels();
 applyTheme();
 await applyLanguage();
