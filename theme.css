@@ -1669,3 +1669,8 @@ html[data-theme="light"] .mass-page :where(.mass-facts>div,.mass-band,.mass-band
 html[data-theme="light"] .mass-page .mass-measures h3{color:#8a5a1c!important}
 html[data-theme="light"] .mass-page .mass-measures p{color:#35515f!important}
 html[data-theme="light"] .mass-page .mass-band :where(p,dd,span){color:#35515f!important}
+
+/* v19-space-summary: 桌面端简介改为三行截断，避免出现只有 1.5 行的小滚动框 */
+@media (min-width:901px){
+  .space-page .inspector .detail-summary{max-height:none!important;height:auto!important;flex:0 0 auto!important;overflow:hidden!important;display:-webkit-box!important;-webkit-box-orient:vertical!important;-webkit-line-clamp:2!important}
+}
