@@ -1612,6 +1612,14 @@ html[data-theme="light"] .station-page .station-caption .scene-description{color
   .site-footer .footer-legal,.atlas-footer .footer-legal{font-size:10px!important;line-height:1.35!important}
   .site-footer .footer-meta a,.atlas-footer .footer-meta a{font-size:10px!important}
 }
+html[data-theme="light"] .prose-page>p,
+html[data-theme="light"] .prose-page .article-lead,
+html[data-theme="light"] .prose-page .page-intro,
+html[data-theme="light"] .article-prose p,
+html[data-theme="light"] .article-sources p,
+html[data-theme="light"] .article-sources li,
+html[data-theme="light"] .legal-content p,
+html[data-theme="light"] .legal-content li{color:#35515f!important}
 .mass-page .mass-immersive .summary{-webkit-line-clamp:4!important}
 @media (max-width:600px){
   .mass-page .mass-immersive .console{bottom:24px!important;padding-bottom:9px!important}
