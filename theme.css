@@ -1287,3 +1287,163 @@ html[data-lang="en"] .nav-label-en{display:inline!important}
 .topbar nav a .nav-label,
 .atlas-header nav a .nav-label,
 .app-dock-label .nav-label{font:inherit!important;letter-spacing:inherit!important;color:inherit!important;text-transform:none!important;white-space:nowrap}
+
+/* ---------- 全站统一：页头高度、页脚高度、移动端信息层级 ---------- */
+/* 桌面页脚统一 40px。station/space 的站点级规则优先级更高，这里显式覆盖。 */
+.station-page .site-footer,
+.space-page .site-footer {
+  height: 40px;
+  min-height: 40px;
+  padding: 0 24px;
+  font-size: 8.5px;
+}
+.site-footer,
+.atlas-footer {
+  height: 40px !important;
+  min-height: 40px !important;
+}
+
+@media (max-width: 600px) {
+  /* 所有站点移动端页头统一 52px；舞台为页头 + 内容 + 底部 Dock 留出 57px。 */
+  .station-page .topbar,
+  .space-page .topbar {
+    height: var(--atlas-header-h);
+    min-height: var(--atlas-header-h);
+    padding: 0 14px;
+  }
+  .station-page .station-main { height: calc(100dvh - 109px); }
+  .space-page .explorer { height: calc(100dvh - 109px); }
+  .space-page .brand-preview { top: 60px; }
+  .space-page .architecture-link { top: 66px; }
+
+  /* 可滚动页面在底部预留 Dock 高度，让页脚能完整滚到 Dock 上方。 */
+  body { padding-bottom: 57px; }
+
+  /* 移动页脚统一 44px：隐藏品牌长句，保留“关于/版权/许可”和“法律/域名”。 */
+  .site-footer,
+  .atlas-footer,
+  .station-page .site-footer,
+  .space-page .site-footer {
+    height: 44px !important;
+    min-height: 44px !important;
+    padding: 0 12px !important;
+    font-size: 7px !important;
+    gap: 8px !important;
+    flex-wrap: nowrap !important;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .site-footer .footer-brand,
+  .atlas-footer .footer-brand { display: none !important; }
+  .station-page .site-footer > span:last-child,
+  .space-page .site-footer > span:last-child { display: inline-flex !important; align-items: center; gap: 4px; }
+  .site-footer > span,
+  .atlas-footer > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+  .site-footer .footer-meta,
+  .atlas-footer .footer-meta {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+  .site-footer .footer-legal,
+  .atlas-footer .footer-legal { display: inline-flex; align-items: center; gap: 5px; flex: 0 0 auto; white-space: nowrap; }
+
+  /* 3D 舞台页：页脚压缩为 Dock 上方的一条法律信息条，保证始终可见。 */
+  .station-page .site-footer,
+  .space-page .site-footer {
+    position: fixed !important;
+    left: 0;
+    right: 0;
+    bottom: 57px !important;
+    height: 22px !important;
+    min-height: 22px !important;
+    padding: 0 12px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    background: linear-gradient(180deg, rgba(4, 8, 15, .55), rgba(4, 8, 15, .78));
+    border-top: 1px solid rgba(160, 190, 220, .1);
+    font-size: 6px !important;
+    z-index: 30;
+    pointer-events: auto;
+  }
+  .station-page .site-footer .footer-brand,
+  .station-page .site-footer .footer-meta,
+  .space-page .site-footer .footer-brand,
+  .space-page .site-footer .footer-meta { display: none !important; }
+  .station-page .site-footer .footer-legal,
+  .space-page .site-footer .footer-legal { display: inline-flex !important; align-items: center; gap: 5px; white-space: nowrap; }
+
+  /* 移动端 3D 与文字分层：标题区加局部压暗，站台读数改为半透明 HUD。 */
+  .space-page .stage-caption {
+    padding: 10px 14px 12px;
+    margin: -8px 0 0 -10px;
+    background: linear-gradient(100deg, rgba(3, 8, 16, .84), rgba(3, 8, 16, .5) 62%, rgba(3, 8, 16, 0));
+    border-radius: 8px;
+    text-shadow: 0 1px 18px rgba(0, 0, 0, .75);
+  }
+  .station-page .station-caption {
+    text-shadow: 0 1px 18px rgba(0, 0, 0, .8), 0 0 4px rgba(0, 0, 0, .6);
+  }
+  .station-page .stage-readout {
+    max-width: 82%;
+    padding: 10px 14px 11px;
+    background: linear-gradient(120deg, rgba(4, 9, 16, .86), rgba(4, 9, 16, .5));
+    border: 1px solid rgba(154, 183, 214, .16);
+    border-left: 2px solid var(--station-accent);
+    border-radius: 6px;
+    backdrop-filter: blur(12px) saturate(110%);
+    -webkit-backdrop-filter: blur(12px) saturate(110%);
+    text-shadow: 0 1px 12px rgba(0, 0, 0, .55);
+  }
+}
+
+html[data-theme="light"] .space-page .stage-caption {
+  background: linear-gradient(100deg, rgba(248, 251, 253, .9), rgba(248, 251, 253, .55) 62%, rgba(248, 251, 253, 0));
+  text-shadow: 0 1px 12px rgba(255, 255, 255, .7);
+}
+html[data-theme="light"] .station-page .site-footer,
+html[data-theme="light"] .space-page .site-footer {
+  background: linear-gradient(180deg, rgba(248, 251, 253, .6), rgba(248, 251, 253, .86));
+  border-top-color: rgba(20, 48, 66, .12);
+}
+html[data-theme="light"] .station-page .station-caption { text-shadow: 0 1px 14px rgba(255, 255, 255, .8); }
+html[data-theme="light"] .station-page .stage-readout {
+  background: linear-gradient(120deg, rgba(255, 255, 255, .9), rgba(255, 255, 255, .62));
+  border-color: rgba(20, 48, 66, .16);
+  text-shadow: none;
+}
+
+
+
+/* 页脚法律信息：六站统一字号与单行节奏 */
+.site-footer .footer-legal,.atlas-footer .footer-legal{font-size:9px!important;line-height:1.4!important;flex-wrap:nowrap!important;white-space:nowrap!important}
+@media (max-width:600px){.site-footer .footer-legal,.atlas-footer .footer-legal{font-size:9px!important;line-height:1.4!important}}
+
+
+.site-footer .footer-legal,.atlas-footer .footer-legal{height:auto!important;min-height:0!important;max-height:none!important;padding-block:0!important;align-self:center!important}
+
+/* 浅色 3D 舞台：读数与标题的可读性修正 */
+html[data-theme="light"] .space-page .mobile-measure{
+  background:linear-gradient(180deg,rgba(255,255,255,.95),rgba(243,248,250,.9))!important;
+  border:1px solid rgba(24,49,63,.12);
+  box-shadow:0 10px 28px rgba(29,57,70,.12);
+}
+html[data-theme="light"] .space-page .mobile-measure span,
+html[data-theme="light"] .space-page .mobile-measure em,
+html[data-theme="light"] .space-page .mobile-measure i{color:#315463!important;text-shadow:none!important}
+html[data-theme="light"] .space-page .mobile-measure strong{color:#0f2e3d!important;text-shadow:none!important}
+html[data-theme="light"] .space-page .stage-bottom span,
+html[data-theme="light"] .space-page .stage-bottom strong{color:#315463!important;text-shadow:0 1px 0 rgba(255,255,255,.65)}
+html[data-theme="light"] .station-page .station-caption{
+  background:linear-gradient(100deg,rgba(250,252,253,.94),rgba(250,252,253,.55) 72%,rgba(250,252,253,0));
+  padding:8px 12px 10px;margin:-8px 0 0 -10px;border-radius:10px;
+}
+html[data-theme="light"] .elements-page .el-intro,
+html[data-theme="light"] .mass-page .mass-intro{
+  background:linear-gradient(100deg,rgba(248,251,253,.94),rgba(248,251,253,.55) 76%,rgba(248,251,253,0));
+  border-radius:10px;padding:8px 12px 10px;top:58px;left:8px;
+}
