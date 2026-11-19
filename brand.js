@@ -2,13 +2,25 @@ const html=document.documentElement;
 const ORIGINAL_TITLE=document.title;
 const THEME_KEY='atlas-theme',LANG_KEY='atlas-lang';
 const params=new URLSearchParams(location.search);
-const storedTheme=(()=>{try{return localStorage.getItem(THEME_KEY)}catch{return null}})();
-const storedLang=(()=>{try{return localStorage.getItem(LANG_KEY)}catch{return null}})();
-let theme=params.get('theme')||storedTheme||'dark';
-let lang=params.get('lang')||storedLang||'zh-CN';
-if(lang!=='en')lang='zh-CN';
-html.dataset.theme=theme==='light'?'light':'dark';
+function readCookie(name){try{const match=document.cookie.match(new RegExp('(?:^|; )'+name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'=([^;]*)'));return match?decodeURIComponent(match[1]):null}catch{return null}}
+function readStorage(key){try{return localStorage.getItem(key)}catch{return null}}
+function systemLang(){try{const value=(navigator.languages&&navigator.languages[0])||navigator.language||'';return /^en/i.test(value)?'en':'zh-CN'}catch{return 'zh-CN'}}
+function systemTheme(){try{return matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'}catch{return 'dark'}}
+function cookieDomain(){const host=location.hostname;return host==='chidu.org'||host.endsWith('.chidu.org')?'; Domain=.chidu.org':''}
+function persist(key,value){try{localStorage.setItem(key,value)}catch{}try{document.cookie=`${key}=${encodeURIComponent(value)}; Path=/; Max-Age=31536000; SameSite=Lax${cookieDomain()}`}catch{}}
+const storedTheme=readStorage(THEME_KEY);
+const storedLang=readStorage(LANG_KEY);
+const cookieTheme=readCookie(THEME_KEY);
+const cookieLang=readCookie(LANG_KEY);
+const sysTheme=systemTheme(),sysLang=systemLang();
+let theme=params.get('theme')||cookieTheme||storedTheme||sysTheme;
+if(theme!=='light'&&theme!=='dark')theme=sysTheme;
+let lang=params.get('lang')||cookieLang||storedLang||sysLang;
+if(lang==='en')lang='en';else if(lang==='zh'||lang==='zh-CN')lang='zh-CN';else lang=sysLang;
+html.dataset.theme=theme;
 html.dataset.lang=lang;
+html.lang=lang==='en'?'en':'zh-CN';
+html.style.colorScheme=theme;
 
 const ZH='zh-CN',EN='en';
 const NAV_LABELS={
@@ -145,8 +157,7 @@ function ensureDictionary(){
  return dictPromise;
 }
 
-function persist(key,value){try{localStorage.setItem(key,value)}catch{}}
- function updateLangButton(button){
+function updateLangButton(button){
  if(!button)return;
  button.setAttribute('aria-label',lang===EN?'ZH / EN Switch language':'中 / EN 切换语言');
  const zhLabel=button.querySelector('[data-lang-label="zh"]');

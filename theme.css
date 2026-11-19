@@ -1260,3 +1260,12 @@ html[data-theme="light"] .brand-mark {
 @media (max-width: 600px) {
   .atlas-symbol, .brand-mark { width: 22px !important; height: 22px !important; flex-basis: 22px; }
 }
+
+/* Language-aware navigation labels. */
+.nav-label-zh{display:inline!important}
+.nav-label-en{display:none!important}
+html[data-lang="en"] .nav-label-zh{display:none!important}
+html[data-lang="en"] .nav-label-en{display:inline!important}
+.topbar nav a .nav-label,
+.atlas-header nav a .nav-label,
+.app-dock-label .nav-label{font:inherit!important;letter-spacing:inherit!important;color:inherit!important;text-transform:none!important;white-space:nowrap}
