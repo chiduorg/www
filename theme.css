@@ -1533,3 +1533,8 @@ html[data-theme="light"] .mass-page .mass-intro{
     backdrop-filter:blur(16px) saturate(1.08);
   }
 }
+
+/* v18f-light-canvas */
+html[data-theme="light"] .station-page canvas{
+  filter:saturate(1.18) contrast(1.1) brightness(.98);
+}
