@@ -1579,6 +1579,39 @@ html[data-theme="light"] .station-page .station-caption::before{display:none!imp
 html[data-theme="light"] .station-page .station-caption .eyebrow{color:#5d7b85!important;text-shadow:none!important}
 html[data-theme="light"] .station-page .station-caption h2{color:#0a2733!important;text-shadow:none!important}
 html[data-theme="light"] .station-page .station-caption .scene-description{color:#4a6670!important;text-shadow:none!important}
+@media (max-width:600px){
+  html[data-theme="light"] .site-footer,
+  html[data-theme="light"] .atlas-footer{
+    background:#f8fbfc!important;
+    border-top:1px solid rgba(18,50,66,.12)!important;
+    box-shadow:0 -4px 18px rgba(20,52,68,.06)!important;
+  }
+  html[data-theme="light"] .site-footer .footer-meta,
+  html[data-theme="light"] .site-footer .footer-legal,
+  html[data-theme="light"] .atlas-footer .footer-meta,
+  html[data-theme="light"] .atlas-footer .footer-legal{color:#5b7380!important}
+  html[data-theme="light"] .site-footer .footer-meta a,
+  html[data-theme="light"] .site-footer .footer-legal a,
+  html[data-theme="light"] .atlas-footer .footer-meta a,
+  html[data-theme="light"] .atlas-footer .footer-legal a{color:#36515f!important}
+  html[data-theme="light"] .site-footer .footer-divider,
+  html[data-theme="light"] .atlas-footer .footer-divider{color:#9db0ba!important}
+  html[data-theme="dark"] .site-footer,
+  html[data-theme="dark"] .atlas-footer{
+    background:#04070d!important;
+  }
+  html[data-theme="dark"] .site-footer .footer-meta,
+  html[data-theme="dark"] .site-footer .footer-legal,
+  html[data-theme="dark"] .atlas-footer .footer-meta,
+  html[data-theme="dark"] .atlas-footer .footer-legal{color:#93a8ba!important}
+  html[data-theme="dark"] .site-footer .footer-meta a,
+  html[data-theme="dark"] .site-footer .footer-legal a,
+  html[data-theme="dark"] .atlas-footer .footer-meta a,
+  html[data-theme="dark"] .atlas-footer .footer-legal a{color:#b8c9d8!important}
+  .site-footer .footer-meta,.atlas-footer .footer-meta,
+  .site-footer .footer-legal,.atlas-footer .footer-legal{font-size:10px!important;line-height:1.35!important}
+  .site-footer .footer-meta a,.atlas-footer .footer-meta a{font-size:10px!important}
+}
 .mass-page .mass-immersive .summary{-webkit-line-clamp:4!important}
 @media (max-width:600px){
   .mass-page .mass-immersive .console{bottom:24px!important;padding-bottom:9px!important}
