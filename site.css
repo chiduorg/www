@@ -69,3 +69,16 @@
 .data-table td.num{font-variant-numeric:tabular-nums;color:#dce6e1;white-space:nowrap}
 .data-table tr:hover td{background:#ffffff05}
 @media(max-width:760px){.learning-teaser{grid-template-columns:1fr;gap:30px;padding-top:48px;padding-bottom:48px}.learning-teaser-copy h2{font-size:27px}.learning-teaser-copy>p:not(.eyebrow){font-size:12px}.learning-teaser-links a{padding:15px 16px;font-size:12px}}
+
+/* v19-library-en: 英文筛选标签在窄屏内横向滚动，避免撑破页面 */
+@media (max-width:700px){
+  .library-toolbar{max-width:100%;min-width:0;overflow-x:visible}
+  .filter-group{width:100%!important;flex-wrap:wrap!important}
+  .library-toolbar::-webkit-scrollbar{display:none}
+}
+
+/* v19-footer-gap: 移动端页脚分组之间留出可读间距 */
+@media (max-width:700px){
+  .site-footer{gap:9px!important}
+  .site-footer .footer-meta,.site-footer .footer-legal{gap:7px!important}
+}
