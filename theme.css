@@ -1554,6 +1554,12 @@ html[data-theme="light"] .station-page canvas{
   .site-footer .footer-meta,.atlas-footer .footer-meta{display:inline-flex!important;align-items:center;gap:4px;font-size:8px!important;flex:0 0 auto}
   .site-footer .footer-meta a,.atlas-footer .footer-meta a{font-size:8px!important}
   .station-page .site-footer .footer-meta,.space-page .site-footer .footer-meta{display:inline-flex!important}
+  .site-footer .footer-meta>a:first-child{display:none!important}
+  .site-footer .footer-meta>.footer-divider{display:none!important}
+  .site-footer .footer-legal>span:last-child{display:none!important}
+  .site-footer .footer-legal .footer-divider:nth-of-type(2){display:none!important}
+  .site-footer .footer-meta{margin-left:auto!important}
+  .site-footer .footer-legal{margin-left:0!important;width:auto!important;flex:0 0 auto!important}
   .site-footer .footer-legal,.atlas-footer .footer-legal{display:inline-flex!important;align-items:center;gap:5px;white-space:nowrap;font-size:8px!important}
   html[data-theme="light"] .site-footer,html[data-theme="light"] .atlas-footer{
     background:linear-gradient(180deg,rgba(248,251,253,.66),rgba(248,251,253,.9));
@@ -1562,6 +1568,17 @@ html[data-theme="light"] .station-page canvas{
   body{padding-bottom:79px!important}
 }
 html[data-theme="light"] .station-page .station-caption h2{font-weight:400!important}
+html[data-theme="light"] .station-page .station-backdrop{background:#e8f0f5!important}
+html[data-theme="light"] .station-page .station-caption{
+  background:linear-gradient(100deg,rgba(255,255,255,.96),rgba(255,255,255,.82) 62%,rgba(255,255,255,0))!important;
+  border-color:rgba(18,50,66,.10)!important;
+  box-shadow:0 14px 40px rgba(20,52,68,.10);
+}
+html[data-theme="light"] .station-page .station-caption::before{display:none!important}
+html[data-theme="light"] .station-page .station-caption .eyebrow{color:#5d7b85!important;text-shadow:none!important}
+html[data-theme="light"] .station-page .station-caption h2{color:#0a2733!important;text-shadow:none!important}
+html[data-theme="light"] .station-page .station-caption .scene-description{color:#4a6670!important;text-shadow:none!important}
+.mass-page .mass-immersive .summary{-webkit-line-clamp:4!important}
 /* v19-space-mobile: 收起快捷对象条，压缩标题与读数，让地球回到画面中心 */
 @media (max-width:600px){
   .space-page .catalog-meta,
