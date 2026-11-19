@@ -1679,3 +1679,9 @@ html[data-theme="light"] .mass-page .mass-band :where(p,dd,span){color:#35515f!i
 html[data-theme="light"] .knowledge-article .mass-figure-zero .mass-zero-line strong{color:#35515f!important}
 html[data-theme="light"] .knowledge-article .mass-figure-zero .mass-zero-line small{color:#5d737d!important}
 html[data-theme="light"] .knowledge-article .mass-figure-caption{color:#4e6672!important}
+
+
+/* v19-home-card: 首页地球坐标卡在浅色主题下改为浅底深字 */
+html[data-theme="light"] .earth-coordinate{background:rgba(248,251,252,.92)!important;border-color:rgba(18,50,66,.22)!important;color:#35515f!important;box-shadow:0 10px 30px rgba(18,50,66,.14)!important}
+html[data-theme="light"] .earth-coordinate strong{color:#14232b!important}
+html[data-theme="light"] .earth-coordinate :where(span,small,p){color:#4e6672!important}
