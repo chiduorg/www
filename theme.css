@@ -1674,3 +1674,8 @@ html[data-theme="light"] .mass-page .mass-band :where(p,dd,span){color:#35515f!i
 @media (min-width:901px){
   .space-page .inspector .detail-summary{max-height:none!important;height:auto!important;flex:0 0 auto!important;overflow:hidden!important;display:-webkit-box!important;-webkit-box-orient:vertical!important;-webkit-line-clamp:2!important}
 }
+
+/* v19-article-light: 知识文章内质量零值图的浅色文字 */
+html[data-theme="light"] .knowledge-article .mass-figure-zero .mass-zero-line strong{color:#35515f!important}
+html[data-theme="light"] .knowledge-article .mass-figure-zero .mass-zero-line small{color:#5d737d!important}
+html[data-theme="light"] .knowledge-article .mass-figure-caption{color:#4e6672!important}
