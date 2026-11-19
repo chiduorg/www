@@ -1651,3 +1651,8 @@ html[data-theme="light"] .legal-content li{color:#35515f!important}
   .space-page .mobile-measure em{font-size:8px!important;line-height:1.3!important}
   .space-page .mobile-measure .mobile-disclaimer{font-size:6px!important;line-height:1.3!important}
 }
+/* v19-elements-mobile: 底部控制条上移，避免被固定页脚遮住 */
+@media (max-width:600px){
+  .el-immersive .console{bottom:44px!important}
+  .el-immersive .console .actions{margin-top:4px!important}
+}
