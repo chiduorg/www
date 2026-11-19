@@ -1656,3 +1656,16 @@ html[data-theme="light"] .legal-content li{color:#35515f!important}
   .el-immersive .console{bottom:44px!important}
   .el-immersive .console .actions{margin-top:4px!important}
 }
+
+/* v19-light-content: 元素/质量内容区在浅色主题下不再保留深色黑板 */
+html[data-theme="light"] .elements-page{--el-bg:#eef4f7;--el-ink:#14232b;--el-dim:#3f5865;--el-line:rgba(26,58,73,.16);--el-accent:#9a6a24;--el-teal:#0b6b7a;--el-violet:#5d4b92;--el-amber:#8a5a1c;background:#eef4f7;color:#14232b}
+html[data-theme="light"] .elements-page :where(.el-facts>div,.el-step,.el-links a,.el-detail-card,.el-cell){background:#f8fbfc!important;color:#35515f!important;border-color:rgba(26,58,73,.16)!important}
+html[data-theme="light"] .elements-page .el-cell:hover,html[data-theme="light"] .elements-page .el-links a:hover{background:#eaf3f7!important}
+html[data-theme="light"] .elements-page .el-detail-card :where(h3,h4,p,dt,dd,div,span,code){color:#35515f!important}
+html[data-theme="light"] .elements-page .el-detail-card .el-symbol{color:#9a6a24!important}
+html[data-theme="light"] .elements-page .el-links a :where(span,small,p,strong){color:#35515f!important}
+html[data-theme="light"] .mass-page{--m-bg:#eef4f7;--m-ink:#14232b;--m-dim:#3f5865;--m-line:rgba(26,58,73,.16);--m-accent:#8a5a1c;--m-teal:#0b6b7a;--m-violet:#5d4b92;background:#eef4f7;color:#14232b}
+html[data-theme="light"] .mass-page :where(.mass-facts>div,.mass-band,.mass-band-special,.mass-anchor,.mass-measures li){background:#f8fbfc!important;color:#35515f!important;border-color:rgba(26,58,73,.16)!important}
+html[data-theme="light"] .mass-page .mass-measures h3{color:#8a5a1c!important}
+html[data-theme="light"] .mass-page .mass-measures p{color:#35515f!important}
+html[data-theme="light"] .mass-page .mass-band :where(p,dd,span){color:#35515f!important}
