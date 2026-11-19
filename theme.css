@@ -1,7 +1,7 @@
 /* 全站统一顶栏 / 页脚与明暗主题。这个文件在所有站点最后加载，负责覆盖各站自己的深色规则。 */
 
 :root {
-  --atlas-header-h: 56px;
+  --atlas-header-h: 46px;
   --atlas-footer-h: 34px;
   --atlas-light-bg: #eef3f6;
   --atlas-light-panel: #f8fbfd;
@@ -89,7 +89,7 @@
 }
 
 .atlas-header nav a {
-  padding: 18px 1px;
+  padding: 13px 1px;
   font-size: 11.5px;
 }
 
@@ -342,7 +342,7 @@ html[data-lang="en"] .lang-toggle [data-lang-label="en"] {
   inset: 0 0 auto;
   z-index: 50;
   height: var(--atlas-header-h);
-  background: rgba(4, 8, 15, .28);
+  background: rgba(4, 8, 15, .22);
   border-bottom: 1px solid rgba(161, 184, 211, .08);
   backdrop-filter: blur(10px) saturate(115%);
   -webkit-backdrop-filter: blur(10px) saturate(115%);
@@ -358,7 +358,7 @@ html[data-lang="en"] .lang-toggle [data-lang-label="en"] {
 @media (max-width: 900px) {
   .elements-page .topbar,
   .mass-page .topbar {
-    background: rgba(4, 8, 15, .34);
+    background: rgba(4, 8, 15, .22);
   }
 }
 
@@ -637,10 +637,13 @@ html[data-theme="light"] .mass-page {
   color: var(--atlas-light-ink);
 }
 
-html[data-theme="light"] .space-page .topbar,
+html[data-theme="light"] .space-page .topbar {
+  background: rgba(248, 251, 253, .62) !important;
+}
+
 html[data-theme="light"] .elements-page .topbar,
 html[data-theme="light"] .mass-page .topbar {
-  background: rgba(248, 251, 253, .62) !important;
+  background: rgba(248, 251, 253, .22) !important;
 }
 
 html[data-theme="light"] .space-page .catalog,
@@ -1685,3 +1688,6 @@ html[data-theme="light"] .knowledge-article .mass-figure-caption{color:#4e6672!i
 html[data-theme="light"] .earth-coordinate{background:rgba(248,251,252,.92)!important;border-color:rgba(18,50,66,.22)!important;color:#35515f!important;box-shadow:0 10px 30px rgba(18,50,66,.14)!important}
 html[data-theme="light"] .earth-coordinate strong{color:#14232b!important}
 html[data-theme="light"] .earth-coordinate :where(span,small,p){color:#4e6672!important}
+
+/* v19-compact-nav: 桌面端导航点击区与 46px 页头对齐 */
+@media (min-width:901px){.atlas-header nav a{padding:13px 1px!important}}
