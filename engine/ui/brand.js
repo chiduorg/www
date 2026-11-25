@@ -2,13 +2,25 @@ const html=document.documentElement;
 const ORIGINAL_TITLE=document.title;
 const THEME_KEY='atlas-theme',LANG_KEY='atlas-lang';
 const params=new URLSearchParams(location.search);
-const storedTheme=(()=>{try{return localStorage.getItem(THEME_KEY)}catch{return null}})();
-const storedLang=(()=>{try{return localStorage.getItem(LANG_KEY)}catch{return null}})();
-let theme=params.get('theme')||storedTheme||'dark';
-let lang=params.get('lang')||storedLang||'zh-CN';
-if(lang!=='en')lang='zh-CN';
-html.dataset.theme=theme==='light'?'light':'dark';
+function readCookie(name){try{const match=document.cookie.match(new RegExp('(?:^|; )'+name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'=([^;]*)'));return match?decodeURIComponent(match[1]):null}catch{return null}}
+function readStorage(key){try{return localStorage.getItem(key)}catch{return null}}
+function systemLang(){try{const value=(navigator.languages&&navigator.languages[0])||navigator.language||'';return /^en/i.test(value)?'en':'zh-CN'}catch{return 'zh-CN'}}
+function systemTheme(){try{return matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'}catch{return 'dark'}}
+function cookieDomain(){const host=location.hostname;return host==='chidu.org'||host.endsWith('.chidu.org')?'; Domain=.chidu.org':''}
+function persist(key,value){try{localStorage.setItem(key,value)}catch{}try{document.cookie=`${key}=${encodeURIComponent(value)}; Path=/; Max-Age=31536000; SameSite=Lax${cookieDomain()}`}catch{}}
+const storedTheme=readStorage(THEME_KEY);
+const storedLang=readStorage(LANG_KEY);
+const cookieTheme=readCookie(THEME_KEY);
+const cookieLang=readCookie(LANG_KEY);
+const sysTheme=systemTheme(),sysLang=systemLang();
+let theme=params.get('theme')||cookieTheme||storedTheme||sysTheme;
+if(theme!=='light'&&theme!=='dark')theme=sysTheme;
+let lang=params.get('lang')||cookieLang||storedLang||sysLang;
+if(lang==='en')lang='en';else if(lang==='zh'||lang==='zh-CN')lang='zh-CN';else lang=sysLang;
+html.dataset.theme=theme;
 html.dataset.lang=lang;
+html.lang=lang==='en'?'en':'zh-CN';
+html.style.colorScheme=theme;
 
 const ZH='zh-CN',EN='en';
 const NAV_LABELS={
@@ -145,8 +157,7 @@ function ensureDictionary(){
  return dictPromise;
 }
 
-function persist(key,value){try{localStorage.setItem(key,value)}catch{}}
- function updateLangButton(button){
+function updateLangButton(button){
  if(!button)return;
  button.setAttribute('aria-label',lang===EN?'ZH / EN Switch language':'中 / EN 切换语言');
  const zhLabel=button.querySelector('[data-lang-label="zh"]');
@@ -158,6 +169,28 @@ function updateThemeButton(button){
  button.textContent=theme==='light'?'☀':'☾';
  button.setAttribute('aria-label',theme==='light'?'Switch to dark theme':'切换为浅色主题');
  button.title=theme==='light'?'Dark theme':'Light theme';
+}
+function updateFullscreenButton(button){
+ if(!button)return;
+ const active=!!(document.fullscreenElement||document.webkitFullscreenElement);
+ button.classList.toggle('is-active',active);
+ button.setAttribute('aria-pressed',active?'true':'false');
+ const zh=active?'退出全屏':'全屏显示';
+ const en=active?'Exit full screen':'Full screen';
+ button.setAttribute('aria-label',lang===EN?en:zh);
+ button.title=lang===EN?en:zh;
+}
+function toggleFullscreen(){
+ const root=document.documentElement;
+ const request=root.requestFullscreen||root.webkitRequestFullscreen;
+ const exit=document.exitFullscreen||document.webkitExitFullscreen;
+ try{
+  if(document.fullscreenElement||document.webkitFullscreenElement){
+   Promise.resolve(exit?.call(document)).catch(()=>{});
+  }else if(request){
+   Promise.resolve(request.call(root)).catch(()=>{});
+  }
+ }catch{}
 }
 function setHeaderLabels(){
  for(const link of document.querySelectorAll('.atlas-header nav a,.topbar nav a')){
@@ -270,6 +303,7 @@ async function applyLanguage(){
   document.title=ORIGINAL_TITLE;
  }
  updateLangButton(document.querySelector('.lang-toggle'));
+ updateFullscreenButton(document.querySelector('.fullscreen-toggle'));
  for(const el of document.querySelectorAll('.brand strong')){
   if(!el.dataset.atlasZh)el.dataset.atlasZh=el.textContent;
   el.textContent=lang===EN?'MAGNITUDE':el.dataset.atlasZh;
@@ -312,7 +346,7 @@ function addChromeTools(){
  if(!header.querySelector('.chrome-tools')){
   const tools=document.createElement('div');
   tools.className='chrome-tools';
-  tools.innerHTML='<button class="lang-toggle" type="button" aria-label="中 / EN 切换语言"><span data-lang-label="zh">中</span><i>/</i><span data-lang-label="en">EN</span></button><button class="theme-toggle" type="button" aria-label="切换为浅色主题">☾</button>';
+  tools.innerHTML='<button class="lang-toggle" type="button" aria-label="中 / EN 切换语言"><span data-lang-label="zh">中</span><i>/</i><span data-lang-label="en">EN</span></button><button class="theme-toggle" type="button" aria-label="切换为浅色主题">☾</button><button class="fullscreen-toggle" type="button" aria-label="全屏显示" title="全屏显示"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>';
   header.append(tools);
   tools.querySelector('.lang-toggle').addEventListener('click',()=>{
    lang=lang===EN?ZH:EN;
@@ -324,6 +358,11 @@ function addChromeTools(){
    persist(THEME_KEY,theme);
    applyTheme();
   });
+  const fullscreen=tools.querySelector('.fullscreen-toggle');
+  if(fullscreen){
+   if(!(document.documentElement.requestFullscreen||document.documentElement.webkitRequestFullscreen))fullscreen.hidden=true;
+   fullscreen.addEventListener('click',toggleFullscreen);
+  }
  }
  const nav=header.querySelector('nav');
  const architecture=header.querySelector('.architecture-link');
@@ -332,6 +371,8 @@ function addChromeTools(){
 }
 
 addChromeTools();
+document.addEventListener('fullscreenchange',()=>updateFullscreenButton(document.querySelector('.fullscreen-toggle')));
+document.addEventListener('webkitfullscreenchange',()=>updateFullscreenButton(document.querySelector('.fullscreen-toggle')));
 setHeaderLabels();
 applyTheme();
 await applyLanguage();

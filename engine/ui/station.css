@@ -65,3 +65,19 @@ html[data-knowledge-name="our-full"] .brand strong{font-size:14px;max-width:215p
 .station-page dialog p{font-size:14px;line-height:1.9}
 .station-page dialog .station-eyebrow,.station-page dialog .review-note{font-size:12px}
 }
+
+/* Layout guardrails: keep generated chapter lists out of the rail footer and reserve
+   a clear band between the stage readout and the timeline console. */
+@media (min-width:601px){
+  .station-rail{overflow:hidden}
+  .chapter-list{flex:1 1 auto;min-height:0;overflow-y:auto;padding-right:4px;scrollbar-width:thin;scrollbar-color:#4b628344 transparent}
+  .station-rail-footer{position:static;margin-top:12px;background:none;padding:12px 0 0;bottom:auto;z-index:auto}
+}
+@media (min-width:601px) and (max-height:850px){
+  .station-page[data-station="time"] .scene-phase{display:none}
+}
+@media (max-width:600px){
+  .station-page .stage-readout{bottom:250px}
+  .station-page .station-caption{top:190px}
+}
+

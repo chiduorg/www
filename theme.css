@@ -554,6 +554,7 @@ html[data-theme="light"] .article-lead {
 
 html[data-theme="light"] .knowledge-article h1,
 html[data-theme="light"] .article-prose h2,
+html[data-theme="light"] .article-prose strong,
 html[data-theme="light"] .article-sources h2,
 html[data-theme="light"] .article-facts > strong,
 html[data-theme="light"] .article-facts dd,
@@ -960,7 +961,7 @@ html[data-theme="light"] .el-detail-grid dd small,
 html[data-theme="light"] .el-delta-grid dd,
 html[data-theme="light"] .el-delta-grid dd strong,
 html[data-theme="light"] .el-delta-grid dd small {
-  color: #d5e2ee !important;
+  color: #2f4f5f !important;
 }
 
 html[data-theme="light"] .mass-page .mass-block-head p,
@@ -1002,7 +1003,7 @@ html[data-theme="light"] .mass-page .mass-excludes strong {
 }
 
 html[data-theme="light"] .mass-page #band-zero {
-  color: #dce6f4;
+  color: #2f4f5f;
 }
 
 /* ---------- 浅色 3D 舞台：元素 ---------- */
@@ -1361,15 +1362,15 @@ html[data-lang="en"] .nav-label-en{display:inline!important}
     left: 0;
     right: 0;
     bottom: 57px !important;
-    height: 22px !important;
-    min-height: 22px !important;
+    height: 30px !important;
+    min-height: 30px !important;
     padding: 0 12px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: flex-end !important;
     background: linear-gradient(180deg, rgba(4, 8, 15, .55), rgba(4, 8, 15, .78));
     border-top: 1px solid rgba(160, 190, 220, .1);
-    font-size: 6px !important;
+    font-size: 8px !important;
     z-index: 30;
     pointer-events: auto;
   }
@@ -1423,7 +1424,7 @@ html[data-theme="light"] .station-page .stage-readout {
 
 
 /* 页脚法律信息：六站统一字号与单行节奏 */
-.site-footer .footer-legal,.atlas-footer .footer-legal{font-size:9px!important;line-height:1.4!important;flex-wrap:nowrap!important;white-space:nowrap!important}
+.site-footer .footer-legal,.atlas-footer .footer-legal{font-size:10px!important;line-height:1.4!important;flex-wrap:nowrap!important;white-space:nowrap!important}
 @media (max-width:600px){.site-footer .footer-legal,.atlas-footer .footer-legal{font-size:9px!important;line-height:1.4!important}}
 
 
@@ -1546,13 +1547,14 @@ html[data-theme="light"] .station-page canvas{
 @media (max-width:600px){
   .site-footer,.atlas-footer{
     position:fixed!important;left:0;right:0;bottom:57px!important;
-    height:22px!important;min-height:22px!important;
+    height:30px!important;min-height:30px!important;
     padding:0 12px!important;display:flex!important;align-items:center!important;
     justify-content:flex-end!important;gap:0!important;
     background:linear-gradient(180deg,rgba(4,8,15,.55),rgba(4,8,15,.78));
     border-top:1px solid rgba(160,190,220,.1);
     z-index:30;overflow:hidden;white-space:nowrap;pointer-events:auto;
   }
+  .site-footer a,.atlas-footer a{display:inline-flex;align-items:center;min-height:30px}
   .site-footer .footer-brand,.atlas-footer .footer-brand{display:none!important}
   .site-footer .footer-meta,.atlas-footer .footer-meta{display:inline-flex!important;align-items:center;gap:4px;font-size:8px!important;flex:0 0 auto}
   .site-footer .footer-meta a,.atlas-footer .footer-meta a{font-size:8px!important}
@@ -1568,7 +1570,8 @@ html[data-theme="light"] .station-page canvas{
     background:linear-gradient(180deg,rgba(248,251,253,.66),rgba(248,251,253,.9));
     border-top-color:rgba(20,48,66,.12);
   }
-  body{padding-bottom:79px!important}
+  body{padding-bottom:87px!important}
+  .topbar .brand{min-height:36px;padding-block:7px}
 }
 html[data-theme="light"] .station-page .station-caption h2{font-weight:400!important}
 html[data-theme="light"] .station-page .station-backdrop{background:#e8f0f5!important}
@@ -1680,7 +1683,7 @@ html[data-theme="light"] .mass-page .mass-band :where(p,dd,span){color:#35515f!i
 
 /* v19-article-light: 知识文章内质量零值图的浅色文字 */
 html[data-theme="light"] .knowledge-article .mass-figure-zero .mass-zero-line strong{color:#35515f!important}
-html[data-theme="light"] .knowledge-article .mass-figure-zero .mass-zero-line small{color:#5d737d!important}
+html[data-theme="light"] .knowledge-article .mass-figure-zero .mass-zero-line small{color:#4a6470!important}
 html[data-theme="light"] .knowledge-article .mass-figure-caption{color:#4e6672!important}
 
 
@@ -1701,4 +1704,119 @@ html[data-theme="light"] .earth-coordinate :where(span,small,p){color:#4e6672!im
   .site-footer{gap:9px!important}
   .site-footer .footer-meta,.site-footer .footer-legal{gap:7px!important}
   .site-footer .footer-legal{margin-left:9px!important}
+}
+
+/* v20 light-theme contrast: legal kicker, library filters, source metadata */
+html[data-theme="light"] .legal-page .eyebrow{color:#425b66}
+html[data-theme="light"] .filter-group button,
+html[data-theme="light"] .filter-group button > span{color:#4f6672}
+html[data-theme="light"] .filter-group button > span{opacity:1}
+html[data-theme="light"] .filter-group button[aria-pressed="true"]{color:#234e5d}
+html[data-theme="light"] .el-step-button,
+html[data-theme="light"] .el-action{background:#f8fbfc;color:#18343f;border-color:rgba(26,58,73,.28)}
+
+/* v21-touch: 平板与手机的导航、工具、搜索和舞台按钮扩大命中区 */
+@media (max-width:1200px){
+  .chrome-tools button{height:36px;min-width:36px;padding:0 7px;font-size:9px}
+  .chrome-tools .lang-toggle{font-size:10px}
+  .chrome-tools .theme-toggle{font-size:14px}
+  .search input{height:32px}
+  input[type="range"]{min-height:28px}
+}
+@media (min-width:901px) and (max-width:1200px){
+  .atlas-header nav{gap:14px}
+  .topbar nav{gap:18px}
+  .atlas-header nav a,.topbar nav a{min-width:36px;text-align:center}
+}
+@media (min-width:601px) and (max-width:900px){
+  .atlas-header nav,.topbar nav{gap:6px}
+  .atlas-header nav a,.topbar nav a{min-width:36px;text-align:center;padding-left:0;padding-right:0}
+  .station-modes button{min-height:34px;display:inline-flex;align-items:center;padding-bottom:0}
+  .play-button,.station-actions button{min-height:34px;display:inline-flex;align-items:center}
+}
+@media (max-width:600px){
+  .chrome-tools button{height:38px;min-width:38px}
+  .search input{height:30px}
+  .asset-status{bottom:92px;max-width:calc(100vw - 32px);font-size:9px;line-height:1.6;text-align:center}
+  .station-actions button,.station-modes button,.play-button{min-height:36px;display:inline-flex;align-items:center;justify-content:center}
+  .elements-page .el-immersive .actions .btn,
+  .mass-page .mass-immersive .actions .btn{min-height:34px;display:inline-flex;align-items:center}
+}
+@media (max-width:1200px){
+  .atlas-header .atlas-brand,
+  .topbar .brand{display:inline-flex;align-items:center;min-height:36px;padding-block:7px}
+  .site-footer a,
+  .atlas-footer a{display:inline-flex;align-items:center;justify-content:center;min-height:30px;min-width:30px}
+}
+@media (min-width:901px) and (max-width:1200px){
+  html[data-theme="light"] .station-page .station-card{background:#f8fbfd!important;backdrop-filter:none!important}
+  html[data-theme="dark"] .station-page .station-card{background:#08111e!important;backdrop-filter:none!important}
+  .station-page .station-hint{right:320px!important}
+}
+@media (max-width:600px){
+  .space-page .object-list.search-results{
+    display:flex!important;
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    z-index:8;
+    min-height:0;
+    max-height:72px;
+    margin:4px 0 0;
+    padding:7px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    gap:7px;
+    flex-direction:row!important;
+    background:#071321f2;
+    border:1px solid rgba(147,185,241,.28);
+    border-radius:5px;
+    box-shadow:0 16px 40px #0009;
+    backdrop-filter:blur(14px);
+  }
+  html[data-theme="light"] .space-page .object-list.search-results{background:#f8fbfceb;border-color:rgba(24,49,63,.2);box-shadow:0 14px 34px rgba(18,50,66,.18)}
+  html[data-theme="light"] .space-page .object-list.search-results .object-button{background:#fff;color:#264653;border-color:rgba(24,49,63,.18)}
+  /* 3D 页的舞台/底部控制条已经占满可视高度，去掉额外的 87px 文档尾部留白，避免多出 30px 无意义纵向滚动。 */
+  .space-page,.station-page{padding-bottom:0!important}
+}
+
+/* v22-stage-boot: 3D 首帧前给舞台一个明确的加载态，避免手机端出现纯黑空屏 */
+@keyframes atlas-stage-spin{to{transform:translate(-50%,-50%) rotate(360deg)}}
+html:not([data-three="ready"]) .space-page .cosmic-backdrop::after,
+html:not([data-three="ready"]) .station-page .station-backdrop::after{
+  content:"图景生成中 · 3D";
+  position:absolute;left:50%;top:calc(50% + 22px);transform:translateX(-50%);
+  z-index:2;pointer-events:none;
+  padding:6px 10px;border:1px solid rgba(137,169,199,.22);border-radius:3px;
+  background:rgba(5,12,20,.58);color:#9bb3ca;
+  font-size:10px;letter-spacing:.18em;line-height:1.4;
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+}
+html:not([data-three="ready"]) .space-page .cosmic-backdrop::before,
+html:not([data-three="ready"]) .station-page .station-backdrop::before{
+  content:"";position:absolute;left:50%;top:50%;width:18px;height:18px;
+  margin:0;transform:translate(-50%,-50%);
+  border:1px solid rgba(137,169,199,.28);border-top-color:#b7d0e5;border-radius:50%;
+  z-index:2;pointer-events:none;animation:atlas-stage-spin 1.1s linear infinite;
+}
+html:not([data-three="ready"]) .space-page .cosmic-backdrop,
+html:not([data-three="ready"]) .station-page .station-backdrop{
+  background:radial-gradient(circle at 62% 44%,rgba(47,88,122,.24),transparent 34%),#04070d;
+}
+html[data-theme="light"]:not([data-three="ready"]) .space-page .cosmic-backdrop,
+html[data-theme="light"]:not([data-three="ready"]) .station-page .station-backdrop{
+  background:radial-gradient(circle at 62% 44%,rgba(125,166,194,.2),transparent 36%),#eef4f8;
+}
+html[data-theme="light"]:not([data-three="ready"]) .space-page .cosmic-backdrop::after,
+html[data-theme="light"]:not([data-three="ready"]) .station-page .station-backdrop::after{
+  background:rgba(248,252,253,.72);border-color:rgba(28,62,78,.18);color:#536d7a;
+}
+html[data-theme="light"]:not([data-three="ready"]) .space-page .cosmic-backdrop::before,
+html[data-theme="light"]:not([data-three="ready"]) .station-page .station-backdrop::before{
+  border-color:rgba(28,62,78,.2);border-top-color:#3d6575;
+}
+@media (prefers-reduced-motion:reduce){
+  html:not([data-three="ready"]) .space-page .cosmic-backdrop::before,
+  html:not([data-three="ready"]) .station-page .station-backdrop::before{animation:none}
 }

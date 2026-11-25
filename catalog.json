@@ -2,8 +2,9 @@
   {
     "id": "mass.photon",
     "title": "光子：静质量为零的特例，不参与质量阶梯排序",
+    "titleEn": "Photon",
     "summary": "标准模型给光子的静质量为零；实验只给出约 10⁻⁶³ kg 的上限。零质量粒子没有对数刻度位置，因此本条单独成条，不进入 16 个覆盖带。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "静质量 0 · 实验上限约 10⁻⁶³ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -81,8 +82,9 @@
   {
     "id": "mass.neutrino-2",
     "title": "ν₂：由 Δm²21 推得的下限，不是一次称重",
+    "titleEn": "Neutrino mass eigenstate ν₂",
     "summary": "ν₂ 的绝对质量仍未知。太阳中微子振荡把 Δm²21 定到 7.53×10⁻⁵ eV²；在最轻态趋近于零的假设下，ν₂ 的质量下限约为 0.0087 eV，即 1.55×10⁻³⁸ kg。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≥ 1.55×10⁻³⁸ kg（约 8.7×10⁻³ eV，下限）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -100,8 +102,9 @@
   {
     "id": "mass.neutrino-3",
     "title": "ν₃：大气振荡给出的最重态下限",
+    "titleEn": "Neutrino mass eigenstate ν₃",
     "summary": "ν₃ 与较轻两态的间距由 |Δm²31| ≈ 2.45×10⁻³ eV² 控制。在最轻态趋近于零时，ν₃ 至少约 0.0495 eV，即 8.8×10⁻³⁸ kg；它究竟是不是最重态，取决于尚未确定的质量序。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≥ 8.8×10⁻³⁸ kg（约 0.0495 eV，下限）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -119,8 +122,9 @@
   {
     "id": "mass.neutrino-1",
     "title": "ν₁：最轻的中微子质量本征态，目前只有上限",
+    "titleEn": "Neutrino mass eigenstate ν₁",
     "summary": "ν₁ 是三个质量本征态里最轻的一个。振荡实验只能定出质量平方差，绝对值缺失；宇宙学总和约束给出约 0.05 eV、即 8.9×10⁻³⁸ kg 的上限。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≤ 8.9×10⁻³⁸ kg（约 0.05 eV，上限）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -237,8 +241,9 @@
   {
     "id": "mass.electron",
     "title": "电子：9.109×10⁻³¹ kg，粒子物理最精确的质量之一",
+    "titleEn": "Electron",
     "summary": "电子的静质量由 Penning 阱与原子反冲测量共同锁定，CODATA 2022 给出 9.1093837139×10⁻³¹ kg，相对不确定度约 3×10⁻¹⁰。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "9.109×10⁻³¹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -256,8 +261,9 @@
   {
     "id": "mass.positron",
     "title": "正电子：与电子同质量的反粒子",
+    "titleEn": "Positron",
     "summary": "正电子是电子的反粒子，静质量与电子在实验精度内相等，CODATA 2022 给出 9.1093837139×10⁻³¹ kg。质量相等是 CPT 对称性的直接检验。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "9.109×10⁻³¹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -275,8 +281,9 @@
   {
     "id": "mass.up-quark",
     "title": "上夸克：2.16 MeV 的流质量，不能孤立称重",
+    "titleEn": "Up quark",
     "summary": "上夸克的流质量在 2 GeV 标度下约为 2.16 MeV/c²，即 3.85×10⁻³⁰ kg。夸克受色禁闭约束，不能孤立观测；这个数是跑动质量，不是把夸克拿在手里的读数。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≈ 3.85×10⁻³⁰ kg（流质量 2.16 MeV）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -294,8 +301,9 @@
   {
     "id": "mass.down-quark",
     "title": "下夸克：4.67 MeV 的流质量，决定了中子比质子重",
+    "titleEn": "Down quark",
     "summary": "下夸克的流质量在 2 GeV 标度下约为 4.67 MeV/c²，即 8.33×10⁻³⁰ kg。它比上夸克重，这个差值经强相互作用放大后，使中子比质子重约 1.29 MeV。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≈ 8.33×10⁻³⁰ kg（流质量 4.67 MeV）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -313,8 +321,9 @@
   {
     "id": "mass.strange-quark",
     "title": "奇异夸克：93.4 MeV 的流质量，夸克代际的第一道台阶",
+    "titleEn": "Strange quark",
     "summary": "奇异夸克的流质量在 2 GeV 标度下约为 93.4 MeV/c²，即 1.665×10⁻²⁸ kg。它比上、下夸克重一个数量级以上，却仍轻到能在中子星与强子物理中扮演角色。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≈ 1.665×10⁻²⁸ kg（流质量 93.4 MeV）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -332,8 +341,9 @@
   {
     "id": "mass.muon",
     "title": "μ 子：1.884×10⁻²⁸ kg，电子的 207 倍",
+    "titleEn": "Muon",
     "summary": "μ 子是第二代带电轻子，静质量 1.883531627×10⁻²⁸ kg，约 105.66 MeV/c²。它比电子重 206.8 倍，却与电子共享同一套弱作用与电磁作用。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "1.884×10⁻²⁸ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -351,8 +361,9 @@
   {
     "id": "mass.proton",
     "title": "质子：1.673×10⁻²⁷ kg，99% 来自胶子场",
+    "titleEn": "Proton",
     "summary": "质子静质量 1.67262192595×10⁻²⁷ kg，约 938.272 MeV/c²。三个价夸克的流质量之和不到质子质量的 1%，其余来自胶子场与夸克动能。",
-    "category": "强子",
+    "category": "粒子与基本常数",
     "displayValue": "1.673×10⁻²⁷ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -370,8 +381,9 @@
   {
     "id": "mass.hydrogen-atom",
     "title": "氢原子：1.6735×10⁻²⁷ kg，结合能亏损最小的原子",
+    "titleEn": "Hydrogen atom",
     "summary": "中性氢原子（¹H）的基态质量约 1.67353×10⁻²⁷ kg，即 1.007825 u。它比质子加电子之和少约 13.6 eV/c²，这个差值就是氢的电离能对应的质量亏损。",
-    "category": "原子",
+    "category": "生命与人体",
     "displayValue": "1.6735×10⁻²⁷ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -389,8 +401,9 @@
   {
     "id": "mass.neutron",
     "title": "中子：比质子重 0.14%，却决定了自由中子的寿命",
+    "titleEn": "Neutron",
     "summary": "中子静质量 1.67492750056×10⁻²⁷ kg，约 939.565 MeV/c²。它与质子的质量差约 1.293 MeV，足以让自由中子通过 β 衰变变成质子、电子与反中微子。",
-    "category": "强子",
+    "category": "粒子与基本常数",
     "displayValue": "1.675×10⁻²⁷ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -408,8 +421,9 @@
   {
     "id": "mass.charm-quark",
     "title": "粲夸克：1.27 GeV 的流质量，跨过强子质量的门槛",
+    "titleEn": "Charm quark",
     "summary": "粲夸克的流质量约为 1.27 GeV/c²，即 2.264×10⁻²⁷ kg。它比质子还重，含粲夸克的强子因此必须通过弱作用衰变，寿命远短于奇异粒子。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≈ 2.264×10⁻²⁷ kg（流质量 1.27 GeV）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -427,8 +441,9 @@
   {
     "id": "mass.tau",
     "title": "τ 子：3.168×10⁻²⁷ kg，最重的带电轻子",
+    "titleEn": "Tau lepton",
     "summary": "τ 子是第三代带电轻子，静质量 3.16754×10⁻²⁷ kg，约 1776.86 MeV/c²。它比质子重近两倍，寿命却只有 2.9×10⁻¹³ 秒。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "3.168×10⁻²⁷ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -446,8 +461,9 @@
   {
     "id": "mass.helium-nucleus",
     "title": "氦核：6.645×10⁻²⁷ kg，α 粒子的结合能账本",
+    "titleEn": "Helium nucleus",
     "summary": "氦-4 原子核（α 粒子）质量约 6.644657×10⁻²⁷ kg，即 4.001506 u。它比两个质子加两个中子之和轻约 28.3 MeV/c²，这个亏损就是核聚变放能的来源。",
-    "category": "原子核",
+    "category": "生命与人体",
     "displayValue": "6.645×10⁻²⁷ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -465,8 +481,9 @@
   {
     "id": "mass.bottom-quark",
     "title": "底夸克：4.18 GeV 的流质量，B 物理的质量标尺",
+    "titleEn": "Bottom quark",
     "summary": "底夸克的流质量约为 4.18 GeV/c²，即 7.452×10⁻²⁷ kg。它比粲夸克重三倍多，是 B 介子、CP 破坏与希格斯衰变研究的关键质量参数。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "≈ 7.452×10⁻²⁷ kg（流质量 4.18 GeV）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -484,8 +501,9 @@
   {
     "id": "mass.water-molecule",
     "title": "水分子：2.99×10⁻²⁶ kg，最常见的三原子分子",
+    "titleEn": "Water molecule",
     "summary": "一个水分子由两个氢原子和一个氧原子组成，分子质量 18.0153 u，合 2.9915×10⁻²⁶ kg。它的质量略小于三个孤立原子之和，差额就是分子结合能。",
-    "category": "分子",
+    "category": "生命与人体",
     "displayValue": "2.99×10⁻²⁶ kg（18.0153 u）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -503,8 +521,9 @@
   {
     "id": "mass.w-boson",
     "title": "W 玻色子：1.433×10⁻²⁵ kg，弱作用的带电载体",
+    "titleEn": "W boson",
     "summary": "W± 玻色子静质量 80.3692 GeV/c²，合 1.433×10⁻²⁵ kg。它是弱相互作用的中介粒子，寿命约 3×10⁻²⁵ 秒；它的质量与 Z 玻色子的差异，正是弱中性流与带电流强度不同的来源。",
-    "category": "规范玻色子",
+    "category": "粒子与基本常数",
     "displayValue": "1.433×10⁻²⁵ kg（80.3692 GeV/c²）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -522,8 +541,9 @@
   {
     "id": "mass.z-boson",
     "title": "Z 玻色子：1.626×10⁻²⁵ kg，弱中性流的载体",
+    "titleEn": "Z boson",
     "summary": "Z 玻色子静质量 91.1876 GeV/c²，合 1.6255×10⁻²⁵ kg，是电弱理论里最精确的读数之一。它的衰变线型在 LEP 上被逐点扫描，由此定出中微子只有三代。",
-    "category": "规范玻色子",
+    "category": "粒子与基本常数",
     "displayValue": "1.626×10⁻²⁵ kg（91.1876 GeV/c²）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -541,8 +561,9 @@
   {
     "id": "mass.higgs-boson",
     "title": "希格斯玻色子：2.232×10⁻²⁵ kg，唯一的基本标量粒子",
+    "titleEn": "Higgs boson",
     "summary": "希格斯玻色子静质量 125.20 GeV/c²，合 2.2319×10⁻²⁵ kg。它是标准模型里唯一自旋为零的基本粒子，2012 年在 LHC 上被发现；它的质量不由任何对称性预言，只能测量。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "2.232×10⁻²⁵ kg（125.20 GeV/c²）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -560,8 +581,9 @@
   {
     "id": "mass.top-quark",
     "title": "顶夸克：3.076×10⁻²⁵ kg，标准模型里最重的基本粒子",
+    "titleEn": "Top quark",
     "summary": "顶夸克 MS-bar 流质量 172.57 GeV/c²，合 3.076×10⁻²⁵ kg，约与一个钨原子相当。它寿命极短，来不及形成强子，是唯一能观测裸夸克衰变产物的夸克。",
-    "category": "基本粒子",
+    "category": "粒子与基本常数",
     "displayValue": "3.076×10⁻²⁵ kg（MS-bar 流质量）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -579,8 +601,9 @@
   {
     "id": "mass.insulin",
     "title": "胰岛素单体：9.64×10⁻²⁴ kg，51 个氨基酸的小蛋白",
+    "titleEn": "Insulin monomer",
     "summary": "人胰岛素单体由 A 链 21 个、B 链 30 个氨基酸组成，共 51 个残基，分子质量约 5808 Da，合 9.644×10⁻²⁴ kg。它在胰腺中储存为含锌六聚体，进入血液后以单体起作用。",
-    "category": "蛋白质",
+    "category": "生命与人体",
     "displayValue": "9.64×10⁻²⁴ kg（5808 Da）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -617,8 +640,9 @@
   {
     "id": "mass.hemoglobin",
     "title": "血红蛋白四聚体：1.07×10⁻²² kg，红细胞里的氧运输机器",
+    "titleEn": "Hemoglobin tetramer",
     "summary": "成人血红蛋白 HbA 是 α₂β₂ 四聚体，含四条珠蛋白链与四个血红素，总质量约 64,458 Da，合 1.0703×10⁻²² kg。每个红细胞里约有 2.7 亿个这样的分子。",
-    "category": "蛋白质",
+    "category": "生命与人体",
     "displayValue": "1.07×10⁻²² kg（64,458 Da）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -636,8 +660,9 @@
   {
     "id": "mass.ribosome",
     "title": "大肠杆菌 70S 核糖体：4.2×10⁻²¹ kg，蛋白质合成的工厂",
+    "titleEn": "E. coli 70S ribosome",
     "summary": "大肠杆菌 70S 核糖体由 30S 与 50S 两个亚基组成，含三条 rRNA 与约 54 种蛋白，总质量约 2.5 MDa，合 4.15×10⁻²¹ kg。这个值由冷冻电镜结构、沉降系数与质谱共同推导。",
-    "category": "分子机器",
+    "category": "生命与人体",
     "displayValue": "4.2×10⁻²¹ kg（约 2.5 MDa）",
     "reviewStatus": "reviewed",
     "tags": [
@@ -655,8 +680,9 @@
   {
     "id": "mass.synaptic-vesicle",
     "title": "突触囊泡：3.0×10⁻²⁰ kg，一个神经递质包裹",
+    "titleEn": "Synaptic vesicle",
     "summary": "突触囊泡直径约 40 nm，单个囊泡湿重均值约 3.0×10⁻²⁰ kg，约合 1.8×10⁷ Da。数值由粒径分布与 1.1 g/cm³ 的湿密度估算，随囊泡大小与递质装载量变化。",
-    "category": "细胞器",
+    "category": "生命与人体",
     "displayValue": "3.0×10⁻²⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -674,8 +700,9 @@
   {
     "id": "mass.exosome",
     "title": "外泌体：2.0×10⁻¹⁹ kg，细胞外囊泡的中位颗粒",
+    "titleEn": "Exosome",
     "summary": "外泌体直径约 30–150 nm，单个颗粒湿重均值约 2.0×10⁻¹⁹ kg，对应约 70 nm 的等效球。粒径跨五倍，质量按体积三次方缩放，同批样品可差两个量级以上。",
-    "category": "细胞器",
+    "category": "生命与人体",
     "displayValue": "2.0×10⁻¹⁹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -693,8 +720,9 @@
   {
     "id": "mass.bacteriophage-t4",
     "title": "T4 噬菌体：3.0×10⁻¹⁹ kg，DNA 与蛋白的注射器",
+    "titleEn": "T4 bacteriophage",
     "summary": "T4 噬菌体头部约 90×120 nm，尾部长约 100 nm。单个颗粒湿重均值约 3.0×10⁻¹⁹ kg，文献常引的 2.5×10⁸ Da 是 DNA 加蛋白的名义干重口径。",
-    "category": "病毒",
+    "category": "生命与人体",
     "displayValue": "3.0×10⁻¹⁹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -732,8 +760,9 @@
   {
     "id": "mass.influenza-virion",
     "title": "流感病毒颗粒：1.6×10⁻¹⁸ kg，多形包膜病毒的湿重",
+    "titleEn": "Influenza virion",
     "summary": "流感病毒是有包膜的负链 RNA 病毒，包膜直径约 100 nm，也常见拉长的丝状颗粒。单个颗粒湿重均值约 1.6×10⁻¹⁸ kg，按等效球直径约 140 nm 与 1.1 g/cm³ 密度估算。",
-    "category": "病毒",
+    "category": "生命与人体",
     "displayValue": "1.6×10⁻¹⁸ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -791,8 +820,9 @@
   {
     "id": "mass.lysosome",
     "title": "溶酶体：7.7×10⁻¹⁷ kg，细胞里的酸性降解车间",
+    "titleEn": "Lysosome",
     "summary": "溶酶体是动物细胞的酸性膜性细胞器，直径约 0.2–0.8 µm，常见 0.5 µm。单个溶酶体湿重均值约 7.7×10⁻¹⁷ kg，由等效球体积与 1.1 g/cm³ 密度估算。",
-    "category": "细胞器",
+    "category": "生命与人体",
     "displayValue": "7.7×10⁻¹⁷ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -830,8 +860,9 @@
   {
     "id": "mass.mitochondrion",
     "title": "线粒体：2.0×10⁻¹⁶ kg，肝细胞里的能量细胞器",
+    "titleEn": "Mitochondrion",
     "summary": "肝细胞线粒体常呈长约 1 µm、直径约 0.5 µm 的短棒状。单个线粒体湿重均值约 2.0×10⁻¹⁶ kg，由圆柱等效体积与 1.1 g/cm³ 密度估算，随融合分裂状态变化。",
-    "category": "细胞器",
+    "category": "生命与人体",
     "displayValue": "2.0×10⁻¹⁶ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -869,8 +900,9 @@
   {
     "id": "mass.bacterium",
     "title": "大肠杆菌：1.0×10⁻¹⁵ kg，一个细胞的湿重均值",
+    "titleEn": "Escherichia coli",
     "summary": "单个大肠杆菌的湿重均值约 1.0×10⁻¹⁵ kg（1 pg），干重约为湿重的 20–30%。由细胞体积约 1 立方微米与接近水的密度估算，样本间差异约 ±30%。",
-    "category": "单细胞生物",
+    "category": "生命与人体",
     "displayValue": "1.0×10⁻¹⁵ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -1088,8 +1120,9 @@
   {
     "id": "mass.sperm-cell",
     "title": "人类精子细胞：2.0×10⁻¹⁴ kg，大部分质量是水",
+    "titleEn": "Human sperm cell",
     "summary": "单个成熟人类精子细胞的湿重均值约 2.0×10⁻¹⁴ kg（20 pg），干重约为湿重的 20–30%。它由头部与鞭毛组成，单倍体基因组 DNA 只占约 3.3 pg，其余主要是水与蛋白质。",
-    "category": "生殖细胞",
+    "category": "生命与人体",
     "displayValue": "2.0×10⁻¹⁴ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -1107,8 +1140,9 @@
   {
     "id": "mass.red-blood-cell",
     "title": "人类红细胞：1.0×10⁻¹³ kg，约九成体积是水",
+    "titleEn": "Human red blood cell",
     "summary": "单个成熟人类红细胞的湿重均值约 1.0×10⁻¹³ kg（100 pg），干重约占三分之一，其中血红蛋白约 30 pg。由约 90 飞升的细胞体积与约 1.1 g/cm³ 的密度估算，不确定度约 ±15%。",
-    "category": "血细胞",
+    "category": "生命与人体",
     "displayValue": "1.0×10⁻¹³ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -1126,8 +1160,9 @@
   {
     "id": "mass.neuron",
     "title": "人类神经元：1.0×10⁻¹² kg，一个锥体细胞的湿重均值估计",
+    "titleEn": "Human neuron",
     "summary": "以大脑皮层锥体细胞为代表，一个人类神经元的湿重均值估计约 1.0×10⁻¹² kg（1 ng），不确定度可达一个量级。胞体与树突、轴突的体积很难完整测量，条目只能给量级，不给精确值。",
-    "category": "神经细胞",
+    "category": "生命与人体",
     "displayValue": "1.0×10⁻¹² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -1185,8 +1220,9 @@
   {
     "id": "mass.human-cell",
     "title": "人体细胞：2.0×10⁻¹² kg，以 HeLa 细胞为代表的湿重均值",
+    "titleEn": "Human cell",
     "summary": "以 HeLa 细胞为代表，一个培养的人体细胞湿重均值约 2.0×10⁻¹² kg（2 ng），干重约为湿重的 20–30%。不同细胞类型差异很大，条目取 ±50% 的区间，不把它当作所有人体细胞的统一值。",
-    "category": "人体细胞",
+    "category": "生命与人体",
     "displayValue": "2.0×10⁻¹² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -1223,8 +1259,9 @@
   {
     "id": "mass.cardiac-muscle-cell",
     "title": "心肌细胞：2.0×10⁻¹¹ kg，约 20 纳克",
+    "titleEn": "Cardiac muscle cell",
     "summary": "单个心室心肌细胞的湿重均值约 2.0×10⁻¹¹ kg（20 ng），干重约为湿重的 20–30%。细胞呈长柱状，长度约一百微米，由体积与密度估算，肥大与个体差异使不确定度达 ±50%。",
-    "category": "肌细胞",
+    "category": "生命与人体",
     "displayValue": "2.0×10⁻¹¹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -1804,8 +1841,9 @@
   {
     "id": "mass.egg-cell",
     "title": "人类卵细胞：9.0×10⁻¹⁰ kg，人体最大的细胞",
+    "titleEn": "Human egg cell",
     "summary": "单个成熟人类卵母细胞（不含透明带与放射冠）的湿重均值约 9.0×10⁻¹⁰ kg（0.9 µg），直径约 120 µm。干重约为湿重的 20–30%，个体与成熟阶段差异使不确定度约 ±20%。",
-    "category": "生殖细胞",
+    "category": "生命与人体",
     "displayValue": "9.0×10⁻¹⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -2304,8 +2342,9 @@
   {
     "id": "mass.planck-mass",
     "title": "普朗克质量：2.176×10⁻⁸ kg，由三个常数拼出的质量锚点",
+    "titleEn": "Planck mass",
     "summary": "普朗克质量 m_P = √(ħc/G) ≈ 2.176434×10⁻⁸ kg，由 CODATA 2022 的约化普朗克常数、光速与引力常数组合得出。它不是某个粒子的实测质量，而是量子引力效应变得不可忽略的质量标尺。",
-    "category": "物理常数",
+    "category": "粒子与基本常数",
     "displayValue": "2.176×10⁻⁸ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -2503,8 +2542,9 @@
   {
     "id": "mass.sand-grain",
     "title": "0.5 毫米石英砂粒：1.7×10⁻⁷ kg，几何与密度的估算",
+    "titleEn": "Quartz sand grain",
     "summary": "取直径 0.5 mm 的石英球体，半径 0.25 mm、密度 2650 kg/m³，体积约 6.5×10⁻¹¹ m³，质量约 1.7×10⁻⁷ kg。真实砂粒有棱角、矿物混杂，这个读数只能算估算。",
-    "category": "矿物颗粒",
+    "category": "自然与生物",
     "displayValue": "1.7×10⁻⁷ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -2882,8 +2922,9 @@
   {
     "id": "mass.mosquito",
     "title": "成年雌蚊：约 2.5×10⁻⁶ kg，单个成体的湿重均值",
+    "titleEn": "Adult female mosquito",
     "summary": "以常见蚊种为样本，单个成年雌蚊在未吸血状态下的湿重均值约 2.5×10⁻⁶ kg（约 2.5 mg），样本间差异约 ±40%。吸血后短时间内的体重可以翻数倍。",
-    "category": "昆虫",
+    "category": "自然与生物",
     "displayValue": "约 2.5×10⁻⁶ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -3241,8 +3282,9 @@
   {
     "id": "mass.rain-drop",
     "title": "直径约 4.6 毫米的雨滴：5.0×10⁻⁵ kg，接近破碎上限的大滴",
+    "titleEn": "Large raindrop",
     "summary": "取直径 4.6 mm 的雨滴按球体计算：半径 2.3 mm，体积约 5.1×10⁻⁸ m³，乘以水密度得到约 5.0×10⁻⁵ kg（50 mg）。这已接近雨滴的破碎上限，普通雨滴要小得多。",
-    "category": "气象液滴",
+    "category": "自然与生物",
     "displayValue": "5.0×10⁻⁵ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -3260,8 +3302,9 @@
   {
     "id": "mass.tea-leaf",
     "title": "一片干茶叶：约 5×10⁻⁵ kg，单叶干重的均值",
+    "titleEn": "Dried tea leaf",
     "summary": "一片成品干茶叶的单叶干重均值约 5×10⁻⁵ kg（50 mg），常见区间 0.02–0.08 g。芽头与小叶种偏轻，成熟叶偏重；条索卷得再紧也不改变干重。",
-    "category": "植物叶片",
+    "category": "自然与生物",
     "displayValue": "约 5×10⁻⁵ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -3499,8 +3542,9 @@
   {
     "id": "mass.paper-clip",
     "title": "标准回形针：约 5×10⁻⁴ kg，单个镀锌钢丝件的净重",
+    "titleEn": "Standard paper clip",
     "summary": "常见的 33 mm 标准回形针由约 0.8 mm 镀锌钢丝弯成，展开长度约 12 cm，按钢密度 7850 kg/m³ 估算约 5×10⁻⁴ kg（0.5 g）。这是单个净重，不含包装。",
-    "category": "日常五金",
+    "category": "日常与人造",
     "displayValue": "约 5×10⁻⁴ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -3558,8 +3602,9 @@
   {
     "id": "mass.tablet",
     "title": "500 mg 对乙酰氨基酚片：约 6×10⁻⁴ kg，单片含辅料的总质量",
+    "titleEn": "Acetaminophen tablet",
     "summary": "标示 500 mg 的对乙酰氨基酚片，“500 mg”是有效成分含量，不是片重。加上填充剂、黏合剂、崩解剂与润滑剂，单片总质量约 6×10⁻⁴ kg（0.6 g）。",
-    "category": "药品",
+    "category": "生命与人体",
     "displayValue": "约 6×10⁻⁴ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -3756,8 +3801,9 @@
   {
     "id": "mass.coin",
     "title": "美国 5 分镍币：5.000×10⁻³ kg，铸币局的法定规格",
+    "titleEn": "US nickel",
     "summary": "美国 5 分镍币的法定质量为 5.000 g，即 5.000×10⁻³ kg；直径 21.21 mm、厚 1.95 mm，成分为 75% 铜、25% 镍。这是单枚净重，由美国铸币局规格规定。",
-    "category": "硬币",
+    "category": "日常与人造",
     "displayValue": "5.000×10⁻³ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -4195,8 +4241,9 @@
   {
     "id": "mass.golf-ball",
     "title": "高尔夫球：4.593×10⁻² kg，规则上限而不是平均值",
+    "titleEn": "Golf ball",
     "summary": "比赛用高尔夫球的质量不得超过 45.93 克，即 4.593×10⁻² kg，直径不得小于 42.67 毫米。这是 R&A 与 USGA 共同维护的合规门槛，不是某一颗球的实测值；合规球的质量散布通常不到一克。",
-    "category": "日常物品",
+    "category": "日常与人造",
     "displayValue": "4.593×10⁻² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -5132,6 +5179,26 @@
     "visual": "device"
   },
   {
+    "id": "space.sea-level-change",
+    "title": "20 世纪海平面上升：约 0.2 米的累计变化",
+    "titleEn": "20th-century sea-level rise at about 0.2 m",
+    "summary": "20 世纪全球平均海平面上升约 0.2 米，速率在后期加快；它不是单一年份的潮位，也不是所有海岸都相同的局部变化。",
+    "category": "地球与地质",
+    "displayValue": "约 0.2 m（20 世纪累计海平面上升示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "地球与地质",
+      "长度变化",
+      "地球系统"
+    ],
+    "measureType": "长度变化",
+    "value": 0.2,
+    "unit": "m",
+    "measure": "20 世纪全球平均海平面累计上升示例",
+    "measureLabel": "20 世纪全球平均海平面累计上升示例",
+    "visual": "hydrology"
+  },
+  {
     "id": "space.sponge",
     "title": "成年海绵个体高度",
     "titleEn": "Adult Sponge Colony Height",
@@ -5793,8 +5860,9 @@
   {
     "id": "mass.human-heart",
     "title": "成人心脏：0.31 kg，湿重均值",
+    "titleEn": "Human heart",
     "summary": "成人心脏约 0.31 kg（310 克），按成年个体均值、湿重计，指摘除后整颗心脏。含血与灌注后称重可差 5–10%，个体与性别差异使不确定度约 ±20%。",
-    "category": "人体器官",
+    "category": "生命与人体",
     "displayValue": "0.31 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -6529,6 +6597,26 @@
     "visual": "whale"
   },
   {
+    "id": "space.permafrost-active-layer",
+    "title": "多年冻土活动层：约 1 米的季节融冻",
+    "titleEn": "Permafrost active layer at about 1 m",
+    "summary": "多年冻土活动层是每年夏季融化、冬季重新冻结的近地表土层，厚度常以约 1 米作示例；它随气候、植被与土壤变化，不是冻土本身。",
+    "category": "地球与地质",
+    "displayValue": "约 1 m（多年冻土活动层示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "地球与地质",
+      "厚度",
+      "地球系统"
+    ],
+    "measureType": "厚度",
+    "value": 1,
+    "unit": "m",
+    "measure": "多年冻土活动层厚度示例",
+    "measureLabel": "多年冻土活动层厚度示例",
+    "visual": "terrain"
+  },
+  {
     "id": "space.radio-wave",
     "title": "射电波",
     "titleEn": "Radio Wave",
@@ -6969,8 +7057,9 @@
   {
     "id": "mass.human-brain",
     "title": "成人脑：1.4 kg，湿重均值",
+    "titleEn": "Human brain",
     "summary": "成人脑约 1.4 kg，按成年个体均值、湿重计，指摘除后的全脑，不含颅骨、硬脑膜与脑脊液。成年男女均值略有差异，个体分布使不确定度约 ±10%。",
-    "category": "人体器官",
+    "category": "生命与人体",
     "displayValue": "1.4 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -7048,8 +7137,9 @@
   {
     "id": "mass.human-liver",
     "title": "成人肝脏：1.5 kg，最重的内脏",
+    "titleEn": "Human liver",
     "summary": "成人肝脏约 1.5 kg，按成年个体均值、湿重计，指整颗摘除后的肝脏。肝脏血供丰富，含血与灌注后称重可差 10–20%，脂肪肝与体型使不确定度约 ±25%。",
-    "category": "人体器官",
+    "category": "生命与人体",
     "displayValue": "1.5 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -8066,8 +8156,9 @@
   {
     "id": "mass.newborn",
     "title": "新生儿：3.3 kg，出生体重均值",
+    "titleEn": "Newborn baby",
     "summary": "全球足月新生儿的出生体重均值约 3.3 kg，按出生后即刻、脱衣称得的整体湿重计。低于 2.5 kg 为低出生体重，高于 4.0 kg 为巨大儿，不确定度约 ±15%。",
-    "category": "人体",
+    "category": "生命与人体",
     "displayValue": "3.3 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -8404,8 +8495,9 @@
   {
     "id": "mass.cat",
     "title": "家猫：4.5 kg，成年家猫湿重均值",
+    "titleEn": "Domestic cat",
     "summary": "成年家猫的整体质量约 4.5 kg，按活体体重（整体湿重）计。品种与体况差异很大，暹罗约 3–4 kg、缅因可到 6–8 kg，不确定度约 ±30%。",
-    "category": "哺乳动物",
+    "category": "自然与生物",
     "displayValue": "4.5 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -9545,8 +9637,9 @@
   {
     "id": "mass.dog",
     "title": "拉布拉多犬：30 kg，成年个体湿重均值",
+    "titleEn": "Labrador Retriever",
     "summary": "拉布拉多犬的成年个体质量约 30 kg，按活体体重（整体湿重）计。公犬多在 29–36 kg、母犬多在 25–32 kg，体况差异使不确定度约 ±20%。",
-    "category": "哺乳动物",
+    "category": "自然与生物",
     "displayValue": "30 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -10145,6 +10238,26 @@
     "visual": ""
   },
   {
+    "id": "space.ocean-mixed-layer",
+    "title": "海洋混合层：约 50 米的表层暖水",
+    "titleEn": "Ocean mixed layer at about 50 m",
+    "summary": "海洋混合层是海表附近因风、浪与对流而混合均匀的上层，厚度常以约 50 米作示例；它储存热量并影响海气交换，但随季节与纬度变化。",
+    "category": "地球与地质",
+    "displayValue": "约 50 m（海洋混合层厚度示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "地球与地质",
+      "厚度",
+      "地球系统"
+    ],
+    "measureType": "厚度",
+    "value": 50,
+    "unit": "m",
+    "measure": "海洋混合层厚度示例",
+    "measureLabel": "海洋混合层厚度示例",
+    "visual": "hydrology"
+  },
+  {
     "id": "space.swimming-pool",
     "title": "标准泳池长度",
     "titleEn": "Standard Swimming Pool Length",
@@ -10665,8 +10778,9 @@
   {
     "id": "mass.adult-human",
     "title": "成人：70 kg，全球成年个体湿重均值",
+    "titleEn": "Adult human",
     "summary": "成人质量取 70 kg，按全球成年个体均值、湿重（活体体重）计。区域与性别差异明显，部分亚洲人群均值约 55–65 kg，北美偏高，不确定度约 ±20%。",
-    "category": "人体",
+    "category": "生命与人体",
     "displayValue": "70 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -12423,8 +12537,9 @@
   {
     "id": "mass.motorcycle",
     "title": "摩托车：214 kg，本田 CB750 制造商整备质量",
+    "titleEn": "Honda CB750",
     "summary": "本田 CB750 的整备质量约 214 kg，取自制造商整车规格：满油、含全部工作液，不含骑手与行李。整备质量不是干重，两者通常差十几到二十千克。",
-    "category": "交通工具",
+    "category": "工程与交通",
     "displayValue": "214 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -12499,6 +12614,26 @@
     "measure": "无水氨常压沸点参考",
     "measureLabel": "无水氨常压沸点参考",
     "visual": "phase-vessel"
+  },
+  {
+    "id": "temperature.cloud-top-temperature",
+    "title": "云顶温度：250 K 的深对流云塔",
+    "titleEn": "Cloud-top temperature at 250 K",
+    "summary": "云顶温度是云层顶部由卫星红外传感器推断的温度；250 K 约 −23 ℃，常见于发展到较高高度的对流云，不是云底或地面温度。",
+    "category": "低温",
+    "displayValue": "250 K（−23 ℃云顶示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "低温",
+      "温度",
+      "环境"
+    ],
+    "zone": "低温",
+    "value": 250,
+    "unit": "K",
+    "measure": "−23 ℃云顶示例",
+    "measureLabel": "250 K（−23 ℃云顶示例）",
+    "visual": "planet-environment"
   },
   {
     "id": "temperature.coldest-brown-dwarf",
@@ -12823,6 +12958,26 @@
     "visual": "kitchen"
   },
   {
+    "id": "temperature.vaccine-cold-chain",
+    "title": "疫苗冷链：2—8 ℃的保存窗口",
+    "titleEn": "Vaccine cold chain at 2–8 °C",
+    "summary": "许多常规疫苗需要在 2—8 ℃保存和运输；5 ℃是冷链示例，不是所有疫苗的统一温度，冻干苗、mRNA 疫苗等有不同要求。",
+    "category": "常温",
+    "displayValue": "278.15 K（5 ℃冷链示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "常温",
+      "温度",
+      "医疗"
+    ],
+    "zone": "常温",
+    "value": 278.15,
+    "unit": "K",
+    "measure": "5 ℃冷链示例",
+    "measureLabel": "278.15 K（5 ℃冷链示例）",
+    "visual": "thermometer"
+  },
+  {
     "id": "temperature.ocean-thermocline",
     "title": "海洋温跃层",
     "titleEn": "Ocean thermocline temperature reference",
@@ -12903,6 +13058,26 @@
     "visual": "planet-environment"
   },
   {
+    "id": "temperature.data-center-inlet",
+    "title": "数据中心进风温度：18 ℃的运行窗口",
+    "titleEn": "Data-centre inlet temperature at 18 °C",
+    "summary": "数据中心冷通道进风温度常用 18—27 ℃的推荐范围；18 ℃是偏低端示例，用于说明服务器散热与能效之间的折中，不是所有机房统一设定。",
+    "category": "常温",
+    "displayValue": "291.15 K（18 ℃进风示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "常温",
+      "温度",
+      "环境"
+    ],
+    "zone": "常温",
+    "value": 291.15,
+    "unit": "K",
+    "measure": "18 ℃进风示例",
+    "measureLabel": "291.15 K（18 ℃进风示例）",
+    "visual": "heat-map"
+  },
+  {
     "id": "temperature.room-temperature",
     "title": "室温",
     "titleEn": "Room-temperature example",
@@ -12923,10 +13098,31 @@
     "visual": "thermometer"
   },
   {
+    "id": "temperature.grid-battery-coolant",
+    "title": "电网储能冷却液：25 ℃的热管理目标",
+    "titleEn": "Grid battery coolant at 25 °C",
+    "summary": "电网级锂电储能常用液冷把电芯温度维持在约 25 ℃附近，以减小温差、延缓衰减；25 ℃是控制目标示例，不是电芯内部所有位置的实际温度。",
+    "category": "常温",
+    "displayValue": "298.15 K（25 ℃冷却液示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "常温",
+      "温度",
+      "工业"
+    ],
+    "zone": "常温",
+    "value": 298.15,
+    "unit": "K",
+    "measure": "25 ℃冷却液示例",
+    "measureLabel": "298.15 K（25 ℃冷却液示例）",
+    "visual": "heat-map"
+  },
+  {
     "id": "mass.piano",
     "title": "三角钢琴：300 kg，雅马哈 C3 制造商整备质量",
+    "titleEn": "Grand piano",
     "summary": "雅马哈 C3 三角钢琴的整备质量约 300 kg，取自制造商型号规格，指可演奏状态的整机，不含琴凳与包装。铸铁板约占整机四成，是承受弦张力的骨架。",
-    "category": "乐器",
+    "category": "日常与人造",
     "displayValue": "300 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -12960,6 +13156,26 @@
     "measure": "镓熔点",
     "measureLabel": "镓熔点",
     "visual": "metal-furnace"
+  },
+  {
+    "id": "temperature.marine-heatwave",
+    "title": "海洋热浪：30 ℃海表的异常持续",
+    "titleEn": "Marine heatwave at 30 °C",
+    "summary": "海洋热浪是海表温度连续多日显著高于当地季节基准的异常事件；30 ℃只是一个暖水示例，是否成灾要看持续时间、范围和生态背景。",
+    "category": "常温",
+    "displayValue": "303 K（30 ℃海表示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "常温",
+      "温度",
+      "环境"
+    ],
+    "zone": "常温",
+    "value": 303,
+    "unit": "K",
+    "measure": "30 ℃海表示例",
+    "measureLabel": "303 K（30 ℃海表示例）",
+    "visual": "planet-environment"
   },
   {
     "id": "temperature.co2-critical-point",
@@ -13020,6 +13236,46 @@
     "measure": "黄油熔化温度区间",
     "measureLabel": "黄油熔化温度区间",
     "visual": "kitchen"
+  },
+  {
+    "id": "temperature.urban-heat-island",
+    "title": "城市热岛：35 ℃的街区温差",
+    "titleEn": "Urban heat island at 35 °C",
+    "summary": "城市热岛是城市建成区温度高于周边乡村的现象；35 ℃可以是夏季午后街区气温示例，真正要比较的是同一时刻城郊温差与地表材质。",
+    "category": "高温",
+    "displayValue": "308 K（35 ℃街区示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "高温",
+      "温度",
+      "环境"
+    ],
+    "zone": "高温",
+    "value": 308,
+    "unit": "K",
+    "measure": "35 ℃街区示例",
+    "measureLabel": "308 K（35 ℃街区示例）",
+    "visual": "heat-map"
+  },
+  {
+    "id": "temperature.wet-bulb-temperature",
+    "title": "湿球温度 35 ℃：热应激的物理上限",
+    "titleEn": "Wet-bulb temperature at 35 °C",
+    "summary": "湿球温度 35 ℃ 是湿热环境中接近人体散热上限的理论阈值；它不等于气温 35 ℃，也不代表所有人都会在同一时刻中暑。",
+    "category": "高温",
+    "displayValue": "308 K（35 ℃湿球温度）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "高温",
+      "温度",
+      "环境"
+    ],
+    "zone": "高温",
+    "value": 308,
+    "unit": "K",
+    "measure": "35 ℃湿球温度",
+    "measureLabel": "308 K（35 ℃湿球温度）",
+    "visual": "heat-map"
   },
   {
     "id": "temperature.hypothermia",
@@ -13120,6 +13376,26 @@
     "measure": "泉水或浴池水温",
     "measureLabel": "泉水或浴池水温",
     "visual": "planet-environment"
+  },
+  {
+    "id": "temperature.heatstroke-core",
+    "title": "热射病核心温度：40 ℃的急症阈值",
+    "titleEn": "Heatstroke core temperature at 40 °C",
+    "summary": "热射病常以核心温度超过 40 ℃并伴中枢神经异常为临床标志；40 ℃是急症阈值示例，不是普通发烧的通用界线，也不能单凭体表温度判断。",
+    "category": "高温",
+    "displayValue": "313.15 K（40 ℃核心温度示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "高温",
+      "温度",
+      "医疗"
+    ],
+    "zone": "高温",
+    "value": 313.15,
+    "unit": "K",
+    "measure": "40 ℃核心温度示例",
+    "measureLabel": "313.15 K（40 ℃核心温度示例）",
+    "visual": "thermometer"
   },
   {
     "id": "temperature.sand-beach-summer",
@@ -13241,6 +13517,26 @@
     "visual": "kitchen"
   },
   {
+    "id": "temperature.legionella-hot-water",
+    "title": "军团菌与热水：60 ℃的储水温度",
+    "titleEn": "Legionella hot-water storage at 60 °C",
+    "summary": "热水系统常建议把储水温度维持在 60 ℃以抑制军团菌，并在末端通过混水阀防止烫伤；60 ℃是风险管理示例，不是所有管路统一的杀菌温度。",
+    "category": "高温",
+    "displayValue": "333.15 K（60 ℃热水储水示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "高温",
+      "温度",
+      "环境"
+    ],
+    "zone": "高温",
+    "value": 333.15,
+    "unit": "K",
+    "measure": "60 ℃热水储水示例",
+    "measureLabel": "333.15 K（60 ℃热水储水示例）",
+    "visual": "thermometer"
+  },
+  {
     "id": "temperature.desert-ground",
     "title": "沙漠地表",
     "titleEn": "Desert land surface temperature",
@@ -13278,6 +13574,26 @@
     "unit": "K",
     "measure": "蛋类蛋白凝固温度区间",
     "measureLabel": "蛋类蛋白凝固温度区间",
+    "visual": "kitchen"
+  },
+  {
+    "id": "temperature.pasteurization",
+    "title": "巴氏杀菌：72 ℃的短时热处理",
+    "titleEn": "High-temperature short-time pasteurization at 72 °C",
+    "summary": "高温短时巴氏杀菌常用约 72 ℃、15 秒的组合处理液体食品；它降低病原体风险，但不是完全灭菌，也不能把已变质食品变安全。",
+    "category": "高温",
+    "displayValue": "345.15 K（72 ℃巴氏杀菌示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "高温",
+      "温度",
+      "环境"
+    ],
+    "zone": "高温",
+    "value": 345.15,
+    "unit": "K",
+    "measure": "72 ℃巴氏杀菌示例",
+    "measureLabel": "345.15 K（72 ℃巴氏杀菌示例）",
     "visual": "kitchen"
   },
   {
@@ -13358,6 +13674,26 @@
     "unit": "K",
     "measure": "桑拿房空气温度（代表值）",
     "measureLabel": "桑拿房空气温度（代表值）",
+    "visual": "metal-furnace"
+  },
+  {
+    "id": "temperature.hydrogen-fuel-cell",
+    "title": "氢燃料电池：80 ℃的运行温度",
+    "titleEn": "Hydrogen fuel cell operating at 80 °C",
+    "summary": "质子交换膜氢燃料电池常运行在约 60—80 ℃；80 ℃是示例，不是所有电堆的统一温度，它受膜材料、冷却与负载控制。",
+    "category": "高温",
+    "displayValue": "353.15 K（80 ℃运行示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "高温",
+      "温度",
+      "环境"
+    ],
+    "zone": "高温",
+    "value": 353.15,
+    "unit": "K",
+    "measure": "80 ℃运行示例",
+    "measureLabel": "353.15 K（80 ℃运行示例）",
     "visual": "metal-furnace"
   },
   {
@@ -13483,6 +13819,26 @@
     "visual": "planet-environment"
   },
   {
+    "id": "temperature.sterilization-autoclave",
+    "title": "高压蒸汽灭菌：121 ℃的医疗标准",
+    "titleEn": "Autoclave sterilization at 121 °C",
+    "summary": "高压蒸汽灭菌常用 121 ℃、15—20 分钟的组合杀灭包括芽孢在内的微生物；121 ℃是饱和蒸汽压力下的示例，不是干热灭菌或所有器械的统一参数。",
+    "category": "高温",
+    "displayValue": "394.15 K（121 ℃高压蒸汽示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "高温",
+      "温度",
+      "环境"
+    ],
+    "zone": "高温",
+    "value": 394.15,
+    "unit": "K",
+    "measure": "121 ℃高压蒸汽示例",
+    "measureLabel": "394.15 K（121 ℃高压蒸汽示例）",
+    "visual": "metal-furnace"
+  },
+  {
     "id": "temperature.led-junction",
     "title": "LED 结温",
     "titleEn": "LED junction temperature",
@@ -13501,6 +13857,26 @@
     "measure": "LED 半导体结区温度（代表值）",
     "measureLabel": "LED 半导体结区温度（代表值）",
     "visual": "burner"
+  },
+  {
+    "id": "temperature.battery-thermal-runaway",
+    "title": "电池热失控：150 ℃的链式升温",
+    "titleEn": "Battery thermal runaway at 150 °C",
+    "summary": "锂离子电池热失控常从约 80—150 ℃的异常升温开始，150 ℃是链式反应示例；它不是所有电池统一的起爆温度，也不等于火焰温度。",
+    "category": "高温",
+    "displayValue": "423.15 K（150 ℃热失控示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "高温",
+      "温度",
+      "工业"
+    ],
+    "zone": "高温",
+    "value": 423.15,
+    "unit": "K",
+    "measure": "150 ℃热失控示例",
+    "measureLabel": "423.15 K（150 ℃热失控示例）",
+    "visual": "metal-furnace"
   },
   {
     "id": "temperature.rubber-vulcanization",
@@ -14248,8 +14624,9 @@
   {
     "id": "mass.car",
     "title": "丰田卡罗拉：1,310 kg，紧凑级轿车的整备质量",
+    "titleEn": "Toyota Corolla",
     "summary": "丰田卡罗拉整备质量约 1,310 kg，含全部油液、备胎与随车工具，不含乘员与货物。同车系不同配置在 1,290–1,395 kg 之间浮动，最大允许总质量约 1,800 kg。",
-    "category": "车辆",
+    "category": "工程与交通",
     "displayValue": "1,310 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -14585,6 +14962,26 @@
     "visual": "metal-furnace"
   },
   {
+    "id": "space.antarctic-ice-thickness",
+    "title": "南极冰盖：约 1.9 公里的平均厚度",
+    "titleEn": "Antarctic ice sheet thickness at about 1.9 km",
+    "summary": "南极冰盖平均厚度约 1.9 公里，最厚处超过 4 公里；它储存了地球大部分淡冰，厚度变化通过冰流、降雪与底部融化缓慢调整。",
+    "category": "地球与地质",
+    "displayValue": "约 1.9 km（南极冰盖平均厚度示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "地球与地质",
+      "厚度",
+      "地球系统"
+    ],
+    "measureType": "厚度",
+    "value": 1900,
+    "unit": "m",
+    "measure": "南极冰盖平均厚度示例",
+    "measureLabel": "南极冰盖平均厚度示例",
+    "visual": "terrain"
+  },
+  {
     "id": "temperature.titanium-melting",
     "title": "钛熔点",
     "titleEn": "Titanium melting point",
@@ -14707,8 +15104,9 @@
   {
     "id": "mass.suv",
     "title": "丰田陆地巡洋舰：2,600 kg，全尺寸越野车的整备质量",
+    "titleEn": "Toyota Land Cruiser",
     "summary": "丰田陆地巡洋舰 300 系整备质量约 2,600 kg，非承载式车身、四驱系统与大油箱都计入其中。规格书按配置给出 2,495–2,600 kg，最大允许总质量约 3,000 kg。",
-    "category": "车辆",
+    "category": "工程与交通",
     "displayValue": "2,600 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -14762,6 +15160,26 @@
     "measure": "所引钨带校准灯实验工作温度",
     "measureLabel": "所引钨带校准灯实验工作温度",
     "visual": "filament-lamp"
+  },
+  {
+    "id": "space.greenland-ice-thickness",
+    "title": "格陵兰冰盖：约 3 公里的冰穹厚度",
+    "titleEn": "Greenland ice sheet thickness at about 3 km",
+    "summary": "格陵兰冰盖中部厚度可达约 3 公里，边缘较薄；它是北半球最大的冰体，质量变化对海平面有重要影响。",
+    "category": "地球与地质",
+    "displayValue": "约 3 km（格陵兰冰盖中部厚度示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "地球与地质",
+      "厚度",
+      "地球系统"
+    ],
+    "measureType": "厚度",
+    "value": 3000,
+    "unit": "m",
+    "measure": "格陵兰冰盖中部厚度示例",
+    "measureLabel": "格陵兰冰盖中部厚度示例",
+    "visual": "terrain"
   },
   {
     "id": "temperature.agb-surface",
@@ -15126,8 +15544,9 @@
   {
     "id": "mass.elephant",
     "title": "非洲象：5,000 kg，成年雄性的湿重均值",
+    "titleEn": "African elephant",
     "summary": "非洲象成年雄性湿重约 5,000 kg，给 ±20% 的个体波动。成年雄性常在 4–6 t，雌性约 2.7–3.5 t；肩高约 3.2 m，是现存最大的陆生动物。",
-    "category": "动物",
+    "category": "自然与生物",
     "displayValue": "5,000 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -15266,8 +15685,9 @@
   {
     "id": "mass.tyrannosaurus",
     "title": "霸王龙：8,000 kg，骨骼与软组织模型给出的估算",
+    "titleEn": "Tyrannosaurus rex",
     "summary": "霸王龙成年个体质量的主流模型估算约 8,000 kg，合理区间 5–9 t。数值来自骨架三维重建、肌肉复原与组织密度假设，并非实测，标 C 级、approximate。",
-    "category": "古生物",
+    "category": "自然与生物",
     "displayValue": "8,000 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -15325,8 +15745,9 @@
   {
     "id": "mass.truck",
     "title": "沃尔沃 FH16 牵引车：9,000 kg，不含挂车的车头质量",
+    "titleEn": "Volvo FH16 tractor unit",
     "summary": "沃尔沃 FH16 牵引车整备质量约 9,000 kg，指车头本身：底盘、驾驶室、D16 柴油机、变速箱、后桥、鞍座与油液，不含挂车与货物。6×4 长驾驶室配置常在 8.5–9.5 t。",
-    "category": "车辆",
+    "category": "工程与交通",
     "displayValue": "9,000 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -15523,8 +15944,9 @@
   {
     "id": "mass.bus",
     "title": "城市公交车：12,000 kg，12 m 级柴油单机的整备质量",
+    "titleEn": "City bus",
     "summary": "12 m 级柴油城市公交的整备质量约 12,000 kg，含车身、底盘、空调、座椅与全部油液，不含乘客。同长度纯电动车型因电池通常再重 2–3 t，最大允许总质量约 18–19.5 t。",
-    "category": "车辆",
+    "category": "工程与交通",
     "displayValue": "12,000 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -15558,6 +15980,26 @@
     "measure": "NASA三轴半径7.8、6.0、5.1 km取平均后加倍约12.6 km，常用取整为12 km（中间轴附近口径，非最长径）",
     "measureLabel": "NASA三轴半径7.8、6.0、5.1 km取平均后加倍约12.6 km，常用取整为12 km（中间轴附近口径，非最长径）",
     "visual": "sphere"
+  },
+  {
+    "id": "space.troposphere-top",
+    "title": "对流层顶：约 12 公里的天气屋顶",
+    "titleEn": "Tropopause at about 12 km",
+    "summary": "对流层顶是对流层与平流层之间的边界，中纬度平均约 10—12 公里；12 公里是示例，赤道与极地、夏季与冬季的高度不同。",
+    "category": "地球与地质",
+    "displayValue": "约 12 km（中纬度对流层顶示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "地球与地质",
+      "高度",
+      "地球系统"
+    ],
+    "measureType": "高度",
+    "value": 12000,
+    "unit": "m",
+    "measure": "中纬度对流层顶高度示例",
+    "measureLabel": "中纬度对流层顶高度示例",
+    "visual": "field"
   },
   {
     "id": "space.halley",
@@ -15742,8 +16184,9 @@
   {
     "id": "mass.train-car",
     "title": "高铁动车车厢：40,000 kg，单节车厢的整备质量",
+    "titleEn": "High-speed rail car",
     "summary": "高铁动车组单节车厢整备质量约 40,000 kg，含铝合金车体、转向架、牵引与制动设备、空调和座椅，不含乘客。不同车型与头车、动车配置可差到 40–55 t。",
-    "category": "轨道车辆",
+    "category": "工程与交通",
     "displayValue": "40,000 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -15779,6 +16222,26 @@
     "visual": "stellar-atmosphere"
   },
   {
+    "id": "space.stratopause",
+    "title": "平流层顶：约 50 公里的臭氧屋顶",
+    "titleEn": "Stratopause at about 50 km",
+    "summary": "平流层顶位于约 50 公里高，是平流层与中间层的边界；臭氧层吸收紫外线使平流层温度随高度上升，到平流层顶附近达到局部最高。",
+    "category": "地球与地质",
+    "displayValue": "约 50 km（平流层顶示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "地球与地质",
+      "高度",
+      "地球系统"
+    ],
+    "measureType": "高度",
+    "value": 50000,
+    "unit": "m",
+    "measure": "平流层顶高度示例",
+    "measureLabel": "平流层顶高度示例",
+    "visual": "field"
+  },
+  {
     "id": "temperature.wolf-rayet-surface",
     "title": "沃尔夫–拉叶星表面温度",
     "titleEn": "Wolf–Rayet star effective surface temperature",
@@ -15797,6 +16260,26 @@
     "measure": "沃尔夫–拉叶星光球有效温度量级",
     "measureLabel": "沃尔夫–拉叶星光球有效温度量级",
     "visual": "stellar-atmosphere"
+  },
+  {
+    "id": "space.mesopause",
+    "title": "中间层顶：约 85 公里的最冷边界",
+    "titleEn": "Mesopause at about 85 km",
+    "summary": "中间层顶位于约 85 公里高，是地球大气温度最低的区域之一；它标志中间层结束、热层开始，夜光云常出现在这一高度附近。",
+    "category": "地球与地质",
+    "displayValue": "约 85 km（中间层顶示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "地球与地质",
+      "高度",
+      "地球系统"
+    ],
+    "measureType": "高度",
+    "value": 85000,
+    "unit": "m",
+    "measure": "中间层顶高度示例",
+    "measureLabel": "中间层顶高度示例",
+    "visual": "field"
   },
   {
     "id": "time.cell-division",
@@ -15876,6 +16359,26 @@
     "visual": "distance"
   },
   {
+    "id": "space.aurora-altitude",
+    "title": "极光高度：约 100 公里的发光层",
+    "titleEn": "Aurora altitude at about 100 km",
+    "summary": "极光主要出现在约 90—150 公里高的热层下部，100 公里是常见示例；不同颜色来自不同气体与高度，不能用单一高度概括全部极光。",
+    "category": "地球与地质",
+    "displayValue": "约 100 km（极光发光高度示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "地球与地质",
+      "高度",
+      "地球系统"
+    ],
+    "measureType": "高度",
+    "value": 100000,
+    "unit": "m",
+    "measure": "极光主要发光高度示例",
+    "measureLabel": "极光主要发光高度示例",
+    "visual": "field"
+  },
+  {
     "id": "space.city",
     "title": "城市",
     "titleEn": "City",
@@ -15894,6 +16397,46 @@
     "measure": "上海市行政区东西向最大跨度（行政边界口径的样本值）",
     "measureLabel": "上海市行政区东西向最大跨度（行政边界口径的样本值）",
     "visual": "terrain"
+  },
+  {
+    "id": "space.gulf-stream-width",
+    "title": "墨西哥湾流：约 100 公里的宽度",
+    "titleEn": "Gulf Stream width at about 100 km",
+    "summary": "墨西哥湾流是北大西洋西部的强西边界流，宽度常以约 100 公里作示例；它把热量从热带向高纬输送，位置与强度随季节和涡旋变化。",
+    "category": "地球与地质",
+    "displayValue": "约 100 km（墨西哥湾流宽度示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "地球与地质",
+      "宽度",
+      "地球系统"
+    ],
+    "measureType": "宽度",
+    "value": 100000,
+    "unit": "m",
+    "measure": "墨西哥湾流宽度示例",
+    "measureLabel": "墨西哥湾流宽度示例",
+    "visual": "hydrology"
+  },
+  {
+    "id": "space.kuroshio-width",
+    "title": "黑潮：约 100 公里的西边界急流",
+    "titleEn": "Kuroshio width at about 100 km",
+    "summary": "黑潮是北太平洋西部的强暖流，宽度常以约 100 公里作示例；它沿日本东岸北上，把热带热量与海水输送到中高纬。",
+    "category": "地球与地质",
+    "displayValue": "约 100 km（黑潮宽度示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "地球与地质",
+      "宽度",
+      "地球系统"
+    ],
+    "measureType": "宽度",
+    "value": 100000,
+    "unit": "m",
+    "measure": "黑潮宽度示例",
+    "measureLabel": "黑潮宽度示例",
+    "visual": "hydrology"
   },
   {
     "id": "temperature.solar-wind",
@@ -15918,8 +16461,9 @@
   {
     "id": "mass.blue-whale",
     "title": "蓝鲸：150,000 kg，最大动物的湿重均值",
+    "titleEn": "Blue whale",
     "summary": "蓝鲸成年个体湿重约 150,000 kg，给 ±20% 的波动。实测集中在 100–150 t，个别大型雌性超过 170 t；体长 24–30 m，是已知最大的动物。",
-    "category": "动物",
+    "category": "自然与生物",
     "displayValue": "150,000 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -15957,8 +16501,9 @@
   {
     "id": "mass.airliner",
     "title": "波音 747-8：220,000 kg，空重与最大起飞质量的一半",
+    "titleEn": "Boeing 747-8",
     "summary": "波音 747-8 的运行空重约 220,000 kg，含机体、发动机、系统、内饰与不可用燃油，不含载荷与可加燃油。最大起飞质量约 447,700 kg，空重略低于它的一半。",
-    "category": "飞行器",
+    "category": "工程与交通",
     "displayValue": "220,000 kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -16076,8 +16621,9 @@
   {
     "id": "mass.iss",
     "title": "国际空间站：419,725 kg，在轨质量",
+    "titleEn": "International Space Station",
     "summary": "国际空间站在轨质量约 419,725 kg，含舱段、桁架、太阳翼、散热板与舱内设备，不含对接的飞船。每次货运或载人飞船对接，组合体质量会临时增加 7–20 t。",
-    "category": "航天器",
+    "category": "工程与交通",
     "displayValue": "4.19725×10⁵ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -16213,6 +16759,26 @@
     "visual": "terrain"
   },
   {
+    "id": "space.thermosphere-top",
+    "title": "热层顶：约 600 公里的稀薄上层",
+    "titleEn": "Thermosphere top at about 600 km",
+    "summary": "热层顶约在 500—1000 公里之间，是热层与外逸层的过渡；600 公里是示例，国际空间站与许多低轨卫星都在热层内运行。",
+    "category": "地球与地质",
+    "displayValue": "约 600 km（热层顶示例）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "地球与地质",
+      "高度",
+      "地球系统"
+    ],
+    "measureType": "高度",
+    "value": 600000,
+    "unit": "m",
+    "measure": "热层顶高度示例",
+    "measureLabel": "热层顶高度示例",
+    "visual": "field"
+  },
+  {
     "id": "time.week",
     "title": "一周",
     "titleEn": "One Week",
@@ -16294,8 +16860,9 @@
   {
     "id": "mass.wind-turbine",
     "title": "陆上风机：1.0×10⁶ kg，含塔筒的安装总质量",
+    "titleEn": "Onshore wind turbine",
     "summary": "一台 4–5 MW 级陆上风机的整机安装总质量约 1.0×10⁶ kg，含塔筒、机舱、轮毂与三支叶片，不含基础。塔筒 150–250 t、机舱 70–120 t、叶片每支 15–25 t。",
-    "category": "能源设备",
+    "category": "工程与交通",
     "displayValue": "1.0×10⁶ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -17236,8 +17803,9 @@
   {
     "id": "mass.eiffel-tower",
     "title": "埃菲尔铁塔：1.01×10⁷ kg，官方公布的结构总质量",
+    "titleEn": "Eiffel Tower",
     "summary": "埃菲尔铁塔结构总质量约 1.01×10⁷ kg，其中锻铁框架约 7,300 t，其余为楼板、楼梯、电梯、设备与涂装。铁塔高 300 m，1889 年建成，由 18,038 个铁构件与 250 万颗铆钉组成。",
-    "category": "建筑",
+    "category": "工程与交通",
     "displayValue": "1.01×10⁷ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -17516,10 +18084,31 @@
     "visual": "sphere"
   },
   {
+    "id": "space.magnetopause",
+    "title": "磁层顶：约 10 个地球半径的太阳风边界",
+    "titleEn": "Magnetopause at about 10 Earth radii",
+    "summary": "磁层顶是地球磁场与太阳风相互作用的边界，向阳面平均约在 10 个地球半径处；它不是固定球面，会随太阳风压力与地磁活动伸缩。",
+    "category": "地球与地质",
+    "displayValue": "约 63,700 km（10 个地球半径）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "地球与地质",
+      "距离",
+      "地球系统"
+    ],
+    "measureType": "距离",
+    "value": 63700000,
+    "unit": "m",
+    "measure": "向阳面磁层顶平均地心距离",
+    "measureLabel": "向阳面磁层顶平均地心距离",
+    "visual": "field"
+  },
+  {
     "id": "mass.cruise-ship",
     "title": "玛丽皇后二号：约 7.9×10⁷ kg，满载排水量",
+    "titleEn": "Queen Mary 2",
     "summary": "玛丽皇后二号满载排水量约 79,000 t，即约 7.9×10⁷ kg。常被引用的 1.49×10⁵ 是容积总吨（GT），不是质量；把 GT 与排水量混用，会让这艘邮轮“重”了近一倍。",
-    "category": "船舶",
+    "category": "工程与交通",
     "displayValue": "7.9×10⁷ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -17537,8 +18126,9 @@
   {
     "id": "mass.aircraft-carrier",
     "title": "杰拉尔德·R·福特号：约 1.0×10⁸ kg，满载排水量",
+    "titleEn": "Gerald R. Ford-class aircraft carrier",
     "summary": "福特号（CVN-78）满载排水量约 100,000 长吨，即约 1.0×10⁸ kg；按 1 长吨 = 1,016 kg 换算约 1.02×10⁸ kg。这是含航空燃油与弹药的全舰质量，不是标准排水量。",
-    "category": "船舶",
+    "category": "工程与交通",
     "displayValue": "1.0×10⁸ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -17759,8 +18349,9 @@
   {
     "id": "mass.cargo-ship",
     "title": "马士基 3E 级：约 2.2×10⁸ kg，满载排水量",
+    "titleEn": "Maersk 3E-class container ship",
     "summary": "3E 级集装箱船载重吨约 1.65×10⁵ t，轻船质量约 6×10⁴ t，满载排水量约 2.2×10⁸ kg。1.95×10⁵ 的容积总吨是体积，不是质量；载重吨也只算可加载部分。",
-    "category": "船舶",
+    "category": "工程与交通",
     "displayValue": "2.2×10⁸ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -17799,8 +18390,9 @@
   {
     "id": "mass.millau-viaduct",
     "title": "米约高架桥：约 2.9×10⁸ kg，结构总质量",
+    "titleEn": "Millau Viaduct",
     "summary": "米约高架桥按设计方公布的材料量估算，结构总质量约 2.9×10⁸ kg；其中钢桥面约 36,000 t，其余为混凝土桥墩、桥台与基础。常被误写成“钢结构 29 万吨”，实际 29 万吨是整座结构的估算总重。",
-    "category": "桥梁",
+    "category": "工程与交通",
     "displayValue": "2.9×10⁸ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -17876,8 +18468,9 @@
   {
     "id": "mass.empire-state-building",
     "title": "帝国大厦：约 3.65×10⁸ kg，官方公布的结构总质量",
+    "titleEn": "Empire State Building",
     "summary": "帝国大厦运营方公布建筑重量为 365,000 吨，约 3.65×10⁸ kg。原文只写 tons、未注明吨制，若按美制短吨折算约 3.3×10⁸ kg，相差约一成；本条取官方吨数按公吨换算。",
-    "category": "建筑",
+    "category": "工程与交通",
     "displayValue": "3.65×10⁸ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -17935,8 +18528,9 @@
   {
     "id": "mass.golden-gate-bridge",
     "title": "金门大桥：约 8.05×10⁸ kg，含锚碇与引桥的桥梁总质量",
+    "titleEn": "Golden Gate Bridge",
     "summary": "金门大桥 1986 年官方统计的桥梁总质量为 887,000 吨，即 804,700,000 kg；不含锚碇与引桥的桥体约 3.82×10⁸ kg。两个口径差一倍，混用会把这座桥说轻一半。",
-    "category": "桥梁",
+    "category": "工程与交通",
     "displayValue": "8.05×10⁸ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -17954,8 +18548,9 @@
   {
     "id": "mass.burj-khalifa",
     "title": "哈利法塔：约 8.5×10⁸ kg，由官方材料量估算的结构总质量",
+    "titleEn": "Burj Khalifa",
     "summary": "哈利法塔官方公布使用 33 万 m³ 混凝土与 3.9 万吨钢筋，按混凝土密度折算结构总质量约 8.5×10⁸ kg。常被引用的 5×10⁸ kg 来自“相当于 10 万头大象”的比喻，不是材料清单求和。",
-    "category": "建筑",
+    "category": "工程与交通",
     "displayValue": "8.5×10⁸ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -18231,8 +18826,9 @@
   {
     "id": "mass.hoover-dam",
     "title": "胡佛大坝：约 6.6×10⁹ kg，官方混凝土总量",
+    "titleEn": "Hoover Dam",
     "summary": "胡佛大坝坝体浇筑混凝土 3,250,335 立方码，垦务局记为 6,600,000 吨，约 6.6×10⁹ kg；若按美制短吨折算约 6.0×10⁹ kg。全工程含厂房的混凝土为 4.36×10⁶ 立方码。",
-    "category": "水利工程",
+    "category": "工程与交通",
     "displayValue": "6.6×10⁹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -18349,8 +18945,9 @@
   {
     "id": "mass.grand-coulee-dam",
     "title": "大古力坝：约 2.2×10¹⁰ kg，混凝土体积×密度估算",
+    "titleEn": "Grand Coulee Dam",
     "summary": "大古力坝混凝土总量 11,975,521 立方码（约 9.16×10⁶ m³），按 2.4 t/m³ 折算约 2.2×10¹⁰ kg。垦务局只公布体积，未给总质量；这是混凝土的估算质量，不含金属结构与机组。",
-    "category": "水利工程",
+    "category": "工程与交通",
     "displayValue": "2.2×10¹⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -18407,8 +19004,9 @@
   {
     "id": "mass.asteroid-itokawa",
     "title": "糸川：3.51×10¹⁰ kg，隼鸟号测出的碎石堆",
+    "titleEn": "Itokawa",
     "summary": "糸川（25143 Itokawa）总质量 3.51×10¹⁰ kg，由隼鸟号的近距离轨道跟踪与形状模型联合测定。它长约 535 米，密度约 1900 kg/m³，是首颗被采样返回的小行星。",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "3.51×10¹⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -18446,8 +19044,9 @@
   {
     "id": "mass.asteroid-yu55",
     "title": "2005 YU55：6.7×10¹⁰ kg，雷达给出的三成误差",
+    "titleEn": "2005 YU55",
     "summary": "小行星 2005 YU55 总质量约 6.7×10¹⁰ kg，不确定度约三成。它只在 2011 年近距离飞掠地球时被雷达详细成像，没有探测器环绕，质量只能由雷达形状与密度约束联合推出。",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "6.7×10¹⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -18465,8 +19064,9 @@
   {
     "id": "mass.three-gorges-dam",
     "title": "三峡大坝：约 6.7×10¹⁰ kg，混凝土体积×密度估算",
+    "titleEn": "Three Gorges Dam",
     "summary": "三峡大坝主体混凝土浇筑量约 2,794 万 m³，按 2.4 t/m³ 折算约 6.7×10¹⁰ kg。这是混凝土的估算质量，不含库区 393 亿 m³ 的水；后者质量比坝体大四个数量级。",
-    "category": "水利工程",
+    "category": "工程与交通",
     "displayValue": "6.7×10¹⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -18484,8 +19084,9 @@
   {
     "id": "mass.asteroid-bennu",
     "title": "贝努：7.329×10¹⁰ kg，OSIRIS-REx 近距离称重",
+    "titleEn": "Bennu",
     "summary": "贝努（101955 Bennu）总质量 7.329×10¹⁰ kg，由 OSIRIS-REx 的轨道跟踪与引力场拟合测定，相对不确定度约千分之一。平均密度约 1190 kg/m³，是空隙率很高的碎石堆。",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "7.329×10¹⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -18661,8 +19262,9 @@
   {
     "id": "mass.asteroid-didymos",
     "title": "双卫一（主星）：5.2×10¹¹ kg，靠卫星轨道称出来的质量",
+    "titleEn": "Didymos",
     "summary": "双卫一 Didymos 主星总质量约 5.2×10¹¹ kg，不确定度约两成。它没有探测器环绕，质量靠 Dimorphos 绕主星的轨道周期与半长轴，经开普勒第三定律反推。",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "5.2×10¹¹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -18938,8 +19540,9 @@
   {
     "id": "mass.comet-67p",
     "title": "67P/丘留莫夫—格拉西缅科：9.982×10¹² kg，一百亿吨的彗核",
+    "titleEn": "67P/Churyumov–Gerasimenko",
     "summary": "Rosetta 通过探测器轨道拟合给出 67P 彗核总质量 9.982×10¹² kg，约一百亿吨。密度仅 533 kg/m³，说明它是一颗高孔隙率的碎石堆彗星，不是实心冰块。",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "9.982×10¹² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -19174,8 +19777,9 @@
   {
     "id": "mass.asteroid-toutatis",
     "title": "图塔蒂斯：5.0×10¹³ kg，只有两位有效数字的雷达质量",
+    "titleEn": "Toutatis",
     "summary": "图塔蒂斯（4179 Toutatis）总质量约 5.0×10¹³ kg，不确定度约两成。它没有卫星也未被环绕探测，质量由雷达形状模型与密度约束联合给出，只能算 B 级推导值。",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "5.0×10¹³ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -19233,8 +19837,9 @@
   {
     "id": "mass.comet-halley",
     "title": "哈雷彗星：2.2×10¹⁴ kg，只能给两位有效数字",
+    "titleEn": "Halley's Comet",
     "summary": "哈雷彗星总质量约 2.2×10¹⁴ kg，不确定度约一成。它由 Giotto 飞越、非引力加速度与长期轨道观测综合约束得到，属于 B 级推导值，不能读成精确到个位的数。",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "2.2×10¹⁴ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -19470,8 +20075,9 @@
   {
     "id": "mass.asteroid-eros",
     "title": "爱神星：6.687×10¹⁵ kg，NEAR 用轨道称出的石头",
+    "titleEn": "Eros",
     "summary": "爱神星（433 Eros）总质量 6.687×10¹⁵ kg，由 NEAR Shoemaker 的无线电跟踪与轨道拟合测定，精度优于百分之一。它是第一颗被探测器环绕并“称重”的近地小行星。",
-    "category": "彗星与小行星",
+    "category": "行星与小天体",
     "displayValue": "6.687×10¹⁵ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -22641,6 +23247,26 @@
     "visual": "settlement-workshop"
   },
   {
+    "id": "time.indus-valley-civilization",
+    "title": "印度河流域文明：约公元前2600年的城市网络",
+    "titleEn": "Indus Valley Civilization",
+    "summary": "印度河流域文明在约公元前2600年进入城市鼎盛期，以网格街区、排水系统和标准化砖著称；它不是单一帝国，文字至今未解。",
+    "category": "人类与文明",
+    "displayValue": "约公元前2600年 · 距今约4,626年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "南亚"
+    ],
+    "mode": "时点",
+    "value": 435399854014542400,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
+  },
+  {
     "id": "time.egyptian-pyramids",
     "title": "吉萨金字塔建成：第四王朝的纪念性建筑",
     "titleEn": "The Pyramids of Giza",
@@ -22655,6 +23281,26 @@
     ],
     "mode": "时点",
     "value": 435399857990800000,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
+  },
+  {
+    "id": "time.vedic-period",
+    "title": "吠陀时期：约公元前1500—前500年的文本与聚落",
+    "titleEn": "Vedic Period",
+    "summary": "吠陀时期以吠陀梵语文本、祭祀传统和恒河流域聚落扩展为线索，约公元前1500—前500年；它不是统一王朝，也不是单一族群的整体迁移。",
+    "category": "人类与文明",
+    "displayValue": "约公元前1500年 · 距今约3,526年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "南亚"
+    ],
+    "mode": "时点",
+    "value": 435399888727902400,
     "unit": "s",
     "measure": "time-after-big-bang-derived-historical-reference",
     "measureLabel": "自大爆炸起的推算历史参考时间",
@@ -22721,6 +23367,26 @@
     "visual": "settlement-workshop"
   },
   {
+    "id": "time.maurya-empire",
+    "title": "孔雀帝国：约公元前322年的次大陆整合",
+    "titleEn": "Maurya Empire",
+    "summary": "孔雀帝国约从公元前322年延续到前185年，是南亚次大陆早期规模最大的政治整合之一；阿育王的石柱与诏令是理解其治理的关键材料。",
+    "category": "人类与文明",
+    "displayValue": "约公元前322年 · 距今约2,348年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "南亚"
+    ],
+    "mode": "时点",
+    "value": 435399925902755200,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
+  },
+  {
     "id": "time.roman-empire",
     "title": "罗马帝国建立：从共和到元首制的转折",
     "titleEn": "The Roman Empire",
@@ -22735,6 +23401,26 @@
     ],
     "mode": "时点",
     "value": 435399936884800000,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
+  },
+  {
+    "id": "time.aksumite-empire",
+    "title": "阿克苏姆帝国：红海贸易与吉兹文",
+    "titleEn": "Aksumite Empire",
+    "summary": "阿克苏姆帝国约在1—7世纪控制红海西岸贸易，以方尖碑、铸币、吉兹文与基督教王权著称；它不是现代埃塞俄比亚的简单前身。",
+    "category": "人类与文明",
+    "displayValue": "约公元100年 · 距今约1,926年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "东非"
+    ],
+    "mode": "时点",
+    "value": 435399939220062400,
     "unit": "s",
     "measure": "time-after-big-bang-derived-historical-reference",
     "measureLabel": "自大爆炸起的推算历史参考时间",
@@ -22761,6 +23447,26 @@
     "visual": "settlement-workshop"
   },
   {
+    "id": "time.maya-classic",
+    "title": "玛雅古典期：约公元250—900年的城邦世界",
+    "titleEn": "Maya Classic Period",
+    "summary": "玛雅古典期约从250年延续到900年，低地城邦留下金字塔、球场、铭文与历法记录；它由多个竞争城邦组成，不是单一帝国。",
+    "category": "人类与文明",
+    "displayValue": "约公元250年 · 距今约1,776年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "中美洲"
+    ],
+    "mode": "时点",
+    "value": 435399943953702400,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
+  },
+  {
     "id": "time.middle-ages",
     "title": "中世纪：西欧历史的一段参照区间",
     "titleEn": "The Middle Ages",
@@ -22775,6 +23481,66 @@
     ],
     "mode": "时点",
     "value": 435399951843102400,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
+  },
+  {
+    "id": "time.abbasid-caliphate",
+    "title": "阿拔斯王朝：公元750年的巴格达与翻译运动",
+    "titleEn": "Abbasid Caliphate",
+    "summary": "阿拔斯王朝于750年建立，762年定都巴格达；它把波斯、阿拉伯与地中海世界的行政和知识网络连接起来，直到1258年蒙古攻陷巴格达。",
+    "category": "人类与文明",
+    "displayValue": "约公元750年 · 距今约1,276年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "西亚与北非"
+    ],
+    "mode": "时点",
+    "value": 435399959732502400,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
+  },
+  {
+    "id": "time.islamic-golden-age",
+    "title": "伊斯兰黄金时代：约公元750—1258年的知识网络",
+    "titleEn": "Islamic Golden Age",
+    "summary": "伊斯兰黄金时代常指约8—13世纪，巴格达、开罗、科尔多瓦等城市出现大规模翻译、数学、光学与医学活动；它不是整个伊斯兰世界同步的单一阶段。",
+    "category": "人类与文明",
+    "displayValue": "约公元750年 · 距今约1,276年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "西亚与地中海"
+    ],
+    "mode": "时点",
+    "value": 435399959732502400,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
+  },
+  {
+    "id": "time.trans-saharan-trade",
+    "title": "跨撒哈拉贸易：8—16世纪的黄金、盐与商队",
+    "titleEn": "Trans-Saharan Trade",
+    "summary": "跨撒哈拉贸易在8—16世纪达到高峰，骆驼商队把西非黄金、盐、布匹与书籍运往北非，再连接到地中海与西亚；它不是一条单一路线。",
+    "category": "人类与文明",
+    "displayValue": "约公元800年 · 距今约1,226年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "西非与北非"
+    ],
+    "mode": "时点",
+    "value": 435399961310382400,
     "unit": "s",
     "measure": "time-after-big-bang-derived-historical-reference",
     "measureLabel": "自大爆炸起的推算历史参考时间",
@@ -22819,6 +23585,66 @@
     "measure": "time-after-big-bang-derived-historical-reference",
     "measureLabel": "自大爆炸起的推算历史参考时间",
     "visual": "scientific-instrument"
+  },
+  {
+    "id": "time.mongol-empire",
+    "title": "蒙古帝国：1206年的欧亚通道",
+    "titleEn": "Mongol Empire",
+    "summary": "蒙古帝国于1206年建立，随后扩张为历史上连续的陆上帝国之一；它通过驿站、商路与地方行政连接欧亚，也带来战争、疫病与人口重组。",
+    "category": "人类与文明",
+    "displayValue": "约公元1206年 · 距今约820年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "欧亚大陆"
+    ],
+    "mode": "时点",
+    "value": 435399974122768000,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
+  },
+  {
+    "id": "time.mali-empire",
+    "title": "马里帝国：约1235年的黄金与盐路",
+    "titleEn": "Mali Empire",
+    "summary": "马里帝国约从1235年延续到16世纪，以尼日尔河、黄金与跨撒哈拉盐路为核心；廷巴克图和加奥成为西非重要的贸易与学术城市。",
+    "category": "人类与文明",
+    "displayValue": "约公元1235年 · 距今约791年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "西非"
+    ],
+    "mode": "时点",
+    "value": 435399975037938400,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
+  },
+  {
+    "id": "time.ottoman-empire",
+    "title": "奥斯曼帝国：1299—1922年的跨洲秩序",
+    "titleEn": "Ottoman Empire",
+    "summary": "奥斯曼帝国从1299年的小侯国扩展到跨欧亚非的帝国，1453年攻陷君士坦丁堡，1922年苏丹制废除；它的治理依赖多宗教、多法律的复合结构。",
+    "category": "人类与文明",
+    "displayValue": "约公元1299年 · 距今约727年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "西亚、东南欧与北非"
+    ],
+    "mode": "时点",
+    "value": 435399977057624800,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
   },
   {
     "id": "time.black-death",
@@ -22874,6 +23700,46 @@
     ],
     "mode": "时点",
     "value": 435399980402730400,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
+  },
+  {
+    "id": "time.aztec-empire",
+    "title": "阿兹特克帝国：1428年的三方联盟",
+    "titleEn": "Aztec Empire",
+    "summary": "阿兹特克帝国常以1428年三方联盟形成作为起点，以特诺奇蒂特兰为中心，通过贡赋与战争控制墨西哥中部；1521年被西班牙征服。",
+    "category": "人类与文明",
+    "displayValue": "约公元1428年 · 距今约598年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "中美洲"
+    ],
+    "mode": "时点",
+    "value": 435399981128555200,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
+  },
+  {
+    "id": "time.inca-empire",
+    "title": "印加帝国：1438年的安第斯道路网络",
+    "titleEn": "Inca Empire",
+    "summary": "印加帝国约从1438年进入大规模扩张，以库斯科为中心，通过道路、梯田、仓储与基普绳结管理安第斯山区；1533年被西班牙征服。",
+    "category": "人类与文明",
+    "displayValue": "约公元1438年 · 距今约588年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "南美洲"
+    ],
+    "mode": "时点",
+    "value": 435399981444131200,
     "unit": "s",
     "measure": "time-after-big-bang-derived-historical-reference",
     "measureLabel": "自大爆炸起的推算历史参考时间",
@@ -22960,6 +23826,26 @@
     "visual": "settlement-workshop"
   },
   {
+    "id": "time.safavid-empire",
+    "title": "萨法维帝国：1501年的伊斯法罕与什叶派国教",
+    "titleEn": "Safavid Empire",
+    "summary": "萨法维帝国于1501年建立，把什叶派十二伊玛目派确立为国教，阿拔斯一世时期以伊斯法罕为中心重塑城市与丝路贸易。",
+    "category": "人类与文明",
+    "displayValue": "约公元1501年 · 距今约525年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "伊朗与高加索"
+    ],
+    "mode": "时点",
+    "value": 435399983432260000,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
+  },
+  {
     "id": "time.reformation",
     "title": "宗教改革起点：1517年论纲与欧洲宗教分裂",
     "titleEn": "The Reformation",
@@ -22994,6 +23880,26 @@
     ],
     "mode": "时点",
     "value": 435399984094969600,
+    "unit": "s",
+    "measure": "time-after-big-bang-derived-historical-reference",
+    "measureLabel": "自大爆炸起的推算历史参考时间",
+    "visual": "settlement-workshop"
+  },
+  {
+    "id": "time.mughal-empire",
+    "title": "莫卧儿帝国：1526年的南亚宫廷",
+    "titleEn": "Mughal Empire",
+    "summary": "莫卧儿帝国于1526年建立，阿克巴时期扩展到南亚大部，以波斯语宫廷文化、曼萨布达尔制度与泰姬陵等建筑著称；1857年终结。",
+    "category": "人类与文明",
+    "displayValue": "约公元1526年 · 距今约500年 · t ≈ 138 亿年",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "人类与文明",
+      "时点",
+      "南亚"
+    ],
+    "mode": "时点",
+    "value": 435399984221200000,
     "unit": "s",
     "measure": "time-after-big-bang-derived-historical-reference",
     "measureLabel": "自大爆炸起的推算历史参考时间",
@@ -23940,8 +24846,9 @@
   {
     "id": "mass.phoebe",
     "title": "土卫九：8.29×10¹⁸ kg，被土星抓住的彗星？",
+    "titleEn": "Phoebe",
     "summary": "土卫九（Phoebe）总质量 8.29×10¹⁸ kg，由 Cassini 飞越时的轨道跟踪与引力场拟合测定。平均直径约 213 公里，密度仅 1.638 g/cm³，逆行轨道与暗表面说明它很可能是被捕获的环双星天体。",
-    "category": "卫星与小天体",
+    "category": "行星与小天体",
     "displayValue": "8.29×10¹⁸ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -23959,8 +24866,9 @@
   {
     "id": "mass.psyche",
     "title": "灵神星：2.287×10¹⁹ kg，一颗待近距离称重的金属小行星",
+    "titleEn": "Psyche",
     "summary": "灵神星是主带里的大质量小行星，总质量约 2.287×10¹⁹ kg，当前相对不确定度约 10%。数值来自地面观测与形状—密度模型，Psyche 探测器抵达后才会由引力场给出更准的读数。",
-    "category": "小行星",
+    "category": "行星与小天体",
     "displayValue": "2.287×10¹⁹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24055,8 +24963,9 @@
   {
     "id": "mass.vesta",
     "title": "灶神星：2.590×10²⁰ kg，Dawn 近距离测出的主带第二",
+    "titleEn": "Vesta",
     "summary": "灶神星是主带第二大的小行星，总质量约 2.590×10²⁰ kg。Dawn 探测器环绕时的无线电跟踪把相对不确定度压到约 1%，是少数由航天器近距离测定质量的小行星。",
-    "category": "小行星",
+    "category": "行星与小天体",
     "displayValue": "2.590×10²⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24151,8 +25060,9 @@
   {
     "id": "mass.ceres",
     "title": "谷神星：9.383×10²⁰ kg，主带之王也是一颗矮行星",
+    "titleEn": "Ceres",
     "summary": "谷神星是小行星带质量最大的天体，也是唯一位于主带的矮行星，总质量约 9.383×10²⁰ kg。Dawn 探测器环绕跟踪给出的相对不确定度约 1%。",
-    "category": "矮行星",
+    "category": "行星与小天体",
     "displayValue": "9.383×10²⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24385,8 +25295,9 @@
   {
     "id": "mass.pluto",
     "title": "冥王星：1.303×10²² kg，New Horizons 飞掠定下的矮行星",
+    "titleEn": "Pluto",
     "summary": "冥王星是柯伊伯带最著名的矮行星，总质量约 1.303×10²² kg，约为月球的五分之一。New Horizons 飞掠与冥卫一轨道数据把相对不确定度压到约 0.5%。",
-    "category": "矮行星",
+    "category": "行星与小天体",
     "displayValue": "1.303×10²² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24423,8 +25334,9 @@
   {
     "id": "mass.europa",
     "title": "木卫二：4.800×10²² kg，冰壳下藏着海洋的卫星",
+    "titleEn": "Europa",
     "summary": "木卫二是木星的伽利略卫星之一，总质量约 4.800×10²² kg，约为月球的 65%。Galileo 多次飞掠的轨道跟踪把相对不确定度压到约 1%。",
-    "category": "卫星",
+    "category": "行星与小天体",
     "displayValue": "4.800×10²² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24442,8 +25354,9 @@
   {
     "id": "mass.moon",
     "title": "月球：7.346×10²² kg，激光测月把误差压到万分之一",
+    "titleEn": "Moon",
     "summary": "月球是地球唯一的天然卫星，总质量约 7.346×10²² kg，约为地球的八十一分之一。激光测月与月球轨道器跟踪给出的相对不确定度约 0.01%，是天体质量中测得最准的几个之一。",
-    "category": "卫星",
+    "category": "行星与小天体",
     "displayValue": "7.346×10²² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24518,8 +25431,9 @@
   {
     "id": "mass.titan",
     "title": "土卫六：1.345×10²³ kg，唯一拥有浓密大气的卫星",
+    "titleEn": "Titan",
     "summary": "土卫六是土星最大的卫星，总质量约 1.345×10²³ kg，比月球重约 1.8 倍。Cassini 多次飞掠的轨道跟踪把相对不确定度压到约 0.1%，但必须同时建模大气阻力。",
-    "category": "卫星",
+    "category": "行星与小天体",
     "displayValue": "1.345×10²³ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24537,8 +25451,9 @@
   {
     "id": "mass.ganymede",
     "title": "木卫三：1.482×10²³ kg，太阳系最大的卫星",
+    "titleEn": "Ganymede",
     "summary": "木卫三是木星最大的卫星，也是太阳系最大的卫星，总质量约 1.482×10²³ kg，比水星略轻。Galileo 与 Juno 的跟踪数据给出约 0.1% 的相对不确定度。",
-    "category": "卫星",
+    "category": "行星与小天体",
     "displayValue": "1.482×10²³ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24575,8 +25490,9 @@
   {
     "id": "mass.mercury",
     "title": "水星：3.301×10²³ kg，MESSENGER 环绕测出的最轻行星",
+    "titleEn": "Mercury",
     "summary": "水星是离太阳最近的行星，总质量约 3.301×10²³ kg，约为地球的十八分之一。它没有卫星，质量只能靠 MESSENGER 的轨道跟踪反演，相对不确定度约 0.1%。",
-    "category": "行星",
+    "category": "行星与小天体",
     "displayValue": "3.301×10²³ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24727,8 +25643,9 @@
   {
     "id": "mass.earth",
     "title": "地球：5.972×10²⁴ kg，含大气与海洋的总质量",
+    "titleEn": "Earth",
     "summary": "地球总质量约 5.972×10²⁴ kg，明确包含大气与海洋。数值由人造卫星轨道跟踪与引力场模型拟合，相对不确定度约 1×10⁻³，主要受引力常数 G 的精度限制。",
-    "category": "行星",
+    "category": "行星与小天体",
     "displayValue": "5.972×10²⁴ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24785,8 +25702,9 @@
   {
     "id": "mass.gj1214b",
     "title": "GJ 1214 b：3.91×10²⁵ kg，被厚水汽包住的超级地球",
+    "titleEn": "GJ 1214 b",
     "summary": "GJ 1214 b 是一颗半径约 2.7 倍地球的超级地球，行星总质量约 3.91×10²⁵ kg，约合 6.55 个地球质量。质量由凌星与视向速度联合拟合得出，相对不确定度约 12%。",
-    "category": "系外行星",
+    "category": "行星与小天体",
     "displayValue": "3.91×10²⁵ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24803,8 +25721,9 @@
   {
     "id": "mass.uranus",
     "title": "天王星：8.681×10²⁵ kg，躺着自转的冰巨星",
+    "titleEn": "Uranus",
     "summary": "天王星是太阳系第七颗行星，行星总质量约 8.681×10²⁵ kg，约为地球质量的 14.5 倍。质量由旅行者2号飞越跟踪与卫星轨道拟合得出，相对不确定度约 0.02%。",
-    "category": "行星",
+    "category": "行星与小天体",
     "displayValue": "8.681×10²⁵ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24822,8 +25741,9 @@
   {
     "id": "mass.neptune",
     "title": "海王星：1.024×10²⁶ kg，靠笔尖算出来的冰巨星",
+    "titleEn": "Neptune",
     "summary": "海王星是太阳系第八颗行星，行星总质量约 1.024×10²⁶ kg，约为地球质量的 17.1 倍。质量由旅行者2号跟踪与卫星轨道拟合得出，相对不确定度约 0.02%。",
-    "category": "行星",
+    "category": "行星与小天体",
     "displayValue": "1.024×10²⁶ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24879,8 +25799,9 @@
   {
     "id": "mass.saturn",
     "title": "土星：5.683×10²⁶ kg，带着环系的巨行星",
+    "titleEn": "Saturn",
     "summary": "土星是太阳系第六颗行星，行星总质量约 5.683×10²⁶ kg，约为地球质量的 95 倍。质量由卡西尼号轨道跟踪与卫星轨道拟合得出，相对不确定度约 0.02%。",
-    "category": "行星",
+    "category": "行星与小天体",
     "displayValue": "5.683×10²⁶ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24898,8 +25819,9 @@
   {
     "id": "mass.51peg-b",
     "title": "51 Pegasi b：8.73×10²⁶ kg，第一颗被发现的系外行星",
+    "titleEn": "51 Pegasi b",
     "summary": "51 Pegasi b 是人类确认的第一颗围绕主序星运行的系外行星，行星总质量约 8.73×10²⁶ kg，约合 0.46 个木星质量。质量由视向速度法测得，相对不确定度约 10%。",
-    "category": "系外行星",
+    "category": "行星与小天体",
     "displayValue": "8.73×10²⁶ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24935,8 +25857,9 @@
   {
     "id": "mass.hd209458b",
     "title": "HD 209458 b：1.386×10²⁷ kg，第一颗被看到凌星的系外行星",
+    "titleEn": "HD 209458 b",
     "summary": "HD 209458 b 是一颗热木星，也是第一颗被观测到凌星现象的系外行星，行星总质量约 1.386×10²⁷ kg，约合 0.73 个木星质量。质量由凌星与视向速度联合拟合得出，相对不确定度约 5%。",
-    "category": "系外行星",
+    "category": "行星与小天体",
     "displayValue": "1.386×10²⁷ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24954,8 +25877,9 @@
   {
     "id": "mass.jupiter",
     "title": "木星：1.898×10²⁷ kg，太阳系最重的行星",
+    "titleEn": "Jupiter",
     "summary": "木星是太阳系质量最大的行星，行星总质量约 1.898×10²⁷ kg，约为地球质量的 318 倍。质量由航天器跟踪与伽利略卫星轨道拟合得出，相对不确定度约 0.02%。",
-    "category": "行星",
+    "category": "行星与小天体",
     "displayValue": "1.898×10²⁷ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24973,8 +25897,9 @@
   {
     "id": "mass.2m1207b",
     "title": "2M1207 b：1.04×10²⁸ kg，直接成像的行星质量伴星",
+    "titleEn": "2M1207 b",
     "summary": "2M1207 b 是围绕褐矮星 2M1207 运行的行星质量伴星，总质量约 1.04×10²⁸ kg，约合 5.5 个木星质量。质量由直接成像与演化模型拟合得出，相对不确定度约 27%。",
-    "category": "行星质量伴星",
+    "category": "行星与小天体",
     "displayValue": "1.04×10²⁸ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -24991,8 +25916,9 @@
   {
     "id": "mass.teide-1",
     "title": "Teide 1：1.08×10²⁹ kg，第一个被确认的褐矮星",
+    "titleEn": "Teide 1",
     "summary": "Teide 1 的质量约 1.08×10²⁹ kg，相当于约 57 个木星质量。数值来自演化模型对星团年龄与光度的拟合，属于模型依赖值，相对不确定度约 10%。",
-    "category": "褐矮星",
+    "category": "行星与小天体",
     "displayValue": "1.08×10²⁹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25010,8 +25936,9 @@
   {
     "id": "mass.proxima-centauri",
     "title": "比邻星：2.43×10²⁹ kg，离太阳最近的恒星",
+    "titleEn": "Proxima Centauri",
     "summary": "比邻星质量约 2.43×10²⁹ kg，相当于 0.122 太阳质量。数值由质光关系定标，并用天体测量给出的距离与轨道信息约束，相对不确定度约 5%。",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "2.43×10²⁹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25029,8 +25956,9 @@
   {
     "id": "mass.barnard-star",
     "title": "巴纳德星：2.86×10²⁹ kg，自行最快的红矮星",
+    "titleEn": "Barnard's Star",
     "summary": "巴纳德星质量约 2.86×10²⁹ kg，相当于 0.144 太阳质量。数值由质光关系定标，并用干涉测量得到的半径交叉检验，相对不确定度约 5%。",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "2.86×10²⁹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25048,8 +25976,9 @@
   {
     "id": "mass.sun",
     "title": "太阳：1.989×10³⁰ kg，整条质量阶梯的定义锚点",
+    "titleEn": "Sun",
     "summary": "太阳的恒星总质量约 1.989×10³⁰ kg，即 1 太阳质量，常被用作整条质量阶梯的换算单位。数值由国际天文学联合会推荐的名义太阳质量参数 GM☉ 除以引力常数 G 换算，相对不确定度约 1×10⁻⁴。",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "1.989×10³⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25066,8 +25995,9 @@
   {
     "id": "mass.sirius-b",
     "title": "天狼星 B：2.02×10³⁰ kg，地球大小的白矮星",
+    "titleEn": "Sirius B",
     "summary": "天狼星 B 质量约 2.02×10³⁰ kg，约 1.02 太阳质量，半径却只有地球量级。数值由双星轨道拟合并结合引力红移测定，相对不确定度约 2%。",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "2.02×10³⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25085,8 +26015,9 @@
   {
     "id": "mass.psr-j0348-0432",
     "title": "PSR J0348+0432：4.00×10³⁰ kg，两倍太阳质量的中子星",
+    "titleEn": "PSR J0348+0432",
     "summary": "PSR J0348+0432 质量约 4.00×10³⁰ kg，约 2.01 太阳质量。数值由脉冲星计时中的 Shapiro 延迟测定，相对不确定度约 0.5%，是检验致密物质物态方程的关键样本。",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "4.00×10³⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25104,8 +26035,9 @@
   {
     "id": "mass.sirius-a",
     "title": "天狼星 A：4.10×10³⁰ kg，夜空最亮恒星的质量",
+    "titleEn": "Sirius A",
     "summary": "天狼星 A 质量约 4.10×10³⁰ kg，约 2.06 太阳质量。数值来自它与白矮星伴星天狼星 B 的双星轨道拟合，相对不确定度约 3%。",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "4.10×10³⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25123,8 +26055,9 @@
   {
     "id": "mass.betelgeuse",
     "title": "参宿四：3.28×10³¹ kg，只能给量级的红超巨星",
+    "titleEn": "Betelgeuse",
     "summary": "参宿四质量约 3.28×10³¹ kg，大致在 16.5 到 19 太阳质量之间。它没有可测轨道的伴星，数值完全依赖演化模型，只能给量级，相对不确定度约 30%。",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "3.28×10³¹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25142,8 +26075,9 @@
   {
     "id": "mass.cygnus-x1",
     "title": "天鹅座 X-1：4.22×10³¹ kg，第一个被确认的恒星级黑洞",
+    "titleEn": "Cygnus X-1",
     "summary": "天鹅座 X-1 的动力学质量约 4.22×10³¹ kg，即 21.2 太阳质量。数值由双星轨道拟合得到，相对不确定度约 1%，是最可靠的恒星级黑洞质量之一。",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "4.22×10³¹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25161,8 +26095,9 @@
   {
     "id": "mass.gw150914-merger",
     "title": "GW150914 并合：1.23×10³² kg，第一次被听见的黑洞并合",
+    "titleEn": "GW150914 merger",
     "summary": "GW150914 并合后的黑洞质量约 1.23×10³² kg，即 62 太阳质量。数值由引力波波形反演得到，相对不确定度约 4%，是人类首次直接探测到的双黑洞并合产物。",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "1.23×10³² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25200,8 +26135,9 @@
   {
     "id": "mass.eta-carinae",
     "title": "船底座 η：1.99×10³² kg，只能给量级的大质量双星",
+    "titleEn": "Eta Carinae",
     "summary": "船底座 η 的主星质量约 1.99×10³² kg，大致为 100 太阳质量。数值依赖演化模型与双星结构假设，只能给量级，相对不确定度约 30%。",
-    "category": "恒星",
+    "category": "恒星与致密天体",
     "displayValue": "1.99×10³² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25219,8 +26155,9 @@
   {
     "id": "mass.gw190521-merger",
     "title": "GW190521 并合：2.82×10³² kg，跨进中等质量门槛的黑洞",
+    "titleEn": "GW190521 merger",
     "summary": "GW190521 并合后的黑洞质量约 2.82×10³² kg，即 142 太阳质量。数值由引力波波形反演得到，相对不确定度约 10%，是首个明确落入中等质量范围的并合产物。",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "2.82×10³² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25238,8 +26175,9 @@
   {
     "id": "mass.gcirs-13e",
     "title": "GCIRS 13E：2.59×10³³ kg，银心附近的中等质量黑洞候选",
+    "titleEn": "GCIRS 13E",
     "summary": "GCIRS 13E 是银河系中心附近的一个致密星团，被怀疑中心藏着一颗约 2.59×10³³ kg 的黑洞，折合约 1300 个太阳质量。这个数由星团内恒星的运动学估计得出，相对不确定度约 50%，只能给量级。",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "2.59×10³³ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25257,8 +26195,9 @@
   {
     "id": "mass.omega-centauri-bh",
     "title": "ω 星团中心黑洞：1.63×10³⁴ kg，脉冲星计时的独立校验",
+    "titleEn": "Omega Centauri black hole",
     "summary": "半人马座 ω 是银河系最大的球状星团，其中心可能存在一颗约 1.63×10³⁴ kg 的黑洞，折合约 8200 个太阳质量。恒星动力学与脉冲星计时两条路线互相校验，相对不确定度约 15%。",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "1.63×10³⁴ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25276,8 +26215,9 @@
   {
     "id": "mass.hlx-1",
     "title": "HLX-1：3.98×10³⁴ kg，靠 X 射线光度推算的中等质量候选",
+    "titleEn": "HLX-1",
     "summary": "HLX-1 是星系 ESO 243-49 中的超亮 X 射线源，被解释为一颗约 3.98×10³⁴ kg 的中等质量黑洞，折合约两万个太阳质量。数值由 X 射线吸积光度推算，相对不确定度约 40%，只能给量级并视作候选。",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "3.98×10³⁴ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25295,8 +26235,9 @@
   {
     "id": "mass.ngc4395-black-hole",
     "title": "NGC 4395 中心黑洞：7.16×10³⁵ kg，反响映射称出的低质量端样本",
+    "titleEn": "NGC 4395 black hole",
     "summary": "NGC 4395 是一个几乎没有核球的低表面亮度螺旋星系，中心黑洞质量约 7.16×10³⁵ kg，折合约三十六万个太阳质量。数值来自宽线区反响映射，相对不确定度约 20%。",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "7.16×10³⁵ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25314,8 +26255,9 @@
   {
     "id": "mass.sgr-a-star",
     "title": "人马座 A*：8.55×10³⁶ kg，银心黑洞的轨道称重",
+    "titleEn": "Sagittarius A*",
     "summary": "人马座 A* 是银河系中心的超大质量黑洞，质量约 8.55×10³⁶ kg，折合 4.297×10⁶ 个太阳质量。数值由银心 S 星轨道拟合得出，GRAVITY 干涉测量把相对不确定度压到约 0.3%。",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "8.55×10³⁶ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25333,8 +26275,9 @@
   {
     "id": "mass.ngc4151-black-hole",
     "title": "NGC 4151 中心黑洞：7.96×10³⁷ kg，反响映射的经典标定对象",
+    "titleEn": "NGC 4151 black hole",
     "summary": "NGC 4151 是天空中最亮的塞弗特星系核之一，中心黑洞质量约 7.96×10³⁷ kg，折合约四千万个太阳质量。数值来自宽线区反响映射，相对不确定度约 15%。",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "7.96×10³⁷ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25352,8 +26295,9 @@
   {
     "id": "mass.mrk231-black-hole",
     "title": "Mrk 231 中心黑洞：2.98×10³⁸ kg，尘埃遮蔽下的量级估算",
+    "titleEn": "Mrk 231 black hole",
     "summary": "Mrk 231 是一个正在并合的极亮红外星系，中心黑洞质量约 2.98×10³⁸ kg，折合约一亿五千万个太阳质量。源被尘埃严重遮蔽，只能靠反响映射与模型联合拟合，相对不确定度约 30%，属于量级估算。",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "2.98×10³⁸ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25371,8 +26315,9 @@
   {
     "id": "mass.3c273",
     "title": "3C 273：1.76×10³⁹ kg，第一颗类星体的黑洞质量",
+    "titleEn": "3C 273",
     "summary": "3C 273 是人类发现的第一颗类星体，中心黑洞质量约 1.76×10³⁹ kg，折合约八亿九千万个太阳质量。数值来自宽线区反响映射，相对不确定度约 15%。",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "1.76×10³⁹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25390,8 +26335,9 @@
   {
     "id": "mass.m87-black-hole",
     "title": "M87*：1.29×10⁴⁰ kg，第一个被拍到阴影的黑洞",
+    "titleEn": "M87*",
     "summary": "M87* 是室女座 A 星系中心的超大质量黑洞，质量约 1.29×10⁴⁰ kg，折合约六十五亿个太阳质量。事件视界望远镜的阴影测量与核区恒星动力学结果一致，相对不确定度约 11%。",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "1.29×10⁴⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25409,8 +26355,9 @@
   {
     "id": "mass.ton-618",
     "title": "Ton 618：8.09×10⁴⁰ kg，已知最重的黑洞之一",
+    "titleEn": "Ton 618",
     "summary": "Ton 618 是一颗高光度类星体，中心黑洞质量约 8.09×10⁴⁰ kg，折合约四百零七亿个太阳质量。数值由宽线区反响映射结合模型拟合得出，相对不确定度约 20%。",
-    "category": "黑洞",
+    "category": "恒星与致密天体",
     "displayValue": "8.09×10⁴⁰ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25428,8 +26375,9 @@
   {
     "id": "mass.large-magellanic-cloud",
     "title": "大麦哲伦云：约 2.8×10⁴¹ kg，银河系最亮的卫星星系",
+    "titleEn": "Large Magellanic Cloud",
     "summary": "大麦哲伦云是银河系最亮的卫星星系，总质量约 2.8×10⁴¹ kg，折合约 1.4×10¹¹ 个太阳质量，口径包含暗物质晕。数值由卫星星系运动学与旋转曲线拟合给出，恒星质量仅约 2.7×10⁹ 个太阳质量，相对不确定度约 30%。",
-    "category": "星系",
+    "category": "星系与宇宙",
     "displayValue": "2.8×10⁴¹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25466,8 +26414,9 @@
   {
     "id": "mass.andromeda",
     "title": "仙女座星系：约 2.98×10⁴² kg，与银河系相当的总质量",
+    "titleEn": "Andromeda Galaxy",
     "summary": "仙女座星系（M31）的总质量约 2.98×10⁴² kg，折合约 1.5×10¹² 个太阳质量，口径包含暗物质晕。数值由旋转曲线与卫星星系运动联合拟合，恒星质量约 1×10¹¹ 个太阳质量，相对不确定度约 30%。",
-    "category": "星系",
+    "category": "星系与宇宙",
     "displayValue": "2.98×10⁴² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25485,8 +26434,9 @@
   {
     "id": "mass.milky-way",
     "title": "银河系：约 2.98×10⁴² kg，含暗物质的总质量",
+    "titleEn": "Milky Way",
     "summary": "银河系的总质量约 2.98×10⁴² kg，折合约 1.5×10¹² 个太阳质量，口径包含暗物质晕。数值由卫星星系运动与旋转曲线联合拟合，恒星质量仅约 6×10¹⁰ 个太阳质量，相对不确定度约 30%。",
-    "category": "星系",
+    "category": "星系与宇宙",
     "displayValue": "2.98×10⁴² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25504,8 +26454,9 @@
   {
     "id": "mass.local-group",
     "title": "本星系群：约 4.6×10⁴² kg，银河系所在的引力系统",
+    "titleEn": "Local Group",
     "summary": "本星系群由银河系、仙女座星系及数十个矮星系组成，总质量约 4.6×10⁴² kg，折合约 2.3×10¹² 个太阳质量，口径包含暗物质。数值由成员运动学估算，相对不确定度约 40%，属量级估算。",
-    "category": "星系群",
+    "category": "星系与宇宙",
     "displayValue": "4.6×10⁴² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25523,8 +26474,9 @@
   {
     "id": "mass.m87-galaxy",
     "title": "M87 星系：约 4.8×10⁴² kg，室女座星系团的中心巨椭圆星系",
+    "titleEn": "Messier 87",
     "summary": "M87 是室女座星系团中心的巨椭圆星系，总质量约 4.8×10⁴² kg，折合约 2.4×10¹² 个太阳质量，口径包含暗物质晕。数值由 X 射线热气与恒星运动学联合给出，恒星质量约三千亿个太阳质量，相对不确定度约 30%。",
-    "category": "星系",
+    "category": "星系与宇宙",
     "displayValue": "4.8×10⁴² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25542,8 +26494,9 @@
   {
     "id": "mass.centaurus-a-group",
     "title": "半人马座 A 星系群：约 2.6×10⁴³ kg，南天最近的星系群之一",
+    "titleEn": "Centaurus A Group",
     "summary": "半人马座 A 星系群以 NGC 5128 为核心，总质量约 2.6×10⁴³ kg，折合约 1.3×10¹³ 个太阳质量，口径包含暗物质。数值由成员星系速度弥散估算，相对不确定度约 50%，属量级估算。",
-    "category": "星系群",
+    "category": "星系与宇宙",
     "displayValue": "2.6×10⁴³ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25581,8 +26534,9 @@
   {
     "id": "mass.fornax-cluster",
     "title": "天炉座星系团：约 1.4×10⁴⁴ kg，南天富星系团的代表",
+    "titleEn": "Fornax Cluster",
     "summary": "天炉座星系团是南天较近的富星系团，总质量约 1.4×10⁴⁴ kg，折合约 7×10¹³ 个太阳质量，口径包含暗物质。数值由 X 射线热气与成员速度弥散联合给出，相对不确定度约 30%。",
-    "category": "星系团",
+    "category": "星系与宇宙",
     "displayValue": "1.4×10⁴⁴ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25600,8 +26554,9 @@
   {
     "id": "mass.virgo-cluster",
     "title": "室女座星系团：约 2.4×10⁴⁵ kg，离我们最近的富星系团",
+    "titleEn": "Virgo Cluster",
     "summary": "室女座星系团是离我们最近的富星系团，总质量约 2.4×10⁴⁵ kg，折合约 1.2×10¹⁵ 个太阳质量，口径包含暗物质。数值由 X 射线热气与成员速度弥散联合给出，相对不确定度约 30%。",
-    "category": "星系团",
+    "category": "星系与宇宙",
     "displayValue": "2.4×10⁴⁵ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25619,8 +26574,9 @@
   {
     "id": "mass.bullet-cluster",
     "title": "子弹星系团：约 3.0×10⁴⁵ kg，暗物质与气体分离的碰撞现场",
+    "titleEn": "Bullet Cluster",
     "summary": "子弹星系团（1E 0657-56）是两个星系团正在并合的系统，总质量约 3.0×10⁴⁵ kg，折合约 1.5×10¹⁵ 个太阳质量，口径包含暗物质。数值由引力透镜与 X 射线气体联合给出，相对不确定度约 30%。",
-    "category": "星系团",
+    "category": "星系与宇宙",
     "displayValue": "3.0×10⁴⁵ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25638,8 +26594,9 @@
   {
     "id": "mass.coma-cluster",
     "title": "后发座星系团：约 3.0×10⁴⁵ kg，暗物质证据的经典舞台",
+    "titleEn": "Coma Cluster",
     "summary": "后发座星系团是著名的富星系团，总质量约 3.0×10⁴⁵ kg，折合约 1.5×10¹⁵ 个太阳质量，口径包含暗物质。数值由 X 射线热气与引力透镜联合给出，相对不确定度约 30%。",
-    "category": "星系团",
+    "category": "星系与宇宙",
     "displayValue": "3.0×10⁴⁵ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25657,8 +26614,9 @@
   {
     "id": "mass.cfa2-great-wall",
     "title": "CfA2 长城：约 2.0×10⁴⁶ kg，星系组成的纤维状大尺度结构",
+    "titleEn": "CfA2 Great Wall",
     "summary": "CfA2 长城是星系红移巡天发现的纤维状大尺度结构，总质量约 2.0×10⁴⁶ kg，折合约 1×10¹⁶ 个太阳质量，口径包含暗物质。数值由红移巡天与结构模型估算，相对不确定度约 50%，属量级估算。",
-    "category": "大尺度结构",
+    "category": "星系与宇宙",
     "displayValue": "2.0×10⁴⁶ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25676,8 +26634,9 @@
   {
     "id": "mass.laniakea",
     "title": "拉尼亚凯亚超星系团：约 2.0×10⁴⁷ kg，银河系所在的超星系团",
+    "titleEn": "Laniakea Supercluster",
     "summary": "拉尼亚凯亚超星系团是以巨引源为中心的庞大结构，总质量约 2.0×10⁴⁷ kg，折合约 1×10¹⁷ 个太阳质量，口径包含暗物质。数值由星系流场与引力盆划分估算，相对不确定度约 50%，属量级估算。",
-    "category": "超星系团",
+    "category": "星系与宇宙",
     "displayValue": "2.0×10⁴⁷ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25715,8 +26674,9 @@
   {
     "id": "mass.boss-great-wall",
     "title": "BOSS 长城：2.0×10⁴⁸ kg，十亿光年尺度的星系超结构",
+    "titleEn": "BOSS Great Wall",
     "summary": "BOSS 长城是红移约 0.47 处的星系超结构，总质量约 2.0×10⁴⁸ kg，折合约 1×10¹⁸ 个太阳质量。口径为含暗物质的总质量，数值由红移巡天的星系密度场与结构模型反推，相对不确定度约 50%，只能给量级。",
-    "category": "大尺度结构",
+    "category": "星系与宇宙",
     "displayValue": "2.0×10⁴⁸ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25734,8 +26694,9 @@
   {
     "id": "mass.sloan-great-wall",
     "title": "斯隆长城：2.0×10⁴⁸ kg，SDSS 巡天发现的星系长链",
+    "titleEn": "Sloan Great Wall",
     "summary": "斯隆长城是斯隆数字巡天在红移约 0.08 处发现的星系超结构，总质量约 2.0×10⁴⁸ kg，折合约 1×10¹⁸ 个太阳质量。口径为含暗物质的总质量，数值由 SDSS 红移巡天与结构模型估算，相对不确定度约 50%，只能给量级。",
-    "category": "大尺度结构",
+    "category": "星系与宇宙",
     "displayValue": "2.0×10⁴⁸ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25753,8 +26714,9 @@
   {
     "id": "mass.hercules-corona-borealis-great-wall",
     "title": "赫拉克勒斯—北冕座长城：2.0×10⁴⁹ kg，已知最大的候选超结构",
+    "titleEn": "Hercules–Corona Borealis Great Wall",
     "summary": "赫拉克勒斯—北冕座长城是据伽马射线暴分布识别出的超大结构，总质量约 2.0×10⁴⁹ kg，折合约 1×10¹⁹ 个太阳质量。口径为含暗物质的总质量，由伽马暴红移分布与结构模型反推，相对不确定度约 50%，只能给量级。",
-    "category": "大尺度结构",
+    "category": "星系与宇宙",
     "displayValue": "2.0×10⁴⁹ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25772,8 +26734,9 @@
   {
     "id": "mass.hubble-volume",
     "title": "哈勃体积内的临界质量：8.8×10⁵² kg",
+    "titleEn": "Critical mass in the Hubble volume",
     "summary": "哈勃体积指以哈勃半径 c/H₀ 为半径的球，其内按临界密度折算的总质量约 8.8×10⁵² kg。这个口径包含暗能量的能量当量，不是普通物质质量，也不等于可观测宇宙内的物质总量。",
-    "category": "宇宙尺度",
+    "category": "星系与宇宙",
     "displayValue": "8.8×10⁵² kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25790,8 +26753,9 @@
   {
     "id": "mass.observable-universe",
     "title": "可观测宇宙的普通物质：1.5×10⁵³ kg",
+    "titleEn": "Ordinary matter in the observable universe",
     "summary": "可观测宇宙内普通物质（重子）的总质量约 1.5×10⁵³ kg，只算重子，不含暗物质与暗能量。数值由宇宙微波背景的 Ω_b 与临界密度、共动体积换算，相对不确定度约 2%。",
-    "category": "宇宙尺度",
+    "category": "星系与宇宙",
     "displayValue": "1.5×10⁵³ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25808,8 +26772,9 @@
   {
     "id": "mass.dark-matter-mass",
     "title": "可观测宇宙的暗物质：8.4×10⁵³ kg",
+    "titleEn": "Dark matter in the observable universe",
     "summary": "可观测宇宙内暗物质的总质量约 8.4×10⁵³ kg，只算暗物质，不含普通物质与暗能量。数值由微波背景的 Ω_dm 与临界密度、共动体积换算，相对不确定度约 3%。",
-    "category": "宇宙尺度",
+    "category": "星系与宇宙",
     "displayValue": "8.4×10⁵³ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -25826,8 +26791,9 @@
   {
     "id": "mass.total-matter-universe",
     "title": "可观测宇宙的总物质：9.9×10⁵³ kg",
+    "titleEn": "Total matter in the observable universe",
     "summary": "可观测宇宙内普通物质与暗物质合计约 9.9×10⁵³ kg，只含物质、不含暗能量。数值由 Ω_m 与临界密度、共动体积换算，相对不确定度约 2%。",
-    "category": "宇宙尺度",
+    "category": "星系与宇宙",
     "displayValue": "9.9×10⁵³ kg",
     "reviewStatus": "reviewed",
     "tags": [
@@ -26069,6 +27035,291 @@
     "unit": "Z",
     "measure": "测量方法，不对应单一原子序数",
     "measureLabel": "测量方法，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-block-d",
+    "title": "d 区：过渡金属的多价态与颜色",
+    "titleEn": "The d-block: variable valence and colour",
+    "summary": "d 区包括第 3–12 族，最后填入 (n−1)d 亚层；过渡金属的多价态、配位化合物、颜色与磁性都源于部分填充的 d 电子。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "区块"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-block-f",
+    "title": "f 区：镧系与锕系的内层填充",
+    "titleEn": "The f-block: lanthanides and actinides",
+    "summary": "f 区包括镧系与锕系，最后填入 4f 或 5f 亚层；它们化学性质相近、分离困难，锕系还普遍具放射性。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "区块"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-block-p",
+    "title": "p 区：非金属、半金属与惰性气体的舞台",
+    "titleEn": "The p-block: nonmetals, metalloids and noble gases",
+    "summary": "p 区包括第 13–18 族（氦除外），最后填入 np 亚层；碳、氮、氧、硅、硫、卤素与惰性气体都在这里。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "区块"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-block-s",
+    "title": "s 区：最外层电子的起点",
+    "titleEn": "The s-block: where the outer shell begins",
+    "summary": "s 区包括第 1、2 族与氦，最后填入 ns 亚层；它集中了最活泼的金属，也包含氢与氦两个特殊元素。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "区块"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-group-1",
+    "title": "第 1 族：碱金属与氢的特殊位置",
+    "titleEn": "Group 1: alkali metals and hydrogen’s special seat",
+    "summary": "第 1 族包括氢、锂、钠、钾、铷、铯、钫；除氢外都是碱金属，具有一个价 s 电子，反应性随周期向下增强。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "族"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-group-17",
+    "title": "第 17 族：卤素从氟到鿬",
+    "titleEn": "Group 17: halogens from fluorine to tennessine",
+    "summary": "第 17 族包括氟、氯、溴、碘、砹、鿬；价电子构型 ns²np⁵，常形成 −1 离子，反应性从氟向下总体减弱。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "族"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-group-18",
+    "title": "第 18 族：惰性气体的闭壳与例外",
+    "titleEn": "Group 18: closed shells and exceptions",
+    "summary": "第 18 族包括氦、氖、氩、氪、氙、氡、鿫；价层闭壳使它们反应性很低，但氙、氪等仍可形成化合物。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "族"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-group-2",
+    "title": "第 2 族：碱土金属的两电子账",
+    "titleEn": "Group 2: the two-electron ledger of alkaline earths",
+    "summary": "第 2 族包括铍、镁、钙、锶、钡、镭；价电子构型 ns²，常见 +2 氧化态，反应性随周期向下增强。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "族"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-period-1",
+    "title": "第一周期：只有两个元素的开端",
+    "titleEn": "Period 1: the two-element opening",
+    "summary": "第一周期只有氢与氦，一个填充 1s 轨道，一个把 1s 填满；它确立了周期表最短的一行，也藏着恒星与宇宙最早的化学。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "周期"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-period-2",
+    "title": "第二周期：八个元素搭起生命的骨架",
+    "titleEn": "Period 2: eight elements and the scaffold of life",
+    "summary": "第二周期从锂到氖共 8 个元素，首次填满 2s 与 2p；碳、氮、氧、氟在这里出现，构成有机化学与生命分子的主骨架。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "周期"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-period-3",
+    "title": "第三周期：从钠到氩的八级台阶",
+    "titleEn": "Period 3: eight steps from sodium to argon",
+    "summary": "第三周期从钠到氩共 8 个元素，填满 3s 与 3p；硅、磷、硫、氯在这里出现，连接矿物、半导体、肥料与盐。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "周期"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-period-4",
+    "title": "第四周期：过渡金属第一次登场",
+    "titleEn": "Period 4: the first transition series",
+    "summary": "第四周期从钾到氪共 18 个元素，首次填充 3d；铁、铜、锌等过渡金属在这里出现，带来多价态、颜色与磁性。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "周期"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-period-5",
+    "title": "第五周期：4d 金属与更重的卤素",
+    "titleEn": "Period 5: 4d metals and heavier halogens",
+    "summary": "第五周期从铷到氙共 18 个元素，填充 4d；银、镉、碘、氙在这里出现，连接贵金属、催化与照明。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "周期"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-period-6",
+    "title": "第六周期：镧系与重过渡金属",
+    "titleEn": "Period 6: lanthanides and heavy transition metals",
+    "summary": "第六周期从铯到氡共 32 个元素，加入 4f 镧系与 5d 过渡金属；金、汞、铅与稀土都在这一行。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "周期"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
+    "visual": ""
+  },
+  {
+    "id": "elements.overview-period-7",
+    "title": "第七周期：锕系与超重元素的边界",
+    "titleEn": "Period 7: actinides and the superheavy frontier",
+    "summary": "第七周期从钫到鿫共 32 个元素，加入 5f 锕系与 6d 超重元素；全部具放射性，许多只在实验室合成。",
+    "category": "总览层",
+    "displayValue": "总览页 · 不参与 Z 排序",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "总览层",
+      "周期表",
+      "周期"
+    ],
+    "value": null,
+    "unit": "Z",
+    "measure": "族/周期/区块总览，不对应单一原子序数",
+    "measureLabel": "族/周期/区块总览，不对应单一原子序数",
     "visual": ""
   },
   {

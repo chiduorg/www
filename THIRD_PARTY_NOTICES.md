@@ -1,6 +1,6 @@
 # 第三方来源说明（THIRD PARTY NOTICES）
 
-生成日期：2026-11-17。覆盖内容版本 1.2.2 的 1354 条条目、3174 条来源记录、590 个来源主机。完整逐条索引见 [third-party-sources.csv](https://chidu.org/third-party-sources.csv)。
+生成日期：2026-11-24。覆盖内容版本 1.3.0 的 1410 条条目、3301 条来源记录、597 个来源主机。完整逐条索引见 [third-party-sources.csv](https://chidu.org/third-party-sources.csv)。
 
 ## 处理原则
 
@@ -15,7 +15,7 @@
 | 范围 | 状态 | 说明 |
 |---|---|---|
 | 旧站文本 | 已退出发布路径 | 许可未确认，不随本站发布 |
-| 当前正文与元数据 | rewritten × 1354 | 原创撰写，以 CC BY 4.0 提供 |
+| 当前正文与元数据 | rewritten × 1410 | 原创撰写，以 CC BY 4.0 提供 |
 | 第三方来源 | 逐条引用事实 | 保留来源许可，不再许可 |
 
 ## 来源使用类别
@@ -44,7 +44,7 @@
 
 ## 逐字复制检查
 
-对 1354 条正文执行长引语（30 字符以上）与英文段落扫描，命中 4 条：
+对 1410 条正文执行长引语（30 字符以上）与英文段落扫描，命中 4 条：
 - 家具与袜子条目中的尺寸引语为产品规格事实；
 - 钢琴条目中的引号用于中文“常见误解”叙述，不是来源原文；
 - 电话条目保留贝尔 1876 年的著名短句 “Mr. Watson, come here, I want to see you”，属于公有领域历史引语。
@@ -65,13 +65,13 @@
 
 | 主机 | 引用次数 | 发布者 | 类别 | 示例 URL |
 |---|---:|---|---|---|
-| britannica.com | 623 | Encyclopaedia Britannica | 订阅参考与新闻媒体 | <https://www.britannica.com/science/alpha-particle><br><https://www.britannica.com/summary/Alps><br><https://www.britannica.com/place/Alps> |
+| britannica.com | 654 | Encyclopaedia Britannica | 订阅参考与新闻媒体 | <https://www.britannica.com/science/alpha-particle><br><https://www.britannica.com/summary/Alps><br><https://www.britannica.com/place/Alps> |
 | pubchem.ncbi.nlm.nih.gov | 118 | NIH PubChem；U.S. National Library of Medicine；National Library of Medicine | 美国政府公开页面 | <https://pubchem.ncbi.nlm.nih.gov/compound/311><br><https://pubchem.ncbi.nlm.nih.gov/element/89><br><https://pubchem.ncbi.nlm.nih.gov/element/47> |
 | rsc.org | 116 | Royal Society of Chemistry | 其他公开网页（未确认开放许可） | <https://www.rsc.org/periodic-table/element/89/actinium><br><https://www.rsc.org/periodic-table/element/47/silver><br><https://www.rsc.org/periodic-table/element/13/aluminium> |
 | arxiv.org | 114 | M. Serpico / arXiv；Planck Collaboration / Astronomy & Astrophysics；J. W. Moffat / arXiv | 学术论文与学术出版社 | <https://arxiv.org/pdf/astro-ph/0702257><br><https://arxiv.org/abs/1807.06209><br><https://arxiv.org/html/2503.20912> |
-| physics.nist.gov | 94 | NIST / CODATA；NIST / Physical Measurement Laboratory；National Institute of Standards and Technology | 美国政府公开页面 | <https://physics.nist.gov/cuu/Constants/Table/allascii.txt><br><https://physics.nist.gov/Pubs/AtSpec/node01.html><br><https://physics.nist.gov/cgi-bin/cuu/Value?rp> |
+| physics.nist.gov | 109 | NIST / CODATA；NIST / Physical Measurement Laboratory；National Institute of Standards and Technology | 美国政府公开页面 | <https://physics.nist.gov/cuu/Constants/Table/allascii.txt><br><https://physics.nist.gov/Pubs/AtSpec/node01.html><br><https://physics.nist.gov/cgi-bin/cuu/Value?rp> |
+| science.nasa.gov | 77 | NASA Science；NASA Heliophysics；National Aeronautics and Space Administration | 美国政府公开页面 | <https://science.nasa.gov/earth/earth-atmosphere/ice-sheets/><br><https://science.nasa.gov/sun/aurora/><br><https://science.nasa.gov/dwarf-planets/pluto/moons/charon/> |
 | nssdc.gsfc.nasa.gov | 68 | NASA NSSDCA；NASA / NSSDCA；NASA NSSDC | 美国政府公开页面 | <https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html><br><https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html><br><https://nssdc.gsfc.nasa.gov/planetary/factsheet/asteroidfact.html> |
-| science.nasa.gov | 68 | NASA Science；National Aeronautics and Space Administration；NASA Goddard | 美国政府公开页面 | <https://science.nasa.gov/dwarf-planets/pluto/moons/charon/><br><https://science.nasa.gov/image-article/apod-2026-april-17-m82-starburst-galaxy-with-a-superwind/><br><https://science.nasa.gov/mars/moons/deimos/> |
 | animaldiversity.org | 67 | Animal Diversity Web, University of Michigan；Animal Diversity Web / University of Michigan | 其他公开网页（未确认开放许可） | <https://animaldiversity.org/accounts/Eunectes_murinus/><br><https://animaldiversity.org/accounts/Ambystoma_mexicanum/><br><https://animaldiversity.org/accounts/Semibalanus_balanoides/> |
 | stratigraphy.org | 65 | International Commission on Stratigraphy | 其他公开网页（未确认开放许可） | <https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf> |
 | nist.gov | 63 | NIST / M. Nagao；NIST；National Institute of Standards and Technology (NIST) | 美国政府公开页面 | <https://www.nist.gov/publications/collective-dynamics-model-biological-membranes-measured-neutron-spin-echo-spectroscopy><br><https://www.nist.gov/measuring-cosmos/how-was-universe-born><br><https://www.nist.gov/news-events/news/2009/01/new-tool-gives-researchers-glimpse-biomolecules-motion> |
@@ -80,7 +80,7 @@
 | pdg.lbl.gov | 55 | Particle Data Group | 美国政府公开页面 | <https://pdg.lbl.gov/2025/listings/rpp2025-list-pi-plus-minus.pdf><br><https://pdg.lbl.gov/2025/tables/rpp2025-sum-quarks.pdf><br><https://pdg.lbl.gov/2025/listings/rpp2025-list-w-boson.pdf> |
 | nasa.gov | 51 | NASA History；NASA；NASA / Goddard Space Flight Center | 美国政府公开页面 | <https://www.nasa.gov/history/65-years-ago-first-factory-rollout-of-the-x-15-hypersonic-rocket-plane/><br><https://www.nasa.gov/hubble/><br><https://www.nasa.gov/sites/default/files/files/Kuiper_Belt_Lithograph_h.pdf> |
 | home.cern | 51 | CERN | 其他公开网页（未确认开放许可） | <https://home.cern/science/physics/standard-model><br><https://home.cern/science/physics/unified-forces><br><https://home.cern/science/physics/higgs-boson> |
-| esa.int | 50 | ESA / Planck；European Space Agency；ESA | 国际标准与政府间组织 | <https://www.esa.int/Science_Exploration/Space_Science/Planck/The_cosmic_microwave_background_and_inflation><br><https://www.esa.int/ESA_Multimedia/Images/2019/07/A_puzzle_of_10_million_stars><br><https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background> |
+| esa.int | 51 | ESA / Planck；European Space Agency；ESA | 国际标准与政府间组织 | <https://www.esa.int/Science_Exploration/Space_Science/Planck/The_cosmic_microwave_background_and_inflation><br><https://www.esa.int/Science_Exploration/Space_Science/Magnetosphere><br><https://www.esa.int/ESA_Multimedia/Images/2019/07/A_puzzle_of_10_million_stars> |
 | ncbi.nlm.nih.gov | 46 | StatPearls / NCBI Bookshelf；NCBI Bookshelf；NCBI Bookshelf / StatPearls | 美国政府公开页面 | <https://www.ncbi.nlm.nih.gov/books/NBK534789/><br><https://www.ncbi.nlm.nih.gov/books/NBK27144/><br><https://www.ncbi.nlm.nih.gov/books/NBK553175/> |
 | nature.com | 40 | Nature（Sicardy et al. 2011）；Nature / EDGES Collaboration；Nature | 学术论文与学术出版社 | <https://www.nature.com/articles/nature10550><br><https://www.nature.com/articles/nature25792><br><https://www.nature.com/articles/s41586-023-06170-w> |
 | ned.ipac.caltech.edu | 40 | NASA / IPAC Extragalactic Database；NASA/IPAC Extragalactic Database / A. Gangui；NASA/IPAC Extragalactic Database / John H. Wise | 大学、课程与教育页面 | <https://ned.ipac.caltech.edu/level5/ESSAYS/Binggeli/binggeli.html><br><https://ned.ipac.caltech.edu/level5/March02/Gangui/Gangui4.html><br><https://ned.ipac.caltech.edu/level5/Sept12/Wise/Wise1.html> |
@@ -95,6 +95,7 @@
 | nps.gov | 21 | National Park Service；U.S. National Park Service；National Park Service, Tule Springs Fossil Beds National Monument | 美国政府公开页面 | <https://www.nps.gov/pipe/learn/nature/mammals.htm><br><https://www.nps.gov/subjects/bears/brown-bears.htm><br><https://www.nps.gov/articles/000/what-is-a-coral.htm> |
 | openstax.org | 19 | OpenStax / Rice University；OpenStax, Rice University；OpenStax | 开放许可或开放教材 | <https://openstax.org/books/chemistry-2e/pages/6-3-development-of-quantum-theory><br><https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells><br><https://openstax.org/books/biology-2e/pages/5-1-components-and-structure> |
 | pubs.usgs.gov | 18 | U.S. Geological Survey；United States Geological Survey (USGS)；U.S. Geological Survey / The National Academies Press | 美国政府公开页面 | <https://pubs.usgs.gov/gip/dynamic/inside.html><br><https://pubs.usgs.gov/gip/earthq3/safaultgip.html><br><https://pubs.usgs.gov/publication/70243862> |
+| iupac.org | 18 | International Union of Pure and Applied Chemistry | 其他公开网页（未确认开放许可） | <https://iupac.org/what-we-do/periodic-table-of-elements/> |
 | kids.britannica.com | 17 | Encyclopaedia Britannica；Encyclopædia Britannica；Encyclopaedia Britannica (Student Encyclopedia) | 订阅参考与新闻媒体 | <https://kids.britannica.com/students/article/lion/275490><br><https://kids.britannica.com/kids/article/apple/352769><br><https://kids.britannica.com/students/article/banana/273086> |
 | esahubble.org | 16 | ESA / Hubble / NASA；ESA / Hubble | 其他公开网页（未确认开放许可） | <https://esahubble.org/news/heic1502/><br><https://esahubble.org/images/opo9734d/><br><https://esahubble.org/news/heic0813/> |
 | fisheries.noaa.gov | 15 | NOAA Fisheries；National Oceanic and Atmospheric Administration, NOAA Fisheries | 美国政府公开页面 | <https://www.fisheries.noaa.gov/species/blue-whale><br><https://www.fisheries.noaa.gov/species/common-bottlenose-dolphin><br><https://www.fisheries.noaa.gov/species/atlantic-cod> |
@@ -104,11 +105,15 @@
 | bipm.org | 13 | Bureau International des Poids et Mesures；International Bureau of Weights and Measures (BIPM)；BIPM / CIPM Recommendation C1 (2000) | 国际标准与政府间组织 | <https://www.bipm.org/en/si-base-units/metre><br><https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-concise-EN.pdf/2fda4656-e236-0fcb-3867-36ca74eea4e3?download=true&version=1.2><br><https://www.bipm.org/en/measurement-units/si-prefixes> |
 | pubmed.ncbi.nlm.nih.gov | 12 | National Library of Medicine (PubMed)；PubMed / National Library of Medicine；Coy et al. / Journal of Biological Chemistry；PubMed作者摘要 | 美国政府公开页面 | <https://pubmed.ncbi.nlm.nih.gov/19804590/><br><https://pubmed.ncbi.nlm.nih.gov/2796213/><br><https://pubmed.ncbi.nlm.nih.gov/9920916/> |
 | science.org | 11 | Science Advances；Science / AAAS, Tong et al.；Science Advances, AAAS | 学术论文与学术出版社 | <https://www.science.org/doi/10.1126/sciadv.ade7375><br><https://www.science.org/doi/10.1126/sciadv.abm9424><br><https://www.science.org/doi/full/10.1126/science.aav7911> |
+| metmuseum.org | 11 | The Metropolitan Museum of Art | 博物馆与文化机构 | <https://www.metmuseum.org/art/collection/search/502365><br><https://www.metmuseum.org/art/collection/search/504299><br><https://www.metmuseum.org/toah/hd/isla/hd_isla.htm> |
 | chandra.si.edu | 10 | NASA / Chandra X-ray Observatory；NASA / Chandra X-ray Center；Chandra X-ray Observatory, NASA | 订阅参考与新闻媒体 | <https://chandra.si.edu/photo/2010/antennae/><br><https://www.chandra.si.edu/photo/2003/twa5b/more.html><br><https://chandra.si.edu/photo/2014/cena/> |
 | iau.org | 10 | International Astronomical Union | 其他公开网页（未确认开放许可） | <https://www.iau.org/> |
 | simbad.cds.unistra.fr | 10 | CDS | 其他公开网页（未确认开放许可） | <https://simbad.cds.unistra.fr/> |
+| nsidc.org | 9 | National Snow and Ice Data Center；National Snow and Ice Data Center (NSIDC) | 其他公开网页（未确认开放许可） | <https://nsidc.org/ice-sheets-today><br><https://nsidc.org/greenland-today><br><https://nsidc.org/learn/parts-cryosphere/permafrost> |
+| noaa.gov | 9 | NOAA National Weather Service；NOAA JetStream | 美国政府公开页面 | <https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere><br><https://www.noaa.gov/jetstream/space-weather/aurora><br><https://www.noaa.gov/jetstream/clouds> |
 | chem.libretexts.org | 9 | Chemistry LibreTexts / Rice University (Andrew R. Barron)；LibreTexts Chemistry；LibreTexts / OpenStax Chemistry 2e | LibreTexts 等开放教材平台 | <https://chem.libretexts.org/Courses/Iowa_State_University/Advanced_Inorganic_Chemistry_CHEM-5020%3A_Fall_2026/06%3A_Chemistry_of_the_Main_Group_Elements_(Barron)/6.07%3A_Group_14/6.7.01%3A_The_Group_14_Elements><br><https://chem.libretexts.org/Bookshelves/General_Chemistry/General_Chemistry_-_An_Atoms_First_Approach_(Halpern)/Unit_5%3A_States_of_Matter/Chapter_11%3A_Fluids/Chapter_11.6%3A_Critical_Temperature_and_Pressure><br><https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/06%3A_Electronic_Structure_and_Periodic_Properties/6.04%3A_Electronic_Structure_of_Atoms_(Electron_Configurations)> |
 | astronomy.ohio-state.edu | 9 | Ohio State University, Astronomy 161 | 大学、课程与教育页面 | <https://www.astronomy.ohio-state.edu/gaudi.1/AST161/Unit7/lecture47.html> |
+| who.int | 9 | World Health Organization | 国际标准与政府间组织 | <https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020><br><https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-life-expectancy-and-healthy-life-expectancy><br><https://www.who.int/news-room/fact-sheets/detail/heatwaves> |
 | webelements.com | 9 | WebElements | 其他公开网页（未确认开放许可） | <https://webelements.com/chromium/><br><https://webelements.com/cobalt/><br><https://www.webelements.com/magnesium/> |
 | ice.org.uk | 9 | Institution of Civil Engineers | 其他公开网页（未确认开放许可） | <https://www.ice.org.uk/> |
 | www-nds.iaea.org | 8 | IAEA Nuclear Data Services / Angeli & Marinova；IAEA Nuclear Data Services / I. Angeli and K. Marinova；IAEA Nuclear Data Services | 其他公开网页（未确认开放许可） | <https://www-nds.iaea.org/radii/><br><https://www-nds.iaea.org/act_ddl/data/C-14_com.pdf><br><https://www-nds.iaea.org/act_ddl/data/U-238_com.pdf> |
@@ -121,20 +126,24 @@
 | astrobiology.nasa.gov | 8 | NASA Astrobiology | 美国政府公开页面 | <https://astrobiology.nasa.gov/news/under-the-bright-lights-of-an-aging-sun/><br><https://astrobiology.nasa.gov/news/advances-in-our-understanding-of-life/><br><https://astrobiology.nasa.gov/news/earths-oldest-mineral-grains-suggest-an-early-start-for-life/> |
 | handbookofmineralogy.org | 7 | Handbook of Mineralogy / Mineral Data Publishing | 其他公开网页（未确认开放许可） | <https://www.handbookofmineralogy.org/pdfs/calcite.pdf><br><https://www.handbookofmineralogy.org/pdfs/gypsum.pdf><br><https://www.handbookofmineralogy.org/pdfs/halite.pdf> |
 | oceanservice.noaa.gov | 7 | NOAA / National Ocean Service；National Oceanic and Atmospheric Administration；NOAA National Ocean Service | 美国政府公开页面 | <https://oceanservice.noaa.gov/facts/earth-round.html><br><https://oceanservice.noaa.gov/facts/oceandepth.html><br><https://oceanservice.noaa.gov/facts/biggestocean.html> |
+| energy.gov | 7 | U.S. Department of Energy / Office of Science；U.S. Department of Energy；US Department of Energy | 美国政府公开页面 | <https://www.energy.gov/science/doe-explainsthe-strong-force><br><https://www.energy.gov/articles/history-light-bulb><br><https://www.energy.gov/articles/how-lithium-ion-batteries-work> |
 | pnas.org | 7 | PNAS (Linda A. Hinnov)；Proceedings of the National Academy of Sciences；PNAS | 学术论文与学术出版社 | <https://www.pnas.org/doi/10.1073/pnas.1807020115><br><https://www.pnas.org/doi/full/10.1073/pnas.95.2.606><br><https://www.pnas.org/doi/10.1073/pnas.2413816122> |
 | humanorigins.si.edu | 7 | Smithsonian Human Origins Program；Smithsonian National Museum of Natural History | 订阅参考与新闻媒体 | <https://humanorigins.si.edu/evidence/human-fossils/species/homo-habilis><br><https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens><br><https://humanorigins.si.edu/evidence/human-fossils/species/sahelanthropus-tchadensis> |
+| fsis.usda.gov | 6 | USDA Food Safety and Inspection Service；USDA Food Safety and Inspection Service (FSIS)；USDA FSIS | 美国政府公开页面 | <https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cutting-boards><br><https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart><br><https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety> |
 | apod.nasa.gov | 6 | NASA / APOD；NASA APOD；NASA / GSFC / Michigan Tech. University | 美国政府公开页面 | <https://apod.nasa.gov/apod/ap030921.html><br><https://apod.nasa.gov/apod/ap251210.html><br><https://apod.nasa.gov/apod/ap031227.html> |
-| nsidc.org | 6 | National Snow and Ice Data Center；National Snow and Ice Data Center (NSIDC) | 其他公开网页（未确认开放许可） | <https://nsidc.org/learn/parts-cryosphere/snow/science-snow><br><https://nsidc.org/learn/cryosphere-glossary/snow-grains><br><https://nsidc.org/learn/parts-cryosphere/ice-sheets> |
+| whc.unesco.org | 6 | UNESCO World Heritage Centre；UNESCO | 其他公开网页（未确认开放许可） | <https://whc.unesco.org/en/list/15/><br><https://whc.unesco.org/en/list/274/><br><https://whc.unesco.org/en/list/138/> |
 | archives.gov | 6 | U.S. National Archives；U.S. National Archives and Records Administration | 美国政府公开页面 | <https://www.archives.gov/research/military/american-revolution><br><https://www.archives.gov/news/topics/berlin-wall-anniversary><br><https://www.archives.gov/presidential-libraries/events/german-reunification> |
 | ligo.org | 6 | LIGO Scientific Collaboration；LIGO | 其他公开网页（未确认开放许可） | <https://ligo.org/detections/gw150914/><br><https://ligo.org/detections/gw170817/><br><https://www.ligo.org/> |
 | pas.rochester.edu | 6 | University of Rochester, E. Mamajek | 大学、课程与教育页面 | <https://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt> |
 | eso.org | 5 | European Southern Observatory；ESO Messenger / D. Proust et al.；European Southern Observatory / ALMA | 其他公开网页（未确认开放许可） | <https://www.eso.org/public/news/eso0609/><br><https://www.eso.org/public/images/b11/><br><https://www.eso.org/sci/publications/messenger/archive/no.124-jun06/messenger-no124-30-31.pdf> |
 | sci.esa.int | 5 | European Space Agency；ESA Science & Technology | 其他公开网页（未确认开放许可） | <https://sci.esa.int/web/rosetta/-/55295-getting-to-know-rosetta-s-comet><br><https://sci.esa.int/web/gaia/-/53147-guide-to-our-galaxy><br><https://sci.esa.int/web/rosetta/-/14615-comet-67p> |
-| fsis.usda.gov | 5 | USDA Food Safety and Inspection Service；USDA Food Safety and Inspection Service (FSIS) | 美国政府公开页面 | <https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cutting-boards><br><https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart><br><https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety> |
 | exoplanets.nasa.gov | 5 | NASA Exoplanet Exploration；NASA | 美国政府公开页面 | <https://exoplanets.nasa.gov/news/1648/young-giant-planet-offers-clues-to-formation-of-exotic-worlds/><br><https://exoplanets.nasa.gov/> |
 | uniqlo.com | 5 | UNIQLO | 品牌与产品页面 | <https://www.uniqlo.com/eu-ie/en/products/E470097-000/00><br><https://www.uniqlo.com/eu-ro/en/products/E470024-000/00><br><https://www.uniqlo.com/uk/en/products/E459688-000/00> |
 | mindat.org | 5 | Hudson Institute of Mineralogy / Mindat；Mindat.org（Hudson Institute of Mineralogy） | 其他公开网页（未确认开放许可） | <https://www.mindat.org/show.php?id=1784><br><https://www.mindat.org/min-1804.html><br><https://www.mindat.org/min-2538.html> |
 | weather.gov | 5 | NOAA / National Weather Service；NOAA National Weather Service | 美国政府公开页面 | <https://www.weather.gov/mrx/SpotterReports><br><https://www.weather.gov/arx/svrref_hail><br><https://www.weather.gov/source/zhu/ZHU_Training_Page/tropical_stuff/hurricane_anatomy/hurricane_anatomy.html> |
+| cdc.gov | 5 | U.S. Centers for Disease Control and Prevention；US CDC | 美国政府公开页面 | <https://www.cdc.gov/mosquitoes/about/index.html><br><https://www.cdc.gov/heat-health/><br><https://www.cdc.gov/legionella/> |
+| ipcc.ch | 5 | IPCC SROCC；IPCC；IPCC AR6 WG1 | 其他公开网页（未确认开放许可） | <https://www.ipcc.ch/srocc/><br><https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/><br><https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-11/> |
+| epa.gov | 5 | US EPA；U.S. Environmental Protection Agency | 美国政府公开页面 | <https://www.epa.gov/ozone-layer-protection><br><https://www.epa.gov/ozone-layer-protection/basic-ozone-layer-science><br><https://www.epa.gov/heatislands/using-cool-pavements-reduce-heat-islands> |
 | smithsonianmag.com | 5 | Smithsonian Magazine | 订阅参考与新闻媒体 | <https://www.smithsonianmag.com/science-nature/what-led-life-to-flourish-roughly-520-million-years-ago-180987290/><br><https://www.smithsonianmag.com/science-nature/earth-earliest-life-fossils-stromatolites-180974442/><br><https://www.smithsonianmag.com/science-nature/before-whales-took-to-the-sea-these-ten-species-walked-on-land-180987160/> |
 | sites.astro.caltech.edu | 5 | Caltech Astronomy | 大学、课程与教育页面 | <https://sites.astro.caltech.edu/~george/ay127/kamionkowski-earlyuniverse-notes.pdf> |
 | astm.org | 4 | ASTM International | 国际标准与政府间组织 | <https://www.astm.org/e0112-10.html><br><https://www.astm.org/c0033_c0033m-13.html><br><https://www.astm.org/news/standards-through-the-looking-glass> |
@@ -144,9 +153,9 @@
 | genome.gov | 4 | NIH / National Human Genome Research Institute；NHGRI / NIH | 美国政府公开页面 | <https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet><br><https://www.genome.gov/genetics-glossary/Virus><br><https://www.genome.gov/about-nhgri/Director/genomics-landscape/april-7-2022-the-human-genome-sequence-is-now-complete> |
 | apple.com | 4 | Apple Inc.；Apple Newsroom | 品牌与产品页面 | <https://www.apple.com/macbook-air/specs/><br><https://www.apple.com/macbook-air/compare/><br><https://www.apple.com/iphone-16/specs/> |
 | eventhorizontelescope.org | 4 | Event Horizon Telescope Collaboration；EHT Collaboration | 其他公开网页（未确认开放许可） | <https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole><br><https://eventhorizontelescope.org/blog/astronomers-reveal-first-image-black-hole-heart-our-galaxy><br><https://eventhorizontelescope.org/> |
+| ncei.noaa.gov | 4 | NOAA National Centers for Environmental Information | 美国政府公开页面 | <https://www.ncei.noaa.gov/access/global-ocean-heat-content/><br><https://www.ncei.noaa.gov/sites/default/files/2021-11/3%20The%20Younger%20Dryas%20-FINAL%20NOV%20(1).pdf><br><https://www.ncei.noaa.gov/news/global-climate-202413> |
 | itftennis.com | 4 | International Tennis Federation | 其他公开网页（未确认开放许可） | <https://www.itftennis.com/media/15639/2026-technical-booklet.pdf><br><https://www.itftennis.com/media/2510/2020-rules-of-tennis-english.pdf><br><https://www.itftennis.com/media/2177/rackets-and-strings-product-conformity.pdf> |
 | medlineplus.gov | 4 | MedlinePlus, U.S. National Library of Medicine；U.S. National Library of Medicine / MedlinePlus | 美国政府公开页面 | <https://medlineplus.gov/ency/article/002341.htm><br><https://medlineplus.gov/childbirth.html><br><https://www.medlineplus.gov/ency/article/003400.htm> |
-| who.int | 4 | World Health Organization | 国际标准与政府间组织 | <https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020><br><https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-life-expectancy-and-healthy-life-expectancy><br><https://www.who.int/> |
 | nobelprize.org | 4 | Nobel Prize Outreach；The Nobel Foundation（Leon N. Cooper, 1972） | 其他公开网页（未确认开放许可） | <https://www.nobelprize.org/prizes/chemistry/2020/summary/><br><https://www.nobelprize.org/prizes/physics/2017/summary/><br><https://www.nobelprize.org/prizes/physics/1972/cooper/lecture/> |
 | metanorma.github.io | 4 | International Bureau of Weights and Measures (BIPM) | 其他公开网页（未确认开放许可） | <https://metanorma.github.io/bipm-si-brochure/si-brochure-3.01/BIPM%20SI%20Brochure%209e%20v3_01%20(2019_2024,%20E)/_21bd452c-81e1-620e-9c5d-a5156d5ca0e8_si-brochure-en/> |
 | academic.oup.com | 4 | BioScience, Oxford University Press；How, Nyam & Soo, International Journal of Food Science and Technology 59 (2024)；Orio et al., MNRAS 505 (2021) | 学术论文与学术出版社 | <https://academic.oup.com/bioscience/article-pdf/66/9/785/6691776/biw088.pdf><br><https://academic.oup.com/ijfst/article/59/9/6340/7911657><br><https://academic.oup.com/mnras/article/505/3/3113/6279690> |
@@ -169,27 +178,23 @@
 | esawebb.org | 3 | ESA/Webb；ESA / Webb | 其他公开网页（未确认开放许可） | <https://esawebb.org/news/weic2402/><br><https://esawebb.org/images/weic2418b/> |
 | floridamuseum.ufl.edu | 3 | Florida Museum of Natural History, University of Florida；Florida Museum of Natural History | 大学、课程与教育页面 | <https://www.floridamuseum.ufl.edu/florida-snake-id/snake/burmese-python/><br><https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/swordfish/><br><https://www.floridamuseum.ufl.edu/science/ancient-primates-had-grooming-claws/> |
 | earthobservatory.nasa.gov | 3 | NASA Earth Observatory | 美国政府公开页面 | <https://earthobservatory.nasa.gov/images/19734/dust-storm-off-the-african-west-coast><br><https://earthobservatory.nasa.gov/features/Milankovitch><br><https://earthobservatory.nasa.gov/features/HottestSpot> |
-| energy.gov | 3 | U.S. Department of Energy / Office of Science；U.S. Department of Energy | 美国政府公开页面 | <https://www.energy.gov/science/doe-explainsthe-strong-force><br><https://www.energy.gov/articles/history-light-bulb><br><https://www.energy.gov/sites/prod/files/2014/03/f13/stabler_0.pdf> |
-| metmuseum.org | 3 | The Metropolitan Museum of Art | 博物馆与文化机构 | <https://www.metmuseum.org/art/collection/search/502365><br><https://www.metmuseum.org/art/collection/search/504299><br><https://www.metmuseum.org/toah/hd/wrtg/hd_wrtg.htm> |
+| climate.gov | 3 | NOAA Climate.gov | 美国政府公开页面 | <https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level><br><https://www.climate.gov/news-features/climate-qa/whats-coldest-earths-ever-been><br><https://www.climate.gov/news-features/understanding-climate/marine-heatwaves> |
 | loc.gov | 3 | Library of Congress | 美国政府公开页面 | <https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html><br><https://www.loc.gov/item/today-in-history/may-24/><br><https://www.loc.gov/item/today-in-history/march-10/> |
 | si.edu | 3 | Smithsonian National Museum of American History；Smithsonian Institution | 订阅参考与新闻媒体 | <https://www.si.edu/object/nmah_712587><br><https://www.si.edu/> |
 | mpa-garching.mpg.de | 3 | Max Planck Institute for Astrophysics | 其他公开网页（未确认开放许可） | <https://www.mpa-garching.mpg.de/1069215/hl202302> |
-| iupac.org | 3 | International Union of Pure and Applied Chemistry | 其他公开网页（未确认开放许可） | <https://iupac.org/what-we-do/periodic-table-of-elements/> |
 | computerhistory.org | 3 | Computer History Museum | 其他公开网页（未确认开放许可） | <https://www.computerhistory.org/timeline/1941/><br><https://www.computerhistory.org/timeline/1946/><br><https://computerhistory.org/blog/who-invented-the-transistor/> |
-| epa.gov | 3 | U.S. Environmental Protection Agency | 美国政府公开页面 | <https://www.epa.gov/ozone-layer-protection/basic-ozone-layer-science><br><https://www.epa.gov/heatislands/using-cool-pavements-reduce-heat-islands><br><https://www.epa.gov/sustainable-management-food/approaches-composting> |
 | www-sk.icrr.u-tokyo.ac.jp | 3 | Super-Kamiokande Official Website；Hyper-Kamiokande / Kamioka Observatory, ICRR, University of Tokyo | 大学、课程与教育页面 | <https://www-sk.icrr.u-tokyo.ac.jp/en/sk/about/research/><br><https://www-sk.icrr.u-tokyo.ac.jp/en/hk/about/research/> |
 | un.org | 3 | United Nations | 国际标准与政府间组织 | <https://www.un.org/en/about-us/history-of-the-un><br><https://www.un.org/en/observances/world-population-day><br><https://www.un.org/en/dayof8billion> |
 | unfpa.org | 3 | United Nations Population Fund (UNFPA) | 其他公开网页（未确认开放许可） | <https://www.unfpa.org/world-population-trends> |
-| ncei.noaa.gov | 3 | NOAA National Centers for Environmental Information | 美国政府公开页面 | <https://www.ncei.noaa.gov/sites/default/files/2021-11/3%20The%20Younger%20Dryas%20-FINAL%20NOV%20(1).pdf><br><https://www.ncei.noaa.gov/news/global-climate-202413><br><https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/rankings/globe/tavg/ocean/202412> |
 | science.gsfc.nasa.gov | 3 | NASA Space Math | 美国政府公开页面 | <https://science.gsfc.nasa.gov/attic/spacemath.gsfc.nasa.gov/stars/5Page43.pdf> |
 | alloys.copper.org | 3 | Copper Development Association | 其他公开网页（未确认开放许可） | <https://alloys.copper.org/alloy/C27000><br><https://alloys.copper.org/alloy/C90400><br><https://alloys.copper.org/alloy/C90500> |
 | oceanexplorer.noaa.gov | 3 | NOAA Ocean Exploration | 美国政府公开页面 | <https://www.oceanexplorer.noaa.gov/facts/deep-ocean.html><br><https://oceanexplorer.noaa.gov/explorations/22escanaba/features/hydrothermal-systems/hydrothermal-systems.html><br><https://oceanexplorer.noaa.gov/wp-content/uploads/2022/10/hydrothermal-vents-fact-sheet.pdf> |
+| fda.gov | 3 | U.S. Food and Drug Administration (FDA)；US FDA | 美国政府公开页面 | <https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling><br><https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-pasteurization> |
 | heasarc.gsfc.nasa.gov | 3 | NASA HEASARC / Chandra X-ray Center；NASA HEASARC / RXTE；NASA NICER / HEASARC | 美国政府公开页面 | <https://heasarc.gsfc.nasa.gov/docs/xrayschool-2003/RKS_ISM.pdf><br><https://heasarc.gsfc.nasa.gov/docs/xte/learning_center/discover_0698.html><br><https://heasarc.gsfc.nasa.gov/docs/nicer/science_nuggets/20200102.html> |
 | adobe.com | 2 | Adobe | 其他公开网页（未确认开放许可） | <https://www.adobe.com/uk/creativecloud/design/discover/a5-format.html> |
 | nationalzoo.si.edu | 2 | Smithsonian's National Zoo and Conservation Biology Institute | 订阅参考与新闻媒体 | <https://nationalzoo.si.edu/animals/lion><br><https://nationalzoo.si.edu/animals/domestic-goat> |
 | awf.org | 2 | African Wildlife Foundation | 其他公开网页（未确认开放许可） | <https://www.awf.org/wildlife-conservation/lion><br><https://www.awf.org/wildlife-conservation/chimpanzee> |
 | urbanentomology.tamu.edu | 2 | Texas A&M University | 大学、课程与教育页面 | <https://urbanentomology.tamu.edu/urban-pests/ants/pharoah/><br><https://urbanentomology.tamu.edu/urban-pests/ants/carpenter/> |
-| noaa.gov | 2 | NOAA National Weather Service；NOAA JetStream | 美国政府公开页面 | <https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere><br><https://www.noaa.gov/jetstream/clouds> |
 | osprey.com | 2 | Osprey | 其他公开网页（未确认开放许可） | <https://www.osprey.com/dk_en/osprey-daylite-plus-2021><br><https://www.osprey.com/ph/en/daylite-plus-dayltpluss21-795> |
 | ielc.libguides.com | 2 | San Diego Zoo Wildlife Alliance Library | 其他公开网页（未确认开放许可） | <https://ielc.libguides.com/sdzg/factsheets/americanbison><br><https://ielc.libguides.com/sdzg/factsheets/hippopotamus> |
 | mdpi-res.com | 2 | Materials (MDPI) / Deng et al., Tsinghua University；MDPI Buildings | 其他公开网页（未确认开放许可） | <https://mdpi-res.com/d_attachment/materials/materials-11-00614/article_deploy/materials-11-00614.pdf?version=1525348837><br><https://mdpi-res.com/d_attachment/buildings/buildings-16-00506/article_deploy/buildings-16-00506.pdf> |
@@ -213,6 +218,7 @@
 | goldengate.org | 2 | Golden Gate Bridge, Highway and Transportation District | 其他公开网页（未确认开放许可） | <https://www.goldengate.org/bridge/history-research/statistics-data/design-construction-stats/><br><https://www.goldengate.org/> |
 | randa.org | 2 | The R&A | 其他公开网页（未确认开放许可） | <https://www.randa.org/en/roe/the-rules-of-equipment/part-4-conformance-of-balls><br><https://www.randa.org/> |
 | usga.org | 2 | USGA；United States Golf Association | 其他公开网页（未确认开放许可） | <https://www.usga.org/custom-search-pages/rules/equipment-rules/rule-14611.html><br><https://www.usga.org/> |
+| aoml.noaa.gov | 2 | NOAA Atlantic Oceanographic and Meteorological Laboratory | 美国政府公开页面 | <https://www.aoml.noaa.gov/phod/gulf-stream/><br><https://www.aoml.noaa.gov/hrd/tcfaq/E5.html?print=yes> |
 | stanleytools.com | 2 | STANLEY | 其他公开网页（未确认开放许可） | <https://www.stanleytools.com/product/51-505/16-oz-stanley-fatmax-curved-claw-graphite-hammer><br><https://www.stanleytools.com/product/90-949/250mm10-maxsteel-adjustable-wrench> |
 | d1l2kcmc130e06.cloudfront.net | 2 | Gildan | 其他公开网页（未确认开放许可） | <https://d1l2kcmc130e06.cloudfront.net/13/specs/gildan-18500.pdf><br><https://d1l2kcmc130e06.cloudfront.net/9/specs/gildan-5000.pdf> |
 | nike.com | 2 | Nike | 品牌与产品页面 | <https://www.nike.com/gb/size-fit/mens-footwear> |
@@ -235,8 +241,8 @@
 | blog.sciencemuseumgroup.org.uk | 2 | Science Museum Group | 其他公开网页（未确认开放许可） | <https://blog.sciencemuseumgroup.org.uk/climate-and-the-collection/> |
 | internetsociety.org | 2 | Internet Society | 其他公开网页（未确认开放许可） | <https://www.internetsociety.org/internet/history-internet/brief-history-internet/> |
 | earth.ox.ac.uk | 2 | University of Oxford；University of Oxford Department of Earth Sciences | 大学、课程与教育页面 | <https://www.earth.ox.ac.uk/article/researchers-find-oldest-undisputed-evidence-earths-magnetic-field><br><https://www.earth.ox.ac.uk/article/animals-may-have-evolved-vastly-earlier-fossil-evidence-suggests> |
+| worldhistory.org | 2 | World History Encyclopedia | 其他公开网页（未确认开放许可） | <https://www.worldhistory.org/Maurya_Empire/><br><https://www.worldhistory.org/article/1334/the-seven-voyages-of-zheng-he/> |
 | smarthistory.org | 2 | Smarthistory | 其他公开网页（未确认开放许可） | <https://smarthistory.org/introduction-to-the-middle-ages/><br><https://smarthistory.org/primer-italian-renaissance-art/> |
-| ipcc.ch | 2 | IPCC | 其他公开网页（未确认开放许可） | <https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/> |
 | population.un.org | 2 | United Nations, Department of Economic and Social Affairs | 其他公开网页（未确认开放许可） | <https://population.un.org/wpp/> |
 | physicalsciences.ucsd.edu | 2 | UC San Diego School of Physical Sciences | 大学、课程与教育页面 | <https://physicalsciences.ucsd.edu/media-events/articles/2019/scientists-confirm-events-that-occurred-one-second-after-the-big-bang.html> |
 | spaceplace.nasa.gov | 2 | NASA Space Place | 美国政府公开页面 | <https://spaceplace.nasa.gov/solar-system-formation/en/> |
@@ -246,11 +252,11 @@
 | nvlpubs.nist.gov | 2 | National Bureau of Standards / NIST；NIST (Bulletin of the Bureau of Standards, 1905) | 美国政府公开页面 | <https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir77-1409.pdf><br><https://nvlpubs.nist.gov/nistpubs/bulletin/01/nbsbulletinv1n1p109_A2b.pdf> |
 | wmo.int | 2 | World Meteorological Organization | 国际标准与政府间组织 | <https://wmo.int/asu-map?map=Temp_020><br><https://wmo.int/media/news/wmo-monitoring-potential-new-temperature-records> |
 | agupubs.onlinelibrary.wiley.com | 2 | AGU / Journal of Geophysical Research: Space Physics；Journal of Geophysical Research: Space Physics, Gaelzer et al. (2010) | 其他公开网页（未确认开放许可） | <https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2002JA009423><br><https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2009JA015217> |
+| nrel.gov | 2 | National Renewable Energy Laboratory | 美国政府公开页面 | <https://www.nrel.gov/docs/fy19osti/73641.pdf> |
 | almaobservatory.org | 2 | ALMA Observatory (2017)；ALMA Observatory (2013) | 其他公开网页（未确认开放许可） | <https://www.almaobservatory.org/en/press-releases/alma-returns-to-boomerang-nebula/><br><https://www.almaobservatory.org/en/press-releases/alma-reveals-ghostly-shape-of-coldest-place-in-the-universe/> |
 | kingarthurbaking.com | 2 | King Arthur Baking | 其他公开网页（未确认开放许可） | <https://www.kingarthurbaking.com/learn/guides/yeast-baking><br><https://www.kingarthurbaking.com/recipes/no-knead-crusty-white-bread-recipe> |
 | lambda.gsfc.nasa.gov | 2 | NASA LAMBDA / COBE | 美国政府公开页面 | <https://lambda.gsfc.nasa.gov/product/cobe/firas_overview.html> |
 | sca.coffee | 2 | Specialty Coffee Association (SCA) | 其他公开网页（未确认开放许可） | <https://sca.coffee/sca-news/2023-4-18/two-new-bonavita-coffee-brewers-join-the-sca-certified-home-brewer-lineup-t4cyl><br><https://sca.coffee/sca-news/read/just-published-brewing-temperature-and-the-sensory-profile-of-brewed-coffee-37dt6> |
-| fda.gov | 2 | U.S. Food and Drug Administration (FDA) | 美国政府公开页面 | <https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling> |
 | foodsafety.gov | 2 | FoodSafety.gov (USDA/FDA/HHS) | 美国政府公开页面 | <https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts> |
 | iter.org | 2 | ITER Organization | 其他公开网页（未确认开放许可） | <https://www.iter.org/facts-figures><br><https://www.iter.org/fusion> |
 | diviner.ucla.edu | 2 | UCLA Diviner Lunar Radiometer Experiment | 大学、课程与教育页面 | <https://www.diviner.ucla.edu/science> |
@@ -361,7 +367,6 @@
 | yourgildan.jp | 1 | GILDAN Japan | 其他公开网页（未确认开放许可） | <https://www.yourgildan.jp/18500/> |
 | astronomy.com | 1 | Astronomy magazine | 订阅参考与新闻媒体 | <https://www.astronomy.com/magazine/news/2022/05/101-must-see-cosmic-objects-the-horsehead-nebula> |
 | allaboutbirds.org | 1 | Cornell Lab of Ornithology | 其他公开网页（未确认开放许可） | <https://www.allaboutbirds.org/guide/ruby-throated_hummingbird/id> |
-| aoml.noaa.gov | 1 | NOAA Atlantic Oceanographic and Meteorological Laboratory | 美国政府公开页面 | <https://www.aoml.noaa.gov/hrd/tcfaq/E5.html?print=yes> |
 | haystack.mit.edu | 1 | MIT Haystack Observatory | 大学、课程与教育页面 | <https://www.haystack.mit.edu/astronomy/astronomy-projects/edges-experiment-to-detect-the-global-eor-signature/> |
 | canada.ca | 1 | Environment and Climate Change Canada | 其他公开网页（未确认开放许可） | <https://www.canada.ca/en/environment-climate-change/services/weather-manuals-documentation/manice-manual-of-ice/chapter-1.html> |
 | download.dmi.dk | 1 | World Meteorological Organization / Danish Meteorological Institute | 其他公开网页（未确认开放许可） | <https://download.dmi.dk/public/ICESERVICE/2024_download_readme/WMO259_Vol_III_en.pdf> |
@@ -374,6 +379,7 @@
 | logitech.com.cn | 1 | Logitech | 其他公开网页（未确认开放许可） | <https://www.logitech.com.cn/en-us/shop/p/k120-usb-standard-computer> |
 | seacut.com | 1 | Seattle Cutlery | 其他公开网页（未确认开放许可） | <https://seacut.com/products/nakiyo-nx-1040> |
 | dicasteel.com | 1 | Di''Casteel | 其他公开网页（未确认开放许可） | <https://dicasteel.com/products/forged-chinese-cleaver-knife-dc-165/> |
+| jamstec.go.jp | 1 | JAMSTEC | 其他公开网页（未确认开放许可） | <https://www.jamstec.go.jp/e/about/press_release/2017/0710/> |
 | egov-buryatia.ru | 1 | Government of the Republic of Buryatia | 其他公开网页（未确认开放许可） | <https://egov-buryatia.ru/eng/about_republic/baykal-lake/> |
 | plants.sc.egov.usda.gov | 1 | USDA NRCS National Plant Data Center | 美国政府公开页面 | <https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_acsa3.pdf> |
 | britishlichensociety.org.uk | 1 | British Lichen Society | 其他公开网页（未确认开放许可） | <https://britishlichensociety.org.uk/sites/default/files/Protoparmeliopsis%20muralis.pdf> |
@@ -388,7 +394,6 @@
 | medicine.uodiyala.edu.iq | 1 | University of Diyala College of Medicine | 其他公开网页（未确认开放许可） | <https://medicine.uodiyala.edu.iq/uploads/lectures/Microbiology%202015/Dr.%20Luma/mycology%20new%20lec..pdf> |
 | cpsjournals.cn | 1 | 物理学报 / 中国科学院物理研究所 | 其他公开网页（未确认开放许可） | <https://www.cpsjournals.cn/article/id/6a33b47c2e4afc47e85a0d5b> |
 | extension.umn.edu | 1 | University of Minnesota Extension | 大学、课程与教育页面 | <https://extension.umn.edu/agriculture/animals-and-livestock/horse/fly-control-around-horses> |
-| cdc.gov | 1 | U.S. Centers for Disease Control and Prevention | 美国政府公开页面 | <https://www.cdc.gov/mosquitoes/about/index.html> |
 | static1.squarespace.com | 1 | Native Plant Society of Northeastern Ohio | 订阅参考与新闻媒体 | <https://static1.squarespace.com/static/52bb9733e4b09788115247ec/t/54918e31e4b05da87d80c736/1418825265644/otfV3N4July1985.pdf> |
 | yamaha-motor-india.com | 1 | Yamaha Motor India | 品牌与产品页面 | <https://www.yamaha-motor-india.com/theme/v4/pdfs/brochure/MT-15_Brochure%202025_July.pdf?v=50> |
 | yamaha-motor.co.jp | 1 | Yamaha Motor Co., Ltd. | 品牌与产品页面 | <https://www.yamaha-motor.co.jp/mc/lineup/pdf/Catalog_MT09_2019.pdf> |
@@ -399,6 +404,7 @@
 | neutrinos.fnal.gov | 1 | Fermilab | 美国政府公开页面 | <https://neutrinos.fnal.gov/whats-a-neutrino/> |
 | pdgprod.lbl.gov | 1 | Particle Data Group | 美国政府公开页面 | <https://pdgprod.lbl.gov/pdgprod/pdgLive/Particle.action?init=0&node=S017> |
 | srs.fs.usda.gov | 1 | U.S. Department of Agriculture, Forest Service | 美国政府公开页面 | <https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_2/quercus/alba.htm> |
+| whoi.edu | 1 | Woods Hole Oceanographic Institution | 大学、课程与教育页面 | <https://www.whoi.edu/know-your-ocean/ocean-topics/how-the-ocean-works/ocean-circulation/> |
 | eustore.hermanmiller.com | 1 | Herman Miller | 其他公开网页（未确认开放许可） | <https://eustore.hermanmiller.com/products/embody-office-chair> |
 | hermanmiller.com | 1 | Herman Miller | 其他公开网页（未确认开放许可） | <https://www.hermanmiller.com/content/dam/hermanmiller/documents/product_literature/product_sheets/emea/embody_chairs_product_sheet_fr-fr.pdf> |
 | onlinelibrary.wiley.com | 1 | Reproductive Medicine and Biology (Wiley) | 学术论文与学术出版社 | <https://onlinelibrary.wiley.com/doi/full/10.1002/rmb2.12524> |
@@ -433,6 +439,7 @@
 | iepnb.gob.es | 1 | Inventario Español del Patrimonio Natural y de la Biodiversidad (MITECO) | 其他公开网页（未确认开放许可） | <https://iepnb.gob.es/en/areas-tematicas/especies-silvestres/eidos/12142/salmo-salar-linnaeus-1758> |
 | digikey.com | 1 | DigiKey | 其他公开网页（未确认开放许可） | <https://www.digikey.com/en/products/detail/klein-tools-inc/600-4/6596931> |
 | data.kleintools.com | 1 | Klein Tools | 其他公开网页（未确认开放许可） | <https://data.kleintools.com/sites/all/product_assets/documents/brochures/klein/kleintools_datasheet_6054b.pdf> |
+| sealevel.nasa.gov | 1 | NASA Sea Level Change Portal | 美国政府公开页面 | <https://sealevel.nasa.gov/> |
 | fs.usda.gov | 1 | U.S. Department of Agriculture, Forest Service | 美国政府公开页面 | <https://www.fs.usda.gov/database/feis/plants/tree/seqgig/all.html> |
 | en.shanghaitower.com | 1 | Shanghai Tower Construction & Development Co., Ltd. | 其他公开网页（未确认开放许可） | <https://en.shanghaitower.com/ProjectIntroduction.html> |
 | p.globalsources.com | 1 | Double A / Global Sources product specification | 其他公开网页（未确认开放许可） | <https://p.globalsources.com/IMAGES/PDT/SPEC/254/K1215401254.pdf> |
@@ -505,7 +512,6 @@
 | ucolick.org | 1 | University of California Observatories, UC Santa Cruz | 其他公开网页（未确认开放许可） | <https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture%202%202014/Lecture2.2014_v4_sm.pdf> |
 | opentextbooks.clemson.edu | 1 | Clemson University Open Textbooks | 开放许可或开放教材 | <https://opentextbooks.clemson.edu/sciencetechnologyandsociety/chapter/gunpowder-in-medieval-china/> |
 | heart.org | 1 | American Heart Association | 其他公开网页（未确认开放许可） | <https://www.heart.org/en/healthy-living/fitness/fitness-basics/target-heart-rates> |
-| climate.gov | 1 | NOAA Climate.gov | 美国政府公开页面 | <https://www.climate.gov/news-features/climate-qa/whats-coldest-earths-ever-been> |
 | unsw.edu.au | 1 | UNSW Sydney | 大学、课程与教育页面 | <https://www.unsw.edu.au/newsroom/news/2024/11/minerals-in-hot-springs-performed-a-key-chemical-reaction-for-ea> |
 | info.cern.ch | 1 | CERN | 其他公开网页（未确认开放许可） | <https://info.cern.ch/> |
 | digitalatlasofancientlife.org | 1 | Paleontological Research Institution / Digital Atlas of Ancient Life | 其他公开网页（未确认开放许可） | <https://www.digitalatlasofancientlife.org/learn/embryophytes/land-plant-origins/> |
@@ -535,7 +541,6 @@
 | ourworldindata.org | 1 | Our World in Data | 开放许可或开放教材 | <https://ourworldindata.org/world-population-growth> |
 | visit.archives.gov | 1 | U.S. National Archives | 美国政府公开页面 | <https://visit.archives.gov/whats-on/explore-exhibits/80-years-end-world-war-ii> |
 | longnow.org | 1 | The Long Now Foundation | 其他公开网页（未确认开放许可） | <https://longnow.org/clock/> |
-| worldhistory.org | 1 | World History Encyclopedia | 其他公开网页（未确认开放许可） | <https://www.worldhistory.org/article/1334/the-seven-voyages-of-zheng-he/> |
 | portia.astrophysik.uni-kiel.de | 1 | J. Köppen, Université de Strasbourg | 大学、课程与教育页面 | <https://portia.astrophysik.uni-kiel.de/~koeppen/Haystack/spectro.html> |
 | help.prusa3d.com | 1 | Prusa Research | 其他公开网页（未确认开放许可） | <https://help.prusa3d.com/materials> |
 | m.cameochemicals.noaa.gov | 1 | NOAA CAMEO / CHRIS | 美国政府公开页面 | <https://m.cameochemicals.noaa.gov/chris/AMA.pdf> |
@@ -554,12 +559,14 @@
 | cement.org | 1 | Portland Cement Association | 其他公开网页（未确认开放许可） | <https://www.cement.org/cement-concrete/how-cement-is-made> |
 | cementequipment.org | 1 | Cement Equipment Corp. | 其他公开网页（未确认开放许可） | <https://www.cementequipment.org/home/clinkering/> |
 | edu.rsc.org | 1 | Royal Society of Chemistry (RSC Education) | 其他公开网页（未确认开放许可） | <https://edu.rsc.org/changes-of-state/the-science-of-melting-chocolate/4013276.article> |
+| ceres.larc.nasa.gov | 1 | NASA CERES | 美国政府公开页面 | <https://ceres.larc.nasa.gov/> |
 | vizagsteel.com | 1 | Visakhapatnam Steel Plant (RINL) | 其他公开网页（未确认开放许可） | <https://www.vizagsteel.com/code/Infrastr/ccp.asp> |
 | eia.gov | 1 | U.S. Energy Information Administration | 美国政府公开页面 | <https://www.eia.gov/tools/glossary/index.php?id=coke> |
 | govinfo.gov | 1 | U.S. Government Publishing Office | 美国政府公开页面 | <https://www.govinfo.gov/content/pkg/CFR-2019-title40-vol32/pdf/CFR-2019-title40-vol32-chapI-subchapP.pdf> |
 | eprints.ums.edu.my | 1 | Universiti Malaysia Sabah, eprints repository | 其他公开网页（未确认开放许可） | <https://eprints.ums.edu.my/id/eprint/31031/1/Frying%20stability%20of%20rice%20bran%20oil%20and%20palm%20olein.pdf> |
 | west-lindsey.gov.uk | 1 | West Lindsey District Council | 其他公开网页（未确认开放许可） | <https://www.west-lindsey.gov.uk/sites/default/files/2022-02/WLDC%20-%20LFC%20-%20C4%20Key%20Stages%20of%20the%20Cremation%20Process.pdf> |
 | agriculture.gov.au | 1 | Australian Government Department of Sustainability, Environment, Water, Population and Communities | 其他公开网页（未确认开放许可） | <https://www.agriculture.gov.au/sites/default/files/documents/crematoria.pdf> |
+| ashrae.org | 1 | ASHRAE | 其他公开网页（未确认开放许可） | <https://www.ashrae.org/technical-resources/bookstore/datacom-series> |
 | pages.astro.umd.edu | 1 | University of Maryland Astronomy | 大学、课程与教育页面 | <https://pages.astro.umd.edu/~mcmiller/teaching/astr121s18/class22.pdf> |
 | ifst.org | 1 | Institute of Food Science and Technology (IFST) | 其他公开网页（未确认开放许可） | <https://www.ifst.org/lovefoodlovescience/resources/protein-coagulation> |
 | incredibleegg.org | 1 | American Egg Board | 其他公开网页（未确认开放许可） | <https://www.incredibleegg.org/professionals/manufacturers/real-egg-functionality/coagulation-thickening/> |
@@ -579,6 +586,7 @@
 | spa.or.jp | 1 | Japan Spa Association | 其他公开网页（未确认开放许可） | <https://www.spa.or.jp/en/caution_bathing/> |
 | visiticeland.com | 1 | Visit Iceland | 其他公开网页（未确认开放许可） | <https://www.visiticeland.com/article/where-does-the-blue-lagoon-water-come-from/> |
 | jamanetwork.com | 1 | Ley et al., JAMA Internal Medicine (2023), original investigation | 其他公开网页（未确认开放许可） | <https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2809098> |
+| iea.org | 1 | International Energy Agency | 其他公开网页（未确认开放许可） | <https://www.iea.org/energy-system/low-emission-fuels/hydrogen> |
 | hq.eso.org | 1 | European Southern Observatory, SN 1998bw research report (1998) | 其他公开网页（未确认开放许可） | <https://www.hq.eso.org/public/news/eso9847/> |
 | chhs.colostate.edu | 1 | Colorado State University Food Source Information | 大学、课程与教育页面 | <https://www.chhs.colostate.edu/fsi/food-articles/dairy/ice-cream/> |
 | public.wmo.int | 1 | World Meteorological Organization | 其他公开网页（未确认开放许可） | <https://public.wmo.int/media/news/wmo-verifies-one-temperature-record-antarctic-continent-and-rejects-another> |
@@ -639,7 +647,6 @@
 | usmint.gov | 1 | United States Mint | 美国政府公开页面 | <https://www.usmint.gov/> |
 | cunard.com | 1 | Cunard Line | 其他公开网页（未确认开放许可） | <https://www.cunard.com/> |
 | toureiffel.paris | 1 | SETE — Eiffel Tower Operating Company | 其他公开网页（未确认开放许可） | <https://www.toureiffel.paris/en> |
-| whc.unesco.org | 1 | UNESCO | 其他公开网页（未确认开放许可） | <https://whc.unesco.org/> |
 | paris.fr | 1 | Mairie de Paris | 其他公开网页（未确认开放许可） | <https://www.paris.fr/> |
 | esbnyc.com | 1 | Empire State Realty Trust | 其他公开网页（未确认开放许可） | <https://www.esbnyc.com/> |
 | nyc.gov | 1 | City of New York | 美国政府公开页面 | <https://www.nyc.gov/> |

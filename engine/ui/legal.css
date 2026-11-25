@@ -457,7 +457,7 @@ html[data-theme="light"] .legal-content code { background: rgba(255, 255, 255, .
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font: 9.5px/1.1 var(--sans, "Helvetica Neue", Arial, sans-serif);
+    font: 10px/1.1 var(--sans, "Helvetica Neue", Arial, sans-serif);
     letter-spacing: .02em;
   }
 

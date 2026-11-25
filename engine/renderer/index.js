@@ -1,14 +1,14 @@
 import * as THREE from 'three';
 import { clamp } from '../quantities/index.js';
 import {disposeObject} from './assets.js';
-import {createStudioEnvironment} from './studio.js';
+import {createStudioEnvironment,createSpaceEnvironment} from './studio.js';
 import {stageColors,watchTheme} from './theme.js';
 
 // 只负责通用视口、输入、画质和按需渲染；不包含任何空间对象知识。
 export function createViewport(canvas, { onScale, onRotate, onResize,studioLighting=false } = {}) {
   const events=new AbortController();let cleaned=false;
-  const renderer = new THREE.WebGLRenderer({canvas, antialias: true, alpha: false, powerPreference: 'low-power'});
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.8));
+  const renderer = new THREE.WebGLRenderer({canvas, antialias: true, alpha: false, powerPreference: 'high-performance'});
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
   const initialTheme=stageColors();
   renderer.setClearColor(initialTheme.background, 1);
   renderer.outputColorSpace = THREE.SRGBColorSpace;
@@ -23,7 +23,14 @@ export function createViewport(canvas, { onScale, onRotate, onResize,studioLight
   });
   const scene = new THREE.Scene();
   let environmentTarget=null;
-  if(studioLighting)try{environmentTarget=createStudioEnvironment(renderer);scene.environment=environmentTarget.texture;scene.environmentIntensity=.75;}catch(error){console.warn('柔光环境不可用，保留基础照明。',error);}
+  // Every stage gets a real reflection environment: soft studio for instrument
+  // scenes, deep space for celestial ones. Without it PBR metal and glass read
+  // as flat plastic. Both are generated locally, no network HDR.
+  try{
+    environmentTarget=studioLighting?createStudioEnvironment(renderer):createSpaceEnvironment(renderer);
+    scene.environment=environmentTarget.texture;
+    scene.environmentIntensity=studioLighting?.82:.5;
+  }catch(error){console.warn('柔光环境不可用，保留基础照明。',error);}
   const camera = new THREE.OrthographicCamera(-10, 10, 10, -10, .1, 200);
   camera.position.set(0, 0, 35);
   const world = new THREE.Group();

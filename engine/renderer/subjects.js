@@ -1,11 +1,12 @@
 import * as THREE from 'three';
 import {pointTexture,glowSprite} from './effects.js';
 import {createTextureStore,disposeObject} from './assets.js';
+import {standard} from './materials.js';
 const textures=createTextureStore();
 export function surfaceTexture(file,invalidate=()=>{}){return textures.load(file,{onReady:invalidate});}
-export const solid=(color,options={})=>new THREE.MeshStandardMaterial({color,roughness:.55,metalness:.12,...options});
+export const solid=(color,options={})=>standard(color,options);
 export const object=(geometry,material,x=0,y=0,z=0)=>{const mesh=new THREE.Mesh(geometry,material);mesh.position.set(x,y,z);return mesh;};
-export function rod(a,b,radius,material){const direction=new THREE.Vector3().subVectors(b,a),mesh=object(new THREE.CylinderGeometry(radius,radius,direction.length(),12),material);mesh.position.copy(a.clone().add(b).multiplyScalar(.5));mesh.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),direction.normalize());return mesh;}
+export function rod(a,b,radius,material){const direction=new THREE.Vector3().subVectors(b,a),mesh=object(new THREE.CylinderGeometry(radius,radius,direction.length(),18),material);mesh.position.copy(a.clone().add(b).multiplyScalar(.5));mesh.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),direction.normalize());return mesh;}
 export function label(text,color='#b4d7f5',width=3){const canvas=document.createElement('canvas');canvas.width=768;canvas.height=144;const c=canvas.getContext('2d');c.font='44px Segoe UI, Microsoft YaHei, sans-serif';c.textAlign='center';c.fillStyle=color;c.fillText(text,384,86,720);const map=new THREE.CanvasTexture(canvas),sprite=new THREE.Sprite(new THREE.SpriteMaterial({map,transparent:true,depthWrite:false}));sprite.scale.set(width,width*144/768,1);return sprite;}
 export function glow(color,size,opacity=.4){return glowSprite(pointTexture(),color,size,opacity);}
 export function line(points,color=0x7cabc8,opacity=.6){return new THREE.Line(new THREE.BufferGeometry().setFromPoints(points.map(p=>new THREE.Vector3(...p))),new THREE.LineBasicMaterial({color,transparent:true,opacity}));}

@@ -12,7 +12,7 @@
 
 .view-mode-link{display:inline-flex;align-items:center;justify-content:center;padding:9px 11px;border:1px solid #9fb7c133;border-radius:3px;background:#09131e9c;color:#b5c8ce;font-size:10px;text-decoration:none;line-height:1.3}.station-actions,.scene-actions{flex-wrap:wrap}.reading-notice{font-size:11px;line-height:1.9;color:#b1c7c4;max-width:280px;padding-left:13px;border-left:1px solid #8cae9c77}.is-reading-mode .station-backdrop canvas,.is-reading-mode .cosmic-backdrop canvas{visibility:hidden}.is-reading-mode .station-backdrop,.is-reading-mode .cosmic-backdrop{background:radial-gradient(ellipse at 60% 45%,#21394b,#0a1220 70%)}.is-reading-mode[data-station=temperature] .station-backdrop{background:radial-gradient(ellipse at 65% 45%,#3b2d27,#10141d 70%)}button:disabled{opacity:.5;cursor:default}
 
-.asset-status{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);z-index:90;font-size:10px;padding:9px 16px;background:#0a1420db;border:1px solid #8da2ac40;color:#bed0d5;border-radius:3px;pointer-events:none}
+.asset-status{position:fixed;bottom:56px;left:50%;transform:translateX(-50%);z-index:90;font-size:10px;padding:9px 16px;background:#0a1420db;border:1px solid #8da2ac40;color:#bed0d5;border-radius:3px;pointer-events:none}
 
 .read-only-object{display:grid;text-decoration:none;opacity:.8}.read-only-object .order{font-size:9px}
 

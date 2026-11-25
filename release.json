@@ -3,8 +3,8 @@
   "version": "1.3.0",
   "engineVersion": "1.3.0",
   "contentVersion": "1.3.0",
-  "contentSnapshot": "sha256:e8b2ae3c0da6af79fba50ebfa4b2fcb96b6ea6264af70c77580260ec64d42142",
-  "dataHash": "347ddf809e7ab06e02b2bdee7f94478e48ef2d61a52699864266f3a26e30c8d5",
-  "entryCount": 1354,
+  "contentSnapshot": "sha256:191078b1fe960a430f16c716d0dc1bc18ba17b1694de3744ee466da0b184a74f",
+  "dataHash": "27885d17eb614ae880301f4b8f0c2af6fa6e92d5a47938166d64aa3b35b96cc0",
+  "entryCount": 1410,
   "buildProfile": "integrated-development"
 }
