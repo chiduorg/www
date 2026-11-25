@@ -37,6 +37,11 @@ sources:
   url: https://ned.ipac.caltech.edu/
   publisher: NASA/IPAC
   accessed: '2026-11-25'
+visual:
+  template: mass-scale
+  scene: mass.scale
+  caption: "可观测宇宙的总物质：9.9×10⁵³ kg × 100：一次尺度换算 · 9.900×10^55 kg"
+  note: 位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。
 review:
   method: derived-scale-audit
   date: '2026-11-25'

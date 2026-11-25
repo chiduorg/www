@@ -38,6 +38,11 @@ sources:
   url: https://www.esa.int/
   publisher: European Space Agency
   accessed: '2026-11-25'
+visual:
+  template: mass-scale
+  scene: mass.scale
+  caption: "人马座 A*：8.55×10³⁶ kg，银心黑洞的轨道称重 × 100：一次尺度换算 · 8.550×10^38 kg"
+  note: 位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。
 review:
   method: derived-scale-audit
   date: '2026-11-25'

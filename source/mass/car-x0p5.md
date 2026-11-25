@@ -37,6 +37,11 @@ sources:
   url: https://www.acea.auto/
   publisher: European Automobile Manufacturers' Association
   accessed: '2026-11-25'
+visual:
+  template: mass-scale
+  scene: mass.scale
+  caption: "丰田卡罗拉：1,310 kg，紧凑级轿车的整备质量 × 0.5（缩小）：一次尺度换算 · 655 kg"
+  note: 位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。
 review:
   method: derived-scale-audit
   date: '2026-11-25'

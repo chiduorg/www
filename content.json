@@ -1419,6 +1419,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "电子：9.109×10⁻³¹ kg，粒子物理最精确的质量之一 × 3：一次尺度换算 · 2.733×10^-30 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",
@@ -1650,6 +1656,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "中子：比质子重 0.14%，却决定了自由中子的寿命 × 0.01（缩小）：一次尺度换算 · 1.675×10^-29 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",
@@ -2847,6 +2859,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "水分子：2.99×10⁻²⁶ kg，最常见的三原子分子 × 10：一次尺度换算 · 2.992×10^-25 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",
@@ -3163,6 +3181,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "血红蛋白四聚体：1.07×10⁻²² kg，红细胞里的氧运输机器 × 0.1（缩小）：一次尺度换算 · 1.070×10^-23 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",
@@ -4158,6 +4182,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "大肠杆菌：1.0×10⁻¹⁵ kg，一个细胞的湿重均值 × 0.1（缩小）：一次尺度换算 · 1.000×10^-16 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",
@@ -60849,6 +60879,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "丰田卡罗拉：1,310 kg，紧凑级轿车的整备质量 × 0.5（缩小）：一次尺度换算 · 655 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",
@@ -60989,6 +61025,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "成人：70 kg，全球成年个体湿重均值 × 10：一次尺度换算 · 700 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",
@@ -68437,6 +68479,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "非洲象：5,000 kg，成年雄性的湿重均值 × 2：一次尺度换算 · 10,000 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",
@@ -76454,6 +76502,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "蓝鲸：150,000 kg，最大动物的湿重均值 × 30：一次尺度换算 · 4.500×10^06 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",
@@ -77696,6 +77750,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "霸王龙：8,000 kg，骨骼与软组织模型给出的估算 × 1000：一次尺度换算 · 8.000×10^06 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",
@@ -115126,6 +115186,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "地球：5.972×10²⁴ kg，含大气与海洋的总质量 × 0.01（缩小）：一次尺度换算 · 5.972×10^22 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",
@@ -119792,6 +119858,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "Ton 618：8.09×10⁴⁰ kg，已知最重的黑洞之一 × 0.001（缩小）：一次尺度换算 · 8.090×10^37 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",
@@ -119950,6 +120022,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "人马座 A*：8.55×10³⁶ kg，银心黑洞的轨道称重 × 100：一次尺度换算 · 8.550×10^38 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",
@@ -120958,6 +121036,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "M87*：1.29×10⁴⁰ kg，第一个被拍到阴影的黑洞 × 1000：一次尺度换算 · 1.290×10^43 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",
@@ -122541,6 +122625,12 @@
         "accessed": "2026-11-25"
       }
     ],
+    "visual": {
+      "template": "mass-scale",
+      "scene": "mass.scale",
+      "caption": "可观测宇宙的总物质：9.9×10⁵³ kg × 100：一次尺度换算 · 9.900×10^55 kg",
+      "note": "位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。"
+    },
     "review": {
       "method": "derived-scale-audit",
       "date": "2026-11-25",

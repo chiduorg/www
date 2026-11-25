@@ -37,6 +37,11 @@ sources:
   url: https://www.si.edu/
   publisher: Smithsonian Institution
   accessed: '2026-11-25'
+visual:
+  template: mass-scale
+  scene: mass.scale
+  caption: "非洲象：5,000 kg，成年雄性的湿重均值 × 2：一次尺度换算 · 10,000 kg"
+  note: 位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。
 review:
   method: derived-scale-audit
   date: '2026-11-25'

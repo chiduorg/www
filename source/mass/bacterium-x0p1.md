@@ -38,6 +38,11 @@ sources:
   url: https://www.nature.com/
   publisher: Nature Portfolio
   accessed: '2026-11-25'
+visual:
+  template: mass-scale
+  scene: mass.scale
+  caption: "大肠杆菌：1.0×10⁻¹⁵ kg，一个细胞的湿重均值 × 0.1（缩小）：一次尺度换算 · 1.000×10^-16 kg"
+  note: 位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。
 review:
   method: derived-scale-audit
   date: '2026-11-25'

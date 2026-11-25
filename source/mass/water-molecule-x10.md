@@ -38,6 +38,11 @@ sources:
   url: https://bionumbers.hms.harvard.edu/
   publisher: Harvard Medical School
   accessed: '2026-11-25'
+visual:
+  template: mass-scale
+  scene: mass.scale
+  caption: "水分子：2.99×10⁻²⁶ kg，最常见的三原子分子 × 10：一次尺度换算 · 2.992×10^-25 kg"
+  note: 位置按 log10(m/kg) 计算；本条为倍率换算，显示在对应质量档位，不代表新的独立测量。
 review:
   method: derived-scale-audit
   date: '2026-11-25'

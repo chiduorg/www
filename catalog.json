@@ -314,7 +314,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.electron 的 9.109×10^-31 kg × 3",
     "measureLabel": "由「电子：9.109×10⁻³¹ kg，粒子物理最精确的质量之一」按 ×3 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "mass.up-quark",
@@ -373,7 +373,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.neutron 的 1.675×10^-27 kg × 0.01",
     "measureLabel": "由「中子：比质子重 0.14%，却决定了自由中子的寿命」按 ×0.01 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "mass.strange-quark",
@@ -652,7 +652,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.water-molecule 的 2.992×10^-26 kg × 10",
     "measureLabel": "由「水分子：2.99×10⁻²⁶ kg，最常见的三原子分子」按 ×10 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "mass.top-quark",
@@ -730,7 +730,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.hemoglobin 的 1.070×10^-22 kg × 0.1",
     "measureLabel": "由「血红蛋白四聚体：1.07×10⁻²² kg，红细胞里的氧运输机器」按 ×0.1 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "mass.hemoglobin",
@@ -968,7 +968,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.bacterium 的 1.000×10^-15 kg × 0.1",
     "measureLabel": "由「大肠杆菌：1.0×10⁻¹⁵ kg，一个细胞的湿重均值」按 ×0.1 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "space.tau",
@@ -15342,7 +15342,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.car 的 1,310 kg × 0.5",
     "measureLabel": "由「丰田卡罗拉：1,310 kg，紧凑级轿车的整备质量」按 ×0.5 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "temperature.zinc-melting",
@@ -15381,7 +15381,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.adult-human 的 70 kg × 10",
     "measureLabel": "由「成人：70 kg，全球成年个体湿重均值」按 ×10 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "temperature.mercury-day",
@@ -17175,7 +17175,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.elephant 的 5,000 kg × 2",
     "measureLabel": "由「非洲象：5,000 kg，成年雄性的湿重均值」按 ×2 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "temperature.aurora",
@@ -19197,7 +19197,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.blue-whale 的 1.500×10^05 kg × 30",
     "measureLabel": "由「蓝鲸：150,000 kg，最大动物的湿重均值」按 ×30 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "space.sahara",
@@ -19518,7 +19518,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.tyrannosaurus 的 8,000 kg × 1000",
     "measureLabel": "由「霸王龙：8,000 kg，骨骼与软组织模型给出的估算」按 ×1000 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "space.pacific-ocean-x0p5",
@@ -28032,7 +28032,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.earth 的 5.972×10^24 kg × 0.01",
     "measureLabel": "由「地球：5.972×10²⁴ kg，含大气与海洋的总质量」按 ×0.01 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "mass.moon",
@@ -29068,7 +29068,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.ton-618 的 8.090×10^40 kg × 0.001",
     "measureLabel": "由「Ton 618：8.09×10⁴⁰ kg，已知最重的黑洞之一」按 ×0.001 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "mass.mrk231-black-hole",
@@ -29107,7 +29107,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.sgr-a-star 的 8.550×10^36 kg × 100",
     "measureLabel": "由「人马座 A*：8.55×10³⁶ kg，银心黑洞的轨道称重」按 ×100 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "mass.3c273",
@@ -29325,7 +29325,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.m87-black-hole 的 1.290×10^40 kg × 1000",
     "measureLabel": "由「M87*：1.29×10⁴⁰ kg，第一个被拍到阴影的黑洞」按 ×1000 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "mass.centaurus-a-group",
@@ -29660,7 +29660,7 @@
     "unit": "kg",
     "measure": "尺度换算量：mass.total-matter-universe 的 9.900×10^53 kg × 100",
     "measureLabel": "由「可观测宇宙的总物质：9.9×10⁵³ kg」按 ×100 换算的参照值",
-    "visual": ""
+    "visual": "mass-scale"
   },
   {
     "id": "time.black-hole-evaporation",
