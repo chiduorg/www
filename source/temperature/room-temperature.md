@@ -30,6 +30,10 @@ sources:
       https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes
     publisher: NIST Special Publication 811
     accessed: '2026-11-04'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: room-temperature
   icon: "\U0001F3E0"
@@ -83,3 +87,5 @@ tags:
 ## 从日常温区继续出发
 
 可以把20 °C与水的冰点、人体体温或水的沸点并列，先注意每个条目到底测什么，再看温度差。本站按开尔文参考值排列条目，切换摄氏显示只改变读数表达，并不表示画面里的所有对象经历同一段加热过程。容器、颜色和粒子用于讲解，不是实时室内温度记录。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

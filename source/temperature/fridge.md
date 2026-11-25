@@ -18,6 +18,7 @@ related:
   - temperature.water-freezing
   - temperature.room-temperature
   - temperature.human-body-temperature
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Refrigeration & Food Safety
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts'
     publisher: FoodSafety.gov (USDA/FDA/HHS)
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 冰箱冷藏室空气
   measurementSite: 冷藏室中部，避开出风口与门架
@@ -79,3 +84,5 @@ tags:
 ## 与其他温度的关系
 
 4 ℃ 低于 room-temperature，也低于 human-body-temperature；它高于 freezer 的 −18 ℃，比 water-freezing 的 0 ℃ 高约 4 ℃。与 permafrost 的约 −10 ℃ 相比，冷藏室仍属“低温但不结冰”的区间。这个温度处在食品安全“危险区”的下边界附近，因此设定值和实测值都需要留有余量，不能把 4 ℃ 当作可以无限期保存的保证。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

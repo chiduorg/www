@@ -31,6 +31,11 @@ sources:
     url: 'https://www.britannica.com/topic/Gregorian-calendar'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'A concise summary of the International System of Units, SI'
+    url: >-
+      https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-concise-EN.pdf/2fda4656-e236-0fcb-3867-36ca74eea4e3?download=true&version=1.2
+    publisher: International Bureau of Weights and Measures (BIPM)
+    accessed: '2026-11-24'
 chronology:
   status: duration
   plot: false
@@ -54,12 +59,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "chronometer"
-  scene: "time.object"
-  caption: "一年 · 地球公转与季节循环示意"
-  note: "地球轨道、光照与季节标记为风格化示意，非按比例、非观测重建。"
-  variant: "calendar"
-  color: "#9fc1cf"
+  template: chronometer
+  scene: time.object
+  caption: 一年 · 地球公转与季节循环示意
+  note: 地球轨道、光照与季节标记为风格化示意，非按比例、非观测重建。
+  variant: calendar
+  color: '#9fc1cf'
 mode: 时长
 tags:
   - 时长尺度
@@ -84,3 +89,14 @@ tags:
 ## 与其他尺度的关系
 
 十二个月构成一年，约 52.18 周构成一年；十年、百年、千年都由年平均年长按倍数换算。[1][2] 年向上连接世纪与千年的历法尺度，向下连接月、周、天。它既是天文周期，也是社会历法的平均单位，比较时必须说明采用回归年还是公历平均年。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（International Bureau of Weights and Measures (BIPM)）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 3.156×10⁷ 秒，换算后是 365.2 天；约 1 年。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10⁷ 量级附近。
+
+读图时先看量级，再看倍数：10⁷ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

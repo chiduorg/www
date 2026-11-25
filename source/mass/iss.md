@@ -5,7 +5,7 @@ summary: >-
   国际空间站在轨质量约 419,725 kg，含舱段、桁架、太阳翼、散热板与舱内设备，不含对接的飞船。每次货运或载人飞船对接，组合体质量会临时增加 7–20
   t。
 dimension: mass
-category: 航天器
+category: 工程与交通
 displayValue: 4.19725×10⁵ kg
 quantity:
   value: 419725
@@ -71,6 +71,7 @@ visual:
   color: '#e6c17c'
   scaleMin: -40
   scaleMax: 53
+titleEn: International Space Station
 ---
 ## 这个读数是什么
 

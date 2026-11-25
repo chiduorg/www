@@ -19,6 +19,7 @@ related:
   - temperature.fusion-reactor-plasma
   - temperature.supernova
   - temperature.quark-gluon
+  - space.neutron-star
 reviewStatus: reviewed
 sources:
   - title: 'The Effects of Nuclear Weapons — Chapter II: Descriptions of Nuclear Explosions'
@@ -30,6 +31,10 @@ sources:
       https://www.nuclearinfo.org/wp-content/uploads/2022/01/FAS_Chapter_3_EFFECTS_OF_NUCLEAR_EXPLOSIONS_SECTION_1_GENERAL_June_2000_volume_1_of_1..pdf
     publisher: Federation of American Scientists
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为核爆炸后极短时间内的火球核心与武器残骸；1 × 10⁷ K 是量级估计，不是火球表面或后期温度；
   公开资料用“数千万度”描述早期峰值。
@@ -87,3 +92,5 @@ tags:
 ## 与其他温区的关系
 
 10⁷ K 高于日冕和 CME 的约 10⁶ K，与太阳核心的约 1.57 × 10⁷ K 同量级但略低，也低于激光聚变热斑的约 10⁸ K。它说明核爆炸能在极短时间内制造出接近恒星核心的温区，但持续时间、压力和约束条件与恒星内部完全不同。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

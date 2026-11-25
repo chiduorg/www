@@ -30,6 +30,7 @@ related:
   - time.heat-death-time
   - time.nuclear-timescale
   - time.big-bang
+  - space.observable-universe
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -42,6 +43,10 @@ sources:
     url: 'https://www-sk.icrr.u-tokyo.ac.jp/en/sk/about/research/'
     publisher: Super-Kamiokande Official Website
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -84,3 +89,14 @@ tags:
 ## 与其他尺度的关系
 
 质子衰变下限比宇宙年龄大约24个数量级，属于极长时标。[1][2] 它上接大统一理论，下接物质长期命运与热死亡讨论；与黑洞蒸发一样，都是模型与实验共同约束的远期问题，但证据类型不同。探测器规模越大、运行越久，能排除的寿命下限就越高；这也是下一代实验继续增加曝光的原因。这类实验同时检验多种大统一模型，结果以不同衰变道的独立下限呈现。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+按同一真空光速计算，光在这段时间内约走 2.4000077303152955e+25 十亿光年，在空间轴上量级接近「可观测宇宙」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 7.574×10⁴¹ 秒，换算后是 2.4×10³⁴ 年；约 1.74×10²⁴ 个当前宇宙年龄（138 亿年）。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10⁴¹ 量级附近。
+
+读图时先看量级，再看倍数：10⁴¹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

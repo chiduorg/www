@@ -31,6 +31,10 @@ sources:
       https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/101955-bennu/in-depth.amp
     publisher: NASA Solar System Exploration
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 小行星表层的岩石与风化层
   location: 近地小行星 Bennu，平均日心距约 1.12 AU；主带天体约 2–3 AU
@@ -79,3 +83,5 @@ tags:
 ## 与其他温区的关系
 
 200 K 低于水的冰点，和彗星表面、火星表面处于相近的冷侧温区，但高于冥王星表面。[1][2] 它的昼侧 400 K 已超过水的沸点，说明同一小天体在不同时刻可以跨越很大的温区。与地球常温的约 288 K 相比，200 K 更冷；与液氮的 77 K 相比，又暖得多。小行星表面因此是理解无大气天体热平衡的直观例子。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

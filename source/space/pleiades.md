@@ -19,6 +19,7 @@ related:
   - space.orion-nebula
   - space.milky-way
   - space.light-year
+  - time.decade
 reviewStatus: reviewed
 sources:
   - title: The Pleiades
@@ -29,6 +30,10 @@ sources:
     url: 'https://apod.nasa.gov/apod/ap960618.html'
     publisher: NASA / APOD
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   指昴星团亮星成员核心区的分布跨度，取约 7 光年的圆整口径；不是单颗恒星的直径，也不等于包含外围成员、潮汐范围或反射星云的整体图像跨度。
 uncertainty: >-
@@ -83,3 +88,7 @@ tags:
 ## 与其他尺度的关系
 
 6.6×10¹⁶ 米约为 7 光年，也约为太阳到比邻星距离的 1.6 倍。[2] 它比鹰状星云的约 20 光年小，却比马头星云的约 3 光年大；与球状星团相比又小得多。把昴星团放进银河系盘面，可以看到年轻恒星如何在一个数十光年尺度的松散群体中诞生并逐渐散开。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 7.0 年，在时间轴上量级接近「十年」。[3]

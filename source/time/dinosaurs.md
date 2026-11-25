@@ -34,6 +34,10 @@ sources:
     url: 'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf'
     publisher: International Commission on Stratigraphy
     accessed: '2026-11-06'
+  - title: 'Earth Sciences Research: Rise of the Mammals'
+    url: 'https://www.dmns.org/science/research/rise-of-the-mammals/'
+    publisher: Denver Museum of Nature & Science
+    accessed: '2026-11-24'
 legacy:
   id: dinosaurs
   icon: "\U0001F995"
@@ -103,3 +107,16 @@ tags:
 ## 与其他阶段的关系
 
 恐龙在三叠纪末灭绝事件后进入侏罗纪的繁盛期，并在白垩纪继续多样化。[2][3] 鸟类从兽脚类恐龙一支演化而来，因此非鸟恐龙的 K–Pg 灭绝并未终止整个恐龙支系。[1] 恐龙支系在侏罗纪与白垩纪继续分化，最终只有鸟类越过 K–Pg 界线。[1][3]
+
+
+## 这个数值的误差账本
+
+非鸟恐龙在约 6600 万年前的白垩纪末期灭绝，主流证据是希克苏鲁伯撞击与德干火山活动的组合。6600 万年是圆整值，不同地层与同位素测年给出约 6604 万年的年龄，误差在数万年量级。把“恐龙灭绝”写成单一时刻，会忽略不同类群与地区的消失过程。
+
+## 换一个尺度看它
+
+6600 万年约为人类文明史的 100 倍，也约为地球年龄的 1.4%。恐龙统治陆地约 1.6 亿年，是人类历史的 20 多倍。若把地球史压成一天，恐龙在最后约 20 分钟出现，在最后几秒灭绝；人类文字只占最后零点几秒。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（Denver Museum of Nature & Science）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

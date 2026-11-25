@@ -5,7 +5,7 @@ summary: >-
   51 Pegasi b 是人类确认的第一颗围绕主序星运行的系外行星，行星总质量约 8.73×10²⁶ kg，约合 0.46
   个木星质量。质量由视向速度法测得，相对不确定度约 10%。
 dimension: mass
-category: 系外行星
+category: 行星与小天体
 displayValue: 8.73×10²⁶ kg
 quantity:
   value: 8.73e+26
@@ -78,6 +78,7 @@ visual:
   color: '#7fb5e6'
   scaleMin: -40
   scaleMax: 53
+titleEn: 51 Pegasi b
 ---
 ## 这个读数是什么
 

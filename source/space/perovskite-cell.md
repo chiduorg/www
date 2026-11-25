@@ -18,6 +18,7 @@ related:
   - space.graphene
   - space.crystal-lattice
   - space.hair
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Amphoteric coplanar conjugated molecules enabling efficient and stable perovskite/silicon tandem solar cells
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.science.org/doi/full/10.1126/science.aav7911'
     publisher: Science / AAAS, Tong et al.
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   以薄膜钙钛矿太阳能电池的吸收层为对象，取约 1 微米的膜厚；
   不同带隙、不同器件结构（单结或叠层）的最优厚度并不相同，组件尺寸另计。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 1 微米约为二硫化钼单层 0.65 纳米的 1500 倍，约为量子点 5 纳米的 200 倍，却只有人体细胞 20 微米的 1/20、头发丝 100 微米的 1/100。它约为碳纤维直径 7 微米的 1/7。把本页与石墨烯、量子点和细胞并读，能看到“纳米薄膜”与“微米器件”之间的过渡。与硅电池数百微米的硅片厚度相比，1 微米吸收层薄了约两个数量级。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.0000033 纳秒，在时间轴上量级接近「纳秒」。[3]

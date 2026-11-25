@@ -16,6 +16,7 @@ related:
   - space.hand
   - space.pencil
   - space.door
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: 'Standard Stratocaster — Specifications'
@@ -26,6 +27,10 @@ sources:
     url: 'https://usa.yamaha.com/products/musical_instruments/guitars_basses/ac_guitars/f_fx/specs.html'
     publisher: Yamaha Corporation
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为全尺寸民谣吉他；测量口径为琴头最前端到琴箱尾部的整体纵向长度，含琴头与琴箱外廓；不含琴盒、背带与可拆卸拾音器。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 1.0 米约为标准门高 2.032 米的一半，也约为餐椅整体高度 0.90 米的 1.1 倍。 它比成人手掌长度约 0.19 米长五倍多，放进 1.8 米长的自行车旁边仍有一大截余量。与 4.5 米轿车相比，吉他约为其 22%。常见吉他琴盒通常比整琴略长，选购时要按整琴长度加余量。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

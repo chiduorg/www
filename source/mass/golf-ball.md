@@ -5,7 +5,7 @@ summary: >-
   比赛用高尔夫球的质量不得超过 45.93 克，即 4.593×10⁻² kg，直径不得小于 42.67 毫米。这是 R&A 与 USGA
   共同维护的合规门槛，不是某一颗球的实测值；合规球的质量散布通常不到一克。
 dimension: mass
-category: 日常物品
+category: 日常与人造
 displayValue: 4.593×10⁻² kg
 quantity:
   value: 0.04593
@@ -18,6 +18,8 @@ related:
   - mass.adult-human
   - mass.proton
   - mass.water-molecule
+  - space.golf-ball
+  - space.human
 reviewStatus: reviewed
 review:
   method: source-check
@@ -70,6 +72,7 @@ visual:
   color: '#e0b67b'
   scaleMin: -40
   scaleMax: 53
+titleEn: Golf ball
 ---
 ## 这个读数是什么
 

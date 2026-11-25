@@ -19,6 +19,7 @@ related:
   - temperature.oven
   - temperature.butter-melting
   - temperature.caramelization
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: 'Protein: coagulation'
@@ -30,6 +31,10 @@ sources:
       https://www.incredibleegg.org/professionals/manufacturers/real-egg-functionality/coagulation-thickening/
     publisher: American Egg Board
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 蛋清与蛋黄
   measurementSite: 蛋内部
@@ -80,3 +85,12 @@ tags:
 ## 与其他温度的关系
 
 343 K 低于 boiling-water 的 373.15 K，也低于 food-safe 的 348 K；它高于 human-body-temperature 的 310 K。与 butter-melting 的 306 K 相比，蛋类凝固发生在更暖的温区，而且机制是蛋白质变性而非脂肪相变。理解这个数值，要把“凝固区间”与“杀菌阈值”分开。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 343 K，即 69.85 ℃（按 T/K−273.15 换算）；约为水的沸点（373.1 K）的 0.919 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

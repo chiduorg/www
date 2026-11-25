@@ -16,11 +16,12 @@ quantity:
   approximate: true
 displayValue: 未定（无统一数值）
 related:
+  - space.moon
+  - mass.helium-nucleus
   - temperature.absolute-zero
   - temperature.hawking-temperature
   - temperature.space-background
   - temperature.quantum-degeneracy
-  - temperature.cmb
 reviewStatus: reviewed
 sources:
   - title: A Primer for Black Hole Quantum Physics

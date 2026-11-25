@@ -16,6 +16,7 @@ related:
   - space.cat
   - space.human
   - space.brown-bear
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Leopard
@@ -26,6 +27,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Panthera_pardus/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性豹；量取从吻端到尾根的头体长，尾巴不计；不采用含尾的总长、肩高或站立高度。
 uncertainty: San Diego Zoo 给出不含尾的体长 0.92–1.90 m、尾长 0.64–0.99 m；ADW 给出的雄性 1.6–2.3 m 更像含尾总长。1.4 m 落在 San Diego Zoo 的头体长范围内，代表中等偏大的雄性。
 review:
@@ -70,3 +75,14 @@ San Diego Zoo 的豹资料把尺寸拆成两项：不含尾的体长 0.92–1.90
 ## 与其他尺度的关系
 
 1.4 米比家猫约 0.45 米的头体长长近一米，却比 2.0 米的非洲狮和 2.2 米的孟加拉虎短半米以上。[1][2] 在猫科尺度上，豹位于虎、狮之下，与猎豹大致同档，向上是两米级的大型猫科，向下是猫和家犬。放到 30 米蓝鲸旁边，它约占其二十一分之一。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1.4 米，换算后是 1.4 米；约 0.824 个成年人身高（1.7 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

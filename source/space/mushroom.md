@@ -29,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/death-cap'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为伞菌的子实体；量菌盖最宽处的直径，不含菌柄高度、菌褶长度、菌丝体地下范围或整株高度；以常见伞菌（毒鹅膏）4–16 cm的菌盖范围中的10 cm作为取整参照。
 uncertainty: >-
@@ -78,3 +82,5 @@ Britannica的mushroom条目把蘑菇定义为某些真菌的伞状孢子体，�
 ## 与其他尺度的关系
 
 10厘米约为成年人手掌宽度，约为1米高蕨类的十分之一，也约为5万只1–2微米长大肠杆菌首尾相接的长度。[1][2] 在尺度轴上，蘑菇菌盖处在“厘米到十几厘米”的日常生物带：向上是蕨类、橡树和巨杉，向下是叶片细胞、细菌和病毒。用同一条“直径”口径比较蘑菇、篮球和眼球，才能避免把直径、周长和高度混在一起。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

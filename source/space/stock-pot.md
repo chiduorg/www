@@ -17,6 +17,7 @@ related:
   - space.table
   - space.pressure-cooker
   - space.rice-cooker
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: IKEA 365+ Pot with lid, stainless steel, 8.0 l
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.zwilling.com/uk/zwilling-twin-classic-24-cm-18%2F10-stainless-steel-stock-pot-silver-40913-240-0/40913-240-0.html'
     publisher: ZWILLING
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为家用不锈钢汤锅；量取锅口内径，不含锅耳、手柄与锅盖；同一口径可配不同锅深，容量不等。
 uncertainty: 家用汤锅口径多在 20–28 cm；本条取 24 cm 作常见代表值；量内径与量外径会差数毫米，锅底直径通常比锅口小 1–2 cm，含双耳总长约 33–35 cm。
 review:
@@ -70,3 +75,7 @@ tags:
 ## 与其他尺度的关系
 
 24 厘米约为 32 厘米炒锅口径的四分之三，比 30 厘米的菜刀短 6 厘米；锅高 19 厘米略低于 20 厘米的成人手长。[1][2] 放在 1.8 米高的冰箱旁边，它只到冰箱高度的八分之一左右，说明厨房里最常被“低估”的其实是锅的深度与占地。它也常被用来与 24 厘米的煎锅比较，但煎锅更浅，同样口径的容量只有汤锅的一半。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.80 纳秒，在时间轴上量级接近「纳秒」。[3]

@@ -5,7 +5,7 @@ summary: >-
   GW150914 并合后的黑洞质量约 1.23×10³² kg，即 62 太阳质量。数值由引力波波形反演得到，相对不确定度约
   4%，是人类首次直接探测到的双黑洞并合产物。
 dimension: mass
-category: 黑洞
+category: 恒星与致密天体
 displayValue: 1.23×10³² kg
 quantity:
   value: 1.23e+32
@@ -80,6 +80,7 @@ visual:
   color: '#ffd37a'
   scaleMin: -40
   scaleMax: 53
+titleEn: GW150914 merger
 ---
 ## 这个读数是什么
 

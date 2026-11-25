@@ -17,6 +17,7 @@ related:
   - space.screwdriver
   - space.knife
   - space.hand
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 250mm/10 in MAXSTEEL Adjustable Wrench — specifications
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.stanleyblackanddecker.com.cn/brand/stanley/products/87-433-1-23'
     publisher: STANLEY
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为 10 英寸规格的活动扳手；测量口径为手柄尾端到开口端最外缘的整体长度，不含钳口张开后的额外跨度。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 25 厘米约为成年人手长 19 厘米的 1.3 倍，比一把约 30 厘米长的锤子短约 5 厘米。它比一支约 20 厘米长的螺丝刀长约 1.25 倍，约为 A4 纸长边 29.7 厘米的 0.84 倍。与一把约 30 厘米长的菜刀相比，活动扳手略短。与约 21 厘米长的螺丝刀相比，活动扳手长约 4 厘米。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.83 纳秒，在时间轴上量级接近「纳秒」。[3]

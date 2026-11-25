@@ -16,6 +16,7 @@ related:
   - space.protein
   - space.red-blood-cell
   - space.cell
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Characterization of protein immobilization on nanoporous gold using atomic force microscopy and scanning electron microscopy
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.ncbi.nlm.nih.gov/books/NBK27144/'
     publisher: NCBI Bookshelf
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为单体 IgG 抗体；量取分子整体轮廓的代表性跨度，不含糖基化修饰与结合抗原后的构象变化；铰链区角度会改变两臂间距。
 uncertainty: 10 纳米是取整的代表值；所引尺寸约为 4.0 × 8.5 × 14.5 纳米，10 纳米接近其中间尺度，完全展开时分子内尺度可超过 14.5 纳米，因此跨度是范围而非定值。
 review:
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 10 纳米约为血红蛋白最长径 6.4 纳米的 1.6 倍，也比 DNA 双螺旋直径约 2 纳米大数倍。它远小于红细胞 7.5 微米，二者相差约七百倍。抗体处在纳米级蛋白质尺度，却能在微米级的细胞表面识别抗原，体现了分子尺度与细胞尺度之间的衔接；这也是免疫识别能在极小空间内完成的原因之一。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3e-8 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

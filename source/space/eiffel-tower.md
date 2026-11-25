@@ -17,6 +17,7 @@ related:
   - space.statue-of-liberty
   - space.everest
   - space.human
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: Une nouvelle antenne pour la tour Eiffel… qui a grandi de 6 mètres en 2022
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/topic/Eiffel-Tower-Paris-France'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为巴黎埃菲尔铁塔；测量口径为含天线总高（地面到最高天线顶端），不是结构本体高度、观景台高度或塔基边长；采用 2022 年 3 月 15 日之后的读数。
 uncertainty: >-
   2022 年换天线后总高 330 米，此前为 324 米；结构本体约 300 米。不同资料若仍写 324
@@ -75,3 +80,14 @@ tags:
 ## 与其他尺度的关系
 
 330 米约为足球场 105 米边线的 3.1 倍，约为珠峰 8848.86 米高程的 3.7%。它比自由女神像本体 46.05 米高约 7.2 倍，也约为上海中心大厦 632 米的一半。[1] 在巴黎城市尺度中，它仍是一座局部地标，而不是城市直径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.1 微秒，在时间轴上量级接近「微秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 330 米，换算后是 330 米；约 2.59×10⁻⁵ 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

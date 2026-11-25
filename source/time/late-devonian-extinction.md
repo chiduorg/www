@@ -18,6 +18,7 @@ related:
   - time.carboniferous-period
   - time.ordovician-radiation
   - time.permian-triassic-extinction
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Mass Extinctions Through Geologic Time

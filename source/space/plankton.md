@@ -17,6 +17,7 @@ related:
   - space.ant
   - space.mushroom
   - space.blue-whale
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: microplankton
@@ -27,6 +28,10 @@ sources:
     url: 'https://oceanservice.noaa.gov/facts/plankton.html'
     publisher: National Oceanic and Atmospheric Administration
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为单个微浮游生物个体；量其最大维度；以Britannica所述0.05–1 mm的微浮游生物范围中的0.1 mm作为取整参照；不包括群体、藻华面积、大型浮游动物（如水母）以及个体体积或生物量。
 uncertainty: >-
@@ -76,3 +81,7 @@ Britannica的microplankton条目按大小把浮游生物分为三类：微浮游
 ## 与其他尺度的关系
 
 0.1毫米约为1.6毫米蚂蚁体长的十六分之一，约为10厘米蘑菇菌盖的千分之一，也约为30米蓝鲸体长的三十万分之一。[1][2] 在尺度轴上，它落在“微米到毫米”的微观带：向上是蚂蚁、蘑菇和蕨类，向下是典型大肠杆菌的1–2微米和病毒。浮游生物把海洋食物链的起点压缩到肉眼几乎不可见的一小段长度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.00033 纳秒，在时间轴上量级接近「纳秒」。[3]

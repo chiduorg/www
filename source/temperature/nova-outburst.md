@@ -25,6 +25,8 @@ related:
   - temperature.kilonova_temp
   - temperature.type-ia-supernova
   - temperature.sirius-surface
+  - time.first-stars
+  - space.supernova-remnant
 reviewStatus: reviewed
 sources:
   - title: 'Nova LMC 2009a as observed with XMM–Newton, compared with other novae'
@@ -35,6 +37,10 @@ sources:
     url: 'https://www.britannica.com/science/nova-astronomy'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: nova-outburst
   icon: "\U0001F31F"
@@ -105,3 +111,5 @@ Orio 等分析了 LMC 2009a 在 2009 年爆发期间的四组 XMM–Newton 高�
 ## 与其他温区的关系
 
 约 90 万 K 高于天狼星 B 表面的 25,000 K，也高于太阳表面 5,772 K。它低于中子星表面约 2×10⁶ K 的例子，远低于核心坍缩超新星的 10¹¹ K。与千新星光谱拟合的 5,500 K 相比，它又高出两个数量级，因为新星大气处于持续燃烧阶段，而千新星抛射物已经迅速膨胀冷却。比较时要区分白矮星大气、中子星表面和爆发抛射物。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

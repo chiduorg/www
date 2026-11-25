@@ -21,11 +21,12 @@ quantity:
     unit: K
 displayValue: 约 0.6–0.8 GK（起始温标参考）
 related:
+  - space.sun
+  - mass.sun
   - temperature.red-giant-core
   - temperature.oxygen-fusion
   - temperature.silicon-burning
   - temperature.sun-core
-  - temperature.supernova
 reviewStatus: reviewed
 sources:
   - title: 'A new 12C + 12C nuclear reaction rate: impact on stellar evolution'

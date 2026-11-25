@@ -5,7 +5,8 @@ titleEn: The Earliest Globular Clusters
 dimension: cosmic-time
 category: 星系与结构
 summary: >-
-  JWST 在引力透镜放大的“宇宙宝石”弧中，发现大爆炸后约 4.6 亿年的星系内存在五个束缚星团。这些星团可能是今天球状星团的年轻前身，但“最早”仍是观测下界的候选；本条取距今约 128 亿年作导航锚点。
+  JWST 在引力透镜放大的“宇宙宝石”弧中，发现大爆炸后约 4.6
+  亿年的星系内存在五个束缚星团。这些星团可能是今天球状星团的年轻前身，但“最早”仍是观测下界的候选；本条取距今约 128 亿年作导航锚点。
 quantity:
   value: 31462720000000000
   unit: s
@@ -14,11 +15,12 @@ quantity:
   measureLabel: 自大爆炸起的推算宇宙参考时间
 displayValue: 距今约 128 亿年（参考锚点；观测记录更早）
 related:
+  - space.milky-way
+  - mass.milky-way
   - time.milky-way-formation
   - time.first-stars
   - time.galaxy-formation
   - time.first-galaxy-clusters
-  - time.reionization-epoch
 reviewStatus: reviewed
 sources:
   - title: Star clusters in the Cosmic Gems arc (annotated)
@@ -29,6 +31,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11324512/'
     publisher: Nature
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -43,14 +49,17 @@ conditions:
   calendarReferenceYear: 2026
   note: 128 亿年是导航锚点；4.6 亿年的星团观测记录更早，说明记录会更新。
 uncertainty: >-
-  128 亿年为时间轴锚点，不是球状星团形成的精确日期。4.6 亿年的观测依赖引力透镜放大与测光/光谱推断，星团质量、尺寸和年龄仍有模型误差；这些早期星团是否都会演化成今天的球状星团，也不能由一次观测确定。
+  128 亿年为时间轴锚点，不是球状星团形成的精确日期。4.6
+  亿年的观测依赖引力透镜放大与测光/光谱推断，星团质量、尺寸和年龄仍有模型误差；这些早期星团是否都会演化成今天的球状星团，也不能由一次观测确定。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
     - 核对 ESA/Webb 图像页，采用宇宙年龄约 4.6 亿年、首次在婴儿星系中发现束缚星团、小于 5 亿年的表述。
     - 核对 Nature 论文，采用五个星团、区域小于 70 秒差距、内禀尺寸约 1 秒差距、质量约一百万太阳质量与年龄小于 5000 万年。
-    - '2026-11-07 来源可访问性核对：全部来源页返回可用响应（https://esawebb.org/images/weic2418b/；https://pmc.ncbi.nlm.nih.gov/articles/PMC11324512/），数值口径与正文一致。'
+    - >-
+      2026-11-07
+      来源可访问性核对：全部来源页返回可用响应（https://esawebb.org/images/weic2418b/；https://pmc.ncbi.nlm.nih.gov/articles/PMC11324512/），数值口径与正文一致。
 rights:
   status: rewritten
   note: 依据所列资料重新撰写，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -84,3 +93,5 @@ tags:
 ## 与其他阶段的关系
 
 早期球状星团把第一代恒星、早期星系和再电离连接起来：星团中的大质量恒星提供紫外辐射，超新星又贡献重元素[1][2]。它们上接暗物质晕与气体坍缩，下连银河系晕中的古老球状星团。与星系形成条目相比，这里把尺度缩小到星系内部的恒星集团。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

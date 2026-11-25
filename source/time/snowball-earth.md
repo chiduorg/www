@@ -29,6 +29,13 @@ sources:
     url: 'https://www.britannica.com/science/Snowball-Earth-hypothesis'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: >-
+      Deep-water first occurrences of Ediacara biota prior to the Shuram carbon
+      isotope excursion in the Wernecke Mountains, Yukon, Canada
+    url: >-
+      https://www.usgs.gov/publications/deep-water-first-occurrences-ediacara-biota-prior-shuram-carbon-isotope-excursion
+    publisher: USGS / Geobiology
+    accessed: '2026-11-24'
 legacy:
   id: snowball-earth
   icon: ❄️
@@ -100,3 +107,7 @@ conceptGroup: earth
 ## 与其他阶段的关系
 
 斯图尔特冰期结束于埃迪卡拉生物群大规模出现之前，常被视为复杂生命扩张的环境背景。[1][2] 它与末次盛冰期共享“冰期—碳循环”机制，但时间、规模和生物背景完全不同，不能直接类比。[2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（USGS / Geobiology）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

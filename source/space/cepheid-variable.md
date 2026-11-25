@@ -19,6 +19,7 @@ related:
   - space.betelgeuse
   - space.andromeda-distance
   - space.white-dwarf
+  - time.minute
 reviewStatus: reviewed
 sources:
   - title: Cepheids and their 'Cocoons'
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/science/Cepheid-variable'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   指经典造父变星光球直径的数量级概览，取半径约 72 个太阳半径的中间量级；不适用于天琴座 RR 型、室女座 W 型等其它脉动变星，也不含脉动产生的瞬时变化与延伸包层。
 uncertainty: >-
@@ -83,3 +88,7 @@ tags:
 ## 与其他尺度的关系
 
 1×10¹¹ 米约为 0.67 天文单位，是太阳直径的约 72 倍。[2] 它比红超巨星小一个数量级以上，却比红巨星阶段的类太阳恒星略小。把它与白矮星、中子星并排，可以看到恒星在晚年既可以膨胀到上百太阳半径，也可以坍缩到地球大小甚至更小；造父变星正处在膨胀的高光度阶段。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 5.6 分钟，在时间轴上量级接近「一分钟」。[3]

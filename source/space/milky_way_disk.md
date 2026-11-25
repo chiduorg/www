@@ -16,6 +16,8 @@ related:
   - space.galactic-center
   - space.andromeda-distance
   - space.light-year
+  - mass.milky-way
+  - time.first-galaxies
 reviewStatus: reviewed
 sources:
   - title: Hubble takes gigantic image of the Triangulum Galaxy — heic1901
@@ -34,6 +36,10 @@ sources:
     url: 'https://ssd.jpl.nasa.gov/astro_par.html'
     publisher: NASA / JPL Solar System Dynamics
     accessed: '2026-11-06'
+  - title: "Milky Way Galaxy"
+    url: "https://www.britannica.com/place/Milky-Way-Galaxy"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 legacy:
   id: milky_way_disk
   icon: "\U0001F30C"
@@ -90,3 +96,23 @@ ESA/Hubble的科普说明把银河系直径写成约10万光年，NASA/GSFC给�
 ## 与其他尺度的关系
 
 银盘直径约为本星系群跨度1000万光年的1%，约为到仙女座星系距离250万光年的4%。[2] 若与M33比较，后者约6万光年，约为银盘的六成。[1] 这些比较都在盘的横向尺度这一口径下进行，换成晕尺度就不成立。按半径5万光年计，太阳约位于半径的54%。盘面也并非静止：恒星与气体绕银心旋转，外侧速度曲线是推断暗物质晕的重要证据。[2]
+
+## 银盘没有硬边界
+
+银盘边缘是恒星与气体密度逐渐下降的区域，不同波段给出的范围不同：光学图像受尘埃遮挡，红外与射电可以穿透尘埃看到更远。[1][2] 10 万光年是概览直径，不是可以落脚的外壳。若按恒星计数、气体盘或暗物质晕定义，银河系的“大小”会变成另一个数。
+
+## 太阳不在银河系中心
+
+太阳距银心约 2.7 万光年，约为 10 万光年直径的 27%，不是半径的一半。[2][3] 它位于猎户臂附近，绕银心公转约 2.3 亿年一周。把太阳放在银盘中心，会同时错置恒星密度、银心黑洞和太阳系位置。
+
+## 五轴对照
+
+在空间轴，银盘直径约 10 万光年；在质量轴，银河系总质量约 2.98×10⁴² 千克；在时间轴，银盘经历数十亿年演化；在温度轴，盘内不同区域的气体温度差异很大。盘的直径、总质量与演化年龄不是同一个量。[1][2]
+
+## 银盘直径没有一条实线
+
+银河系银盘直径常写 10 万光年，但银盘外缘没有清晰边界：恒星密度逐渐下降，气体盘可能更远，晕与卫星星系又在另一个尺度。不同示踪天体（造父变星、疏散星团、中性氢）给出的直径并不完全一致。正文的 10 万光年是常用圆整值，不是测到的一条边。[1][S1]
+
+## 延伸核对
+
+补充的来源 [5]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

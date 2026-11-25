@@ -5,7 +5,7 @@ summary: >-
   大麦哲伦云是银河系最亮的卫星星系，总质量约 2.8×10⁴¹ kg，折合约 1.4×10¹¹
   个太阳质量，口径包含暗物质晕。数值由卫星星系运动学与旋转曲线拟合给出，恒星质量仅约 2.7×10⁹ 个太阳质量，相对不确定度约 30%。
 dimension: mass
-category: 星系
+category: 星系与宇宙
 displayValue: 2.8×10⁴¹ kg
 quantity:
   value: 2.8e+41
@@ -79,6 +79,7 @@ visual:
   color: '#a6bfff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Large Magellanic Cloud
 ---
 ## 这个读数是什么
 

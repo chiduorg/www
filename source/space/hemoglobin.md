@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 6.4 nm（血红蛋白分子最长径）
 related:
+  - time.nuclear-timescale
   - space.red-blood-cell
   - space.protein
   - space.alveolus
   - space.antibody
   - space.collagen
-  - space.insulin
 reviewStatus: reviewed
 sources:
   - title: Human Haemoglobins — Structure of Haemoglobin
@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/hemoglobin'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为人体血红蛋白四聚体；量取分子整体外形的最长径，不含水合层与糖基化修饰；不同实验方法给出的水合直径可能略大。
 uncertainty: 6.4 纳米是 64 Å 的换算值，属于分子最长方向；三个方向约为 6.4、5.5、5.0 纳米，动态光散射测得的水合直径可达约 6.5 纳米，不能用一个直径概括全部形状。
 review:
@@ -75,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 6.4 纳米约为红细胞直径 7.5 微米的 1/1170，也约为 IgG 抗体跨度 10 纳米的 0.64 倍。它比 DNA 双螺旋直径约 2 纳米大，却比单个核糖体约 20 纳米小。血红蛋白处在纳米级分子尺度，是从原子、分子通向细胞的重要中间台阶；把它与红细胞放在同一张尺度图上，能直观看到蛋白质与细胞之间的数量级差距。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.1e-8 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

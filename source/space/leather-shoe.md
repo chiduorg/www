@@ -15,6 +15,7 @@ related:
   - space.shoe
   - space.human
   - space.hand
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Men's Shoe Size Chart
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.britannica.com/topic/shoe'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为欧码 42 的成人正装皮鞋；量取外底沿长轴的最大长度，不含鞋跟高度与鞋带；欧码 42 只是样本尺码，楦型修长程度会明显改变同码鞋长。
 uncertainty: 欧码 42 对应的脚长约 25.9 cm；正装皮鞋楦头修长、鞋头留量更大，外底通常比脚长多 3–4 cm；本条取 30 cm 作代表值，同码实际外底多在 29–31 cm，尖头款可更长。
 review:
@@ -68,3 +73,7 @@ Nike 官方男鞋尺码表把欧码 42 对应到 10 又 3/16 英寸的脚长，�
 ## 与其他尺度的关系
 
 30 厘米与 30 厘米的菜刀全长恰好相当，比 29 厘米的跑鞋外底长约 1 厘米，约为 20 厘米成人手长的 1.5 倍。[1][2] 它接近一张 A4 纸长边 29.7 厘米，也约为 1.7 米成年人身高的 18%。在门厅与鞋柜里，这个长度决定了鞋尖是否会超出层板。与跑鞋相比，它的轮廓更像“被拉长的脚型”，鞋头没有明显上翘。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.0 纳秒，在时间轴上量级接近「纳秒」。[3]

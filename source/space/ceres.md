@@ -28,6 +28,10 @@ sources:
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/asteroidfact.html'
     publisher: NASA NSSDCA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为谷神星固体表面；采用扁球模型折算的体积等效直径；不含极区亮斑、陨石坑边缘等地形起伏，也不把其稀薄水汽外逸层计入。
 uncertainty: >-
   Britannica给出赤道半径490公里、极半径455公里，并明确等效球直径为940公里；NASA表列三轴直径965×961×891公里，三轴平均约939公里，两者在公里量级上一致。
@@ -73,3 +77,5 @@ Britannica条目根据黎明号探测器的观测给出赤道半径490公里、�
 ## 与其他尺度的关系
 
 940公里约为月球直径3,474公里的0.27倍，约为灶神星526公里的1.8倍，但只有冥王星2,376公里的0.40倍。[1][2] 它远小于火星6,779公里。谷神星轨道半长轴约2.77 au，位于火星与木星之间，是主小行星带的内侧成员。[1]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

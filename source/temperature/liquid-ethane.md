@@ -20,6 +20,7 @@ related:
   - temperature.liquid-hydrogen
   - temperature.liquid-oxygen
   - temperature.absolute-zero
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: 'Ethane: phase change data'
@@ -30,6 +31,10 @@ sources:
     url: 'https://www.britannica.com/science/ethane'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   纯乙烷在 1 atm（101.325 kPa）下液—气平衡的正常沸点参考；不是约 90.34 K 的三相点，
   也不适用于含甲烷、丙烷等组分的天然气凝液或加压储罐中的乙烷。
@@ -81,3 +86,5 @@ tags:
 ## 与其他温区的关系
 
 184.5 K 高于甲烷的 111.7 K、液氮的 77.4 K、液氧的 90.2 K和液氩的 87.3 K，低于水的冰点 273.15 K 与室温 293 K。[1][2] 在土卫六约 90–94 K 的表面，乙烷可以参与甲烷—乙烷湖泊与蒸发循环；这也提醒我们，同一种物质的“液态温区”取决于压力与共存组分。在化工中乙烷主要用作裂解制乙烯的原料，液化只是储运与分离的一环。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

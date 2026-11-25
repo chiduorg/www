@@ -18,6 +18,7 @@ related:
   - space.penguin
   - space.human
   - space.butterfly
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: condor
@@ -28,6 +29,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Vultur_gryphus/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为安第斯神鹫（Vultur gryphus）；量两翼完全展开时两翅尖之间的直线距离，不是体长、体重或单侧翅长；3.2 m取在大型成体的翼展上限，对应体长约1.2 m。
 uncertainty: >-
@@ -76,3 +81,7 @@ Britannica的condor条目写明，安第斯神鹫翼展可达3.2米（10.5英尺
 ## 与其他尺度的关系
 
 3.2米约为1.9个1.7米高的人，比金雕的翼展大得多，比2.5米高的鸵鸟长出0.7米，约为4米尼罗河鳄全长的0.8倍。[1][2] 在尺度轴上，它处在“几米级”动物的中段：向上是鳄和蟒，向下是鸵鸟和人。用翼展，才能把它与用站立高、全长描述的动物区分开。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 10.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

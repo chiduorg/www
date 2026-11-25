@@ -18,6 +18,7 @@ related:
   - space.protein
   - space.cell
   - space.ribosome
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Neuroscience Online: Organization of Cell Types, §8.8'
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/synapse'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: synaptic-cleft
   icon: "\U0001F9E0"
@@ -86,3 +91,7 @@ UTHealth神经科学教材把化学突触间隙概括为约20–40纳米，本�
 ## 与其他尺度的关系
 
 30纳米比典型细胞（20微米）小数百倍，却足以容纳受体蛋白和离子通道。[1] 它处在“分子—细胞器—细胞”之间的关键尺度：足够窄以支持快速扩散，又足够宽以完成化学信号的识别与转换。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.0e-7 纳秒，在时间轴上量级接近「纳秒」。[3]

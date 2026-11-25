@@ -20,6 +20,7 @@ related:
   - temperature.fever
   - temperature.room-temperature
   - temperature.hot-spring
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -32,6 +33,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10801494/'
     publisher: PMC / National Library of Medicine
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 入浴用水
   measurementSite: 浴缸内水体，非人体皮肤或空气
@@ -86,3 +91,5 @@ tags:
 ## 与其他温度的关系
 
 40 °C 高于 room-temperature 的 20 °C 示例，也略高于 human-body-temperature 的约 37 °C；低于 sauna 的约 80 °C 空气温度和 boiling-water 的 100 °C。与 fever 的约 38 °C 口温阈值相比，泡澡水温虽然更高，但发热描述的是人体调节后的核心温度，两者测的对象和机制不同。与 hot-spring 并列时，也要先确认是泉水温度还是入浴时的实测温度。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

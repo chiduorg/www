@@ -16,6 +16,7 @@ related:
   - temperature.hydrothermal-vent
   - temperature.boiling-water
   - temperature.lava-temperature
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: hot spring

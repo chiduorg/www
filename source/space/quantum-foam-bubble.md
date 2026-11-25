@@ -17,6 +17,8 @@ related:
   - space.quantum-fluctuation
   - space.superstring
   - space.observable-universe
+  - temperature.planck-temperature
+  - time.big-bang
 reviewStatus: reviewed
 sources:
   - title: NASA Telescopes Set Limits on Space-time Quantum Foam

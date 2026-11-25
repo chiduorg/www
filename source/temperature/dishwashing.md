@@ -19,6 +19,7 @@ related:
   - temperature.oven
   - temperature.egg-cooking
   - temperature.hot-spring
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: 4655.8820 Chemical Sanitizing — Dishwashing operation
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
     publisher: U.S. Food and Drug Administration (FDA)
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 水
   measurementSite: 洗涤水或水槽中的热水
@@ -77,3 +82,5 @@ tags:
 ## 与其他温度的关系
 
 333 K 低于 boiling-water 的 373.15 K，也低于 food-safe 的 348 K；它高于 human-body-temperature 的 310 K。与 egg-cooking 的 343 K 相比，洗碗热水略低，但两者都不是“沸腾”温区。它和 hot-spring 的接近体温热水相比更热，说明同一个“热水”在不同场景中的安全边界并不相同。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

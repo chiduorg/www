@@ -31,6 +31,10 @@ sources:
     url: 'https://scied.ucar.edu/learning-zone/atmosphere/stratosphere'
     publisher: UCAR Center for Science Education
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 大气中的氮氧混合气体，含臭氧层
   height: 约 10–50 km；赤道下界可高至约 20 km，极地冬季可低至约 7 km
@@ -82,3 +86,5 @@ tags:
 ## 与其他温区的关系
 
 220 K 低于水的冰点，也低于对流层的质量加权平均约 255 K，却高于中间层的约 190 K。它处在“低温”与“中温”之间的过渡带：从平流层顶继续向上，温度先升到约 270 K，再在中间层重新下降。与热层动理学温度的数百至数千开尔文相比，平流层气体密度高得多，温度数值虽低，实际热量和传热能力却更强。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

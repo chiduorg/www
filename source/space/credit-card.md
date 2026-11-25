@@ -16,6 +16,7 @@ related:
   - space.smartphone
   - space.coin
   - space.finger
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'ISO/IEC 7810:2019 — Identification cards — Physical characteristics'
@@ -28,6 +29,10 @@ sources:
     url: 'https://files.stroyinf.ru/Data2/1/4293759/4293759502.pdf'
     publisher: Federal Agency on Technical Regulating and Metrology (Russia)
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为 ISO/IEC 7810 的 ID-1
   格式卡片，例如银行卡、身份证与交通卡；测量口径为卡片长边（标准中的“宽”），不是短边、厚度或凸字后的局部厚度。
@@ -80,3 +85,14 @@ tags:
 ## 与其他尺度的关系
 
 85.60 毫米约为成人食指长度 70 毫米的 1.2 倍，也约等于三枚 25 毫米硬币并排的宽度。它与 A4 纸长边 297 毫米相比约为 0.29 倍。[2] 在钱包、卡包和读卡器的设计中，这个长边决定了插卡口的净宽。[1]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.29 纳秒，在时间轴上量级接近「纳秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 0.0856 米，换算后是 8.56 厘米；约 0.357 个篮球直径（24 厘米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻² 量级附近。
+
+读图时先看量级，再看倍数：10⁻² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/34/selenium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第四周期, p 区, 硒, 非金属]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往回是砷（/entry/elements/as/），能看到半满如何被一个电子打破；往前是溴（/entry/elements/br/），4p5 让卤素性格完全确立。想把配对能解释清楚，去读电子排布解释页；想把 s 与 r 过程的权重差异放回时间轴，去读重元素富集节点。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

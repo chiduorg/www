@@ -15,6 +15,8 @@ related:
   - space.au
   - space.solar-system
   - space.earth
+  - temperature.venus-surface
+  - time.solar-system
 reviewStatus: reviewed
 sources:
   - title: Mercury Fact Sheet — Orbital Parameters
@@ -25,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/place/Mercury-planet'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: mercury-orbit
   icon: ☿
@@ -83,3 +89,12 @@ NASA行星事实表依据长期光学与雷达观测、航天器跟踪给出轨�
 ## 与其他尺度的关系
 
 5.79×10¹⁰米约合0.387 au。[1] 它比地球轨道半长轴1 au小得多，却仍远大于太阳直径1.39×10⁹米——约为后者的42倍。这使它成为太阳系中公转最快的行星。水星轨道也远在日球层顶121.6 au之内。水星公转周期只有88天，因此同一地球年内它绕太阳四圈多。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 5.791×10¹⁰ 米，换算后是 3.87×10⁻¹ 个天文单位；约 0.387 个天文单位（1.496×10¹¹ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10¹⁰ 量级附近。
+
+读图时先看量级，再看倍数：10¹⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

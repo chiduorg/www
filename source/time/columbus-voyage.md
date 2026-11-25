@@ -1,6 +1,6 @@
 ---
 id: time.columbus-voyage
-title: '哥伦布跨大西洋航行：1492年的接触与征服开端'
+title: 哥伦布跨大西洋航行：1492年的接触与征服开端
 titleEn: Columbus's First Transatlantic Voyage
 dimension: cosmic-time
 category: 人类与文明
@@ -18,16 +18,26 @@ related:
   - time.renaissance
   - time.printing-press
   - time.present
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: Christopher Columbus
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/biography/Christopher-Columbus'
     accessed: '2026-11-07'
-  - title: 'Columbus and the Taíno'
+  - title: Columbus and the Taíno
     publisher: Library of Congress
-    url: 'https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html'
+    url: >-
+      https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html
     accessed: '2026-11-07'
+  - title: A primer for Italian renaissance art
+    url: 'https://smarthistory.org/primer-italian-renaissance-art/'
+    publisher: Smarthistory
+    accessed: '2026-11-24'
+  - title: 小知识│何谓活字印刷术？
+    url: 'https://www.nlc.cn/pcab/zlyj/zlyj_djsh/20190418_177776.shtml'
+    publisher: 中国国家图书馆·国家古籍保护中心
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -45,7 +55,9 @@ conditions:
 review:
   method: source-check
   date: '2026-11-07'
-  retry: '2026-11-07 复核（verified）：Britannica 可读，1492 年首次跨大西洋航行并抵达美洲；LOC 展览页可读，1492 年抵达瓜纳哈尼并遇泰诺人，距今约 534 年成立。'
+  retry: >-
+    2026-11-07 复核（verified）：Britannica 可读，1492 年首次跨大西洋航行并抵达美洲；LOC 展览页可读，1492
+    年抵达瓜纳哈尼并遇泰诺人，距今约 534 年成立。
   notes:
     - 核对 Britannica《Christopher Columbus》，采用其四次航行与1492年首次跨大西洋航行的框架。
     - 核对美国国会图书馆《Columbus and the Taíno》展览页，采用1492年抵达瓜纳哈尼岛及航行报告的相关记载。
@@ -84,3 +96,11 @@ tags:
 ## 与其他阶段的关系
 
 这次航行处在大航海时代的开端，前接中世纪与文艺复兴的航海技术积累，后接殖民帝国、奴隶贸易和全球物种交换。它与印刷术的传播、宗教改革几乎同时，使信息、人口和病原体以前所未有的速度跨洋流动。[1][2] 在时间轴上，1492年标记的是接触的加速点，而不是美洲历史的开端。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Smarthistory）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（中国国家图书馆·国家古籍保护中心）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

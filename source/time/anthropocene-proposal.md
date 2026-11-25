@@ -19,6 +19,8 @@ related:
   - time.industrial-revolution
   - time.present
   - time.covid-pandemic
+  - space.human
+  - mass.adult-human
 reviewStatus: reviewed
 sources:
   - title: Working Group on the 'Anthropocene'
@@ -32,6 +34,10 @@ sources:
     url: >-
       https://www.iugs.org/wp-content/uploads/2024/03/Anthropocene_extended_IUGS-ICS_Statement-1.pdf
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -89,3 +95,5 @@ tags:
 ## 常见误解
 
 常见误解是“人类世已经是正式地质年代”。目前它只是被讨论、被否决的提案，正式年代地层表仍以全新世为最新世。另一个误解是把1950年当成人类对环境影响为零的起点；在此之前的农业、工业与殖民扩张早已改变地表，提案选择1950年是为了找一个全球可对比的层位，而不是宣布影响从零开始。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

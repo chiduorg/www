@@ -3,7 +3,7 @@ id: mass.barnard-star
 title: 巴纳德星：2.86×10²⁹ kg，自行最快的红矮星
 summary: 巴纳德星质量约 2.86×10²⁹ kg，相当于 0.144 太阳质量。数值由质光关系定标，并用干涉测量得到的半径交叉检验，相对不确定度约 5%。
 dimension: mass
-category: 恒星
+category: 恒星与致密天体
 displayValue: 2.86×10²⁹ kg
 quantity:
   value: 2.86e+29
@@ -78,6 +78,7 @@ visual:
   color: '#ffd37a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Barnard's Star
 ---
 ## 这个读数是什么
 

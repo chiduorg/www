@@ -28,6 +28,10 @@ sources:
     url: 'https://www.taiwan.cn/taiwan/taiwanbaike/202101/t20210119_12318735.htm'
     publisher: 中国台湾网 / 华夏经纬网
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: island
   icon: "\U0001F3DD"
@@ -83,3 +87,5 @@ tags:
 ## 与其他尺度的关系
 
 394公里约为珠峰高程8848.86米的44.5倍，也约为台湾海峡最窄处130公里的3倍。与地球直径12742公里相比，它约为后者的3.1%。它仍是一个区域尺度，不足以描述整个地球表面。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

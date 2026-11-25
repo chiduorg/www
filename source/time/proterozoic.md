@@ -14,12 +14,12 @@ quantity:
   approximate: true
 displayValue: t ≈ 113.0 亿年（距今约25.0亿年）
 related:
+  - space.earth
+  - mass.earth
   - time.archean
   - time.phanerozoic
   - time.first-life
   - time.great-oxidation-event
-  - time.eukaryotes-emergence
-  - time.endosymbiosis
 chronology:
   status: reference
   plot: true
@@ -33,6 +33,12 @@ sources:
     url: 'https://www.britannica.com/science/Proterozoic-Eon'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: >-
+      Ingredients for microbial life preserved in 3.5 billion-year-old fluid
+      inclusions
+    url: 'https://www.nature.com/articles/s41467-021-21323-z'
+    publisher: Nature Communications
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -53,11 +59,11 @@ conditions:
   conversion: presentSeconds - lookbackYears × secondsPerYear
   precision: 亿年级近似时代坐标，非高精度年代测量
 visual:
-  template: "geologic-section"
-  scene: "time.object"
-  caption: "元古宙 · 微生物与早期真核细胞"
-  note: "细胞结构为概念示意，不代表某一具体化石的形态复原。"
-  color: "#b09a74"
+  template: geologic-section
+  scene: time.object
+  caption: 元古宙 · 微生物与早期真核细胞
+  note: 细胞结构为概念示意，不代表某一具体化石的形态复原。
+  color: '#b09a74'
 mode: 时点
 tags:
   - 地质年代
@@ -83,3 +89,7 @@ tags:
 ## 与其他阶段的关系
 
 元古宙向前连接太古宙的早期大陆与微生物世界，向后连接显生宙的骨骼化动物、寒武纪多样化以及陆地生态系统。它像一个漫长的“实验室”，许多后来在显生宙展开的结构和关系都在这里完成基础准备。把元古宙当成一个整体来读，容易忽略内部巨大的时间跨度；更合适的做法是沿着具体事件逐段查看。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Nature Communications）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

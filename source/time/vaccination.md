@@ -17,6 +17,7 @@ related:
   - time.covid-pandemic
   - time.enlightenment
   - time.human-lifespan
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: About Edward Jenner
@@ -27,6 +28,10 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/science/variolation'
     accessed: '2026-11-06'
+  - title: Penicillin
+    url: 'https://oxfordhealth.web.ox.ac.uk/penicillin'
+    publisher: 'Oxford Health Histories, University of Oxford'
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -86,3 +91,7 @@ Britannica 指出，人痘接种最早的书面描述来自中国和印度。中
 ## 常见误解
 
 常见误解是“詹纳发明了第一种疫苗，所以此前没有人做过免疫实践”。人痘接种在亚洲和奥斯曼地区已有长期实践，詹纳的关键贡献是用风险更低的牛痘材料完成实验验证并公开方法。另一个误解是把一次接种当成终身免疫；不同疫苗的持续时间与加强剂安排并不相同。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Oxford Health Histories, University of Oxford）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

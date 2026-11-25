@@ -5,7 +5,7 @@ summary: >-
   单个成熟人类精子细胞的湿重均值约 2.0×10⁻¹⁴ kg（20 pg），干重约为湿重的 20–30%。它由头部与鞭毛组成，单倍体基因组 DNA 只占约
   3.3 pg，其余主要是水与蛋白质。
 dimension: mass
-category: 生殖细胞
+category: 生命与人体
 displayValue: 2.0×10⁻¹⁴ kg
 quantity:
   value: 2.e-14
@@ -71,6 +71,7 @@ visual:
   color: '#b48cff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Human sperm cell
 ---
 ## 这个读数是什么
 

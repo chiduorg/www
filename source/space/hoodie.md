@@ -17,6 +17,7 @@ related:
   - space.hat
   - space.backpack
   - space.wardrobe
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Heavy Blend™ Hooded Sweatshirt 18500 — finished measurements
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.yourgildan.jp/18500/'
     publisher: GILDAN Japan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为成人 M 码连帽卫衣；测量口径为后身从肩颈点附近到下摆的衣长，平铺、不拉伸，不含帽、罗纹下摆翻边和洗涤后的缩水。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 70 厘米约为成年人手长 20 厘米的 3.5 倍，也约为 A4 纸长边 29.7 厘米的 2.4 倍。它和 T 恤衣长 70 厘米基本相当，比一顶棒球帽约 25 厘米的最大外宽长约 2.8 倍。成人穿上后，下摆通常盖过腰线，落在髋部上方；若衣长到 75 厘米，就会接近臀部下方。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.3 纳秒，在时间轴上量级接近「纳秒」。[3]

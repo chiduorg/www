@@ -25,6 +25,8 @@ related:
   - temperature.sirius-surface
   - temperature.f-type-star
   - temperature.sun-surface
+  - space.supernova-remnant
+  - space.red-giant
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -33,9 +35,9 @@ sources:
     url: 'https://arxiv.org/abs/astro-ph/0603327'
     publisher: 'Aufdenberg et al. (2006), ApJ preprint'
     accessed: '2026-11-06'
-  - title: 'The Spectral Sequence'
-    url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectral-sequence'
-    publisher: 'OpenStax Astronomy 2e（CC BY 4.0）'
+  - title: The Spectra of Stars (and Brown Dwarfs)
+    url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectra-of-stars-and-brown-dwarfs'
+    publisher: OpenStax Astronomy 2e（CC BY 4.0）
     accessed: '2026-11-07'
   - title: Vega
     url: 'https://www.britannica.com/place/Vega-star'

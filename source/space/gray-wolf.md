@@ -17,6 +17,7 @@ related:
   - space.cat
   - space.coyote
   - space.red-fox
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Gray wolf
@@ -27,6 +28,10 @@ sources:
     url: 'https://home.nps.gov/yell/learn/nature/wolf.htm'
     publisher: National Park Service
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年灰狼；量取从吻端沿体轴到尾根的头体长，尾巴不计；不含肩高，也不含鬃毛与姿态造成的额外长度；北方种群通常大于南方种群。
 uncertainty: 成年灰狼头体长通常约 1.0–1.6 m。Britannica 给出典型北方雄性全长约 2 m（含约 0.5 m 尾），折算头体长约 1.5 m；NPS 记录全长 4–6 英尺（约 1.2–1.8 m，含尾）。本条取 1.2 m 作代表值，大型北方雄性更大。
 review:
@@ -70,3 +75,7 @@ Britannica 的灰狼条目给出：典型的北方雄性全长约 2 米（含约
 ## 与其他尺度的关系
 
 1.2 米约为 1.7 米成年人的七成，是 0.48 米家猫的两倍半，也高于 0.72 米的狗；但比 2.2 米的棕熊短约一米。[1][2] 在食肉动物中，灰狼属于“米级中型捕食者”：向上是棕熊和狮，向下是家猫和家兔。头体长口径把狼与狗、猫放在同一把尺子上。若只量肩高，成年狼约 0.6–0.9 米，与头体长不是同一方向。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

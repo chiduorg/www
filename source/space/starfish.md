@@ -17,6 +17,7 @@ related:
   - space.oyster
   - space.barnacle
   - space.coral
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: sea star
@@ -27,6 +28,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Pisaster_ochraceus/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为海星纲（Asteroidea）成体；量相对两腕尖之间的最大跨度，不是单腕长度、中央盘直径或体重；30 cm 取在常见海星 20–30 cm 的上端，并在紫海星 25–45 cm 范围内。
 uncertainty: >-
@@ -73,3 +78,7 @@ Britannica 的 sea star 条目写明，多数海星跨度 20–30 厘米，少�
 ## 与其他尺度的关系
 
 30 厘米约为蘑菇菌盖 10 厘米的三倍，约为海胆壳径 10 厘米的三倍，约为牡蛎壳长 20 厘米的 1.5 倍，也约为 1.7 米高成人的 0.18 倍。[1][2] 在尺度轴上，海星臂展落在“几十厘米级”的上段：向下是牡蛎、藤壶和海胆，向上是章鱼、鲨鱼与人类。用臂展而不是单腕长度记录，才能与其它辐射对称动物保持一致。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.0 纳秒，在时间轴上量级接近「纳秒」。[3]

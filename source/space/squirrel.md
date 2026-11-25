@@ -16,6 +16,7 @@ related:
   - space.cat
   - space.bat
   - space.human
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Sciurus carolinensis
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/animal/squirrel'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年东部灰松鼠；量取从吻端到尾根的头体长，尾巴不计；不采用含尾总长，也不把蓬松尾毛的展开长度算进去。
 uncertainty: ADW 给出总长 380–525 mm、尾长 150–250 mm，相减得头体长 230–275 mm；Britannica 只说明树松鼠的尾约与头体等长。0.28 m 取在上限并做四舍五入，实际常见值约 0.23–0.27 m。
 review:
@@ -70,3 +75,14 @@ Animal Diversity Web 的东部灰松鼠条目记录：总长 380–525 毫米，
 ## 与其他尺度的关系
 
 0.28 米大约是一张 A4 纸的长边，比家兔约 0.4 米的头体长短十多厘米，却比蝙蝠的身体长不少，也远小于 0.45 米的家猫。[1][2] 在尺度轴上，灰松鼠属于“二三十厘米级”的小型哺乳动物，向上是猫、兔和恒河猴，向下是仓鼠与更小的啮齿类。放到 30 米蓝鲸旁边，它约占其一百零七分之一。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.93 纳秒，在时间轴上量级接近「纳秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 0.28 米，换算后是 28 厘米；约 1.17 个篮球直径（24 厘米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻¹ 量级附近。
+
+读图时先看量级，再看倍数：10⁻¹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

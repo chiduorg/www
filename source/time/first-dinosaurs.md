@@ -14,12 +14,12 @@ quantity:
   approximate: true
 displayValue: t ≈ 135.7 亿年（距今约2.3亿年）
 related:
+  - space.human
   - time.first-reptiles
   - time.mesozoic
   - time.jurassic-period
   - time.dinosaurs
   - time.k-pg-extinction
-  - time.first_birds
 chronology:
   status: reference
   plot: true
@@ -33,6 +33,10 @@ sources:
     url: 'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf'
     publisher: International Commission on Stratigraphy
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -82,3 +86,5 @@ tags:
 ## 与其他阶段的关系
 
 最早恐龙出现在三叠纪晚期的生态重组之后，与早期哺乳动物、鳄类近亲和翼龙共享陆地环境。它们在中生代逐渐成为陆地上的优势类群之一，并在白垩纪末大灭绝中失去非鸟成员。沿时间轴向后，可以把恐龙起源、多样化、鸟类起源和灭绝分成不同事件；这条坐标只负责给出一个可追溯的起点参考。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

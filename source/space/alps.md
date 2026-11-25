@@ -17,6 +17,7 @@ related:
   - space.earth
   - space.glacier
   - space.tectonic-plate
+  - time.millisecond
 reviewStatus: reviewed
 sources:
   - title: Alps
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Alps'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为欧洲中南部的阿尔卑斯山系；测量口径为从地中海沿岸至维也纳附近的弧形长度，不是南北宽度、山系面积、最高峰海拔或整条欧亚山链的长度。
 uncertainty: >-
   Britannica摘要给出约750英里（1,200公里），更细的地图量取常给1,207公里；差异来自端点取点与圆整，不是测量误差。
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 1,200公里约为地球平均半径6,371公里的19%，约为长江6,300公里的五分之一。它与喜马拉雅2,500公里相比约为后者的48%，说明阿尔卑斯只是欧亚山链中的一小段。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.0 毫秒，在时间轴上量级接近「毫秒」。[3]

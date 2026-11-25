@@ -18,6 +18,7 @@ related:
   - space.nacl-crystal
   - space.hair
   - space.cell
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Study on the Selective Laser Melting of CuSn10 Powder
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.mdpi.com/2075-4701/12/9/1453'
     publisher: Metals (MDPI) / Li et al.
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   以铸态或近铸态铜锡合金的 α 相晶粒为对象，取等轴晶直径约 10 微米；
   冷却速度、合金元素和后续变形会改变晶粒尺寸，不适用于所有青铜制品。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 10 微米约为红细胞 7.5 微米的 1.3 倍，约为人体细胞 20 微米的一半，也只有头发丝 100 微米的 1/10。它相当于约 5 万个 0.2 纳米的晶格间距。与 NaCl 晶体 0.282 纳米的晶胞边长相比，晶粒横跨约三万五千个晶胞。继续阅读晶格间距、NaCl 晶体与头发丝，可把“晶胞—晶粒—日常物体”串起来。青铜晶粒与钢晶粒同处 10 微米量级，但青铜更常出现枝晶与粗大第二相，组织形貌并不相同。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.000033 纳秒，在时间轴上量级接近「纳秒」。[3]

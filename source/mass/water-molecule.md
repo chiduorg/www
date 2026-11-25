@@ -5,7 +5,7 @@ summary: >-
   一个水分子由两个氢原子和一个氧原子组成，分子质量 18.0153 u，合 2.9915×10⁻²⁶
   kg。它的质量略小于三个孤立原子之和，差额就是分子结合能。
 dimension: mass
-category: 分子
+category: 生命与人体
 displayValue: 2.99×10⁻²⁶ kg（18.0153 u）
 quantity:
   value: 2.9915e-26
@@ -19,6 +19,7 @@ related:
   - mass.proton
   - elements.o
   - elements.h
+  - temperature.water-freezing
 reviewStatus: reviewed
 review:
   method: source-check
@@ -47,6 +48,14 @@ sources:
     url: 'https://bionumbers.hms.harvard.edu/'
     publisher: Harvard Medical School
     accessed: '2026-11-09'
+  - title: "CCCBDB experimental geometry for neutral H2O — CAS 7732-18-5, charge 0"
+    url: "https://cccbdb.nist.gov/exp2x.asp?casno=7732185&charge=0"
+    publisher: "NIST / Computational Chemistry Comparison and Benchmark Database"
+    accessed: '2026-11-24'
+  - title: "Water — chemical compound"
+    url: "https://www.britannica.com/science/water"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 水分子
@@ -71,6 +80,7 @@ visual:
   color: '#9cc8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Water molecule
 ---
 ## 这个读数是什么
 
@@ -90,6 +100,24 @@ visual:
 
 2.9915×10⁻²⁶ kg 落在 B3 带的下段，比质子重约 17.9 倍，比一个葡萄糖分子轻约一个数量级。它是质量轴上少数能直接对应日常经验的读数：1 升水约 3.3×10²⁵ 个分子，一摩尔水 18 克，这些换算都从同一个 18.0153 u 出发。[3]
 
+## 摩尔与单个分子
+
+一个水分子约 2.99×10⁻²⁶ 千克；一摩尔水约 18 克，含约 6.022×10²³ 个分子。两个数通过阿伏伽德罗常数连接，不能把 18 直接当成单个分子的质量。化学式里的 18.015 是原子质量单位，不是千克。[1][S2]
+
+水的摩尔质量 18.015 克/摩尔是常规原子量口径；纯 ¹H₂¹⁶O 约 18.0106 克/摩尔。同位素组成不同，摩尔质量与密度都会略变，但单个分子的数量级不变。
+
 ## 怎么继续走
 
 想看它在空间轴上的尺寸与氢键网络，去 space.water-molecule；想看组成它的原子，去 mass.hydrogen-atom、elements.h 与 elements.o；想看水在细胞里占多大比重，从 space.cell 进入空间轴。
+
+## 摩尔与单个分子不是同一个数
+
+一个水分子约 2.99×10⁻²⁶ 千克；一摩尔水约 18 克，包含约 6.022×10²³ 个分子。[2] 两个数通过阿伏伽德罗常数连接，不能把“18”直接当成单个分子的质量。化学式里的 18.015 是原子质量单位，不是千克。
+
+## 五轴对照
+
+在质量轴，水分子约 3×10⁻²⁶ 千克；在空间轴，它约 0.15 纳米；在温度轴，0 ℃与 100 ℃标记相变；在时间轴，水分子中的氢来自宇宙早期核合成。分子质量、相态与来源是不同问题。[1][2]
+
+## 延伸核对
+
+补充的来源 [4]（NIST / Computational Chemistry Comparison and Benchmark Database）、[5]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

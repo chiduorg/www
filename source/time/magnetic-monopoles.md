@@ -13,11 +13,12 @@ quantity:
   approximate: true
 displayValue: t ≈ 10⁻³⁵ 秒（模型参考）
 related:
+  - space.observable-universe
+  - mass.total-matter-universe
   - time.grand-unification-epoch
   - time.inflation
   - time.reheating
   - time.baryogenesis
-  - time.cosmic-strings
 reviewStatus: reviewed
 sources:
   - title: magnetic monopole

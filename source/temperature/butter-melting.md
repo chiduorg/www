@@ -19,6 +19,7 @@ related:
   - temperature.oven
   - temperature.room-temperature
   - temperature.food-safe
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: 'Functional and Quality Profile Evaluation of Butters, Spreadable Fats, and Shortenings Available from Czech Market'
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/topic/butter'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 黄油乳液
   measurementSite: 黄油整体
@@ -77,3 +82,5 @@ tags:
 ## 与其他温度的关系
 
 306 K 接近 chocolate-melting 的 305 K，但两者熔化机制不同：一个是乳脂乳液，一个是可可脂晶型。它高于 fridge 的约 277 K，说明冷藏能保持固态；低于 oven 的 453 K。黄油正好处在“冷藏、室温软化、加热熔化”三个厨房状态的交界。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -19,6 +19,7 @@ related:
   - temperature.copper-melting-point
   - temperature.lead-melting-point
   - temperature.tin-melting
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: 'Lead-Free Solders: A Change in the Electronics Infrastructure'
@@ -31,6 +32,10 @@ sources:
       https://www.indium.com/wp-content/uploads/2025/03/Indalloy256-for-Preforms-PDS-100346-R0-1.pdf
     publisher: Indium Corporation
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   Sn63Pb37（63% Sn、37% Pb，质量分数）共晶合金，或 Sn96.5Ag3.0Cu0.5（SAC305）无铅合金；约 1
   atm、清洁金属表面与合适助焊剂。合金成分、杂质、加热速率和氧化会改变固/液相线与润湿行为。
@@ -78,3 +83,5 @@ tags:
 ## 与其他温区的关系
 
 456 K 低于纯锡熔点 505.08 K和纯铅熔点约 600 K，这正是合金化降低熔点的例子；SAC305 的 490–493 K 则接近纯锡熔点。[1][2] 与铜的 1,358 K 相比，焊锡熔点低约 900 K，因此可以用低得多的热输入连接铜导体。与橡胶硫化的 423–453 K 相比，Sn63Pb37 的 456 K 略高，二者同处中温工艺段但目的不同。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

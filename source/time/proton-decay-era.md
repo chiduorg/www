@@ -34,6 +34,7 @@ related:
   - time.black-hole-era
   - time.heat-death
   - time.nuclear-timescale
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'Lecture 47: Death in the Universe'

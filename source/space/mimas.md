@@ -10,12 +10,14 @@ quantity:
   unit: m
   measure: 两倍JPL所列平均半径198.20 km（约396.4 km，取整为396 km）
   approximate: true
-displayValue: '约 396 km（平均直径）'
+displayValue: 约 396 km（平均直径）
 related:
   - space.saturn
   - space.enceladus
   - space.titan
   - space.earth
+  - time.solar-system
+  - mass.moon
 reviewStatus: reviewed
 sources:
   - title: Planetary Satellite Physical Parameters
@@ -26,15 +28,24 @@ sources:
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html'
     publisher: NASA NSSDCA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为土星卫星土卫一的固体表面；采用JPL所列平均半径198.20公里加倍；不含稀薄外逸层，也不把赫舍尔坑的坑径当作卫星直径。
-uncertainty: JPL列平均半径198.20±0.40公里，直径约396.4±0.8公里；NSSDCA列三轴半径208、197、191公里，三轴平均约198.7公里，最长轴直径约416公里。
+uncertainty: >-
+  JPL列平均半径198.20±0.40公里，直径约396.4±0.8公里；NSSDCA列三轴半径208、197、191公里，三轴平均约198.7公里，最长轴直径约416公里。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
     - 打开JPL卫星物理参数表与NASA NSSDCA土星卫星事实表，核对平均半径、三轴尺寸与反照率。
     - 明确396公里是平均直径，不把最长轴416公里或赫舍尔坑的139公里当作整体直径。
-    - '2026-11-07 来源可访问性核对：https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html 返回可用响应；https://ssd.jpl.nasa.gov/sats/phys_par/（TypeError: fetch failed） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07
+      来源可访问性核对：https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html
+      返回可用响应；https://ssd.jpl.nasa.gov/sats/phys_par/（TypeError: fetch failed）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -72,3 +83,12 @@ JPL卫星物理参数表列土卫一平均半径198.20公里，不确定度0.40�
 ## 与其他尺度的关系
 
 396公里约为月球直径3474.8公里的11.4%，约为土卫二504公里的0.79倍，约为谷神星940公里的0.42倍，约为地球12742公里的3.1%。[1][2] 与土星平均直径116464公里相比，它只占约0.34%，在土星卫星系统中属于中等偏小的成员。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 396000 米，换算后是 396 千米；约 0.0311 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁵ 量级附近。
+
+读图时先看量级，再看倍数：10⁵ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

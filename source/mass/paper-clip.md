@@ -5,7 +5,7 @@ summary: >-
   常见的 33 mm 标准回形针由约 0.8 mm 镀锌钢丝弯成，展开长度约 12 cm，按钢密度 7850 kg/m³ 估算约 5×10⁻⁴ kg（0.5
   g）。这是单个净重，不含包装。
 dimension: mass
-category: 日常五金
+category: 日常与人造
 displayValue: 约 5×10⁻⁴ kg
 quantity:
   value: 0.0005
@@ -18,6 +18,8 @@ related:
   - mass.tablet
   - mass.sand-grain
   - mass.tea-leaf
+  - space.paper-clip
+  - space.human
 reviewStatus: reviewed
 review:
   method: source-check
@@ -70,6 +72,7 @@ visual:
   color: '#c9a77a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Standard paper clip
 ---
 ## 这个读数是什么
 

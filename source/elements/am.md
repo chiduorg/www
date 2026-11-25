@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/95/americium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 锕系, 镅]
 rights:
   status: rewritten
@@ -70,3 +74,5 @@ rights:
 ## 它从哪里来
 
 来源记作“人工（反应堆中子俘获）”。[2] 钚靶在反应堆里继续吸收中子，经 β 衰变后生成镅；这条路径决定镅只能作为反应堆产物出现，而不是从矿石里提取。放到时间轴上，它属于核时代的人工合成段：与 r 过程、天然衰变链都无关，相关节点是核时代。[1]
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

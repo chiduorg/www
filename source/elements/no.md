@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/102/nobelium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 锕系, 锘]
 rights:
   status: rewritten
@@ -70,3 +74,5 @@ rights:
 ## 它从哪里来
 
 来源记作“人工（加速器）”。锘由重离子轰击锕系靶核合成，一次实验只能得到极少数原子，靠衰变链的能量与半衰期识别。[2] 挂到核时代节点之后：它不是天然衰变链的成员，也不来自恒星核合成。锘没有稳定同位素，这既是它难以研究的原因，也是元素轴在这里必须把化学与核稳定性分开讲的原因。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

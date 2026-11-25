@@ -19,6 +19,7 @@ related:
   - temperature.human-body-temperature
   - temperature.caramelization
   - temperature.food-safe
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: The science of melting chocolate
@@ -30,6 +31,10 @@ sources:
     url: 'https://www.britannica.com/topic/chocolate'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 可可脂与巧克力浆
   measurementSite: 巧克力内部
@@ -78,3 +83,12 @@ tags:
 ## 与其他温度的关系
 
 305 K 略低于 human-body-temperature 的约 310 K，因此巧克力能在口中迅速软化。它接近 butter-melting 的 306 K，但两者一个是可可脂晶型转变，一个是乳脂乳液熔化，不能直接等同。它也远低于 oven 的 453 K，说明调温是精细的低温柔区操作。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 305 K，即 31.85 ℃（按 T/K−273.15 换算）；约为人体核心温度（310 K）的 0.984 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

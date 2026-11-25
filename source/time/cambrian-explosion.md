@@ -17,8 +17,8 @@ related:
   - time.ediacaran-biota
   - time.origin-of-animals
   - time.first-fish
-  - time.ordovician-radiation
-  - time.first-corals
+  - space.trilobite
+  - temperature.sea-surface
 reviewStatus: reviewed
 sources:
   - title: Cambrian explosion
@@ -29,6 +29,14 @@ sources:
     url: 'https://www.smithsonianmag.com/science-nature/what-led-life-to-flourish-roughly-520-million-years-ago-180987290/'
     publisher: Smithsonian Magazine
     accessed: '2026-11-07'
+  - title: "International Chronostratigraphic Chart, version 2024/12"
+    url: "https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf"
+    publisher: "International Commission on Stratigraphy"
+    accessed: '2026-11-24'
+  - title: "Early Life on Earth – Animal Origins"
+    url: "https://naturalhistory.si.edu/education/teaching-resources/life-science/early-life-earth-animal-origins"
+    publisher: "Smithsonian National Museum of Natural History"
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -85,3 +93,27 @@ tags:
 ## 与其他阶段的关系
 
 寒武纪大爆发承接埃迪卡拉纪的复杂生命实验，并为奥陶纪大辐射准备了动物门类的基本框架。[1][2] 它改变了海洋生态系统的食物网与沉积方式，也为此后脊椎动物的演化提供了起点；把它画成时间轴上的一个点，只是导航需要。
+
+## 化石库为什么集中在少数地点
+
+澄江与布尔吉斯页岩保存了软躯体组织，是因为细粒沉积物快速埋藏、缺氧环境抑制腐烂，后期变质程度又较低。[1][2] 这种保存窗口很罕见；没有软躯体化石的地点，只能看到壳体和遗迹。全球化石记录的不均衡，会让“爆发”的时间与地点看起来更集中。
+
+## 爆发的时间尺度
+
+寒武纪大爆发常被压缩成“短短几百万年”，但主要动物门的出现跨越约 1,000 万年以上；不同门类、不同海域的节奏并不一致。[1] 相对于地球 46 亿年的历史，它确实很快；相对于人类历史，它仍是一段漫长的演化过程。把“快速”与“瞬间”分开，是理解寒武纪的关键。
+
+## 五轴对照
+
+在时间轴，寒武纪大爆发约 5.38 亿年前；在空间轴，动物体型从毫米到米级；在温度轴，寒武纪海洋温度影响代谢与钙化；在质量轴，动物质量从微克到千克。时间、体型与环境共同塑造了这场辐射。[1][2]
+
+## “爆发”跨度并不短
+
+寒武纪大爆发常被压缩成几百万年，但广义的寒武纪辐射可延续约 2,000 万年，不同动物门类出现的时间也不同。化石记录受保存条件影响，软躯体动物更难保存。把“爆发”当成一夜之间出现所有动物，会误解地层记录的分辨率。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 距今约5.38亿年（寒武纪早期参考），口径是 time-after-big-bang-derived-geological-reference。时间轴上的年份是地层、文献或模型给出的坐标，误差从几十年到几十万年不等；分期边界不是一条绝对精确的线。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [3]（International Commission on Stratigraphy）、[4]（Smithsonian National Museum of Natural History） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

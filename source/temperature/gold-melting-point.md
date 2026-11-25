@@ -17,6 +17,7 @@ related:
   - temperature.copper-melting-point
   - temperature.lead-melting-point
   - temperature.aluminum-melting
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Kelvin: ITS-90'

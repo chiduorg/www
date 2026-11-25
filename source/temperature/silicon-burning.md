@@ -17,11 +17,12 @@ quantity:
   uncertaintyType: 准平衡阈值与点火口径差异
 displayValue: 约 3 × 10⁹ K（模型量级）
 related:
+  - space.sun
+  - time.first-stars
   - temperature.oxygen-fusion
   - temperature.carbon-fusion
   - temperature.supernova
   - temperature.red-giant-core
-  - temperature.sun-core
 reviewStatus: reviewed
 sources:
   - title: 'Silicon Burning II: Quasi-Equilibrium and Explosive Burning'

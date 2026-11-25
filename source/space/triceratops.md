@@ -17,6 +17,7 @@ related:
   - space.elephant
   - space.human
   - space.blue-whale
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Triceratops
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.naturalis.nl/en/triceratops'
     publisher: Naturalis Biodiversity Center
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为三角龙（Triceratops）；量从吻端到尾椎末端的全长，不是头骨长度、肩高、体重或头盾宽度；9 m 是成体全长的取整参照。
 uncertainty: >-
@@ -73,3 +78,7 @@ Britannica 的 Triceratops 条目说，古生物学家估计三角龙的体长�
 ## 与其他尺度的关系
 
 9 米约等于 5 个 1.7 米高的人首尾相接，约等于 30 个 0.3 米菊石壳径，也约等于 90 个 0.1 米三叶虫。[1][2] 它比 12 米霸王龙短四分之一，约为 3.35 米肩高非洲象的 2.7 倍——但这里一个是全长、一个是肩高，倍数只能作直观参照。放在尺度轴上，三角龙与霸王龙同属“十米级陆生动物”，向下才是大象、人类和菊石。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 30 纳秒，在时间轴上量级接近「原子跃迁」。[3]

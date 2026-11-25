@@ -29,6 +29,10 @@ sources:
     url: 'https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells'
     publisher: OpenStax / Rice University
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: mitochondria
   icon: "\U0001F50B"
@@ -84,3 +88,5 @@ tags:
 ## 与其他尺度的关系
 
 2微米的长度约为细菌参照（1微米）的两倍，却只有典型真核细胞（20微米）的十分之一。[1] 在同一细胞里，线粒体与细胞膜、核糖体等结构又分属微米和纳米层次，构成一组套叠的尺度。这种“细胞内的尺度套叠”是理解细胞结构的关键。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -5,8 +5,8 @@ titleEn: Classical Cepheid effective surface temperature
 dimension: temperature
 category: 恒星与宇宙极端
 summary: >-
-  经典造父变星是周期性脉动的恒星，光球有效温度通常处在约 6,000 K 的温区。FF Aquilae 的光谱分析给出平均有效温度
-  6,195 ± 24 K，但脉动相位与单颗天体差异会使读数变化，不能把这一量级当成所有造父变星的固定值。
+  经典造父变星是周期性脉动的恒星，光球有效温度通常处在约 6,000 K 的温区。FF Aquilae 的光谱分析给出平均有效温度 6,195 ± 24
+  K，但脉动相位与单颗天体差异会使读数变化，不能把这一量级当成所有造父变星的固定值。
 quantity:
   value: 6000
   unit: K
@@ -19,6 +19,8 @@ related:
   - temperature.sun-surface
   - temperature.vega-surface
   - temperature.red-giant-core
+  - time.first-stars
+  - space.supernova-remnant
 reviewStatus: reviewed
 sources:
   - title: The Pulsation Mode and Distance of the Cepheid FF Aquilae
@@ -29,6 +31,10 @@ sources:
     url: 'https://www.britannica.com/science/Cepheid-variable'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为经典造父变星的光球；约 6,000 K 是量级参考，对应 FF Aquilae 平均有效温度 6,195 ± 24 K 的例子。
   脉动过程中半径与温度都会变化，不同恒星、不同相位和不同大气模型也会给出不同读数；它不是核心温度。
@@ -37,9 +43,12 @@ review:
   date: '2026-11-07'
   notes:
     - '核对 arXiv 1306.1228：FF Aquilae 的平均有效温度为 6,195 ± 24 K。'
-    - '核对 Britannica：经典造父变星极大时多为 F 型、极小时多为 G 型，支持其光球处在数千开尔文温区。'
+    - 核对 Britannica：经典造父变星极大时多为 F 型、极小时多为 G 型，支持其光球处在数千开尔文温区。
     - 取 6 × 10³ K 作量级锚点，正文不把单颗星的拟合值推广为所有造父变星的常数。
-    - '2026-11-07 来源可访问性核对：https://arxiv.org/abs/1306.1228 返回可用响应；https://www.britannica.com/science/Cepheid-variable（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07 来源可访问性核对：https://arxiv.org/abs/1306.1228
+      返回可用响应；https://www.britannica.com/science/Cepheid-variable（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料重新撰写，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -82,3 +91,5 @@ tags:
 ## 与其他温区的关系
 
 6,000 K 略高于太阳表面的约 5,772 K，与 F 型星和 G 型星的交界温区相近；它低于 O 型星和沃尔夫–拉叶星的数万开，也远低于红巨星核心的约 10⁸ K。与红超巨星参宿四的约 3,600 K 相比，造父变星光球更热，但两者的半径、质量和演化阶段完全不同，不能只凭温度判断谁更“强”。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

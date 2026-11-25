@@ -17,6 +17,7 @@ related:
   - space.eiffel-tower
   - space.statue-of-liberty
   - space.city
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: Shanghai Tower — Project Brief
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.great-towers.com/tower/shanghai-tower'
     publisher: World Federation of Great Towers
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为上海浦东陆家嘴的上海中心大厦；测量口径为建筑总高，从地面到建筑顶端，含塔冠与顶部结构；不是观景台高度、餐厅高度或结构屋面高度。
 uncertainty: 项目方与行业组织均登记 632 米；观景台为 546 米与 552 米，餐厅 552 米。总高与可使用高度相差约 80 米，引用时须说明是哪一栏。
 review:
@@ -72,3 +77,14 @@ tags:
 ## 与其他尺度的关系
 
 632 米约为埃菲尔铁塔 330 米的 1.9 倍，约为哈利法塔 828 米的 76%。它比自由女神像含基座总高 92.99 米高约 6.8 倍，也约为足球场 105 米边线的 6 倍。[2] 在陆家嘴天际线中，它属于超高层尺度，但仍远小于地球直径。在风荷载与地震工况下，超高层的高度还受结构体系限制。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.1 微秒，在时间轴上量级接近「微秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 632 米，换算后是 632 米；约 4.96×10⁻⁵ 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

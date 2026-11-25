@@ -18,6 +18,7 @@ related:
   - space.leaf
   - space.human
   - space.cactus
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: 'Rosa [Mum in a Million]'
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.rhs.org.uk/plants/244267/rosa-caroline-victoria-harprior-(pbr)-(ht)/details'
     publisher: Royal Horticultural Society
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为园林灌木月季，不是攀缘藤本或地被类型；量自然株形从地面到枝条顶端的垂直高度，不含花径、冠幅和修剪后临时抽出的长枝。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 1 m 约为向日葵株高（2 m）的一半，约为人类身高（1.7 m）的六成，也约为苔藓高度（5 cm）的 20 倍。它和餐椅高度（0.9 m）接近。在尺度轴上，它处在灌木层，向上是银杏和猴面包树，向下是草本与地衣。1 m 也约为巨杉高度（95 m）的九十五分之一。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

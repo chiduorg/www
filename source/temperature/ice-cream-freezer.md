@@ -20,6 +20,7 @@ related:
   - temperature.water-freezing
   - temperature.food-safe
   - temperature.dry-ice-sublimation
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Ice Cream
@@ -31,6 +32,10 @@ sources:
       https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety
     publisher: USDA Food Safety and Inspection Service
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 冰淇淋混合料与包装成品
   location: 家用冷冻室或零售冷冻柜中部
@@ -86,3 +91,5 @@ tags:
 ## 与其他温区的关系
 
 255 K 低于水的冰点 273.15 K，也低于冷藏室约 277 K，却高于干冰升华点约 195 K 和液氮的 77.4 K。它与冷冻室条目的 255 K 数值相同，但本条关注冰淇淋产品与储存口径，而不是冷冻室空气本身。[1] 与冰淇淋速冻的 −30 至 −40 ℃相比，255 K 只是“储存足够冷”，并非“快速冻结”；把这两类温度并列时，应说明设备、产品和测量位置。[2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -20,6 +20,7 @@ related:
   - time.carboniferous-period
   - time.first-flowering-plants
   - time.origin-of-animals
+  - space.human
 chronology:
   status: reference
   plot: true

@@ -16,6 +16,7 @@ related:
   - space.football-field
   - space.city
   - space.human
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: 'Design & Construction Stats — Length, Width, Height, Weight'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/topic/Golden-Gate-Bridge'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: golden-gate-bridge
   icon: "\U0001F309"
@@ -87,3 +92,7 @@ tags:
 ## 与其他尺度的关系
 
 2737米约等于26个足球场105米边线首尾相接，约为珠峰8848.86米高程的31%。与地球到月球平均距离384,400公里相比，它约为后者的0.00071%。在旧金山城市尺度中，它是一条跨湾通道，不是城市直径。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 9.1 微秒，在时间轴上量级接近「微秒」。[3]

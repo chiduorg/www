@@ -18,6 +18,7 @@ related:
   - space.uranium-nucleus
   - space.atom
   - space.neutron-star
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Nuclear Charge Radii — 56Fe row
@@ -36,6 +37,10 @@ sources:
     url: 'https://www.britannica.com/science/atom'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: iron-nucleus
   icon: "\U0001F7E4"
@@ -91,3 +96,5 @@ IAEA 评估表把光学同位素位移、缪子谱与电子散射等资料联合
 ## 与其他尺度的关系
 
 铁-56 核在尺度轴上位于碳-12 核（约 2.47 飞米）与铀-238 核（约 5.86 飞米）之间，三者都属于 10⁻¹⁵ 米量级。[1] 它们与原子（约 10⁻¹⁰ 米）之间隔着约五个数量级，与中子星（约 10 千米）之间则隔着更多数量级。比较这些对象时，统一取半径或统一取直径，比记住单个数字更重要。
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.2e-14 纳秒，在时间轴上量级接近「强相互作用时间」。[5]

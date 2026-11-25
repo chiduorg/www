@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/glucose'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   采用环状吡喃葡萄糖在中性、未水合、最低位阻构象下的计算尺寸；长轴 8.6 埃、短轴 8.4
   埃由键长、键角与范德华半径估算。它不是水溶液中葡萄糖的水合动力学直径，也不是开链形式的长度。
@@ -79,3 +83,5 @@ tags:
 ## 与其他尺度的关系
 
 0.86 纳米比水分子核间距大，却远小于蛋白质和细胞。它处在“小分子”与“生物大分子单体”的交界处：氨基酸、核苷酸与葡萄糖都在一纳米上下，而蛋白质折叠后的尺度可达数纳米。[1][2] 继续阅读氨基酸、核苷酸与蛋白质，可比较不同生物单体的尺寸口径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

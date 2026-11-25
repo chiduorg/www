@@ -17,8 +17,9 @@ related:
   - space.black-hole-event-horizon
   - space.sagittarius-a-star
   - space.virgo-cluster
-  - space.galaxy-cluster
   - space.milky-way
+  - mass.m87-black-hole
+  - temperature.black-hole-accretion-disk
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -32,6 +33,14 @@ sources:
     url: 'https://www.britannica.com/science/black-hole'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "Black Holes"
+    url: "https://imagine.gsfc.nasa.gov/science/objects/black_holes1.html"
+    publisher: "NASA / GSFC / Imagine the Universe"
+    accessed: '2026-11-24'
+  - title: "Virgo Cluster — NED Level 5 essay"
+    url: "https://ned.ipac.caltech.edu/level5/ESSAYS/Binggeli/binggeli.html"
+    publisher: "NASA / IPAC Extragalactic Database"
+    accessed: '2026-11-24'
 conditions: >-
   指 M87* 由质量推算的事件视界直径，采用约 65 亿太阳质量与 Rs=2GM/c²；适用于超大质量黑洞的 视界量级比较，不等于 EHT
   阴影直径、亮环直径或 M87 星系本身的大小。
@@ -81,3 +90,23 @@ EHT 在 2017 年联合多台射电望远镜观测，2019 年公布第一张黑�
 ## 与其他尺度的关系
 
 3.8×10¹³ 米约合 254 天文单位，是太阳到海王星距离的约 8 倍。它比 Sgr A* 的视界大约 1,600 倍，质量也约 1,600 倍，符合 Rs 与质量成正比。把视界直径与太阳系并排，它可以覆盖内太阳系到柯伊伯带的一部分，但相对整个星系仍是一个极小的点。
+
+## 阴影为什么比视界大
+
+事件视界是光线无法逃出的边界，阴影是它在观测平面上的投影。强引力会把视界后方的光弯折到观测者眼前，使暗区看起来比视界本身更大；EHT 的亮环也不是视界边缘。[1][2] 把“380 亿公里”与“阴影直径”混在一起，会把一个由质量换算的长度当成图像测量值。
+
+## 误差预算：质量、距离与形态
+
+65 亿太阳质量不是单一仪器的直读。质量由气体动力学、恒星动力学与广义相对论模拟拟合共同约束，距离误差会按比例传入视界直径；环的形态、亮斑分布和倾角也影响阴影拟合。[1][2] 本页的 3.8×10¹³ 米是质量换算值，不是对阴影的独立测距；两者可以互相校验，但不能互相替代。
+
+## 五轴对照
+
+在空间轴，它的事件视界是 10¹³ 米级；在质量轴，它约 1.29×10⁴⁰ 千克，属于超大质量黑洞；在温度轴，吸积盘与喷流把引力能转成高温辐射；在时间轴，它涉及第一代超大质量黑洞如何形成。把“视界大小”与“黑洞质量”分开，才能读懂 EHT 图像。[1][2]
+
+## 阴影直径与质量
+
+M87* 的阴影直径约 42 微角秒，配合 5,500 万光年距离，对应约 1,000 亿公里级；视界直径则由 65 亿太阳质量决定。阴影比视界大，是因为光子环与引力透镜把光线推到更外圈。把阴影直径直接当成视界直径，会漏掉约 2.6 倍的引力修正。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（NASA / GSFC / Imagine the Universe）、[4]（NASA / IPAC Extragalactic Database） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

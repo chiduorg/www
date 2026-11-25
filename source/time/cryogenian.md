@@ -4,7 +4,9 @@ title: 成冰纪
 titleEn: Cryogenian Period
 dimension: cosmic-time
 category: 地球深时
-summary: 成冰纪是新元古代的第二个纪，按ICS 2024/12约从720 Ma延续到635 Ma；斯图尔特与马里诺两次大范围冰期都落在这段时期，但“成冰纪”不等于“雪球地球”假说本身。
+summary: >-
+  成冰纪是新元古代的第二个纪，按ICS 2024/12约从720 Ma延续到635
+  Ma；斯图尔特与马里诺两次大范围冰期都落在这段时期，但“成冰纪”不等于“雪球地球”假说本身。
 quantity:
   value: 412678528000000000
   unit: s
@@ -18,6 +20,7 @@ related:
   - time.neoproterozoic
   - time.snowball-earth
   - time.rodinia-breakup
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +31,18 @@ sources:
     url: 'https://www.britannica.com/science/Cryogenian-Period'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: What made Earth a giant snowball 700m years ago? Scientists have an answer
+    url: >-
+      https://www.sydney.edu.au/news-opinion/news/2024/02/08/geoscientists-discover-what-turned-snowball-earth-sturtian-ice-age-earthbyte.html
+    publisher: University of Sydney / EarthByte
+    accessed: '2026-11-24'
+  - title: >-
+      Deep-water first occurrences of Ediacara biota prior to the Shuram carbon
+      isotope excursion in the Wernecke Mountains, Yukon, Canada
+    url: >-
+      https://www.usgs.gov/publications/deep-water-first-occurrences-ediacara-biota-prior-shuram-carbon-isotope-excursion
+    publisher: USGS / Geobiology
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -42,7 +57,8 @@ conditions:
   calendarReferenceYear: 2026
   note: 导航时点取纪的底界，存储秒数只用于时间轴排序。
 uncertainty: >-
-  ICS 2024/12取成冰纪底界720 Ma、顶界635 Ma；底界以750 Ma之后第一次冰期开始作定义，属于年代参考。两次冰期的起止、持续时间与全球冰覆盖程度仍在研究，界线数值可能随测年修订。
+  ICS 2024/12取成冰纪底界720 Ma、顶界635 Ma；底界以750
+  Ma之后第一次冰期开始作定义，属于年代参考。两次冰期的起止、持续时间与全球冰覆盖程度仍在研究，界线数值可能随测年修订。
 review:
   method: source-check
   date: '2026-11-07'
@@ -50,7 +66,11 @@ review:
     - 核对ICS 2024/12年代表，采用成冰纪720至635 Ma。
     - 核对Britannica成冰纪条目，采用其为新元古代第二个纪、底界按冰期开始定义，以及斯图尔特与马里诺冰期的说明。
     - 资料核对不代表外部同行评审。
-    - '2026-11-07 来源可访问性核对：https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf 返回可用响应；https://www.britannica.com/science/Cryogenian-Period（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07
+      来源可访问性核对：https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf
+      返回可用响应；https://www.britannica.com/science/Cryogenian-Period（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -84,3 +104,11 @@ tags:
 ## 与其他阶段的关系
 
 成冰纪前接拉伸纪的罗迪尼亚裂解背景，后接埃迪卡拉纪的软躯体生物群扩张；冰期结束层位也接近埃迪卡拉生物群最早出现的地层。[1][2] 冰期结束后的氧气与营养盐变化，常被视为复杂生命在埃迪卡拉纪变得可见的环境前提之一。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（University of Sydney / EarthByte）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（USGS / Geobiology）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

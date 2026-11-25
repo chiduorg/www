@@ -20,6 +20,7 @@ related:
   - temperature.liquid-nitrogen
   - temperature.liquid-oxygen
   - temperature.absolute-zero
+  - space.moon
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -32,6 +33,10 @@ sources:
     url: 'https://www.pnas.org/doi/10.1073/pnas.2536178123'
     publisher: 'Proceedings of the National Academy of Sciences'
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   环境压力、最优空穴掺杂的 HgBa₂Ca₂Cu₃O₈₊δ（Hg1223）样品的超导临界温度参考；氧含量、压力、应变、
   磁场与测量判据都会改变 Tc，不适用于所有铜氧化物，也不代表器件可在此温度附近无冷却运行。
@@ -84,3 +89,5 @@ Tc 由电阻—温度曲线、磁化或比热测量确定：降温时电阻骤�
 ## 与其他温区的关系
 
 138 K 高于液氮的 77.4 K、液氧的 90.2 K 和 YBCO 的约 92 K，也高于液氦的 4.22 K 与铌的 9.2 K，但仍低于水的冰点 273.15 K 和室温。[1][2] 它说明铜氧化物把超导温区推进到液氮以上，却没有改变“临界温度不等于无需冷却”的基本事实。与 YBCO 相比，Hg1223 含汞，合成与安全处理更复杂，研究价值多于大规模应用。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

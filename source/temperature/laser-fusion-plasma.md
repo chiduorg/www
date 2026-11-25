@@ -19,16 +19,21 @@ related:
   - temperature.sun-core
   - temperature.quark-gluon
   - temperature.supernova
+  - space.neutron-star
 reviewStatus: reviewed
 sources:
   - title: 'Target Chamber'
     url: 'https://lasers.llnl.gov/about/how-nif-works/target-chamber'
     publisher: Lawrence Livermore National Laboratory
     accessed: '2026-11-07'
-  - title: 'Targeting the future of fusion'
-    url: 'https://www.lanl.gov/media/publications/national-security-science/targeting-the-future-of-fusion'
-    publisher: Los Alamos National Laboratory
+  - title: "Achieving Fusion Ignition"
+    url: 'https://lmf.llnl.gov/science/achieving-fusion-ignition'
+    publisher: "Lawrence Livermore National Laboratory"
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为惯性约束聚变靶丸中心、峰值压缩阶段的热斑；1 × 10⁸ K 是量级参考，
   不是整个靶丸、烧蚀层、靶室壁或驱动激光器的温度。
@@ -84,3 +89,5 @@ tags:
 ## 与其他温区的关系
 
 10⁸ K 高出太阳核心的约 1.57 × 10⁷ K 约一个数量级，与 ITER 设计等离子体的约 1.5 × 10⁸ K 同量级，但远低于夸克—胶子等离子体的理论温标。它代表实验室里能短暂达到的最高温区之一，说明惯性约束用压缩和短脉冲替代了恒星的引力约束。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

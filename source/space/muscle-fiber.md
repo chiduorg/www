@@ -16,6 +16,7 @@ related:
   - space.capillary
   - space.neuron
   - space.white-blood-cell
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Physiology, Skeletal Muscle'
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/muscle'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 骨骼肌横切或纵切标本经固定染色后测量；肌肉类型、训练状态、固定收缩与切面角度都会影响直径读数。
 uncertainty: 50 μm 位于 10–100 μm 范围的中段，是入门参照；不同肌群、年龄、训练水平与病理状态差异很大，肌纤维长度更可从数毫米到十余厘米。
 review:
@@ -72,3 +77,7 @@ tags:
 ## 与其他尺度的关系
 
 50 μm 约为红细胞直径的六到七倍，也接近一根头发直径的七成[1]。它比毛细血管管径（约 4–10 μm）大五倍以上，因此一条肌纤维周围需要多条毛细血管供血。若把 50 μm 放大到 1 mm，需要二十倍；而一条 10 cm 长的肌纤维若按同一比例放大，会达到 20 m，说明肌纤维是“直径很小、长度极大”的极端长宽比细胞。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.00017 纳秒，在时间轴上量级接近「纳秒」。[3]

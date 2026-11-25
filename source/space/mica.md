@@ -18,6 +18,7 @@ related:
   - space.nacl-crystal
   - space.diamond-unit-cell
   - space.graphene
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Muscovite
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/mica'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取白云母 2M₁ 多型的单斜晶胞，量 a 轴长度；b 轴为 9.04 Å，c 轴为 20.08 Å，β 约 95.5°。
   该值不是手标本尺寸、不是层间重复距离，也不是单个 SiO₄ 四面体的尺寸。
@@ -77,3 +82,7 @@ conceptGroup: crystal
 ## 与其他尺度的关系
 
 0.519 nm 约为 NaCl 晶格常数 0.564 nm 的 0.92 倍，与石英 a 轴 0.491 nm 接近。[1][2] 但它的 c 轴 2.008 nm 把“层状”特征直接写进晶胞。与石墨烯单层厚度 0.335 nm 相比，一层云母约厚三倍；与 DNA 直径 2 nm 相比，c 轴又几乎相等。[2] 这种跨度说明层状硅酸盐的晶胞可以同时包含原子级与大分子级的长度。继续阅读晶格间距、NaCl 晶体与石墨烯，可比较层状与骨架型晶体。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.7e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

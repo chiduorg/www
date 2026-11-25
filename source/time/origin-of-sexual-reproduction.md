@@ -32,6 +32,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5031615/'
     publisher: Philosophical Transactions of the Royal Society B
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -81,3 +85,5 @@ tags:
 ## 与其他阶段的关系
 
 有性生殖与真核细胞起源、线粒体内共生和多细胞化密切相关。遗传重组提高了后代的多样性，也为复杂生活史和群体协作提供条件。沿时间轴向前，可以看到它位于原核世界向真核世界过渡的区间；向后，则连接多细胞藻类、早期动物和更复杂的生态系统。把机制、时间和化石证据分开，是理解这条坐标的关键。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

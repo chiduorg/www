@@ -19,6 +19,7 @@ related:
   - temperature.bread_baking
   - temperature.tungsten-filament
   - temperature.boiling-water
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Ignition of Cellulosic Paper at Low Radiant Fluxes

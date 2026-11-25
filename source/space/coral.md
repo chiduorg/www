@@ -13,12 +13,12 @@ quantity:
   approximate: true
 displayValue: 约 1 m（珊瑚群体直径参照）
 related:
+  - time.atomic-transition
   - space.jellyfish
   - space.oyster
   - space.barnacle
   - space.sea-urchin
   - space.starfish
-  - space.sponge
 reviewStatus: reviewed
 sources:
   - title: 'Diploria labyrinthiformis'
@@ -29,6 +29,10 @@ sources:
     url: 'https://www.nps.gov/articles/000/what-is-a-coral.htm'
     publisher: National Park Service
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为单个石珊瑚群体（colony），以脑珊瑚类块状群体为参照；量群体骨架的最大水平跨度，不是单个珊瑚虫、礁体或礁系的尺寸，也不含周围礁岩；1 m 取在脑珊瑚群体 1–2 m 范围的下端。
 uncertainty: >-
@@ -75,3 +79,7 @@ ADW 对沟纹脑珊瑚（Diploria labyrinthiformis）的记录写明，这种脑
 ## 与其他尺度的关系
 
 1 米约等于章鱼臂展 1 米，也约等于蕨类植株 1 米，约为蘑菇菌盖 10 厘米的十倍，约为 1.7 米高成人的 0.59 倍。[1][2] 在尺度轴上，珊瑚群体处在“米级生物结构”的下段：向上是章鱼、鲨鱼与人类，向下是海胆、牡蛎和藤壶。把群体与礁体分开记录，才能避免把生态系统的尺度算到单个生物头上。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

@@ -18,6 +18,7 @@ related:
   - space.plesiosaur
   - space.human
   - space.elephant
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: 'The extinct shark Otodus megalodon was a transoceanic superpredator: Inferences from 3D modeling'
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/animal/megalodon'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为巨齿鲨（Otodus megalodon）；量从吻端到尾鳍末端的全长，不是牙齿高度、颌宽或体重；16 m 取在成年个体的常见估值中部。
 uncertainty: >-
@@ -74,3 +79,7 @@ Science Advances 的 3D 重建论文用一件保存较好的脊椎标本建立�
 ## 与其他尺度的关系
 
 16 米约等于 4 条 4 米长的大白鲨，约等于 9 个 1.7 米高的人首尾相接，也约等于 30 米蓝鲸的一半。[1][2] 它比 10 米蛇颈龙长约 1.6 倍，却只有 25 米腕龙的三分之二。放在尺度轴上，巨齿鲨处在“十几米级海洋捕食者”的上端；向上是蓝鲸，向下是大白鲨、人类和章鱼。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 53.4 纳秒，在时间轴上量级接近「原子跃迁」。[3]

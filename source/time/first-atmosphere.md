@@ -29,6 +29,10 @@ sources:
     url: 'https://www.nesdis.noaa.gov/about/k-12-education/atmosphere/how-did-earths-atmosphere-form'
     publisher: NOAA NESDIS
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -86,3 +90,5 @@ tags:
 ## 与其他阶段的关系
 
 最早大气的更替发生在地球形成和大碰撞之后，与海洋形成、地磁场屏蔽和早期生命的环境条件相连。[1][2] 它也为理解后来大氧化事件提供起点：从缺氧的火山气体大气到含氧大气，中间隔着漫长的生物与地球化学演化。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

@@ -16,6 +16,8 @@ related:
   - space.proton
   - space.top-quark
   - space.w-z-boson
+  - mass.higgs-boson
+  - temperature.planck-temperature
 reviewStatus: reviewed
 sources:
   - title: How much does the Higgs boson weigh? CMS gives its most precise answer yet
@@ -44,7 +46,7 @@ review:
     - 本轮按五节结构重写；用WebFetch核对CMS最新质量测量、CERN希格斯页面与NIST常数页面。
     - 质量用125.065 GeV，长度明确标为换算值而非粒子直径。
   originalQuantity:
-    value: 1e-17
+    value: 1.e-17
     unit: m
     measure: legacy-size-needs-review
     approximate: true

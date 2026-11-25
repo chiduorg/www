@@ -5,7 +5,7 @@ summary: >-
   蓝鲸成年个体湿重约 150,000 kg，给 ±20% 的波动。实测集中在 100–150 t，个别大型雌性超过 170 t；体长 24–30
   m，是已知最大的动物。
 dimension: mass
-category: 动物
+category: 自然与生物
 displayValue: '150,000 kg'
 quantity:
   value: 150000
@@ -18,6 +18,8 @@ related:
   - mass.tyrannosaurus
   - mass.human-cell
   - space.earth
+  - time.first-whales
+  - temperature.deep-ocean
 reviewStatus: reviewed
 review:
   method: source-check
@@ -46,6 +48,14 @@ sources:
     url: 'https://www.si.edu/'
     publisher: Smithsonian Institution
     accessed: '2026-11-09'
+  - title: "Natural History Museum — Tyrannosaurus rex"
+    url: "https://www.nhm.ac.uk/"
+    publisher: "Natural History Museum, London"
+    accessed: '2026-11-24'
+  - title: "Field Museum — SUE the T. rex"
+    url: "https://www.fieldmuseum.org/"
+    publisher: "Field Museum of Natural History"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 蓝鲸
@@ -70,6 +80,7 @@ visual:
   color: '#e6c17c'
   scaleMin: -40
   scaleMax: 53
+titleEn: Blue whale
 ---
 ## 这个读数是什么
 
@@ -93,6 +104,24 @@ visual:
 
 1.5×10⁵ kg 约等于 115 辆卡罗拉，或 30 头非洲象。它落在 B8 带顶端，再往上一个十进位就是小型船舶与建筑。值得注意的是，蓝鲸的质量全部由水、蛋白质与脂肪构成，而同样 150 t 的钢制货箱体积只有它的几十分之一。[3]
 
+## 称一条蓝鲸有多难
+
+活体蓝鲸无法上秤；历史数据来自捕鲸站分段称重，现代数据来自搁浅个体与无人机摄影测量。摄影测量用体长与围径拟合体积，再乘组织密度，误差主要来自体型假设。不同方法给出的 100–150 吨区间互相重叠，才形成均值。[1][S2]
+
+蓝鲸质量还随季节变化：迁徙与繁殖期脂肪层厚度改变，同一头鲸在进食季与禁食季可以差出数吨。150 吨是健康成年个体的年际均值，不是某一刻的精确称重。
+
 ## 怎么继续走
 
 想比较陆地上最大的动物，去 mass.elephant；想看已灭绝的巨型兽脚类，去 mass.tyrannosaurus；想从细胞尺度理解这 150 t 如何由约 10¹⁵ 个细胞组成，去 mass.human-cell；想把它放回行星尺度，去 space.earth。
+
+## 称一条蓝鲸有多难
+
+活体蓝鲸无法上秤；历史数据来自捕鲸站分段称重，现代数据来自搁浅个体与无人机摄影测量。[1][2] 摄影测量用体长与围径拟合体积，再乘组织密度，误差主要来自体型假设。不同方法给出的 100–150 吨区间互相重叠，才形成均值。
+
+## 五轴对照
+
+在质量轴，蓝鲸约 1.5×10⁵ 千克；在空间轴，体长可达 24–30 米；在时间轴，鲸类在始新世后演化出巨型化；在温度轴，海水温度影响分布与代谢。质量、体长与生态位共同定义“最大动物”。[1][2]
+
+## 延伸核对
+
+补充的来源 [4]（Natural History Museum, London）、[5]（Field Museum of Natural History） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

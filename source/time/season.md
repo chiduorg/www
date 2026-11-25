@@ -19,6 +19,7 @@ related:
   - time.month
   - time.week
   - time.day
+  - space.local-bubble
 reviewStatus: reviewed
 sources:
   - title: season
@@ -29,6 +30,15 @@ sources:
     url: 'https://aa.usno.navy.mil/faq/seasons_orbit'
     publisher: United States Naval Observatory (USNO)
     accessed: '2026-11-07'
+  - title: 'A concise summary of the International System of Units, SI'
+    url: >-
+      https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-concise-EN.pdf/2fda4656-e236-0fcb-3867-36ca74eea4e3?download=true&version=1.2
+    publisher: International Bureau of Weights and Measures (BIPM)
+    accessed: '2026-11-24'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -38,26 +48,30 @@ conditions:
   definition: 取公历平均年约 365.2425 天四等分，每季约 91.3 天，换算为约 7.89 × 10⁶ 秒
   note: 天文季节以春分、夏至、秋分、冬至为界，长度并不完全相等；气象季节按三个月划分，热带地区还可能按雨季与旱季划分。
 uncertainty: >-
-  7.89 × 10⁶ 秒对应约 91.3 天，是公历平均年四等分的近似值；天文季节以分至点为界，实际长度并不相等，
-  气象季节按整月划分，因此不能把 91.3 天当作每个季节的精确长度。[1][2]
+  7.89 × 10⁶ 秒对应约 91.3 天，是公历平均年四等分的近似值；天文季节以分至点为界，实际长度并不相等， 气象季节按整月划分，因此不能把 91.3
+  天当作每个季节的精确长度。[1][2]
 review:
   method: source-check
   date: '2026-11-07'
-  retry: '2026-11-07 复核（partial）：Britannica 可读，四季按天气划分并给分至/至点日期；USNO 可读，说明地轴倾斜、椭圆轨道与回归年为公历基础。7.89×10⁶ s（91.3 天）是 365.2425 天四等分的算术值，来源未直接给出该数值。'
+  retry: >-
+    2026-11-07 复核（partial）：Britannica 可读，四季按天气划分并给分至/至点日期；USNO
+    可读，说明地轴倾斜、椭圆轨道与回归年为公历基础。7.89×10⁶ s（91.3 天）是 365.2425 天四等分的算术值，来源未直接给出该数值。
   notes:
     - 打开 Britannica 的 season 条目，核对四季按天气变化划分、南北半球季节相反及分至点日期。
-    - 打开 USNO 的《The Seasons and the Earth's Orbit》，核对地轴倾斜与椭圆轨道对季节的作用、回归年是季节完整循环的基础。
+    - >-
+      打开 USNO 的《The Seasons and the Earth's
+      Orbit》，核对地轴倾斜与椭圆轨道对季节的作用、回归年是季节完整循环的基础。
     - 正文按持续时长口径新撰，未沿用旧站正文。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "chronometer"
-  scene: "time.object"
-  caption: "一个季节 · 年度循环与沙漏示意"
-  note: "示意，非按比例；四季、日历与沙漏元素为风格化处理。"
-  variant: "hourglass"
-  color: "#c9b98f"
+  template: chronometer
+  scene: time.object
+  caption: 一个季节 · 年度循环与沙漏示意
+  note: 示意，非按比例；四季、日历与沙漏元素为风格化处理。
+  variant: hourglass
+  color: '#c9b98f'
 mode: 时长
 tags:
   - 时长尺度
@@ -83,3 +97,9 @@ tags:
 ## 与其他尺度的关系
 
 一个季节约含三个月、十三个星期或九十多天，四个季节构成一年的气候循环。[1][2] 它向上连接年，向下连接月与周，但不像秒、天那样有单一的固定换算：季节的长度取决于采用天文划分还是气象划分。与米兰科维奇周期等更长节律相比，季节是年度内的短周期；阅读时应先确认说的是平均季节、某个具体季节，还是某个节气时点。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（International Bureau of Weights and Measures (BIPM)）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+按同一真空光速计算，光在这段时间内约走 15811 天文单位，在空间轴上量级接近「本地泡」。[4]

@@ -5,7 +5,7 @@ summary: >-
   金门大桥 1986 年官方统计的桥梁总质量为 887,000 吨，即 804,700,000 kg；不含锚碇与引桥的桥体约 3.82×10⁸
   kg。两个口径差一倍，混用会把这座桥说轻一半。
 dimension: mass
-category: 桥梁
+category: 工程与交通
 displayValue: 8.05×10⁸ kg
 quantity:
   value: 804700000
@@ -45,6 +45,10 @@ sources:
     url: 'https://www.ice.org.uk/'
     publisher: Institution of Civil Engineers
     accessed: '2026-11-09'
+  - title: 'SI base unit: kilogram (kg)'
+    url: 'https://www.bipm.org/en/si-base-units/kilogram'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 tags:
   - 质量
   - 悬索桥
@@ -69,6 +73,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Golden Gate Bridge
 ---
 ## 这个读数是什么
 
@@ -89,3 +94,5 @@ visual:
 ## 怎么继续走
 
 想看另一座著名桥梁的总重口径，去 mass.millau-viaduct；想比较高层建筑的结构质量，去 mass.empire-state-building；想看更早的锻铁结构，去 mass.eiffel-tower；想理解主缆用钢，从 elements.fe 进入元素轴。
+
+本条的质量单位与换算依据 BIPM 对千克的定义。[3]

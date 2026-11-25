@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 1 m（射电波段代表波长）
 related:
+  - temperature.planck-temperature
+  - time.big-bang
   - space.microwave
   - space.infrared
   - space.hydrogen-21cm
   - space.light-year
-  - space.milky-way
 reviewStatus: reviewed
 sources:
   - title: radio wave
@@ -27,6 +28,10 @@ sources:
     url: 'https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html'
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为射电波段的电磁波波长；介质取真空，空气中的差异可忽略；1米是代表值，不是谱段边界。
 uncertainty: 射电与微波、红外的分界随资料与探测手段变化；常见上限为数千米至1千米，下限为30厘米至1厘米，本条取1米。
 review:
@@ -39,12 +44,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "wave"
-  scene: "space.object"
-  caption: "射电波约1米波长参照"
-  note: "波形、波长标记与传播动画为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: wave
+  scene: space.object
+  caption: 射电波约1米波长参照
+  note: 波形、波长标记与传播动画为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 波长
 tags:
@@ -71,3 +76,5 @@ Britannica 把射电波的波长范围写成数千米到30厘米，对应约3赫
 ## 与其他尺度的关系
 
 1米约为成人一步的长度，却比可见光波长长约两百万倍。[2] 它与21厘米氢线同属射电波段，但后者是特定原子跃迁产生的窄线。[1] 射电波能穿过星际尘埃，因此可以探测光学上被遮蔽的银河系结构；其长波长也决定了射电望远镜需要较大的口径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

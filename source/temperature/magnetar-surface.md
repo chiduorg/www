@@ -24,6 +24,7 @@ related:
   - temperature.millisecond_pulsar
   - temperature.supernova-remnant
   - temperature.gamma-ray-burst
+  - space.neutron-star
 reviewStatus: reviewed
 sources:
   - title: RXTE Helps Confirm Existence of Magnetars
@@ -39,6 +40,14 @@ sources:
       https://www.nasa.gov/universe/nasas-nicer-telescope-sees-hot-spots-merge-on-a-magnetar/
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-06'
+  - title: "The Remarkable Properties of Neutron Stars"
+    url: "https://chandra.harvard.edu/blog/node/432"
+    publisher: "NASA Chandra X-ray Center"
+    accessed: '2026-11-24'
+  - title: "Supernova remnant"
+    url: "https://www.britannica.com/science/supernova-remnant"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 conditions: >-
   对象为磁场约 10¹⁴–10¹⁵ 高斯的孤立中子星表面；10⁶ K 指由 X 射线热谱和磁化大气模型
   拟合的有效温度，不是星体内部温度，也不表示整个表面均匀发热。热斑温度和年轻磁星可更高。
@@ -86,3 +95,27 @@ tags:
 ## 与其他致密天体比较
 
 10⁶ K 与普通中子星的冷却表面温区相当，低于太阳耀斑的约 10⁷ K，远低于伽马射线暴火球的约 10⁹ K。磁星把强磁场、致密物质和高温表面集中在一个小尺度上，是检验极端物理的天然实验室。[1][3]
+
+## 表面温度是一个“有效温度”
+
+X射线热谱拟合给出的是有效温度：把整个可见表面近似为一个温度，再按辐射面积折算。磁星表面有强磁场、热斑和大气成分差异，实际温度分布并不均匀；同一颗星不同波段、不同模型会给出不同拟合值。[2][3] 10⁶ K是宁静表面的量级锚点，10⁷ K更接近年轻磁星或热斑峰值。
+
+## 磁场从哪来
+
+磁星的强磁场可能来自前身星的“化石磁场”被压缩保存，也可能由中子星诞生初期的对流与差异旋转发电机过程放大；具体哪条路径占主导，取决于质量、自转与冷却历史。[2][3] 磁场不是永久不变的：它会通过星壳的欧姆耗散逐渐衰减，磁星活动通常在年轻时最剧烈。[1] 因此“磁星”是一个演化阶段，而不是一种固定不变的天体类型。
+
+## 热斑为什么重要
+
+磁星表面的热斑不是装饰。热斑的位置、面积和亮度变化，能约束磁场拓扑、星壳导热与粒子加速过程；NICER 看到的多个热斑移动、合并，说明表面辐射区会随磁场演化重排。[3] 若只拟合一个均匀温度，热斑贡献会被平均掉，得到的半径与温度组合可能偏离真实分布。[2]
+
+## 五轴对照
+
+在温度轴，它是10⁶–10⁷ K的表面；在空间轴，磁星半径只有约10公里；在质量轴，它属于中子星质量档，但质量与半径一起决定引力；在时间轴，磁星会冷却并演化，年轻源更热。把“表面温度”当成“内部温度”会误判整颗星的热状态。[1][2][3]
+
+## 磁场本身也在加热
+
+磁星表面温度约 10⁶ K，除余热外，强磁场的耗散、磁层中的粒子加速与 X 射线回旋也参与加热。观测到的是热辐射与磁辐射的混合，拟合出的“表面温度”依赖大气模型与磁场几何。把磁星当成单纯冷却的中子星，会漏掉磁场这条热源。[1][S1]
+
+## 延伸核对
+
+补充的来源 [4]（NASA Chandra X-ray Center）、[5]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

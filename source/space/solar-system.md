@@ -17,6 +17,7 @@ related:
   - space.earth
   - space.kuiper-belt
   - temperature.sun-surface
+  - mass.sun
 reviewStatus: reviewed
 sources:
   - title: Neptune Fact Sheet
@@ -32,6 +33,14 @@ sources:
       https://www.nasa.gov/sites/default/files/files/Kuiper_Belt_Lithograph_h.pdf
     publisher: NASA
     accessed: '2026-11-06'
+  - title: "How Did the Solar System Form?"
+    url: "https://spaceplace.nasa.gov/solar-system-formation/en/"
+    publisher: "NASA Space Place"
+    accessed: '2026-11-24'
+  - title: "Solar System Facts — Formation and Structure"
+    url: "https://science.nasa.gov/solar-system/solar-system-facts/"
+    publisher: "NASA"
+    accessed: '2026-11-24'
 legacy:
   id: solar-system
   icon: "\U0001FA90"
@@ -87,3 +96,27 @@ tags:
 ## 与其他尺度的关系
 
 9×10¹²米约合60 au，约为地球轨道半径的60倍。它比日球层顶121.6 au小一半，比奥尔特云外缘100,000 au小约一千七百倍。[3] 因此“太阳系大小”必须先说明采用哪一层边界。若把奥尔特云计入，太阳系尺度可再扩大约三个数量级。
+
+## 太阳系边界有几种
+
+行星区域以海王星轨道为参考，约 30 au；日球层顶约 121.6 au；奥尔特云外缘可到约 100,000 au。[2][3] 三种边界回答不同问题：行星系统到哪里、太阳风在哪里终止、彗星储库延伸多远。把它们混成一个“太阳系直径”，会相差三个数量级。
+
+## 轨道图不是按比例的地图
+
+教科书图常放大行星、压缩间距，否则行星在页面上会小到看不见。海王星轨道约 30 au，而地球轨道 1 au；若按同一比例画，行星直径只有微米级。读图时要先看标注，不能从画面测量距离。
+
+## 五轴对照
+
+在空间轴，行星区域约 60 au 宽；在质量轴，太阳占太阳系总质量的 99% 以上；在时间轴，太阳系形成于约 46 亿年前；在温度轴，太阳表面与行星大气差异巨大。太阳系的“大小”取决于边界定义，不是单一数字。[1][3]
+
+## 太阳系边界有三种说法
+
+太阳系边界可以指行星轨道范围、柯伊伯带外缘，或太阳引力主导的奥尔特云。三者的尺度从几十天文单位到几万天文单位，差三个数量级。正文若写“太阳系直径”，必须说明采用哪一种边界；把奥尔特云算进来，太阳系比通常的行星盘大得多。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 约 9 × 10¹² m（海王星轨道区域参考宽度），口径是 以海王星平均轨道距离的两倍表示的行星轨道区域参考宽度。空间轴上的长度还要区分半径、直径、距离与投影跨度；同一对象在不同参考面下会给出不同数值。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（NASA Space Place）、[5]（NASA） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

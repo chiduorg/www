@@ -28,6 +28,10 @@ sources:
     url: 'https://ned.ipac.caltech.edu/level5/March06/Padmanabhan/Nabhan2.html'
     publisher: NASA/IPAC Extragalactic Database (NED), Caltech
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为辐射主导早期宇宙中与光子、电子—正电子等离子体耦合的中微子气体；取弱相互作用反应率降到与哈勃膨胀率相当的温度；10¹⁰ K 为取整量级，对应约 1 MeV。
 uncertainty: >-
@@ -73,3 +77,5 @@ tags:
 ## 与其他尺度的关系
 
 10¹⁰ K 与正负电子湮灭的约 10¹⁰ K 同量级，却是不同事件；湮灭改变了光子与中微子的能量分配，退耦则让中微子脱离等离子体。它高于大爆炸核合成的 10⁹ K 约一个数量级，低于核心坍缩中微子球的 10¹¹ K 约一个数量级，更远低于夸克胶子等离子体的 5×10¹² K。比较时应区分“宇宙学退耦温度”和“超新星中微子球温度”。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

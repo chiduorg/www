@@ -34,6 +34,10 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/biography/Isaac-Newton'
     accessed: '2026-11-06'
+  - title: History of the Royal Society
+    url: 'https://royalsociety.org/about-us/who-we-are/history/'
+    publisher: The Royal Society
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -89,3 +93,7 @@ tags:
 ## 与其他阶段的关系
 
 启蒙运动前接文艺复兴、科学革命和印刷术传播，后接工业革命、政治革命与现代科学制度。它把公共讨论扩展为可批评权威的空间，但并未独自造成工业化或民主制度。[1][2] 与中世纪经院哲学相比，启蒙更强调可检验的经验和公共理性；与19世纪的浪漫主义相比，它又更相信普遍理性的可沟通性。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（The Royal Society）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

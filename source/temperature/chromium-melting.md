@@ -13,12 +13,12 @@ quantity:
   measureLabel: 纯铬常压熔点
 displayValue: '约 2,180 K（1,907 °C）'
 related:
+  - space.volcano
   - temperature.cobalt-melting
   - temperature.iron-melting
   - temperature.nickel-melting
   - temperature.steelmaking_temp
   - temperature.tungsten-melting
-  - temperature.platinum-melting
 reviewStatus: reviewed
 sources:
   - title: 'Chromium: the essentials'

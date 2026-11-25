@@ -5,7 +5,7 @@ summary: >-
   太阳的恒星总质量约 1.989×10³⁰ kg，即 1 太阳质量，常被用作整条质量阶梯的换算单位。数值由国际天文学联合会推荐的名义太阳质量参数 GM☉
   除以引力常数 G 换算，相对不确定度约 1×10⁻⁴。
 dimension: mass
-category: 恒星
+category: 恒星与致密天体
 displayValue: 1.989×10³⁰ kg
 quantity:
   value: 1.989e+30
@@ -24,6 +24,9 @@ related:
   - mass.earth
   - mass.jupiter
   - space.sun
+  - time.solar-system
+  - temperature.sun-core
+  - mass.sirius-a
 reviewStatus: reviewed
 review:
   method: source-check
@@ -52,6 +55,14 @@ sources:
     url: 'https://simbad.cds.unistra.fr/'
     publisher: CDS
     accessed: '2026-11-09'
+  - title: "Planetary Fact Sheet"
+    url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+    publisher: "NASA Space Science Data Coordinated Archive"
+    accessed: '2026-11-24'
+  - title: "Solar System Dynamics"
+    url: "https://ssd.jpl.nasa.gov/"
+    publisher: "NASA Jet Propulsion Laboratory"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 恒星
@@ -78,6 +89,7 @@ visual:
   color: '#ffd37a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Sun
 ---
 ## 这个读数是什么
 
@@ -95,6 +107,30 @@ visual:
 
 1.989×10³⁰ kg 位于 B13 带的中段，是恒星质量段的原点。[1] 褐矮星在它的百分之几以下，中子星与恒星级黑洞则在它的几倍到几十倍之间；把它与地球、木星放在一起，才看得出“恒星”与“行星”之间隔着一个千倍级的台阶。它是 B13 带的定义锚点，整条阶梯的倍数都以它为分母。
 
+## 太阳每秒损失多少质量
+
+太阳通过聚变把质量转为能量，每秒约损失 4×10⁹ 千克；再通过太阳风与辐射持续抛出物质。相对于 2×10³⁰ 千克的总质量，这个损失率极小，但在数十亿年尺度上会改变恒星结构。质量不是永恒不变的属性。[1][S2]
+
+太阳质量还会随太阳风与日冕物质抛射减少，但损失率远低于核聚变的质量亏损；在红巨星阶段，质量损失会显著加快。现在的 1.989×10³⁰ 千克是当前太阳的质量，不是永恒值。
+
+太阳质量还可以用开普勒第三定律从行星轨道反推：GM☉ 的精度远高于 G，因此太阳质量的误差主要来自引力常数。
+
 ## 怎么继续走
 
 想知道行星一侧的参照，去 mass.earth 与 mass.jupiter；想沿着恒星序列往上走，去 mass.sirius-a；想看太阳在空间轴上的图景，去 space.sun。质量阶梯上每一条恒星条目，最终都要回答“是太阳的多少倍”，这也是把太阳放在 B13 中段的意义。它也是理解“太阳质量”这个单位的入口。
+
+## 太阳每秒损失多少质量
+
+太阳通过聚变把质量转为能量，每秒约损失 4×10⁹ 千克；再通过太阳风与辐射持续抛出物质。[1] 相对于 2×10³⁰ 千克的总质量，这个损失率极小，但在数十亿年尺度上会改变恒星结构。质量不是永恒不变的属性。
+
+## 五轴对照
+
+在质量轴，太阳约 1.989×10³⁰ 千克；在空间轴，半径约 69.6 万公里；在时间轴，它已燃烧约 46 亿年；在温度轴，核心约 1,500 万 K。质量、光度与寿命由同一组恒星结构方程联系。[1][2]
+
+## 读数的口径与换算
+
+本条采用的量是 1.989×10³⁰ kg，口径是 太阳总质量（恒星质量口径，含全部物质，不含暗物质）；由 IAU 名义太阳质量参数 GM☉ 除以引力常数 G 换算，相对不确定度约 1×10⁻⁴。质量是广延量，读数依赖湿重/干重、含血/不含血、整备/满载等口径；样本与测量条件必须一起引用。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（NASA Space Science Data Coordinated Archive）、[5]（NASA Jet Propulsion Laboratory） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

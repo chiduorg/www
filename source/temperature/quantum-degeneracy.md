@@ -15,12 +15,12 @@ quantity:
   measureLabel: 稀薄原子气体量子简并参考温区
 displayValue: 约 1 μK（10⁻⁶ K，稀薄原子气体参考）
 related:
+  - space.moon
+  - mass.helium-nucleus
   - temperature.bose-einstein
   - temperature.laser-cooling
   - temperature.evaporative-cooling
   - temperature.absolute-zero
-  - temperature.superfluid
-  - temperature.dilution-refrigerator
 reviewStatus: reviewed
 sources:
   - title: NIST/CU Scientists First to Observe New Quantum Gas

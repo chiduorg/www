@@ -16,6 +16,7 @@ related:
   - space.capillary
   - space.cell_membrane
   - space.red-blood-cell
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'General Human Histology Lecture 6: Respiratory System'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.ncbi.nlm.nih.gov/books/NBK534789/'
     publisher: StatPearls / NCBI Bookshelf
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 肺组织切片或离体肺标本在光学显微镜下测量；吸气程度、固定灌注压力、切片角度与个体年龄都会影响肺泡直径。
 uncertainty: 200 μm 是成人肺泡的代表直径；不同文献与不同肺区可给出约 200–300 μm，深吸气时肺泡扩张、呼气时缩小，不能把 200 μm 当作固定值。
 review:
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 200 μm 等于 0.2 mm，约为红细胞直径的二十五倍，也接近草履虫的体长[1]。它比毛细血管管径（约 4–10 μm）大二十倍以上，因此一个肺泡周围可以缠绕多条毛细血管。若把 200 μm 放大到 1 mm，需要五倍；而把全部肺泡铺开，总面积可达上百平方米，说明“单个很小、总量很大”是肺尺度的关键特征。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.00067 纳秒，在时间轴上量级接近「纳秒」。[3]

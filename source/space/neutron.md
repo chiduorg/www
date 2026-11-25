@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 0.864 fm（中子磁半径）
 related:
+  - mass.neutron
+  - temperature.planck-temperature
   - space.proton
   - space.deuteron
   - space.alpha-particle
   - space.atomic-nucleus
-  - space.quark
 reviewStatus: reviewed
 sources:
   - title: PDG Live — neutron listings
@@ -48,12 +49,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "nucleus"
-  scene: "space.object"
-  caption: "中子量级 · 0.864 fm 磁半径参照"
-  note: "图中点云与颜色为示意；0.864 fm 是磁半径而非电荷半径或硬球直径；非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: nucleus
+  scene: space.object
+  caption: 中子量级 · 0.864 fm 磁半径参照
+  note: 图中点云与颜色为示意；0.864 fm 是磁半径而非电荷半径或硬球直径；非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:

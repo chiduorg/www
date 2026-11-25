@@ -5,7 +5,7 @@ summary: >-
   溶酶体是动物细胞的酸性膜性细胞器，直径约 0.2–0.8 µm，常见 0.5 µm。单个溶酶体湿重均值约 7.7×10⁻¹⁷ kg，由等效球体积与 1.1
   g/cm³ 密度估算。
 dimension: mass
-category: 细胞器
+category: 生命与人体
 displayValue: 7.7×10⁻¹⁷ kg
 quantity:
   value: 7.7e-17
@@ -71,6 +71,7 @@ visual:
   color: '#b7a6ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Lysosome
 ---
 ## 这个读数是什么
 

@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 526 km（体积等效平均直径）
 related:
+  - mass.vesta
+  - temperature.venus-surface
   - space.ceres
   - space.asteroid-belt
   - space.bennu
   - space.jupiter
-  - space.earth
-  - space.psyche
 reviewStatus: reviewed
 sources:
   - title: Vesta
@@ -28,6 +28,10 @@ sources:
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/asteroidfact.html'
     publisher: NASA NSSDCA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为灶神星固体表面；采用Britannica的体积等效球直径526公里；不含其表面撞击坑、沟槽与南极盆地的局部起伏。
 uncertainty: >-
   Britannica给出三轴半径286×279×223公里，等效球直径526公里；NASA表列三轴直径569×555×453公里，三轴平均约525.7公里；两者一致，最长轴则约572公里。
@@ -41,12 +45,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "灶神星 · 原行星"
-  note: "不规则块体、撞击坑与光照为示意，非按比例，非观测重建；不复现真实南极盆地与沟槽细节。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 灶神星 · 原行星
+  note: 不规则块体、撞击坑与光照为示意，非按比例，非观测重建；不复现真实南极盆地与沟槽细节。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -73,3 +77,5 @@ Britannica条目给出灶神星的三轴半径286×279×223公里，并明确其
 ## 与其他尺度的关系
 
 526公里约为谷神星940公里的0.56倍，约为月球直径3,474公里的0.151倍，约为贝努490米的1,073倍。[1][2] 它远小于冥王星2,376公里。灶神星轨道半长轴约2.36 au，位于主带内侧，与木星轨道5.2 au 相差约2.8 au。[1]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

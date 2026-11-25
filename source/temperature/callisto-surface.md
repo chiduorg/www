@@ -20,6 +20,7 @@ related:
   - temperature.titan-surface
   - temperature.absolute-zero
   - temperature.water-freezing
+  - space.moon
 reviewStatus: reviewed
 sources:
   - title: Revealing Callisto's Near Subsurface Thermophysical Properties with ALMA Calibration Data
@@ -30,6 +31,10 @@ sources:
     url: 'https://science.nasa.gov/jupiter/jupiter-moons/callisto/'
     publisher: NASA Science
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   body: 木卫四
   location: 冰岩表层，赤道至极区
@@ -85,3 +90,5 @@ tags:
 ## 与其他温区的关系
 
 134 K 高于木卫三表面约 110 K，也高于木卫二表面约 102 K 和土卫六表面约 94 K。[1] 它远低于水的冰点 273.15 K，也低于干冰升华点约 195 K，但高于液氮的 77.4 K。与木星云顶约 165 K 相比，木卫四表面仍更冷。把这几颗冰卫星并列，可以看到日照、反照率、热惯量和内部热流如何共同塑造表面温度，而不是只由距太阳远近决定。[2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -18,6 +18,7 @@ related:
   - space.cell
   - space.crystal-lattice
   - space.a4-paper
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Aggregates for concrete — Specification (RSB)
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.astm.org/c0033_c0033m-13.html'
     publisher: ASTM International
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   以普通混凝土用碎石或卵石粗骨料为对象，取 10 毫米单粒级或相近档位的公称最大粒径；
   轻骨料、再生骨料和特粗骨料需另按相应标准取值。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 10 毫米约为头发丝 100 微米的 100 倍，约为人体细胞 20 微米的 500 倍，却只有 A4 纸长边 297 毫米的约 1/30。它约为石墨烯单层 0.335 纳米的 3000 万倍。与笔记本电脑 0.345 米相比，约为其 1/35。继续比较头发丝、A4 纸与细胞，可把“粉体—骨料—构件”的尺度层次分开。粗骨料与砂、水泥粉共同构成混凝土的颗粒级配，三者尺度跨越四个数量级。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.033 纳秒，在时间轴上量级接近「纳秒」。[3]

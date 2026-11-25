@@ -18,6 +18,7 @@ related:
   - space.mouse
   - space.fern
   - space.human
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: hummingbird
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.allaboutbirds.org/guide/ruby-throated_hummingbird/id'
     publisher: Cornell Lab of Ornithology
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为蜂鸟科（Trochilidae）；量喙端到尾端的体长，不是翼展、体重或仅躯干长度；0.1 m取在科内约5.5–20 cm的跨度内，接近红喉蜂鸟7–9 cm的上方。
 uncertainty: >-
@@ -76,3 +81,7 @@ Britannica的蜂鸟条目给出科的跨度：最小的蜜蜂蜂鸟约5.5厘米�
 ## 与其他尺度的关系
 
 0.1米约为1.2厘米蜜蜂体长的8倍，和9.5厘米蝴蝶体长相近，约为0.48米猫体长的五分之一，约为1.7米高人的十七分之一。[1][2] 在尺度轴上，它处在“十厘米级”动物的上端：向上是蛙和蝶，向下是蜂和蚊。用喙端到尾端的体长，才能把它与用翼展描述的猛禽、用盘宽描述的魟鱼区分开。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.33 纳秒，在时间轴上量级接近「纳秒」。[3]

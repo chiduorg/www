@@ -16,8 +16,9 @@ related:
   - time.rise-homo-sapiens
   - time.first-humans
   - time.hominins-emerge
-  - time.megafauna-extinction
   - time.present
+  - space.human
+  - mass.adult-human
 reviewStatus: reviewed
 sources:
   - title: Neanderthal
@@ -28,6 +29,14 @@ sources:
     publisher: Smithsonian Human Origins Program
     url: 'https://humanorigins.si.edu/evidence/human-fossils/species/homo-neanderthalensis'
     accessed: '2026-11-07'
+  - title: "Early Homo at 2.8 Ma from Ledi-Geraru, Afar, Ethiopia"
+    url: "https://pubmed.ncbi.nlm.nih.gov/25739410/"
+    publisher: "Science / PubMed"
+    accessed: '2026-11-24'
+  - title: "Planck 2018 results. VI. Cosmological parameters"
+    url: "https://arxiv.org/abs/1807.06209"
+    publisher: "Planck Collaboration / Astronomy & Astrophysics"
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -84,3 +93,23 @@ tags:
 ## 与其他阶段的关系
 
 尼安德特人生活在旧石器时代晚期，前接更早的直立人和先驱人群，后接智人在欧亚的扩散。他们与智人共存过一段时间，也与巨型动物灭绝、末次冰期等变化处在同一环境背景中。[1][2] 在时间轴上，4万年只是把这段过程放在人类史入口处的一个近似标记。
+
+## 共存与杂交
+
+尼安德特人与智人在欧亚大陆共存过数千年到数万年；基因组研究显示，现代欧亚人群携带约 1–2% 的尼安德特人 DNA，部分片段与免疫、肤色和代谢相关。[1][2] “灭绝”因此不是血统完全消失，而是人群边界与文化身份的消失。把尼安德特人当成现代人的纯粹祖先或纯粹竞争者，都过于简单。
+
+## 消失时间为什么有争议
+
+化石年代、遗址使用时间和古DNA样本各自给出不同区间；不同地区的最后记录也不一致。[1][2] 一些遗址的测年受污染影响，另一些地区的尼安德特人可能更早消失。4 万年是导航锚点，不是全球统一的终点。把局部最后记录当成整个物种的死亡时刻，会高估同步性。
+
+## 五轴对照
+
+在时间轴，尼安德特人约 40 万至 4 万年前；在空间轴，他们分布在欧亚大陆；在温度轴，冰期气候塑造其栖息范围；在质量轴，成人体型与智人相近。时间、地理与气候共同解释他们的消失。[1][2]
+
+## 灭绝是一个过程
+
+尼安德特人并非在某一天突然消失；化石与地层显示他们在不同地区延续到约 4 万年前，最后种群可能更晚。与智人的杂交、竞争、气候波动和种群规模小都可能参与。正文的“灭绝”是物种作为独立群体的消失，不是最后一个个体死亡的瞬间。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（Science / PubMed）、[4]（Planck Collaboration / Astronomy & Astrophysics） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

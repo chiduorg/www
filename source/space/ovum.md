@@ -16,6 +16,7 @@ related:
   - space.sperm
   - space.chromosome
   - space.neuron
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -28,6 +29,10 @@ sources:
     url: 'https://journals.physiology.org/doi/full/10.1152/physiol.00028.2019'
     publisher: Physiology (American Physiological Society)
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 取卵或卵巢组织中的卵母细胞在倒置显微镜下测量；是否包含透明带、成熟阶段与固定制样都会影响直径读数。
 uncertainty: >-
   120 μm 是充分生长的人卵母细胞的代表直径；未成熟卵母细胞可小至约 60 μm，文献报告范围约 60–171 μm、均值约 115 μm，不能把 120
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 120 μm 约等于红细胞直径的十五倍，也是精子全长（约 60 μm）的两倍[1]。它比中性粒细胞（约 15 μm）大八倍，却仍小于一粒盐（约 0.3–0.5 mm）。在人体细胞尺度上，卵细胞属于“肉眼勉强可见”的上端；这也是为什么取卵和胚胎操作需要在显微镜下完成，而不能仅凭肉眼判断。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.00040 纳秒，在时间轴上量级接近「纳秒」。[3]

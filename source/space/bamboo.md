@@ -16,6 +16,7 @@ related:
   - space.burj-khalifa
   - space.seed
   - space.rice-grain
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: Bambusa bambos (L.) Voss
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/plant/bamboo'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 量竹秆从地面到顶端的垂直高度，不含地下竹鞭、侧枝和整丛竹子的水平占地；以常见大型竹30 m为参照，不是所有竹种或所有年龄竹秆的定值。
 uncertainty: >-
   竹种差异极大：有的竹种仅高10–15 cm，有的可超过40 m。KFRI对Bambusa bambos给出秆高30
@@ -76,3 +81,7 @@ KFRI 的竹类资料页把 Bambusa bambos 的秆高记为 30 米。[1] Britannic
 ## 与其他尺度的关系
 
 30 米约等于十层楼的高度，约为 1.7 米成年人的 17.6 倍，比 112 米的海岸红杉矮约四分之三，也远低于 828 米的哈利法塔。[1][2] 在尺度轴上，竹子位于“几十米级”的生物高度：向上是红杉和建筑，向下是种子、稻米与昆虫。它提醒我们，生物的“高”同样是一个有范围的测量结果。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 100 纳秒，在时间轴上量级接近「微秒」。[3]

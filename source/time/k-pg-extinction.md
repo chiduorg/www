@@ -15,9 +15,9 @@ displayValue: 距今约6600万年（K–Pg边界时代）
 related:
   - time.dinosaurs
   - time.mammal-radiation
-  - time.first_birds
-  - time.permian-triassic-extinction
   - space.earth
+  - space.asteroid-belt
+  - mass.asteroid-toutatis
   - temperature.earth-mantle
 reviewStatus: reviewed
 sources:
@@ -34,6 +34,14 @@ sources:
     url: 'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf'
     publisher: International Commission on Stratigraphy
     accessed: '2026-11-06'
+  - title: "Earth Sciences Research: Rise of the Mammals"
+    url: "https://www.dmns.org/science/research/rise-of-the-mammals/"
+    publisher: "Denver Museum of Nature & Science"
+    accessed: '2026-11-24'
+  - title: "Earth Fact Sheet"
+    url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+    publisher: "NASA NSSDC"
+    accessed: '2026-11-24'
 legacy:
   id: k-pg-extinction
   icon: "\U0001F4A5"
@@ -103,3 +111,27 @@ tags:
 ## 与其他阶段的关系
 
 K–Pg 灭绝结束了中生代，为哺乳动物的辐射与新生代生态系统让出空间。[2] 它与二叠纪末灭绝同为大规模危机，但规模、受害类群与恢复速度不同，比较两者有助于理解灭绝机制。[1][3] K–Pg 之后的哺乳动物与鸟类辐射并不同步，不同支系的恢复速度差异很大。[2]
+
+## 撞击之后发生了什么
+
+希克苏鲁伯撞击抛出的尘埃与硫酸盐气溶胶遮挡阳光，全球温度骤降；撞击还可能引发野火、酸雨和海啸。[1][2] 这些环境效应持续数月到数年，足以打断光合作用与食物链。铱异常与冲击石英是全球界线层的共同信号，说明抛射物扩散到很远。
+
+## 为什么鸟类与哺乳动物幸存
+
+体型小、食性广、能穴居或潜入水中的动物更容易在灾后环境中找到庇护；鸟类作为恐龙支系延续下来，哺乳动物则利用空出的生态位迅速辐射。[2] 幸存不是“更高级”，而是恰好具备某些生态与生理特征。把灭绝后的世界想成空旷废墟，会忽略残余食物链与避难所。
+
+## 五轴对照
+
+在时间轴，K–Pg 界线约 6,600 万年前；在空间轴，撞击坑位于墨西哥尤卡坦；在温度轴，撞击冬天与后续升温交替；在质量轴，撞击体约 10 公里级，却改变了全球生态。事件尺度与后果尺度相差极大。[1][3]
+
+## 撞击证据不止铱异常
+
+K-Pg 灭绝的撞击证据包括全球铱异常、冲击石英、微球粒、希克苏鲁伯陨石坑与海啸沉积。铱异常也可能由火山或地壳来源造成，因此需要多条证据互相锁定。正文的“撞击”是综合证据链的结论，不是单一元素异常。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 距今约6600万年（K–Pg边界时代），口径是 time-after-big-bang-derived-reference。时间轴上的年份是地层、文献或模型给出的坐标，误差从几十年到几十万年不等；分期边界不是一条绝对精确的线。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（Denver Museum of Nature & Science）、[5]（NASA NSSDC） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

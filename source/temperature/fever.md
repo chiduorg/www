@@ -16,6 +16,8 @@ related:
   - temperature.hypothermia
   - temperature.room-temperature
   - temperature.oven
+  - space.human
+  - mass.adult-human
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -29,6 +31,14 @@ sources:
     url: 'https://www.britannica.com/science/fever'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "Temperature measurement"
+    url: "https://www.medlineplus.gov/ency/article/003400.htm"
+    publisher: "U.S. National Library of Medicine / MedlinePlus"
+    accessed: '2026-11-24'
+  - title: "Kelvin: Introduction"
+    url: "https://www.nist.gov/si-redefinition/kelvin-introduction"
+    publisher: "NIST"
+    accessed: '2026-11-24'
 conditions:
   medium: 人体组织（口腔）
   measurementSite: 舌下口腔
@@ -78,3 +88,19 @@ tags:
 ## 与其他温度的关系
 
 发热阈值高于正常核心体温约 1 ℃，明显低于 boiling-water 的 100 ℃，也低于 sauna 的空气温度。它处在 human-body-temperature 的窄幅波动区间上端；与 hypothermia 的 35 ℃ 阈值分居正常体温两侧。理解这个数值的关键不是记住一个点，而是同时记住介质（组织）、位置（口腔或核心）和测量方式。只有口径一致，才能把发热与低体温、环境高温放在同一张温度表上比较。
+
+## 发热是反应，不是病名
+
+发热是下丘脑对致热原的反应，常见于感染，也可见于炎症、肿瘤和药物反应。[2] 体温升高本身是防御的一部分，但高热或持续发热可能带来脱水、代谢负担和惊厥风险。把发热当成一种疾病，会忽略它背后的原因。
+
+## 测量部位决定阈值
+
+口温 38.0 ℃、腋温 37.5 ℃、直肠温度略高，不同指南的阈值并不完全一致。[1] 判断发热时，必须记录部位、设备和测量条件；跨部位比较会把正常差异误读为异常。一次读数异常，应在规范条件下复测。
+
+## 五轴对照
+
+在温度轴，发热阈值约 38 ℃；在空间轴，人体核心与体表位置不同；在质量轴，体温调节与体重、代谢相关；在时间轴，发热病程以小时到天计。温度、部位与时间共同定义发热。[1][2]
+
+## 延伸核对
+
+补充的来源 [3]（U.S. National Library of Medicine / MedlinePlus）、[4]（NIST） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

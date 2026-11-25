@@ -30,6 +30,13 @@ sources:
     url: 'https://imagine.gsfc.nasa.gov/science/objects/neutron_stars1.html'
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-06'
+  - title: >-
+      New NASA Mission to Study Mysterious Neutron Stars, Aid in Deep Space
+      Navigation
+    url: >-
+      https://www.nasa.gov/universe/new-nasa-mission-to-study-mysterious-neutron-stars-aid-in-deep-space-navigation/
+    publisher: NASA / Goddard Space Flight Center
+    accessed: '2026-11-24'
 chronology:
   status: duration
   plot: false
@@ -80,3 +87,7 @@ tags:
 ## 与其他尺度的关系
 
 脉冲星周期与秒的定义处在相近的数量级，因此常被拿来直观比较：一秒钟内，最快的脉冲星可以转数百圈。[1] 它向下连接中子星的结构与磁场，向上连接超新星遗迹和银河系中的恒星演化。与银河年或物种寿命相比，脉冲星周期极短；但它能长期保持稳定，使天文学家可以用它检验引力理论。尺度虽短，信息量却很大。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（NASA / Goddard Space Flight Center）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

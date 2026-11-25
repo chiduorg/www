@@ -28,6 +28,10 @@ sources:
     url: 'https://kids.britannica.com/students/article/rabbit-and-hare/276627'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年家兔；量取从吻端沿体轴到尾根的头体长，耳朵和尾巴不计；不含耳高或站立高度；品种、年龄与饲养条件差异明显。
 uncertainty: ADW 给出欧洲兔体长 38–50 cm、体重 1.5–2.5 kg，家养个体可能更大；Britannica 给出兔类最小约 20 cm、最大约 50 cm。家兔头体长常见约 0.35–0.50 m，本条取 0.40 m 作常见中型家兔的代表值。
 review:
@@ -71,3 +75,5 @@ Animal Diversity Web 的欧洲兔条目记录：体长 38–50 厘米，体重 1
 ## 与其他尺度的关系
 
 0.40 米约为 0.08 米家鼠的五倍，略小于 0.48 米家猫的体长，约为 1.1 米黑猩猩站立高度的三分之一；也远小于 1.2 米的绵羊。[1][2] 在小型动物里，兔处在“几十厘米”层级：向上是猫、狗，向下是家鼠、蝙蝠和昆虫。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

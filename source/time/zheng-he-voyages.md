@@ -17,7 +17,8 @@ related:
   - time.middle-ages
   - time.origin-of-money
   - time.columbus-voyage
-  - time.magellan-circumnavigation
+  - mass.cargo-ship
+  - space.pacific-ocean
 reviewStatus: reviewed
 sources:
   - title: 'Zheng He'
@@ -28,6 +29,14 @@ sources:
     publisher: World History Encyclopedia
     url: 'https://www.worldhistory.org/article/1334/the-seven-voyages-of-zheng-he/'
     accessed: '2026-11-07'
+  - title: "The Middle Ages, an introduction"
+    url: "https://smarthistory.org/introduction-to-the-middle-ages/"
+    publisher: "Smarthistory"
+    accessed: '2026-11-24'
+  - title: "Columbus and the Taíno"
+    url: "https://www.loc.gov/exhibits/exploring-the-early-americas/columbus-and-the-taino.html"
+    publisher: "Library of Congress"
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -83,3 +92,23 @@ tags:
 ## 与其他阶段的关系
 
 郑和下西洋处在中世纪晚期与欧洲大航海时代之间，前接宋元以来的海上贸易，后接葡萄牙人绕过好望角进入印度洋。[1][2] 与哥伦布、麦哲伦的航行相比，它更依赖既有的贡赐与商路，而不是跨越大洋的未知航段。它说明“远洋能力”并不自动带来殖民扩张，政策选择同样重要。
+
+## 船队规模不等于殖民网络
+
+郑和船队规模庞大，但远航以朝贡、外交与贸易为主，没有建立长期殖民地或商站网络；这与后来欧洲的殖民扩张不同。[1][2] 船队带回使节、珍稀物产与地理知识，却没有把印度洋变成明朝的行政领土。规模、目的与制度后果要分开评价。
+
+## 五轴对照
+
+在时间轴，首次下西洋 1405 年；在空间轴，航线覆盖东南亚与印度洋；在温度轴，季风与海温决定航行窗口；在质量轴，船队载重与人员规模巨大。技术能力、政策选择与海洋环境共同决定远航的影响。[1][2]
+
+## 船队规模与“发现”口径
+
+郑和船队规模常以“宝船六十二艘、人员两万七千”概括，但宝船尺寸与船队编成在文献中有争议。航行到达非洲东岸，与欧洲后来的“地理大发现”在目的、路线与殖民后果上都不同。正文的 1405 年是首次下西洋的起点，不是整个时代的唯一年份。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 公元1405年 · 距今约621年 · t ≈ 138 亿年，口径是 time-after-big-bang-derived-historical-reference。时间轴上的年份是地层、文献或模型给出的坐标，误差从几十年到几十万年不等；分期边界不是一条绝对精确的线。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [3]（Smarthistory）、[4]（Library of Congress） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

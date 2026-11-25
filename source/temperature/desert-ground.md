@@ -16,6 +16,7 @@ related:
   - temperature.oven
   - temperature.sun-surface
   - temperature.room-temperature
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Where Is the Hottest Place on Earth?
@@ -27,6 +28,10 @@ sources:
       https://www.nasa.gov/centers-and-facilities/jpl/nasas-ecostress-monitors-californias-record-breaking-heat-wave/
     publisher: NASA Jet Propulsion Laboratory
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 沙、砾石或裸岩表面
   measurementSite: 地表或浅层土壤，非百叶箱气温
@@ -79,3 +84,5 @@ tags:
 ## 与其他温度的关系
 
 70 ℃ 高于 death-valley 的 56.7 ℃ 空气纪录，也高于 room-temperature，但低于 boiling-water 的 100 ℃ 和 oven 的 180 ℃ 设定。与 sun-surface 相比，它只是地球表面在太阳辐射下的局地加热，远未达到恒星表面温区。把地表温度与气温并列时，必须记住前者没有标准气象观测高度。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

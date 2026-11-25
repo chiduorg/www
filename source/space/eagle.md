@@ -18,6 +18,7 @@ related:
   - space.ant
   - space.butterfly
   - space.pterosaur
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: golden eagle
@@ -28,6 +29,10 @@ sources:
     url: 'https://home.nps.gov/bica/learn/nature/golden-eagle.htm'
     publisher: U.S. National Park Service
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为金雕（Aquila chrysaetos）成鸟；量双翅完全展开时左右翼尖之间的距离；不是体长（喙端到尾端）、尾长、站立高度或单翅长度；雌鸟通常比雄鸟更大。
 uncertainty: >-
@@ -77,3 +82,7 @@ Britannica的金雕条目写明，其翼展可达2.3米，接近8英尺。[1] �
 ## 与其他尺度的关系
 
 2米约为1.18个1.7米高的人，约为11只18厘米长的手首尾相接，也约为1250只1.6毫米蚂蚁排成一列的长度。[1][2] 在尺度轴上，金雕处在“米级动物”的中段：向上是4米大白鲨和30米蓝鲸，向下是1米章鱼臂展、1米蕨类和0.1米蘑菇。翼展这一口径，让它与用全长描述的大白鲨、用臂展描述的章鱼清楚区分。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

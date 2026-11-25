@@ -31,6 +31,10 @@ sources:
     url: 'https://www.britannica.com/place/Vostok-Station'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: antarctic_min_temp
   icon: ❄️
@@ -93,3 +97,5 @@ WMO 档案说明，读数来自标准百叶箱中的最高最低温度表，测�
 ## 与其他温区的关系
 
 在温度轴上，183.95 K 低于干冰在 1 atm 下的升华温度约 194.7 K，也低于火星表面平均约 210 K；但它远高于液氮的 77.4 K、液氦的 4.2 K 以及宇宙微波背景的 2.725 K。与这些条目比较时，要先分清空气温度、表面温度和辐射温度。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

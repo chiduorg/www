@@ -17,6 +17,8 @@ related:
   - space.laniakea
   - space.observable-universe
   - space.virgo-supercluster
+  - mass.observable-universe
+  - temperature.cmb
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -58,7 +60,9 @@ review:
       Gpc、2000 Mpc及统计争议。
     - 保留 needs-review：结构存在性、边界与最大结构纪录均未定；quantity 仍为 null，不参与数轴比较。
     - 2026-11-07 保留 needs-review：候选结构未确认：所列来源给出伽马射线暴聚集的候选尺度，未采用唯一已确认的比较跨度。
-    - '2026-11-07 B5 复核：量值保持 undetermined；原因：候选结构未确认，跨度随伽马暴样本、红移范围与天区曝光变化，不采用旧 10^25 m 示意值。'
+    - >-
+      2026-11-07 B5 复核：量值保持 undetermined；原因：候选结构未确认，跨度随伽马暴样本、红移范围与天区曝光变化，不采用旧
+      10^25 m 示意值。
   originalQuantity:
     value: 1e+25
     unit: m

@@ -16,6 +16,7 @@ related:
   - time.neoproterozoic
   - time.cryogenian
   - time.ediacaran-period
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'Geology of Great Smoky Mountains National Park'
@@ -26,6 +27,10 @@ sources:
     url: 'https://pubs.usgs.gov/publication/70093650'
     publisher: 'Dwight Bradley / U.S. Geological Survey / Earth-Science Reviews'
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -77,3 +82,5 @@ USGS 的大烟山国家公园地质页说，约 7.5 亿年前罗迪尼亚开始�
 ## 与其他尺度的关系
 
 罗迪尼亚裂解发生在 10 亿年前聚合之后，早于 7.2 亿年前的成冰纪冰期，也早于埃迪卡拉纪生物群的出现。[1][2] 7.5 亿年距 10 亿年聚合约 2.5 亿年，说明超大陆从拼合到拆开并不是短暂停留。它比 24 亿年前的休伦冰期晚约 16.5 亿年，代表地球构造与气候背景已经明显不同。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

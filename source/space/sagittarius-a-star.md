@@ -18,7 +18,8 @@ related:
   - space.black-hole-event-horizon
   - space.m87-black-hole
   - space.milky-way
-  - space.neutron-star
+  - mass.sgr-a-star
+  - temperature.black-hole-accretion-disk
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -32,6 +33,14 @@ sources:
     url: 'https://www.britannica.com/science/black-hole'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "The Galactic Centre — heic1606a"
+    url: "https://esahubble.org/images/heic1606a/"
+    publisher: "ESA / Hubble / NASA"
+    accessed: '2026-11-24'
+  - title: "The Milky Way — Cosmic Distance Scale"
+    url: "https://imagine.gsfc.nasa.gov/features/cosmic/milkyway_info.html"
+    publisher: "NASA / GSFC / HEASARC"
+    accessed: '2026-11-24'
 conditions: >-
   事件视界直径按 Rs=2GM/c² 由约 400 万太阳质量换算得到，适用于比较银河系中心黑洞的视界量级； 不等同于 EHT
   图像的阴影或亮环直径，也不含自转修正。
@@ -83,3 +92,23 @@ tags:
 ## 与其他尺度的关系
 
 2.4×10¹⁰ 米约合 0.16 天文单位，或约 80 光秒；把它放在太阳系，只占内行星轨道的一小部分。它约为地球直径的 1,900 倍，却仍远小于银盘直径。与 M87* 相比，Sgr A* 的视界小三个数量级以上，但两者在 EHT 图像中看起来相似，说明强引力区的几何由广义相对论统一支配。
+
+## 阴影为什么比视界大
+
+EHT 的暗影不是事件视界的实体轮廓，而是光线在强引力场中弯曲后留下的低亮度区域；亮环来自绕黑洞运动的气体。[1] 对 Sgr A*，暗影直径约几十微角秒，视界直径则由质量换算成约 2.4×10¹⁰ 米。两者相关，但不能等同。
+
+## 为什么它的图像比 M87* 难拍
+
+Sgr A* 的视界更小，周围气体绕转更快，图像在几小时内就会变化；M87* 更大、演化更慢，适合长时间积分。[1] 同一套 EHT 阵列因此对 Sgr A* 需要更复杂的动态度重建。图像相似不代表物理环境相同。
+
+## 五轴对照
+
+在空间轴，Sgr A* 视界直径约 0.16 au；在质量轴，它约 400 万太阳质量；在时间轴，它随吸积与并合增长；在温度轴，吸积盘气体可达数百万到数十亿 K。视界、阴影与吸积盘温度必须分开读。[1][2]
+
+## 轨道称重与阴影成像是两条路线
+
+人马座 A* 的质量主要来自 S 星群轨道：测出周期与半长轴，用开普勒第三定律得到中心质量。EHT 的阴影则给出与质量、距离组合一致的几何检验。两条路线口径不同：轨道给动力学质量，阴影给辐射几何，不能当成同一种“称重”。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（ESA / Hubble / NASA）、[4]（NASA / GSFC / HEASARC） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

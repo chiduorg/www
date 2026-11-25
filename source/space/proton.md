@@ -16,10 +16,10 @@ displayValue: 1 × 10⁻¹⁵ m（1 飞米，参考长度）
 related:
   - space.atom
   - space.strong-force
-  - space.carbon-nucleus
   - space.quark
-  - space.pion
-  - temperature.water-triple-point
+  - mass.proton
+  - mass.neutron
+  - time.big-bang
 reviewStatus: reviewed
 sources:
   - title: 2022 CODATA — proton rms charge radius
@@ -42,6 +42,10 @@ sources:
     url: 'https://www.britannica.com/science/atom'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "Chemistry 2e §6.3 — Development of Quantum Theory"
+    url: "https://openstax.org/books/chemistry-2e/pages/6-3-development-of-quantum-theory"
+    publisher: "OpenStax / Rice University"
+    accessed: '2026-11-24'
 legacy:
   id: proton
   icon: ◉
@@ -98,3 +102,23 @@ tags:
 ## 与其他尺度的关系
 
 在尺度轴上，核子位于原子核与原子之间：碳-12 核的电荷半径约 2.47 飞米，铀-238 约 5.86 飞米，而原子整体约 0.1 纳米。[4][5] 这些比较都把半径放在同一口径下；若拿核子半径和原子直径直接相比，倍数会因定义不同而失真。继续阅读夸克、π 介子和强相互作用，可以把“核子由什么组成”与“核子有多大”分开。
+
+## 电荷半径的两种测量
+
+电子散射与缪子原子谱是两条独立路径。电子散射直接探测电荷分布，缪子原子谱利用缪子波函数与核电荷的重叠；两条路径长期给出略有差异的半径，促成了“质子半径之谜”的讨论。[1][4] 2022 CODATA 采用 0.84075 飞米，并保留不确定度，不把单一方法当成最终答案。测量的是电荷分布的统计宽度，不是质子边缘。
+
+## 质量主要不来自“三个夸克相加”
+
+质子的质量约 938 MeV/c²，但三个价夸克的质量加起来只占很小一部分；其余大部分来自量子色动力学中的胶子场能量与夸克动能。[3] 这也是为什么质子质量不能简单写成“三个夸克相加”。质量在这里是束缚系统的能量账本，不是零件清单的算术和。
+
+## 五轴对照
+
+在空间轴，质子约 1 飞米；在质量轴，它是 1.673×10⁻²⁷ 千克的核子；在时间轴，早期宇宙的核合成决定了氢与氦的丰度；在温度轴，恒星核心的高温让质子聚变。把“质子大小”和“质子质量”分开，才不会被 1 飞米这个参考长度误导。[1][3]
+
+## 质子与中子的口径
+
+本条标题写“质子与中子”，但正文主读数是质子质量；中子质量是另一个独立读数，两者只差约 0.14%。把这对核子放在一起，是为了说明 QCD 能标给出的共同质量尺度，而不是把两个粒子当成同一种东西。引用时要确认说的是质子、中子，还是氘核、氦核这类束缚系统。[1][S1]
+
+## 延伸核对
+
+补充的来源 [6]（OpenStax / Rice University） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

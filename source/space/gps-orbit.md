@@ -16,6 +16,8 @@ related:
   - space.iss
   - space.earth
   - space.light-second
+  - temperature.venus-surface
+  - time.solar-system
 reviewStatus: reviewed
 sources:
   - title: GPS Space Segment
@@ -26,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/technology/GPS'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: '对象为GPS卫星星座的标称轨道高度；采用GPS.gov给出的约20,200公里；不含轨道偏心率造成的每颗卫星高度差，也不把轨道半径与高度混为一谈。'
 uncertainty: >-
   GPS.gov给出约20,200公里（12,550英里）；若加地球平均半径6,371公里，轨道半径约26,571公里；不同来源可能写成26,560公里，差异来自地球半径取值与轨道模型。
@@ -39,13 +45,13 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "orbital-system"
-  scene: "space.object"
-  caption: "GPS卫星轨道 · 中地球轨道"
-  note: "地球、轨道面与卫星位置为示意，非按比例，非观测重建；不复现真实星座布局与信号覆盖。"
-  color: "#7fa8c4"
-  variant: "orbit"
-  referenceAxis: "x"
+  template: orbital-system
+  scene: space.object
+  caption: GPS卫星轨道 · 中地球轨道
+  note: 地球、轨道面与卫星位置为示意，非按比例，非观测重建；不复现真实星座布局与信号覆盖。
+  color: '#7fa8c4'
+  variant: orbit
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:
@@ -72,3 +78,5 @@ GPS.gov说明GPS卫星在中地球轨道运行，高度约20,200公里，每颗�
 ## 与其他尺度的关系
 
 20,200公里约为地球平均半径6,371公里的3.17倍，约为国际空间站约400公里高度的50倍。[1] 它约为地球静止轨道高度35,786公里的0.56倍，也约为地月平均距离3.84×10⁵公里的0.053倍。[2] 光在20,200公里高度上往返约需0.13秒，这是GPS测距必须考虑的传播时间。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

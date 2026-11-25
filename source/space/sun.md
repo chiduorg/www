@@ -16,7 +16,7 @@ related:
   - temperature.sun-surface
   - temperature.sun-core
   - time.solar-system
-  - space.cepheid-variable
+  - mass.sun
   - time.first-stars
 reviewStatus: reviewed
 sources:
@@ -28,6 +28,14 @@ sources:
     url: 'https://science.nasa.gov/sun/facts/'
     publisher: NASA Science
     accessed: '2026-11-04'
+  - title: "Is the Earth round?"
+    url: "https://oceanservice.noaa.gov/facts/earth-round.html"
+    publisher: "NOAA / National Ocean Service"
+    accessed: '2026-11-24'
+  - title: "IAU 2015 Resolution B3: recommended nominal solar and planetary conversion constants — full resolution"
+    url: "https://arxiv.org/pdf/1510.07674"
+    publisher: "International Astronomical Union, Resolution B3 (2015)"
+    accessed: '2026-11-24'
 legacy:
   id: sun
   icon: ☀
@@ -78,3 +86,28 @@ conceptGroup: sun
 ## 观察图景时保留的边界
 
 纹理、辉光、转速与亮度都经过展示处理；这里不是实时太阳图像。大小比较回答的是参考长度问题，太阳活动、辐射强度和内部演化则需要相应观测与模型。把这些问题分开，才能理解同一颗太阳为何在三个尺度站中有不同的入口。[1][2]
+
+
+## 这个数值的误差账本
+
+太阳直径约 139.2 万公里，常用“约 140 万公里”圆整。它由角直径与日地距离推算，光球边缘没有硬边界，因此不同定义会差几十公里。太阳也不是完美球体，自转与磁场造成微小扁率。把太阳装进一个立方体时，边长要按直径算，不是按体积开三次方。
+
+## 换一个尺度看它
+
+太阳直径约为地球的 109 倍；若地球是 1 厘米，太阳约 1.09 米。日地平均距离约 1.5 亿公里，相当于 107 个太阳直径。这个比例说明太阳看起来大，是因为它离我们近；在恒星世界里，太阳只是中等偏小的主序星。
+
+## 太阳的大小会变吗
+
+太阳不是固定不变的球。主序阶段它以氢为核心燃料，半径缓慢变化；进入红巨星阶段后，外层会显著膨胀。今天的 1,391,400 公里只是当前光球参考直径，不是太阳一生的固定尺寸。[2] 把太阳放进恒星演化图景时，长度轴记录的是“现在多大”，时间轴记录的是“它处在哪一段”。同一个天体，两个轴回答不同问题。
+
+## 五轴对照
+
+在空间轴，太阳是 10⁹ 米级的恒星；在质量轴，它约 1.989×10³⁰ 千克，占太阳系总质量的绝大部分；在温度轴，核心与光球相差三个数量级；在时间轴，它约 46 亿年，正值主序中年。把“直径是地球的 109 倍”读成“质量也是 109 倍”会错；半径、质量、温度、年龄必须各用各的口径。[1][2]
+
+## 太阳半径也在变
+
+太阳半径通常取 696,000 公里，但光球没有硬边界，半径定义依赖光球温度或光学厚度。太阳持续损失质量与辐射，理论上会缓慢收缩；观测上的变化又受活动周期与仪器校准影响。把太阳半径当成固定常数，是工程近似，不是恒星物理的终点。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（NOAA / National Ocean Service）、[4]（International Astronomical Union, Resolution B3 (2015)） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

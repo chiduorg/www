@@ -17,6 +17,7 @@ related:
   - space.chopsticks
   - space.axolotl
   - space.giant-salamander
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Salamandra salamandra
@@ -27,6 +28,10 @@ sources:
     url: 'https://amphibiaweb.org/cgi/amphib_query?where-genus=Salamandra&where-species=salamandra'
     publisher: AmphibiaWeb
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年个体；量取吻端到尾尖的全长，包含尾巴；不含幼虫期与变态前的体长；雌性与雄性、不同亚种存在体型差异。
 uncertainty: 成年个体全长约 0.18–0.23 m，常见 0.20 m 上下；文献记录的极端范围可到 0.15–0.30 m；本条取 0.20 m 作常见成体代表值，尾巴约占全长三分之一。
 review:
@@ -70,3 +75,7 @@ tags:
 ## 与其他尺度的关系
 
 0.20 米约为 8 厘米欧洲林蛙体长的 2.5 倍，也比 8 厘米家鼠头体长多 12 厘米。它接近一根 25 厘米筷子的八成，放在手掌上大约占满成人 20 厘米的手长。[1][2] 这个尺度让它成为“能被一只手托住”的两栖动物，也把“林蛙—火蝾螈—筷子”三者串在同一条尺度带上。与青蛙相比，它的身体更细长、尾巴更像“第五肢”，同体长下的轮廓完全不同。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.67 纳秒，在时间轴上量级接近「纳秒」。[3]

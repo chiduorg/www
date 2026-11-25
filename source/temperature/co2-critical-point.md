@@ -20,6 +20,7 @@ related:
   - temperature.water-triple-point
   - temperature.ethanol_boiling
   - temperature.room-temperature
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: 'Carbon dioxide: phase change data'
@@ -31,6 +32,10 @@ sources:
       https://chem.libretexts.org/Bookshelves/General_Chemistry/General_Chemistry_-_An_Atoms_First_Approach_(Halpern)/Unit_5%3A_States_of_Matter/Chapter_11%3A_Fluids/Chapter_11.6%3A_Critical_Temperature_and_Pressure
     publisher: LibreTexts Chemistry
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: co2-critical-point
   icon: "\U0001FAE7"
@@ -88,3 +93,5 @@ tags:
 ## 与其他温区的关系
 
 304.18 K 比水的三相点 273.16 K 高约 31 K，比室温约 293 K 略高；它比乙醇沸点 351.5 K 低约 47 K，比水的沸点 373.15 K 低约 69 K。干冰在 1 atm 下约 194.7 K 升华，远低于临界温度。二氧化碳临界点因此正好落在“常温附近、但必须加压才能到达”的窄窗口，是超临界萃取和热泵系统常引用的基准。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -31,6 +31,10 @@ sources:
     url: 'https://www.nature.com/articles/s41586-023-06170-w'
     publisher: Nature
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: eukaryotes-emergence
   icon: "\U0001F9EC"
@@ -99,3 +103,12 @@ tags:
 ## 与其他阶段的关系
 
 这些记录出现在大氧化事件之后、多细胞真核化石之前，填补了复杂细胞早期历史的一段空白。[1][2] 它上接最早生命与 LUCA，下接埃迪卡拉生物群与寒武纪多样化；但“真核细胞出现”“多细胞化”“动物出现”是三个不同的时间门槛。[2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 3.849×10¹⁷ 秒，换算后是 1.22×10¹⁰ 年；约 0.884 个当前宇宙年龄（138 亿年）。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10¹⁷ 量级附近。
+
+读图时先看量级，再看倍数：10¹⁷ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

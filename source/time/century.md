@@ -17,6 +17,7 @@ related:
   - time.millennium
   - time.year
   - time.industrial-revolution
+  - space.omega-centauri
 reviewStatus: reviewed
 sources:
   - title: year
@@ -27,6 +28,19 @@ sources:
     url: 'https://www.britannica.com/topic/Gregorian-calendar'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Climate and the collection
+    url: 'https://blog.sciencemuseumgroup.org.uk/climate-and-the-collection/'
+    publisher: Science Museum Group
+    accessed: '2026-11-24'
+  - title: 'A concise summary of the International System of Units, SI'
+    url: >-
+      https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-concise-EN.pdf/2fda4656-e236-0fcb-3867-36ca74eea4e3?download=true&version=1.2
+    publisher: International Bureau of Weights and Measures (BIPM)
+    accessed: '2026-11-24'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -50,12 +64,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "chronometer"
-  scene: "time.object"
-  caption: "一个世纪 · 聚落与建筑变迁示意"
-  note: "建筑、街道与人物为风格化示意，非按比例、非观测重建。"
-  variant: "calendar"
-  color: "#9fc1cf"
+  template: chronometer
+  scene: time.object
+  caption: 一个世纪 · 聚落与建筑变迁示意
+  note: 建筑、街道与人物为风格化示意，非按比例、非观测重建。
+  variant: calendar
+  color: '#9fc1cf'
 mode: 时长
 tags:
   - 时长尺度
@@ -80,3 +94,13 @@ tags:
 ## 与其他尺度的关系
 
 十个世纪构成一千年，一个世纪包含十个十年；向上可连接到千年尺度，向下可分解为年、月、周、天。[1][2] 在人类史与文明史中，世纪是常用的叙述单位；在宇宙史中，它小到几乎无法单独显示。阅读时把“持续一百年”与“某个世纪的历史区间”分开，可以避免把纪年标签当成物理时长。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Science Museum Group）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（International Bureau of Weights and Measures (BIPM)）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+按同一真空光速计算，光在这段时间内约走 100 光年，在空间轴上量级接近「半人马座ω星团」。[5]

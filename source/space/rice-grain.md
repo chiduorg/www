@@ -27,6 +27,10 @@ sources:
       https://openknowledge.fao.org/server/api/core/bitstreams/15629ca6-abd7-4565-a09a-269c39aaad69/content/T0567E07.htm
     publisher: FAO / International Rice Research Institute
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: rice-grain
   icon: "\U0001F35A"
@@ -85,3 +89,5 @@ Codex 的米标准把稻谷、糙米、精米和蒸谷米分别定义，并说�
 ## 与其他尺度的关系
 
 在尺度轴上，5毫米的米粒比0.5毫米的沙粒大十倍，比17.78厘米的铅笔短得多，也远小于人体。[1][2] 它能帮助读者从“毫米级颗粒”过渡到“厘米级日常物体”：十粒米首尾相接约5厘米，二十粒约10厘米。继续向上是手掌、餐具和人体，向下则是沙粒、尘螨和细胞。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

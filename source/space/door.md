@@ -28,6 +28,10 @@ sources:
     url: 'https://free.bcpublications.ca/civix/document/id/public/bcbc2018/bcbc_2018dbp9s99r2'
     publisher: Government of British Columbia
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为住宅或小型公共建筑的内门；测量口径为门扇标称高度，不含门框、门槛、地面装饰层与五金占位；不适用于门洞净开口高度、门宽或工业大门。
 uncertainty: >-
@@ -76,3 +80,12 @@ tags:
 ## 与其他尺度的关系
 
 2.032 米约是成人身高 1.75 米的 1.16 倍，比餐椅 0.90 米高出一倍多。[1] 它约等于自行车长度 1.8 米的 1.13 倍，放在 3.5 米宽的车道上，横向可并排约 1.7 扇门。与篮球场 28.65 米相比，门高只占约 7%。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 2.032 米，换算后是 2.032 米；约 1.2 个成年人身高（1.7 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -13,11 +13,12 @@ quantity:
   approximate: true
 displayValue: t = 1 秒
 related:
+  - space.observable-universe
+  - mass.total-matter-universe
   - time.neutrino-decoupling
   - time.electron-positron-annihilation
   - time.nucleosynthesis
   - time.hadron-era
-  - time.muon-antimuon-annihilation
 reviewStatus: reviewed
 sources:
   - title: 'Neutrinos in Cosmology, 2025 update'

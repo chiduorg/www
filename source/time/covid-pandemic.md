@@ -34,6 +34,10 @@ sources:
     publisher: WHO Regional Office for Africa
     url: 'https://afro.who.int/news/more-15-countries-africa-report-covid-19-cases'
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -91,3 +95,12 @@ COVID-19由SARS-CoV-2冠状病毒引起，主要通过飞沫、气溶胶与接�
 ## 后续与记忆
 
 大流行推动了疫苗研发、病毒监测、远程办公与公共沟通的变化，也暴露了医疗资源、供应链与国际协作的脆弱处。[1][2] 它与抗生素、疫苗的历史相连：现代医学能快速设计工具，但能否公平分配、能否维持信任，仍是另一类问题。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 4.354×10¹⁷ 秒，换算后是 1.38×10¹⁰ 年；约 1 个当前宇宙年龄（138 亿年）。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10¹⁷ 量级附近。
+
+读图时先看量级，再看倍数：10¹⁷ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

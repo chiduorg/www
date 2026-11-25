@@ -18,6 +18,7 @@ related:
   - temperature.sunspot
   - temperature.solar-corona
   - time.big-bang
+  - mass.sun
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -30,6 +31,14 @@ sources:
     url: 'https://science.nasa.gov/sun/facts/'
     publisher: NASA Science
     accessed: '2026-11-04'
+  - title: "Sun Fact Sheet"
+    url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    publisher: "NASA NSSDC"
+    accessed: '2026-11-24'
+  - title: "Helioseismology"
+    url: "https://nso.edu/research/helioseismology/"
+    publisher: "NSF National Solar Observatory, Jack Harvey and Shukur Kholikov"
+    accessed: '2026-11-24'
 legacy:
   id: sun-surface
   icon: ☀
@@ -81,3 +90,28 @@ IAU 2015 决议推荐名义太阳有效温度 5,772 K，供研究者作一致的
 ## 与空间尺度怎样一起理解
 
 比较恒星时，温度与半径需要配合：表面辐射强弱和整个天体的总输出是不同问题。球体大小、整体有效温度和局部活动图像应各自读懂。画面中的纹理与弧线用于辨认太阳，不能仅凭其颜色读取温度分布或真实光谱。[1][2]
+
+
+## 这个数值的误差账本
+
+太阳有效温度约 5772 K，是由总辐射与半径推算的“黑体等效温度”，不是光球每一点的实际温度。光球温度约 5,000–6,000 K，黑子更冷、日冕更热。把 5772 K 当成太阳表面均匀温度，会忽略磁场与对流造成的结构。
+
+## 换一个尺度看它
+
+5772 K 约为室温的 20 倍，也约为铁的熔点 1811 K 的 3.2 倍。太阳核心约 1,500 万 K，是表面温度的 2,600 倍；日冕可达百万 K，却因密度极低而不“烫手”。太阳的温度不是一层，而是一个从核心到日冕的梯度。
+
+## 有效温度不是每一点的实际温度
+
+5,772 K 是由太阳总辐射与半径推算的黑体等效温度，不是光球每一点的温度计读数。[1] 光球有约 5,000–6,000 K 的分布，黑子更冷，日冕更热。把有效温度当成均匀表面温度，会忽略磁场与对流造成的结构。
+
+## 为什么日冕比表面更热
+
+日冕温度可达百万 K，却密度极低，所以总热量远小于光球。[2] 它的加热机制涉及磁重联、波耗散等过程，仍是研究对象。不能因为日冕温度高，就说太阳表面“更热”或日冕会像炉子一样烫伤。
+
+## 五轴对照
+
+在温度轴，光球约 5,772 K；在空间轴，光球是可见圆面；在质量轴，太阳质量决定核心温度与光度；在时间轴，太阳表面活动随 11 年周期变化。有效温度、局部温度与活动周期不是同一个量。[1][2]
+
+## 延伸核对
+
+补充的来源 [3]（NASA NSSDC）、[4]（NSF National Solar Observatory, Jack Harvey and Shukur Kholikov） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

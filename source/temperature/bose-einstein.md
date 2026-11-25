@@ -19,8 +19,8 @@ related:
   - temperature.dilution-refrigerator
   - temperature.superfluid
   - temperature.helium-3-superfluid
-  - temperature.nuclear-demagnetization-cooling
   - time.big-bang
+  - mass.helium-nucleus
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -39,6 +39,14 @@ sources:
     url: 'https://www.britannica.com/science/Bose-Einstein-condensate'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "The Provisional Low Temperature Scale from 0.9 mK to 1 K, PLTS-2000"
+    url: "https://www.bipm.org/documents/20126/41791796/PLTS-2000.pdf"
+    publisher: "BIPM / CIPM Recommendation C1 (2000)"
+    accessed: '2026-11-24'
+  - title: "The early universe"
+    url: "https://home.cern/science/physics/early-universe"
+    publisher: "CERN"
+    accessed: '2026-11-24'
 legacy:
   id: bose-einstein
   icon: "\U0001FAE7"
@@ -92,3 +100,27 @@ tags:
 ## 与其他温区的关系
 
 BEC 比液氦-4 的 2.17 K 超流转变低约七个量级，也比稀释制冷的 10 mK 低约五个量级。[1][3] 它与氦-3 的 2.444 mK 超流 A 点属于不同量子统计体系：前者是玻色气体，后者是费米液体配对。把它们排在同一条温度轴上时，必须保留“哪种系统、什么转变”的标签。
+
+## 临界温度依赖密度
+
+BEC 的临界温度不是固定常数，而随原子种类、密度和阱参数变化；密度越高，转变温度通常越高。[1] 因此 170 nK 只是某个铷实验的参考，不是“所有玻色气体的凝聚点”。换一种原子或改变阱频率，数值就会变。
+
+## BEC 与超流不是同义词
+
+BEC 强调大量原子占据同一量子态；超流强调无耗散流动。液氦的超流转变涉及强相互作用，BEC 实验则是稀薄气体。[2][3] 两者可以相关，却不是同一个概念。把 BEC 直接称为“超流气体”，会混淆量子统计与流体行为。
+
+## 五轴对照
+
+在温度轴，BEC 约 170 nK；在空间轴，原子云被磁阱或光阱限制；在质量轴，原子质量影响临界温度；在时间轴，凝聚在冷却过程中形成。温度、密度与相互作用共同决定量子态。[1][2]
+
+## 临界温度依赖密度
+
+BEC 的临界温度不是固定常数，而随原子种类、密度与阱参数变化；密度越高，转变温度通常越高。170 nK 只是某个铷实验的参考，不是所有玻色气体的凝聚点。换一种原子或改变阱频率，数值就会变。[1][S2]
+
+## 读数的口径与换算
+
+本条采用的量是 约 170 nK（1.7 × 10⁻⁷ K），口径是 rubidium-bec-onset-temperature-reference。温度是强度量，读数依赖温标、测点与热平衡；同一对象的不同部位、不同时刻可以有不同温度。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（BIPM / CIPM Recommendation C1 (2000)）、[5]（CERN） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

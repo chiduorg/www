@@ -5,7 +5,7 @@ summary: >-
   BOSS 长城是红移约 0.47 处的星系超结构，总质量约 2.0×10⁴⁸ kg，折合约 1×10¹⁸
   个太阳质量。口径为含暗物质的总质量，数值由红移巡天的星系密度场与结构模型反推，相对不确定度约 50%，只能给量级。
 dimension: mass
-category: 大尺度结构
+category: 星系与宇宙
 displayValue: 2.0×10⁴⁸ kg
 quantity:
   value: 2e+48
@@ -24,6 +24,8 @@ related:
   - mass.sloan-great-wall
   - mass.hercules-corona-borealis-great-wall
   - mass.observable-universe
+  - space.milky-way
+  - temperature.cmb
 reviewStatus: reviewed
 review:
   method: source-check
@@ -45,7 +47,7 @@ sources:
     publisher: NASA
     accessed: '2026-11-09'
   - title: ESA Planck
-    url: 'https://www.esa.int/Science_Exploration/Space_Science/Planck'
+    url: 'https://sci.esa.int/web/planck'
     publisher: European Space Agency
     accessed: '2026-11-09'
   - title: NASA/IPAC Extragalactic Database
@@ -79,6 +81,7 @@ visual:
   color: '#c9d8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: BOSS Great Wall
 ---
 ## 这个读数是什么
 

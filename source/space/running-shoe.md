@@ -15,6 +15,7 @@ related:
   - space.shoe
   - space.human
   - space.basketball
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Shoe Size Guide
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/topic/shoe'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为欧码 42 的成人运动鞋；量取外底沿长轴的最大长度，不含鞋带、鞋垫与鞋盒；欧码 42 只是样本尺码，不同品牌楦型与鞋型会改变同码鞋长。
 uncertainty: 欧码 42 对应的脚长约 25.9–26.5 cm，外底通常比脚长多 0.5–3 cm；本条取 29 cm 作跑鞋代表值，实际同码外底多在 28–30 cm，厚底与竞速款的差异可达 2 cm 以上。
 review:
@@ -72,3 +77,5 @@ ASICS 官方尺码表把欧码 42 对应到 26.5 厘米的脚长，并给出从�
 ## 与其他尺度的关系
 
 29 厘米比 26.5 厘米的欧码 42 脚长长 2.5 厘米，约为 24 厘米篮球直径的 1.2 倍；与 1.7 米的成年人相比，只占其身高的 17%。[1][2] 它比 20 厘米的成人手长多 9 厘米，接近一张 A4 纸短边 21 厘米的 1.4 倍。[3] 在鞋柜与行李箱的纵向空间规划里，这个长度决定单只鞋占用的深度。鞋带、鞋垫与鞋盒都不在测量范围内，量的是鞋底本身。
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.97 纳秒，在时间轴上量级接近「纳秒」。[4]

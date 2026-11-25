@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/cell-biology'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: cell
   icon: "\U0001F9EB"
@@ -79,3 +83,14 @@ OpenStax把真核细胞的直径概括为约10–100微米，原核细胞约0.1�
 ## 与其他尺度的关系
 
 在本站轴上，人体细胞位于细菌（约1微米）与头发（约100微米）之间。[1] 细胞内的细胞器又小一个数量级：线粒体、核糖体等结构需要单独测量。[2] 这些层次提醒我们，同一个“细胞”内部也有一条完整的尺度阶梯。
+
+
+## 这个数值的误差账本
+
+人体细胞大小差异很大：红细胞约 7–8 微米，神经元可延伸数米，脂肪细胞可达上百微米。条目取约 10–30 微米，是常见体细胞的量级示例，不是所有细胞的平均。细胞没有硬边界，细胞膜、糖萼与固定方式都会影响测量；用显微镜标尺读数时，还要说明是直径、长度还是投影面积。
+
+## 换一个尺度看它
+
+一个 20 微米的细胞，约是一根头发直径的 1/4，也是一毫米的 1/50。人体约由 30 万亿个细胞组成，但这不是简单相加：不同细胞大小、数量与细胞外基质共同构成组织。细胞尺度向上连接到组织与器官，向下连接到细胞器与分子。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

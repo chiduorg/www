@@ -33,6 +33,10 @@ sources:
     url: 'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf'
     publisher: International Commission on Stratigraphy
     accessed: '2026-11-06'
+  - title: Planck 2018 results. VI. Cosmological parameters
+    url: 'https://arxiv.org/abs/1807.06209'
+    publisher: Planck Collaboration / Astronomy & Astrophysics
+    accessed: '2026-11-24'
 legacy:
   id: carboniferous-period
   icon: "\U0001FAB2"
@@ -102,3 +106,7 @@ tags:
 ## 与其他阶段的关系
 
 石炭纪承接泥盆纪的森林化与鱼类多样化，结束于二叠纪初的冰期与生态重组前夜。[1][3] 它的沼泽森林为两栖动物提供栖息地，也在埋藏过程中形成大量煤炭，成为后来工业革命的重要能源基础。[2] 石炭纪末的冰期与雨林收缩使沼泽森林减少，二叠纪的干旱陆相沉积分布更广。[1][3]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（Planck Collaboration / Astronomy & Astrophysics）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

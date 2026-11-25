@@ -17,6 +17,7 @@ related:
   - space.a4-paper
   - space.hand
   - space.basketball
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Daylite™ Plus Backpack — specifications
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.osprey.com/ph/en/daylite-plus-dayltpluss21-795'
     publisher: Osprey
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为 20 升日常双肩包；测量口径为包体从底部到顶部的高度，不含肩带、提手、外挂口袋装满后的鼓起部分。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 48 厘米约为成年人手长 19 厘米的 2.5 倍，也约为 A4 纸长边 29.7 厘米的 1.6 倍。它比 34.5 厘米的笔记本屏幕对角线高约 39%，比直径约 24 厘米的篮球高约一倍。背在成人背上时，包顶通常接近肩胛骨上缘，不会高过头顶。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.7 纳秒，在时间轴上量级接近「纳秒」。[3]

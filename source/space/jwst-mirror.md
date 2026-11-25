@@ -18,6 +18,7 @@ related:
   - space.iss
   - space.geostationary-orbit
   - space.moon
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: The James Webb Space Telescope
@@ -35,6 +36,10 @@ sources:
       https://aerospaceamerica.aiaa.org/institute/the-universes-first-selfie-the-remarkable-story-of-the-james-webb-space-telescope/
     publisher: American Institute of Aeronautics and Astronautics
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为詹姆斯·韦布空间望远镜的主镜；测量口径为主镜通光口径的直径 6.5 米，不是镜面面积、镜片数量、整台望远镜尺寸或遮阳板跨度；不适用于哈勃等其他望远镜。
 uncertainty: >-
   NASA 技术报告集论文与韦布官网采用 6.5 米口径；AIAA 的公开演讲报道写作 6.6 米，差异来自是否把镜面外缘或支撑结构计入。本条采用 6.5
@@ -83,3 +88,5 @@ NASA 技术报告集的论文摘要写明“主镜直径 6.5 米”，并说明�
 ## 与其他尺度的关系
 
 6.5 米约相当于 3.8 个身高 1.7 米的成年人首尾相接，也约为国际空间站桁架长度 94 米的 7%。[1] 与 35,786 公里的地球同步轨道高度相比，6.5 米不到其百亿分之一。主镜口径决定红外波段的衍射极限，但整台望远镜还要依靠遮阳板、低温环境与在轨校准，才能把口径优势转化为图像质量。
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 21.7 纳秒，在时间轴上量级接近「原子跃迁」。[4]

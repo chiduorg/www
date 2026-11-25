@@ -19,6 +19,7 @@ related:
   - temperature.human-body-temperature
   - temperature.water-freezing
   - temperature.sodium-melting
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: NIST Realization of the Gallium Triple Point
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/science/gallium'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 高纯镓
   measurementSite: 镓固定点容器中的样品
@@ -79,3 +84,12 @@ NIST 把镓熔点 302.9146 K 作为 ITS-90 的定义固定点之一，并用高�
 ## 与其他温度的关系
 
 302.91 K 略高于 room-temperature 的约 293 K，低于 human-body-temperature 的约 310 K。它高于 water-freezing 的 273.15 K，也远高于 mercury-melting 的 234.32 K，说明镓虽低熔，仍比汞更难冻。它低于 sodium-melting 的约 371 K，低熔点金属之间也有明显层级。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 302.9 K，即 29.76 ℃（按 T/K−273.15 换算）；约为人体核心温度（310 K）的 0.977 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

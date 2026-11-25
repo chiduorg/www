@@ -16,6 +16,7 @@ related:
   - space.earth
   - space.crust
   - space.grand-canyon
+  - time.millisecond
 reviewStatus: reviewed
 sources:
   - title: International Consensus — Link Between Asteroid Impact and Mass Extinction Is Rock Solid
@@ -26,6 +27,10 @@ sources:
     url: 'https://kids.britannica.com/kids/assembly/view/95210'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为希克苏鲁伯撞击构造的最终坑缘；量取坑缘的直径，不含约240公里的外围环形断裂，也不含撞击溅射毯与瞬时坑的估算边界；构造整体埋于沉积物之下。
 uncertainty: LPI与Britannica均给约180公里，但不同研究对“最终坑缘”与“瞬时坑”的界定不同，文献中也有约170至200公里的范围；本条采用180公里，并明确不把240公里环形构造计入。
 review:
@@ -70,3 +75,7 @@ tags:
 ## 与其他尺度的关系
 
 180公里约为圣安德烈斯断层长度1,300公里的14%，约为珠穆朗玛峰高程8,848.86米的20倍，约为大峡谷全长446公里的40%。[1][2] 它远小于月球3,474公里的直径，却足以让全球气候在短时间内发生剧变。与德干暗色岩的2,000米厚度相比，它描述的是水平跨度而非垂直堆积。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 600 微秒，在时间轴上量级接近「毫秒」。[3]

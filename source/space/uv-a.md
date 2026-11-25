@@ -17,6 +17,7 @@ related:
   - space.sun
   - space.atmosphere
   - space.earth
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: ultraviolet radiation
@@ -27,6 +28,10 @@ sources:
     url: 'https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html'
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为UV-A波段的电磁波波长；介质取真空，空气中短波紫外吸收更强；365纳米是代表值，不是UV-A端点。
 uncertainty: UV-A范围常写为400–315纳米，不同资料对边界及与UV-B的划分略有差异；365纳米位于该段中部偏短波侧。
 review:
@@ -73,3 +78,7 @@ Britannica 把紫外线写作约400至10纳米，并按生物效应把UV-A定为
 ## 与其他尺度的关系
 
 365纳米约为可见光紫端400纳米的0.91倍，也比UV-B长波端315纳米长约16%。[1][2] UV-A 位于紫外长波端，向内是UV-B与UV-C，向外是可见紫光。到达地面的太阳紫外中，大部分是UV-A；臭氧层主要阻挡更短的UV-B与UV-C。这一段的短波端与UV-B相接，长波端与可见紫光相接，边界由生物效应约定，而不是自然断层。地面观测与防晒评估通常按波段加权，而不是只取365纳米一点；引用UV-A数据时，必须说明采用哪一套波段定义。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.0000012 纳秒，在时间轴上量级接近「纳秒」。[3]

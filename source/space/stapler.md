@@ -16,6 +16,7 @@ related:
   - space.pencil
   - space.a4-paper
   - space.keyboard
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Swingline® 747® Classic Stapler'
@@ -26,6 +27,10 @@ sources:
     url: 'https://accobrandscanada.com/products/swingline-optima-25-reduced-effort-compact-stapler/'
     publisher: ACCO Brands Canada
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为普通桌面订书机；量取机身尾部到出钉口前端的长轴长度，不含手柄抬起后的高度，也不把钉槽内伸出的订书钉计入；全尺寸与紧凑型属于不同规格。
 uncertainty: 常见桌面订书机长 12–18 厘米；Swingline 747 规格为 7.3 × 1.7 × 2.5 英寸，长边约 18.5 厘米，Optima 25 紧凑型为 1.875 × 5.25 × 3.125 英寸，最长边约 13.3 厘米；本条取 15 厘米作中间代表值，具体型号会超出这一范围。
 review:
@@ -69,3 +74,7 @@ Swingline 747 的官方产品规格列出 7.3 × 1.7 × 2.5 英寸，最长边 7
 ## 与其他尺度的关系
 
 15 厘米约为 A4 纸长边 29.7 厘米的一半，比 3.3 厘米的标准回形针长约 4.5 倍，比 17.78 厘米的铅笔短约 2.8 厘米。[1][2] 与 25 厘米的中式筷子相比，它短 10 厘米，却更宽更厚，占用的桌面面积反而更大。放在 1.8 米长的餐桌上，一台订书机只占桌长的十二分之一左右，属于典型的单手握持尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.50 纳秒，在时间轴上量级接近「纳秒」。[3]

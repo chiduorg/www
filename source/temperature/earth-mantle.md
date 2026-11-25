@@ -31,6 +31,10 @@ sources:
     url: 'https://www.usgs.gov/index.php/media/audio/what-do-we-know-about-interior-earth-0'
     publisher: U.S. Geological Survey
     accessed: '2026-11-08'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为核幔边界压力下的橄榄岩（pyrolite）体系；3,570 ± 200 K 是固相线温度，可作为该处地幔温度的上限参照。地幔顶部与大部分地幔远比此值低，不能用这一个数概括整层。
 uncertainty: >-
@@ -78,3 +82,5 @@ tags:
 ## 与其他尺度的关系
 
 在温度轴上，3,570 K 高于日常高温与玄武岩熔化区间，低于太阳表面约 5,772 K，也远低于地核的纯铁熔化参照约 6,230 K。[1] 在空间上，它对应地表以下约 2,900 公里的核幔边界；在时间上，地幔对流与造山过程把这份热量搬运到地表，尺度可达数千万年。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

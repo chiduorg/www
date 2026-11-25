@@ -5,7 +5,7 @@ summary: >-
   仙女座星系（M31）的总质量约 2.98×10⁴² kg，折合约 1.5×10¹²
   个太阳质量，口径包含暗物质晕。数值由旋转曲线与卫星星系运动联合拟合，恒星质量约 1×10¹¹ 个太阳质量，相对不确定度约 30%。
 dimension: mass
-category: 星系
+category: 星系与宇宙
 displayValue: 2.98×10⁴² kg
 quantity:
   value: 2.98e+42
@@ -79,6 +79,7 @@ visual:
   color: '#a6bfff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Andromeda Galaxy
 ---
 ## 这个读数是什么
 

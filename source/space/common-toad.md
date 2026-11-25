@@ -15,6 +15,7 @@ related:
   - space.frog
   - space.mouse
   - space.bat
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Common toad
@@ -25,6 +26,10 @@ sources:
     url: 'https://biodiversite.pnr-foret-orient.fr/espece/259'
     publisher: Parc naturel régional de la Forêt d'Orient
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年普通蟾蜍；量取吻端到肛门的体长，不含后肢与伸展长度；雌性通常大于雄性，不同产地与季节（是否抱对、是否鼓胀）会影响读数。
 uncertainty: 成年个体吻肛长约 0.10–0.18 m，多数成体落在 0.10–0.15 m；本条取 0.15 m 作大型成体的代表值，接近常见范围上端；雌性普遍大于雄性，地区差异可达数厘米。
 review:
@@ -68,3 +73,7 @@ tags:
 ## 与其他尺度的关系
 
 0.15 米约为 8 厘米欧洲林蛙体长的 1.9 倍，也比 8 厘米家鼠头体长多 7 厘米。[1][2] 它不到 0.33 米大棕蝠翼展的一半，却接近一根 25 厘米筷子长度的六成。这个尺度说明蟾蜍是“能整只握在手里”的动物，而不是需要双手托举的对象。与青蛙相比，蟾蜍身体更圆、后肢更短，同样的体长看上去更“厚实”。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.50 纳秒，在时间轴上量级接近「纳秒」。[3]

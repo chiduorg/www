@@ -16,6 +16,7 @@ related:
   - space.table
   - space.stapler
   - space.a4-paper
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: ORSALA LED work lamp, dimmable white — Product dimensions
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.ikea.com.tw/en/products/luminaires/desk-lamps-and-clamp-lamps/orsala-art-10482908'
     publisher: IKEA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为常见 LED 工作台灯；量取底座底面到灯头最高点，灯臂伸直、灯头朝上时取值；电源线、插头与灯罩外凸不计入。
 uncertainty: LED 台灯最大高度多在 40–50 cm；两条来源均给出 45 cm，与本条建议值一致；灯臂折弯后可低于 45 cm，开灯后灯头角度变化也会影响最高点。
 review:
@@ -70,3 +75,7 @@ tags:
 ## 与其他尺度的关系
 
 45 厘米与 45 厘米的砧板长度相等，约为 24 厘米汤锅口径的 1.9 倍，比 34.5 厘米的笔记本屏幕对角线高 10.5 厘米。[1][2] 放在 1.8 米长的餐桌上，台灯高度约占桌长的四分之一；与 1.10 米的办公椅总高相比，只到椅背顶端的一半左右。它也比 25 厘米的电水壶高 20 厘米，说明台灯是桌面上的“竖向”物件。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.5 纳秒，在时间轴上量级接近「纳秒」。[3]

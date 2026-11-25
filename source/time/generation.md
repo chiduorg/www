@@ -18,6 +18,7 @@ related:
   - time.year
   - time.first-humans
   - time.present
+  - space.eagle-nebula
 reviewStatus: reviewed
 sources:
   - title: 'Human generation times across the past 250,000 years'
@@ -30,6 +31,10 @@ sources:
       U.S. Centers for Disease Control and Prevention, National Center for
       Health Statistics
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -80,3 +85,7 @@ tags:
 ## 与其他尺度的关系
 
 27 年约为人类寿命的三分之一，约为一个世纪的四分之一，也约为文字文明参考长度 5 000 年的两百分之一。它比一年长，比物种寿命短得多；在人类演化与人口史中，它决定突变累积和人口更替的速度。[1][2] 与银河年或米兰科维奇周期相比，代际间隔极短，但它直接连接个体生命史与社会历史，是少数可以用出生记录逐年检验的时间尺度。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+按同一真空光速计算，光在这段时间内约走 27 光年，在空间轴上量级接近「鹰状星云」。[3]

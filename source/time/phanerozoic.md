@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: t ≈ 132.6 亿年（距今约5.39亿年）
 related:
+  - space.earth
+  - mass.earth
   - time.proterozoic
   - time.paleozoic
   - time.cambrian
   - time.ediacaran-biota
-  - time.origin-of-animals
 chronology:
   status: reference
   plot: true
@@ -32,6 +33,10 @@ sources:
     url: 'https://www.britannica.com/science/Phanerozoic-Eon'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Triassic Period
+    url: 'https://www.nps.gov/articles/000/triassic-period.htm'
+    publisher: U.S. National Park Service
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -52,11 +57,11 @@ conditions:
   conversion: presentSeconds - lookbackYears × secondsPerYear
   precision: 亿年级近似时代坐标，非高精度年代测量
 visual:
-  template: "geologic-section"
-  scene: "time.object"
-  caption: "显生宙 · 化石记录中的复杂生命"
-  note: "化石与岩板为解释性示意，不表示某一具体地点或物种的完整组合。"
-  color: "#b09a74"
+  template: geologic-section
+  scene: time.object
+  caption: 显生宙 · 化石记录中的复杂生命
+  note: 化石与岩板为解释性示意，不表示某一具体地点或物种的完整组合。
+  color: '#b09a74'
 mode: 时点
 tags:
   - 地质年代
@@ -82,3 +87,7 @@ tags:
 ## 与其他阶段的关系
 
 显生宙前接元古宙末期与埃迪卡拉生物群，后接尚未发生的未来。它内部又可拆成古生代、中生代和新生代，各自对应不同的生物组合与地理格局。读时间轴时，应把“显生宙开始”“寒武纪多样化”“某一类动物首次出现”分开，才能理解为什么同一条界线附近会出现多种不同尺度的故事。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. National Park Service）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

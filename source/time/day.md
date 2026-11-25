@@ -30,6 +30,14 @@ sources:
     url: 'https://www.britannica.com/science/day'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Planck 2018 results. VI. Cosmological parameters
+    url: 'https://arxiv.org/abs/1807.06209'
+    publisher: Planck Collaboration / Astronomy & Astrophysics
+    accessed: '2026-11-24'
+  - title: How Did the Solar System Form?
+    url: 'https://spaceplace.nasa.gov/solar-system-formation/en/'
+    publisher: NASA Space Place
+    accessed: '2026-11-24'
 chronology:
   status: duration
   plot: false
@@ -50,12 +58,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "chronometer"
-  scene: "time.object"
-  caption: "一天 · 地球自转与昼夜示意"
-  note: "地球、云层与昼夜分界为风格化示意，非按比例、非观测重建。"
-  variant: "calendar"
-  color: "#9fc1cf"
+  template: chronometer
+  scene: time.object
+  caption: 一天 · 地球自转与昼夜示意
+  note: 地球、云层与昼夜分界为风格化示意，非按比例、非观测重建。
+  variant: calendar
+  color: '#9fc1cf'
 mode: 时长
 tags:
   - 时长尺度
@@ -80,3 +88,11 @@ tags:
 ## 与其他尺度的关系
 
 七天构成一周，十二个月构成一年；月与年的精确口径分别由天文周期和历法平均决定。[1][2] 天向上连接历法，向下由小时、分钟、秒分割。它是少数同时具有天文参照和精确 SI 换算两种口径的单位，阅读时应先确认用的是哪一种。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Planck Collaboration / Astronomy & Astrophysics）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（NASA Space Place）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

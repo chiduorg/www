@@ -16,16 +16,21 @@ related:
   - space.siberian-traps
   - space.tectonic-plate
   - space.earth
+  - time.microsecond
 reviewStatus: reviewed
 sources:
-  - title: 'Tectonics of the Deccan Large Igneous Province: an introduction'
-    url: 'https://www.geos.iitb.ac.in/images/stories/pdf/sm_ptectonicsdlp.pdf'
-    publisher: Indian Institute of Technology Bombay
+  - title: "Tectonics of the Deccan Large Igneous Province: an introduction"
+    url: 'https://hal.science/hal-01697291'
+    publisher: "HAL / Geological Society, London"
     accessed: '2026-11-07'
   - title: Deccan Traps
     url: 'https://www.britannica.com/place/Deccan-Traps'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为德干暗色岩省的熔岩层系；采用代表性剖面的累计厚度口径，即从最底层熔岩到顶层熔岩的垂直总和；不含下伏沉积岩、侵入岩床与岩脉，也不把整个省的面积平均厚度当作本条数值。
 uncertainty: 印度理工学院的综述称德干暗色岩总厚度超过2,000米，Britannica的概数为1,200米以上；不同剖面差异很大，西高止山一带约1,200米，局部更完整层序可超过2,000米。本条取2,000米作为代表剖面的累计厚度，并明确不是全盆平均。
 review:
@@ -70,3 +75,7 @@ tags:
 ## 与其他尺度的关系
 
 2,000米约为西伯利亚暗色岩代表剖面3,500米的57%，约为珠穆朗玛峰高程8,848.86米的23%，约为地壳平均厚度约35公里的5.7%。[1][2] 它比单座火山锥的高度大得多，却只是地壳表层的一小层。若把2,000米厚、50万平方公里的熔岩换算成体积，量级可达百万立方公里。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.7 微秒，在时间轴上量级接近「微秒」。[3]

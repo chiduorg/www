@@ -18,6 +18,7 @@ related:
   - space.pencil
   - space.watermelon
   - space.bread-loaf
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: banana — Physical Characteristics
@@ -28,6 +29,10 @@ sources:
     url: 'https://ntbg.org/database/plants/detail/musa-~paradisiaca'
     publisher: National Tropical Botanical Garden
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为常见食用香蕉的单根果指；测量口径为果指两端之间的直线距离，沿果身拉直但不沿弯曲弧线量取。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 20 厘米约为成年人手长 19 厘米的 1.05 倍，也与一支约 19 厘米的铅笔相近。它比直径约 8 厘米的苹果长约 2.5 倍，比直径约 40 厘米的西瓜短约一半。与一顶约 25 厘米宽的棒球帽相比，香蕉略短。整串香蕉可达 30 厘米以上，约为单根果指的一倍半。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.67 纳秒，在时间轴上量级接近「纳秒」。[3]

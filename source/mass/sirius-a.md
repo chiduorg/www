@@ -3,7 +3,7 @@ id: mass.sirius-a
 title: 天狼星 A：4.10×10³⁰ kg，夜空最亮恒星的质量
 summary: 天狼星 A 质量约 4.10×10³⁰ kg，约 2.06 太阳质量。数值来自它与白矮星伴星天狼星 B 的双星轨道拟合，相对不确定度约 3%。
 dimension: mass
-category: 恒星
+category: 恒星与致密天体
 displayValue: 4.10×10³⁰ kg
 quantity:
   value: 4.1e+30
@@ -78,6 +78,7 @@ visual:
   color: '#ffd37a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Sirius A
 ---
 ## 这个读数是什么
 

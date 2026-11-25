@@ -13,12 +13,12 @@ quantity:
   approximate: true
 displayValue: 约 70 cm（T恤衣长）
 related:
+  - time.nanosecond
   - space.hand
   - space.a4-paper
   - space.laptop
   - space.hat
   - space.hoodie
-  - space.jeans
 reviewStatus: reviewed
 sources:
   - title: GILDAN Heavy Cotton T-Shirt 5000 — garment measurements
@@ -29,6 +29,10 @@ sources:
     url: 'https://gildanbrands.com.au/gildan-heavy-cotton-5000/'
     publisher: Gildan Brands Australia
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为成人圆领短袖 T 恤；测量口径为后身从领口肩点附近到下摆的衣长，不含罗纹领高度和洗涤后的缩水。
 uncertainty: >-
@@ -75,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 70 厘米约为成年人手长 19 厘米的 3.7 倍，也约为 A4 纸长边 29.7 厘米的 2.4 倍。它比 34.5 厘米的笔记本屏幕对角线长约两倍，比一顶约 25 厘米宽的棒球帽长约 2.8 倍。成人穿上后，70 厘米衣长通常盖过腰线，落在髋部附近。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.3 纳秒，在时间轴上量级接近「纳秒」。[3]

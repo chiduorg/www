@@ -29,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/topic/Sahelanthropus-tchadensis'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'Early Homo at 2.8 Ma from Ledi-Geraru, Afar, Ethiopia'
+    url: 'https://pubmed.ncbi.nlm.nih.gov/25739410/'
+    publisher: Science / PubMed
+    accessed: '2026-11-24'
 legacy:
   id: hominins-emerge
   icon: "\U0001F9B5"
@@ -101,3 +105,7 @@ tags:
 ## 与其他阶段的关系
 
 沙赫人属于人亚科的早期尝试，之后南方古猿等支系延续数百万年，约280万年前才出现人属的化石证据，约30万年前才出现具早期智人特征的群体。把这三层放进时间轴，可以看到“人类起源”不是单点，而是分支、存续与地区扩散叠加的长期过程。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Science / PubMed）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

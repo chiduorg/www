@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 121.6 au（旅行者1号穿越位置）
 related:
+  - mass.earth
+  - temperature.venus-surface
   - space.solar-system
   - space.kuiper-belt
   - space.oort-cloud
   - space.earth
-  - space.voyager-1
 reviewStatus: reviewed
 sources:
   - title: 'Gurnett & Kurth (2019), Plasma Densities Near and Beyond the Heliopause'
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/heliopause'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: heliopause
   icon: "\U0001F6E1"
@@ -85,3 +90,12 @@ Gurnett与Kurth用旅行者1、2号的等离子体波仪器测量电子密度：
 ## 与其他尺度的关系
 
 日球层顶约121.6 au，约为海王星轨道半长轴30 au的四倍，却只是奥尔特云5,000–100,000 au范围的近端。[1] 与恒星际距离相比，它仍属太阳系内部；比邻星在4.26光年外，约合27万 au。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1.819×10¹³ 米，换算后是 1.22×10² 个天文单位；约 0.00192 光年（9.461×10¹⁵ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10¹³ 量级附近。
+
+读图时先看量级，再看倍数：10¹³ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

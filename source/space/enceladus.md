@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 504 km（平均直径）
 related:
+  - temperature.venus-surface
+  - time.solar-system
   - space.titan
   - space.europa
   - space.saturn
   - space.solar-system
-  - space.earth
-  - space.mimas
 reviewStatus: reviewed
 sources:
   - title: Saturnian Satellite Fact Sheet
@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Enceladus'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为土卫二冰壳表面；采用三轴半径257、251、248公里的平均值252公里加倍；不含南极喷流与稀薄水汽外逸层。
 uncertainty: >-
   三轴半径平均约252公里，直径约504公里；Britannica给出“约500公里”的概括值，NASA表列257×251×248公里，差异来自形状不规则与有效数字。
@@ -41,12 +45,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "土卫二 · 冰卫星"
-  note: "球体、冰壳裂纹与南极喷流为示意，非按比例，非观测重建；不复现真实喷流结构与当日相位。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 土卫二 · 冰卫星
+  note: 球体、冰壳裂纹与南极喷流为示意，非按比例，非观测重建；不复现真实喷流结构与当日相位。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -73,3 +77,5 @@ NASA土星卫星事实表列出三轴半径257、251、248公里，平均约252�
 ## 与其他尺度的关系
 
 504公里约为月球直径3,474公里的0.145倍，约为谷神星940公里的一半，也约为土卫六5,150公里的十分之一。[1][2] 它比土卫一396公里略大。土卫二轨道半径约23.8万公里，约为土星赤道半径60,268公里的3.9倍。[1]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

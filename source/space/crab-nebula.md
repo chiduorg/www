@@ -28,6 +28,10 @@ sources:
     url: 'https://esahubble.org/images/heic0515a/'
     publisher: ESA / Hubble
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: crab-nebula
   icon: "\U0001F980"
@@ -85,3 +89,5 @@ tags:
 ## 与其他尺度的关系
 
 9.46×10¹⁶米约合10光年，约为太阳系海王星轨道区域宽度60 au的3,500倍。[1] 但它仍只是银河系尺度的一小部分，与猎户座大星云40光年的跨度同量级。它与地球的距离约为其直径的650倍，说明视角大小与物理尺度是两回事。蟹状星云也是天文定标的常用参照源。它是天文学中常见的多波段研究目标。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

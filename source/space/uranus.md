@@ -13,12 +13,12 @@ quantity:
   approximate: true
 displayValue: '50,724 km（体积等效平均直径）'
 related:
+  - mass.uranus
+  - mass.earth
   - space.neptune
   - space.saturn
   - space.jupiter
   - space.solar-system
-  - space.earth
-  - space.saturn-ring
 reviewStatus: reviewed
 sources:
   - title: Uranus Fact Sheet
@@ -29,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/place/Uranus-planet'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: '对象为天王星1巴气压层定义的球体；采用体积平均半径25,362公里加倍；不含稀薄环、磁层与云顶局部起伏。'
 uncertainty: >-
   25,362公里乘二得50,724公里；赤道半径25,559公里、极半径24,973公里，对应直径51,118公里与49,946公里，差异来自约0.023的扁率。
@@ -42,12 +46,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "天王星 · 冰巨行星"
-  note: "球体、淡青色纹理和光照为示意，非按比例，非观测重建；不复现真实云带、环系与当日相位。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 天王星 · 冰巨行星
+  note: 球体、淡青色纹理和光照为示意，非按比例，非观测重建；不复现真实云带、环系与当日相位。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -75,3 +79,12 @@ NASA事实表列出1巴层赤道半径25,559公里、极半径24,973公里和体
 ## 与其他尺度的关系
 
 50,724公里约为地球直径12,742公里的3.98倍，约为木星139,822公里的0.36倍。[1] 它比海王星的49,244公里大约3%，但比土星的116,464公里小得多。天王星轨道半长轴约19.2 au，约为地球轨道半径的19倍。[2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 5.072×10⁷ 米，换算后是 5.07×10⁴ 千米；约 0.132 个地月平均距离（3.844×10⁸ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁷ 量级附近。
+
+读图时先看量级，再看倍数：10⁷ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

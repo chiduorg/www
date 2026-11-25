@@ -18,6 +18,7 @@ related:
   - space.crystal-lattice
   - space.diamond-unit-cell
   - space.magnetite
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Halite
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.mindat.org/min-1804.html'
     publisher: Hudson Institute of Mineralogy / Mindat
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取常温常压下的岩盐结构 NaCl，量立方晶胞边长 a。最近邻 Na—Cl 距离为 a/2，
   约 0.282 nm；该值不是离子半径、不是“NaCl 分子”直径，也不是手标本尺寸。
@@ -77,3 +82,7 @@ conceptGroup: crystal
 ## 与其他尺度的关系
 
 0.564 nm 约为石英 a 轴 0.491 nm 的 1.15 倍，约为金刚石晶胞 0.357 nm 的 1.58 倍。[1][2] 它恰好是既有 NaCl 条目 0.282 nm 的两倍，这提醒我们“晶格常数”和“最近邻距离”只差一个几何因子。与方解石 a 轴 0.499 nm 相比，岩盐晶格常数约为其 1.13 倍；与石英 a 轴 0.491 nm 相比约为 1.15 倍。[1][2] 这些数值接近，说明不同矿物的晶胞底面常落在 0.5 nm 附近，但内部对称性完全不同。继续阅读 NaCl 晶体、晶格间距与金刚石晶胞，可把这两个口径并排比较。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.9e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

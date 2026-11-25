@@ -18,6 +18,7 @@ related:
   - time.late-cretaceous
   - time.first-flowering-plants
   - time.jurassic-period
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,10 @@ sources:
     url: 'https://macrostrat.org/api/defs/intervals?interval_name=Early%20Cretaceous'
     publisher: Macrostrat, University of Wisconsin–Madison
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -80,3 +85,5 @@ tags:
 ## 与其他尺度的关系
 
 早白垩世约 4260 万年，占白垩纪约 7710 万年的 55%。[1] 它比晚白垩世长约两成，与晚侏罗世相比则更接近被子植物生态扩展的起点。[2] 4260 万年若按 80 年一代计算，约相当于五十三万代人；它占白垩纪一半以上，是开花植物扩张的关键阶段。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

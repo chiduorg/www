@@ -15,6 +15,7 @@ related:
   - space.sheep
   - space.human
   - space.dog
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Capra hircus
@@ -25,6 +26,10 @@ sources:
     url: 'https://nationalzoo.si.edu/animals/domestic-goat'
     publisher: Smithsonian's National Zoo and Conservation Biology Institute
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年家山羊（Capra hircus）；从吻端沿体侧量到尾根，尾巴不计；不含角长、胡须与肩高。
 uncertainty: ADW 给出家山羊体长 1,150–1,700 mm，并说明不同品种肩高 26–107 cm、体重 9–113 kg；史密森学会国家动物园给出肩高 45.7–106.7 cm、体重 9.1–113.5 kg，未给体长。本条取 1.3 m 作为中等体型成年个体的代表值，奶用与肉用品种常更大，矮山羊可不足一米。
 review:
@@ -69,3 +74,14 @@ Animal Diversity Web 的条目给出家山羊体长 1,150–1,700 毫米，常�
 ## 与其他尺度的关系
 
 1.3 米的头体长略大于 1.2 米的绵羊，约为 1.7 米成年人的四分之三，也是 0.72 米狗的近两倍。[1][2] 它约为 0.40 米家兔的 3.3 倍，却只有 30 米蓝鲸体长的约二十三分之一。在家畜尺度上，山羊位于“一米级”，向上是牛、马与骆驼，向下是兔和猫。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1.3 米，换算后是 1.3 米；约 0.765 个成年人身高（1.7 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -16,6 +16,7 @@ related:
   - space.atom
   - space.helium-atom
   - space.proton
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: CCCBDB experimental data for hydrogen — CAS 1333-74-0
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/hydrogen'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   采用中性氢分子 H₂ 的平衡几何，量的是两个氢原子核之间的平衡距离 0.7414 埃；该值不是范德华直径，也不含电子云外缘或分子间接触距离。适用于孤立气相
   H₂，不适用于高压、吸附或激发态。
@@ -75,3 +80,7 @@ tags:
 ## 与其他尺度的关系
 
 0.074 纳米使氢分子成为尺度轴上的小分子端点：它比水分子小，比单个氢原子大，却仍远小于蛋白质与细胞。[1][2] 把它与苯环、葡萄糖和氨基酸并排，可以看到“分子直径”会因原子数、键长与定义口径而变化。继续阅读水分子、原子与氦原子，可比较不同分子的核间距与电子云尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.5e-10 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

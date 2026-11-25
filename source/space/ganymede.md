@@ -16,6 +16,8 @@ related:
   - space.moon
   - space.saturn
   - space.earth
+  - mass.ganymede
+  - time.solar-system
 reviewStatus: reviewed
 sources:
   - title: Planetary Satellite Physical Parameters — Ganymede
@@ -26,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Ganymede-satellite-of-Jupiter'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: ganymede
   icon: "\U0001F311"
@@ -81,3 +87,5 @@ JPL卫星物理参数表列平均半径2631.20公里，并给不确定度1.70公
 ## 与其他尺度的关系
 
 5262.4公里约为月球直径3474.8公里的1.51倍，约为地球直径12742公里的41%。与木星平均直径139,822公里相比，它约为后者的3.8%。在木星系统中它只是卫星，却已接近行星尺度。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -23,6 +23,7 @@ related:
   - temperature.oven
   - temperature.sauna
   - temperature.bread_baking
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: vulcanization
@@ -33,6 +34,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10097246/'
     publisher: Polymers / PubMed Central
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   天然或合成橡胶、硫黄或含硫硫化体系、促进剂与填料按配方配比；在模具、热空气、盐浴或流化床中加热，温度与时间共同决定硫化程度。制品厚度、热传导和压力会影响实际料温。
 review:
@@ -82,3 +87,5 @@ tags:
 ## 与其他温区的关系
 
 423–453 K 高于水的沸点 373 K，低于玻璃转变的 800–850 K和铝的 933 K；它也与烤箱烘烤、桑拿等中温工艺处在相近区间。[2] 与硫黄的熔点约 388 K 相比，硫化温度更高，但硫黄在橡胶中是以交联剂参与反应，不是简单熔化。[1] 与发动机舱或热空气老化温度相比，硫化温度更高，因此工艺控制和冷却步骤都不能省略。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

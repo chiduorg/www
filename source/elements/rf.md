@@ -48,6 +48,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/104/rutherfordium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 超重元素, 鑪, 预测值]
 rights:
   status: rewritten
@@ -79,3 +83,5 @@ rights:
 ## 它从哪里来
 
 鑪没有天然来源，由重离子束轰击锕系靶核合成，一次只得到少数原子。[2] 它挂在“人工核合成时代”节点上；已知同位素全部无稳定成员，半衰期极短，识别依赖衰变链，本页不写具体秒数。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

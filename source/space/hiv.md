@@ -16,6 +16,7 @@ related:
   - space.phage
   - space.sars-cov-2
   - space.cell_membrane
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: HUMAN IMMUNODEFICIENCY VIRUS-1
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/HIV'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 透射电镜或冷冻电镜对纯化、成熟病毒颗粒测量；未成熟颗粒、制样收缩与包膜刺突是否计入会影响读数。
 uncertainty: 120 nm 是成熟 HIV-1 颗粒的代表直径；未成熟颗粒通常更大或形态不同，不同测量方法与样本可给出约 100–130 nm 的分布，不能当作固定值。
 review:
@@ -72,3 +77,7 @@ HIV 颗粒的尺寸主要靠电子显微镜和冷冻电镜测定。纯化后的�
 ## 与其他尺度的关系
 
 120 nm 等于 0.12 μm，约为红细胞直径的六十分之一，也比大肠杆菌短轴（约 0.5 μm）小四倍左右[1]。它与 SARS-CoV-2 颗粒大致同量级，却比 T4 噬菌体头部宽度大约四成。若把 120 nm 放大到一根头发直径，需要约六百倍；这也说明为什么 HIV 的形态研究高度依赖电镜和结构生物学，而不是普通光学显微镜。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.0e-7 纳秒，在时间轴上量级接近「纳秒」。[3]

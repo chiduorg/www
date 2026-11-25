@@ -29,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/Milankovitch-cycles'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: The last glacial maximum
+    url: 'https://www.usgs.gov/publications/last-glacial-maximum'
+    publisher: 'USGS / Clark et al., Science 2009'
+    accessed: '2026-11-24'
 chronology:
   status: duration
   plot: false
@@ -83,3 +87,7 @@ NASA 的资料给出：偏心率变化周期约 9 万至 10 万年；倾角平�
 ## 与其他尺度的关系
 
 米兰科维奇周期位于数万年至数十万年的尺度，向上连接银河年和地质时代，向下连接岁差与年。它与本条相关的岁差周期、末次冰盛期和雪球地球等条目一起，帮助理解气候在不同时间尺度上的驱动因素。[1][2] 与人类文明约五千年的记录相比，一个倾角周期约 4.1 万年，接近八个文明参考长度；这只是尺度换算，不是说文明按此周期兴衰。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（USGS / Clark et al., Science 2009）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

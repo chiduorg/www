@@ -4,7 +4,8 @@ title: 奥陶纪末大灭绝
 titleEn: End-Ordovician Extinction
 dimension: cosmic-time
 category: 复杂生命与演化
-summary: 约4.44亿年前的奥陶纪末大灭绝是显生宙“五大灭绝”中最早被清楚记录的一次，约85%至86%的海洋物种消失。灭绝由两次相隔很近的脉冲组成，冰期与海平面变化是主要环境背景。
+summary: >-
+  约4.44亿年前的奥陶纪末大灭绝是显生宙“五大灭绝”中最早被清楚记录的一次，约85%至86%的海洋物种消失。灭绝由两次相隔很近的脉冲组成，冰期与海平面变化是主要环境背景。
 quantity:
   value: 421388425600000000
   unit: s
@@ -13,12 +14,12 @@ quantity:
   measureLabel: 自大爆炸起的推算地质参考时间
 displayValue: 距今约4.44亿年（奥陶纪末灭绝参考）
 related:
+  - space.human
   - time.ordovician-period
   - time.ordovician-radiation
   - time.silurian-period
   - time.first-fish
   - time.permian-triassic-extinction
-  - time.late-devonian-extinction
 reviewStatus: reviewed
 sources:
   - title: Ordovician-Silurian extinction
@@ -26,9 +27,19 @@ sources:
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
   - title: Mass Extinctions Through Geologic Time
-    url: 'https://www.nps.gov/subjects/fossils/mass-extinctions-through-geologic-time.htm'
+    url: >-
+      https://www.nps.gov/subjects/fossils/mass-extinctions-through-geologic-time.htm
     publisher: U.S. National Park Service
     accessed: '2026-11-07'
+  - title: 'International Chronostratigraphic Chart, version 2024/12'
+    url: 'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf'
+    publisher: International Commission on Stratigraphy
+    accessed: '2026-11-24'
+  - title: Early Life on Earth – Animal Origins
+    url: >-
+      https://naturalhistory.si.edu/education/teaching-resources/life-science/early-life-earth-animal-origins
+    publisher: Smithsonian National Museum of Natural History
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -51,7 +62,11 @@ review:
   notes:
     - 核对 Britannica 奥陶纪—志留纪灭绝条目，采用约443.8 Ma、约85%海洋物种消失与冰期背景。
     - 核对 NPS 五大灭绝页面，采用约444 Ma、约86%物种消失及两次脉冲的表述；资料核对不代表外部同行评审。
-    - '2026-11-07 来源可访问性核对：https://www.nps.gov/subjects/fossils/mass-extinctions-through-geologic-time.htm 返回可用响应；https://www.britannica.com/science/Ordovician-Silurian-extinction（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07
+      来源可访问性核对：https://www.nps.gov/subjects/fossils/mass-extinctions-through-geologic-time.htm
+      返回可用响应；https://www.britannica.com/science/Ordovician-Silurian-extinction（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -86,3 +101,11 @@ tags:
 ## 与其他阶段的关系
 
 奥陶纪大辐射在此前积累了丰富的海洋多样性，奥陶纪末灭绝则打断了这一积累，并为志留纪的生态重组让出空间。[1][2] 它与晚泥盆世、二叠纪末、三叠纪末和 K–Pg 灭绝并列，但受害类群与驱动机制各不相同；比较这些事件有助于理解灭绝如何改变演化方向。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（International Commission on Stratigraphy）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（Smithsonian National Museum of Natural History）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

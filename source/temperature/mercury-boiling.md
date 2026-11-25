@@ -18,6 +18,7 @@ related:
   - temperature.water-triple-point
   - temperature.sodium-melting
   - temperature.ammonia_boiling
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Mercury: phase change data'
@@ -28,6 +29,10 @@ sources:
     url: 'https://periodic-table.rsc.org/element/80/mercury'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: mercury-boiling
   icon: "\U0001F321"
@@ -89,3 +94,5 @@ conceptGroup: mercury
 ## 与其他温区的关系
 
 629.81 K 比水的常压沸点 373.15 K 高约 256.7 K，比乙醇沸点 351.5 K 高约 278.3 K；它比钠的沸点约 1,156 K 低得多，也比铅的沸点约 2,022 K 低。[1][2] 汞的沸点因此位于“常见液体汽化”与“低熔点金属汽化”之间，是理解液态金属蒸气压的一个方便参照。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

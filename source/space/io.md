@@ -13,11 +13,12 @@ quantity:
   approximate: true
 displayValue: '3,643 km（体积等效平均直径）'
 related:
+  - temperature.venus-surface
+  - time.solar-system
   - space.europa
   - space.jupiter
   - space.ganymede
   - space.earth
-  - space.sun
 reviewStatus: reviewed
 sources:
   - title: Jovian Satellite Fact Sheet
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/place/Io-satellite-of-Jupiter'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: '对象为木卫一固体表面；采用平均半径1,821.5公里加倍；不含稀薄二氧化硫大气与火山喷发柱，也不把火山沉积物厚度计入直径。'
 uncertainty: >-
   1,821.5公里乘二得3,643公里；Britannica给出约3,640公里的概括值，差异来自有效数字；木卫一形状受潮汐影响略有起伏，但远小于直径的百分之一。
@@ -41,12 +46,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "木卫一 · 火山卫星"
-  note: "球体、硫磺色斑与火山纹理为示意，非按比例，非观测重建；不复现真实喷发位置与当日相位。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 木卫一 · 火山卫星
+  note: 球体、硫磺色斑与火山纹理为示意，非按比例，非观测重建；不复现真实喷发位置与当日相位。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -73,3 +78,5 @@ NASA木星卫星事实表列出木卫一平均半径1,821.5公里，数据来自
 ## 与其他尺度的关系
 
 3,643公里约为月球直径3,474公里的1.05倍，比木卫二3,122公里大17%，但只有木卫三5,268公里的0.69倍。[1] 它约为地球直径12,742公里的0.29倍。木卫一与木星中心的距离约42.2万公里，约为木星赤道半径71,492公里的5.9倍。[2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

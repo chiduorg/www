@@ -5,7 +5,7 @@ summary: >-
   人胰岛素单体由 A 链 21 个、B 链 30 个氨基酸组成，共 51 个残基，分子质量约 5808 Da，合 9.644×10⁻²⁴
   kg。它在胰腺中储存为含锌六聚体，进入血液后以单体起作用。
 dimension: mass
-category: 蛋白质
+category: 生命与人体
 displayValue: 9.64×10⁻²⁴ kg（5808 Da）
 quantity:
   value: 9.644e-24
@@ -71,6 +71,7 @@ visual:
   color: '#9cc8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Insulin monomer
 ---
 ## 这个读数是什么
 

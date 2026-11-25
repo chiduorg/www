@@ -35,6 +35,14 @@ sources:
       U.S. Chemical Safety and Hazard Investigation Board, report 98-05-I-LA,
       appended nitrogen data
     accessed: '2026-11-04'
+  - title: "Oxygen"
+    url: "https://www.britannica.com/science/oxygen"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
+  - title: "Argon: element data"
+    url: "https://periodic-table.rsc.org/element/18/argon/"
+    publisher: "Royal Society of Chemistry"
+    accessed: '2026-11-24'
 legacy:
   id: liquid-nitrogen
   icon: "\U0001F9CA"
@@ -85,3 +93,27 @@ NIST 不只列一个数字，还给出文献来源，并把沸点、熔化点、
 ## 在低温尺度上读这个位置
 
 液氮把日常室温与更低温研究联系起来，但 77 K 仍明显高于 0 K。这里展示的是一个有条件的相变参考，既不代表冷却技术的终点，也不代表杜瓦容器外壁、内部液体和周围雾气具有同一温度。模型的颜色与雾量均不承担测量功能。[1][2]
+
+## 77 K 的安全边界
+
+液氮沸点约 77 K（−196 ℃），接触皮肤会瞬间造成低温灼伤；密闭容器中蒸发会产生高压，必须留泄压通道。[2] 77 K 不是“普通冷”，而是需要专用杜瓦、手套与通风的低温液体。温度低不等于风险小。
+
+## 白雾不是氮气本身
+
+液氮周围的白雾是空气中的水汽凝结，不是氮气可见。[3] 氮气无色无味，泄漏时可能置换氧气，造成窒息。把白雾当成氮气，会忽略真正的缺氧风险。
+
+## 五轴对照
+
+在温度轴，液氮约 77 K；在空间轴，它需要隔热容器；在质量轴，氮分子质量与蒸发潜热决定冷却能力；在时间轴，储存时间取决于漏热。温度、压力与容器共同决定安全边界。[1][3]
+
+## 77 K 的安全边界
+
+液氮沸点约 77 K，接触皮肤会瞬间造成低温灼伤；密闭容器中蒸发会产生高压，必须留泄压通道。液氮周围的白雾是空气中的水汽凝结，不是氮气本身；泄漏时真正的风险是缺氧。温度低不等于风险小。[1][S2]
+
+## 读数的口径与换算
+
+本条采用的量是 约 77.34 K（−195.81 °C），口径是 nitrogen-normal-boiling-temperature。温度是强度量，读数依赖温标、测点与热平衡；同一对象的不同部位、不同时刻可以有不同温度。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（Encyclopaedia Britannica）、[5]（Royal Society of Chemistry） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

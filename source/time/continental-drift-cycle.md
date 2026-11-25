@@ -40,6 +40,15 @@ sources:
     url: 'https://pubs.usgs.gov/gip/dynamic/dynamic.html'
     publisher: U.S. Geological Survey
     accessed: '2026-11-06'
+  - title: Geology of the New York Region
+    url: >-
+      https://www.usgs.gov/geology-and-ecology-of-national-parks/geology-new-york-region
+    publisher: U.S. Geological Survey
+    accessed: '2026-11-24'
+  - title: Earth Fact Sheet
+    url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html'
+    publisher: NASA NSSDC
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -79,3 +88,11 @@ Britannica的超大陆条目把旋回描述为聚合、裂解、再聚合的过�
 ## 与其他尺度的关系
 
 超大陆旋回上接板块构造，下接造山期与侵蚀周期；聚合阶段常伴随山脉形成，裂解阶段则打开新的海洋盆地。[1][2] 4亿年比造山期长，比热死亡短得多；它把地质尺度上的缓慢运动串成可比较的循环。这些实例说明旋回并非一次性的偶然事件，而是可重复的地质模式。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. Geological Survey）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（NASA NSSDC）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

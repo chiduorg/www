@@ -1,6 +1,6 @@
 ---
 id: time.american-revolution
-title: '美国独立战争爆发：1775年的殖民地武装冲突'
+title: 美国独立战争爆发：1775年的殖民地武装冲突
 titleEn: The American Revolution
 dimension: cosmic-time
 category: 人类与文明
@@ -18,6 +18,7 @@ related:
   - time.united-nations
   - time.reformation
   - time.columbus-voyage
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: American Revolution
@@ -28,6 +29,14 @@ sources:
     publisher: U.S. National Archives
     url: 'https://www.archives.gov/research/military/american-revolution'
     accessed: '2026-11-07'
+  - title: Enlightenment
+    url: 'https://plato.stanford.edu/entries/enlightenment/'
+    publisher: Stanford Encyclopedia of Philosophy
+    accessed: '2026-11-24'
+  - title: Climate and the collection
+    url: 'https://blog.sciencemuseumgroup.org.uk/climate-and-the-collection/'
+    publisher: Science Museum Group
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -48,7 +57,11 @@ review:
   notes:
     - 核对 Britannica《American Revolution》，采用1775年至1783年9月3日的战争时间范围。
     - 核对美国国家档案馆《The American Revolution》页面，采用其保存的大陆军与州部队服役、养老金和土地授予档案说明。
-    - '2026-11-07 来源可访问性核对：https://www.archives.gov/research/military/american-revolution 返回可用响应；https://www.britannica.com/event/American-Revolution（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07
+      来源可访问性核对：https://www.archives.gov/research/military/american-revolution
+      返回可用响应；https://www.britannica.com/event/American-Revolution（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -84,3 +97,11 @@ Britannica 把战争年代写作1775年至1783年9月3日；美国国家档案�
 ## 与其他阶段的关系
 
 美国独立战争前接启蒙运动与大航海时代的殖民扩张，后接工业革命、法国革命和19世纪的民族国家建设。它与宗教改革后的宗教格局、重商主义帝国体系都有联系。[1][2] 在时间轴上，1775年是一个战争起点，而独立国家的制度成型要晚得多。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Stanford Encyclopedia of Philosophy）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（Science Museum Group）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

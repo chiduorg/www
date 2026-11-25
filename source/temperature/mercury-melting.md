@@ -19,6 +19,7 @@ related:
   - temperature.freezer
   - temperature.antarctic_min_temp
   - temperature.ethanol_boiling
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Mercury
@@ -29,6 +30,10 @@ sources:
     url: 'https://periodic-table.rsc.org/element/80/mercury'
     publisher: Royal Society of Chemistry (RSC)
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 纯汞
   measurementSite: 样品内部
@@ -76,3 +81,12 @@ Britannica 的汞性质表列出熔点 −38.83 ℃、沸点 356.62 ℃；[1] RS
 ## 与其他温度的关系
 
 234.32 K 低于 water-freezing 的 273.15 K，也低于 freezer 的约 255 K；它高于 antarctic_min_temp 的极低记录。与 gallium-melting 的 302.91 K 相比，汞的熔点低约 69 K，这解释了两者在室温下不同状态。它和 ethanol_boiling 的 351.5 K 分属低温与中温两端。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 234.3 K，即 -38.83 ℃（按 T/K−273.15 换算）；约为冰点（273.1 K）的 0.858 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

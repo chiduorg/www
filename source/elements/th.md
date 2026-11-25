@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/90/thorium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 锕系, 钍]
 rights:
   status: rewritten
@@ -70,3 +74,5 @@ rights:
 ## 它从哪里来
 
 来源记作“r 过程（天然钍-232）”。[2] 钍-232 可以由快中子俘获的 r 过程直接合成，因此它不像锕那样只作为衰变链中间核出现；这也是它能以天然核素身份存在的原因。r 过程的产物要经中子星并合这类极端事件被抛回星际介质，相关时间尺度见中子星并合节点。[1]
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

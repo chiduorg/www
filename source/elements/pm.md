@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/61/promethium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 镧系, 钷]
 rights:
   status: rewritten
@@ -78,3 +82,5 @@ rights:
 ## 怎么继续走
 
 往前是钕，同样的价层结构却能长期留存；往后是钐，4f 填到六个，核又重新有了稳定同位素。想弄清同量异位素规则与幻数，去读核稳定性解释页；想弄清 4f 填充如何影响离子半径，去读镧系收缩解释页。钷这一页的重点是：电子构型不是元素能否存在的全部答案。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

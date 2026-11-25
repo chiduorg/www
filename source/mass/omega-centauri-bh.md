@@ -5,7 +5,7 @@ summary: >-
   半人马座 ω 是银河系最大的球状星团，其中心可能存在一颗约 1.63×10³⁴ kg 的黑洞，折合约 8200
   个太阳质量。恒星动力学与脉冲星计时两条路线互相校验，相对不确定度约 15%。
 dimension: mass
-category: 黑洞
+category: 恒星与致密天体
 displayValue: 1.63×10³⁴ kg
 quantity:
   value: 1.63e+34
@@ -79,6 +79,7 @@ visual:
   color: '#ff9a4a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Omega Centauri black hole
 ---
 ## 这个读数是什么
 

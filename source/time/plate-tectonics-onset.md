@@ -32,6 +32,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7176424/'
     publisher: Science Advances
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -82,3 +86,5 @@ tags:
 ## 与其他阶段的关系
 
 板块构造启动与最早大陆、海洋化学、碳循环和气候长期调节相连。它影响火山与风化通量，也影响生命所处环境的稳定性。把它放在太古宙中段，是为了与冥古宙的撞击阶段、元古宙的氧气上升和显生宙的现代板块格局形成对照。时间轴上的这个点更像一段过渡带，而不是一条锋利的分界线。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

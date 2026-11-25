@@ -28,6 +28,10 @@ sources:
     url: 'https://www.fisica.unam.mx/karo/home/papers/ajp66s1998s231.pdf'
     publisher: American Journal of Physics / Universidad Nacional Autónoma de México
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取常温常压下的岩盐结构 NaCl；0.282 nm 是 Na–Cl 最近邻核间距，0.564 nm 是立方晶胞边长 a。
   二者不是同一个量；该值不是钠离子或氯离子的单独半径，也不是溶液中水合离子的间距。
@@ -80,3 +84,12 @@ conceptGroup: crystal
 ## 与其他尺度的关系
 
 0.282 纳米与金刚石、硅等晶体中的原子间距同一量级，却比分子内的共价键长。[1][2] 它把“离子键长度”与“晶胞周期”连接起来：同样的 0.282 纳米重复两次，才构成 0.564 纳米长的晶胞边。继续阅读晶格间距与金刚石晶胞，可比较最近邻距离、晶格常数与晶胞边长的不同口径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 2.82×10⁻¹⁰ 米，换算后是 0.282 纳米；约 3.52×10⁻⁶ 根头发丝直径（8×10⁻⁵ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻¹⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁻¹⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

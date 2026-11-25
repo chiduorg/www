@@ -48,6 +48,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/103/lawrencium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 超重元素, 铹]
 rights:
   status: rewritten
@@ -79,3 +83,5 @@ rights:
 ## 它从哪里来
 
 铹没有天然来源，全部由加速器合成，用轻离子轰击锕系靶核。[2] 它挂在“人工核合成时代”节点上。已知同位素无稳定成员，半衰期极短，只能靠衰变链识别，本页不列具体半衰期。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

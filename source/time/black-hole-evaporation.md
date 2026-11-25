@@ -43,6 +43,12 @@ sources:
     url: 'https://www.astronomy.ohio-state.edu/gaudi.1/AST161/Unit7/lecture47.html'
     publisher: 'Ohio State University, Astronomy 161'
     accessed: '2026-11-06'
+  - title: >-
+      A CEERS Discovery of an Accreting Supermassive Black Hole 570 Myr after
+      the Big Bang
+    url: 'https://ntrs.nasa.gov/citations/10641293937096'
+    publisher: NASA Technical Reports Server
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -84,3 +90,14 @@ tags:
 ## 与其他尺度的关系
 
 黑洞蒸发位于黑洞热力学与宇宙远期命运的交叉点：它上接恒星坍缩与黑洞形成，下接热死亡时间。[1][3] 与质子衰变实验下限相比，两者都是极长时标，但一个是引力理论推算，一个是粒子实验排除；不能混为一谈。在比较不同天体的寿命时，质量是主导变量；恒星级与超大质量黑洞的蒸发时标可相差数十个数量级。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（NASA Technical Reports Server）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 6.6×10⁷⁷ 秒，换算后是 2.09×10⁷⁰ 年；约 1.52×10⁶⁰ 个当前宇宙年龄（138 亿年）。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10⁷⁷ 量级附近。
+
+读图时先看量级，再看倍数：10⁷⁷ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

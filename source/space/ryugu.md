@@ -10,23 +10,31 @@ quantity:
   unit: m
   measure: JAXA任务简介所列平均直径约900 m（形状模型约1004×876 m，最长径约1 km）
   approximate: true
-displayValue: '约 900 m（平均直径）'
+displayValue: 约 900 m（平均直径）
 related:
+  - temperature.venus-surface
+  - time.solar-system
   - space.bennu
   - space.asteroid-belt
   - space.earth
   - space.mars
-  - space.comet-67p
 reviewStatus: reviewed
 sources:
   - title: 小惑星リュウグウ（はやぶさ2プロジェクト）
     url: 'https://www.hayabusa2.jaxa.jp/science/ryuugu/'
     publisher: JAXA Hayabusa2 Project
     accessed: '2026-11-07'
-  - title: Current status of the asteroid explorer, Hayabusa2, leading up to arrival at asteroid Ryugu in 2018
-    url: 'https://www.hayabusa2.jaxa.jp/en/enjoy/material/press/Hayabusa2_Press20180607e.pdf'
+  - title: >-
+      Current status of the asteroid explorer, Hayabusa2, leading up to arrival
+      at asteroid Ryugu in 2018
+    url: >-
+      https://www.hayabusa2.jaxa.jp/en/enjoy/material/press/Hayabusa2_Press20180607e.pdf
     publisher: JAXA Hayabusa2 Project
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为近地小行星龙宫的固体表面；采用JAXA任务简介的约900米尺寸口径；不含表面石块与尘埃，也不把轨道半长轴当作本体尺寸。
 uncertainty: JAXA给尺寸约900米；探测器形状模型给出约1004×876米，平均半径约448米，最长径约1公里。900米是任务规划与简介常用的取整值，不是最长径。
 review:
@@ -35,7 +43,9 @@ review:
   notes:
     - 打开JAXA隼鸟2号龙宫科学页面与任务说明PDF，核对尺寸、形状与采样计划。
     - 明确900米是平均直径口径，不把最长径约1公里当作同一数值。
-    - '2026-11-07 来源可访问性核对：全部来源页返回可用响应（https://www.hayabusa2.jaxa.jp/science/ryuugu/；https://www.hayabusa2.jaxa.jp/en/enjoy/material/press/Hayabusa2_Press20180607e.pdf），数值口径与正文一致。'
+    - >-
+      2026-11-07
+      来源可访问性核对：全部来源页返回可用响应（https://www.hayabusa2.jaxa.jp/science/ryuugu/；https://www.hayabusa2.jaxa.jp/en/enjoy/material/press/Hayabusa2_Press20180607e.pdf），数值口径与正文一致。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -73,3 +83,12 @@ JAXA“隼鸟2号”项目页面给出龙宫的大小约900米，并估计其形
 ## 与其他尺度的关系
 
 900米约为贝努平均直径490米的1.84倍，约为地球直径12742公里的0.007%，约为火星直径6779公里的0.013%。[1][2] 它远小于谷神星940公里，也小于月球3474.8公里；但在小行星中已属于可环绕探测的较大目标。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 900 米，换算后是 900 米；约 7.06×10⁻⁵ 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

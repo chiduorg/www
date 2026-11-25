@@ -19,6 +19,7 @@ related:
   - time.multicellular-life
   - time.first-corals
   - time.origin-of-sexual-reproduction
+  - space.human
 chronology:
   status: reference
   plot: true
@@ -35,6 +36,10 @@ sources:
       https://www.earth.ox.ac.uk/article/animals-may-have-evolved-vastly-earlier-fossil-evidence-suggests
     publisher: University of Oxford Department of Earth Sciences
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -85,3 +90,5 @@ tags:
 ## 与其他阶段的关系
 
 动物起源位于元古宙末期与埃迪卡拉纪之间，向后连接寒武纪的骨骼化与生态复杂化，向前连接多细胞化和有性生殖。它也是最早珊瑚、昆虫、爬行动物和恐龙等后续条目的共同起点。沿时间轴阅读时，应把谱系分化、身体化石出现和生态扩展分开，才能理解为什么同一段历史会出现多个相差很大的“起点”。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

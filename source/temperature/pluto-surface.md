@@ -35,6 +35,10 @@ sources:
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html'
     publisher: NASA NSSDCA
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: pluto-surface
   icon: "\U0001FA90"
@@ -99,3 +103,5 @@ conceptGroup: pluto
 ## 与其他温区的关系
 
 44 K 远低于火星的 208 K 平均表面温度，也低于氮的 77.4 K 沸点和甲烷的 111.7 K 沸点，但高于绝对零度。[1][2] 在这样的低温下，氮冰仍是固态，只有少量挥发性物质在季节循环中升华与凝结。它和火星、金星的表温共同展示了太阳系行星表面温区的巨大跨度。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

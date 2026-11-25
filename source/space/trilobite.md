@@ -17,6 +17,7 @@ related:
   - space.ant
   - space.human
   - space.mushroom
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Trilobite Website
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/animal/trilobite'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为三叶虫（Trilobita）；量头甲（头盖）前端到尾轴（尾甲）末端的体长，不含附肢与触角；0.1 m 取在中型偏大的个体一侧。
 uncertainty: >-
@@ -73,3 +78,7 @@ AMNH 的三叶虫页面说，它们的身体分为头、胸、尾三部分，多
 ## 与其他尺度的关系
 
 10 厘米约等于 3 个 30 厘米菊石壳径的三分之一，约为 1.7 米人类身高的十七分之一，也约为 1.6 毫米蚂蚁体长的 63 倍。[1][2] 它比 1 米长的蕨类短得多，却比 1 毫米的蚂蚁长得多。放在尺度轴上，三叶虫落在“几厘米到十厘米”的带内：向上是菊石、章鱼和人类，向下是蚂蚁、花粉和细胞。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.33 纳秒，在时间轴上量级接近「纳秒」。[3]

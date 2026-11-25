@@ -5,7 +5,7 @@ summary: >-
   NGC 4395 是一个几乎没有核球的低表面亮度螺旋星系，中心黑洞质量约 7.16×10³⁵
   kg，折合约三十六万个太阳质量。数值来自宽线区反响映射，相对不确定度约 20%。
 dimension: mass
-category: 黑洞
+category: 恒星与致密天体
 displayValue: 7.16×10³⁵ kg
 quantity:
   value: 7.16e+35
@@ -79,6 +79,7 @@ visual:
   color: '#ff9a4a'
   scaleMin: -40
   scaleMax: 53
+titleEn: NGC 4395 black hole
 ---
 ## 这个读数是什么
 

@@ -16,6 +16,7 @@ related:
   - time.paleoproterozoic
   - time.great-oxidation-event
   - time.cryogenian
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'What’s the coldest the Earth’s ever been?'
@@ -26,6 +27,10 @@ sources:
     url: 'https://pubs.usgs.gov/of/2007/1047/kp/kp08/of2007-1047kp08.pdf'
     publisher: U.S. Geological Survey / The National Academies Press
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -77,3 +82,5 @@ NOAA 的综述把休伦冰期定在约 24–21 亿年前，并指出至少一次
 ## 与其他尺度的关系
 
 休伦冰期出现在大氧化事件前后，是古元古代早期的关键气候节点，比 7.2 亿年前的成冰纪冰期早约 17 亿年。[1][2] 它比 10 亿年前的罗迪尼亚聚合早很多，说明超大陆旋回与冰期并不是同一节奏。24 亿年约为 34.8 亿年最早叠层石锚点的三分之二，也约为当前宇宙年龄的六分之一。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

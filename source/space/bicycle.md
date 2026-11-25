@@ -17,6 +17,7 @@ related:
   - space.human
   - space.door
   - space.skateboard
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Bicycle
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.fhwa.dot.gov/infrastructure/bicycle.cfm'
     publisher: Federal Highway Administration
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为成人城市车或公路车；测量口径为前轮摆正时前后最外缘之间的纵向长度，含轮胎、挡泥板与车把；不适用于折叠车、载货自行车或儿童车。
 uncertainty: >-
@@ -75,3 +80,7 @@ tags:
 ## 与其他尺度的关系
 
 1.8 米约等于门高 2.032 米的 89%，也比餐椅整体高度 0.90 米长一倍。[2] 在 3.5 米宽的车道内，横向并排两辆自行车后仍余约 0.1 米，十分局促；50 米泳池可首尾放下约 27 辆自行车。普通住宅电梯轿厢深度有限，1.8 米自行车往往要斜放或拆前轮。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

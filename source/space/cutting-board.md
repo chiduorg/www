@@ -15,6 +15,7 @@ related:
   - space.knife
   - space.table
   - space.wok
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: APTITLIG Chopping board, bamboo, 45x28 cm
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cutting-boards'
     publisher: USDA Food Safety and Inspection Service
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为矩形家用砧板；量取长边最大长度，不含提手、凹槽与包边；不同形状与尺寸的砧板不能直接比较长短。
 uncertainty: 家用砧板长边多在 30–50 cm；本条取 45 cm 作常见代表值；量长边与量对角线不同，45×28 cm 的板对角线约 53 cm，厚度只有 16 mm。
 review:
@@ -68,3 +73,7 @@ tags:
 ## 与其他尺度的关系
 
 45 厘米约为 30 厘米菜刀全长的 1.5 倍，比 32 厘米炒锅口径长 13 厘米；它不到 1.8 米餐桌长边的四分之一。[1][2] 与 25 厘米的筷子相比，砧板长边接近两根筷子首尾相接的长度，说明它是厨房里“横着放”的最大平面之一。把它架在水槽上时，长边要大于水槽宽度才稳，这也是 45 厘米规格流行的原因之一。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.5 纳秒，在时间轴上量级接近「纳秒」。[3]

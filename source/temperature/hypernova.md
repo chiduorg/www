@@ -20,6 +20,8 @@ related:
   - temperature.kilonova_temp
   - temperature.o-type-star-surface
   - temperature.type-ia-supernova
+  - time.first-stars
+  - space.supernova-remnant
 reviewStatus: reviewed
 sources:
   - title: A Strange Supernova with a Gamma-Ray Burst
@@ -52,7 +54,7 @@ review:
     - ESO 1998 年报告记录 SN 1998bw 的多波段观测及其与 GRB 980425 的关联，但未给出可坐标化的统一温度。
     - Iwamoto 等用 2–5×10⁵² erg 的 C+O 星爆发模型解释光谱与光变；Nakamura 等指出晚期光变需要较低能量或非球对称结构。
     - 2026-11-07 保留 needs-review：爆发区域与阶段未选定，温度随模型与时刻变化，无唯一代表值。
-    - '2026-11-07 B5 复核：量值保持 undetermined；原因：抛射物光球、核反应区、激波与吸积盘温度不同，且随爆发阶段变化。'
+    - 2026-11-07 B5 复核：量值保持 undetermined；原因：抛射物光球、核反应区、激波与吸积盘温度不同，且随爆发阶段变化。
   originalQuantity:
     value: 1000000000000
     unit: K

@@ -41,6 +41,16 @@ sources:
     url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-06'
+  - title: Chemistry 2e §6.3 — Development of Quantum Theory
+    url: >-
+      https://openstax.org/books/chemistry-2e/pages/6-3-development-of-quantum-theory
+    publisher: OpenStax / Rice University
+    accessed: '2026-11-24'
+  - title: EDGES — Experiment to Detect the Global EoR Signature
+    url: >-
+      https://www.haystack.mit.edu/astronomy/astronomy-projects/edges-experiment-to-detect-the-global-eor-signature/
+    publisher: MIT Haystack Observatory
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -84,3 +94,11 @@ tags:
 ## 与其他尺度的关系
 
 10⁻⁸秒比一次心跳短约数千万倍，比蛋白质折叠（约10⁻³秒）短十万倍，却比强相互作用时间（约10⁻²³秒）长千万亿倍。原子跃迁处在宏观时间与核过程之间，是理解“光如何产生”的基层时钟。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（OpenStax / Rice University）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（MIT Haystack Observatory）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

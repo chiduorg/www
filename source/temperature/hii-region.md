@@ -24,6 +24,7 @@ related:
   - temperature.molecular-cloud
   - temperature.sun-surface
   - temperature.solar-corona
+  - space.white-dwarf
 reviewStatus: reviewed
 sources:
   - title: H II region
@@ -34,6 +35,10 @@ sources:
     url: 'https://www.cv.nrao.edu/~sransom/web/Ch4.html'
     publisher: NRAO / J. J. Condon & S. M. Ransom
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为由 O、B 型热星紫外辐射电离的氢云；10⁴ K 指自由电子的动理学温度， 由发射线比值和射电自由—自由辐射拟合得到。电离星本身的有效温度可高得多，
   且星云中心与边缘、致密团块与稀薄区温度并不相同。
@@ -80,3 +85,5 @@ tags:
 ## 在温标上的位置
 
 10⁴ K 比分子云的约 10 K 和冷中性星际介质的约 100 K 高得多，却低于超新星遗迹激波气体的约 10⁶ K。[2] 行星状星云的气体也大致处于同一温区，但两者的能量来源和寿命不同。把电离氢区放在这条温标上，有助于区分“被恒星照亮的气体”和“被爆炸加热的气体”。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

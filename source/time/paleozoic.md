@@ -14,12 +14,12 @@ quantity:
   approximate: true
 displayValue: t ≈ 132.6 亿年（距今约5.39亿年）
 related:
+  - space.earth
+  - temperature.earth-mantle
   - time.phanerozoic
   - time.mesozoic
   - time.cambrian
   - time.ordovician-radiation
-  - time.first-fish
-  - time.first-tetrapods
 chronology:
   status: reference
   plot: true
@@ -33,6 +33,10 @@ sources:
     url: 'https://www.britannica.com/science/Paleozoic-Era'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Triassic Period
+    url: 'https://www.nps.gov/articles/000/triassic-period.htm'
+    publisher: U.S. National Park Service
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -53,11 +57,11 @@ conditions:
   conversion: presentSeconds - lookbackYears × secondsPerYear
   precision: 亿年级近似时代坐标，非高精度年代测量
 visual:
-  template: "geologic-section"
-  scene: "time.object"
-  caption: "古生代 · 海洋与早期陆地"
-  note: "海洋生物、礁体与陆地植被为解释性示意，未按真实古地理复原。"
-  color: "#b09a74"
+  template: geologic-section
+  scene: time.object
+  caption: 古生代 · 海洋与早期陆地
+  note: 海洋生物、礁体与陆地植被为解释性示意，未按真实古地理复原。
+  color: '#b09a74'
 mode: 时点
 tags:
   - 地质年代
@@ -83,3 +87,7 @@ tags:
 ## 与其他阶段的关系
 
 古生代前接元古宙末期与寒武纪之初，后接中生代的恐龙与哺乳动物早期辐射。它把海洋生态系统、陆地植物、土壤和大气氧含量连接成一个逐渐耦合的系统。沿着时间轴阅读，可以看到生命从海洋走向陆地并不是一条直线，而是多次尝试、退缩和再扩展的组合。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. National Park Service）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

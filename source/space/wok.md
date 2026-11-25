@@ -16,6 +16,7 @@ related:
   - space.coffee-cup
   - space.table
   - space.frying-pan
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: IKEA 365+ Wok, stainless steel/non-stick coating, 32 cm
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/topic/wok'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为家用单柄炒锅；量取锅口内径，不含锅耳、手柄与锅盖；不同灶具与家庭规模会改变常用口径。
 uncertainty: 家用炒锅口径多在 30–36 cm，餐馆用锅可到 60–80 cm；本条取 32 cm 作家用代表值；量内径与量外径会差数毫米，含手柄的总长可达 58 cm。
 review:
@@ -69,3 +74,7 @@ tags:
 ## 与其他尺度的关系
 
 32 厘米比 30 厘米的菜刀全长多 2 厘米，约为 9 厘米咖啡杯口径的 3.6 倍；放在 1.8 米长的餐桌上，只占桌面长度的不到两成。[1][2] 它约等于一张 A4 纸短边 21 厘米的 1.5 倍，也说明家用炒锅是“桌面上一眼能看全”的尺度。它比 24 厘米的汤锅口径大 8 厘米，也比 30 厘米的菜刀只长 2 厘米。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.1 纳秒，在时间轴上量级接近「纳秒」。[3]

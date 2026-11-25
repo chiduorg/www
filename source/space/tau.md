@@ -18,6 +18,7 @@ related:
   - space.top-quark
   - space.w-z-boson
   - space.higgs-boson
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: 'CODATA Value: tau mass'
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/tau-subatomic-particle'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   采用 2022 CODATA 的 τ 子质量 3.16754×10⁻²⁷ 千克，按 λ̄ = ħ/(mτc)
   换算为约化康普顿波长；这是量子理论中的波长尺度，不是 τ 子的几何半径。适用于自由 τ 子，不适用于把 τ 子当成有硬边的粒子。
@@ -77,3 +82,7 @@ tags:
 ## 与其他尺度的关系
 
 τ 子的约化康普顿波长处在“粒子量子长度”序列的短端：它比 μ 子短，比顶夸克长。[1] 把这些长度与核子、原子的尺度并排时，要注意它们描述的是不同物理量；量子波长小不等于粒子实体小。继续阅读 μ 子、W/Z 玻色子与顶夸克，可比较质量增加时康普顿波长如何缩短。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.7e-16 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

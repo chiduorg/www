@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/4/beryllium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第二周期, s 区, 铍]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往回是锂（/entry/elements/li/），能看到 2s1 如何开启第二周期；往前是硼（/entry/elements/b/），2p 打开后价层重新出现空位。想把 2s 成对带来的能量代价放回轨道次序，去读电子排布解释页；想把散裂路径与恒星路径分开，去读重元素富集节点。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

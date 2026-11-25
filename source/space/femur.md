@@ -17,6 +17,7 @@ related:
   - space.kidney
   - space.heart
   - space.tooth
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Anatomy, Bony Pelvis and Lower Limb: Femur'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.orthopaedicsone.com/html/Main/Femur.html'
     publisher: OrthopaedicsOne
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成人股骨；量取股骨头顶端到远端髁的最大全长，不含软骨与周围软组织；身高、性别、人群与测量方法都会影响读数。
 uncertainty: 45 厘米是本条采用的取整参照；所引解剖资料给出的平均长度约 48 厘米，其他资料常见范围约 43–50 厘米，故 45 厘米偏向下限，不是所有人的固定尺寸。
 review:
@@ -74,3 +79,7 @@ NCBI Bookshelf 的股骨解剖章节描述股骨头、股骨颈、大转子、�
 ## 与其他尺度的关系
 
 45 厘米约为成人手掌长度 19 厘米的 2.4 倍，是心脏长径 12 厘米的 3.75 倍。它比肺高度 25 厘米长 20 厘米，也约为眼球直径 24 毫米的 19 倍。股骨全长常被用作身高推算的参照，因此在法医学与人体测量学中具有特殊地位；但它仍是单一骨的长度，不能直接替代全身高度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.5 纳秒，在时间轴上量级接近「纳秒」。[3]

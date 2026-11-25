@@ -15,11 +15,12 @@ quantity:
   approximate: true
 displayValue: 约 10⁷ K（吸积盘模拟量级）
 related:
+  - space.sun
+  - mass.sun
   - temperature.sun-core
   - temperature.neutron-star-surface
   - temperature.supernova
   - temperature.quark-gluon
-  - temperature.accretion-disk-inner
 reviewStatus: reviewed
 sources:
   - title: NASA-Led Study Explains Decades of Black Hole Observations
@@ -31,6 +32,10 @@ sources:
     url: 'https://arxiv.org/abs/1207.2693'
     publisher: 'Schnittman, Krolik & Noble, ApJ 769 (2013)'
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: black-hole-accretion-disk
   icon: "\U0001F573"
@@ -100,3 +105,5 @@ tags:
 ## 与其他温区的关系
 
 10⁷ K 约为太阳核心 1.57×10⁷ K 的一半，远高于太阳表面 5,772 K，也高于中子星表面约 2×10⁶ K 的例子。它低于核心坍缩超新星的 10¹¹ K 量级，更远低于夸克—胶子等离子体约 1.8×10¹² K 的理论温标。比较时要注意，这些数值分别属于盘气体、恒星核心、坍缩核心和理论相变，并不是同一种测量对象。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

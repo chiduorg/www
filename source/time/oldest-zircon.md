@@ -29,6 +29,10 @@ sources:
     url: 'https://www.nature.com/articles/35051557'
     publisher: Nature
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -85,3 +89,5 @@ tags:
 ## 与其他阶段的关系
 
 锆石是少数能穿过冥古宙的“信使”。它把地球形成、月球形成大碰撞、冥古宙地壳与海洋等阶段串联起来，也为“生命可能很早就具备条件”提供了环境背景，但环境适宜不等于生命已经出现。[1][2] 沿关联条目可继续看最古老岩石、早期大陆与海洋形成；这些证据分别回答不同问题。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

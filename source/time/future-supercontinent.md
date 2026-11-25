@@ -47,6 +47,10 @@ sources:
     url: 'https://www.nature.com/articles/s41561-023-01259-3'
     publisher: Nature Geoscience
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -89,3 +93,5 @@ tags:
 ## 与其他尺度的关系
 
 下一次超大陆聚合晚于人类文明史，却早于地球失去液态水（约15亿年后）和太阳红巨星阶段（约50亿年后）。[1][2] 它上接大陆漂移循环与造山运动，下接更长期的气候与生物演化。把大陆布局、气候阈值和恒星演化分开比较，才能判断哪个过程在哪个时间尺度上真正主导。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

@@ -23,7 +23,7 @@ reviewStatus: reviewed
 sources:
   - title: The cosmic microwave background and inflation
     url: >-
-      https://www.esa.int/Science_Exploration/Space_Science/Planck/The_cosmic_microwave_background_and_inflation
+      https://sci.esa.int/web/planck/The_cosmic_microwave_background_and_inflation
     publisher: ESA / Planck
     accessed: '2026-11-06'
   - title: The early universe
@@ -34,6 +34,14 @@ sources:
     url: 'https://www.britannica.com/science/cosmic-microwave-background'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "Some Times in Standard Cosmology, arXiv:2411.07703v1"
+    url: "https://arxiv.org/html/2411.07703v1"
+    publisher: "Hergt & Scott / University of British Columbia"
+    accessed: '2026-11-24'
+  - title: "Big-Bang Cosmology, 2025 update, §22.3"
+    url: "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-cosmology.pdf"
+    publisher: "Particle Data Group"
+    accessed: '2026-11-24'
 legacy:
   id: recombination
   icon: "\U0001F4AB"
@@ -101,3 +109,23 @@ ESA 的 Planck 资料把复合定在大爆炸后约 38 万年，并说明微波�
 ## 与其他阶段的关系
 
 复合发生在物质—辐射相等之后，是光子时代结束、黑暗时代开始的门槛。[1][2] 它上接核合成与等离子体热史，下接第一代恒星和再电离；与“重子声学振荡”共享同一段光子—重子流体背景。[2] 读时间轴时要把“原子形成”“光脱耦”“星系形成”分成相邻但不同的步骤。[1][3]
+
+## 为什么叫“复合”却不是重新结合
+
+“复合”这个名称来自历史：在宇宙早期，质子和电子第一次结合成中性原子，按理应叫“结合”；但早期研究把等离子体—中性气体转变沿用“recombination”一词，后来固定下来。[1][2] 名称容易让人误以为原子先存在、再重新结合；实际是自由电子第一次被原子核俘获。
+
+## 最后散射面不是一层薄壳
+
+“最后散射面”常被画成一个球壳，但它不是宇宙中一层真实的物质外壳。它是光子最后一次与自由电子散射的时空面；由于复合持续了一段时间，这个面在视线方向上有一定厚度。[1][3] 微波背景上不同方向的光，来自略微不同的时刻与距离。把它当成一个固定半径的球，会低估复合过程的渐进性。
+
+## 误差与五轴对照
+
+38万年是模型给出的时代参考，不是单次测年；不同宇宙学参数组合会让精确时刻略有移动。[1][3] 在温度轴，复合对应约3000 K的等离子体冷却到中性气体；在空间轴，它让光子自由传播，形成今天可观测的微波背景；在时间轴，它是黑暗时代的门槛。把“38万年”“2.7 K”“最后散射面”放在一起时，要分清时代、今天温度和观测面。[1][2][3]
+
+## 复合不是一瞬间
+
+宇宙复合常被写成“38 万年”，但它是电子与质子结合成中性氢的持续过程，不同区域在不同时刻完成。复合前宇宙是不透明等离子体，复合后光子才自由传播，形成今天的微波背景。把 38 万年当成一个精确按钮，会忽略持续数万年的过渡与最后散射面的厚度。[1][S1]
+
+## 延伸核对
+
+补充的来源 [4]（Hergt & Scott / University of British Columbia）、[5]（Particle Data Group） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

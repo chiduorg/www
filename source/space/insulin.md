@@ -18,6 +18,7 @@ related:
   - space.antibody
   - space.amino-acid
   - space.dna
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Ultra-Rapid Absorption of Recombinant Human Insulin
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.cryst.bbk.ac.uk/pps97/course/section11/insulin.html'
     publisher: Birkbeck College, University of London
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取含锌胰岛素六聚体在溶液或晶体中的近似球形外形，量最大横向直径；
   高度约 3.5 nm，单体约 2.5 nm；不是单个氨基酸残基或肽链的长度。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 5 nm 约为血红蛋白 6.4 nm 的 0.8 倍，约为抗体 10 nm 的一半。[1][2] 它比 DNA 直径 2 nm 大 2.5 倍，也比苯环大近 18 倍。继续阅读血红蛋白、抗体与氨基酸，可比较蛋白质寡聚体与单体的尺度。把 5 nm 与 2 nm 的 DNA、6.4 nm 的血红蛋白并排，可以看到小蛋白寡聚体的典型区间。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.7e-8 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

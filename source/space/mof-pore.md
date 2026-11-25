@@ -18,6 +18,7 @@ related:
   - space.graphene
   - space.carbon-nanotube
   - space.quantum-dot
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: 'Metal-organic frameworks: Structures and functional applications'
@@ -28,6 +29,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8290954/'
     publisher: National Science Review / PMC, Feng et al.
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   以代表性微孔 MOF 的孔道为对象，取孔径约 2 纳米；
   介孔 MOF、分级孔 MOF 或大孔骨架的孔径可明显更大，需另作说明。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 2 纳米约为石墨烯单层 0.335 纳米的 6 倍，约为碳纳米管直径 1 纳米的两倍，却只有量子点 5 纳米的约 0.4 倍。它比红细胞 7.5 微米小约 3750 倍，比头发丝 100 微米小约五万倍。把本页与晶格间距、石墨烯和碳纳米管并读，可区分“晶格—孔道—颗粒”三种尺度。2 纳米孔径与碳纳米管 1 纳米、量子点 5 纳米同处“几纳米”区间，但 MOF 的孔是晶体内部的空腔，不是独立颗粒。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.7e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

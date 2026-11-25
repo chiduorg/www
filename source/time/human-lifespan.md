@@ -44,6 +44,10 @@ sources:
     url: 'https://www.britannica.com/science/life-expectancy'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'Early Homo at 2.8 Ma from Ledi-Geraru, Afar, Ethiopia'
+    url: 'https://pubmed.ncbi.nlm.nih.gov/25739410/'
+    publisher: Science / PubMed
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -87,3 +91,7 @@ tags:
 ## 与其他尺度的关系
 
 73.3年约为23亿秒，相当于一个人一生中约27亿次心跳（按每分钟75次估算）或约6亿次呼吸。它比妊娠期（约280天）长约96倍，比典型细胞分裂周期长约2.7万倍。把这些周期叠起来看，才能体会“一生”是由无数短周期组成的，而不是一个不可分割的瞬间。[1]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Science / PubMed）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

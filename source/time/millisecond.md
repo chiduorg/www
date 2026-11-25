@@ -19,6 +19,7 @@ related:
   - time.nanosecond
   - time.second
   - time.blink
+  - space.tsunami-wavelength
 reviewStatus: reviewed
 sources:
   - title: 'The International System of Units (SI): Prefixes'
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.nist.gov/how-do-you-measure-it/how-do-you-measure-second'
     publisher: National Institute of Standards and Technology (NIST)
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -83,3 +88,7 @@ tags:
 ## 与其他尺度的关系
 
 一秒等于一千毫秒，一毫秒等于一千微秒，一微秒等于一千纳秒，形成连续的千进制阶梯。[1] 毫秒向上连接秒与分钟，向下连接微秒和纳秒；它正好处在人类感官与电子设备交界的尺度。日常说的“眨眼之间”通常比一毫秒长得多，而芯片时钟周期又比一毫秒短得多；用毫秒比较时，应同时说明测的是什么过程。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+按同一真空光速计算，光在这段时间内约走 300 公里，在空间轴上量级接近「海啸波长」。[3]

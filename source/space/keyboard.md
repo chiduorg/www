@@ -16,6 +16,7 @@ related:
   - space.a4-paper
   - space.stapler
   - space.smartphone
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Keyboard K120 — Especificaciones técnicas
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.logitech.com.cn/en-us/shop/p/k120-usb-standard-computer'
     publisher: Logitech
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为 104 键全尺寸标准键盘；量取键盘左右边缘的最大长度，不含线缆、包装与掌托；不同地区版本的外框尺寸可能略有差异。
 uncertainty: 罗技 K120 技术资料给出 435.5 mm，官方产品页给出 450 mm，两者相差约 14.5 mm；本条取 0.44 m 作折中代表值；全尺寸键盘长度多在 43–46 cm，紧凑布局会更短。
 review:
@@ -70,3 +75,7 @@ tags:
 ## 与其他尺度的关系
 
 44 厘米比 45 厘米的砧板长度短 1 厘米，比 29.7 厘米的 A4 纸长边长 14.3 厘米，约为 15 厘米订书机的 2.9 倍。[1][2] 它比 34.5 厘米的笔记本屏幕对角线长 9.5 厘米，放在 1.8 米长的餐桌上约占桌长的四分之一。与 14.76 厘米的手机高度相比，键盘长度接近其 3 倍，说明它是桌面上横向展开的输入设备。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.5 纳秒，在时间轴上量级接近「纳秒」。[3]

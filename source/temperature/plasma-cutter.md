@@ -19,6 +19,7 @@ related:
   - temperature.arc-lamp
   - temperature.lightning
   - temperature.oxyacetylene-flame
+  - space.white-dwarf
 reviewStatus: reviewed
 sources:
   - title: 'Thermal cutting fumes assessment: plasma, oxy-fuel and laser cutting'
@@ -30,6 +31,10 @@ sources:
       https://www.twi-global.com/technical-knowledge/faqs/faq-what-is-plasma-cutting
     publisher: TWI Global
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   等离子弧切割（PAC）割炬内的压缩电弧与喷嘴出口射流，常压、空气或氩/氮保护气；
   温度随电源功率、气体种类、喷嘴结构和切割速度变化。测点指等离子体，不是切缝或工件整体。
@@ -77,3 +82,12 @@ tags:
 ## 与其他温区的关系
 
 8,000 K 高于焊接电弧的约 3,500 K、弧光灯正极 crater 的约 4,000 K 和钨的熔点 3,695 K，低于闪电通道的约 30,000 K。它处在热等离子体加工区间，足以熔化多数导电材料。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 8000 K，即 7727 ℃（按 T/K−273.15 换算）；约为太阳表面（5772 K）的 1.39 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10³ 量级附近。
+
+读图时先看量级，再看倍数：10³ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

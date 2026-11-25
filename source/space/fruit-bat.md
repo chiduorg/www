@@ -15,6 +15,7 @@ related:
   - space.bat
   - space.human
   - space.blue-whale
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Pteropus vampyrus
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.britannica.com/animal/flying-fox'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年马来大狐蝠（Pteropus vampyrus）；量取两翼完全展开、翼膜平直时左右翼尖的最大距离；不含头体长与折叠状态下的翼长。
 uncertainty: ADW 给出平均翼展 1.5 m、前臂长 180–220 mm、体重 0.6–1.1 kg；Britannica 说狐蝠属有些个体翼展可达 1.5 m。两处都把 1.5 m 放在平均值或上限附近，大型个体可能略超；本条取 1.5 m 作为成年个体的平均参照，不是绝对最大值。
 review:
@@ -69,3 +74,14 @@ Animal Diversity Web 的条目写明前臂长 180–220 毫米、平均翼展 1.
 ## 与其他尺度的关系
 
 1.5 米的翼展约为 0.33 米大棕蝠翼展的 4.5 倍，接近 1.7 米成年人张开双臂的臂展，也是 0.40 米家兔头体长的近四倍。[1][2] 它只有 30 米蓝鲸体长的二十分之一。在飞行脊椎动物里，这个翼展已接近小型猛禽，但仍远小于大型海鸟与鲸类。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 5.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1.5 米，换算后是 1.5 米；约 0.882 个成年人身高（1.7 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

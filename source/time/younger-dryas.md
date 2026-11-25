@@ -18,6 +18,7 @@ related:
   - time.last-glacial-maximum
   - time.late-pleistocene
   - time.present
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'

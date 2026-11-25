@@ -16,6 +16,8 @@ related:
   - space.au
   - space.sun
   - space.omega-centauri
+  - time.first-stars
+  - mass.sun
 reviewStatus: reviewed
 sources:
   - title: How far away are the stars?
@@ -26,6 +28,14 @@ sources:
     url: 'https://ssd.jpl.nasa.gov/astro_par.html'
     publisher: NASA / JPL Solar System Dynamics
     accessed: '2026-11-06'
+  - title: "light-year"
+    url: "https://www.britannica.com/science/light-year"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
+  - title: "Sun Fact Sheet"
+    url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html"
+    publisher: "NASA / NSSDCA"
+    accessed: '2026-11-24'
 legacy:
   id: proxima-centauri
   icon: ⭐
@@ -81,3 +91,27 @@ tags:
 ## 与其他尺度的关系
 
 4.03×10¹⁶米约合4.26光年，是1 au的约27万倍，也是奥尔特云外缘100,000 au的约2.7倍。[1] 即使以旅行者1号的速度飞行，这段距离也需数万年；这正说明恒星际尺度与行星尺度的差别。以光速飞行需4.26年，以旅行者1号速度则需约7.5万年。
+
+## 视差怎样变成距离
+
+地球绕太阳公转时，邻近恒星相对背景会画出一个小椭圆；半年间的视差角 p 与距离 d 满足 d≈1/p（p 以角秒计，d 以秒差距计）。[1] 比邻星的视差约 0.77 角秒，对应约 1.30 秒差距，即 4.26 光年。视差越小，距离越远，所以这套方法只适合近邻恒星。
+
+## 红矮星不等于“小太阳”
+
+比邻星质量约太阳的八分之一，表面温度约 3,000 K，亮度只有太阳的千分之一量级。[1] 它位于宜居带内的行星接收到的辐射仍可能受耀斑影响。把“最近恒星”当成“另一个太阳”，会忽略红矮星与太阳在寿命、活动和外层大气上的差别。
+
+## 五轴对照
+
+在空间轴，比邻星约 4.26 光年；在质量轴，它约 0.12 太阳质量；在时间轴，红矮星寿命远长于太阳；在温度轴，它的表面温度低得多。距离近、质量小、温度低是三个独立事实。[1][2]
+
+## 视差与径向速度各回答一半
+
+比邻星距离约 4.24 光年，主要由三角视差给出：地球绕日运动让恒星在天球上画一个小椭圆，半角即视差。径向速度只能给相对运动，不能单独给距离。把“4.24 光年”当成固定值，还要记得它随地球位置与恒星自行略有变化。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 约 4.26 光年（距离），口径是 ESO科普资料中太阳邻域到比邻星的近似距离。空间轴上的长度还要区分半径、直径、距离与投影跨度；同一对象在不同参考面下会给出不同数值。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [3]（Encyclopaedia Britannica）、[4]（NASA / NSSDCA） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

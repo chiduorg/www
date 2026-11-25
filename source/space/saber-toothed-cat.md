@@ -17,6 +17,7 @@ related:
   - space.elephant
   - space.human
   - space.shark
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: sabre-toothed cat
@@ -31,6 +32,10 @@ sources:
     url: 'https://www.nps.gov/articles/000/the-big-cats.htm'
     publisher: National Park Service, Tule Springs Fossil Beds National Monument
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为剑齿虎类（以 Smilodon 为代表）；量头骨前端到尾椎末端的体长，不含尾巴；2 m 取在大型个体一侧，不是 Smilodon fatalis 的平均体长。
 uncertainty: >-
@@ -77,3 +82,5 @@ Britannica 的 sabre-toothed cat 条目说，Smilodon 是一种短肢的大型�
 ## 与其他尺度的关系
 
 2 米约等于 1.2 个 1.7 米高的人首尾相接，约等于半条 4 米大白鲨，也约为 3.35 米肩高非洲象的 0.6 倍。[1][2] 它比 3.5 米肩高的猛犸象短得多，却比 30 厘米菊石壳径长得多。放在尺度轴上，剑齿虎落在“两米级陆生捕食者”的上端；向上是猛犸象和大象，向下是章鱼、菊石和三叶虫。
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.7 纳秒，在时间轴上量级接近「原子跃迁」。[4]

@@ -34,6 +34,7 @@ related:
   - time.last-stars
   - time.proton-decay-era
   - time.heat-death
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -46,6 +47,10 @@ sources:
     url: 'https://www.astronomy.ohio-state.edu/gaudi.1/AST161/Unit7/lecture47.html'
     publisher: 'Ohio State University, Astronomy 161'
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -88,3 +93,5 @@ tags:
 ## 与其他尺度的关系
 
 黑洞时代接在最后一代恒星之后，与质子衰变时代在约10^40年前后衔接，并最终让位于热死亡。[1][2] 它比太阳红巨星阶段晚约30多个数量级，也比银河-仙女座并合晚得多。理解这条时间轴的关键，是区分“恒星熄灭”“物质衰变”“黑洞蒸发”和“热平衡”四个不同过程，而不是把它们压成一个终点。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

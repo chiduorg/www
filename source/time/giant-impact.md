@@ -28,6 +28,10 @@ sources:
     url: 'https://pubs.usgs.gov/fs/2007/3004/pdf/FS07-3004_508.pdf'
     publisher: U.S. Geological Survey
     accessed: '2026-11-06'
+  - title: Facts About Earth — Formation
+    url: 'https://science.nasa.gov/earth/facts/'
+    publisher: NASA
+    accessed: '2026-11-24'
 legacy:
   id: giant-impact
   icon: "\U0001F4A5"
@@ -64,13 +68,15 @@ conditions:
   note: 45亿年为圆整时代参照，撞击时刻与碎片聚集持续时间仍由模型约束。
 uncertainty: 撞击时间在不同模型中大致落在44亿至46亿年前；月岩冷却年龄约45.3亿年只是约束，不是大碰撞本身的直接测年。
 visual:
-  template: "impact-record"
-  profile: "impact"
-  caption: "月球形成的大碰撞假说 · 三维参照"
-  note: "碰撞与碎片属于假说构型，不指定唯一已证实撞击体大小或轨迹。 模型为解释性三维示意，不是实物、古环境或观测对象的精确重建；颜色、光线、粒子轨迹和速度不是实测；尺寸独立归一化，不能互作空间或时间比例尺。"
-  backdrop: "solar-disk"
-  color: "#b08a63"
-  scene: "time.object"
+  template: impact-record
+  profile: impact
+  caption: 月球形成的大碰撞假说 · 三维参照
+  note: >-
+    碰撞与碎片属于假说构型，不指定唯一已证实撞击体大小或轨迹。
+    模型为解释性三维示意，不是实物、古环境或观测对象的精确重建；颜色、光线、粒子轨迹和速度不是实测；尺寸独立归一化，不能互作空间或时间比例尺。
+  backdrop: solar-disk
+  color: '#b08a63'
+  scene: time.object
 mode: 时点
 tags:
   - 太阳系与地球
@@ -96,3 +102,7 @@ tags:
 ## 与其他阶段的关系
 
 大碰撞发生在地球形成之后、太阳系早期撞击频繁的时期之内，常被放在晚期重轰炸假说之前讨论。[2] 它改变了地球的自转与地轴倾角，也影响后续的海洋与板块演化；但“月球形成”与“晚期重轰炸”是两个不同的时间命题，不能互相替代。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（NASA）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

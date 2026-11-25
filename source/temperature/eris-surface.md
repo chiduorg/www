@@ -19,6 +19,7 @@ related:
   - temperature.triton-surface
   - temperature.makemake-surface
   - temperature.absolute-zero
+  - space.moon
 reviewStatus: reviewed
 sources:
   - title: Eris
@@ -29,6 +30,10 @@ sources:
     url: 'https://hal.sorbonne-universite.fr/file/index/docid/637720/filename/Eris_letter.pdf'
     publisher: Nature / HAL
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 高反照率、远日矮行星的表面辐射平衡温度代表值，不区分日照面与背阴面。
 uncertainty: NASA 给出约 56–30 K 的表面温度范围；掩星研究给出亮温 30 ± 1.2 K，局部读数会随反照率与轨道位置变化。
 review:
@@ -73,3 +78,5 @@ NASA 的阋神星页面给出的表面温度范围约为 −217 至 −243 °C�
 ## 与其他尺度的关系
 
 30 K 约为海卫一 38 K 的 0.79 倍，低于冥王星的约 44 K，高于星际介质的约 10 K，也远低于液氮的 77.34 K。[1][2] 在温度轴上，它属于外太阳系天体的典型低温端；画面颜色只作示意。30 K 约为宇宙微波背景 2.725 K 的 11 倍，约为液氦 4.22 K 的 7.1 倍，但仍不到液氮 77.34 K 的一半；在远日点 97 AU 附近，平衡温度还可低到约 23 K。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

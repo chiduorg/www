@@ -4,7 +4,9 @@ title: 埃迪卡拉纪
 titleEn: Ediacaran Period
 dimension: cosmic-time
 category: 地球深时
-summary: 埃迪卡拉纪是新元古代最后一个纪，按ICS 2024/12约从635 Ma延续到538.8 Ma；这一时期以软躯体多细胞生物的化石印痕著称，但“纪”的边界不等于动物起源的瞬间。
+summary: >-
+  埃迪卡拉纪是新元古代最后一个纪，按ICS 2024/12约从635 Ma延续到538.8
+  Ma；这一时期以软躯体多细胞生物的化石印痕著称，但“纪”的边界不等于动物起源的瞬间。
 quantity:
   value: 415360924000000000
   unit: s
@@ -27,6 +29,18 @@ sources:
     url: 'https://www.britannica.com/science/Ediacaran-Period'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: What made Earth a giant snowball 700m years ago? Scientists have an answer
+    url: >-
+      https://www.sydney.edu.au/news-opinion/news/2024/02/08/geoscientists-discover-what-turned-snowball-earth-sturtian-ice-age-earthbyte.html
+    publisher: University of Sydney / EarthByte
+    accessed: '2026-11-24'
+  - title: >-
+      Deep-water first occurrences of Ediacara biota prior to the Shuram carbon
+      isotope excursion in the Wernecke Mountains, Yukon, Canada
+    url: >-
+      https://www.usgs.gov/publications/deep-water-first-occurrences-ediacara-biota-prior-shuram-carbon-isotope-excursion
+    publisher: USGS / Geobiology
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -41,7 +55,8 @@ conditions:
   calendarReferenceYear: 2026
   note: 导航时点取纪的底界，存储秒数只用于时间轴排序。
 uncertainty: >-
-  ICS 2024/12把埃迪卡拉纪底界置于约635 Ma，顶界为538.8 ±0.6 Ma；Britannica圆整为635至541 Ma。界线数值随测年与地层对比修订，635 Ma 是本条采用的圆整导航值。
+  ICS 2024/12把埃迪卡拉纪底界置于约635 Ma，顶界为538.8 ±0.6 Ma；Britannica圆整为635至541
+  Ma。界线数值随测年与地层对比修订，635 Ma 是本条采用的圆整导航值。
 review:
   method: source-check
   date: '2026-11-07'
@@ -49,7 +64,11 @@ review:
     - 核对ICS 2024/12年代表，采用埃迪卡拉纪635 Ma与顶界538.8 ±0.6 Ma。
     - 核对Britannica埃迪卡拉纪条目，采用635至541 Ma的圆整范围、埃迪卡拉生物群与顶界遗迹化石标志。
     - 资料核对不代表外部同行评审。
-    - '2026-11-07 来源可访问性核对：https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf 返回可用响应；https://www.britannica.com/science/Ediacaran-Period（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07
+      来源可访问性核对：https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf
+      返回可用响应；https://www.britannica.com/science/Ediacaran-Period（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -83,3 +102,11 @@ tags:
 ## 与其他阶段的关系
 
 向前，它承接成冰纪的雪球地球冰期，冰盖退却与氧气上升构成生物群出现的背景；向后，它连接寒武纪的骨骼化动物与生态扩张。[1][2] 与寒武纪相比，埃迪卡拉纪的记录更依赖特殊保存的软躯体化石，因此“纪”的界线与“生物演化阶段”并不完全重合。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（University of Sydney / EarthByte）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（USGS / Geobiology）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

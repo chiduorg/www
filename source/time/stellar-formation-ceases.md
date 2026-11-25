@@ -17,6 +17,7 @@ related:
   - time.heat-death
   - time.heat-death-time
   - time.first-stars
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'A Dying Universe: The Long Term Fate and Evolution of Astrophysical Objects'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.astronomy.ohio-state.edu/gaudi.1/AST161/Unit7/lecture47.html'
     publisher: Ohio State University, Astronomy 161
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: future
   plot: false
@@ -81,3 +86,5 @@ tags:
 ## 与其他尺度的关系
 
 恒星形成停止上接最后一代恒星、星系并合和太阳红巨星阶段，下接简并时代、黑洞时代与热死亡。[1][2] 它标记核聚变主导的宇宙开始收尾，却不是宇宙的终点。把它放在 10^12 年量级，与 10^14 年的“最后恒星熄灭”和 10^100 年的热死亡区分开，才能看清各阶段的先后。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

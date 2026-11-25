@@ -14,12 +14,12 @@ quantity:
   approximate: true
 displayValue: t ≈ 135.5 亿年（距今约2.52亿年）
 related:
+  - space.earth
+  - mass.earth
   - time.paleozoic
   - time.cenozoic
   - time.dinosaurs
   - time.jurassic-period
-  - time.first-mammals
-  - time.first-flowering-plants
 chronology:
   status: reference
   plot: true
@@ -33,6 +33,10 @@ sources:
     url: 'https://www.britannica.com/science/Mesozoic-Era'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Triassic Period
+    url: 'https://www.nps.gov/articles/000/triassic-period.htm'
+    publisher: U.S. National Park Service
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -55,11 +59,11 @@ conditions:
   conversion: presentSeconds - lookbackYears × secondsPerYear
   precision: 亿年级近似时代坐标，非高精度年代测量
 visual:
-  template: "geologic-section"
-  scene: "time.object"
-  caption: "中生代 · 恐龙与化石记录"
-  note: "恐龙轮廓和岩板为解释性示意，不是某一具体物种的解剖复原。"
-  color: "#b09a74"
+  template: geologic-section
+  scene: time.object
+  caption: 中生代 · 恐龙与化石记录
+  note: 恐龙轮廓和岩板为解释性示意，不是某一具体物种的解剖复原。
+  color: '#b09a74'
 mode: 时点
 tags:
   - 地质年代
@@ -85,3 +89,7 @@ tags:
 ## 与其他阶段的关系
 
 中生代前接古生代末的大灭绝与生态重组，后接新生代的哺乳动物辐射和草原扩张。它也是大陆漂移、被子植物兴起和恐龙多样化相互交织的阶段。沿时间轴继续向前，会看到“恐龙时代”结束并不是生命史的重置，而是生态位和优势类群的一次重新分配。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. National Park Service）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

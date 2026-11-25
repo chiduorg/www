@@ -19,6 +19,7 @@ related:
   - temperature.solar-flare
   - temperature.solar-wind
   - temperature.sun-surface
+  - space.neutron-star
 reviewStatus: reviewed
 sources:
   - title: 'Coronal Mass Ejections'
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.nasa.gov/image-article/layers-of-sun/'
     publisher: NASA
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为日冕物质抛射中的高温日冕等离子体成分；1 × 10⁶ K 指电子温度或谱线诊断温度的量级参考，
   不是整团抛射物的均温，也不包括较冷的日珥或色球物质。
@@ -84,3 +89,5 @@ CME 本身主要靠日冕仪的白光成像追踪，温度则要借助极紫外�
 ## 与其他温区的关系
 
 1 × 10⁶ K 与日冕的量级相当，高于太阳表面的约 5,800 K，也高于闪电通道的约 3 × 10⁴ K；它低于太阳核心的约 1.57 × 10⁷ K 和激光聚变热斑的约 10⁸ K。把 CME 放在这条温标上，是为了比较“日冕高温成分”的量级，而不是给整团抛射物指定一个温度。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

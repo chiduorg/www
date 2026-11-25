@@ -18,6 +18,7 @@ related:
   - space.piano
   - space.hand
   - space.human
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Flute (1832 Boehm system)
@@ -28,6 +29,10 @@ sources:
     url: 'https://emuseum.nmmusd.org/objects/7663/flute-c'
     publisher: National Music Museum
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为 C 调横笛；测量口径为吹口端到管尾最末端的整支长度，含吹口、管身与尾管，不含笛盒、清洁棒与附加弱音装置；不适用于中音长笛或低音长笛。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 0.66 米约等于 3.3 个 0.2 米的全手长度，也约等于 0.37 辆 1.8 米自行车。与 1.5 米的三角钢琴相比，长笛约为其 44%；与 0.6 米的小提琴相比约为其 1.1 倍。它还是 2.032 米标准门高的约 32%，拿在手里接近一条手臂加手掌的长度。长笛展开后呈细长管状，长度几乎全部落在水平方向。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.2 纳秒，在时间轴上量级接近「纳秒」。[3]

@@ -35,9 +35,13 @@ sources:
     accessed: '2026-11-06'
   - title: Planck and the cosmic microwave background
     url: >-
-      https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background
+      https://sci.esa.int/web/planck/Planck_and_the_cosmic_microwave_background
     publisher: ESA / Planck
     accessed: '2026-11-06'
+  - title: "cosmic microwave background"
+    url: "https://www.britannica.com/science/cosmic-microwave-background"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 legacy:
   id: big-bang
   icon: "\U0001F4A5"
@@ -106,3 +110,20 @@ tags:
 ## 与其他阶段的关系
 
 时间零点之后依次可讨论暴胀、再加热、电弱、夸克—强子、轻子与核合成等阶段，但并非每个阶段都有同等证据强度。[2][3] 微波背景连接早期热历史与后来的结构生长；轻元素丰度则把最初数分钟与今天的观测连起来。[3][4] 阅读这些阶段时，应把“坐标越早”与“证据越直接”分开，也不要把相邻的模型阶段当成同一次事件。[1][3]
+
+
+## 换一个尺度看它
+
+138 亿年约是地球年龄的 3 倍，也是人类文明史的约 100 万倍。若把宇宙史压成一年，地球约在 9 月出现，恐龙在 12 月底灭绝，人类文字只有最后几分钟。这个换算不改变物理，却能把“深时”从抽象数字变成可感知的顺序。
+
+## 证据强度不是同一档
+
+CMB、轻元素丰度和星系退行都支持热大爆炸，但它们的证据类型不同：CMB 是直接遗留的辐射，轻元素丰度是核合成计算与观测的比对，星系退行是膨胀史的运动学证据。[1][2][3][4] 越往早期，直接观测越少，模型外推越多。把“有证据支持”与“已经直接看到”分开，是读早期宇宙时间线的关键。
+
+## 五轴对照
+
+在时间轴，t=0 是约定起点；在温度轴，早期宇宙对应 CMB 与更早的高温阶段；在空间轴，可观测宇宙的边界随膨胀变化；在质量轴，原初核合成决定了氢、氦与少量锂的丰度。四条轴都在讲同一段历史，但各自量的不是同一种东西。[1][3][4]
+
+## 延伸核对
+
+补充的来源 [5]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

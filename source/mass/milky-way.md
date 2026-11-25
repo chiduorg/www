@@ -5,7 +5,7 @@ summary: >-
   银河系的总质量约 2.98×10⁴² kg，折合约 1.5×10¹² 个太阳质量，口径包含暗物质晕。数值由卫星星系运动与旋转曲线联合拟合，恒星质量仅约
   6×10¹⁰ 个太阳质量，相对不确定度约 30%。
 dimension: mass
-category: 星系
+category: 星系与宇宙
 displayValue: 2.98×10⁴² kg
 quantity:
   value: 2.98e+42
@@ -24,6 +24,9 @@ related:
   - mass.andromeda
   - mass.local-group
   - space.milky-way
+  - space.milky_way_disk
+  - temperature.cmb
+  - time.first-galaxies
 reviewStatus: reviewed
 review:
   method: source-check
@@ -52,6 +55,14 @@ sources:
     url: 'https://www.cosmos.esa.int/web/gaia'
     publisher: European Space Agency
     accessed: '2026-11-09'
+  - title: "ESA Science"
+    url: "https://www.esa.int/"
+    publisher: "European Space Agency"
+    accessed: '2026-11-24'
+  - title: "The Milky Way — Cosmic Distance Scale"
+    url: "https://imagine.gsfc.nasa.gov/features/cosmic/milkyway_info.html"
+    publisher: "NASA / GSFC / HEASARC"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 星系
@@ -79,6 +90,7 @@ visual:
   color: '#a6bfff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Milky Way
 ---
 ## 这个读数是什么
 
@@ -96,6 +108,30 @@ visual:
 
 2.98×10⁴² kg 位于 B15 带下段，约为大麦哲伦云的十倍，与本星系群另一主角仙女座星系几乎相同。[1] 它比已知最重的黑洞还重几十倍，却只有室女座星系团的八百分之一。银河系处在“星系”这一级的典型位置，往上便是星系群与星系团。它的总质量里恒星只占很小一份，这正是暗物质存在的间接证据。
 
+## 旋转曲线为什么指向暗物质
+
+银河系外围恒星与气体的旋转速度没有像预期那样随半径下降，而是大致保持平坦；可见物质不足以解释这个速度，需要额外质量。暗物质晕提供了这部分引力。旋转曲线不是“转得快”，而是“转得不符合可见物质的预期”。[1][S2]
+
+银河系总质量还依赖暗物质晕的外缘定义：把晕截到 100 千秒差距还是 300 千秒差距，总质量可以差一倍。1.5×10¹² 太阳质量是常用 virial 质量，不是整个引力系统的绝对边界。
+
+银河系质量还可以用卫星星系的轨道与潮汐尾约束：不同示踪天体给出不同晕质量，1.5×10¹² 太阳质量是常用综合值。
+
 ## 怎么继续走
 
 想看几乎等重的邻居，去 mass.andromeda；想看它所在的引力系统，去 mass.local-group；想看它在空间轴上的图景，去 space.milky-way。[2] 想再往上一个量级，则去 mass.virgo-cluster，那里是银河系所在的本超星系团的核心。两条路线都指向同一个问题：把暗物质算进来，星系的真实重量远大于夜空中看到的光。
+
+## 旋转曲线为什么指向暗物质
+
+银河系外围恒星与气体的旋转速度没有像预期那样随半径下降，而是大致保持平坦；可见物质不足以解释这个速度，需要额外质量。[1][2] 暗物质晕提供了这部分引力。旋转曲线不是“转得快”，而是“转得不符合可见物质的预期”。
+
+## 五轴对照
+
+在质量轴，银河系约 1.5×10¹² 太阳质量；在空间轴，银盘直径约 10 万光年；在时间轴，它形成于宇宙早期；在温度轴，宇宙微波背景是它的热历史背景。质量、尺度与暗物质共同定义星系。[1][3]
+
+## 读数的口径与换算
+
+本条采用的量是 2.98×10⁴² kg，口径是 银河系总质量（含暗物质晕，约 1.5×10¹² 太阳质量）；由卫星星系运动与旋转曲线拟合，相对不确定度约 30%。质量是广延量，读数依赖湿重/干重、含血/不含血、整备/满载等口径；样本与测量条件必须一起引用。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（European Space Agency）、[5]（NASA / GSFC / HEASARC） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

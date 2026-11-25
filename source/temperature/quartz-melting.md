@@ -15,11 +15,12 @@ quantity:
   measureLabel: 结晶石英常压熔点
 displayValue: '约 1,986 K（1,713 °C）'
 related:
+  - space.earth-core
+  - time.industrial-revolution
   - temperature.glass_melting
   - temperature.glass-transition
   - temperature.basalt-melting
   - temperature.silicon-melting
-  - temperature.lava-temperature
 reviewStatus: reviewed
 sources:
   - title: >-

@@ -18,6 +18,7 @@ related:
   - space.nacl-crystal
   - space.diamond-unit-cell
   - space.quartz
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Forsterite
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.mindat.org/show.php?id=1584'
     publisher: Hudson Institute of Mineralogy / Mindat
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取镁橄榄石（Mg₂SiO₄）端员、常温常压下的 Pbnm 正交晶胞，量 a 轴长度；
   b 轴 10.197 Å、c 轴 5.981 Å；不是手标本尺寸、不是 Si—O 键长。
@@ -77,3 +82,7 @@ conceptGroup: crystal
 ## 与其他尺度的关系
 
 0.475 nm 约为 NaCl 晶格常数 0.564 nm 的 0.84 倍，约为石英 a 轴 0.491 nm 的 0.97 倍。[1][2] 它的 b 轴 1.02 nm 已接近小蛋白单体的尺度。继续阅读晶格间距、NaCl 晶体与金刚石晶胞，可比较正交与立方晶系。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.6e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

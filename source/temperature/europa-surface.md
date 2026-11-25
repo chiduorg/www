@@ -29,6 +29,10 @@ sources:
     url: 'https://arxiv.org/html/1608.07372v3'
     publisher: 'Ashkenazy, Physica A (arXiv:1608.07372)'
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   body: 木卫二
   location: 冰壳表面，赤道至极区
@@ -83,3 +87,5 @@ tags:
 ## 与其他温区的关系
 
 102 K 高于月球夜侧约 100 K，接近土卫六表面约 94 K，也高于冥王星表面 33–55 K 的区间。[1] 它低于水的冰点 273.15 K，更低于室温，但高于液氮的 77.4 K。与木星云顶约 165 K 相比，木卫二表面更冷，说明距离木星、日照和冰面反照率会共同改变冰卫星表层温度。[2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

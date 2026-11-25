@@ -5,7 +5,7 @@ summary: >-
   取直径 0.5 mm 的石英球体，半径 0.25 mm、密度 2650 kg/m³，体积约 6.5×10⁻¹¹ m³，质量约 1.7×10⁻⁷
   kg。真实砂粒有棱角、矿物混杂，这个读数只能算估算。
 dimension: mass
-category: 矿物颗粒
+category: 自然与生物
 displayValue: 1.7×10⁻⁷ kg
 quantity:
   value: 1.7e-7
@@ -71,6 +71,7 @@ visual:
   color: '#c9a77a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Quartz sand grain
 ---
 ## 这个读数是什么
 

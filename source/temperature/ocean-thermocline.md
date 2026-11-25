@@ -19,6 +19,7 @@ related:
   - temperature.lake-surface
   - temperature.water-freezing
   - temperature.troposphere
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: What is a thermocline?

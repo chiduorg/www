@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 22.3 km（平均直径）
 related:
+  - temperature.venus-surface
+  - time.solar-system
   - space.mars
   - space.moon_diameter
   - space.earth
   - space.jupiter
-  - space.solar-system
 reviewStatus: reviewed
 sources:
   - title: Mars Fact Sheet
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Mars-planet'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为火卫一固体表面；采用三轴半径13.0、11.4、9.1公里的平均值11.17公里加倍；不含表面尘埃与未来碎裂形成的环。
 uncertainty: 三轴半径平均约11.17公里，直径约22.3公里；最长轴直径约26公里，最短轴约18.2公里；不同来源的“平均直径”在22至22.5公里间略有差异。
 review:
@@ -39,12 +44,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "火卫一 · 火星卫星"
-  note: "不规则块体、撞击坑与光照为示意，非按比例，非观测重建；不复现真实形状与斯蒂克尼撞击坑细节。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 火卫一 · 火星卫星
+  note: 不规则块体、撞击坑与光照为示意，非按比例，非观测重建；不复现真实形状与斯蒂克尼撞击坑细节。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -71,3 +76,5 @@ NASA火星事实表列出火卫一的三轴半径：面向火星方向13.0公里
 ## 与其他尺度的关系
 
 22.3公里约为月球直径3,474公里的0.64%，约为地球直径12,742公里的0.18%，也约为贝努490米的45倍。[1] 它远小于火星6,779公里。火卫一轨道半径9,378公里约为火星半径3,390公里的2.8倍，却小于火星同步轨道半径，因此它在火星天空中西升东落。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

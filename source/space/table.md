@@ -29,6 +29,10 @@ sources:
     url: 'https://www.ikea.com/jp/en/p/ekedalen-karlpetter-table-and-6-chairs-oak-gunnared-medium-grey-chrome-plated-s19571231/'
     publisher: IKEA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为六至八人可伸展餐桌；测量口径为未展开时桌面长边的外缘跨度，不含展开增加的部分、桌腿外撇和桌下收纳。
 uncertainty: >-
@@ -75,3 +79,5 @@ tags:
 ## 与其他尺度的关系
 
 1.8 米约为成年人手长 19 厘米的 9.5 倍，也约为 A4 纸长边 29.7 厘米的 6 倍。它比常见门高约 2 米略短，接近一辆小汽车宽度 1.8 米的量级。[1] 与 34.5 厘米的笔记本屏幕对角线相比，餐桌长边约是其 5.2 倍；并排坐三人时，每人可分到约 60 厘米的桌沿。展开后的 240 厘米还会改变桌边到墙的距离；若按未展开的 180 厘米布置座椅，展开时就要临时挪动。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

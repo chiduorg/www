@@ -18,6 +18,7 @@ related:
   - time.quaternary-period
   - time.late-pleistocene
   - time.holocene-epoch
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,10 @@ sources:
     url: 'https://macrostrat.org/api/defs/intervals?interval_name=Middle%20Pleistocene'
     publisher: Macrostrat, University of Wisconsin–Madison
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -80,3 +85,5 @@ tags:
 ## 与其他尺度的关系
 
 中更新世约 64.5 万年，约为第四纪 258 万年的四分之一。[1] 它比晚更新世约 11.7 万年长约五倍，却远短于整个更新世；与末次盛冰期相比，它包含更多次完整的冰期旋回。[2] 若以人类寿命约 80 年计，64.5 万年约相当于八千代人，这一换算只用于直观比较。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

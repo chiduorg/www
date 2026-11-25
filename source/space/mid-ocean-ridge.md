@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: '约 1,600 km（洋中脊最大宽度）'
 related:
+  - time.millisecond
   - space.pacific-ocean
   - space.earth
   - space.volcano
   - space.everest
   - space.great-barrier-reef
-  - space.san-andreas-fault
 reviewStatus: reviewed
 sources:
   - title: What is a mid-ocean ridge?
@@ -28,6 +28,10 @@ sources:
     url: 'https://kids.britannica.com/students/article/ocean/276153'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为全球洋中脊体系；样本为Britannica与NOAA的概述；口径为洋中脊体系的局部最大宽度，不是整条洋中脊的累计长度、单个脊峰高度或中央裂谷宽度。
 uncertainty: 洋中脊宽度随扩张速率变化，常引1000–4000公里；本条取Britannica“最宽约1000英里”即约1600公里，仅作品级参照。
 review:
@@ -74,3 +78,7 @@ NOAA说全球洋中脊系统绵延近65000公里，脊顶平均水深约2500米�
 ## 与其他尺度的关系
 
 1600公里约为台湾本岛纵长394公里的4.1倍，也约为贝加尔湖长度636公里的2.5倍。[1][2] 与地球直径12742公里相比，它约为后者的12.6%。洋中脊属于板块与海洋盆地尺度，向上连接全球板块系统，向下连接单个火山。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 5.3 毫秒，在时间轴上量级接近「毫秒」。[3]

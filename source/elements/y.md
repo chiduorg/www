@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/39/yttrium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第五周期, d 区, 钇]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往回看锶（/entry/elements/sr/），能看到 5s 填满之后为何必须转向 4d；往前看锆（/entry/elements/zr/），能看到 4d 再加一枚后半径继续收缩。想弄清“4d 为何先于 5p”，去读电子排布解释页；想把钇放进稀土家族看，去读镧系收缩一节。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

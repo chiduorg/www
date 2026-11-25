@@ -29,6 +29,10 @@ sources:
       https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture%202%202014/Lecture2.2014_v4_sm.pdf
     publisher: 'University of California Observatories, UC Santa Cruz'
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -79,3 +83,5 @@ tags:
 ## 与其他尺度的关系
 
 一个银河年约等于 2.3 亿个地球年，远长于岁差的约 2.6 万年，也远长于人类文明以文字计算的约五千年。它处在恒星与银河系运动的时间尺度上，向上连接银河系的演化年龄，向下连接太阳系内行星的公转周期。[1][2] 用银河年比较太阳系形成以来的历史，可以把“四十六亿年”压缩成约二十圈，但应说明这是近似换算。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

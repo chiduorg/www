@@ -17,20 +17,21 @@ quantity:
   uncertaintyType: 概览取整与模型差异
 displayValue: '约 11,000 K（概览参考）'
 related:
+  - space.sun
+  - mass.sun
   - temperature.o-type-star-surface
   - temperature.betelgeuse-surface
   - temperature.sirius-surface
   - temperature.a-type-star
-  - temperature.sun-surface
 reviewStatus: reviewed
 sources:
   - title: A Guide to Cosmic Temperatures
     url: 'https://svs.gsfc.nasa.gov/14374'
     publisher: NASA Scientific Visualization Studio
     accessed: '2026-11-06'
-  - title: 'The Spectral Sequence'
-    url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectral-sequence'
-    publisher: 'OpenStax Astronomy 2e（CC BY 4.0）'
+  - title: The Spectra of Stars (and Brown Dwarfs)
+    url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectra-of-stars-and-brown-dwarfs'
+    publisher: OpenStax Astronomy 2e（CC BY 4.0）
     accessed: '2026-11-07'
   - title: Rigel
     url: 'https://www.britannica.com/place/Rigel'

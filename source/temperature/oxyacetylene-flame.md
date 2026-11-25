@@ -19,6 +19,7 @@ related:
   - temperature.tungsten-melting
   - temperature.steelmaking_temp
   - temperature.iron-melting
+  - space.sun
 reviewStatus: reviewed
 sources:
   - title: 'Oxy-fuel welding: oxyacetylene flame'
@@ -30,6 +31,10 @@ sources:
     url: 'https://www.britannica.com/technology/oxyacetylene-welding'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: oxyacetylene-flame
   icon: "\U0001F527"
@@ -93,3 +98,5 @@ TWI 的技术说明指出，在焊炬内按适当比例混合氧与乙炔时，�
 ## 与其他温区的关系
 
 3,473 K 高于纯铁熔点 1,811 K、铜熔点 1,357.8 K 和铝熔点 933.15 K，因此可熔化常见钢材。[1] 它低于钨熔点 3,687 K，也低于常压石墨升华的 3,895–4,020 K。与 1,773 K 的本生灯高温区相比，氧乙炔火焰约高出一倍，说明纯氧助燃显著提高了燃烧温度。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -18,6 +18,7 @@ related:
   - space.mushroom
   - space.spore
   - space.bacteria
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Isolation and Characterization of Four Unreported Penicillium Species Isolated from the Freshwater Environments in Korea'
@@ -28,6 +29,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9083529/'
     publisher: PeerJ
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为青霉菌属在培养皿中的菌落；量菌落最宽处的直径，不含单根菌丝、孢子或菌落高度；以培养早期的 1 mm 量级作为参照，并说明它与 7 天后直径的差别。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 1 mm 约为霉菌菌丝直径（10 μm）的 100 倍，约为头发丝直径（100 μm）的十倍，也约为蚂蚁体长（6 mm）的六分之一。七天后 20–35 mm 的菌落，已接近一枚硬币的直径。它处在肉眼刚可见到厘米级的过渡带。七天后菌落可覆盖培养皿的一大片区域，但仍远小于蘑菇菌盖。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.0033 纳秒，在时间轴上量级接近「纳秒」。[3]

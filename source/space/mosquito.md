@@ -16,6 +16,7 @@ related:
   - space.human
   - space.dust-mite
   - space.fruit-fly
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Common flies around horses and how to control them
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.cdc.gov/mosquitoes/about/index.html'
     publisher: U.S. Centers for Disease Control and Prevention
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: mosquito
   icon: "\U0001F99F"
@@ -82,3 +87,7 @@ tags:
 ## 与其他尺度的关系
 
 5毫米的蚊子比0.5毫米的尘螨大一个数量级，比1.6毫米的法老蚁长，与5毫米的米粒数值相近但对象不同；它比6毫米的木匠蚁小型工蚁略短。[1][2] 在尺度轴上，蚊子处在毫米级的昆虫层级，向上是手指和手掌，向下是尘螨、细胞与微生物。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.017 纳秒，在时间轴上量级接近「纳秒」。[3]

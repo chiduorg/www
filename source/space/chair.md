@@ -28,6 +28,10 @@ sources:
     url: 'https://www.osha.gov/etools/computer-workstations/components/chairs'
     publisher: Occupational Safety and Health Administration
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为无扶手、带靠背的普通餐椅，测量在硬质水平地面上进行；主值为整体高度，座面高度另列；不含坐垫受压下沉量与椅背装饰件。
 uncertainty: >-
@@ -76,3 +80,5 @@ tags:
 ## 与其他尺度的关系
 
 0.90 米约为门高 2.032 米的 44%，也约为成人身高 1.75 米的一半。[1] 座面 0.45 米接近成人小腿加足高的常见范围，约等于两台笔记本电脑叠放的高度。餐椅整体高度约为冰箱 1.8 米的一半，搬进普通门洞时仍有充足余量。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

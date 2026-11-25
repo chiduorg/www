@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 1.9 × 10¹⁶ m（直径，约 2 光年）
 related:
+  - temperature.planetary-nebula
+  - temperature.sun-surface
   - space.red-giant
   - space.white-dwarf
   - space.crab-nebula
   - space.orion-nebula
-  - space.supernova-remnant
 reviewStatus: reviewed
 sources:
   - title: planetary nebula
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/white-dwarf-star'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取典型行星状星云的电离气体壳层，半径约 1 光年，折算为直径约 2 光年；不包含中心白矮星、
   外围中性气体或与星际介质的过渡区。适用于类太阳恒星晚期的星云尺度比较。
@@ -46,12 +51,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "nebula"
-  scene: "space.object"
-  caption: "行星状星云直径 · 约 2 光年"
-  note: "环状辉光与颜色为示意；直径按典型半径折算，不代表具体星云；非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: nebula
+  scene: space.object
+  caption: 行星状星云直径 · 约 2 光年
+  note: 环状辉光与颜色为示意；直径按典型半径折算，不代表具体星云；非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:
@@ -78,3 +83,5 @@ tags:
 ## 与其他尺度的关系
 
 1.9×10¹⁶ 米约合 2 光年，约为太阳到比邻星距离的一半，也是地球直径的约 1.5×10⁹ 倍。[1] 它比超新星遗迹小约一个数量级，却比太阳系日球层大三个数量级。把行星状星云放在恒星演化序列中，可以看到恒星在死亡时如何把外层物质送回星际介质，为下一代恒星留下原料。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

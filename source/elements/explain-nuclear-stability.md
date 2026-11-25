@@ -1,10 +1,10 @@
 ---
 id: elements.explain-nuclear-stability
 title: 核稳定性、幻数与衰变：元素页的另一半
-titleEn: Nuclear stability, magic numbers and decay
+titleEn: 'Nuclear stability, magic numbers and decay'
 dimension: element
 category: 解释层
-summary: '壳层结构解释化学，核结构解释存在。中子质子比偏离稳定线、幻数带来的额外束缚、α 与 β 衰变的选择，共同决定一个元素有没有稳定同位素。'
+summary: 壳层结构解释化学，核结构解释存在。中子质子比偏离稳定线、幻数带来的额外束缚、α 与 β 衰变的选择，共同决定一个元素有没有稳定同位素。
 quantity:
   value: null
   unit: Z
@@ -17,20 +17,26 @@ related:
   - elements.rn
   - elements.og
   - elements.explain-configuration
+  - space.atom
+  - mass.proton
 reviewStatus: reviewed
 review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与主题口径完整；本条为解释/方法/来源页，不参与 Z 排序，不对应单一原子序数。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - 本轮复核：结构、引用编号与主题口径完整；本条为解释/方法/来源页，不参与 Z 排序，不对应单一原子序数。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: '21.1: Nuclear Structure and Stability'
-    url: 'https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/21%3A_Nuclear_Chemistry/21.01%3A_Nuclear_Structure_and_Stability'
-    publisher: 'LibreTexts / OpenStax Chemistry 2e'
+    url: >-
+      https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/21%3A_Nuclear_Chemistry/21.01%3A_Nuclear_Structure_and_Stability
+    publisher: LibreTexts / OpenStax Chemistry 2e
     accessed: '2026-11-08'
-  - title: 'NuDat 3.0'
+  - title: NuDat 3.0
     url: 'https://www.nndc.bnl.gov/nudat3/'
     publisher: 'National Nuclear Data Center, Brookhaven National Laboratory'
     accessed: '2026-11-08'

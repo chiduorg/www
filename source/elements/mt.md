@@ -48,6 +48,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/109/meitnerium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 超重元素, 鿏, 预测值]
 rights:
   status: rewritten
@@ -75,3 +79,12 @@ N/Z 回升 0.06 来自质量数的跳变，而不是多出的质子本身。[2] 
 ## 它从哪里来
 
 鿏由重离子轰击锕系靶核合成，一次只有极少数原子。[2] 它挂在“人工核合成时代”节点上。已知同位素无稳定成员，半衰期极短，靠衰变链识别，本页不列具体秒数。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取原子序数 Z=109，表示中性原子有 109 个质子和 109 个电子，位于第 87 周期；它距下一个闭壳层 118 号元素 9 个位置。Z 只数质子，不等于原子质量数；同一元素的不同同位素 Z 相同、质量数不同，读表时不能把两者混用。这把尺子只改写单位，不改变量值；它把本条固定在元素轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

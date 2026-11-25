@@ -43,6 +43,10 @@ sources:
     url: 'https://medlineplus.gov/childbirth.html'
     publisher: 'MedlinePlus, U.S. National Library of Medicine'
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -86,3 +90,5 @@ tags:
 ## 与其他尺度的关系
 
 妊娠期约2.42×10⁷秒，约为一年（3.16×10⁷秒）的四分之三。它包含约280次昼夜节律循环，也包含难以计数的细胞分裂周期；与人类寿命相比，它只占约1%。这些换算说明，同一段时长在不同生物过程里对应完全不同的内部事件数量。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

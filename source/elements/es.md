@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/99/einsteinium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 锕系, 锿]
 rights:
   status: rewritten
@@ -70,3 +74,12 @@ rights:
 ## 它从哪里来
 
 来源记作“人工（加速器）”。锿由人工核反应合成，产量以原子计，靠α衰变链的能量与半衰期确认身份。[2] 挂到核时代节点之后：反应堆难以再往上推进，加速器成为主要路径。锿没有稳定同位素，样品无法积累，只能现做现测。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取原子序数 Z=99，表示中性原子有 99 个质子和 99 个电子，位于第 87 周期；它距上一个闭壳层 86 号元素 13 个位置。Z 只数质子，不等于原子质量数；同一元素的不同同位素 Z 相同、质量数不同，读表时不能把两者混用。这把尺子只改写单位，不改变量值；它把本条固定在元素轴的 10¹ 量级附近。
+
+读图时先看量级，再看倍数：10¹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

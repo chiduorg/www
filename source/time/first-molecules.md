@@ -17,6 +17,7 @@ related:
   - time.recombination
   - time.first-stars
   - time.reionization-epoch
+  - space.cmb-surface
 reviewStatus: reviewed
 sources:
   - title: 'NASA Armstrong X-Press, May 2019 — First Molecule Found'

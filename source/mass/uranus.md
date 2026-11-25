@@ -5,7 +5,7 @@ summary: >-
   天王星是太阳系第七颗行星，行星总质量约 8.681×10²⁵ kg，约为地球质量的 14.5 倍。质量由旅行者2号飞越跟踪与卫星轨道拟合得出，相对不确定度约
   0.02%。
 dimension: mass
-category: 行星
+category: 行星与小天体
 displayValue: 8.681×10²⁵ kg
 quantity:
   value: 8.681e+25
@@ -80,6 +80,7 @@ visual:
   color: '#7fb5e6'
   scaleMin: -40
   scaleMax: 53
+titleEn: Uranus
 ---
 ## 这个读数是什么
 

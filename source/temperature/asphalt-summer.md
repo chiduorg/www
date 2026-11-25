@@ -20,6 +20,7 @@ related:
   - temperature.room-temperature
   - temperature.oven
   - temperature.human-body-temperature
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: 'Using Cool Pavements to Reduce Heat Islands'
@@ -33,6 +34,10 @@ sources:
       https://globalfutures.asu.edu/sustainabilitysolutions/wp-content/uploads/sites/37/2025/03/COPE-Report_FULLFINAL.pdf
     publisher: Arizona State University Urban Climate Research Center
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 沥青路面表层
   measurementSite: 路面表面，非百叶箱气温
@@ -87,3 +92,5 @@ tags:
 ## 与其他温度的关系
 
 57 °C 高于 room-temperature 的 20 °C 示例，也高于 human-body-temperature 的约 37 °C；它低于 boiling-water 的 100 °C，但已接近 oven 低温设定的一端。与 desert-ground 的约 70 °C 相比，沥青路面受材质和城市环境共同影响，数值可以相近，也可能更低。把这些条目并列时，先确认每条测的是空气、液体、表面还是材料内部。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

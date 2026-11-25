@@ -19,7 +19,7 @@ related:
   - space.gut-scale
   - time.big-bang
   - temperature.planck-temperature
-  - time.present
+  - mass.planck-mass
 reviewStatus: reviewed
 sources:
   - title: 2022 CODATA — Planck length
@@ -35,6 +35,14 @@ sources:
       https://www.britannica.com/science/cosmology-astronomy/Superunification-and-the-Planck-era
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "NASA Telescopes Set Limits on Space-time Quantum Foam"
+    url: "https://chandra.harvard.edu/photo/2015/quantum/"
+    publisher: "NASA / Chandra X-ray Center"
+    accessed: '2026-11-24'
+  - title: "New Constraints on Quantum Gravity from X-ray and Gamma-Ray Observations"
+    url: "https://arxiv.org/html/1411.7262v5"
+    publisher: "E. S. Perlman et al. / The Astrophysical Journal"
+    accessed: '2026-11-24'
 legacy:
   id: planck
   icon: ⚛
@@ -87,3 +95,19 @@ tags:
 ## 与其他尺度的关系
 
 在尺度轴上，它位于质子（约 1 飞米，10⁻¹⁵ 米）以下约 20 个数量级，也远小于原子（约 10⁻¹⁰ 米）。[2] 与之相邻的还有普朗克时间与普朗克温度，它们同样由常数组合定义；这些量共同构成理论参照，而不是一串已经拍到的物体。[3] 阅读时可把“理论可讨论的最小尺度”和“实验已分辨的最小结构”分开。
+
+## 为什么还没有直接测到
+
+普朗克长度比质子还小约 20 个数量级；要直接分辨它，需要约 10¹⁹ GeV 量级的能量，远超当前对撞机。现有实验只能给出“在这个尺度之上没有新结构”的上限，不能证明空间在普朗克长度处离散。[2] 这也是量子引力理论缺少直接实验检验的原因：它不是一台望远镜能拍到的对象，而是理论内部的特征尺度。[1][3]
+
+## 与“量子泡沫”的区别
+
+量子泡沫是描述普朗克尺度时空可能剧烈涨落的图像，属于理论猜想，不是已经拍到的泡沫结构。[3] 普朗克长度只是这个讨论中的长度标尺；它既不证明时空由泡沫组成，也不等于某个涨落的大小。把两者当成同义词，会把“理论定义”误读成“观测对象”。[1][3]
+
+## 五轴对照
+
+在空间轴，它是 10⁻³⁵ 米；在时间轴，对应普朗克时间约 5.4×10⁻⁴⁴ 秒；在温度轴，对应普朗克温度约 1.4×10³² K；在质量轴，对应普朗克质量约 2.2×10⁻⁸ 千克。四个量都由同一组常数组合定义，彼此换算，却不等于四个已经测到的实体。[1][3]
+
+## 延伸核对
+
+补充的来源 [4]（NASA / Chandra X-ray Center）、[5]（E. S. Perlman et al. / The Astrophysical Journal） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

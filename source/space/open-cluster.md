@@ -17,6 +17,7 @@ related:
   - space.orion-nebula
   - space.sun
   - space.pleiades
+  - time.solar-cycle
 reviewStatus: reviewed
 sources:
   - title: The Pleiades Star Cluster
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/star-cluster'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   以昴星团（M45）作为疏散星团样本，取 APOD 所述“约 13 光年跨度”；适用于年轻疏散星团的尺度
   比较。不同星团的成员数、年龄与潮汐环境不同，直径可从数光年到数十光年。
@@ -78,3 +83,7 @@ tags:
 ## 与其他尺度的关系
 
 1.2×10¹⁷ 米约合 13 光年，是太阳到比邻星距离的约 3 倍，约为银河系直径的 1/7700。[1] 它比行星状星云大数倍，却远小于球状星团和星系。把疏散星团放在银河系盘面，可以看到恒星如何在相对较小的群体中诞生、疏散，最终融入银河系的恒星海。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 13 年，在时间轴上量级接近「太阳活动周期」。[3]

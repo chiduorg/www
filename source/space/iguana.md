@@ -16,6 +16,7 @@ related:
   - space.komodo-dragon
   - space.crocodile
   - space.cat
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Iguana iguana (Common Green Iguana)
@@ -26,6 +27,10 @@ sources:
     url: 'https://animals.sandiegozoo.org/animals/iguana'
     publisher: San Diego Zoo Wildlife Alliance
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性绿鬣蜥（Iguana iguana）；量取吻端到尾尖的全长，含尾；雌性通常较短，圈养与野生个体体重差异明显。
 uncertainty: ADW 说从头到尾可达约 2 m；圣迭戈动物园给出绿鬣蜥全长 5–7 英尺（约 1.5–2 m），含尾。本条取 1.8 m 落在两家范围中上部，代表较大的成年雄性；尾巴约占总长一半，断尾个体会明显偏短。
 review:
@@ -70,3 +75,14 @@ ADW 说这种蜥蜴从头到尾可达约 2 米，成体体重多为 4–6 千克
 ## 与其他尺度的关系
 
 1.8 米略高于 1.7 米成年人身高，是 15 厘米普通蟾蜍的 12 倍，也是 8 厘米林蛙的 22 倍多。[1][2] 它比 3 米科莫多巨蜥短 1.2 米，也低于 4 米尼罗河鳄。在蜥蜴中，只有科莫多巨蜥等少数种类比它更长。作为蜥蜴，它已经进入接近人体高度的尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1.8 米，换算后是 1.8 米；约 1.06 个成年人身高（1.7 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

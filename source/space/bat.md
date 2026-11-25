@@ -17,6 +17,7 @@ related:
   - space.mouse
   - space.fruit-bat
   - space.vampire-bat
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Eptesicus fuscus
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.nps.gov/pipe/learn/nature/mammals.htm'
     publisher: National Park Service
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年大棕蝠；量取双翼完全展开、身体不弯曲时两翼尖之间的最大直线距离；不含折叠翅膀时的宽度，也不是体长；个体与测量姿势会造成差异。
 uncertainty: ADW 给出翼展约 330 mm（13 英寸）；NPS 记录 13–16 英寸（约 33–41 cm）。多数个体约 0.30–0.35 m，较大个体可接近 0.41 m；本条取 0.33 m 作代表值，翼尖是否含爪、翅膀是否完全展开都会影响读数。
 review:
@@ -70,3 +75,7 @@ Animal Diversity Web 的大棕蝠条目写明：翼展约 330 毫米（13 英寸
 ## 与其他尺度的关系
 
 0.33 米的翼展约为 0.10 米蜂鸟体长的三倍多，也是 0.095 米帝王蝶翼展的三倍半；比 0.08 米的家鼠长得多，却不到 0.40 米家兔的一半。[1][2] 在飞行动物里，蝙蝠用“翼展”参与比较：向上是鸟与飞机，向下是蝴蝶和蜂鸟。若把翼展折半，单翼长约十六七厘米，仍比它的体长更长。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.1 纳秒，在时间轴上量级接近「纳秒」。[3]

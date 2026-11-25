@@ -16,6 +16,7 @@ related:
   - space.dog
   - space.human
   - space.walrus
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Harbour seal
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.fisheries.noaa.gov/species/harbor-seal'
     publisher: NOAA Fisheries
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年个体；量取吻端到尾根的头体长，不含后鳍肢与尾鳍；离水与在水中测量会因身体姿态不同而略有差异。
 uncertainty: 成年个体头体长约 1.4–2.0 m，雄性通常大于雌性；本条取 1.8 m 对应成年雄性的大型值，接近常见范围上端；不同种群、不同测量端点会带来十几厘米差异。
 review:
@@ -69,3 +74,7 @@ Britannica 的海豹条目写明：成年雄性体长与体重可达约 1.8 米�
 ## 与其他尺度的关系
 
 1.8 米略高于 1.7 米的成年人，约为 30 米蓝鲸体长的 6%；它比 0.72 米的狗长约 1.1 米，也约为 2.2 米棕熊头体长的 82%。[1][2] 在鳍足类里它属于中等体型：向上是大型鲸类与北极熊，向下是较小的海豹幼体。这个长度也接近一张单人床的床垫长边，便于把海洋动物放回室内经验。它也常被拿来与海狮比较，但海狮能用前鳍支撑身体，站姿高度是另一个量。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

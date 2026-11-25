@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 1.6785 fm（均方根电荷半径）
 related:
+  - temperature.planck-temperature
+  - time.big-bang
   - space.deuteron
   - space.atomic-nucleus
   - space.carbon-nucleus
   - space.strong-force
-  - space.proton
 reviewStatus: reviewed
 sources:
   - title: 2022 CODATA adjustment — complete listing
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/alpha-particle'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   2022 CODATA 推荐的 α 粒子均方根电荷半径，适用于氦-4 原子核基态；描述电荷分布的整体宽度，不是可见边缘或硬球直径。不适用于把 α
   粒子当成两个质子加两个中子的简单几何拼装。
@@ -44,12 +49,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "nucleus"
-  scene: "space.object"
-  caption: "α 粒子 · 1.68 fm 电荷半径参照"
-  note: "四个核子的排布、颜色与连线为示意；标线表示均方根电荷半径，不是硬球直径；非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: nucleus
+  scene: space.object
+  caption: α 粒子 · 1.68 fm 电荷半径参照
+  note: 四个核子的排布、颜色与连线为示意；标线表示均方根电荷半径，不是硬球直径；非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -76,3 +81,5 @@ tags:
 ## 与其他尺度的关系
 
 α 粒子位于“单个核子”与“较重原子核”之间：它比质子、中子大，却比碳核和铀核的电荷半径小或相近。[1][2] 把 1.68 飞米与氘核的 2.13 飞米、原子核的几飞米到十几飞米放在同一口径下，可以比较不同核系统的电荷分布宽度。继续阅读氘核、碳核与强相互作用，可把“核子数”与“核尺寸”分开理解。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

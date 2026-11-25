@@ -17,6 +17,7 @@ related:
   - space.mantis
   - space.moth
   - space.butterfly
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: cicada
@@ -27,6 +28,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Magicicada_septendecim/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为蝉科成虫；量头部前端到翅尖的含翅体长，翅膀按自然收拢姿态计入，不是两翅展开的翼展，也不是若虫或蝉蜕的长度；5 cm 取在 2–5 cm 范围的上端。
 uncertainty: >-
@@ -73,3 +78,7 @@ Britannica 的 cicada 条目写明，蝉是中型到大型昆虫，体长范围�
 ## 与其他尺度的关系
 
 5 厘米约等于一粒大米长轴 5 毫米的十倍，约为蜜蜂体长 12 毫米的 4.2 倍，约为帝王蝶翼展 95 毫米的 0.53 倍，也约为成人手指长 70.5 毫米的 0.71 倍。[1][2] 在尺度轴上，蝉落在“厘米级昆虫”的上段：向下是蚊子、米粒和蚂蚁，向上是手掌、乒乓球与蛾类。用含翅体长记录，才便于和“翼展”这一类口径区分。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.17 纳秒，在时间轴上量级接近「纳秒」。[3]

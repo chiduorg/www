@@ -16,6 +16,7 @@ related:
   - space.himalaya
   - space.earth
   - space.volcano
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: 国土地理院広報 2020年2月「富士山の高さ（標高）」
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/place/Mount-Fuji'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为日本富士山峰顶；测量口径为峰顶最高点相对海平面的海拔高程，不是山体从山脚起算的相对高度、三角点标高、火山口深度或山麓宽度。
 uncertainty: >-
   官方公布的富士山标高为3,776米；国土地理院近年公布峰顶二等三角点「富士山」的标高为3,775.56米，略低于最高点。两者相差不到一米，来自测量点位置不同，不是山体高度变化。
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 3,776米约为珠穆朗玛峰雪面高程8,848.86米的43%，约为地球平均半径6,371公里的0.059%。它比哈利法塔828米高约4.6倍，但作为一座火山，其高度只是地表的一小段垂直起伏。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 12.6 微秒，在时间轴上量级接近「微秒」。[3]

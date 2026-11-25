@@ -17,6 +17,7 @@ related:
   - space.chair
   - space.table
   - space.wardrobe
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: KRONÖREN bedside table, pine, 39x32x55 cm — measurements
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.ikea.com/pt/en/p/malm-chest-of-2-drawers-white-stained-oak-veneer-10178601/'
     publisher: IKEA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为常见两抽床头柜；测量口径为从地面到台面上缘的垂直高度，不含台上摆放物品、墙上层板和柜脚可调高度。
 uncertainty: >-
@@ -73,3 +78,14 @@ tags:
 ## 与其他尺度的关系
 
 55 厘米约为成年人手长 20 厘米的 2.75 倍，也约为餐椅座高 45 厘米的 1.2 倍。它比 2 米长的双人床床垫短 1.45 米，比 70 厘米的 T 恤衣长矮 15 厘米。成人坐在床沿时，55 厘米的台面大致与手肘同高，伸手取物不需要起身。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.8 纳秒，在时间轴上量级接近「纳秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 0.55 米，换算后是 55 厘米；约 0.324 个成年人身高（1.7 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻¹ 量级附近。
+
+读图时先看量级，再看倍数：10⁻¹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

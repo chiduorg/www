@@ -18,6 +18,7 @@ related:
   - space.shark
   - space.human
   - space.blue-whale
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Tyrannosaurus rex
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.fieldmuseum.org/blog/sue-t-rex'
     publisher: Field Museum
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为霸王龙（Tyrannosaurus rex）；量从吻端到尾椎末端的全长，不是头骨长度、臀高、体重或张口宽度；12 m 取在最大标本的量级上。
 uncertainty: >-
@@ -74,3 +79,7 @@ Britannica 的 Tyrannosaurus rex 条目说，科学家估计最大成体体重 4
 ## 与其他尺度的关系
 
 12 米约等于 7 个 1.7 米高的人首尾相接，约等于 3 条 4 米长的大白鲨，也约等于 0.4 条 30 米蓝鲸。[1][2] 在同一把尺子上，它比 9 米三角龙长约三分之一，却只有 25 米腕龙的一半左右。用全长比较时，霸王龙处在“十米级陆生动物”的上端；换成臀高或头骨，它就会落到另一条刻度上。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 40 纳秒，在时间轴上量级接近「原子跃迁」。[3]

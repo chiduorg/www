@@ -40,6 +40,10 @@ sources:
       https://www.usgs.gov/geology-and-ecology-of-national-parks/geology-new-york-region
     publisher: U.S. Geological Survey
     accessed: '2026-11-06'
+  - title: 'This Dynamic Earth: The Story of Plate Tectonics'
+    url: 'https://pubs.usgs.gov/gip/dynamic/dynamic.html'
+    publisher: U.S. Geological Survey
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -79,3 +83,14 @@ Britannica把造山运动描述为发生在相对短时间内的线状地带强�
 ## 与其他尺度的关系
 
 造山期上接大陆漂移与超大陆旋回，下接侵蚀周期；山脉形成后，风化与搬运会在更长时间里改变其形态。[1][2] 与超新星爆发的秒到年尺度相比，造山是地质尺度上的慢过程；与超大陆旋回的数亿年相比，它又是其中较短的一幕。这些时间尺度来自具体造山带的年代学重建，而不是全球统一的阶段划分。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. Geological Survey）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1.578×10¹⁵ 秒，换算后是 5×10⁷ 年；约 0.0109 个地球年龄（46 亿年）。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10¹⁵ 量级附近。
+
+读图时先看量级，再看倍数：10¹⁵ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

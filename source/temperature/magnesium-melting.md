@@ -17,6 +17,7 @@ related:
   - temperature.sodium-melting
   - temperature.iron-melting
   - temperature.nickel-melting
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Magnesium: element data'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.webelements.com/magnesium/'
     publisher: WebElements
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: magnesium-melting
   icon: "\U0001F506"
@@ -85,3 +90,5 @@ tags:
 ## 与其他温区的关系
 
 923 K 只比铝的凝固固定点 933.473 K 低约 10.5 K，两者在轻金属熔炼中常被一起比较；它比钠的 370.944 K 高约 552 K，比铁的约 1,811 K 低约 888 K。[1] 它也高于水的沸点 373.15 K。镁处在这条温标上“低熔点轻金属”的一端，但它的氧化与燃烧行为使工程使用条件比熔点数字复杂得多。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

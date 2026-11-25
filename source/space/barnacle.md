@@ -17,6 +17,7 @@ related:
   - space.crab
   - space.sea-urchin
   - space.starfish
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Semibalanus balanoides'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/animal/barnacle'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为围胸目藤壶成体；量钙质壳口（开口）的最大直径，不是壳的附着面积、群体覆盖面积或壳高；5 cm 取在 ADW 给出的 2.5–7.5 cm 范围的中段。
 uncertainty: >-
@@ -73,3 +78,7 @@ ADW 对 Semibalanus balanoides 的记录给出 2.5–7.5 厘米的范围，并�
 ## 与其他尺度的关系
 
 5 厘米约为海胆壳径 10 厘米的一半，约为牡蛎壳长 20 厘米的四分之一，约为大米粒长轴 5 毫米的十倍，也约为成人手长 20 厘米的 0.25 倍。[1][2] 在尺度轴上，藤壶壳口落在“厘米级”的中段：向下是米粒、蚊子与蚂蚁，向上是海胆、牡蛎和手掌。把壳口与附着面积分开，才能避免把群落的覆盖范围当成个体尺寸。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.17 纳秒，在时间轴上量级接近「纳秒」。[3]

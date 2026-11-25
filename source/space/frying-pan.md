@@ -16,6 +16,7 @@ related:
   - space.stock-pot
   - space.cutting-board
   - space.knife
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: IKEA 365+ Frying pan, stainless steel/non-stick coating, 28 cm
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.ikea.cn/cn/zh/p/ikea-365-jian-guo-bu-xiu-gang-bu-nian-tu-ceng-50580704/'
     publisher: IKEA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为家用不粘平底锅；量取锅口内径，不含锅耳、手柄与锅盖；同一口径可配不同锅深与锅底结构。
 uncertainty: 家用平底锅口径多在 24–28 cm，少数煎锅到 30–32 cm；本条取 28 cm 作常见代表值；量内径与量外径会差数毫米，含手柄全长约 49 cm，包装宽度 30 cm 也不能当作口径。
 review:
@@ -70,3 +75,7 @@ tags:
 ## 与其他尺度的关系
 
 28 厘米比 32 厘米的炒锅口径小 4 厘米，比 24 厘米的汤锅口径大 4 厘米，也略短于 A4 纸 29.7 厘米的长边。[1][2] 它约为 9 厘米咖啡杯口径的 3.1 倍，放在 1.8 米长的餐桌上只占桌长的六分之一左右。与 25 厘米的筷子相比，口径长 3 厘米，但锅体是二维的平面尺度，实际占位远大于一根筷子。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.93 纳秒，在时间轴上量级接近「纳秒」。[3]

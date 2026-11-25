@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: 至少约 5.68 × 10²¹ m（约60万光年，下限）
 related:
+  - mass.observable-universe
+  - temperature.cmb
   - space.milky-way-halo
   - space.milky-way
   - space.galaxy-cluster
   - space.coma-cluster
-  - space.local-group
 reviewStatus: reviewed
 sources:
   - title: The Milky Way — Chandra Field Guide
@@ -46,12 +47,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "暗物质晕 · 引力范围示意"
-  note: "球状暗晕、密度渐变与边界为示意，未表示真实暗物质分布；范围表示至少60万光年的下限，非确定外缘；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 暗物质晕 · 引力范围示意
+  note: 球状暗晕、密度渐变与边界为示意，未表示真实暗物质分布；范围表示至少60万光年的下限，非确定外缘；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:

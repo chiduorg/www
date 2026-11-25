@@ -18,6 +18,7 @@ related:
   - time.permian-triassic-extinction
   - time.lopingian
   - time.first-dinosaurs
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,10 @@ sources:
     url: 'https://macrostrat.org/api/defs/intervals?interval_name=Early%20Triassic'
     publisher: Macrostrat, University of Wisconsin–Madison
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -80,3 +85,12 @@ tags:
 ## 与其他尺度的关系
 
 早三叠世约 520 万年，约占三叠纪（约 2.519 亿至 2.014 亿年）的 10%。[1] 它比乐平世短，也比中三叠世短；与二叠纪末大灭绝条目相比，它是灭绝之后的恢复时段。[2] 520 万年若按 80 年一代计算，约相当于六万五千代人；它只是三叠纪开头的一小段，却决定了后续生态恢复的起点。与中三叠世相比，这一时期的生物多样性仍明显偏低。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 4.275×10¹⁷ 秒，换算后是 1.35×10¹⁰ 年；约 0.982 个当前宇宙年龄（138 亿年）。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10¹⁷ 量级附近。
+
+读图时先看量级，再看倍数：10¹⁷ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

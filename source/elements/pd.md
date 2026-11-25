@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/46/palladium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第五周期, 4d 区, 钯]
 rights:
   status: rewritten
@@ -78,3 +82,5 @@ rights:
 ## 怎么继续走
 
 往右是银，它把 5s 重新填上一个电子，电离能随之回落；往左的铑不在本批条目里。想弄清 4d 为什么能压过 5s，去读电子排布解释页；想弄清 r 过程产物为何集中在重元素富集节点，去读时间轴那一格。钯的重点是：填满 4d 的收益大到足以让 5s 空着。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

@@ -20,6 +20,7 @@ related:
   - temperature.lead-melting-point
   - temperature.silver-melting
   - temperature.tin-melting
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Zinc: element data'

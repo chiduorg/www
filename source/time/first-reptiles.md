@@ -14,12 +14,12 @@ quantity:
   approximate: true
 displayValue: t ≈ 134.8 亿年（距今约3.2亿年）
 related:
+  - space.human
   - time.first-tetrapods
   - time.carboniferous-period
   - time.first-dinosaurs
   - time.permian-triassic-extinction
   - time.first-mammals
-  - time.first-insects
 chronology:
   status: reference
   plot: true
@@ -34,6 +34,10 @@ sources:
     url: 'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf'
     publisher: International Commission on Stratigraphy
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -84,3 +88,5 @@ tags:
 ## 与其他阶段的关系
 
 最早爬行动物出现在四足动物登陆之后，石炭纪的森林与湿地为它们提供了栖息环境。羊膜卵使脊椎动物能够更独立地离开水体繁殖，为后来在更干燥环境中扩散创造条件。沿时间轴向后，可以看到爬行动物在二叠纪和三叠纪继续分化，并在中生代让位于恐龙、鸟类和哺乳动物的多样格局。[1]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

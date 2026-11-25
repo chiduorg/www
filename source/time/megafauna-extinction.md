@@ -1,6 +1,6 @@
 ---
 id: time.megafauna-extinction
-title: '更新世巨型动物灭绝：跨越大洲的长期消失'
+title: 更新世巨型动物灭绝：跨越大洲的长期消失
 titleEn: Late Pleistocene Megafauna Extinction
 dimension: cosmic-time
 category: 人类与文明
@@ -18,6 +18,7 @@ related:
   - time.neanderthals
   - time.first-humans
   - time.mammal-radiation
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: Holocene Epoch
@@ -28,6 +29,10 @@ sources:
     publisher: Australian Museum
     url: 'https://australian.museum/learn/australia-over-time/megafauna/'
     accessed: '2026-11-07'
+  - title: 'International Chronostratigraphic Chart, version 2024/12'
+    url: 'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf'
+    publisher: International Commission on Stratigraphy
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -47,8 +52,14 @@ review:
   date: '2026-11-07'
   notes:
     - 核对 Britannica《Holocene Epoch》，采用全新世始于约1.17万年前的界线，作为末次冰期结束的参照。
-    - 核对澳大利亚博物馆《Megafauna》与《Prehistoric Australia》，采用末次冰期末全球灭绝基本完成、澳大利亚约1.18万年前的表述。
-    - '2026-11-07 来源可访问性核对：https://australian.museum/learn/australia-over-time/megafauna/ 返回可用响应；https://www.britannica.com/science/Holocene-Epoch（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      核对澳大利亚博物馆《Megafauna》与《Prehistoric
+      Australia》，采用末次冰期末全球灭绝基本完成、澳大利亚约1.18万年前的表述。
+    - >-
+      2026-11-07
+      来源可访问性核对：https://australian.museum/learn/australia-over-time/megafauna/
+      返回可用响应；https://www.britannica.com/science/Holocene-Epoch（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -84,3 +95,7 @@ tags:
 ## 与其他阶段的关系
 
 这一事件处在更新世与全新世交界，前接冰期动物群，后接全新世的人类农业扩张。它与尼安德特人消失、人类向美洲扩散大致同期，也常被拿来与更早的白垩纪末大灭绝比较，但后者的规模与机制不同。[1][2] 在时间轴上，1.2万年标记的是一个过渡带，而不是一条清晰的终点线。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（International Commission on Stratigraphy）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

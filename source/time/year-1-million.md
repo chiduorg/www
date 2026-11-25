@@ -11,12 +11,13 @@ quantity:
   measure: future-reference-time
   approximate: true
   measureLabel: 自大爆炸起的推算未来参考时间
-displayValue: '距今约 100 万年（t ≈ 4.354 × 10^17 秒）'
+displayValue: 距今约 100 万年（t ≈ 4.354 × 10^17 秒）
 related:
   - time.year-10000
   - time.future-supercontinent
   - time.earth-uninhabitable
   - time.andromeda-collision
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: Origin and Destiny of the Universe
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/geology'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'The 10,000-Year Clock'
+    url: 'https://longnow.org/clock/'
+    publisher: The Long Now Foundation
+    accessed: '2026-11-24'
 chronology:
   status: future
   plot: false
@@ -45,7 +50,11 @@ review:
   notes:
     - 核对 NASA Imagine the Universe 的宇宙起源与命运页面，确认远期结局依赖密度、暗能量等参数并由模型约束。
     - 核对 Britannica 地质学条目，确认地质学家依据岩层、化石与定年方法重建数百万年尺度的地球历史。
-    - '2026-11-07 来源可访问性核对：https://imagine.gsfc.nasa.gov/science/questions/origin_destiny.html 返回可用响应；https://www.britannica.com/science/geology（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07
+      来源可访问性核对：https://imagine.gsfc.nasa.gov/science/questions/origin_destiny.html
+      返回可用响应；https://www.britannica.com/science/geology（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -81,3 +90,7 @@ tags:
 ## 与其他尺度的关系
 
 百万年后上接公元 10000 年，下接地球不再宜居、太阳红巨星阶段与星系并合等更远时点。[1][2] 它比文明史长两个数量级，却比恒星寿命短得多。把这一条当作地质与演化尺度的中间刻度，可以避免把不同时间尺度混在一起。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（The Long Now Foundation）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

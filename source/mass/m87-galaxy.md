@@ -5,7 +5,7 @@ summary: >-
   M87 是室女座星系团中心的巨椭圆星系，总质量约 4.8×10⁴² kg，折合约 2.4×10¹² 个太阳质量，口径包含暗物质晕。数值由 X
   射线热气与恒星运动学联合给出，恒星质量约三千亿个太阳质量，相对不确定度约 30%。
 dimension: mass
-category: 星系
+category: 星系与宇宙
 displayValue: 4.8×10⁴² kg
 quantity:
   value: 4.8e+42
@@ -79,6 +79,7 @@ visual:
   color: '#a6bfff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Messier 87
 ---
 ## 这个读数是什么
 

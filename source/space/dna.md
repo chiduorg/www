@@ -15,9 +15,9 @@ related:
   - space.atom
   - space.protein
   - space.cell
-  - space.trna
   - time.first-life
   - temperature.human-body-temperature
+  - mass.human-cell
 reviewStatus: reviewed
 sources:
   - title: 'Science Snippet: Zooming In on Nanoparticles'
@@ -30,6 +30,14 @@ sources:
       https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet
     publisher: NIH / National Human Genome Research Institute
     accessed: '2026-11-04'
+  - title: "2022 CODATA: Fundamental Physical Constants — Complete Listing"
+    url: "https://physics.nist.gov/cuu/Constants/Table/allascii.txt"
+    publisher: "NIST / CODATA"
+    accessed: '2026-11-24'
+  - title: "Chemistry 2e §6.3 — Development of Quantum Theory"
+    url: "https://openstax.org/books/chemistry-2e/pages/6-3-development-of-quantum-theory"
+    publisher: "OpenStax / Rice University"
+    accessed: '2026-11-24'
 legacy:
   id: dna
   icon: "\U0001F9EC"
@@ -79,3 +87,28 @@ NIH的纳米尺度资料用约2纳米概括DNA的宽度，本页采用这一近�
 ## 把结构与功能联系起来
 
 DNA中的指令可以经由信息传递过程参与蛋白质制造。沿图谱继续阅读tRNA、核糖体和蛋白质，能把分子结构与细胞中的工作联系起来。[2] 做大小比较时仍应回到横向标线：2纳米只是本条所选的宽度概览，不表示全部DNA构象都具有同一条清晰外壳，也不能从画面推算整条基因组长度。[1]
+
+
+## 这个数值的误差账本
+
+DNA 双螺旋直径约 2 纳米，是一条链的横截面；人类基因组总长度约 2 米，分布在 46 条染色体中。2 纳米与 2 米不是同一个量：前者是分子宽度，后者是碱基对沿链展开的长度。把 DNA 说成“2 米长”时，必须说明是展开长度，不是细胞里的实际直线距离。
+
+## 换一个尺度看它
+
+2 纳米约是一根头发直径的 1/40,000；2 米展开长度则接近一个成人身高。细胞把 DNA 盘绕在组蛋白上，形成核小体与染色质，才能装进约 6 微米的细胞核。这个“压缩”不是把分子压扁，而是多级折叠。
+
+## 2 纳米不是 DNA 的长度
+
+2 纳米是双螺旋的横向宽度；一条人类染色体上的 DNA 展开长度可达数厘米，整个人体基因组展开约 2 米。[1] 宽度、螺距、片段长度和基因组总长是四种不同口径。把“DNA 宽 2 纳米”读成“DNA 只有 2 纳米大”，会把横截面与整条链混为一谈。
+
+## 双螺旋不是唯一构象
+
+DNA 在不同条件下可以呈现 A 型、B 型等构象，碱基序列、湿度、离子浓度和蛋白质结合都会改变局部结构。[2] 本文的 2 纳米概览通常对应 B 型 DNA，不能覆盖所有片段。复制、转录和修复时，双螺旋还会局部解开，结构不是静止的。
+
+## 五轴对照
+
+在空间轴，DNA 宽约 2 纳米；在质量轴，一个碱基对约 650 道尔顿；在时间轴，DNA 复制与突变把信息带到下一代；在温度轴，退火温度决定两条链是否分开。分子宽度、信息长度与生物功能不是同一个量。[1][2]
+
+## 延伸核对
+
+补充的来源 [3]（NIST / CODATA）、[4]（OpenStax / Rice University） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

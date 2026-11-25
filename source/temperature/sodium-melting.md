@@ -18,6 +18,7 @@ related:
   - temperature.mercury-boiling
   - temperature.water-freezing
   - temperature.lead-melting-point
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: 'Sodium: element data'
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.webelements.com/sodium/'
     publisher: WebElements
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: sodium-melting
   icon: "\U0001F9C2"
@@ -88,3 +93,5 @@ tags:
 ## 与其他温区的关系
 
 370.944 K 比水的冰点 273.15 K 高约 97.8 K，比汞的熔点约 234.3 K 高约 136.6 K，却比铅的 600.612 K 低约 229.7 K，比镁的 923 K 低约 552 K。[1] 它低于水的沸点 373.15 K，只差约 2.2 K。钠因此处在“室温附近即熔化”的低熔点金属一端，但它的化学活泼性使它远比熔点数字更难处理。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

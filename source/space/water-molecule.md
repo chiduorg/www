@@ -18,6 +18,8 @@ related:
   - space.dna
   - temperature.water-triple-point
   - time.first-stars
+  - mass.water-molecule
+  - temperature.water-freezing
 reviewStatus: reviewed
 sources:
   - title: 'CCCBDB experimental geometry for neutral H2O — CAS 7732-18-5, charge 0'
@@ -28,6 +30,14 @@ sources:
     url: 'https://www.britannica.com/science/water'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "2022 CODATA: Fundamental Physical Constants — Complete Listing"
+    url: "https://physics.nist.gov/cuu/Constants/Table/allascii.txt"
+    publisher: "NIST / CODATA"
+    accessed: '2026-11-24'
+  - title: "Chemistry 2e §6.3 — Development of Quantum Theory"
+    url: "https://openstax.org/books/chemistry-2e/pages/6-3-development-of-quantum-theory"
+    publisher: "OpenStax / Rice University"
+    accessed: '2026-11-24'
 legacy:
   id: water-molecule
   icon: "\U0001F4A7"
@@ -89,3 +99,23 @@ NIST 的 CCCBDB 汇集了光谱实验给出的平衡几何。该页对中性气�
 ## 与其他尺度的关系
 
 把 0.151 纳米放回尺度轴，它比蛋白质和细胞小得多，也比本站 DNA 条目所用的纳米级宽度小一个数量级左右。[1] 它与原子条目只差几倍：氢原子的玻尔半径约 0.053 纳米，而水分子的核间距约为它的三倍。继续向下看是原子核与电子尺度，向上看则是大分子、细胞膜和细胞。
+
+## 液态水不能只用单分子几何概括
+
+气态单分子的 O—H 键长约 0.9578 埃、H—H 核间距约 1.5144 埃，但液态水里每个分子都与邻近分子形成氢键。[1] 氢键会改变平均取向、振动频率和有效包络；温度升高还会让分子间距离与角度分布变宽。把气态几何直接当成液态水的“分子大小”，会忽略这个网络。
+
+## 为什么水分子不是小球
+
+水分子有永久偶极矩，正负电荷中心不重合；这决定了它与其他分子、离子和表面的相互作用。[2] 三个原子核的排列是弯折的，电子云也不是均匀球壳。用“直径”描述水分子时，必须说明是核间距、范德华包络还是动力学碰撞直径，三者不能互换。
+
+## 五轴对照
+
+在空间轴，水分子约 0.15 纳米；在质量轴，一个水分子约 2.99×10⁻²⁶ 千克；在温度轴，0 ℃与 100 ℃标记它的相变窗口；在时间轴，水分子中的氢来自宇宙早期核合成与恒星加工。水的“大小”与“相态”必须一起读。[1][2]
+
+## 分子大小与分子间距
+
+水分子直径约 0.15 纳米，是分子内部原子间距的量级；液态水中分子中心之间的平均距离约 0.28 纳米，冰里又略大。把“分子大小”当成“分子间距”，会低估液体中空隙与氢键网络的作用。正文的 0.15 纳米描述的是单个分子的几何尺度，不是一杯水里分子排布的周期。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（NIST / CODATA）、[4]（OpenStax / Rice University） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

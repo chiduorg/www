@@ -17,6 +17,7 @@ related:
   - space.football-field
   - space.iss
   - space.eiffel-tower
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: Queen Elizabeth Class Aircraft Carrier — Statistics
@@ -29,6 +30,10 @@ sources:
       https://des.mod.uk/what-we-do/navy-procurement-support/qe-class-aircraft-carriers/
     publisher: UK Defence Equipment & Support (DE&S)
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为英国皇家海军伊丽莎白女王级航空母舰（HMS Queen Elizabeth 与 HMS Prince of
   Wales）；测量口径为舰长，不是飞行甲板长度、舰宽或排水量；不适用于其他航母级别。
@@ -79,3 +84,14 @@ tags:
 ## 与其他尺度的关系
 
 284 米约为足球场 105 米边线的 2.7 倍，约为波音 747-8 翼展 68.4 米的 4.2 倍。它比自由女神像含基座 92.99 米高约 3.1 倍，也约为大型邮轮 Icon of the Seas 365 米长的 78%。[1] 在港口与船坞规划中，这个长度决定泊位与掉头水域。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 947 纳秒，在时间轴上量级接近「微秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 284 米，换算后是 284 米；约 2.23×10⁻⁵ 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

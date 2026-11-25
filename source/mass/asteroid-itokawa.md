@@ -5,7 +5,7 @@ summary: >-
   糸川（25143 Itokawa）总质量 3.51×10¹⁰ kg，由隼鸟号的近距离轨道跟踪与形状模型联合测定。它长约 535 米，密度约 1900
   kg/m³，是首颗被采样返回的小行星。
 dimension: mass
-category: 彗星与小行星
+category: 行星与小天体
 displayValue: 3.51×10¹⁰ kg
 quantity:
   value: 35100000000
@@ -80,6 +80,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Itokawa
 ---
 ## 这个读数是什么
 

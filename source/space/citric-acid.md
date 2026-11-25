@@ -18,6 +18,7 @@ related:
   - space.benzene
   - space.amino-acid
   - space.glucose
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Citric Acid — PubChem CID 311
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/citric-acid'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取中性柠檬酸分子、三个羧基尽量展开的构象，量两端羧基氧之间的最大跨度；
   由标准键长与四面体键角估算，不含范德华外缘；不是柠檬酸晶体的晶胞参数。
@@ -76,3 +81,7 @@ PubChem 给出分子式、结构式与 InChI，确认中心碳与三个羧基的
 ## 与其他尺度的关系
 
 0.7 nm 约为苯环的 2.5 倍，与葡萄糖的 0.7–0.8 nm 相近。[1][2] 它比尿素 0.5 nm 大，却只有硬脂酸链 2.5 nm 的三分之一。与尿素相比约长 40%，与苯环 0.28 nm 相比则约为其 2.5 倍。继续阅读二氧化碳、苯与氨基酸，可比较小分子骨架与多羧基分子的展开尺寸。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.3e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

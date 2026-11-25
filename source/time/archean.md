@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: t ≈ 98.0 亿年（距今约40.0亿年）
 related:
+  - space.earth
+  - mass.earth
   - time.hadean
   - time.proterozoic
   - time.first-life
   - time.first-continents
-  - time.plate-tectonics-onset
 chronology:
   status: reference
   plot: true
@@ -32,6 +33,16 @@ sources:
     url: 'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf'
     publisher: International Commission on Stratigraphy
     accessed: '2026-11-06'
+  - title: >-
+      Ingredients for microbial life preserved in 3.5 billion-year-old fluid
+      inclusions
+    url: 'https://www.nature.com/articles/s41467-021-21323-z'
+    publisher: Nature Communications
+    accessed: '2026-11-24'
+  - title: Facts About Earth — Formation
+    url: 'https://science.nasa.gov/earth/facts/'
+    publisher: NASA
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -50,11 +61,11 @@ conditions:
   conversion: presentSeconds - lookbackYears × secondsPerYear
   precision: 亿年级近似时代坐标，非高精度年代测量
 visual:
-  template: "geologic-section"
-  scene: "time.object"
-  caption: "太古宙 · 早期海洋与陆壳"
-  note: "海水、陆块与沉积层为解释性示意，未按真实地理位置和比例复原。"
-  color: "#b09a74"
+  template: geologic-section
+  scene: time.object
+  caption: 太古宙 · 早期海洋与陆壳
+  note: 海水、陆块与沉积层为解释性示意，未按真实地理位置和比例复原。
+  color: '#b09a74'
 mode: 时点
 tags:
   - 地质年代
@@ -80,3 +91,11 @@ tags:
 ## 与其他阶段的关系
 
 太古宙上承冥古宙的行星聚集与撞击阶段，下接元古宙的氧气上升、真核生物出现和多细胞化。它也是最早大陆、早期板块构造和生命起源三条线索交汇的时段。读图时应把“出现某类证据”与“该过程真正开始”分开，再把它们放回同一时间轴上比较。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Nature Communications）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（NASA）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

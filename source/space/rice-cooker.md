@@ -16,6 +16,7 @@ related:
   - space.refrigerator
   - space.table
   - space.coffee-cup
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Panasonic Xtra IH 电磁加热电饭煲 SR-HFS153C-W 规格参数
@@ -26,6 +27,10 @@ sources:
     url: 'https://store.zojirushi.com/products/nszcc'
     publisher: Zojirushi
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为 4–6 人份家用电饭煲；量取机身正面左右最大外缘，不含手柄、提手与开盖后的上盖高度；不同加热方式与内胆结构会影响宽度。
 uncertainty: 两款来源的宽度均为 257 mm，与清单建议的 0.30 m 相差约 4.3 cm，故以来源值 0.257 m 为准；同容量段机型宽度多在 25–28 cm，深度通常 30–33 cm，开盖高度可接近合盖高度的两倍。
 review:
@@ -70,3 +75,7 @@ tags:
 ## 与其他尺度的关系
 
 25.7 厘米与 25 厘米的筷子几乎等长，比 24 厘米的汤锅口径大 1.7 厘米，比 A4 纸 29.7 厘米的长边短 4 厘米。[1][2] 它约为 9 厘米咖啡杯口径的 2.9 倍，也只到 1.8 米高冰箱的七分之一左右。放在 1.8 米长的餐桌上，一台电饭煲约占桌长的七分之一，属于台面上很显眼却不占满的尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.86 纳秒，在时间轴上量级接近「纳秒」。[3]

@@ -27,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/topic/Homo-sapiens'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'Early Homo at 2.8 Ma from Ledi-Geraru, Afar, Ethiopia'
+    url: 'https://pubmed.ncbi.nlm.nih.gov/25739410/'
+    publisher: Science / PubMed
+    accessed: '2026-11-24'
 legacy:
   id: rise-homo-sapiens
   icon: "\U0001F9E0"
@@ -99,3 +103,7 @@ tags:
 ## 与其他阶段的关系
 
 智人谱系从约280万年前出现的人属继续演化而来，并曾与尼安德特人、丹尼索瓦人等支系并存。智人约7万年前后才大规模走出非洲，农业要到约1.2万年前才出现。在时间轴上，30万年只是一个化石路标，后面还有漫长的行为与文化变化。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Science / PubMed）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

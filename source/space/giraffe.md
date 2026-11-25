@@ -16,6 +16,7 @@ related:
   - space.human
   - space.blue-whale
   - space.burj-khalifa
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Giraffa camelopardalis
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/animal/giraffe'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 肩高为地面到肩部最高点的垂直距离，不含颈部、头部和角；以雄性长颈鹿3.3 m为参照，不是雌性、幼崽或含颈总高的定值。
 uncertainty: >-
   ADW给出雄性肩高3.3 m、总高5.7 m；Britannica称雄性总高可超过5.5 m、雌性约4.5 m。3.3
@@ -74,3 +79,7 @@ Animal Diversity Web 给出雄性长颈鹿的肩高 3.3 米、总高 5.7 米。[
 ## 与其他尺度的关系
 
 3.3 米的肩高与非洲象雄性 3.35 米相近，约为成年人的两倍，但长颈鹿的总高 5.7 米远超大象的肩高。[1][2] 在尺度轴上，肩高让它与象并列在“米级大型动物”的上端，总高则接近两层楼。区分肩高与总高，才能让长颈鹿与大象、建筑和红杉的比较不被颈部长度误导，也解释了它的总高为何远大于肩高。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 11 纳秒，在时间轴上量级接近「原子跃迁」。[3]

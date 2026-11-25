@@ -18,6 +18,8 @@ related:
   - temperature.water-freezing
   - temperature.room-temperature
   - temperature.human-body-temperature
+  - space.earth
+  - space.pacific-ocean
 reviewStatus: reviewed
 sources:
   - title: Assessing the Global Climate in 2024
@@ -33,6 +35,14 @@ sources:
     url: 'https://repository.library.noaa.gov/view/noaa/74386/noaa_74386_DS1.pdf'
     publisher: NOAA / American Meteorological Society
     accessed: '2026-11-06'
+  - title: "What is the “deep” ocean?"
+    url: "https://www.oceanexplorer.noaa.gov/facts/deep-ocean.html"
+    publisher: "NOAA Ocean Exploration"
+    accessed: '2026-11-24'
+  - title: "What is a thermocline?"
+    url: "https://oceanservice.noaa.gov/facts/thermocline.html"
+    publisher: "NOAA National Ocean Service"
+    accessed: '2026-11-24'
 conditions:
   medium: 海水
   measurementSite: 海洋表层或混合层，按全球面积加权
@@ -85,3 +95,23 @@ tags:
 ## 与其他温度的关系
 
 16.9 ℃ 接近 room-temperature 的舒适区间，高于 deep-ocean 的约 2 ℃，也高于 water-freezing 的 0 ℃。它低于 human-body-temperature 的正常核心温度，更远低于 boiling-water 的 100 ℃。海表温度是气候系统的重要边界条件，但它只是海洋最上层的平均状态，不能代表整个海洋的热含量。
+
+## 海表温度不是气温
+
+海表温度是海水最上层的温度，气温是空气温度；两者通过感热、潜热和辐射交换相互影响，却不等值。[1][3] 同一海域白天海温可能低于气温，夜间又可能高于气温。把两者混用，会误判海洋热浪与天气。
+
+## 五轴对照
+
+在温度轴，全球海表平均约 16.9 ℃；在空间轴，海表覆盖地球约 71%；在质量轴，上层海水热容量巨大；在时间轴，海温变化滞后于气温。温度、面积与热容量共同驱动气候。[1][2]
+
+## 海表温度不是气温
+
+海表温度是海水最上层的温度，气温是空气温度；两者通过感热、潜热和辐射交换相互影响，却不等值。同一海域白天海温可能低于气温，夜间又可能高于气温。把两者混用，会误判海洋热浪与天气。[1][S2]
+
+## 读数的口径与换算
+
+本条采用的量是 约 16.9 ℃（290 K），口径是 全球海表年平均温度。温度是强度量，读数依赖温标、测点与热平衡；同一对象的不同部位、不同时刻可以有不同温度。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（NOAA Ocean Exploration）、[5]（NOAA National Ocean Service） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

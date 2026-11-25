@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/76/osmium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 5d 区, 锇]
 rights:
   status: rewritten
@@ -74,3 +78,5 @@ rights:
 ## 怎么继续走
 
 往前是铼，半满前后的对照刚好落在相邻两格；往后是铱，5d 继续填到 5d7。想理解半满与越过半满之间的能量拐点，去看构型解释页；想理解 4f14 屏蔽不足如何把半径收缩压平，去看镧系收缩解释页。锇这一页的关键词是越过半满。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

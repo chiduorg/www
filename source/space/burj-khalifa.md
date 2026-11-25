@@ -28,6 +28,10 @@ sources:
     url: 'https://newsletter.ctbuh.org/eblast/BurjKhalifa/BurjKhalifaHeight.html'
     publisher: Council on Tall Buildings and Urban Habitat
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: burj-khalifa
   icon: "\U0001F3D9"
@@ -84,3 +88,5 @@ tags:
 ## 与其他尺度的关系
 
 828米约为足球场105米边线的7.9倍，约为珠峰8848.86米高程的9.4%。与月球直径3474.8公里相比，它约为后者的0.024%；与地球直径12742公里相比更小。它仍是城市中的局部高度，不决定整座城市的边界。[1]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -5,7 +5,7 @@ summary: >-
   本星系群由银河系、仙女座星系及数十个矮星系组成，总质量约 4.6×10⁴² kg，折合约 2.3×10¹²
   个太阳质量，口径包含暗物质。数值由成员运动学估算，相对不确定度约 40%，属量级估算。
 dimension: mass
-category: 星系群
+category: 星系与宇宙
 displayValue: 4.6×10⁴² kg
 quantity:
   value: 4.6e+42
@@ -80,6 +80,7 @@ visual:
   color: '#a6bfff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Local Group
 ---
 ## 这个读数是什么
 

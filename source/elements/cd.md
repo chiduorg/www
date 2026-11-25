@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/48/cadmium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第五周期, 4d 区, 镉]
 rights:
   status: rewritten
@@ -78,3 +82,5 @@ rights:
 ## 怎么继续走
 
 往左是银，5s 只留一个电子；往右是铟，5p 开张，能看到 d 区如何交棒给 p 区。想弄清 4d10 为什么压得住 5s，去读电子排布解释页；想弄清 s 与 r 两条路径怎样在时间轴上叠加，去读重元素富集节点。镉站在 d 区的出口，而不是某条产业链的入口。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

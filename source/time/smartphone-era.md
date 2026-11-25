@@ -18,6 +18,7 @@ related:
   - time.ai-era
   - time.covid-pandemic
   - time.present
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: Apple Reinvents the Phone with iPhone
@@ -29,6 +30,11 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/technology/iPhone'
     accessed: '2026-11-06'
+  - title: A short history of the Web
+    url: >-
+      https://home.cern/science/computing/the-birth-of-the-web/short-history-web/
+    publisher: CERN
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -86,3 +92,7 @@ Britannica 的条目同样把首代 iPhone 的美国发布定在2007年，并列
 ## 影响与连接
 
 智能手机把摄像头、地图、支付、社交与新闻放进同一个口袋设备，改变了工作、摄影、导航与政治传播。它也为移动人工智能、短视频与平台经济提供了入口。[1][2] 与个人电脑和互联网相比，智能手机的扩散更快、覆盖更广，但连接的增加同时带来注意力、隐私与数字鸿沟的新问题。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（CERN）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

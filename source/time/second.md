@@ -15,11 +15,12 @@ quantity:
   approximate: false
 displayValue: 1 秒 = 9 192 631 770 个 Cs-133 超精细跃迁周期
 related:
+  - space.light-second
+  - mass.photon
   - time.minute
   - time.hour
   - time.day
   - time.year
-  - time.present
 reviewStatus: reviewed
 sources:
   - title: 'SI base unit: second (s)'
@@ -61,12 +62,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "chronometer"
-  scene: "time.object"
-  caption: "一秒 · 铯原子钟计时示意"
-  note: "原子钟、微波腔与光路为风格化示意，非按比例、非观测重建。"
-  variant: "clock"
-  color: "#9fc1cf"
+  template: chronometer
+  scene: time.object
+  caption: 一秒 · 铯原子钟计时示意
+  note: 原子钟、微波腔与光路为风格化示意，非按比例、非观测重建。
+  variant: clock
+  color: '#9fc1cf'
 mode: 时长
 tags:
   - 时长尺度
@@ -91,3 +92,10 @@ tags:
 ## 与其他尺度的关系
 
 秒是 SI 时间单位，分钟、小时、天都由它换算而来；更大的月、年则涉及天文周期与历法平均。[1] 阅读“大爆炸后一秒”这类条目时，应把它当作宇宙时刻坐标；阅读一秒时，只需记住它衡量一段过程有多长。两种写法数值相近，含义却完全不同。
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1 秒，换算后是 1 秒；约 1.25 次心跳间隔（0.8 秒）。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

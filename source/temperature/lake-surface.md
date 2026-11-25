@@ -19,6 +19,7 @@ related:
   - temperature.sea-surface
   - temperature.water-freezing
   - temperature.ice-sheet
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: GLSEA Annual Comparison
@@ -30,6 +31,10 @@ sources:
     url: 'https://www.britannica.com/science/lake-stratification'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 湖泊淡水表层
   location: 北美五大湖等大型湖泊；不同纬度与面积均适用
@@ -78,3 +83,5 @@ tags:
 ## 与其他温区的关系
 
 288 K 与地球表面年平均气温接近，也与海洋表层的中低纬参考相近，但湖泊更浅、更封闭，季节波动更大。它高于海洋温跃层的约 283 K，低于热带海洋表层的约 298 K。与冰盖表面的约 250 K 相比，湖面在夏季暖得多；与水的冰点 273.15 K 相比，288 K 仍有约 15 K 的余量。湖面温度因此是理解淡水热收支和结冰时机的直接指标。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

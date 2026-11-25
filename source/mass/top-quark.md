@@ -5,7 +5,7 @@ summary: >-
   顶夸克 MS-bar 流质量 172.57 GeV/c²，合 3.076×10⁻²⁵
   kg，约与一个钨原子相当。它寿命极短，来不及形成强子，是唯一能观测裸夸克衰变产物的夸克。
 dimension: mass
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: 3.076×10⁻²⁵ kg（MS-bar 流质量）
 quantity:
   value: 3.076e-25
@@ -72,6 +72,7 @@ visual:
   color: '#9cc8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Top quark
 ---
 ## 这个读数是什么
 

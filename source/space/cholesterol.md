@@ -18,6 +18,7 @@ related:
   - space.amino-acid
   - space.methane-molecule
   - space.gypsum
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Single Lipid Extraction — Anchoring Strength of Cholesterol
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/cholesterol'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取单个胆固醇分子、尾链全伸展的取向，量甾环一端到 3 位羟基末端的最长方向；
   1.6 nm 为原子核间距，1.8 nm 再加两端范德华外缘；不是脂双层总厚度。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 1.8 nm 约为苯环对位间距 0.28 nm 的 6.4 倍，约为 DNA 直径 2 nm 的 0.9 倍。[1][2] 它比硬脂酸 2.5 nm 短，却比尿素 0.5 nm 长三倍多。继续阅读苯、氨基酸与 DNA，可比较环状分子、链状分子与生物大分子的尺度。把 1.8 nm 与 0.7 nm 的柠檬酸、2.5 nm 的硬脂酸比较，能看出环状与链状分子在长度上的差异。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.0e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

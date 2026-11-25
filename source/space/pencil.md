@@ -29,6 +29,10 @@ sources:
     url: 'https://kids.britannica.com/students/article/pencil/276344'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: pencil
   icon: ✏
@@ -84,3 +88,5 @@ Tombow 的文具知识页写明，JIS 规定铅笔长度在172毫米以上，最
 ## 与其他尺度的关系
 
 17.78厘米的铅笔比20厘米的手略短，比22.25毫米的硬币长近八倍，比5毫米的米粒长三十多倍。[1] 它是“分米级”日常物体的好参照：一支铅笔约等于一把15厘米直尺再加一小段。向上是手、身高和房间尺度，向下是硬币、米粒、沙粒与细胞。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

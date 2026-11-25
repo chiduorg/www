@@ -24,6 +24,7 @@ related:
   - temperature.solar-transition-region
   - temperature.sunspot
   - temperature.solar-wind
+  - space.neutron-star
 reviewStatus: reviewed
 sources:
   - title: What is a Solar Flare?
@@ -35,6 +36,10 @@ sources:
       https://ntrs.nasa.gov/api/citations/20120013202/downloads/20120013202.pdf?attachment=true
     publisher: 'NASA Technical Reports Server, G. D. Holman'
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为太阳大气活动区中的耀斑等离子体；10⁷ K 指由软 X 射线谱和发射线拟合得到的温度，
   不是光球或色球的背景温度。耀斑常呈多温结构，单个拟合值只是加权结果。
@@ -81,3 +86,12 @@ tags:
 ## 与日冕和其他温区比较
 
 10⁷ K 比光球的约 5,772 K 高三个多量级，也比电离氢区的约 10⁴ K 热得多。[1] 它接近年轻超新星遗迹的激波温度，却远低于伽马射线暴火球的约 10⁹ K。耀斑说明太阳大气可以局部、短暂地进入极端高温状态。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1×10⁷ K，即 10×10⁶ ℃（按 T/K−273.15 换算）；约为太阳核心（1.57×10⁷ K）的 0.637 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10⁷ 量级附近。
+
+读图时先看量级，再看倍数：10⁷ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

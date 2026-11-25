@@ -28,6 +28,10 @@ sources:
       https://ethz.ch/en/news-and-events/eth-news/news/2019/04/fluctuations-in-the-void.html
     publisher: ETH Zurich
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: quantum-fluctuation
   icon: "\U0001F30A"
@@ -83,3 +87,5 @@ tags:
 ## 与其他尺度的关系
 
 本条的参照是探测频带与相关函数的尺度：约 10¹² 赫兹对应约 0.3 毫米波长，远大于原子（约 10⁻¹⁰ 米），更远大于普朗克长度。具体比较必须先说明取的是波长、相关长度还是单次采样分辨率，否则没有唯一数值。[1][2] 与绝对零度条目相连可理解“降温只压低热噪声，不关闭量子涨落”。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

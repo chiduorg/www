@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: 假说对象；形成时点随质量与模型改变
 related:
+  - space.observable-universe
+  - mass.total-matter-universe
   - time.inflation
   - time.first-black-holes
   - time.dark-matter-freeze-out
   - time.first-stars
-  - time.first-quasars
 reviewStatus: reviewed
 sources:
   - title: How NASA's Roman Mission Will Hunt for Primordial Black Holes
@@ -30,6 +31,10 @@ sources:
     url: 'https://arxiv.org/abs/2002.12778'
     publisher: 'Carr, Kohri, Sendouda & Yokoyama / Reports on Progress in Physics'
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -85,3 +90,5 @@ tags:
 ## 与其他阶段的关系
 
 若原初黑洞存在，它们会影响早期宇宙的热史、核合成和再电离，也可能为超大质量黑洞提供种子。[1][2] 它们与暴胀、暗物质冻结和第一代恒星处在同一段极早期历史中，但彼此不是同一个事件。把它们放在时间轴上时，应把“假说中的形成机制”“质量区间”和“观测上限”分开，而不是把候选对象画成一个确定的起点。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

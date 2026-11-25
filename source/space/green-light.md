@@ -17,6 +17,7 @@ related:
   - space.yellow-light
   - space.ultraviolet
   - space.chlorophyll
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: green
@@ -27,6 +28,10 @@ sources:
     url: 'https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html'
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为绿光波段的电磁波波长；介质取真空，空气中的数值差异很小；532纳米是代表值，不是绿光范围端点。
 uncertainty: 绿的波长范围常写为495–570纳米，不同资料对绿与青、绿与黄的边界有差异；本条取532纳米作为中段代表值。
 review:
@@ -73,3 +78,7 @@ Britannica 把绿光波长写成495至570纳米，并说明它位于可见光谱
 ## 与其他尺度的关系
 
 532纳米约为可见光中值550纳米的0.97倍，比蓝光代表值470纳米长约13%。[1][2] 绿光位于可见光中段，向外是黄橙红，向内是青蓝紫。植物叶片反射绿光较多，因此常呈绿色，但反射光谱并不只由单一波长决定。在光谱分类中，绿光常被放在蓝端与黄端之间作为过渡，具体归属仍随资料而异。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.0000018 纳秒，在时间轴上量级接近「纳秒」。[3]

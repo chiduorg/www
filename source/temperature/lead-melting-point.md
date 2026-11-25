@@ -29,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/lead-chemical-element'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: lead-melting-point
   icon: "\U0001FAA8"
@@ -89,3 +93,5 @@ tags:
 ## 与其他温区的关系
 
 600.612 K 比锡的凝固固定点 505.078 K 高约 95.5 K，比钠的熔点 370.944 K 高约 229.7 K，却比铝的 933.473 K 低约 332.9 K。[1] 它高于水的沸点 373.15 K，也高于常见烘焙设定。铅正处在“低熔点金属”与“轻金属熔化”之间，适合用来比较焊料、易熔合金和低温铸造，但不能代表高温结构材料。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

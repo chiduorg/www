@@ -18,6 +18,7 @@ related:
   - temperature.liquid-oxygen
   - temperature.oxygen-triple-point
   - temperature.absolute-zero
+  - space.moon
 reviewStatus: reviewed
 sources:
   - title: NIST Chemistry WebBook — Nitrogen phase change data
@@ -28,6 +29,10 @@ sources:
     url: 'https://srd.nist.gov/jpcrdreprint/1.1349047.pdf'
     publisher: NIST / Journal of Physical and Chemical Reference Data
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 纯氮样品，固、液、气三相在约 12.5 kPa 的低压下共存。
 uncertainty: NIST WebBook 列为 63.14 K；JPCRD 参考状态方程给出 63.151 ± 0.003 K，差异在 0.01 K 量级。
 review:
@@ -72,3 +77,5 @@ NIST Chemistry WebBook 的氮相变表给出 63.14 K，并列出多组独立实�
 ## 与其他尺度的关系
 
 63.15 K 约为液氮沸点 77.34 K 的 0.82 倍，低于液氮的 77.34 K、液氧的 90.2 K，高于液氢的 20.3 K、液氦的 4.22 K 和氧三相点的 54.36 K。[1][2] 与 77.34 K 的沸点相比，它约低 14.2 K，说明同一物质的固—液—气交点低于常压沸点。把既有参照排在一起：液氦 4.22 K、液氢 20.3 K、液氮 77.34 K、液氧 90.2 K、甲烷沸点 111.7 K、氨沸点 239.8 K；63.15 K 低于液氮、液氧、甲烷与氨的常压沸点。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

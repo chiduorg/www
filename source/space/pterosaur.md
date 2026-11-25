@@ -17,6 +17,7 @@ related:
   - space.human
   - space.blue-whale
   - space.butterfly
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Quetzalcoatlus northropi
@@ -31,6 +32,10 @@ sources:
     url: 'https://www.britannica.com/animal/pterosaur'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为大型翼龙类，以风神翼龙（Quetzalcoatlus）为代表；量两翼完全展开后左右翅尖之间的最大直线距离，不是体长、站高或单翼长度；10 m 取大型类的代表值。
 uncertainty: >-
@@ -77,3 +82,5 @@ AMNH 的 Quetzalcoatlus northropi 卡片给出翼展约 33 英尺（10 米）、
 ## 与其他尺度的关系
 
 10 米约等于 5 个 2 米金雕翼展，约等于 105 个 9.5 厘米帝王蝶翼展，也约为 30 米蓝鲸全长的三分之一。[1][2] 它比 9 米三角龙的全长还长，但两者一个是翼展、一个是体长。放在尺度轴上，翼龙占据“十米级飞行动物”的顶端；现代天空中最大的翼展只有几米，向下才是金雕、蝴蝶和蜜蜂。
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 33.4 纳秒，在时间轴上量级接近「原子跃迁」。[4]

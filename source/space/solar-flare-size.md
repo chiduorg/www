@@ -16,6 +16,7 @@ related:
   - space.sunspot-group
   - space.earth
   - space.sun_diameter
+  - time.blink
 reviewStatus: reviewed
 sources:
   - title: solar flare
@@ -30,6 +31,10 @@ sources:
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html'
     publisher: NASA / NSSDCA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取黑子群附近活动区的典型尺度作为耀斑发生环境的量级，约 10⁵ 公里；不是单次耀斑的完整弧柱
   长度，也不是整个活动区的最大跨度。特大耀斑的基座可扩展到数十万公里。
@@ -81,3 +86,5 @@ tags:
 ## 与其他尺度的关系
 
 1×10⁸ 米等于 10 万公里，约为地球直径的 8 倍，太阳直径的 7%。[3] 特大耀斑的 5.9×10⁸ 米则可接近太阳直径的一半。[1] 与太阳黑子群相比，活动区尺度相当；与日冕或太阳风泡相比，它只是局部结构。把耀斑放进太阳活动区，可以看到磁场结构如何在有限区域内集中能量，并在数分钟内释放。
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 334 毫秒，在时间轴上量级接近「眨眼」。[4]

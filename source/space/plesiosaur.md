@@ -18,6 +18,7 @@ related:
   - space.octopus
   - space.human
   - space.ammonite
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: plesiosaur
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/animal/sauropterygian'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为蛇颈龙类（Plesiosauria）；量从吻端到尾椎末端的全长，长颈与短尾都计入，不是头骨长度、鳍展或体重；10 m 取在大型蛇颈龙一侧。
 uncertainty: >-
@@ -74,3 +79,7 @@ Britannica 的 plesiosaur 条目说，早期的蛇颈龙约 4.5 米，晚期体�
 ## 与其他尺度的关系
 
 10 米约等于 6 个 1.7 米高的人首尾相接，约等于 2.5 条 4 米大白鲨，也约等于 33 个 0.3 米菊石壳径。[1][2] 它约为 30 米蓝鲸的三分之一，略短于 12 米霸王龙。用全长比较时，蛇颈龙与霸王龙同属“十米级”；但一个在陆地，一个在海里，鳍肢和长颈让它占据不同的形态空间。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 33.4 纳秒，在时间轴上量级接近「原子跃迁」。[3]

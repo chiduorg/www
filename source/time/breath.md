@@ -41,6 +41,10 @@ sources:
     url: 'https://medlineplus.gov/ency/article/002341.htm'
     publisher: 'MedlinePlus, U.S. National Library of Medicine'
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -84,3 +88,5 @@ tags:
 ## 与其他尺度的关系
 
 4秒的呼吸周期约为心跳周期（0.8秒）的五倍，约为一次眨眼（0.3秒）的十三倍，却只是昼夜节律（约8.7万秒）的一小部分。按每分钟15次、活73年计算，一生约呼吸5.8亿次；这些周期叠合在一起，支撑着每一次气体交换。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

@@ -23,6 +23,8 @@ related:
   - temperature.21cm-spin-temperature
   - temperature.hii-region
   - temperature.cmb
+  - space.moon
+  - mass.helium-nucleus
 reviewStatus: reviewed
 sources:
   - title: The Interstellar Medium (X-rated)
@@ -33,6 +35,10 @@ sources:
     url: 'https://www.britannica.com/science/interstellar-medium'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为银河系星际介质中的气体。100 K 指冷中性相由谱线激发和吸收推断的动理学温度， 不是整片介质的单一温度；暖中性相约 1,000 K，暖电离相约
   10⁴ K，热相约 10⁶ K。 观测口径包括 21 厘米谱线、吸收线和 X 射线，不同相需分别测量。
@@ -77,3 +83,5 @@ tags:
 ## 与邻近温标怎样比较
 
 100 K 比宇宙微波背景的约 2.7 K 高得多，却比分子云的约 10 K 暖；比起电离氢区的约 10⁴ K 又低两个量级。[2] 这些数字适合用来辨认“哪一相”，不能用来断定某一团气体的全部热内容。多相结构正是星际介质最关键的物理特征。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

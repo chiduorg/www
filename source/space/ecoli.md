@@ -16,7 +16,8 @@ related:
   - space.cell
   - space.ribosome
   - space.phage
-  - space.plankton
+  - mass.bacterium
+  - temperature.human-body-temperature
 reviewStatus: reviewed
 sources:
   - title: bacteria
@@ -27,6 +28,14 @@ sources:
     url: 'https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells'
     publisher: 'OpenStax, Rice University'
     accessed: '2026-11-06'
+  - title: "Understanding biological factories — Front Row lecture, PDF p.6"
+    url: "https://frontrow.scripps.edu/wp-content/uploads/2022/11/Williamson-front-row-lecture-slides-01182023.pdf"
+    publisher: "Scripps Research / James R. Williamson"
+    accessed: '2026-11-24'
+  - title: "Molecule of the Month: Ribosome"
+    url: "https://pdb101.rcsb.org/motm/121"
+    publisher: "RCSB Protein Data Bank / David Goodsell"
+    accessed: '2026-11-24'
 conditions: 光学或电子显微镜下对固定、染色或培养的营养细胞做二维测量；菌株、培养阶段与制样收缩都会影响读数。
 uncertainty: 2 μm 是杆长的入门代表值；不同菌株和分裂状态可从约 1 μm 到数微米，短轴直径通常只有约 0.5 μm，不能把长轴当成直径。
 review:
@@ -73,3 +82,23 @@ tags:
 ## 与其他尺度的关系
 
 2 μm 大约是红细胞直径的四分之一到三分之一，也比典型动物细胞小一个数量级以上[2]。若把 2 μm 放大到一根头发直径（约 70 μm），需要约 35 倍；反过来，一个 20 μm 的动物细胞并排可以容纳约十条大肠杆菌。这个尺度正好落在光学显微镜勉强可辨、电子显微镜可细看之间的交界带，因此它常被用来建立“微观世界”的第一把标尺。
+
+## 菌株与生长状态会改变读数
+
+2 微米是营养细胞的长轴概览，不是所有大肠杆菌的定值。不同菌株、培养温度、营养条件和分裂阶段都会改变细胞长度与直径；丝状体或受损细胞可以明显偏离典型值。[1][2] 测量时应同时记录长轴、短轴、染色方法和生长阶段，而不是只写一个“2 微米”。
+
+## 菌落不是单细胞
+
+培养皿上的菌落由数百万到数十亿个细胞堆叠而成，直径可达毫米级；它与单个细胞的 2 微米相差三个数量级以上。[2] 把菌落大小当成细菌大小，会同时混淆个体与群体、二维投影与三维堆积。显微镜下的单细胞与肉眼可见的菌落，是两套尺度。
+
+## 五轴对照
+
+在空间轴，大肠杆菌约 2 微米；在质量轴，一个细胞湿重约 1 皮克；在温度轴，培养温度影响生长速率；在时间轴，它属于最早生命之后的单细胞阶段。尺寸、质量与代谢速率不能用一个数字互相替代。[1][2]
+
+## 长度与直径要分开
+
+大肠杆菌常被写成“约 2 微米”，这通常是杆状细胞的长轴；直径只有约 0.5–1 微米。长度受培养条件、细胞周期和菌株影响，同一个菌落在不同生长期可以差出一倍。正文把 2 微米作为长度锚点，而不是把大肠杆菌当成一个 2 微米的球。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（Scripps Research / James R. Williamson）、[4]（RCSB Protein Data Bank / David Goodsell） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

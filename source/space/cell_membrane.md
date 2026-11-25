@@ -13,11 +13,11 @@ quantity:
 displayValue: 约 5 nm（膜厚度参考）
 related:
   - space.cell
-  - space.dna
   - space.synaptic-cleft
   - space.mitochondria
   - space.chloroplast
   - temperature.human-body-temperature
+  - mass.human-cell
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -31,6 +31,14 @@ sources:
     url: 'https://openstax.org/books/biology-2e/pages/5-1-components-and-structure'
     publisher: OpenStax / Rice University
     accessed: '2026-11-06'
+  - title: "Cell"
+    url: "https://www.britannica.com/science/cell-biology"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
+  - title: "Neuroscience Online: Organization of Cell Types, §8.8"
+    url: "https://nba.uth.tmc.edu/neuroscience/m/s1/chapter08.html"
+    publisher: "UTHealth Houston / McGovern Medical School"
+    accessed: '2026-11-24'
 legacy:
   id: cell_membrane
   icon: "\U0001F9EC"
@@ -86,3 +94,27 @@ NIST的中子自旋回波研究把模型生物膜的厚度概括在约3–5纳�
 ## 与其他尺度的关系
 
 5纳米只有典型细胞直径（约20微米）的四千分之一，也远小于线粒体（约2微米）和细菌（约1微米）。[1] 这条尺度提醒我们：细胞膜是一层分子级结构，但它在细胞尺度上承担了边界、运输和信号三种角色。
+
+## 膜厚度与膜面积不是一回事
+
+细胞膜厚约 3–5 纳米，但一个细胞的膜面积可以很大：微绒毛、褶皱和突起让同一层膜覆盖更多表面。[1] 厚度描述脂质双层的横向尺度，面积描述界面的大小；两者不能互相换算。膜蛋白还会从膜的一侧伸出数纳米，改变“可见厚度”。
+
+## 流动镶嵌不是静态三明治
+
+脂质分子能在膜平面内扩散，蛋白质也能移动、聚集或内吞；膜的整体形状还会随细胞状态改变。[2] 冷冻断裂、X 射线和中子散射看到的“厚度”依赖样品制备与界面定义。把膜画成固定厚度的墙，会漏掉它的流动性和选择性。
+
+## 五轴对照
+
+在空间轴，膜厚约 5 纳米；在质量轴，膜上的脂质与蛋白只占细胞质量的一小部分；在温度轴，温度改变膜的流动性与相变；在时间轴，膜结构随细胞演化与发育变化。厚度只是膜的一个参数，不是细胞的边界尺寸。[1][2]
+
+## 膜厚是干态还是活态
+
+细胞膜厚约 4–5 纳米，这个数多来自电镜横截面：样品经过固定、脱水、染色，膜蛋白与脂质的水化层被去掉。活细胞膜含水、可弯曲，厚度会随张力、温度和胆固醇含量变化。把电镜下的“干膜厚度”当成活细胞的实际厚度，会忽略几个埃的水化层与动态起伏。[1][S2]
+
+## 读数的口径与换算
+
+本条采用的量是 约 5 nm（膜厚度参考），口径是 生物膜厚度概览中的5 nm参照。空间轴上的长度还要区分半径、直径、距离与投影跨度；同一对象在不同参考面下会给出不同数值。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [3]（Encyclopaedia Britannica）、[4]（UTHealth Houston / McGovern Medical School） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

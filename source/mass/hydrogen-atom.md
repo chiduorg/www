@@ -6,7 +6,7 @@ summary: >-
   eV/c²，这个差值就是氢的电离能对应的质量亏损。
 dimension: mass
 grade: A
-category: 原子
+category: 生命与人体
 displayValue: 1.6735×10⁻²⁷ kg
 quantity:
   value: 1.67353e-27
@@ -73,6 +73,7 @@ visual:
   color: '#8dd5ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Hydrogen atom
 ---
 ## 这个读数是什么
 

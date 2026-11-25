@@ -36,6 +36,10 @@ sources:
     url: 'https://www.britannica.com/science/big-bang-model'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 conditions: 过程页；以 time.nucleosynthesis 节点为时间锚点，本页不复述秒数。
 visual:
   scene: elements.explain
@@ -68,3 +72,5 @@ rights:
 ## 与其他阶段的关系
 
 原初核合成是元素轴 P1 两个元素的直接来源，也是后续所有核合成的起点。它把氢氦交给第一代恒星，恒星再通过 CNO 循环、三α过程与超新星把元素推向更重的区域。[2] 来源层把这条路径单列，是为了让“原初”与“恒星制造”在元素页上有清楚的分界。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

@@ -16,6 +16,7 @@ related:
   - space.credit-card
   - space.hair
   - space.pencil
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Double A4 Premium Paper — Product Specification
@@ -27,6 +28,10 @@ sources:
       https://www.hp.com/ng-en/products/ink-toner/product-details/product-specifications/14903
     publisher: HP Inc.
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为 80 g/m² 的 A4 复印纸；测量口径为单张纸厚度，不是整令 500 张的堆叠高度、纸张长边或面密度；不适用于卡纸、相纸与不同压光工艺的纸种。
 uncertainty: 厂商标称 110 微米，不同批次、含水率与压光条件会使读数变化；同类 80 g/m² 纸常见约 100–110 微米，不能把单一品牌值当成所有纸的统一厚度。
 review:
@@ -72,3 +77,14 @@ Double A 的产品规格表列出：A4 尺寸 210×297 毫米、定量 80 gsm、
 ## 与其他尺度的关系
 
 0.11 毫米约为 A4 纸长边 297 毫米的 0.00037 倍，也约为银行卡厚度 0.76 毫米的 0.145 倍。它比上睫毛 8 毫米薄约 73 倍，比头发直径 0.07 毫米厚约 1.6 倍。500 张纸垛约 55 毫米，接近一副扑克牌盒的厚度。[1] 这些比较说明纸厚属于亚毫米尺度。造纸时的压光程度与纤维排列也会改变单张厚度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.00037 纳秒，在时间轴上量级接近「纳秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 0.00011 米，换算后是 110 微米；约 1.38 根头发丝直径（8×10⁻⁵ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻⁴ 量级附近。
+
+读图时先看量级，再看倍数：10⁻⁴ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -17,6 +17,7 @@ related:
   - space.radio-wave
   - space.water-molecule
   - space.atmosphere
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: New Tool Gives Researchers a Glimpse of Biomolecules in Motion
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.nist.gov/news-events/news/2016/04/new-chip-based-sensor-finds-power-versatility'
     publisher: National Institute of Standards and Technology (NIST)
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为太赫兹频段的电磁波波长；介质取真空；0.1毫米是该频段短波端示例，不是1太赫兹的精确波长。
 uncertainty: 太赫兹是频段，本条取0.1毫米作为该频段短波端示例，不等于1太赫兹的精确波长；1太赫兹对应的真空波长约0.3毫米。
 review:
@@ -73,3 +78,7 @@ NIST 把太赫兹辐射的波长范围写成1毫米至25微米，并说明它位
 ## 与其他尺度的关系
 
 0.1毫米约为微波代表波长1厘米的百分之一，也比红外代表波长10微米长约10倍。[1][2] 太赫兹位于微波与红外之间，是分子转动与振动谱、成像和高速通信关注的一段。它与可见光相比波长仍长数百倍，因此不能被人眼直接感知。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.00033 纳秒，在时间轴上量级接近「纳秒」。[3]

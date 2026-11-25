@@ -5,7 +5,7 @@ summary: >-
   单个大肠杆菌的湿重均值约 1.0×10⁻¹⁵ kg（1 pg），干重约为湿重的 20–30%。由细胞体积约 1 立方微米与接近水的密度估算，样本间差异约
   ±30%。
 dimension: mass
-category: 单细胞生物
+category: 生命与人体
 displayValue: 1.0×10⁻¹⁵ kg
 quantity:
   value: 1.e-15
@@ -47,6 +47,14 @@ sources:
     url: 'https://www.nature.com/'
     publisher: Nature Portfolio
     accessed: '2026-11-09'
+  - title: "Biology 2e, §4.2 Prokaryotic Cells"
+    url: "https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells"
+    publisher: "OpenStax / Rice University"
+    accessed: '2026-11-24'
+  - title: "Bacteria"
+    url: "https://www.britannica.com/science/bacteria"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 细菌
@@ -71,6 +79,7 @@ visual:
   color: '#b48cff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Escherichia coli
 ---
 ## 这个读数是什么
 
@@ -88,6 +97,26 @@ visual:
 
 1.0×10⁻¹⁵ kg 落在 B5 带的下端，是“生命质量”的起点之一。它比一个红细胞轻约一百倍，比一个典型人体细胞轻约两千倍；反过来，它比一个水分子重约 3×10¹⁰ 倍。这个跨度说明，从分子到细胞，质量不是平滑放大，而是跨过一个由体积和含水量决定的台阶。
 
+## 湿重与干重
+
+大肠杆菌的 1.0×10⁻¹⁵ 千克是湿重均值，干重只占约 20–30%，其余是水。不同培养条件、菌株与生长期会让质量差出一倍。把湿重当成“细胞物质”的全部，会高估蛋白质与核酸的份额。[1][S1]
+
 ## 怎么继续走
 
 想看细菌在空间轴上的尺寸，去 space.bacteria；想看更大一档的细胞，去 mass.red-blood-cell 与 mass.human-cell；想看生命最早出现的时间位置，从 time.first-life 进入时间轴。
+
+## 湿重与干重差在哪里
+
+湿重包含细胞内的水、胞质与储存物；干重只留下蛋白质、核酸、脂质与矿物质。大肠杆菌干重约为湿重的 20–30%，所以同一个细胞可以同时写成 1 pg 湿重和 0.2–0.3 pg 干重。[2] 两个数都对，但用途不同：湿重对应离心、过滤与载荷，干重对应元素与生物量核算。
+
+## 为什么常用大肠杆菌作标准
+
+大肠杆菌易于培养、世代短、基因组清楚，因而常被用作单细胞质量的参照；但“标准”不等于“代表所有细菌”。[1][3] 不同菌株、不同培养基和不同生长阶段的细胞体积差别明显，球菌与杆菌的质量也不能直接互换。本条的 1 pg 只锁定大肠杆菌在特定条件下的湿重均值，换对象就要换口径。这也是比较细菌质量时，必须先说明菌种、状态与湿/干重的原因。
+
+## 五轴对照
+
+在质量轴，它是 10⁻¹⁵ 千克的细胞；在空间轴，大肠杆菌约 1–2 微米长；在时间轴，它属于最早生命之后的单细胞阶段；在元素轴，细胞质量主要由碳、氢、氧、氮组成。把“一个细胞”当成一个点，会漏掉体积、含水量与生长阶段对质量的改变。[1][2][3]
+
+## 延伸核对
+
+补充的来源 [4]（OpenStax / Rice University）、[5]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

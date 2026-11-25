@@ -49,6 +49,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/71/lutetium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 镧系, 镥]
 rights:
   status: rewritten
@@ -82,3 +86,5 @@ Lu³⁺ 是 4f14 闭壳，没有未成对电子，因此抗磁；+3 价又因为
 ## 怎么继续走
 
 往前是镱，4f 刚填满、二价稳定；往后是铪，新电子进 5d，尺寸几乎不再增长。想看清 4f 与 5d 的交接，看电子排布解释页；想弄清十四个 4f 电子如何把半径压到 217 pm，看镧系收缩解释页。镥这一格既是终点，也是 d 区化学的起点。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

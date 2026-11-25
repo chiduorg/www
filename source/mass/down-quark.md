@@ -6,7 +6,7 @@ summary: >-
   1.29 MeV。
 dimension: mass
 grade: A
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: ≈ 8.33×10⁻³⁰ kg（流质量 4.67 MeV）
 quantity:
   value: 8.33e-30
@@ -71,6 +71,7 @@ visual:
   color: '#8dd5ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Down quark
 ---
 ## 这个读数是什么
 
@@ -93,3 +94,10 @@ visual:
 ## 怎么继续走
 
 想看这个差值如何变成核子质量，去 mass.proton 与 mass.neutron；想看早期宇宙中夸克何时被囚禁成强子，去 time.quark-hadron-phase-transition；想看更重的夸克代，去 mass.strange-quark。
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 8.33×10⁻³⁰ 千克，换算后是 8.33×10⁻²⁴ 微克；约为质子质量（1.67×10⁻²⁷ 千克）的 0.00499 倍。这把尺子只改写单位，不改变量值；它把本条固定在质量轴的 10⁻³⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁻³⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

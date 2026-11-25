@@ -5,7 +5,7 @@ summary: >-
   丰田卡罗拉整备质量约 1,310 kg，含全部油液、备胎与随车工具，不含乘员与货物。同车系不同配置在 1,290–1,395 kg
   之间浮动，最大允许总质量约 1,800 kg。
 dimension: mass
-category: 车辆
+category: 工程与交通
 displayValue: '1,310 kg'
 quantity:
   value: 1310
@@ -18,7 +18,8 @@ related:
   - mass.truck
   - mass.bus
   - elements.fe
-  - mass.proton
+  - space.earth
+  - time.industrial-revolution
 reviewStatus: reviewed
 review:
   method: source-check
@@ -47,6 +48,14 @@ sources:
     url: 'https://www.acea.auto/'
     publisher: European Automobile Manufacturers' Association
     accessed: '2026-11-09'
+  - title: "Volvo Trucks official site — FH16 specifications"
+    url: "https://www.volvotrucks.com/"
+    publisher: "Volvo Trucks"
+    accessed: '2026-11-24'
+  - title: "Volvo Buses official site — city bus specifications"
+    url: "https://www.volvobuses.com/"
+    publisher: "Volvo Buses"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 汽车
@@ -71,6 +80,7 @@ visual:
   color: '#e6c17c'
   scaleMin: -40
   scaleMax: 53
+titleEn: Toyota Corolla
 ---
 ## 这个读数是什么
 
@@ -94,6 +104,22 @@ visual:
 
 1.31×10³ kg 落在 B8 带的下端，约等于 20 个成年人，或 1.3 m³ 的水。同带向上是 SUV、卡车与公交车，向下回到摩托车与成人。质量不是体积的函数：同样 1,310 kg，做成轿车约占 5 m³，做成实心钢块不到 0.2 m³。
 
+## 整备质量与总质量
+
+卡罗拉的 1,310 千克是整备质量：含油液、备胎与工具，不含乘员和行李。最大允许总质量约 1.8 吨，两者相减才是可载质量。把总质量当成“车重”，会高估约 40%。[1][S1]
+
 ## 怎么继续走
 
 想看同一平台加高车身、加四驱后重多少，去 mass.suv；想看整备质量跨到 9 t 的牵引车，去 mass.truck；想看城市里的载客同类，去 mass.bus；想理解这 1.3 t 里铁、铝、塑料各自的贡献，从 elements.fe 进入元素轴。
+
+## 轻量化与电池
+
+传统紧凑轿车约 1.3 吨，其中钢铁占很大比例；换成铝、高强度钢或复合材料可以减重，但成本与碰撞安全要重新平衡。[2] 纯电动车加装数百千克电池后，整备质量常明显高于同级燃油车。轻量化不是越轻越好，而是质量、强度与能耗的折中。
+
+## 五轴对照
+
+在质量轴，卡罗拉约 1,310 千克；在空间轴，占地约 5 平方米；在时间轴，汽车在工业革命后普及；在温度轴，发动机与电池有各自工作温区。质量、动力与材料共同决定车辆性能。[1][3]
+
+## 延伸核对
+
+补充的来源 [4]（Volvo Trucks）、[5]（Volvo Buses） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

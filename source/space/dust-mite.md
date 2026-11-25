@@ -16,6 +16,7 @@ related:
   - space.ant
   - space.cell
   - space.human
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: House Dust Mites — ENTFACT-646
@@ -32,6 +33,10 @@ sources:
     url: 'https://www.britannica.com/animal/dust-mite'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: dust-mite
   icon: "\U0001F577"
@@ -89,3 +94,5 @@ tags:
 ## 与其他尺度的关系
 
 0.5毫米的尘螨与0.5毫米的沙粒数值相同，但一个是生物、一个是矿物颗粒；它比1.6毫米的法老蚁小，比多数人体细胞大。[1][2] 在尺度轴上，尘螨处在“肉眼难辨、显微镜可见”的层级，向上是蚂蚁和发丝，向下是细胞与细菌。这个位置也解释了为什么居家除螨需要关注灰尘和床上用品，而不是只靠肉眼寻找。
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.0017 纳秒，在时间轴上量级接近「纳秒」。[4]

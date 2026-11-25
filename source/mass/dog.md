@@ -3,7 +3,7 @@ id: mass.dog
 title: 拉布拉多犬：30 kg，成年个体湿重均值
 summary: 拉布拉多犬的成年个体质量约 30 kg，按活体体重（整体湿重）计。公犬多在 29–36 kg、母犬多在 25–32 kg，体况差异使不确定度约 ±20%。
 dimension: mass
-category: 哺乳动物
+category: 自然与生物
 displayValue: 30 kg
 quantity:
   value: 30
@@ -15,6 +15,8 @@ related:
   - mass.cat
   - mass.adult-human
   - mass.motorcycle
+  - space.dog
+  - space.human
 reviewStatus: reviewed
 review:
   method: source-check
@@ -67,6 +69,7 @@ visual:
   color: '#e0b67b'
   scaleMin: -40
   scaleMax: 53
+titleEn: Labrador Retriever
 ---
 ## 这个读数是什么
 

@@ -3,7 +3,7 @@ id: mass.adult-human
 title: 成人：70 kg，全球成年个体湿重均值
 summary: 成人质量取 70 kg，按全球成年个体均值、湿重（活体体重）计。区域与性别差异明显，部分亚洲人群均值约 55–65 kg，北美偏高，不确定度约 ±20%。
 dimension: mass
-category: 人体
+category: 生命与人体
 displayValue: 70 kg
 quantity:
   value: 70
@@ -17,6 +17,7 @@ related:
   - mass.cat
   - mass.human-brain
   - space.human
+  - temperature.human-body-temperature
 reviewStatus: reviewed
 review:
   method: source-check
@@ -45,6 +46,14 @@ sources:
     url: 'https://www.nature.com/'
     publisher: Nature Portfolio
     accessed: '2026-11-09'
+  - title: "BioNumbers — The Database of Useful Biological Numbers"
+    url: "https://bionumbers.hms.harvard.edu/"
+    publisher: "Harvard Medical School"
+    accessed: '2026-11-24'
+  - title: "2021 Anthropometry Procedures Manual"
+    url: "https://stacks.cdc.gov/view/cdc/127207/cdc_127207_DS1.pdf"
+    publisher: "CDC / National Center for Health Statistics"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 成人
@@ -69,6 +78,7 @@ visual:
   color: '#e0b67b'
   scaleMin: -40
   scaleMax: 53
+titleEn: Adult human
 ---
 ## 这个读数是什么
 
@@ -86,6 +96,26 @@ visual:
 
 70 kg 位于 B7 带中段，是这条轴上唯一直接对应“人”的整体读数。[1] 它比新生儿 3.3 kg 重约二十一倍，比家猫 4.5 kg 重约十五倍，比拉布拉多犬 30 kg 重约两倍多，比摩托车 200 kg 轻约三分之二。器官条目里的心脏 0.31 kg、肝脏 1.5 kg、脑 1.4 kg 加起来只占它很小一部分。
 
+## 全球均值不是标准人
+
+70 千克是成年个体湿重的全球近似均值，但地区、性别、年龄与体型差异很大；亚洲部分人群均值更低，欧美更高。医学剂量常按体重计算，不能用“标准人”一刀切。正文的 70 千克是尺度锚点，不是每个人的目标。[1][S1]
+
 ## 怎么继续走
 
 想看这个整体里的单个器官，去 mass.human-heart、mass.human-liver 与 mass.human-brain；想回到出生时的起点，去 mass.newborn；想继续向上跳到工程物，去 mass.motorcycle 与 mass.piano。这条轴的每一次跳跃都换了一个口径，读数值前先确认口径。
+
+## 为什么要用湿重
+
+湿重是活体体重，包含水分、糖原与肠道内容物；干重会去掉水分，数值小得多。医学与工程使用湿重，是因为它对应人站在秤上的实际载荷；营养学与体成分研究则会把体重拆成脂肪、肌肉、骨骼和水。两种口径都合理，但不能拿干重去算座椅载荷或药物剂量。[1][2]
+
+## 70 kg 不是“标准人”
+
+70 kg 是便于换算的全球成人均值锚点，不是健康标准，也不是某个国家或某个年龄段的精确代表。不同地区、性别、年龄和体成分的均值差异很大；用 70 kg 计算药物剂量、座椅载荷或能量消耗时，必须说明这是人群近似，不是个体处方。[1][2]
+
+## 误差账本与五轴对照
+
+±20% 的不确定度覆盖人群分布，但不覆盖同一个人一天内的波动：饮水、进食、出汗和排空可以让体重变化一到两千克。质量轴上它是 10¹–10² kg 的锚点；空间轴对应约 1.7 米身高；温度轴对应约 37 ℃ 核心温度；时间轴对应几十年寿命。四条轴都用人做对象，却各量各的。[1][2][3]
+
+## 延伸核对
+
+补充的来源 [4]（Harvard Medical School）、[5]（CDC / National Center for Health Statistics） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

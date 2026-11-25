@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: '6,650 km（河道长度）'
 related:
+  - time.blink
   - space.amazon-river
   - space.earth
   - space.sahara
   - space.everest
   - space.island
-  - space.mediterranean-sea
 reviewStatus: reviewed
 sources:
   - title: Nile River
@@ -29,6 +29,10 @@ sources:
       https://www.nationalgeographic.com/history/article/pictures-life-giving-nile-river-photos
     publisher: National Geographic
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为尼罗河主河道；测量口径为从上游源头沿河到地中海河口的路径长度，不是流域面积、年径流量或源头到河口的直线距离。
 uncertainty: 'Britannica给出约6,650公里，国家地理写作约6,800公里；差异来自源头与三角洲河口的取点以及换算圆整。河长公开值通常只到公里级。'
 review:
@@ -76,3 +80,7 @@ tags:
 ## 与其他尺度的关系
 
 6,650公里约为地球平均半径6,371公里的1.04倍，也约为赤道周长40,075公里的17%。它比亚马逊河的6,400公里长约250公里，但两者都只是地表的一条弯曲路径，不能与地球直径12,742公里直接等同。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 22.2 毫秒，在时间轴上量级接近「眨眼」。[3]

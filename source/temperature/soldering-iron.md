@@ -19,6 +19,7 @@ related:
   - temperature.tin-melting
   - temperature.lead-melting-point
   - temperature.3d-printer-nozzle
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Compact soldering station CD-BQE: instruction manual'
@@ -30,6 +31,10 @@ sources:
     url: 'https://www.ccohs.ca/oshanswers/safety_haz/welding/overview.html'
     publisher: Canadian Centre for Occupational Health and Safety
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   恒温电烙铁的烙铁头尖端、空载或轻热负载、室内空气环境；控制器设定值与实测尖端温度可能不同。
   焊点大小、烙铁头形状、氧化程度和环境散热都会改变实际焊接时的温度。
@@ -77,3 +82,12 @@ tags:
 ## 与其他温区的关系
 
 623 K 高于锡铅共晶焊料的约 456 K 和锡的 505 K，低于铝的 933 K。它处在电子软钎焊的温区，远低于焊接电弧的 3,500 K，也低于烤箱烘焙的常见上限；因此电烙铁能熔化焊料，却不会像电弧那样熔化母材。[2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 623 K，即 349.9 ℃（按 T/K−273.15 换算）；约为水的沸点（373.1 K）的 1.67 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -17,6 +17,7 @@ related:
   - space.nucleotide
   - space.benzene
   - space.water-molecule
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Caffeine — NIST Chemistry WebBook
@@ -27,6 +28,10 @@ sources:
     url: 'https://pubs.acs.org/acsodf/article/6/33/21339/381704/Enthalpies-of-Immersion-in-Caffeine-and-Glyphosate'
     publisher: ACS Omega / American Chemical Society
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取孤立咖啡因分子的平面构象，长轴约 0.98 nm；该值不是晶体中相邻分子的堆积间距，也不是水合动力学直径。
   不同力场、构象与范德华半径定义给出的长轴在 0.78–1.06 nm 之间，比较时必须注明建模条件。
@@ -79,3 +84,7 @@ NIST 化学数据库给出咖啡因的分子式、分子量与标准 InChI，可
 ## 与其他尺度的关系
 
 0.98 纳米与葡萄糖的 0.86 纳米、ATP 的 1.2 纳米同处“小分子到生物单体”的过渡带，却远小于蛋白质与细胞。[1][2] 它比苯环的对位碳间距大，说明稠合双环加取代基会显著拉长分子。继续阅读葡萄糖、ATP 与核苷酸，可比较平面小分子与链状生物分子的长度口径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

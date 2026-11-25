@@ -18,6 +18,7 @@ related:
   - space.methane-molecule
   - space.co2-molecule
   - space.amino-acid
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Langmuir–Blodgett Transfer of Nanocrystal Monolayers
@@ -28,6 +29,10 @@ sources:
     url: 'https://arxiv.org/html/1810.09258v1'
     publisher: arXiv
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取中性、孤立硬脂酸分子的全反式平面锯齿构象，量甲基末端到羧基末端的原子核间距；
   不含氢原子与电子云的范德华外缘，也不是脂肪酸在膜中的堆积厚度。
@@ -76,3 +81,7 @@ Langmuir–Blodgett 膜研究把硬脂酸作为长链脂肪酸的参照：单个
 ## 与其他尺度的关系
 
 2.5 nm 约为苯环对位碳间距 0.28 nm 的 9 倍，也约为 DNA 直径 2 nm 的 1.2 倍。[1][2] 它比尿素的 0.5 nm 大五倍，却与胰岛素单体 2.5 nm 相当——两者恰好落在同一尺度。继续阅读苯、甲烷与二氧化碳，可比较小分子与长链分子的“长度”口径。把 2.5 nm 与 1 nm 的氨基酸、0.3 nm 的苯环并排，能看到从单体到长链的连续过渡。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 8.3e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

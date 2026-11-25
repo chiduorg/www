@@ -18,6 +18,7 @@ related:
   - space.soccer-ball
   - space.ping-pong-ball
   - space.hand
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'ITF Approved Tennis Balls, Classified Surfaces & Recognised Courts 2026'
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.itftennis.com/media/2510/2020-rules-of-tennis-english.pdf'
     publisher: International Tennis Federation
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 直径为球体穿过球心的最大直线距离，按ITF标准Type 2球的6.54–6.86 cm为参照，不是Type 1、Type 3、减压球或儿童球的定值。
 uncertainty: >-
   ITF技术手册给出Type 2球直径6.54–6.86 cm，本条取6.7 cm；不同型号、气压、温度和毛毡厚度会带来差异。Type 1球更慢、Type
@@ -74,3 +79,7 @@ ITF 的 2026 技术手册在球类分类表中给出 Type 2 球的直径 6.54–
 ## 与其他尺度的关系
 
 6.7 厘米的网球直径约为乒乓球的 1.2 倍，约为足球的三分之一，比篮球小得多，约为人手宽度的三分之一。[1][2] 在尺度轴上，网球位于“几厘米”的日常球类带：向上是足球、篮球和书本，向下是乒乓球、硬币和药片。用同一“直径”口径比较，才能看出网球与足球、篮球之间的真实差距。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.22 纳秒，在时间轴上量级接近「纳秒」。[3]

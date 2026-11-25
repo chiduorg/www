@@ -17,6 +17,7 @@ related:
   - space.oak-tree
   - space.everest
   - space.burj-khalifa
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: giant sequoia
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.fs.usda.gov/database/feis/plants/tree/seqgig/all.html'
     publisher: U.S. Department of Agriculture, Forest Service
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   树高指从树基地面到树顶的垂直距离；本条以巨杉（Sequoiadendron giganteum）的成熟个体为参照，不包括树干基围31 m、木材体积、树冠宽度或所在山坡海拔。
 uncertainty: >-
@@ -76,3 +81,7 @@ Britannica的巨杉条目给出“谢尔曼将军”树的高度83米、基部�
 ## 与其他尺度的关系
 
 95米约相当于56个1.7米高的人叠起来，也约等于32层每层3米高的楼；它约为珠穆朗玛峰高程的1.1%，约为哈利法塔828米的11.5%。[1] 在树木尺度轴上，巨杉位于橡树25米与海岸红杉112米之间，向上仍低于后者，向下则远离蕨类1米和蘑菇菌盖0.1米的量级。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 317 纳秒，在时间轴上量级接近「微秒」。[3]

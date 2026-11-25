@@ -18,6 +18,7 @@ related:
   - space.leaf
   - space.seed
   - space.egg
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'bryophyte'
@@ -28,6 +29,10 @@ sources:
     url: 'https://static1.squarespace.com/static/52bb9733e4b09788115247ec/t/54918e31e4b05da87d80c736/1418825265644/otfV3N4July1985.pdf'
     publisher: Native Plant Society of Northeastern Ohio
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为苔藓植物的配子体；量直立茎叶顶端到附着基质表面的垂直高度，匍匐种类量离基质的最大高度；不含孢子体 stalk、垫状群体面积和地下假根。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 5 cm 约为地衣直径（10 cm）的一半，略小于鸡蛋长径（5.5 cm），约为菜豆种子（12 mm）的四倍，也约为霉菌菌丝直径（10 μm）的 5000 倍。在尺度轴上，它处在厘米级草本的下端，向上是蕨类和灌木，向下是叶片和细胞。苔藓的孢子体蒴柄可以把孢子囊举得更高，但那是繁殖结构，不是配子体株高。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.17 纳秒，在时间轴上量级接近「纳秒」。[3]

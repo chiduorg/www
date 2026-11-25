@@ -4,7 +4,7 @@ title: 第七层结束：鿫与 5f6d7s7p 闭壳
 titleEn: 'Closed shell 118: oganesson and the predicted filled 7s7p'
 dimension: element
 category: 闭壳节点
-summary: '鿫是周期表目前的最后一个格子。按填充规则，7s 与 7p 应当填满，但它的构型与性质全部来自计算预测；已有实验只确认它极不稳定，半衰期以毫秒计。'
+summary: 鿫是周期表目前的最后一个格子。按填充规则，7s 与 7p 应当填满，但它的构型与性质全部来自计算预测；已有实验只确认它极不稳定，半衰期以毫秒计。
 quantity:
   value: 118
   unit: Z
@@ -18,7 +18,9 @@ element:
   period: 7
   group: 18
   block: p
-  configuration: 1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p6
+  configuration: >-
+    1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10
+    7s2 7p6
   valence: 5f14 6d10 7s2 7p6
   hub: true
   closedShell: 118
@@ -38,9 +40,14 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自 CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - >-
+      本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自
+      CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: transuranium element
     url: 'https://www.britannica.com/science/transuranium-element'
@@ -50,10 +57,14 @@ sources:
     url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
     publisher: International Union of Pure and Applied Chemistry
     accessed: '2026-11-08'
-  - title: 'NuDat 3.0'
+  - title: NuDat 3.0
     url: 'https://www.nndc.bnl.gov/nudat3/'
     publisher: 'National Nuclear Data Center, Brookhaven National Laboratory'
     accessed: '2026-11-08'
+  - title: Ionization potentials and electron affinity of oganesson
+    url: 'https://arxiv.org/pdf/2107.02164v2'
+    publisher: arXiv
+    accessed: '2026-11-24'
 conditions: 鿫的电子构型、电离能与化学性质均来自理论计算，尚无实验测定；本页把预测值与实测值严格分开，不把 7p⁶ 当作已观测事实。
 visual:
   scene: elements.shell-ladder
@@ -92,3 +103,7 @@ tags:
 ## 怎么用这个节点继续走
 
 往上是氡，这一页之后没有下一个闭壳节点。想弄清为什么超重元素的预测值必须与实测分开，去看核稳定性解释页；想弄清周期表的边界是物理限制还是观测限制，去看周期律解释页；想弄清相对论效应如何改写重元素性质，去看镧系收缩解释页——同样的机制在 Z=118 被放大。把鿫当作一个警告标志：规律能推到多远，取决于我们能否验证它。
+
+## 延伸核对
+
+118 号元素的性质主要来自相对论计算，实验样本极少；本条把它标为预测性节点，不当作已测元素。[4]

@@ -5,7 +5,7 @@ summary: >-
   全球足月新生儿的出生体重均值约 3.3 kg，按出生后即刻、脱衣称得的整体湿重计。低于 2.5 kg 为低出生体重，高于 4.0 kg 为巨大儿，不确定度约
   ±15%。
 dimension: mass
-category: 人体
+category: 生命与人体
 displayValue: 3.3 kg
 quantity:
   value: 3.3
@@ -18,6 +18,8 @@ related:
   - mass.cat
   - mass.dog
   - mass.human-cell
+  - space.human
+  - temperature.human-body-temperature
 reviewStatus: reviewed
 review:
   method: source-check
@@ -70,6 +72,7 @@ visual:
   color: '#e0b67b'
   scaleMin: -40
   scaleMax: 53
+titleEn: Newborn baby
 ---
 ## 这个读数是什么
 

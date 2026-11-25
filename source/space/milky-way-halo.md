@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: 约 1.89 × 10²¹ m（约20万光年）
 related:
+  - mass.observable-universe
+  - temperature.cmb
   - space.milky-way
   - space.milky_way_disk
   - space.dark-matter-halo
   - space.galactic-center
-  - space.andromeda-distance
 reviewStatus: reviewed
 sources:
   - title: Guide to our Galaxy
@@ -47,12 +48,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "银河系晕 · 球状恒星晕概览"
-  note: "球状边界与星点分布为示意，未表现银盘、旋臂或暗物质晕的真实形状；范围只表示恒星晕半径对应的直径；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 银河系晕 · 球状恒星晕概览
+  note: 球状边界与星点分布为示意，未表现银盘、旋臂或暗物质晕的真实形状；范围只表示恒星晕半径对应的直径；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:
@@ -78,3 +79,10 @@ tags:
 ## 与其他尺度的关系
 
 20万光年的恒星晕直径约为银盘直径的2倍，约为Chandra暗晕下限60万光年的三分之一，约为本星系群跨度1000万光年的2%。[1][2] 它仍只是单个星系范围内的结构；与星系团和超星系团相比，银河系晕小两到三个数量级。比较银河系“大小”时，必须先说明说的是盘、恒星晕还是暗物质晕。
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1.892×10²¹ 米，换算后是 200000 光年；约 2×10⁵ 光年（9.461×10¹⁵ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10²¹ 量级附近。
+
+读图时先看量级，再看倍数：10²¹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

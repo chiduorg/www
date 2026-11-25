@@ -16,6 +16,7 @@ related:
   - space.pencil
   - space.coin
   - space.human
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: A5 Paper Size Guide
@@ -29,6 +30,10 @@ sources:
       https://ingramspark.zendesk.com/hc/en-us/articles/5341425168013-Available-Trim-Sizes-Bindings-for-Covers-Interior-Papers-for-Print-Books
     publisher: IngramSpark
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 开本高度为书页裁切后的成品高度，不含封面出血、书脊厚度和展开后的整张纸；以A5开本210 mm为参照，不是所有书、所有版本或电子书的定值。
 uncertainty: >-
   A5纸尺寸为148×210 mm；IngramSpark列出的A5成品裁切尺寸为210×148 mm（高×宽）。本条取210
@@ -77,3 +82,7 @@ Adobe 的 A5 纸张指南把 A5 定义为 148×210 毫米。[1] IngramSpark 的�
 ## 与其他尺度的关系
 
 21 厘米的书高约为网球直径的三倍，略低于篮球直径，约为人手长度的 1.3 倍，也接近 A5 纸的长边。[1][2] 在尺度轴上，书位于“二十厘米级”的日常人造物带：向上是篮球、足球和人体，向下是网球、硬币和铅笔。用裁切后的成品高度而不是整张纸尺寸，才能让书与其他日常物品公平比较。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.70 纳秒，在时间轴上量级接近「纳秒」。[3]

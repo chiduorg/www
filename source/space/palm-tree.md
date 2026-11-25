@@ -18,6 +18,7 @@ related:
   - space.ginkgo
   - space.baobab
   - space.human
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: 'Coconut Botany and Varieties'
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.ctahr.hawaii.edu/gsp/doc/Forestry/Little_Skolmen_CFT/CFT_Cocos_nucifera.pdf'
     publisher: University of Hawaii College of Tropical Agriculture and Human Resources
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为棕榈科高大乔木，以椰子树 Cocos nucifera 为代表；量地面到主干顶端生长点的高度，不含羽状叶自身的长度和树干粗度。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 15 m 约为银杏树高（20 m）的四分之三，与猴面包树高度（20 m）相比也约为四分之三，还约为人类身高（1.7 m）的九倍。它约为五层楼的高度。在尺度轴上，它处在高大乔木的中段，向上是巨杉，向下是灌木和草本。15 m 约为足球场宽度（105 m）的七分之一，也约为标准泳池长度（25 m）的六成。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 50 纳秒，在时间轴上量级接近「原子跃迁」。[3]

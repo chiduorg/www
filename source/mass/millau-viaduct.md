@@ -5,7 +5,7 @@ summary: >-
   米约高架桥按设计方公布的材料量估算，结构总质量约 2.9×10⁸ kg；其中钢桥面约 36,000 t，其余为混凝土桥墩、桥台与基础。常被误写成“钢结构
   29 万吨”，实际 29 万吨是整座结构的估算总重。
 dimension: mass
-category: 桥梁
+category: 工程与交通
 displayValue: 2.9×10⁸ kg
 quantity:
   value: 290000000
@@ -50,6 +50,10 @@ sources:
     url: 'https://www.unesco.org/'
     publisher: UNESCO
     accessed: '2026-11-09'
+  - title: 'SI base unit: kilogram (kg)'
+    url: 'https://www.bipm.org/en/si-base-units/kilogram'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 tags:
   - 质量
   - 高架桥
@@ -76,6 +80,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Millau Viaduct
 ---
 ## 这个读数是什么
 
@@ -96,3 +101,12 @@ visual:
 ## 怎么继续走
 
 想比较另一座悬索桥的总质量口径，去 mass.golden-gate-bridge；想看更早的锻铁结构，去 mass.eiffel-tower；想看混凝土建筑的质量估算，去 mass.burj-khalifa；想理解桥梁用钢，从 elements.fe 进入元素轴。
+
+本条的质量单位与换算依据 BIPM 对千克的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 2.9×10⁸ 千克，换算后是 2.9×10⁵ 吨；约为埃菲尔铁塔（7300 千克）的 3.97×10⁴ 倍。这把尺子只改写单位，不改变量值；它把本条固定在质量轴的 10⁸ 量级附近。
+
+读图时先看量级，再看倍数：10⁸ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

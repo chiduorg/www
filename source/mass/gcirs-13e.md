@@ -5,7 +5,7 @@ summary: >-
   GCIRS 13E 是银河系中心附近的一个致密星团，被怀疑中心藏着一颗约 2.59×10³³ kg 的黑洞，折合约 1300
   个太阳质量。这个数由星团内恒星的运动学估计得出，相对不确定度约 50%，只能给量级。
 dimension: mass
-category: 黑洞
+category: 恒星与致密天体
 displayValue: 2.59×10³³ kg
 quantity:
   value: 2.59e+33
@@ -79,6 +79,7 @@ visual:
   color: '#ffd37a'
   scaleMin: -40
   scaleMax: 53
+titleEn: GCIRS 13E
 ---
 ## 这个读数是什么
 

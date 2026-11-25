@@ -17,6 +17,7 @@ related:
   - space.brown-bear
   - space.orangutan
   - space.rhesus-macaque
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Chimpanzee
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.awf.org/wildlife-conservation/chimpanzee'
     publisher: African Wildlife Foundation
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年个体；量取双脚直立、手臂自然下垂时从脚底到头顶的垂直距离；不含手臂上举，也不含四足行走时的肩高；圈养与野生个体存在差异。
 uncertainty: Britannica 给出直立高度约 1–1.7 m，AWF 给出约 1–2 m；本条取 1.1 m 作成年个体的代表值，接近范围下半段，大型雄性可明显更高，不同种群与测量姿势会造成十厘米级差异。
 review:
@@ -70,3 +75,7 @@ Britannica 的黑猩猩条目写明：直立时身高约 1–1.7 米，体重约
 ## 与其他尺度的关系
 
 1.1 米约为 1.7 米成年人的 65%，比 0.40 米的家兔高约 0.7 米，也高于 0.72 米的狗；但明显低于 2.2 米的棕熊。[1][2] 在灵长类里，它处在“儿童到成年人之间”的高度，向上是棕熊、人和大型猫科，向下是家兔与家鼠。这个尺度让“与人相近又不相同”的体型变得直观。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

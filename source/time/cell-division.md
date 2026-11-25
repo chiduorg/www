@@ -41,6 +41,16 @@ sources:
     url: 'https://www.britannica.com/science/cell-cycle'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'Biology 2e, §4.2 Prokaryotic Cells'
+    url: 'https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells'
+    publisher: OpenStax / Rice University
+    accessed: '2026-11-24'
+  - title: >-
+      The energy components of stacked chromatin layers explain the morphology,
+      dimensions and mechanical properties of metaphase chromosomes
+    url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3899872/'
+    publisher: 'Journal of the Royal Society Interface / PMC, NCBI'
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -84,3 +94,11 @@ tags:
 ## 与其他尺度的关系
 
 一个24小时的细胞周期约等于一个昼夜节律周期，约为一次心跳的10万倍，却只是妊娠期（约280天）的约1/280。人体由数万亿细胞组成，每个细胞按自己的周期更新，宏观上的生长与修复正是这些周期叠加的结果。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（OpenStax / Rice University）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（Journal of the Royal Society Interface / PMC, NCBI）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

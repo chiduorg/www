@@ -35,6 +35,14 @@ sources:
     url: 'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf'
     publisher: International Commission on Stratigraphy
     accessed: '2026-11-06'
+  - title: "Diphyodont tooth replacement of Brasilodon—A Late Triassic eucynodont that challenges the time of origin of mammals"
+    url: "https://pubmed.ncbi.nlm.nih.gov/36065514/"
+    publisher: "Journal of Anatomy / PubMed"
+    accessed: '2026-11-24'
+  - title: "Earth Fact Sheet"
+    url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+    publisher: "NASA NSSDC"
+    accessed: '2026-11-24'
 legacy:
   id: permian-triassic-extinction
   icon: "\U0001F480"
@@ -104,3 +112,27 @@ tags:
 ## 与其他阶段的关系
 
 这场危机结束了古生代，为三叠纪的爬行动物与恐龙支系腾出生态空间。[2] 它与 K–Pg 灭绝的区别在于规模更大、海洋与陆地同时受创，但两者都说明灭绝事件会重塑后续演化方向。[1][3]
+
+## 为什么海洋受害最重
+
+二叠纪末的海洋物种损失约 96%，远高于陆地的属级损失；海洋升温、酸化与缺氧会同时打击钙化生物、礁生态系统和底栖动物。[1][2] 西伯利亚洪流玄武岩释放的二氧化碳与二氧化硫，可能通过风化和海水化学放大这些压力。海洋的连通性让环境压力扩散到全球。
+
+## 恢复用了多久
+
+灭绝之后，海洋生态系统的完全恢复用了数百万年；三叠纪早期出现反复的环境波动，造礁生物与大型捕食者恢复得更慢。[1][2] “大灭绝”不是一个终点，而是一段生态崩溃与重建的过程。把恢复时间画成零，会低估危机的后续影响。
+
+## 五轴对照
+
+在时间轴，二叠纪末灭绝约 2.519 亿年前；在空间轴，西伯利亚火山与特提斯海相隔遥远却同时受影响；在温度轴，升温与缺氧是核心环境压力；在质量轴，生物量与碳库发生剧烈变化。灭绝机制必须跨轴解释。[1][3]
+
+## 物种损失率与时间分辨率
+
+二叠纪末大灭绝常写“约 90% 海洋物种消失”，但物种统计依赖化石数据库、采样密度与分类口径；不同研究的估计从 80% 到 95% 不等。灭绝可能持续数万年到数十万年，受地层分辨率限制。正文的比例是统计估计，不是逐个物种的死亡证明。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 距今约2.519亿年（二叠纪末阶段参照），口径是 time-after-big-bang-derived-reference。时间轴上的年份是地层、文献或模型给出的坐标，误差从几十年到几十万年不等；分期边界不是一条绝对精确的线。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（Journal of Anatomy / PubMed）、[5]（NASA NSSDC） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

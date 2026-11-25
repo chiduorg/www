@@ -5,7 +5,7 @@ summary: >-
   大古力坝混凝土总量 11,975,521 立方码（约 9.16×10⁶ m³），按 2.4 t/m³ 折算约 2.2×10¹⁰
   kg。垦务局只公布体积，未给总质量；这是混凝土的估算质量，不含金属结构与机组。
 dimension: mass
-category: 水利工程
+category: 工程与交通
 displayValue: 2.2×10¹⁰ kg
 quantity:
   value: 22000000000
@@ -45,6 +45,10 @@ sources:
     url: 'https://www.ice.org.uk/'
     publisher: Institution of Civil Engineers
     accessed: '2026-11-09'
+  - title: 'SI base unit: kilogram (kg)'
+    url: 'https://www.bipm.org/en/si-base-units/kilogram'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 tags:
   - 质量
   - 大坝
@@ -69,6 +73,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Grand Coulee Dam
 ---
 ## 这个读数是什么
 
@@ -89,3 +94,5 @@ visual:
 ## 怎么继续走
 
 想看更大的混凝土坝，去 mass.three-gorges-dam；想看 10⁹ kg 档的拱坝，去 mass.hoover-dam；想比较建筑与坝体的质量，去 mass.empire-state-building；想理解水泥与骨料的成分，从 elements.c 进入元素轴。
+
+本条的质量单位与换算依据 BIPM 对千克的定义。[3]

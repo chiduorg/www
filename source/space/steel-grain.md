@@ -18,6 +18,7 @@ related:
   - space.diamond-unit-cell
   - space.hair
   - space.cell
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: E112 Standard Test Methods for Determining Average Grain Size
@@ -28,6 +29,10 @@ sources:
     url: 'https://aobosteel.com/astm-grain-size-chart-tool-steel/'
     publisher: Aobo Steel
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   以单相或近似单相的工程钢为对象，取金相截面上的平均晶粒直径约 10 微米；
   冷加工、热处理和合金成分会改变晶粒大小，本值不适用于所有钢种。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 10 微米约为头发丝直径 100 微米的 1/10，约为人体细胞 20 微米的一半，也约为红细胞 7.5 微米的 1.3 倍。沿原子方向看，它相当于约 5 万个 0.2 纳米的晶格间距。与 A4 纸 297 毫米相比，则小约三万倍。把它与晶格间距、金刚石晶胞并置，能直观看到“原子—晶粒—零件”之间的层级。若把 10 微米晶粒与 10 毫米厚的钢板相比，厚度方向约可容纳 1000 个晶粒。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.000033 纳秒，在时间轴上量级接近「纳秒」。[3]

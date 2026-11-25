@@ -17,6 +17,7 @@ related:
   - space.crab
   - space.sea-urchin
   - space.coral
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Eastern Oyster
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/animal/oyster'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为牡蛎科（Ostreidae）的双壳类，以美洲东部牡蛎（Crassostrea virginica）为参照；量壳从前缘到后缘的最长径，不是壳高、壳厚或软体部；20 cm 取在 NOAA 给出的“可达 8 英寸（约 20 cm）”上限。
 uncertainty: >-
@@ -73,3 +78,7 @@ NOAA Fisheries 的东部牡蛎页面给出，平均壳长 3–5 英寸（约 7.6
 ## 与其他尺度的关系
 
 20 厘米约等于成人手长，约为海胆壳径 10 厘米的两倍，约为藤壶壳口 5 厘米的四倍，也约为珊瑚群体 1 米的 0.2 倍。[1][2] 在尺度轴上，牡蛎壳长落在“十厘米级”的上沿：向下是藤壶、海胆和硬币，向上是手掌、铅笔和球类。用壳长而不是壳高记录，才能与其它双壳类和礁体尺寸比较。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.67 纳秒，在时间轴上量级接近「纳秒」。[3]

@@ -15,14 +15,17 @@ quantity:
   measureLabel: 以铌 Tc≈9.2 K 为参考的能隙对应温区
 displayValue: 约 9 K（−264.15 °C，Nb 的 Tc≈9.2 K 参考）
 related:
+  - space.moon
+  - mass.helium-nucleus
   - temperature.niobium-superconducting-transition
   - temperature.ybco-superconducting-transition
   - temperature.superfluid
   - temperature.absolute-zero
-  - temperature.squid-working-temperature
 reviewStatus: reviewed
 sources:
-  - title: 'Microscopic Quantum Interference Effects in the Theory of Superconductivity – Nobel Lecture'
+  - title: >-
+      Microscopic Quantum Interference Effects in the Theory of
+      Superconductivity – Nobel Lecture
     url: 'https://www.nobelprize.org/prizes/physics/1972/cooper/lecture/'
     publisher: 'The Nobel Foundation（Leon N. Cooper, 1972）'
     accessed: '2026-11-07'

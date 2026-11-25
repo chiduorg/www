@@ -28,6 +28,10 @@ sources:
     url: 'https://cccbdb.nist.gov/exp2x.asp?casno=71432&charge=0'
     publisher: NIST / Computational Chemistry Comparison and Benchmark Database
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   采用中性气相苯分子的平面正六边形几何；量的是两个对位碳原子核之间的距离，由 Britannica 给出的 1.40 埃碳—碳键长按正六边形几何换算为
   2.80 埃。该值不含氢原子、电子云外缘或范德华半径，也不是液态苯的分子间距离。
@@ -77,3 +81,5 @@ tags:
 ## 与其他尺度的关系
 
 把 0.28 纳米放回尺度轴，苯环比水分子核间距大一些，却仍比蛋白质和细胞小得多。[1] 它与石墨烯、富勒烯共享 sp² 碳骨架，但苯是单个小分子，石墨烯是扩展的单层碳网络。[2] 继续阅读水分子、石墨烯与晶格间距，可比较小分子、二维材料与晶体中“原子间距”的不同口径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

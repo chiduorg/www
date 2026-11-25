@@ -5,7 +5,7 @@ summary: >-
   爱神星（433 Eros）总质量 6.687×10¹⁵ kg，由 NEAR Shoemaker
   的无线电跟踪与轨道拟合测定，精度优于百分之一。它是第一颗被探测器环绕并“称重”的近地小行星。
 dimension: mass
-category: 彗星与小行星
+category: 行星与小天体
 displayValue: 6.687×10¹⁵ kg
 quantity:
   value: 6687000000000000
@@ -80,6 +80,7 @@ visual:
   color: '#b8a58a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Eros
 ---
 ## 这个读数是什么
 

@@ -17,6 +17,8 @@ related:
   - time.first-stars
   - time.solar-system
   - time.peak-star-formation
+  - space.observable-universe
+  - mass.total-matter-universe
 reviewStatus: reviewed
 sources:
   - title: Furthest detection of oxygen in the early Universe

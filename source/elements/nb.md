@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/41/niobium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第五周期, d 区, 铌]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往回看锆（/entry/elements/zr/），能看到 4d2 5s2 的“规矩”写法；往前看钼（/entry/elements/mo/），能看到 4d 继续加电子、5s 仍是半满。想理解 s 与 d 的这次交换，去读电子排布解释页。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

@@ -4,7 +4,7 @@ title: 铅：第 82 个质子填出 6p2，惰性电子对与衰变终点在此�
 titleEn: 'Lead: the 82nd proton adds 6p2 at the end of the decay chains'
 dimension: element
 category: 惰性电子对
-summary: '铊的 6p 添一个电子，铅成为 6s2 6p2；6s2 形成惰性电子对，使 +2 比 +4 常见，四种稳定同位素让铅成为衰变链终点。'
+summary: 铊的 6p 添一个电子，铅成为 6s2 6p2；6s2 形成惰性电子对，使 +2 比 +4 常见，四种稳定同位素让铅成为衰变链终点。
 quantity:
   value: 82
   unit: Z
@@ -19,7 +19,7 @@ element:
   group: 14
   block: p
   configuration: '[Xe] 4f14 5d10 6s2 6p2'
-  valence: '4f14 5d10 6s2 6p2'
+  valence: 4f14 5d10 6s2 6p2
   level: A
   predicted: false
 related:
@@ -32,9 +32,14 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自 CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - >-
+      本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自
+      CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: 'PubChem Element Summary: Lead'
     url: 'https://pubchem.ncbi.nlm.nih.gov/element/82'
@@ -44,10 +49,14 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/82/lead'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
-  - title: 'NIST Atomic Spectra Database'
+  - title: NIST Atomic Spectra Database
     url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-09'
+  - title: Preventing Childhood Lead Poisoning
+    url: 'https://cdc.gov/lead-prevention/prevention/'
+    publisher: U.S. Centers for Disease Control and Prevention
+    accessed: '2026-11-24'
 conditions: 标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。
 visual:
   scene: elements.shell-ladder
@@ -94,3 +103,7 @@ tags:
 ## 怎么继续走
 
 往前是汞，6s2 已闭合、6p 还空，是铅之前的对照；再往后到铀，5f 已填到三个，核稳定性彻底让位于放射性。想弄清 6s2 为什么被称为惰性电子对，去看镧系收缩解释页里的相对论部分；想弄清为什么衰变链偏偏停在铅、幻数如何起作用，去看核稳定性解释页。铅这一页把两条线合在一起：电子壳层的闭合与原子核的闭合，可以在同一个元素上同时发生。
+
+## 延伸核对
+
+铅的毒性没有安全阈值，这与它的原子序数和化学性质是两回事；引用时不要把“元素”与“暴露标准”混在一起。[4]

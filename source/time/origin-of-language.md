@@ -20,7 +20,8 @@ related:
   - time.hominins-emerge
   - time.rise-homo-sapiens
   - time.invention-of-writing
-  - time.origin-of-cities
+  - space.human
+  - mass.adult-human
 reviewStatus: reviewed
 sources:
   - title: Language & Symbols
@@ -31,6 +32,14 @@ sources:
     publisher: PLOS Biology
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4332681/'
     accessed: '2026-11-06'
+  - title: "Early Homo at 2.8 Ma from Ledi-Geraru, Afar, Ethiopia"
+    url: "https://pubmed.ncbi.nlm.nih.gov/25739410/"
+    publisher: "Science / PubMed"
+    accessed: '2026-11-24'
+  - title: "Homo"
+    url: "https://www.britannica.com/topic/Homo"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 chronology:
   status: undetermined
   plot: false
@@ -90,3 +99,19 @@ tags:
 ## 与文字、城市的关系
 
 文字是语言的晚近记录系统，约在公元前四千纪末出现于美索不达米亚；它让部分话语第一次变成可保存的实物，但远不能覆盖语言的全部历史。[1] 语言先于城市和文字，又随贸易、迁徙与聚落生活不断分化。把语言起源标成未定，不是拒绝回答，而是承认现有证据只能支持一段有争议的区间。
+
+## 为什么不能给出一个日期
+
+语言不留实体化石，发声器官的软组织也不易保存；研究者只能从舌骨、声道形态、基因和符号行为间接推断。[1][2] 这些证据指向不同的时间层位，且“什么算语言”本身有争议。给出一个精确起点，反而会掩盖证据的间接性。
+
+## 五轴对照
+
+在时间轴，语言能力在数十万年尺度上逐步形成；在空间轴，人群迁徙把语言带到不同大陆；在温度轴，气候与生态环境影响食物和社交网络；在质量轴，大脑与发声器官的质量和代谢支持语言。语言的起源不是单点事件，而是多轴条件的交汇。[1][2]
+
+## 语言起源没有单一起点
+
+语言起源无法从化石直接读出：声道结构只能提示发音能力，基因研究只涉及少数与言语相关的基因，文化演化则留下符号与工具。不同人群的语言可能多次独立出现，也可能有共同祖语。正文的“语言起源”是证据类型的汇总，不是某一年某一人第一次说话。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（Science / PubMed）、[4]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

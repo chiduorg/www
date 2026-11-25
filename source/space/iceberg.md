@@ -4,28 +4,36 @@ title: 大型冰山
 titleEn: Large Iceberg
 dimension: length
 category: 地球与地质
-summary: '冰山是从冰川、冰盖或冰架断裂后漂浮在海洋中的大块冰。本条量的是大型冰山水面以上最长水平跨度，取分类上限约200米，不是总长度、出水高度或水下体积。'
+summary: 冰山是从冰川、冰盖或冰架断裂后漂浮在海洋中的大块冰。本条量的是大型冰山水面以上最长水平跨度，取分类上限约200米，不是总长度、出水高度或水下体积。
 quantity:
   value: 200
   unit: m
   measure: 大型冰山水面以上的最长水平跨度（大型与特大型分类的分界）
   approximate: true
-displayValue: '200 m（大型冰山跨度上限）'
+displayValue: 200 m（大型冰山跨度上限）
 related:
   - space.glacier
   - space.earth
   - space.pacific-ocean
   - space.everest
+  - temperature.earth-mantle
+  - time.earth-age
 reviewStatus: reviewed
 sources:
   - title: 'Manual of Ice (MANICE): chapter 1 — General Terminology'
-    url: 'https://www.canada.ca/en/environment-climate-change/services/weather-manuals-documentation/manice-manual-of-ice/chapter-1.html'
+    url: >-
+      https://www.canada.ca/en/environment-climate-change/services/weather-manuals-documentation/manice-manual-of-ice/chapter-1.html
     publisher: Environment and Climate Change Canada
     accessed: '2026-11-07'
-  - title: International System of Sea-Ice Symbols (WMO No. 259, Vol. III)
-    url: 'https://download.dmi.dk/public/ICESERVICE/2024_download_readme/WMO259_Vol_III_en.pdf'
+  - title: 'International System of Sea-Ice Symbols (WMO No. 259, Vol. III)'
+    url: >-
+      https://download.dmi.dk/public/ICESERVICE/2024_download_readme/WMO259_Vol_III_en.pdf
     publisher: World Meteorological Organization / Danish Meteorological Institute
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为漂浮在海洋中的大型冰山；测量口径为水面以上可见部分的最长水平跨度，取大型冰山分类的上限，不是冰山总长度、出水高度、水下体积或冰山的平均尺寸。
 uncertainty: >-
   加拿大《海冰手册》把大型冰山定为水面以上长度121至200米，特大型冰山为超过200米；200米是分类分界，不是所有大型冰山的平均值。不同观测角度与海况会使同一座冰山的量测值上下浮动。
@@ -33,20 +41,22 @@ review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '用WebFetch打开加拿大《海冰手册》第一章，核对大型冰山121至200米、特大型超过200米及46至75米出水高度。'
-    - '用WMO海冰符号规范PDF核对国际冰情巡逻分类表；正文明确200米是分类上限而非平均值。'
-    - '2026-11-07 来源可访问性核对：全部来源页返回可用响应（https://www.canada.ca/en/environment-climate-change/services/weather-manuals-documentation/manice-manual-of-ice/chapter-1.html；https://download.dmi.dk/public/ICESERVICE/2024_download_readme/WMO259_Vol_III_en.pdf），数值口径与正文一致。'
+    - 用WebFetch打开加拿大《海冰手册》第一章，核对大型冰山121至200米、特大型超过200米及46至75米出水高度。
+    - 用WMO海冰符号规范PDF核对国际冰情巡逻分类表；正文明确200米是分类上限而非平均值。
+    - >-
+      2026-11-07
+      来源可访问性核对：全部来源页返回可用响应（https://www.canada.ca/en/environment-climate-change/services/weather-manuals-documentation/manice-manual-of-ice/chapter-1.html；https://download.dmi.dk/public/ICESERVICE/2024_download_readme/WMO259_Vol_III_en.pdf），数值口径与正文一致。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: 'terrain'
-  variant: 'ice'
+  template: terrain
+  variant: ice
   color: '#9bbcd7'
-  caption: '大型冰山水面以上跨度参照'
-  note: '示意，非按比例，非观测重建；冰山轮廓、水面与水下部分为简化表示，不代表精确测量。'
-  scene: 'space.object'
-  referenceAxis: 'x'
+  caption: 大型冰山水面以上跨度参照
+  note: 示意，非按比例，非观测重建；冰山轮廓、水面与水下部分为简化表示，不代表精确测量。
+  scene: space.object
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -73,3 +83,5 @@ tags:
 ## 与其他尺度的关系
 
 200米约为珠穆朗玛峰雪面高程8,848.86米的2.3%，约为长江6,300公里的3%。它与大型岛屿的数百公里尺度相差三个数量级，说明冰山只是海洋中相对较小的漂浮冰体。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -6,7 +6,7 @@ summary: >-
   1%，其余来自胶子场与夸克动能。
 dimension: mass
 grade: A
-category: 强子
+category: 粒子与基本常数
 displayValue: 1.673×10⁻²⁷ kg
 quantity:
   value: 1.67262192595e-27
@@ -48,6 +48,14 @@ sources:
     url: 'https://home.cern/science/physics/standard-model'
     publisher: CERN
     accessed: '2026-11-09'
+  - title: "Atomic Weights and Isotopic Compositions"
+    url: "https://www.nist.gov/pml/atomic-weights-and-isotopic-compositions-relative-atomic-masses"
+    publisher: "National Institute of Standards and Technology"
+    accessed: '2026-11-24'
+  - title: "proton"
+    url: "https://www.britannica.com/science/proton-subatomic-particle"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 质子
@@ -72,6 +80,7 @@ visual:
   color: '#8dd5ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Proton
 ---
 ## 这个读数是什么
 
@@ -91,6 +100,30 @@ visual:
 
 1.673×10⁻²⁷ kg 落在 B2 带的上段，与中子、氢原子、氦核几乎同一十进位。它比电子重 1836 倍，这个比例决定了原子尺度的玻尔半径，也决定了物质在常温下的密度范围。
 
+## 质子半径的两种测量
+
+质子电荷半径曾出现“质子半径之谜”：电子散射给出约 0.88 飞米，氢原子光谱给出约 0.84 飞米，后来新测量逐步收敛。差异涉及测量方法、里德伯常数与量子电动力学修正。正文的质子质量不受这个半径争议影响，但讨论质子“大小”时必须分开质量与电荷分布。[1][S2]
+
+质量与电荷半径是两条独立测量链：Penning 阱给质荷比，散射与光谱给电荷分布。引用质子“大小”时，不应把 0.84 飞米与 1.67×10⁻²⁷ 千克混成同一个精度层级。
+
+质子质量还可以用 MeV/c² 表示：938.272 MeV/c²；在高能物理里，这比千克更方便，因为能量与动量都用电子伏特。
+
 ## 怎么继续走
 
 想看它如何与电子组成氢，去 mass.hydrogen-atom 与 elements.h；想看它比中子轻多少、为什么自由中子会衰变，去 mass.neutron；想看宇宙中质子的第一次出现，从 time.big-bang 进入时间轴。
+
+## 质子为什么稳定
+
+质子是唯一稳定的自由核子；标准模型允许它通过极罕见的过程衰变，但实验给出的寿命下限已超过 10³⁴ 年量级。[2] 这个稳定性不是“绝对证明”，而是不断收紧的观测上限。质子稳定是原子与化学世界长期存在的前提。
+
+## 五轴对照
+
+在质量轴，质子约 1.67×10⁻²⁷ 千克；在空间轴，质子约 1 飞米；在时间轴，原初核合成与恒星聚变都涉及质子；在温度轴，足够高的温度让质子参与聚变。质量、尺寸与稳定性是三个独立属性。[1][3]
+
+## 读数的口径与换算
+
+本条采用的量是 1.673×10⁻²⁷ kg，口径是 CODATA 2022 质子静质量；由 Penning 阱与原子质量标尺综合。质量是广延量，读数依赖湿重/干重、含血/不含血、整备/满载等口径；样本与测量条件必须一起引用。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（National Institute of Standards and Technology）、[5]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

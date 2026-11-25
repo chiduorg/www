@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: 理论对象；形成时点与尺度均无单一数值
 related:
+  - space.observable-universe
+  - mass.total-matter-universe
   - time.grand-unification-epoch
   - time.inflation
   - time.baryogenesis
   - time.magnetic-monopoles
-  - time.first-gravitational-structures
 reviewStatus: reviewed
 sources:
   - title: Cosmic strings

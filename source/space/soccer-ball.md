@@ -16,6 +16,7 @@ related:
   - space.tennis-ball
   - space.football-field
   - space.human
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Law 2: The Ball'
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/sports/football-soccer'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 直径为比赛规则规定的球体周长换算值，不是用卡尺直接量球面得到的读数；以成人比赛用球周长68–70 cm为参照，青少年和迷你球规格不同。
 uncertainty: >-
   IFAB规则给出周长68–70 cm，不是直径；按D=C/π换算得21.6–22.3 cm，本条取22
@@ -74,3 +79,7 @@ IFAB 的 Law 2: The Ball 写明：比赛用球必须呈球形，周长为 68 厘
 ## 与其他尺度的关系
 
 22 厘米的足球直径比篮球略小，约为网球直径的三倍多，比乒乓球大得多，约为人手长度的 1.3 倍。[1][2] 在尺度轴上，足球位于“二十厘米级”的日常人造物带：向上是篮球、书本和人体，向下是网球、硬币和铅笔。把周长统一换算成直径，才能让不同球类在同一张尺度图上比较。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.73 纳秒，在时间轴上量级接近「纳秒」。[3]

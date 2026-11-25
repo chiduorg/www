@@ -30,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/science/hydrogen'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: liquid-hydrogen
   icon: "\U0001F680"
@@ -91,3 +95,5 @@ tags:
 ## 与其他温区的关系
 
 20.3 K 低于液氮的 77.4 K、液氧的 90.2 K 和甲烷的 111.7 K，高于液氦的 4.2 K 和氦-3 超流 A 点的 2.444 mK。它处在“低温工程”与“极低温量子实验”之间的门槛温区。氢的临界温度为 −240.0 °C（233.15 K），高于沸点，说明常压液氢不是超临界流体。[2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

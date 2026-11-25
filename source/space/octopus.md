@@ -29,6 +29,10 @@ sources:
     url: 'https://www.nationalgeographic.com/animals/invertebrates/facts/common-octopus'
     publisher: National Geographic
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为中型章鱼（如普通章鱼）的成体；量八条腕完全伸展时左右腕尖之间的最大跨度；不是外套膜长度、沿单腕测量的总长度、体重或腕上吸盘数量。
 uncertainty: >-
@@ -78,3 +82,5 @@ Britannica的octopus条目说明章鱼大小差异很大：最小的约5厘米�
 ## 与其他尺度的关系
 
 1米约为0.59个1.7米高的人，约为10个0.1米菌盖的直径首尾相接，也约为4米大白鲨全长的四分之一。[1][2] 在尺度轴上，章鱼处在“米级动物”的下端：向上是鲨鱼、蓝鲸和巨杉，向下是浮游生物、细菌和病毒。臂展这一口径让章鱼与同样用横向跨度描述的金雕翼展、大白鲨全长区分开来。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

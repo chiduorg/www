@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: '35,786 km（轨道高度）'
 related:
+  - time.blink
   - space.earth
   - space.moon
   - space.iss
   - space.lhc
   - space.jwst-mirror
-  - space.gps-orbit
 reviewStatus: reviewed
 sources:
   - title: Geostationary Earth Orbit Satellite (GEO)
@@ -30,6 +30,10 @@ sources:
       https://www.nesdis.noaa.gov/our-satellites/currently-flying/geostationary-satellites
     publisher: NOAA NESDIS
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为地球赤道上空的地球静止轨道（GEO）；测量口径为轨道高度，即赤道海平面到圆轨道的高度，不是到地心距离、轨道周长或卫星尺寸；不适用于倾斜地球同步轨道或其他行星的同步轨道。
 uncertainty: >-
@@ -79,3 +83,7 @@ tags:
 ## 与其他尺度的关系
 
 35,786 公里约为地球直径 12,742 公里的 2.8 倍，约为地月平均距离 384,400 公里的 9.3%。它相当于约 94 米国际空间站桁架长度的 38 万倍。与地球半径相比，这个高度约为 5.6 个地球半径。正因为距离远，单颗静止卫星可覆盖约三分之一的地球表面，但信号往返延迟也明显增加。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 119 毫秒，在时间轴上量级接近「眨眼」。[3]

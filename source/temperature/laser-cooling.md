@@ -18,8 +18,9 @@ related:
   - temperature.evaporative-cooling
   - temperature.bose-einstein
   - temperature.absolute-zero
-  - temperature.quantum-degeneracy
-  - temperature.dilution-refrigerator
+  - space.atom
+  - mass.electron
+  - time.present
 reviewStatus: reviewed
 sources:
   - title: 'The Nobel Moment: Bill Phillips'
@@ -37,6 +38,14 @@ sources:
     url: 'https://arxiv.org/abs/2404.13210'
     publisher: 'Ferdinand et al., arXiv (2024)'
     accessed: '2026-11-06'
+  - title: "Thirty years of Bose-Einstein Condensates"
+    url: "https://jila.colorado.edu/news-events/articles/thirty-years-bose-einstein-condensates"
+    publisher: "JILA, University of Colorado Boulder"
+    accessed: '2026-11-24'
+  - title: "Bose-Einstein condensate"
+    url: "https://www.britannica.com/science/Bose-Einstein-condensate"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 conditions: 稀薄原子气体的激光冷却实验；不同原子、跃迁线宽、光强、失谐与磁场给出不同温度，多普勒冷却通常在毫开尔文到数百微开尔文，亚多普勒冷却可进入微开尔文。
 review:
   method: source-check
@@ -87,3 +96,23 @@ tags:
 ## 与其他温区的关系
 
 1 μK 比玻色—爱因斯坦凝聚的约 170 nK 高，比稀释制冷的约 10 mK 低四个量级；它远低于宇宙微波背景的 2.725 K，也远高于 0 K。激光冷却是冷原子实验的第一级，蒸发冷却再把温度推进到纳开尔文。[1][3]
+
+## 多普勒冷却与亚多普勒
+
+激光频率略低于原子跃迁时，迎面运动的原子更接近共振，优先吸收反向光子，从而减速；这就是多普勒冷却。[1] 它有一个温度下限，由跃迁线宽决定。亚多普勒机制利用偏振梯度或速度选择性相干，能突破这个下限，把温度推进到微开尔文甚至更低。[2] 两种机制不是同一种“激光越强越冷”。
+
+## 五轴对照
+
+在温度轴，激光冷却约 1 μK；在空间轴，原子被激光与磁场限制在毫米级区域；在质量轴，原子质量影响反冲温度；在时间轴，冷却与测量按毫秒计。温度、约束与时间共同决定实验。[1][3]
+
+## 多普勒冷却与亚多普勒
+
+激光频率略低于原子跃迁时，迎面运动的原子更接近共振，优先吸收反向光子而减速，这就是多普勒冷却。它有一个由跃迁线宽决定的下限；亚多普勒机制利用偏振梯度突破这个下限，把温度推进到微开尔文。两者不是“激光越强越冷”。[1][S2]
+
+## 读数的口径与换算
+
+本条采用的量是 约 1 μK（10⁻⁶ K），口径是 激光冷却实验达到温度参考。温度是强度量，读数依赖温标、测点与热平衡；同一对象的不同部位、不同时刻可以有不同温度。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（JILA, University of Colorado Boulder）、[5]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

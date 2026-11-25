@@ -20,6 +20,7 @@ related:
   - time.galaxy-cluster-crossing
   - time.galactic-year
   - time.galaxy-formation
+  - space.cmb-surface
 reviewStatus: reviewed
 sources:
   - title: How Do You Measure a Second?
@@ -35,6 +36,10 @@ sources:
       https://metanorma.github.io/bipm-si-brochure/si-brochure-3.01/BIPM%20SI%20Brochure%209e%20v3_01%20(2019_2024,%20E)/_21bd452c-81e1-620e-9c5d-a5156d5ca0e8_si-brochure-en/
     publisher: International Bureau of Weights and Measures (BIPM)
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -87,3 +92,5 @@ tags:
 ## 与其他尺度的关系
 
 10¹⁸ 秒约 316.9 亿年，是 10⁹ 秒的 10 亿倍，是 10¹² 秒的 100 万倍，是 10¹⁵ 秒的 1000 倍。它约为地球年龄 45.4 亿年的 7 倍，也约为星系穿越星系团时间 100 亿年的 3.2 倍，还约为银河年 2.3 亿年的 138 倍[2]。与人类文明五千年相比，它长约 634 万倍；与人类寿命 73 年相比，长约 4.34 亿倍；与地球年龄相比，则是 7 倍。这些倍数只是尺度对照，不代表任何因果联系。
+
+按同一真空光速计算，光在这段时间内约走 31.7 十亿光年，在空间轴上量级接近「最后散射面」。[4]

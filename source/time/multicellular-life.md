@@ -33,6 +33,10 @@ sources:
     url: 'https://pubmed.ncbi.nlm.nih.gov/38266082/'
     publisher: PubMed / National Library of Medicine
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: multicellular-life
   icon: "\U0001F9EB"
@@ -101,3 +105,12 @@ tags:
 ## 与其他阶段的关系
 
 这批化石位于真核生物分子记录之后、埃迪卡拉生物群之前，说明多细胞化在复杂动物出现前很久就已发生。[1][2] 它与寒武纪多样化相隔超过十亿年，因此不能把两者压缩成同一条“复杂生命爆发”时间线。[1]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 3.84×10¹⁷ 秒，换算后是 1.22×10¹⁰ 年；约 0.882 个当前宇宙年龄（138 亿年）。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10¹⁷ 量级附近。
+
+读图时先看量级，再看倍数：10¹⁷ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

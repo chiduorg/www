@@ -33,6 +33,10 @@ sources:
     url: 'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf'
     publisher: International Commission on Stratigraphy
     accessed: '2026-11-06'
+  - title: Facts About Earth — Formation
+    url: 'https://science.nasa.gov/earth/facts/'
+    publisher: NASA
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -51,11 +55,11 @@ conditions:
   conversion: presentSeconds - lookbackYears × secondsPerYear
   precision: 亿年级近似时代坐标，非高精度年代测量
 visual:
-  template: "geologic-section"
-  scene: "time.object"
-  caption: "冥古宙 · 早期地球"
-  note: "撞击、岩浆与尘埃为解释性示意，不表示地表每一处同时处于同一状态。"
-  color: "#b09a74"
+  template: geologic-section
+  scene: time.object
+  caption: 冥古宙 · 早期地球
+  note: 撞击、岩浆与尘埃为解释性示意，不表示地表每一处同时处于同一状态。
+  color: '#b09a74'
 mode: 时点
 tags:
   - 地质年代
@@ -81,3 +85,7 @@ tags:
 ## 与其他阶段的关系
 
 冥古宙之后是太古宙。最早的大陆地壳证据、最早生命痕迹和板块构造的早期线索，都在后续记录中逐渐变得可读。沿时间轴向后阅读，可以看到从行星聚集到海洋、大气与生物圈的过渡。把冥古宙理解为一个“准备阶段”，比把它当成单一事件更接近证据所显示的样子。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（NASA）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

@@ -16,6 +16,7 @@ related:
   - space.cell
   - space.protein
   - space.ribosome
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -28,6 +29,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC1852353/'
     publisher: Block et al. / Biophysical Journal；PubMed Central
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: molecular-motor
   icon: ⚙
@@ -83,3 +88,7 @@ Coy等人的单分子实验给出常规驱动蛋白每水解一个ATP约前进8.
 ## 与其他尺度的关系
 
 8纳米的步幅处在分子尺度；如果把驱动蛋白走完1微米比作一段路程，大约需要一百多步，每一步都由一个ATP分子驱动。[1] 分子马达、核糖体和细胞膜共同构成细胞内的“机器层”，连接分子反应与细胞尺度运动。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.7e-8 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

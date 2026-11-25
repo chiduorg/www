@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 1.4 × 10⁸ m（热木星直径，与木星相当）
 related:
+  - mass.sun
+  - temperature.sun-surface
   - space.red-dwarf
   - space.protoplanetary-disk
   - space.jupiter
   - space.proxima-centauri
-  - space.earth
 reviewStatus: reviewed
 sources:
   - title: Young Giant Planet Offers Clues to Formation of Exotic Worlds
@@ -28,6 +29,10 @@ sources:
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html'
     publisher: NASA / NSSDCA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 以热木星作为系外行星样本，取“与木星大小相近”的典型直径；适用于气态巨行星的尺度比较。 不适用于岩质超级地球、亚海王星或极端膨胀的热木星。
 uncertainty: >-
   NASA 对 HIP 67522 b 的描述是“约为地球直径的 10 倍，接近木星”，属于圆整比较。热木星半径 通常在 1.0–1.5
@@ -43,12 +48,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "热木星直径 · 与木星相当"
-  note: "行星表面与颜色为示意；直径按木星平均直径绘制，不代表具体系外行星；非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 热木星直径 · 与木星相当
+  note: 行星表面与颜色为示意；直径按木星平均直径绘制，不代表具体系外行星；非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -75,3 +80,5 @@ tags:
 ## 与其他尺度的关系
 
 1.4×10⁸ 米约为地球直径的 11 倍、太阳直径的十分之一。[2] 它比褐矮星略大或相当，却远小于红矮星；这也说明仅凭直径很难区分大行星与褐矮星，还需质量与形成历史。把热木星放进原行星盘，它只占盘内很小的一部分，却能在近距离轨道上显著影响盘的动力学。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

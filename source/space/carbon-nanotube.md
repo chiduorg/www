@@ -28,6 +28,10 @@ sources:
     url: 'https://www.iop.cas.cn/xwzx/kydt/202305/P020230509546437419220.pdf'
     publisher: 'Institute of Physics, Chinese Academy of Sciences / Wei et al.'
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   采用单壁碳纳米管的典型直径约 1 纳米；综述给出的单壁管直径范围约 0.6–2.0
   纳米，多壁管通常更粗。该值描述管径，不是管长；管长可从数纳米到厘米量级，且手性、壁数与制备方法会改变直径。
@@ -77,3 +81,5 @@ tags:
 ## 与其他尺度的关系
 
 1 纳米的管径使碳纳米管落在“纳米材料”区间：比苯环大，比量子点略小或相近，却远小于细胞。[1][2] 它与石墨烯共享 sp² 碳骨架，与富勒烯同属碳纳米结构家族。继续阅读石墨烯、富勒烯、量子点与晶格间距，可比较零维、一维、二维碳材料的尺度定义。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

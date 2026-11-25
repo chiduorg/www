@@ -4,7 +4,7 @@ title: 汞：第 80 个质子闭合 6s，相对论把它压成液态金属
 titleEn: 'Mercury: the 80th proton closes 6s'
 dimension: element
 category: 6s 闭壳金属
-summary: '金的 6s 添一个电子，汞成为 5d10 6s2；6s 闭壳与相对论收缩让电离能陡升 1.213 eV，金属键被削弱，汞因此在常温下呈液态。'
+summary: 金的 6s 添一个电子，汞成为 5d10 6s2；6s 闭壳与相对论收缩让电离能陡升 1.213 eV，金属键被削弱，汞因此在常温下呈液态。
 quantity:
   value: 80
   unit: Z
@@ -19,7 +19,7 @@ element:
   group: 12
   block: d
   configuration: '[Xe] 4f14 5d10 6s2'
-  valence: '4f14 5d10 6s2'
+  valence: 4f14 5d10 6s2
   level: A
   predicted: false
 related:
@@ -32,9 +32,14 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自 CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - >-
+      本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自
+      CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: 'PubChem Element Summary: Mercury'
     url: 'https://pubchem.ncbi.nlm.nih.gov/element/80'
@@ -44,10 +49,14 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/80/mercury'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
-  - title: 'NIST Atomic Spectra Database'
+  - title: NIST Atomic Spectra Database
     url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-09'
+  - title: Basic Information about Mercury
+    url: 'https://www.epa.gov/mercury/basic-information-about-mercury'
+    publisher: U.S. Environmental Protection Agency
+    accessed: '2026-11-24'
 conditions: 标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。
 visual:
   scene: elements.shell-ladder
@@ -94,3 +103,7 @@ tags:
 ## 怎么继续走
 
 往前是金，5d 刚填满、6s 还差一颗，是汞闭壳前最直接的对照；再往后到铅，6p 填到两个，闭壳被进一步推开。想弄清 6s2 为什么被相对论效应压得这么紧，去看镧系收缩解释页；想弄清“没有稳定同位素”与“有稳定同位素”的界线如何划定，去看核稳定性解释页。汞这一页说明：闭壳不只在惰性气体里出现，d 区收尾也能造出一个化学上极不活跃的金属。
+
+## 延伸核对
+
+汞的挥发性与甲基化过程决定其环境风险；本条的元素数据不替代健康暴露评估。[4]

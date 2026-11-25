@@ -18,6 +18,7 @@ related:
   - space.tuna
   - space.human
   - space.blue-whale
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: stingray
@@ -28,6 +29,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Dasyatis_americana/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为魟鱼（stingray，以Dasyatis brevicaudata的大型个体为参照）；量两胸鳍尖之间的盘宽，不是含尾全长、体重或单侧胸鳍长；2 m取在大型种类的盘宽上限附近。
 uncertainty: >-
@@ -76,3 +81,7 @@ Britannica的stingray条目写明，澳大利亚的Dasyatis brevicaudata盘宽�
 ## 与其他尺度的关系
 
 2米约为1.2个1.7米高的人，是1米长章鱼的2倍，约为0.48米猫体长的4.2倍，约为30米蓝鲸全长的十五分之一。[1][2] 在尺度轴上，它处在“几米级”动物的下段：向上是鳄和蟒，向下是人和猫。用盘宽，才能把它与用体长、翼展描述的动物区分开。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

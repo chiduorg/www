@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/83/bismuth'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, p 区, 铋]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往前是铅，中子数 126 的闭壳同样成立；往后是钋，6p 越过半满并第一次完全失去稳定同位素。想看闭壳与稳定线的关系，去看核稳定性解释页；想看 ²⁰⁹Bi 这类长寿命核在时间轴上的位置，去看重元素富集节点。铋这一页的关键词是闭壳。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

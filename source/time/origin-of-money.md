@@ -17,6 +17,7 @@ related:
   - time.bronze-age
   - time.classical-antiquity
   - time.industrial-revolution
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: 'coin: Origins of coins'
@@ -27,6 +28,11 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/place/Lydia-ancient-region-Anatolia'
     accessed: '2026-11-06'
+  - title: 'READ: Uruk'
+    url: >-
+      https://en.khanacademy.org/humanities/big-history-project/agriculture-civilization/first-cities-states/a/uruk
+    publisher: Khan Academy
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -84,3 +90,7 @@ Britannica 的钱币条目指出，中国公元前8世纪的货币是小型农�
 ## 交换制度后来怎样
 
 铸币降低了交易成本，使税收、军饷与远距离贸易更易核算，也让发行者获得铸币税与政治宣传的空间。与此同时，信用、借贷与记账仍在硬币之外运行。[1] 从吕底亚铸币到现代银行货币，变化的不只是材质，还有谁有权发行、用什么保证，以及货币是否可兑换。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Khan Academy）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

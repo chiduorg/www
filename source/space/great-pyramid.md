@@ -15,6 +15,7 @@ related:
   - space.burj-khalifa
   - space.human
   - space.city
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: The Great Pyramid
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.britannica.com/topic/Pyramids-of-Giza'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: great-pyramid
   icon: "\U0001F53A"
@@ -81,3 +86,7 @@ tags:
 ## 与其他尺度的关系
 
 146.5米约为哈利法塔828米的18%，比足球场105米边线长约1.4倍。与珠峰高程8848.86米相比，它约为后者的1.7%。它是古代建筑的高度，不是山体海拔，也不进入自然地貌的排名。[1]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 489 纳秒，在时间轴上量级接近「微秒」。[3]

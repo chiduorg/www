@@ -13,11 +13,12 @@ quantity:
   approximate: true
 displayValue: t ≈ 10⁻³² 秒（模型参考）
 related:
+  - space.observable-universe
+  - mass.total-matter-universe
   - time.inflation
   - time.reheating
   - time.quark-hadron-phase-transition
   - time.electroweak-epoch
-  - time.nucleosynthesis
 reviewStatus: reviewed
 sources:
   - title: Time-line in an Inflationary Big Bang Cosmology

@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/84/polonium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, p 区, 钋]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往前是铋，最后一个通常按稳定处理的第六周期 p 区元素；往后是砹，稳定同位素继续为零，半衰期更短。想看稳定线为什么会在这里断掉，去看核稳定性解释页；想看整条铀系链的时间尺度，去看 ²³⁸U 半衰期节点。钋这一页的关键词是衰变链产物。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

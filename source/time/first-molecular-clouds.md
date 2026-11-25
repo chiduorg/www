@@ -18,6 +18,7 @@ related:
   - time.first-molecules
   - time.first-dark-matter-halos
   - time.first-stars
+  - space.cmb-surface
 reviewStatus: reviewed
 sources:
   - title: Cosmic eras

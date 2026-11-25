@@ -18,6 +18,7 @@ related:
   - space.penicillium
   - space.bacteria
   - space.hair
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Medical Mycology Exercise Workbook'
@@ -28,6 +29,10 @@ sources:
     url: 'https://medicine.uodiyala.edu.iq/uploads/lectures/Microbiology%202015/Dr.%20Luma/mycology%20new%20lec..pdf'
     publisher: University of Diyala College of Medicine
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为丝状真菌的菌丝；量单根菌丝横截面的直径，不含菌落直径、孢子直径和菌丝长度；以较粗菌丝的 10 μm 作为取整参照。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 10 μm 约为头发丝直径（约 100 μm）的十分之一，约为酵母菌（约 5 μm）的两倍，也约为细菌（约 1 μm）的十倍。向上看，一片霉菌菌落的可见直径可达厘米级；向下看，菌丝仍比多数病毒和分子大得多。它处在单细胞与多细胞交界处的微观带。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.000033 纳秒，在时间轴上量级接近「纳秒」。[3]

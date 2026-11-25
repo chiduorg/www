@@ -30,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/animal/blue-whale'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: blue-whale
   icon: "\U0001F40B"
@@ -86,3 +90,5 @@ NOAA 渔业局的蓝鲸页面在“Quick Facts”中列出体长上限110英尺�
 ## 与其他尺度的关系
 
 30米约相当于17个1.7米高的人首尾相接，也约等于三辆10米长的公交车。[1][2] 与地球、山脉相比，它仍很小；但与我们日常熟悉的动物相比，它处在“巨型生物”层级。向上是山脉和地球尺度，向下是人体、手、昆虫和细胞。蓝鲸把“几十米”这个尺度变得可以直观想象。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -48,6 +48,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/110/darmstadtium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 超重元素, 𫟼, 预测值]
 rights:
   status: rewritten
@@ -75,3 +79,5 @@ N/Z 几乎不动，因为 Z 增一、A 增三，中子数只多两个。[2] 这�
 ## 它从哪里来
 
 𫟼由重离子轰击锕系靶核合成，产物极少。[2] 它挂在“人工核合成时代”节点上。已知同位素无稳定成员，半衰期极短，只能靠衰变链识别，本页不列具体半衰期。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

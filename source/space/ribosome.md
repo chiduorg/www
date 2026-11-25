@@ -32,6 +32,10 @@ sources:
     url: 'https://pdb101.rcsb.org/motm/121'
     publisher: RCSB Protein Data Bank / David Goodsell
     accessed: '2026-11-04'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: ribosome
   icon: "\U0001F3ED"
@@ -88,3 +92,5 @@ tags:
 ## 与其他尺度的关系
 
 20纳米的核糖体比细菌（约1微米）小约五十倍，比典型细胞（20微米）小约一千倍；它却包含数十种蛋白质和长链RNA。[1] 核糖体、tRNA和蛋白质分子共同构成细胞内的分子机器层，位于细胞器与原子之间的尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

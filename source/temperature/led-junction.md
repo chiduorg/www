@@ -20,6 +20,7 @@ related:
   - temperature.soldering-iron
   - temperature.room-temperature
   - temperature.oven
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -33,6 +34,10 @@ sources:
     url: 'https://docs.rs-online.com/4592/0900766b80e289cf.pdf'
     publisher: RECOM / RS Components
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 半导体芯片结区
   measurementSite: LED 芯片有源区，非灯珠外壳或散热器
@@ -87,3 +92,5 @@ LED 结温指半导体芯片中有源结区的温度，通常记为 Tj。它不�
 ## 与其他温度的关系
 
 125 °C 高于 boiling-water 的 100 °C，也远高于 room-temperature 的 20 °C 示例和 human-body-temperature 的约 37 °C；它低于 oven 的 180 °C 设定，也低于 soldering-iron 的工作温区。与 tungsten-filament 的灯丝温度相比，它低得多；与 neon-sign 的管壁温度相比，它测的是半导体结区而非玻璃外壁。把发光器件放在同一张表上时，必须区分结温、外壳温度、管壁温度和色温。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

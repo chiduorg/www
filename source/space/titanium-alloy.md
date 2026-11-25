@@ -18,6 +18,7 @@ related:
   - space.diamond-unit-cell
   - space.hair
   - space.red-blood-cell
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Effect of Cryo-Rolling on the Microstructural Evolution and Mechanical Properties of Ti-6Al-4V Alloy
@@ -28,6 +29,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10934528/'
     publisher: Materials (MDPI) / PMC, Du et al.
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   以 Ti-6Al-4V 的等轴 α 相晶粒为对象，取平均晶粒直径约 10 微米；
   片层组织、马氏体组织或经严重塑性变形的超细晶不在此口径内。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 10 微米约为头发丝 100 微米的 1/10，约为人体细胞 20 微米的一半，与红细胞 7.5 微米接近。它约相当于 5 万个 0.2 纳米的晶格间距，却远大于 0.4 微米的 α 片层。把本页与晶格间距、金刚石晶胞和红细胞对照，可看出同一材料内部存在多个尺度层级。Ti-6Al-4V 的 α 晶粒与钢晶粒同处 10 微米量级，说明不同合金的晶粒尺度可以相近，但相组成不同。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.000033 纳秒，在时间轴上量级接近「纳秒」。[3]

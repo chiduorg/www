@@ -23,6 +23,7 @@ related:
   - temperature.copper-melting-point
   - temperature.tin-melting
   - temperature.lead-melting-point
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: C90400 Tin Bronze alloy data

@@ -18,6 +18,7 @@ related:
   - space.nacl-crystal
   - space.diamond-unit-cell
   - space.halite
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Gypsum
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.mindat.org/show.php?id=1784'
     publisher: Hudson Institute of Mineralogy / Mindat
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取常温常压下的石膏 I2/a 单斜晶胞，量 5.679 Å 这条短边；b 轴为 15.202 Å，
   c 轴为 6.522 Å，β 约 118.4°。该值不是 S—O 键长，也不是手标本尺寸。
@@ -77,3 +82,7 @@ conceptGroup: crystal
 ## 与其他尺度的关系
 
 0.568 nm 约为 NaCl 晶格常数 0.564 nm 的 1.01 倍，约为石英 a 轴 0.491 nm 的 1.16 倍。[1][2] 它的长边 1.52 nm 已接近 DNA 直径 2 nm。与云母 c 轴 2.0 nm 相比，石膏最长边约为其四分之三。[1][2] 这说明单斜晶胞可以在一个方向上被拉得很长。继续阅读晶格间距、NaCl 晶体与金刚石晶胞，可比较单斜与立方晶系。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.9e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

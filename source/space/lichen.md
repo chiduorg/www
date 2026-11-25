@@ -18,6 +18,7 @@ related:
   - space.leaf
   - space.mushroom
   - space.hair
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Protoparmeliopsis muralis'
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.luomus.fi/sites/default/files/files/lichenfinland_sample_pages.pdf'
     publisher: Finnish Museum of Natural History (LUOMUS)
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为叶状地衣的叶状体；量平铺在基质上的最大跨度，不含翘起边缘与重叠部分，不量厚度，也不量单个共生藻细胞。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 10 cm 约为苔藓高度（5 cm）的两倍，与蘑菇菌盖直径（10 cm）同量级，也约为头发丝直径（100 μm）的 1000 倍。芬兰图鉴还提到，有些 Nephroma 的松散群体可连成近 1 m 宽，但那是多个叶状体拼在一起，不是单个叶状体。[2] 叶状体的裂片只有 1–2 mm 宽，约为整体直径的五十分之一到百分之一。[1]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.33 纳秒，在时间轴上量级接近「纳秒」。[3]

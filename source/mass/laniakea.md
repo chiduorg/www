@@ -5,7 +5,7 @@ summary: >-
   拉尼亚凯亚超星系团是以巨引源为中心的庞大结构，总质量约 2.0×10⁴⁷ kg，折合约 1×10¹⁷
   个太阳质量，口径包含暗物质。数值由星系流场与引力盆划分估算，相对不确定度约 50%，属量级估算。
 dimension: mass
-category: 超星系团
+category: 星系与宇宙
 displayValue: 2.0×10⁴⁷ kg
 quantity:
   value: 2e+47
@@ -24,6 +24,8 @@ related:
   - mass.virgo-cluster
   - mass.cfa2-great-wall
   - mass.local-group
+  - space.laniakea
+  - space.milky-way
 reviewStatus: reviewed
 review:
   method: source-check
@@ -79,6 +81,7 @@ visual:
   color: '#a6bfff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Laniakea Supercluster
 ---
 ## 这个读数是什么
 

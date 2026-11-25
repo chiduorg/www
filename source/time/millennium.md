@@ -17,6 +17,7 @@ related:
   - time.decade
   - time.year
   - time.agricultural-revolution
+  - space.omega-centauri
 reviewStatus: reviewed
 sources:
   - title: year
@@ -27,6 +28,14 @@ sources:
     url: 'https://www.britannica.com/topic/Gregorian-calendar'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Climate and the collection
+    url: 'https://blog.sciencemuseumgroup.org.uk/climate-and-the-collection/'
+    publisher: Science Museum Group
+    accessed: '2026-11-24'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -50,12 +59,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "chronometer"
-  scene: "time.object"
-  caption: "一千年 · 冰层与长期环境变化示意"
-  note: "冰层、地形与光照为风格化示意，非按比例、非观测重建。"
-  variant: "calendar"
-  color: "#9fc1cf"
+  template: chronometer
+  scene: time.object
+  caption: 一千年 · 冰层与长期环境变化示意
+  note: 冰层、地形与光照为风格化示意，非按比例、非观测重建。
+  variant: calendar
+  color: '#9fc1cf'
 mode: 时长
 tags:
   - 时长尺度
@@ -80,3 +89,9 @@ tags:
 ## 与其他尺度的关系
 
 十个世纪构成一千年，一千年包含一百个十年；向上可继续用百万年描述地质与宇宙过程，向下可分解为世纪、年、月、周、天。[1][2] 千年处于人类历史与行星尺度之间：它足够容纳文明兴衰，却不足以描述物种演化。比较不同条目时，先确认它用的是公历平均年还是实测年代。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Science Museum Group）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+按同一真空光速计算，光在这段时间内约走 1000 光年，在空间轴上量级接近「半人马座ω星团」。[4]

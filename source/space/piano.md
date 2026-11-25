@@ -13,12 +13,12 @@ quantity:
   approximate: true
 displayValue: 1.5 m（小型三角钢琴长度）
 related:
+  - time.atomic-transition
   - space.guitar
   - space.cello
   - space.violin
   - space.human
   - space.door
-  - space.drum-kit
 reviewStatus: reviewed
 sources:
   - title: Steinway Model S Baby Grand Piano
@@ -29,6 +29,10 @@ sources:
     url: 'https://www.steinway.com/pianos/steinway/grand'
     publisher: Steinway & Sons
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为小型三角钢琴；测量口径为键盘前缘到琴尾最远端的琴身水平长度，不含谱架、琴凳与踏板延伸；不适用于立式钢琴或演奏会用大型三角钢琴。
 uncertainty: >-
@@ -75,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 1.5 米约等于 7.5 个 0.2 米的全手长度，也约等于 0.83 辆 1.8 米自行车。与 4.5 米家用轿车相比，三角钢琴约为其 33%；与 2.032 米标准门高相比约为其 74%。它比 1.0 米的民谣吉他长约 50%，搬进标准房门时通常需要侧身或拆装琴腿。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 5.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

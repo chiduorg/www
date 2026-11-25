@@ -16,6 +16,7 @@ related:
   - space.table
   - space.laptop
   - space.tshirt
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Embody Office Chair — Overall Dimensions
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.hermanmiller.com/content/dam/hermanmiller/documents/product_literature/product_sheets/emea/embody_chairs_product_sheet_fr-fr.pdf'
     publisher: Herman Miller
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为常见人体工学办公椅；量取地面到椅背顶端，坐垫调至中位；扶手、头枕与可拆卸靠垫不计入，总高随座高调节变化。
 uncertainty: Embody 总高标称 1067–1143 mm、座高 432–559 mm；按座高线性取中位，总高约 1105 mm，取整为 1.10 m；不同型号可达 95–120 cm，扶手与头枕会使实际外廓更高。
 review:
@@ -70,3 +75,7 @@ Herman Miller Embody 的欧洲官方页列出总高 1067–1143 毫米、座高 
 ## 与其他尺度的关系
 
 1.10 米比 0.90 米的餐椅高 20 厘米，比 1.8 米的冰箱矮 70 厘米，约为 34.5 厘米笔记本屏幕对角线的 3.2 倍。[1][2] 它不到 1.8 米长餐桌的 0.61 倍，也约为 70 厘米 T恤衣长的 1.6 倍。与 45 厘米的台灯相比，椅背顶端高出一倍多，说明办公椅是房间里接近半人高的坐具。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

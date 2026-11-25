@@ -33,6 +33,14 @@ sources:
     publisher: 中国国家图书馆·国家古籍保护中心
     url: 'https://www.nlc.cn/pcab/zlyj/zlyj_djsh/20190418_177776.shtml'
     accessed: '2026-11-06'
+  - title: "A primer for Italian renaissance art"
+    url: "https://smarthistory.org/primer-italian-renaissance-art/"
+    publisher: "Smarthistory"
+    accessed: '2026-11-24'
+  - title: "Enlightenment"
+    url: "https://plato.stanford.edu/entries/enlightenment/"
+    publisher: "Stanford Encyclopedia of Philosophy"
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -88,3 +96,23 @@ tags:
 ## 与其他阶段的关系
 
 活字印刷前接文字、纸张和手抄传播，后接文艺复兴、宗教改革、科学革命与启蒙运动；它降低了复制文本的成本，使批评和争论能更快跨地区传播。[1][3] 与今天的数字网络相比，印刷仍是需要作坊、金属和纸张的物理技术，但它已经让信息复制从少数书吏的工作变成可规模化的行业。
+
+## 活字不是印刷革命的全部
+
+活字可重复使用，但排字、校对与装订仍是劳动密集环节；早期印刷厂的成本主要来自纸张、油墨与人工。[1][3] 雕版印刷适合固定文本与图像，活字适合多次重排；两种技术长期并存。把印刷革命只归功于“活字”一个发明，会忽略生产链的其他环节。
+
+## 五轴对照
+
+在时间轴，欧洲金属活字约 1440 年；在空间轴，印刷术从中国经中亚与欧洲扩散；在温度轴，油墨与纸张的干燥受环境影响；在质量轴，一本书的纸张与金属活字重量决定运输和成本。技术、材料与传播网络共同改变书籍市场。[1][3]
+
+## 金属活字与整版印刷
+
+古腾堡的关键不是“发明活字”，而是把金属活字、油墨、压印与排版组合成可复制的生产系统；中国更早已有泥活字、木活字与金属活字。欧洲金属活字与字母系统、纸张供应和市场需求共同作用。正文的“印刷术”是技术系统的节点，不是单一人物的发明。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 公元约1440年 · t ≈ 138 亿年，口径是 time-after-big-bang-derived-historical-reference。时间轴上的年份是地层、文献或模型给出的坐标，误差从几十年到几十万年不等；分期边界不是一条绝对精确的线。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（Smarthistory）、[5]（Stanford Encyclopedia of Philosophy） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

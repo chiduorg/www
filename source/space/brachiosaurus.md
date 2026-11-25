@@ -18,6 +18,7 @@ related:
   - space.blue-whale
   - space.human
   - space.elephant
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: brachiosaur
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/animal/sauropod'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为腕龙属（Brachiosaurus）；量从吻端到尾椎末端的全长，不是抬头高度、肩高或体重；25 m 取在最大估值一侧。
 uncertainty: >-
@@ -74,3 +79,7 @@ Britannica 的 brachiosaur 条目说，腕龙的最大长度接近 25 米，体�
 ## 与其他尺度的关系
 
 25 米约等于 15 个 1.7 米高的人首尾相接，约等于 2 条 12 米霸王龙，也约等于 0.8 条 30 米蓝鲸。[1][2] 它比 9 米三角龙长约 2.8 倍，但体重与体长不成比例。放在尺度轴上，腕龙站在“几十米级陆生动物”的上端；向下是霸王龙、三角龙和大象，向上则要跨到蓝鲸这样的海洋巨兽。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 83.4 纳秒，在时间轴上量级接近「原子跃迁」。[3]

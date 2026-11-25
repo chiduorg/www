@@ -18,6 +18,7 @@ related:
   - space.condor
   - space.elephant
   - space.crocodile
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: ostrich
@@ -28,6 +29,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Struthio_camelus/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为非洲鸵鸟（Struthio camelus）；量站立时脚底到头顶的高度，不是仰卧体长、体重或腿长；2.5 m取在一般描述约2 m与雄性上限2.75 m之间，靠近上限。
 uncertainty: >-
@@ -76,3 +81,7 @@ Britannica的鸵鸟条目说，雄性可长到2.75米（9英尺）高，体重�
 ## 与其他尺度的关系
 
 2.5米约为1.5个1.7米高的人，比1.2米高的帝企鹅高1.3米，比3.2米翼展的安第斯神鹫短0.7米，约为4米尼罗河鳄全长的0.63倍。[1][2] 在尺度轴上，它处在“几米级”动物的下段：向上是鳄和蟒，向下是人和企鹅。用站立高，才能把这只最高的鸟与用翼展、全长描述的动物放在同一根轴上。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 8.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

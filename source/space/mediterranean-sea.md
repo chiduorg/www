@@ -16,6 +16,7 @@ related:
   - space.nile
   - space.sahara
   - space.pacific-ocean
+  - time.millisecond
 reviewStatus: reviewed
 sources:
   - title: Mediterranean Sea
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/place/Mediterranean-Sea'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为地中海海盆；测量口径为从直布罗陀海峡至东端海岸的东西长度，不是南北最大宽度、面积、平均深度或含黑海的总水域范围。
 uncertainty: >-
   学生版给出约2,400英里（3,900公里）；成人版从直布罗陀海峡到土耳其伊斯肯德伦湾附近记为约2,500英里（4,000公里）。差异来自东端取点与圆整，不是海面在变化。
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 3,900公里约为地球平均半径6,371公里的61%，约为长江6,300公里的62%。它比尼罗河6,650公里短约41%，但作为海盆，其长度描述的是水域边界，不是河流路径。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 13 毫秒，在时间轴上量级接近「毫秒」。[3]

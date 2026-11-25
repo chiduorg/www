@@ -19,6 +19,7 @@ related:
   - time.millisecond
   - time.second
   - time.present
+  - space.aircraft-carrier
 reviewStatus: reviewed
 sources:
   - title: 'The International System of Units (SI): Prefixes'
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.nist.gov/how-do-you-measure-it/how-do-you-measure-second'
     publisher: National Institute of Standards and Technology (NIST)
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -83,3 +88,7 @@ tags:
 ## 与其他尺度的关系
 
 一毫秒包含一千微秒，一微秒包含一千纳秒，向上到秒则是一百万倍。[1] 微秒位于纳秒与毫秒之间，常用于描述比日常反应更快、又比单个光学周期更慢的过程。它和毫秒、纳秒一样，是秒的十进分数，而不是像天、年那样来自天文周期；比较不同条目时，先确认说的是持续时长还是绝对时刻。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+按同一真空光速计算，光在这段时间内约走 300 米，在空间轴上量级接近「航空母舰」。[3]

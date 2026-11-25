@@ -28,6 +28,10 @@ sources:
       https://extension.usu.edu/pests/schoolipm/structural-pest-id-guide/pharaoh-ant
     publisher: Utah State University Extension
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: ant
   icon: "\U0001F41C"
@@ -56,7 +60,7 @@ visual:
   referenceAxis: x
   caption: 法老蚁工蚁身体长度
   note: 身体主轴为参照；腿、触角伸展不计入体长，外形仅作工蚁辨认示意；图为示意，非按比例，非观测重建。
-  framePadding: 0.41
+  framePadding: 0.34
   sourceMeasure: 法老蚁工蚁约1/16英寸的体长参照
   scene: space.object
 measureType: 尺寸
@@ -84,3 +88,5 @@ tags:
 ## 与其他尺度的关系
 
 1.6毫米的蚂蚁比0.5毫米的尘螨大约三倍，比5毫米的蚊子小，更比6毫米的木匠蚁小型工蚁小。[1][2] 它提醒读者：同一个“蚂蚁”标签下可以跨越数倍体长。继续阅读蚂蚁体长条目，可以看到同一属内工蚁品级分化如何改变尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

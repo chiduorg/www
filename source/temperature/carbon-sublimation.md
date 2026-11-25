@@ -25,6 +25,7 @@ related:
   - temperature.silicon-melting
   - temperature.glass_melting
   - temperature.iron-melting
+  - space.sun
 reviewStatus: reviewed
 sources:
   - title: 'Graphite sublimation temperatures, carbon arcs and crystallite erosion'

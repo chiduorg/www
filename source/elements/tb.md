@@ -48,6 +48,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/65/terbium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 镧系, 铽]
 rights:
   status: rewritten
@@ -81,3 +85,5 @@ Tb³⁺ 的 4f8 有六个未成对电子，自旋-轨道耦合强，磁各向异
 ## 怎么继续走
 
 往前是钆，5d1 让半满壳出现缺口；往后是镝，4f 继续加到 4f10，磁各向异性进一步放大。想看 4f 与 5d 谁先被填，看电子排布解释页；想看 4f 收缩怎样从镧一路压到铪，看镧系收缩解释页。铽这一格的价值，是让人看到“退回 4f”并不是倒退，而是能量与屏蔽重新算账的结果。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

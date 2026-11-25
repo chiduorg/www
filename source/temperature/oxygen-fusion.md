@@ -17,11 +17,12 @@ quantity:
   uncertaintyType: 阶段温区与模型差异
 displayValue: 约 2 × 10⁹ K（恒星模型参考）
 related:
+  - space.sun
+  - mass.sun
   - temperature.carbon-fusion
   - temperature.silicon-burning
   - temperature.red-giant-core
   - temperature.sun-core
-  - temperature.supernova
 reviewStatus: reviewed
 sources:
   - title: What is Your Cosmic Connection to the Elements?
@@ -32,6 +33,10 @@ sources:
     url: 'https://ned.ipac.caltech.edu/level5/Sept16/Rauscher/Rauscher4.html'
     publisher: 'T. Rauscher and A. Patkos, NASA/IPAC NED'
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: oxygen-fusion
   icon: "\U0001F525"
@@ -91,3 +96,5 @@ tags:
 ## 与其他温区的关系
 
 2 × 10⁹ K 高于碳燃烧的约 0.7 GK，低于硅燃烧的约 3 GK，处在高级燃烧链条的中后段。它远高于太阳核心的约 15 MK，也远高于太阳表面与日冕；把它与这些温度放在同一张图上时，必须标注“核心模型值”，否则会误以为整颗恒星都处于十亿开。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

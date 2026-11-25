@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/98/californium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 锕系, 锎]
 rights:
   status: rewritten
@@ -70,3 +74,5 @@ rights:
 ## 它从哪里来
 
 来源记作“人工（加速器与反应堆）”。锎既能在反应堆中由锕系核连续俘获中子生成，也能在加速器里由重离子轰击得到。[2] 挂到时间轴上，这仍在核时代之内：反应堆提供产量，加速器提供更重的反应道。锎没有稳定同位素，任何样品都会持续衰变，无法长期存放。[2]
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

@@ -15,8 +15,9 @@ related:
   - space.earth-moon-distance
   - space.au
   - space.earth
-  - space.sun
   - space.light-year
+  - time.present
+  - mass.sun
 reviewStatus: reviewed
 sources:
   - title: 2022 CODATA — Complete Listing of Fundamental Constants
@@ -31,6 +32,14 @@ sources:
     url: 'https://www.britannica.com/science/light-year'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "Moon Fact Sheet — Orbital Parameters"
+    url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html"
+    publisher: "NASA NSSDC"
+    accessed: '2026-11-24'
+  - title: "Moon Facts"
+    url: "https://science.nasa.gov/moon/facts/"
+    publisher: "NASA Science"
+    accessed: '2026-11-24'
 legacy:
   id: light-second
   icon: "\U0001F4A1"
@@ -87,3 +96,23 @@ tags:
 ## 与其他尺度的关系
 
 地月平均距离384,400公里约合1.28光秒；日地平均距离1.496亿公里约合499光秒。一光秒约为地球赤道周长40,030公里的7.5倍，却只是光年的一小部分。[1][3]
+
+## 光速是定义值，不是测量结果
+
+1983 年起，米被定义为真空光在 1/299,792,458 秒内走过的长度，因此光速成为定义常数。[1][2] 光秒的数值没有“测量不确定度”，它的精度取决于秒的实现与单位制定义。若有人说“光速测得越来越准”，需要区分：光速已被固定，改进的是复现米和秒的技术。
+
+## 光秒与光年的关系
+
+一光年是光在儒略年 365.25 天里走的长度，约 31,557,600 光秒。[3] 光秒适合描述太阳系内的信号延迟，光年适合恒星际距离。把两者混用会让数量级错位：地月距离约 1.28 光秒，而比邻星距离约 4.26 光年。
+
+## 五轴对照
+
+在空间轴，一光秒约 30 万公里；在时间轴，它把 1 秒的传播时间换成距离；在质量轴，光速与质量一起决定史瓦西半径；在温度轴，光子气体的能量与温度相关。光秒是长度单位，不是时间单位。[1][2]
+
+## 光秒不是时间单位
+
+光秒是光在真空中一秒走过的距离，约 299,792 公里；它用时间定义长度，但量纲仍是米。光年是光走一年的距离，约 9.46 万亿公里，等于约 3,600 万个光秒。把“光秒”当成“一秒”或把光年当成时间，是最常见的单位混淆。[1][S1]
+
+## 延伸核对
+
+补充的来源 [4]（NASA NSSDC）、[5]（NASA Solar System Exploration） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

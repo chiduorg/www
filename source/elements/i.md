@@ -20,7 +20,11 @@ element:
   configuration: '[Kr] 4d10 5s2 5p5'
   valence: 4d10 5s2 5p5
   level: A
-related: [elements.sn, elements.xe, time.heavy-element-enrichment, elements.explain-nuclear-stability]
+related:
+  - elements.sn
+  - elements.xe
+  - time.heavy-element-enrichment
+  - elements.explain-nuclear-stability
 conditions: 标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。
 visual:
   scene: elements.shell-ladder
@@ -31,26 +35,40 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自 CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - >-
+      本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自
+      CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: 'PubChem Element Summary: Iodine'
-    url: https://pubchem.ncbi.nlm.nih.gov/element/53
+    url: 'https://pubchem.ncbi.nlm.nih.gov/element/53'
     publisher: U.S. National Library of Medicine
     accessed: '2026-11-09'
   - title: 'Periodic Table: Iodine'
-    url: https://www.rsc.org/periodic-table/element/53/iodine
+    url: 'https://www.rsc.org/periodic-table/element/53/iodine'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
   - title: NIST Atomic Spectra Database
-    url: https://physics.nist.gov/asd
+    url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-09'
-tags: [元素, 第五周期, 5p 区, 卤素]
+  - title: "Micronutrients"
+    url: >-
+      https://www.who.int/health-topics/micronutrients
+    publisher: "World Health Organization"
+    accessed: '2026-11-24'
+tags:
+  - 元素
+  - 第五周期
+  - 5p 区
+  - 卤素
 rights:
   status: rewritten
-  note: "依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。"
+  note: 依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。
 ---
 ## 第 53 个质子把电子放进了哪里
 
@@ -82,3 +100,7 @@ facts 把碘的核来源标为“r 过程与 s 过程”。碘不是铁峰燃烧
 ## 怎么继续走
 
 往左的碲不在本批条目中，方向上只是 5p 少一个电子；往右到氙，5p 补满，闭壳成立，碘的“差一个”在那里得到终点。往左再到锡，5p 只有两个电子，可以对照 p 区从开头到接近闭壳的整段变化。想弄清碘为什么只有一个稳定同位素、而氙有九个，去看核稳定性解释页；想弄清碘为什么在重元素富集节点上出现，去看时间轴的重元素富集节点。碘这一页的核心不是“它是一种卤素”，而是“离闭壳只差一步时，化学与核稳定性同时变得敏感”。
+
+## 延伸核对
+
+碘的生理必需性来自甲状腺激素合成；元素条目只讲原子序数与性质，公共卫生口径需另引。[4]

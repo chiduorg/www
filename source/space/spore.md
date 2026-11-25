@@ -16,6 +16,7 @@ related:
   - space.ecoli
   - space.yeast
   - space.cell
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/endospore'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 扫描电子显微镜下对纯化、固定并干燥的芽孢测量；芽孢形状、物种与制样收缩会影响读数。
 uncertainty: 1 μm 是所引嗜热脂肪芽孢杆菌芽孢的直径代表值；不同芽孢杆菌属物种的芽孢可从约 0.6 μm 到 1.5 μm 甚至更大，椭圆形芽孢的长短轴也不同。
 review:
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 1 μm 约等于典型大肠杆菌短轴的两倍，却只有红细胞直径的七分之一左右[1]。它比酵母细胞（约 5 μm）小，但比多数病毒颗粒（几十到一百多纳米）大一个数量级。若把 1 μm 放大到一根头发直径，需要约七十倍；这使芽孢在油镜下可见，却仍需要电镜才能看清其外壳层次。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.0000033 纳秒，在时间轴上量级接近「纳秒」。[3]

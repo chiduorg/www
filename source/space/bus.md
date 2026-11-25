@@ -18,6 +18,7 @@ related:
   - space.bicycle
   - space.human
   - space.subway-car
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Specifications for Volvo 7900 Electric
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.mercedes-benz-bus.com/ch/de/models/citaro/facts-citaro.pdf'
     publisher: Mercedes-Benz Buses
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为单节两轴城市公交车；测量口径为车身前后保险杠外缘之间的纵向尺寸，不含后视镜、雨刮器、车顶空调机组与尾部拖钩；不适用于铰接公交车或长途客车。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 12 米约等于 6.7 辆 1.8 米自行车首尾相接，也约等于 2.7 辆 4.5 米家用轿车。与 68.4 米的波音 747 相比，公交车长度约为其 18%；与 365 米的大型邮轮相比则不足其 4%。它还是 2.032 米标准门高的约 5.9 倍，停在路边时通常占去一条 3.5 米车道的大半。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 40 纳秒，在时间轴上量级接近「原子跃迁」。[3]

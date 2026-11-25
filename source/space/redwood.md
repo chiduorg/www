@@ -16,6 +16,7 @@ related:
   - space.everest
   - space.burj-khalifa
   - space.hand
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: About the Trees
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/plant/coast-redwood'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 树高指从树基地面到树顶的垂直距离；112 m是美国国家公园管理局所述海岸红杉可达高度，不是林分平均高，也不是树干直径。
 uncertainty: >-
   红杉个体高度差异很大，112 m是来源给出的可达值而非平均值；不同测量方法、树顶是否存活和地形都会改变读数。个别更高的记录不在本条数值内，不能把112
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 112米约为成年人身高的六十六倍，约为哈利法塔高度的七分之一，也约为珠穆朗玛峰高度的八十分之一。[1][2] 在尺度轴上，红杉从“米级”日常尺度向上跨到“百米级”建筑与地形尺度。它说明生物的尺寸可以远远超出人的日常经验，但即便在同一物种内，高度也只是一个分布，而不是一个常数。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 374 纳秒，在时间轴上量级接近「微秒」。[3]

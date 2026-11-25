@@ -20,6 +20,8 @@ related:
   - temperature.absolute-zero
   - temperature.bose-einstein
   - temperature.coldest-brown-dwarf
+  - space.moon
+  - mass.helium-nucleus
 reviewStatus: reviewed
 sources:
   - title: ALMA Returns to Boomerang Nebula
@@ -32,6 +34,10 @@ sources:
       https://www.almaobservatory.org/en/press-releases/alma-reveals-ghostly-shape-of-coldest-place-in-the-universe/
     publisher: ALMA Observatory (2013)
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: boomerang-nebula
   icon: "\U0001F300"
@@ -92,3 +98,5 @@ tags:
 ## 与其他温区的关系
 
 它比 2.725 K 的宇宙微波背景更低，是少数“冷于背景”的天体气体；但与实验室的 170 nK 玻色—爱因斯坦凝聚、421 μK 核退磁电子温度相比仍高出几个量级。[1] 这也说明天体“有效温度”和实验室“热平衡温度”不是同一把尺子。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -19,6 +19,8 @@ related:
   - temperature.lightning
   - temperature.thermosphere
   - temperature.plasma-cutter
+  - space.iss
+  - space.atmosphere
 reviewStatus: reviewed
 sources:
   - title: 'Plasma Science in Planetary Entry'
@@ -29,6 +31,14 @@ sources:
     url: 'https://www.nasa.gov/thermophysics-facilities-faq/'
     publisher: NASA
     accessed: '2026-11-07'
+  - title: "How Hot Is Lightning?"
+    url: "https://www.weather.gov/safety/lightning-temperature"
+    publisher: "NOAA National Weather Service"
+    accessed: '2026-11-24'
+  - title: "How Hot Can Lightning Get?"
+    url: "https://www.britannica.com/science/How-Hot-Can-Lightning-Get"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 conditions: >-
   对象为再入体前方激波层中的空气等离子体；1 × 10⁴ K 是随再入速度、高度和气体成分变化的量级估计，
   不是防热大底表面温度，也不是舱内温度。
@@ -84,3 +94,25 @@ tags:
 ## 与其他温区的关系
 
 10⁴ K 高于火箭燃烧室的约 3,600 K，与闪电通道附近的量级相当，低于日冕的约 10⁶ K。它处在“工程高温”和“天体等离子体”之间的过渡区，说明再入加热足以电离空气，却不代表航天器整体达到这个温度。
+
+## 黑障与通信
+
+再入等离子体鞘会反射和吸收无线电，造成通信中断，俗称黑障。[1] 等离子体频率与电子密度决定哪个波段被屏蔽；频率较高的通信可能穿透，但链路的稳定性仍受鞘套湍流影响。把黑障当成航天器故障，会误解它的物理来源。
+
+## 五轴对照
+
+在温度轴，激波层约 10⁴ K；在空间轴，鞘套包住返回舱；在质量轴，飞行器质量与弹道决定再入速度；在时间轴，黑障持续数十秒到数分钟。温度、速度与时间共同决定热负荷。[1][2]
+
+## 黑障与通信
+
+再入等离子体鞘会反射和吸收无线电，造成通信中断，俗称黑障。等离子体频率与电子密度决定哪个波段被屏蔽；频率较高的通信可能穿透，但链路稳定性仍受鞘套湍流影响。把黑障当成航天器故障，会误解它的物理来源。[1][S2]
+
+## 读数的口径与换算
+
+本条采用的量是 约 1 × 10⁴ K（量级估计），口径是 再入激波层等离子体温度量级估计。温度是强度量，读数依赖温标、测点与热平衡；同一对象的不同部位、不同时刻可以有不同温度。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+再入等离子体的温度还随飞行速度与高度变化：更快的月球返回比近地轨道返回更热，但持续时间更短；两者不能只比峰值温度。
+
+## 延伸核对
+
+补充的来源 [3]（NOAA National Weather Service）、[4]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

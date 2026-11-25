@@ -4,8 +4,7 @@ title: Ia 型超新星爆燃温度
 titleEn: Type Ia supernova deflagration temperature
 dimension: temperature
 category: 恒星与宇宙极端
-summary: >-
-  碳氧白矮星中心点燃碳聚变后，次音速爆燃火焰的温度约 10⁹ K。它描述燃烧波内的温度量级，不是整颗白矮星或爆发后遗迹的温度。
+summary: 碳氧白矮星中心点燃碳聚变后，次音速爆燃火焰的温度约 10⁹ K。它描述燃烧波内的温度量级，不是整颗白矮星或爆发后遗迹的温度。
 quantity:
   value: 1000000000
   unit: K
@@ -18,25 +17,31 @@ related:
   - temperature.supernova
   - temperature.supernova-remnant
   - temperature.gamma-ray-burst
+  - space.supernova-remnant
+  - space.red-giant
 reviewStatus: reviewed
 sources:
   - title: Flame Fronts in Type Ia Supernovae and Their Pulsational Stability
     url: 'https://academic.oup.com/mnras/article/433/4/2840/1747724'
-    publisher: Glazyrin, Blinnikov & Dolgov, MNRAS 433 (2013)
+    publisher: 'Glazyrin, Blinnikov & Dolgov, MNRAS 433 (2013)'
     accessed: '2026-11-07'
-  - title: Type Ia Supernova Models Arising from Different Distributions of Igniting Points
+  - title: >-
+      Type Ia Supernova Models Arising from Different Distributions of Igniting
+      Points
     url: 'https://www.aanda.org/articles/aa/full/2005/05/aa1628/aa1628.html'
-    publisher: García-Senz & Bravo, A&A 430 (2005)
+    publisher: 'García-Senz & Bravo, A&A 430 (2005)'
     accessed: '2026-11-07'
-conditions: >-
-  对象为接近钱德拉塞卡质量的碳氧白矮星中心、碳聚变点燃后的次音速爆燃火焰；取爆燃阶段、火焰后方的温度；10⁹ K 为取整量级，对应约 86 keV。
-uncertainty: >-
-  火焰温度随中心密度、碳氧比例和燃烧阶段变化；爆轰阶段可更高，不同模型给出的点燃温度也会上下浮动，不能当作精确测温。
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
+conditions: 对象为接近钱德拉塞卡质量的碳氧白矮星中心、碳聚变点燃后的次音速爆燃火焰；取爆燃阶段、火焰后方的温度；10⁹ K 为取整量级，对应约 86 keV。
+uncertainty: 火焰温度随中心密度、碳氧比例和燃烧阶段变化；爆轰阶段可更高，不同模型给出的点燃温度也会上下浮动，不能当作精确测温。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 来源复核：本地直连受站点反爬/限流限制，写作阶段已用 WebFetch 逐条打开核对数值。'
+    - 2026-11-07 来源复核：本地直连受站点反爬/限流限制，写作阶段已用 WebFetch 逐条打开核对数值。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -73,3 +78,5 @@ Ia 型超新星通常起源于碳氧白矮星的热核失控。中心附近碳�
 ## 与其他尺度的关系
 
 10⁹ K 与大爆炸核合成温度、超新星激波突破温度同量级，但三者对象不同：一个是早期宇宙等离子体，一个是激波后气体，一个是白矮星内部燃烧波。它高于太阳核心约 1.57×10⁷ K 约 60 倍，低于核心坍缩中微子球的 10¹¹ K 约 100 倍，更远低于夸克胶子等离子体的 5×10¹² K。与 Ia 型超新星爆发后遗迹的约 10⁶ K 相比，高约三个数量级。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

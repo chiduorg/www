@@ -20,6 +20,7 @@ related:
   - time.giant-impact
   - time.earth-formation
   - time.oldest-rock
+  - space.hercules-corona-borealis-great-wall
 reviewStatus: reviewed
 sources:
   - title: Early formation of the Moon 4.51 billion years ago
@@ -30,6 +31,10 @@ sources:
     url: 'https://pubs.usgs.gov/gip/geotime/age.html'
     publisher: United States Geological Survey (USGS)
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -81,3 +86,7 @@ tags:
 ## 与其他尺度的关系
 
 45 亿年约为地球年龄 45.4 亿年的 0.99 倍、太阳年龄 46 亿年的 0.98 倍，比星系穿越星系团时间 100 亿年短一半多，约为银河年 2.3 亿年的 19.6 倍。它也是十亿秒的 31.69 年的约 1.42 亿倍、一万亿秒的 3.17 万年的约 14.2 万倍、一千万亿秒的 3169 万年的约 14.2 倍、一百亿亿秒的 316.9 亿年的 0.142 倍[1]。它约为人类寿命 73 年的 616 万倍，也约为文明五千年记录的 9 万倍；这些对照只是帮助定位尺度。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+按同一真空光速计算，光在这段时间内约走 4.5 十亿光年，在空间轴上量级接近「武仙–北冕巨墙」。[3]

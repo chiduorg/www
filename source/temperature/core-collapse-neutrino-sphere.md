@@ -4,8 +4,7 @@ title: 核心坍缩中微子球温度
 titleEn: Core-collapse neutrinosphere temperature
 dimension: temperature
 category: 恒星与宇宙极端
-summary: >-
-  核心坍缩超新星中，原中子星表面的中微子球温度约 10 MeV，约合 10¹¹ K。它描述中微子最后散射面的热辐射温度，不是整个坍缩核心的均匀温度。
+summary: 核心坍缩超新星中，原中子星表面的中微子球温度约 10 MeV，约合 10¹¹ K。它描述中微子最后散射面的热辐射温度，不是整个坍缩核心的均匀温度。
 quantity:
   value: 100000000000
   unit: K
@@ -18,25 +17,29 @@ related:
   - temperature.neutron-star-core
   - temperature.neutron-star-surface
   - temperature.gamma-ray-burst
+  - time.first-stars
+  - space.supernova-remnant
 reviewStatus: reviewed
 sources:
   - title: Diffuse Supernova Neutrinos at Underground Laboratories
     url: 'https://arxiv.org/abs/1007.3252'
-    publisher: C. Lunardini, Astropart. Phys. 79 (2016)
+    publisher: 'C. Lunardini, Astropart. Phys. 79 (2016)'
     accessed: '2026-11-07'
   - title: 'Stellar Explosions: From Supernovae to Gamma-Ray Bursts'
     url: 'https://arxiv.org/abs/astro-ph/0410349'
-    publisher: K. Postnov, arXiv (2004)
+    publisher: 'K. Postnov, arXiv (2004)'
     accessed: '2026-11-07'
-conditions: >-
-  对象为核心坍缩后形成的原中子星表面、不同味道中微子的最后散射层；取坍缩后约数秒内、中微子能谱对应的准热温度；10¹¹ K 为取整量级，对应约 10 MeV。
-uncertainty: >-
-  不同味道中微子的平均能量和最后散射层不同，温度可在约 5–20 MeV 范围变化；坍缩早期与后期也不同，不能当作精确测温或整个原中子星的最高温度。
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
+conditions: 对象为核心坍缩后形成的原中子星表面、不同味道中微子的最后散射层；取坍缩后约数秒内、中微子能谱对应的准热温度；10¹¹ K 为取整量级，对应约 10 MeV。
+uncertainty: 不同味道中微子的平均能量和最后散射层不同，温度可在约 5–20 MeV 范围变化；坍缩早期与后期也不同，不能当作精确测温或整个原中子星的最高温度。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 来源复核：两条来源本地直连可访问；写作阶段已逐条用 WebFetch 打开核对数值。'
+    - 2026-11-07 来源复核：两条来源本地直连可访问；写作阶段已逐条用 WebFetch 打开核对数值。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -73,3 +76,5 @@ tags:
 ## 与其他尺度的关系
 
 10¹¹ K 约为太阳核心温度的 6000 倍，与核心坍缩超新星的 10¹¹ K 量级温标处于同一层次，但本条限定在中微子球而非整个坍缩核心。它高于中子星表面约 2×10⁶ K 和超新星遗迹约 10⁶ K，低于夸克胶子等离子体的 5×10¹² K，也低于电弱过渡与普朗克温度。与早期宇宙中微子退耦的 10¹⁰ K 相比，高约一个数量级，但一个是致密天体表面，一个是宇宙学背景。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

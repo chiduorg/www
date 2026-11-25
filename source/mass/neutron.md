@@ -6,7 +6,7 @@ summary: >-
   衰变变成质子、电子与反中微子。
 dimension: mass
 grade: A
-category: 强子
+category: 粒子与基本常数
 displayValue: 1.675×10⁻²⁷ kg
 quantity:
   value: 1.67492750056e-27
@@ -47,6 +47,14 @@ sources:
     url: 'https://home.cern/science/physics/standard-model'
     publisher: CERN
     accessed: '2026-11-09'
+  - title: "Atomic Weights and Isotopic Compositions"
+    url: "https://www.nist.gov/pml/atomic-weights-and-isotopic-compositions-relative-atomic-masses"
+    publisher: "National Institute of Standards and Technology"
+    accessed: '2026-11-24'
+  - title: "PDG Live — neutron listings"
+    url: "https://pdgprod.lbl.gov/pdgprod/pdgLive/Particle.action?init=0&node=S017"
+    publisher: "Particle Data Group"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 中子
@@ -71,6 +79,7 @@ visual:
   color: '#8dd5ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Neutron
 ---
 ## 这个读数是什么
 
@@ -90,6 +99,30 @@ visual:
 
 1.675×10⁻²⁷ kg 与质子、氢原子、氦核同处 B2 带的上段，四者只差千分之几。这个紧密的集群说明核子质量尺度由 QCD 能标决定，而不是由单个夸克质量决定；真正拉开量级的是原子、分子与宏观物体。
 
+## 自由中子寿命的两种实验
+
+自由中子寿命约 878 秒，但“束流法”与“瓶法”给出的结果存在几秒的长期差异，尚未完全解释。束流法数衰变产物，瓶法数剩余中子；系统误差来源不同。正文的 878 秒是综合值，不是单一实验的精确读数。[1][S2]
+
+中子星里的中子不是自由中子：核物质中的泡利阻塞与强相互作用改变了衰变通道，所以中子星不会在 878 秒内全部衰变。自由寿命与束缚态稳定性必须分开讨论。
+
+中子与质子的质量差约 1.293 MeV/c²，大于电子质量 0.511 MeV/c²，因此自由中子 β 衰变在能量上允许；反过来则不允许。
+
 ## 怎么继续走
 
 想看这个质量差如何决定 β 衰变，去 mass.proton；想看中子星如何把核子压成致密物质，去 mass.neutron-star 与 time.neutron-star-merger；想看中微子如何带走衰变能量，去 mass.neutrino-1。
+
+## 自由中子与束缚中子
+
+自由中子平均约 878 秒衰变，但原子核内的中子可以稳定存在，因为核结合能改变了能量账本。[1][2] 同一个粒子，自由与束缚状态的寿命不同。把“中子寿命”当成所有中子的固定属性，会忽略环境。
+
+## 五轴对照
+
+在质量轴，中子约 1.675×10⁻²⁷ 千克；在空间轴，它是原子核的组成部分；在时间轴，自由中子衰变按秒计；在温度轴，早期宇宙的温度决定中子—质子比例。质量差、寿命与温度共同决定核合成。[1][3]
+
+## 读数的口径与换算
+
+本条采用的量是 1.675×10⁻²⁷ kg，口径是 CODATA 2022 中子静质量；由 Penning 阱与核反应运动学综合。质量是广延量，读数依赖湿重/干重、含血/不含血、整备/满载等口径；样本与测量条件必须一起引用。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（National Institute of Standards and Technology）、[5]（Particle Data Group） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

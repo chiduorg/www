@@ -19,6 +19,7 @@ related:
   - temperature.water-triple-point
   - temperature.liquid-hydrogen
   - temperature.absolute-zero
+  - space.moon
 reviewStatus: reviewed
 sources:
   - title: The International Temperature Scale of 1990 (ITS-90)
@@ -30,6 +31,10 @@ sources:
     url: 'https://webbook.nist.gov/cgi/cbook.cgi?ID=C7440019&Mask=4'
     publisher: NIST Chemistry WebBook
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: neon-triple-point
   icon: "\U0001F4A1"
@@ -91,3 +96,5 @@ tags:
 ## 与其他温区的关系
 
 24.5561 K 低于氖的正常沸点 27.104 K，高于氢的沸点 20.3 K 和平衡氢三相点 13.8033 K，也高于氦的 4.2 K。[1][2] 它处在 ITS-90 低温段的校准节点，连接 3 K 附近的氦气体温度计温区与更高的氖、氧、氩固定点。它与常压沸点 27.104 K 的差值约 2.5 K，正好对应氖狭窄的液态温区。把它与水的三相点 273.16 K 相比，可见不同物质的三相点跨越了很宽的温度范围。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

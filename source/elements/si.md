@@ -20,7 +20,11 @@ element:
   configuration: 1s2 2s2 2p6 3s2 3p2
   valence: 3s2 3p2
   level: A
-related: [elements.al, elements.p, time.pop-iii-supernovae, elements.explain-energy-levels]
+related:
+  - elements.al
+  - elements.p
+  - time.pop-iii-supernovae
+  - elements.explain-energy-levels
 conditions: 标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。
 visual:
   scene: elements.shell-ladder
@@ -31,26 +35,41 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自 CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - >-
+      本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自
+      CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
-  - title: "PubChem Element Summary: Silicon"
-    url: https://pubchem.ncbi.nlm.nih.gov/element/14
+  - title: 'PubChem Element Summary: Silicon'
+    url: 'https://pubchem.ncbi.nlm.nih.gov/element/14'
     publisher: U.S. National Library of Medicine
     accessed: '2026-11-09'
-  - title: "Periodic Table: Silicon"
-    url: https://www.rsc.org/periodic-table/element/14/silicon
+  - title: 'Periodic Table: Silicon'
+    url: 'https://www.rsc.org/periodic-table/element/14/silicon'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
   - title: NIST Atomic Spectra Database
-    url: https://physics.nist.gov/asd
+    url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-09'
-tags: [元素, 第三周期, p 区, 半导体]
+  - title: >-
+      Carrier lifetimes of >1 μs in Sn-Pb perovskites enable efficient
+      all-perovskite tandem solar cells
+    url: 'https://www.science.org/doi/full/10.1126/science.aav7911'
+    publisher: Science / AAAS
+    accessed: '2026-11-24'
+tags:
+  - 元素
+  - 第三周期
+  - p 区
+  - 半导体
 rights:
   status: rewritten
-  note: "依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。"
+  note: 依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。
 ---
 ## 第 14 个质子把电子放进了哪里
 
@@ -78,3 +97,7 @@ rights:
 ## 怎么继续走
 
 往上是铝：3p¹ 代表金属侧；往下是磷：3p³ 达到半满，第一电离能继续升到 10.487 eV。想弄清 3p 成对后为什么束缚更紧、以及 3d 为何被推迟到第四周期，去看能级与填充次序解释页。时间轴的超新星节点补上来源一侧：硅燃烧造出的核怎样离开恒星核心，成为下一代的原料。
+
+## 延伸核对
+
+硅的半导体行为来自能带结构，不是单一原子属性；本条给元素身份，器件性能需另引。[4]

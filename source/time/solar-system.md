@@ -17,8 +17,8 @@ related:
   - space.sun
   - space.earth
   - time.earth-formation
-  - space.human
   - elements.source-abundance
+  - mass.earth
 chronology:
   status: reference
   plot: true
@@ -32,6 +32,14 @@ sources:
     url: 'https://science.nasa.gov/solar-system/solar-system-facts/'
     publisher: NASA
     accessed: '2026-11-04'
+  - title: "Neptune Fact Sheet"
+    url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html"
+    publisher: "NASA / NSSDCA"
+    accessed: '2026-11-24'
+  - title: "Oort cloud"
+    url: "https://www.britannica.com/science/Oort-cloud"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 legacy:
   id: solar-system
   icon: "\U0001FA90"
@@ -90,3 +98,23 @@ tags:
 ## 两种时间与一段过程
 
 距今约四十六亿年描述向过去回望的时长；本站用 time.present 减去这一时长，把它放在大爆炸后约九十二亿年的位置。换算不提高原始年代的精度，也不表示所有行星那时已经位于现今轨道。这个点指向形成阶段，盘、碰撞和轨道的动画表达机制，而非某一天的真实重建。[1]
+
+## 陨石定年把“形成”变成可测年龄
+
+太阳系最古老的固体包括富钙铝包体（CAI）和球粒陨石中的难熔包裹体；铅同位素与短寿命放射性核素给出约 45.67 亿年的年龄。[1][2] 这个年龄约束的是太阳星云中最早固体的凝结，不是太阳本身点燃氢聚变的时刻。把“太阳系形成”写成一个日期，必须说明测的是哪一类样品。
+
+## 形成不是一次排好队
+
+原行星盘中的尘埃先聚成星子，星子再通过碰撞与引力扰动长成行星；有些碰撞会摧毁已有天体，有些则合并。[2] 因此行星的最终轨道和大小是多次事件的产物，不能把今天的八行星布局倒推成形成瞬间的初始条件。盘的生命期约数百万年，行星组装则可能持续更久。
+
+## 五轴对照
+
+在时间轴，太阳系形成约 46 亿年前；在空间轴，行星区域约 60 au；在质量轴，太阳占系统总质量的 99% 以上；在温度轴，盘内温度梯度决定岩石与冰的分布。年龄、尺度、质量与温度共同约束形成模型。[1][2]
+
+## 陨石定年给出的是事件时刻
+
+太阳系形成时间约 45.67 亿年，主要由钙铝包体（CAI）的铅同位素定年给出；CAI 是最早凝结的固体，但太阳本身可能早于它几十万年。不同陨石、不同同位素体系给出的年龄略有差异。正文的“太阳系形成”是一个事件窗口，不是太阳点火的精确秒表。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（NASA / NSSDCA）、[4]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

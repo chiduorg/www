@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: '4,205 m（冒纳凯亚峰顶海拔）'
 related:
+  - time.microsecond
   - space.everest
   - space.olympus-mons
   - space.earth
   - space.mid-ocean-ridge
   - space.glacier
-  - space.mount-fuji
 reviewStatus: reviewed
 sources:
   - title: How big are the Hawaiian volcanoes?
@@ -28,6 +28,10 @@ sources:
     url: 'https://www.usgs.gov/volcanoes/mauna-kea/'
     publisher: U.S. Geological Survey
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为夏威夷冒纳凯亚盾状火山；样本为USGS峰顶高程；口径为相对海平面的海拔，不是从海底基座起算的锥体总高度，也不是火山口直径。
 uncertainty: USGS两页给出4205米与4207米，差异来自测量与取整；若从海底基座算起，总高度约10211米。
 review:
@@ -72,3 +76,7 @@ USGS说明冒纳凯亚峰顶海拔4205米，同时指出它向海面以下延伸
 ## 与其他尺度的关系
 
 4205米约为珠峰雪面高程8848.86米的48%，但若按海底基座到峰顶的10211米计，则超过珠峰海拔。[1][2] 与地球直径12742公里相比，它不到后者的0.04%。火山属于地表地形尺度，既高于城市，也远小于行星。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 14 微秒，在时间轴上量级接近「微秒」。[3]

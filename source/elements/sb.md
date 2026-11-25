@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/51/antimony'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第五周期, 5p 区, 锑]
 rights:
   status: rewritten
@@ -78,3 +82,5 @@ rights:
 ## 怎么继续走
 
 往左是锡，5p 只有两个电子，还肯继续配对；往右是碲，5p 开始成对，类金属色彩转淡，再往后一步就是碘。想弄清半满为什么特别稳，去读周期律解释页；想弄清 s 与 r 两条路径为何都落在重元素富集节点，去读时间轴那一格。锑这一页的核心是：一个质子把 5p 推过半程，化学身份就卡在了中途。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

@@ -20,6 +20,7 @@ related:
   - temperature.room-temperature
   - temperature.sauna
   - temperature.hot-spring
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Approaches to Composting
@@ -31,6 +32,10 @@ sources:
       https://www.govinfo.gov/content/pkg/CFR-2019-title40-vol32/pdf/CFR-2019-title40-vol32-chapI-subchapP.pdf
     publisher: U.S. Government Publishing Office
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 有机质堆体
   measurementSite: 堆体中心或堆芯，非堆表或环境空气
@@ -84,3 +89,5 @@ tags:
 ## 与其他温度的关系
 
 60 °C 高于 human-body-temperature 的约 37 °C 和 room-temperature 的 20 °C 示例，也高于 gut 的约 37 °C 温区；低于 sauna 的约 80 °C 空气温度和 boiling-water 的 100 °C。与 hot-spring 相比，堆肥的热来自生物代谢而非地热。把堆肥与这些条目并列时，必须区分“生物产热”“环境加热”和“人为设定”三种不同的来源。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

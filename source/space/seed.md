@@ -17,6 +17,7 @@ related:
   - space.leaf
   - space.coin
   - space.sand-grain
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/plant/common-bean'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 量单粒菜豆成熟种子的最大直线长度，不含豆荚、胚根和种皮突起；1.2 cm是取整参照，不是全部菜豆种子的定值。
 uncertainty: >-
   来源只给出菜豆种子长度上限约1.5 cm；1.2 cm是在此范围内的取整参照。品种、成熟度、含水量和同一豆荚内的位置都会改变种子大小，不能把1.2
@@ -77,3 +82,7 @@ NCBI PMC 的一篇综述在描述菜豆时写道，菜豆种子光滑、饱满�
 ## 与其他尺度的关系
 
 1.2厘米的菜豆种子约为米粒的两倍，接近成年人指甲的宽度，明显小于乒乓球和鸡蛋。[1][2] 在尺度轴上，它处在“厘米级”的较小一端：向上是树叶、花朵和手掌，向下是沙粒、花粉和细胞。种子的大小差异也说明，生物的“长度”往往需要带上物种和样本条件才有意义。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.040 纳秒，在时间轴上量级接近「纳秒」。[3]

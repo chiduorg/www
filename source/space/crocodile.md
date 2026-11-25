@@ -29,6 +29,10 @@ sources:
     url: 'https://seaworld.org/animals/facts/reptiles/nile-crocodile/'
     publisher: United Parks & Resorts / SeaWorld
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为尼罗河鳄（Crocodylus niloticus）；量吻端到尾尖的全长，不是体重、体高或只量头体长；4 m取在成体平均值4–4.5 m的下沿，低于约6 m的最大纪录。
 uncertainty: >-
@@ -77,3 +81,5 @@ Britannica的尼罗河鳄条目写明：成体平均4到4.5米（13.1到14.8英�
 ## 与其他尺度的关系
 
 4米约为2.4个1.7米高的人首尾相接，和4米大白鲨的全长同量级，比3米科莫多巨蜥长1米，约为30米蓝鲸全长的七分之一。[1][2] 在尺度轴上，它处在“几米级动物”的中段：向上是蓝鲸与巨杉，向下是蟒、龟和蜂鸟。统一用全长，才能和用翼展、站立高描述的动物放在同一根轴上比较。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

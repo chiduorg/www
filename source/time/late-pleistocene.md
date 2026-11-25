@@ -19,6 +19,7 @@ related:
   - time.last-glacial-maximum
   - time.younger-dryas
   - time.holocene-epoch
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -29,6 +30,10 @@ sources:
     url: 'https://macrostrat.org/api/defs/intervals?interval_name=Late%20Pleistocene'
     publisher: Macrostrat, University of Wisconsin–Madison
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -81,3 +86,5 @@ tags:
 ## 与其他尺度的关系
 
 晚更新世约 11.7 万年，约占第四纪 258 万年的 4.5%。[1] 它比中更新世短得多，却包含末次盛冰期与随后的快速升温；与新仙女木期约 1200 年相比，后者只是这段时期末尾的一个短插曲。[2] 与全新世约 1.17 万年相比，它长约十倍，因此人类文明史只覆盖这段时期末尾的一小部分。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

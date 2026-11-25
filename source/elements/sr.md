@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/38/strontium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第五周期, 碱土金属, 锶]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往回看铷（/entry/elements/rb/），能看到 5s 从一枚变一对时电离能为何上升；往前看钇（/entry/elements/y/），能看到 4d 开启后 d 区怎样接续。若想把“闭壳—二价”这条线索拉直，可以回到钙与氪两格对照。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

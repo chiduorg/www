@@ -3,7 +3,7 @@ id: mass.motorcycle
 title: 摩托车：214 kg，本田 CB750 制造商整备质量
 summary: 本田 CB750 的整备质量约 214 kg，取自制造商整车规格：满油、含全部工作液，不含骑手与行李。整备质量不是干重，两者通常差十几到二十千克。
 dimension: mass
-category: 交通工具
+category: 工程与交通
 displayValue: 214 kg
 quantity:
   value: 214
@@ -15,6 +15,8 @@ related:
   - mass.piano
   - mass.dog
   - mass.adult-human
+  - space.motorcycle
+  - space.everest
 reviewStatus: reviewed
 review:
   method: source-check
@@ -67,6 +69,7 @@ visual:
   color: '#e0b67b'
   scaleMin: -40
   scaleMax: 53
+titleEn: Honda CB750
 ---
 ## 这个读数是什么
 

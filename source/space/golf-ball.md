@@ -17,6 +17,7 @@ related:
   - space.apple
   - space.basketball
   - space.hand
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: The Rules of Equipment — Part 4 Conformance of Balls
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.usga.org/custom-search-pages/rules/equipment-rules/rule-14611.html'
     publisher: USGA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为符合高尔夫球设备规则的球；测量口径为球体直径，规则规定不得小于 42.67 毫米，未规定最大直径。
 uncertainty: >-
@@ -73,3 +78,7 @@ R&A 的设备规则写明：球的直径不得小于 1.680 英寸（42.67 毫米
 ## 与其他尺度的关系
 
 42.67 毫米约为成年人手长 19 厘米的 0.22 倍，也约为 A4 纸长边 29.7 厘米的 0.14 倍。它比直径约 24 毫米的硬币大 1.8 倍，约为直径 80 毫米苹果的 0.53 倍。与直径约 24 厘米的篮球相比，高尔夫球直径约为其 0.18 倍。与直径约 4 厘米的乒乓球相比，高尔夫球略大一点。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.14 纳秒，在时间轴上量级接近「纳秒」。[3]

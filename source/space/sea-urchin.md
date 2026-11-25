@@ -17,6 +17,7 @@ related:
   - space.barnacle
   - space.oyster
   - space.coral
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Strongylocentrotus purpuratus'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/animal/sea-urchin'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为海胆纲（Echinoidea）的球形海胆，以紫海胆（Strongylocentrotus purpuratus）为参照；量壳（test）的最大直径，不含棘、管足和围口部；不是带棘整体尺寸或棘长；10 cm 取在该种 50–100 mm 壳径的上端。
 uncertainty: >-
@@ -73,3 +78,7 @@ ADW 对紫海胆（Strongylocentrotus purpuratus）的记录写明，壳径从 5
 ## 与其他尺度的关系
 
 10 厘米约等于蘑菇菌盖 10 厘米，约为网球直径 6.7 厘米的 1.5 倍，约为牡蛎壳长 20 厘米的一半，也约为藤壶壳口 5 厘米的两倍。[1][2] 在尺度轴上，海胆壳径落在“十厘米级”的中段：向下是藤壶、牡蛎幼体和硬币，向上是手掌、手机和珊瑚群体。明确“不含棘”，才能让这个数字与其他动物尺寸可比。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.33 纳秒，在时间轴上量级接近「纳秒」。[3]

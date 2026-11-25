@@ -15,6 +15,7 @@ related:
   - space.earthworm
   - space.earth
   - space.glacier
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Helix pomatia
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.britannica.com/animal/snail'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为罗马蜗牛（Helix pomatia）成熟个体；量取壳的横向最大外径，不含壳口、壳顶的局部凸起，也不把伸出的头部、触角与腹足计入；活体与空壳按同一外径口径读取。
 uncertainty: Animal Diversity Web给成熟壳的高度与直径均为3.8至5.0厘米；本条取直径上限5.0厘米，故下限一侧可低至3.8厘米。不同蜗牛种类差异很大，壳径从几毫米到十几厘米都有，本条不代表整个腹足纲。
 review:
@@ -69,3 +74,7 @@ Animal Diversity Web记录罗马蜗牛成熟壳的高度和直径均为3.8至5.0
 ## 与其他尺度的关系
 
 5厘米约为成年蚯蚓体长30厘米的六分之一，约为乒乓球直径4厘米的1.25倍；与珠穆朗玛峰8848.86米相比，仅为其0.00056%。[1][2] 它属于手掌可握的日常尺度，比米粒大，但远小于城市街区。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.17 纳秒，在时间轴上量级接近「纳秒」。[3]

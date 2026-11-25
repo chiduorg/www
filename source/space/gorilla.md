@@ -16,6 +16,7 @@ related:
   - space.chimpanzee
   - space.brown-bear
   - space.elephant
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Gorilla beringei
@@ -26,6 +27,10 @@ sources:
     url: 'https://animals.sandiegozoo.org/animals/gorilla'
     publisher: San Diego Zoo Wildlife Alliance
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性山地大猩猩；量取从吻端沿背部到尾根的头体长，尾部不计（大猩猩无外尾）；不采用后腿直立时的站高、臂展或胸围。
 uncertainty: ADW 给出东非大猩猩头体长 150–185 cm；San Diego Zoo 给出雄性站立高度最高约 1.75 m。头体长与站高口径不同，本条取 1.7 m 作为大型成年雄性的代表值，银背个体可接近 1.85 m。
 review:
@@ -70,3 +75,7 @@ Animal Diversity Web 的东非大猩猩条目把身体长度记为 150–185 厘
 ## 与其他尺度的关系
 
 1.7 米与成年人的身高大致相当，比黑猩猩约 0.8–1.0 米的头体长多出大半米，也略短于 2.0 米的非洲狮和 2.2 米的棕熊；放在 30 米长的蓝鲸旁边只占其约十八分之一。[1][2] 在灵长类尺度上，山地大猩猩处于上端，向下依次是猩猩、猕猴和人。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 5.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

@@ -19,6 +19,7 @@ related:
   - temperature.cement-kiln
   - temperature.oven
   - temperature.glass-furnace
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Staffordshire Stoneware 1200–1300 °C'
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/art/pottery'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   黏土坯体在陶窑内氧化或还原气氛中烧成，取炻器类坯体的高温烧成区间；黏土种类、坯体厚度、
   釉料、升温速率、保温时间和窑内位置都会改变实际温度与成品效果。
@@ -80,3 +85,5 @@ tags:
 ## 与其他温区的关系
 
 1,500 K 略低于 Corning 7740 玻璃的工作点约 1,525 K，低于纯铁熔点 1,811 K，高于垃圾焚烧炉常取的 1,273 K。它与玻璃熔窑工作温度相差约 300 K，说明陶器烧成并不需要把坯体完全熔成液态，而是让颗粒间形成足够的结合。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

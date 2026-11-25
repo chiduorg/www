@@ -18,6 +18,7 @@ related:
   - time.guadalupian
   - time.permian-triassic-extinction
   - time.early-triassic
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,10 @@ sources:
     url: 'https://macrostrat.org/api/defs/intervals?interval_name=Lopingian'
     publisher: Macrostrat, University of Wisconsin–Madison
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -80,3 +85,12 @@ tags:
 ## 与其他尺度的关系
 
 乐平世约 761 万年，只占二叠纪约 4700 万年的 16%，却包含地球历史上规模最大的生物灭绝。[1][2] 它比瓜德鲁普世短，比早三叠世长；与“二叠纪末大灭绝”条目相比，乐平世是包含该事件的时段，而不是事件本身。761 万年若按 80 年一代计算，约相当于九万五千代人；它比早三叠世多约 240 万年，因此更接近二叠纪末灭绝的高峰。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 4.272×10¹⁷ 秒，换算后是 1.35×10¹⁰ 年；约 0.981 个当前宇宙年龄（138 亿年）。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10¹⁷ 量级附近。
+
+读图时先看量级，再看倍数：10¹⁷ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

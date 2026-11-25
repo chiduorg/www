@@ -18,6 +18,7 @@ related:
   - space.carbon-nanotube
   - space.fullerene
   - space.crystal-lattice
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Mechanically Modulated Tunneling Resistance in Monolayer MoS2
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.cpsjournals.cn/article/id/6a33b47c2e4afc47e85a0d5b'
     publisher: 物理学报 / 中国科学院物理研究所
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   以机械剥离的 2H 相单层二硫化钼为对象，取 S–Mo–S 三明治的法向厚度约 0.65 纳米；
   多层、转角双层或缺陷较多的样品不在此口径内。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 0.65 纳米约为石墨烯单层 0.335 纳米的两倍，却只有碳纳米管直径 1 纳米的约 0.65 倍。它比量子点 5 纳米小约八倍，比红细胞 7.5 微米小约一万倍。与头发丝 100 微米相比，则小约十五万倍。把本页与石墨烯、碳纳米管和量子点并读，可比较二维、一维与零维材料的尺度口径。单层 MoS₂ 与石墨烯同属二维材料，前者因三原子层结构而比单层石墨烯厚约一倍。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.2e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

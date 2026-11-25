@@ -18,6 +18,8 @@ related:
   - space.hubble-radius
   - space.light-year
   - space.milky-way
+  - mass.observable-universe
+  - temperature.cmb
 reviewStatus: reviewed
 sources:
   - title: Age & Size of the Universe Through the Years
@@ -50,12 +52,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "最后散射面 · 共动距离示意"
-  note: "球面与观察者位置为示意，未表示真实宇宙几何或各向异性；范围标示最后散射面的当前共动距离，非物理外壳；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 最后散射面 · 共动距离示意
+  note: 球面与观察者位置为示意，未表示真实宇宙几何或各向异性；范围标示最后散射面的当前共动距离，非物理外壳；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:

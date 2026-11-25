@@ -5,8 +5,8 @@ titleEn: Galaxy Cluster Crossing Time
 dimension: cosmic-time
 category: 星系与结构
 summary: >-
-  星系穿越星系团的时间，指一个星系从团的一侧运动到另一侧所经历的典型时长。
-  本条取约 100 亿年，用团的大小和星系速度估算，不是星系形成或落入团中的绝对时刻。
+  星系穿越星系团的时间，指一个星系从团的一侧运动到另一侧所经历的典型时长。 本条取约 100
+  亿年，用团的大小和星系速度估算，不是星系形成或落入团中的绝对时刻。
 quantity:
   value: 315576000000000000
   unit: s
@@ -15,11 +15,12 @@ quantity:
   approximate: true
 displayValue: 约 100 亿年
 related:
+  - space.milky-way
+  - mass.milky-way
   - time.galactic-year
   - time.galaxy-formation
   - time.one-quintillion-seconds
   - time.one-quadrillion-seconds
-  - time.earth-age
 reviewStatus: reviewed
 sources:
   - title: 'Modern Cosmological Observations and Problems: Clusters of Galaxies'
@@ -32,6 +33,10 @@ sources:
     url: 'https://arxiv.org/pdf/2310.07754v1'
     publisher: arXiv (O'Neil et al.)
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -42,13 +47,13 @@ conditions:
   conversion: 10¹⁰ × 31 557 600 = 315 576 000 000 000 000 秒
   note: 只表示间隔长度，不是自大爆炸起的绝对时点
 uncertainty: >-
-  团的边界没有唯一定义，取核心区还是外围、用半径还是直径，结果可相差约两倍。
-  本条采用约 5 百万秒差距的特征半径与约 1000 公里/秒的速度，给出 100 亿年的量级。
+  团的边界没有唯一定义，取核心区还是外围、用半径还是直径，结果可相差约两倍。 本条采用约 5 百万秒差距的特征半径与约 1000 公里/秒的速度，给出 100
+  亿年的量级。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 来源复核：两条来源本地直连可访问；写作阶段已逐条用 WebFetch 打开核对数值。'
+    - 2026-11-07 来源复核：两条来源本地直连可访问；写作阶段已逐条用 WebFetch 打开核对数值。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -83,3 +88,5 @@ tags:
 ## 与其他尺度的关系
 
 100 亿年约为地球年龄 45.4 亿年的 2.2 倍，也约为十亿秒的 31.69 年的 3.16 亿倍、一万亿秒的 3.17 万年的约 31.6 万倍、一千万亿秒的 3169 万年的约 31.6 倍、一百亿亿秒的 316.9 亿年的约 0.32 倍。它比银河年约 2.3 亿年长约 43 倍，属于星系团尺度上的动力学时间[2]。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

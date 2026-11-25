@@ -29,6 +29,10 @@ sources:
       https://www.japanbasketball.jp/wp-content/uploads/2017BasketballEquipment_Final_low_E.pdf
     publisher: Japan Basketball Association / FIBA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 直径为比赛规则规定的球体周长换算值，不是用卡尺直接量球面得到的读数；以男子7号球周长749–780 mm为参照，女子6号球和青少年球规格不同。
 uncertainty: >-
   规则给出的是周长749–780 mm，不是直径；按D=C/π换算得23.8–24.8 cm，本条取24
@@ -75,3 +79,5 @@ tags:
 ## 与其他尺度的关系
 
 24 厘米的篮球直径约为网球直径的三倍半，比足球略大，比乒乓球大得多，约为人手长度的 1.5 倍。[1][2] 在尺度轴上，球类集中在“几厘米到二十几厘米”的日常人造物带：向上是书本、球拍和人体，向下是硬币、铅笔和药片。用同一种“直径”口径比较篮球、足球和网球，才能避免周长与直径混用。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

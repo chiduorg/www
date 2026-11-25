@@ -5,7 +5,7 @@ summary: >-
   W± 玻色子静质量 80.3692 GeV/c²，合 1.433×10⁻²⁵ kg。它是弱相互作用的中介粒子，寿命约 3×10⁻²⁵ 秒；它的质量与 Z
   玻色子的差异，正是弱中性流与带电流强度不同的来源。
 dimension: mass
-category: 规范玻色子
+category: 粒子与基本常数
 displayValue: 1.433×10⁻²⁵ kg（80.3692 GeV/c²）
 quantity:
   value: 1.433e-25
@@ -71,6 +71,7 @@ visual:
   color: '#9cc8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: W boson
 ---
 ## 这个读数是什么
 

@@ -18,6 +18,7 @@ related:
   - temperature.room-temperature
   - temperature.oven
   - temperature.venus-surface
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: 'Press Kit: Death Valley Heat'

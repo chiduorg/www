@@ -21,6 +21,7 @@ related:
   - temperature.solar-corona
   - temperature.rocket_plume
   - temperature.ball-lightning
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: How Hot Is Lightning?
@@ -35,6 +36,14 @@ sources:
     url: 'https://www.britannica.com/science/lightning-meteorology'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "IAU 2015 Resolution B3: recommended nominal solar and planetary conversion constants — full resolution"
+    url: "https://arxiv.org/pdf/1510.07674"
+    publisher: "International Astronomical Union, Resolution B3 (2015)"
+    accessed: '2026-11-24'
+  - title: "Sun: Facts"
+    url: "https://science.nasa.gov/sun/facts/"
+    publisher: "NASA Science"
+    accessed: '2026-11-24'
 legacy:
   id: lightning
   icon: ⚡
@@ -96,3 +105,23 @@ tags:
 ## 与其他温区的关系
 
 28,033 K 高于太阳表面 5,772 K，也高于炼钢出钢的 1,893 K 和钨熔点 3,687 K。它低于太阳核心的约 1.57×10⁷ K，也低于聚变等离子体的上亿开尔文。闪电属于大气中短暂存在的非热平衡等离子体，处在高温工程与天体等离子体之间的量级。
+
+## 通道温度与总能量
+
+闪电通道峰值可达约 28,000 K，但持续时间只有毫秒量级，总能量取决于电流、通道长度与持续时间。[1][2] 高温不等于能量最大；一次长持续时间回击可能比一次短促高峰更危险。把温度当成能量，会误判破坏力。
+
+## 五轴对照
+
+在温度轴，通道约 28,000 K；在空间轴，闪电连接云与地；在质量轴，通道空气被电离；在时间轴，回击在毫秒内完成。温度、电流与时间是三个独立量。[1][2]
+
+## 通道温度与总能量
+
+闪电通道峰值可达约 28,000 K，但持续时间只有毫秒量级，总能量取决于电流、通道长度与持续时间。高温不等于能量最大；一次长持续时间回击可能比一次短促高峰更危险。把温度当成能量，会误判破坏力。[1][S2]
+
+## 读数的口径与换算
+
+本条采用的量是 可达约 2.8 × 10⁴ K（50,000 °F量级），口径是 闪电加热空气的高温量级参考。温度是强度量，读数依赖温标、测点与热平衡；同一对象的不同部位、不同时刻可以有不同温度。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（International Astronomical Union, Resolution B3 (2015)）、[5]（NASA Science） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

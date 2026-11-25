@@ -5,7 +5,7 @@ summary: >-
   单个心室心肌细胞的湿重均值约 2.0×10⁻¹¹ kg（20 ng），干重约为湿重的
   20–30%。细胞呈长柱状，长度约一百微米，由体积与密度估算，肥大与个体差异使不确定度达 ±50%。
 dimension: mass
-category: 肌细胞
+category: 生命与人体
 displayValue: 2.0×10⁻¹¹ kg
 quantity:
   value: 2.e-11
@@ -70,6 +70,7 @@ visual:
   color: '#b48cff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Cardiac muscle cell
 ---
 ## 这个读数是什么
 

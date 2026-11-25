@@ -16,11 +16,12 @@ quantity:
   status: undetermined
 displayValue: 需指定爆发模型与区域（仅阅读）
 related:
+  - space.sun
+  - mass.sun
   - temperature.white-dwarf-surface
   - temperature.carbon-fusion
   - temperature.supernova
   - temperature.nova-outburst
-  - temperature.type-ia-deflagration-temperature
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -53,7 +54,7 @@ review:
       ⁵⁶Ni。
     - Britannica 与 Chandra 说明 Ia 型来自白矮星热核爆炸，但均未给出可适用于全部事件的单一温度；维持 null。
     - 2026-11-07 保留 needs-review：Ia 型超新星温度随模型、区域与爆发时刻变化，无统一代表值。
-    - '2026-11-07 B5 复核：量值保持 undetermined；原因：燃烧前沿、未燃核心、抛射物光球与激波区温度不同，且随模型与时刻变化。'
+    - 2026-11-07 B5 复核：量值保持 undetermined；原因：燃烧前沿、未燃核心、抛射物光球与激波区温度不同，且随模型与时刻变化。
   originalQuantity:
     value: 5000000000
     unit: K

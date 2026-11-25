@@ -28,6 +28,10 @@ sources:
     url: 'https://www.nps.gov/subjects/bears/brown-bears.htm'
     publisher: National Park Service
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性棕熊；量取从吻端沿背部到尾根的头体长，尾巴不计；不含后腿直立时的站立高度；亚种、性别与季节体况差异明显。
 uncertainty: ADW 给出头体长 1–2.8 m，NPS 给出常见体长 5–7 英尺（约 1.5–2.1 m）。成年雄性通常在 1.7–2.8 m 之间，雌性与南方种群更短；本条取 2.2 m，属于大型雄性的代表值而非种群平均。
 review:
@@ -71,3 +75,5 @@ Animal Diversity Web 的棕熊条目写明：从头到臀部的体长为 1–2.8
 ## 与其他尺度的关系
 
 2.2 米比 1.2 米的灰狼长约一米，比 1.7 米的人高约半米，也接近 2.0 米非洲狮的头体长；但只是 30 米蓝鲸体长的约十四分之一。[1][2] 在陆生食肉动物里，棕熊与狮同处“两米级”上端，向上是大型草食动物与车辆，向下是狼、狗和猫。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

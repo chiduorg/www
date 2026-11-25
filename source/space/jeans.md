@@ -17,6 +17,7 @@ related:
   - space.shoe
   - space.running-shoe
   - space.leather-shoe
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Men's Slim Fit Jeans — product measurements
@@ -27,6 +28,10 @@ sources:
     url: 'https://levi.jp/products/005010000'
     publisher: Levi's Japan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为成人男款 32 英寸腰围、32 英寸内长的中腰直筒牛仔裤；测量口径为沿外侧缝从腰头外缘到下摆的裤长，不含卷边、改裤脚和洗后缩水。
 uncertainty: >-
@@ -74,3 +79,14 @@ tags:
 ## 与其他尺度的关系
 
 107 厘米约为成年人手长 20 厘米的 5.4 倍，也约为 A4 纸长边 29.7 厘米的 3.6 倍。它比 42 码运动鞋外底长约 29 厘米的 3.7 倍，比 T 恤衣长 70 厘米长约 1.5 倍。穿在 1.7 米高的人身上，裤长通常从腰到鞋面，裤脚会略有堆叠。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.6 纳秒，在时间轴上量级接近「原子跃迁」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1.07 米，换算后是 1.07 米；约 0.629 个成年人身高（1.7 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

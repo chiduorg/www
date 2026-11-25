@@ -18,6 +18,7 @@ related:
   - time.ai-era
   - time.near-future-2100
   - time.earth-uninhabitable
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'AR6 Climate Change 2021: Summary for Policymakers'
@@ -28,6 +29,10 @@ sources:
     url: 'https://population.un.org/wpp/'
     publisher: United Nations, Department of Economic and Social Affairs
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: future
   plot: false
@@ -82,3 +87,5 @@ tags:
 ## 与其他尺度的关系
 
 2030 年上接现在、数字时代和人工智能时代，下接 2100 年、公元 10000 年与更远的未来。[1][2] 与百万年、十亿年相比，4 年几乎不可分辨；它的价值在于政策与工程的可操作窗口。把它当作“现在与未来”之间的第一个短刻度，比当作确定预言更合适。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

@@ -5,7 +5,7 @@ summary: >-
   取直径 4.6 mm 的雨滴按球体计算：半径 2.3 mm，体积约 5.1×10⁻⁸ m³，乘以水密度得到约 5.0×10⁻⁵ kg（50
   mg）。这已接近雨滴的破碎上限，普通雨滴要小得多。
 dimension: mass
-category: 气象液滴
+category: 自然与生物
 displayValue: 5.0×10⁻⁵ kg
 quantity:
   value: 0.00005
@@ -71,6 +71,7 @@ visual:
   color: '#c9a77a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Large raindrop
 ---
 ## 这个读数是什么
 

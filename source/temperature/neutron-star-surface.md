@@ -17,9 +17,9 @@ displayValue: 约 2 × 10⁶ K（Cas A参考）
 related:
   - temperature.neutron-star-core
   - temperature.millisecond_pulsar
-  - temperature.supernova
-  - temperature.white-dwarf-surface
+  - temperature.supernova-remnant
   - temperature.neutron-star-merger-shock
+  - space.neutron-star
   - time.big-bang
 reviewStatus: reviewed
 sources:
@@ -31,6 +31,14 @@ sources:
     url: 'https://chandra.harvard.edu/press/09_releases/press_110409.html'
     publisher: NASA Chandra X-ray Center
     accessed: '2026-11-06'
+  - title: "Rapid Cooling of the Neutron Star in Cassiopeia A Triggered by Neutron Superfluidity in Dense Matter"
+    url: "https://arxiv.org/abs/1011.6142"
+    publisher: "Page et al., Phys. Rev. Lett. 106 (2011)"
+    accessed: '2026-11-24'
+  - title: "NICER Nuggets: 2 January 2020, J0030+0451 surface regions"
+    url: "https://heasarc.gsfc.nasa.gov/docs/nicer/science_nuggets/20200102.html"
+    publisher: "NASA NICER / HEASARC"
+    accessed: '2026-11-24'
 legacy:
   id: neutron-star-surface
   icon: ⚫
@@ -91,3 +99,19 @@ Chandra 观测到的是热 X 射线光谱，不是一张可以直接读出温度
 ## 与其他温区的关系
 
 2×10⁶ K 高于太阳表面 5,772 K，也高于毫秒脉冲星 J0030+0451 热区约 10⁶ K 的拟合值。它低于核心坍缩超新星的 10¹¹ K 量级，更远低于夸克—胶子等离子体约 1.8×10¹² K 的理论温标。与白矮星天狼星 B 的 25,000 K 相比，它又高出近两个数量级；但两者分别属于中子星表面和白矮星表面，不能仅凭温度高低推断谁更“热”或更“亮”。[1]
+
+## 碳大气为什么重要
+
+仙后座 A 的中子星被一层极薄的碳大气覆盖；大气成分决定不透明度与光谱形状，进而改变拟合出的有效温度与半径。[1][2] 如果假设氢大气，同样的 X 射线数据可能给出不同的温度和半径组合。大气模型不是装饰，而是测量的一部分。
+
+## 年轻中子星为什么更热
+
+中子星诞生于核心坍缩超新星，初始内部温度极高，随后通过中微子与表面辐射冷却。[1] 仙后座 A 只有约 350 年历史，因此表面仍可达约 2×10⁶ K；更老的脉冲星表面会冷得多。年龄、大气与磁场共同决定表面温度。
+
+## 五轴对照
+
+在温度轴，表面约 2×10⁶ K；在空间轴，中子星半径约 10 公里；在质量轴，它约 1.4 太阳质量；在时间轴，它正在冷却。表面温度只是冷却曲线上的一点。[1][2]
+
+## 延伸核对
+
+补充的来源 [3]（Page et al., Phys. Rev. Lett. 106 (2011)）、[4]（NASA NICER / HEASARC） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

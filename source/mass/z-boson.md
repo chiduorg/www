@@ -5,7 +5,7 @@ summary: >-
   Z 玻色子静质量 91.1876 GeV/c²，合 1.6255×10⁻²⁵ kg，是电弱理论里最精确的读数之一。它的衰变线型在 LEP
   上被逐点扫描，由此定出中微子只有三代。
 dimension: mass
-category: 规范玻色子
+category: 粒子与基本常数
 displayValue: 1.626×10⁻²⁵ kg（91.1876 GeV/c²）
 quantity:
   value: 1.6255e-25
@@ -71,6 +71,7 @@ visual:
   color: '#9cc8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Z boson
 ---
 ## 这个读数是什么
 

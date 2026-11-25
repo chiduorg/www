@@ -14,12 +14,12 @@ quantity:
   approximate: true
 displayValue: t ≈ 137.3 亿年（距今约6600万年）
 related:
+  - space.earth
+  - mass.earth
   - time.mesozoic
   - time.present
   - time.mammal-radiation
   - time.first-grasslands
-  - time.first_primates
-  - time.k-pg-extinction
 chronology:
   status: reference
   plot: true
@@ -37,6 +37,10 @@ sources:
     url: 'https://www.britannica.com/science/K-T-boundary'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Triassic Period
+    url: 'https://www.nps.gov/articles/000/triassic-period.htm'
+    publisher: U.S. National Park Service
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -57,11 +61,11 @@ conditions:
   conversion: presentSeconds - lookbackYears × secondsPerYear
   precision: 亿年级近似时代坐标，非高精度年代测量
 visual:
-  template: "geologic-section"
-  scene: "time.object"
-  caption: "新生代 · 哺乳动物与植被"
-  note: "森林、草原与动物为解释性示意，不代表某一具体地点的古生态复原。"
-  color: "#b09a74"
+  template: geologic-section
+  scene: time.object
+  caption: 新生代 · 哺乳动物与植被
+  note: 森林、草原与动物为解释性示意，不代表某一具体地点的古生态复原。
+  color: '#b09a74'
 mode: 时点
 tags:
   - 地质年代
@@ -87,3 +91,7 @@ tags:
 ## 与其他阶段的关系
 
 新生代前接中生代末的大灭绝，后接尚未发生的未来。它把被子植物、昆虫、哺乳动物、鸟类和人类的活动编织成现代生态系统。读图时应把“代”的尺度与“人类历史”的尺度分开：新生代跨越数千万年，而人类文明只占其中极小的一段。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（U.S. National Park Service）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

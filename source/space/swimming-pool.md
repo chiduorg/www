@@ -16,6 +16,7 @@ related:
   - space.basketball-court
   - space.football-field
   - space.human
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: 'FINA Facilities Rules 2017–2021'
@@ -26,6 +27,10 @@ sources:
     url: 'https://resources.fina.org/fina/document/2022/02/08/77c3058d-b549-4543-8524-ad51a857864e/210805-Facilities-Rules_clean.pdf'
     publisher: World Aquatics (FINA)
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为世界泳联规则下的 50 米竞赛长池；测量口径为两端池壁之间的泳道净长度，安装自动计时触板时按规则计；不含池岸、看台与出发台外沿。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 50 米约等于 11 辆 4.5 米长的家用轿车首尾相接，也约为网球双打场地 23.77 米的 2.1 倍。[1][2] 它比篮球场 28.65 米长约 1.75 倍；成年人以每步 0.75 米计算，走完一池约需 67 步。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 167 纳秒，在时间轴上量级接近「微秒」。[3]

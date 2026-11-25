@@ -18,6 +18,7 @@ related:
   - temperature.water-freezing
   - temperature.bath-water
   - time.present
+  - mass.adult-human
 reviewStatus: reviewed
 sources:
   - title: Temperature measurement
@@ -34,6 +35,14 @@ sources:
     url: 'https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2809098'
     publisher: 'Ley et al., JAMA Internal Medicine (2023), original investigation'
     accessed: '2026-11-04'
+  - title: "2021 Anthropometry Procedures Manual"
+    url: "https://stacks.cdc.gov/view/cdc/127207/cdc_127207_DS1.pdf"
+    publisher: "CDC / National Center for Health Statistics"
+    accessed: '2026-11-24'
+  - title: "Anthropometry — physical anthropology"
+    url: "https://www.britannica.com/science/anthropometry"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 legacy:
   id: human-body-temperature
   icon: ❤️
@@ -84,3 +93,28 @@ Ley 等 2023 年分析同一医疗系统的成人门诊记录，通过算法筛�
 ## 读图的边界
 
 本页仍用约 37°C 作为日常尺度坐标，不以群体平均值替个人作判断。研究限定于特定成人门诊数据，不能自动推及所有年龄与情境；人形配色也只是解释图，并非某个人的热成像或诊断结果。[1][3]
+
+
+## 这个数值的误差账本
+
+人体核心温度约 37 ℃，但正常范围随测量部位、时间与个体变化。腋温通常低于核心温度，额温受环境与设备影响；直肠、食管、膀胱更接近核心。37 ℃不是“发烧界线”，发热阈值常取 38 ℃或更高，具体依指南与人群。
+
+## 换一个尺度看它
+
+37 ℃等于 310.15 K，约为室温 293 K 的 1.06 倍；与太阳表面 5772 K 相比微不足道。人体靠约 37 ℃的窄窗口维持酶与细胞功能，核心温度升高 3–4 ℃就可能危及生命。这个尺度说明“温度不高”不等于“影响不大”。
+
+## 核心温度与体表温度不是一回事
+
+核心温度指心、脑等深部组织的温度，常用直肠、食管或膀胱探头测量；腋温、额温、耳温是间接估计。[1] 外周血管收缩、出汗和环境温度都会让体表读数偏离核心温度。把腋温 36.5 ℃当成核心温度，可能低估或高估真实状态。
+
+## 37 ℃为什么不是精确常数
+
+大样本研究给出的平均口腔温度约 36.6 ℃，个体、年龄、时段和测量方式都会改变读数。[3] 37 ℃是历史形成的参考值，便于交流，不是所有人都必须命中的目标。体温的“正常范围”比一个整数更有意义。
+
+## 五轴对照
+
+在温度轴，核心约 37 ℃；在空间轴，人体尺度约 1.7 米；在质量轴，成人约 70 千克；在时间轴，体温随昼夜节律波动。体温是生理状态，不是环境温度。[1][3]
+
+## 延伸核对
+
+补充的来源 [4]（CDC / National Center for Health Statistics）、[5]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

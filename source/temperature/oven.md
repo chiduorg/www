@@ -31,6 +31,10 @@ sources:
       https://www.ars.usda.gov/research/publications/publication/?seqNo115=320335
     publisher: USDA Agricultural Research Service
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 烤箱腔内空气
   measurementSite: 烤箱中部，避开加热元件与门边
@@ -81,3 +85,5 @@ tags:
 ## 与其他温度的关系
 
 180 ℃ 高于 boiling-water 的 100 ℃，也高于 sauna 的约 80 ℃，但低于 lava-temperature 与 metal-furnace 类工业温区。它高于 fridge 的 4 ℃ 和 freezer 的 −18 ℃，说明同一个厨房里存在从冷冻到烘烤的宽温区。把 oven 的设定值与 desert-ground 的地表温度并列时，也要记住一个是设备空气目标，一个是自然表面实测。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

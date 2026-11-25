@@ -15,6 +15,7 @@ related:
   - space.shoe
   - space.human
   - space.bed
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Shoe Size Guide
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.britannica.com/topic/shoe'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为欧码 42 的成人拖鞋；量取鞋底沿长轴的最大长度，不含鞋面装饰与鞋跟；欧码 42 只是样本尺码，包头与露趾款的长度不同。
 uncertainty: 欧码 42 对应的脚长约 26.5 cm；拖鞋鞋底通常比脚长多 1.5–2.5 cm，本条取 28 cm 作代表值；同码实际鞋长多在 27.5–29 cm，厚底与包跟款会偏长。
 review:
@@ -68,3 +73,7 @@ ASICS 官方尺码表把欧码 42 对应到 26.5 厘米的脚长，并说明测�
 ## 与其他尺度的关系
 
 28 厘米比 29 厘米的跑鞋外底短约 1 厘米，约为 20 厘米成人手长的 1.4 倍；放在 2 米的双人床床垫长边上，只占其长度的 14%。[1][2] 它接近一张 A4 纸短边 21 厘米的 1.3 倍，也说明拖鞋是“比脚略长、比鞋柜层板短”的日常尺度。在床边地面上，它只占 2 米床垫长边的七分之一，却比成人脚长约 1.5 厘米。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.93 纳秒，在时间轴上量级接近「纳秒」。[3]

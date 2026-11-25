@@ -6,7 +6,7 @@ summary: >-
   MeV/c²，这个亏损就是核聚变放能的来源。
 dimension: mass
 grade: A
-category: 原子核
+category: 生命与人体
 displayValue: 6.645×10⁻²⁷ kg
 quantity:
   value: 6.644657e-27
@@ -49,6 +49,14 @@ sources:
     url: 'https://physics.nist.gov/cuu/Constants/'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-09'
+  - title: "The Standard Model"
+    url: "https://home.cern/science/physics/standard-model"
+    publisher: "CERN"
+    accessed: '2026-11-24'
+  - title: "PubChem Element Summary: Helium"
+    url: "https://pubchem.ncbi.nlm.nih.gov/element/2"
+    publisher: "U.S. National Library of Medicine"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 氦核
@@ -73,6 +81,7 @@ visual:
   color: '#8dd5ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Helium nucleus
 ---
 ## 这个读数是什么
 
@@ -92,6 +101,30 @@ CODATA 的电子质量与原子质量单位换算给出同一条链条的另一�
 
 6.645×10⁻²⁷ kg 是 B2 带的上端，约为氢原子的 3.97 倍、质子的 3.97 倍。它已经接近“四个核子”的整数倍，说明核子质量尺度在轻核中非常稳定；真正让质量轴跨数量级的，是原子、分子与宏观物体，而不是核子内部的差别。
 
+## 结合能曲线的峰值
+
+氦-4 的每核子结合能约 7.07 MeV，在轻核中接近峰值；铁-56 附近达到约 8.8 MeV，之后重核逐渐下降。这个曲线决定恒星聚变释放能量到铁为止，也决定重核裂变为何能释放能量。氦核只是曲线上的一个局部高点。[1][S2]
+
+α 粒子是氦-4 核，不含电子；中性氦原子质量还要加两个电子并扣除原子结合能。聚变产物写“氦核”时，质量亏损只算核反应，不算后续电子复合。
+
+氦核质量亏损约 0.030 u，折合 28.3 MeV；这个能量在太阳聚变中以伽马射线与中微子释放，是恒星能量的来源之一。
+
 ## 怎么继续走
 
 想看四个核子如何逐个搭起来，去 mass.proton、mass.neutron 与 mass.hydrogen-atom；想看氦在元素轴上的闭壳位置，去 elements.he；想看原初核合成如何留下氦-4，从 time.big-bang 进入时间轴。
+
+## 结合能峰值为什么重要
+
+氦-4 的每核子结合能约 7.07 MeV，在轻核中接近峰值；这让它成为聚变链条中特别稳定的产物。[2] 恒星把氢聚变成氦时，会释放这部分能量；进一步聚变到更重元素时，能量收益变小。结合能曲线决定了恒星的能量账本。
+
+## 五轴对照
+
+在质量轴，氦核约 6.645×10⁻²⁷ 千克；在空间轴，α 粒子约 1.7 飞米；在时间轴，原初核合成留下大量氦-4；在温度轴，恒星核心温度决定三氦过程能否进行。质量、结合能与温度共同决定核合成。[1][2]
+
+## 读数的口径与换算
+
+本条采用的量是 6.645×10⁻²⁷ kg，口径是 ⁴He 原子核质量，由中性氦原子质量扣除两个电子与原子结合能。质量是广延量，读数依赖湿重/干重、含血/不含血、整备/满载等口径；样本与测量条件必须一起引用。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（CERN）、[5]（U.S. National Library of Medicine） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

@@ -17,6 +17,7 @@ related:
   - space.gamma-ray
   - space.atom
   - space.crab-nebula
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: X-ray
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/X-ray/Fundamental-characteristics'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为软X射线波段的电磁波波长；介质取真空，空气对软X射线吸收很强；10纳米是该段长波端示例，不是硬X射线边界。
 uncertainty: 软硬X射线的分界随领域不同；常见软X射线写法为0.1–10纳米或1–10纳米，本条取10纳米作为长波端示例。
 review:
@@ -73,3 +78,7 @@ Britannica 把 X 射线总范围写作约10纳米至0.01纳米，对应光子能
 ## 与其他尺度的关系
 
 10纳米约为可见光紫端400纳米的1/40，也比硬 X 射线常用的1纳米长10倍。[1][2] 软 X 射线位于极紫外与硬 X 射线之间，适合研究原子尺度结构、表面与生物样品；它在大气中衰减很快，观测与实验常需真空或太空环境。它与极紫外的分界也随资料变化，10纳米附近既有重叠也有不同的探测手段。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3e-8 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

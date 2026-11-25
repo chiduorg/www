@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: 365 m（船长）
 related:
+  - time.microsecond
   - space.aircraft-carrier
   - space.boeing-747
   - space.eiffel-tower
   - space.football-field
   - space.city
-  - space.sailboat
 reviewStatus: reviewed
 sources:
   - title: Icon of the Seas 甲板图
@@ -30,6 +30,10 @@ sources:
       https://www.royalcaribbean.com/bra/pt/guides/icon-of-the-seas-creation-beyond-imagination
     publisher: Royal Caribbean
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为皇家加勒比 Icon 级“海洋标志号”（Icon of the
   Seas）；测量口径为船长，即船首至船尾总长，不是船宽、总吨位、吃水或甲板层数；不适用于其他邮轮。
@@ -80,3 +84,14 @@ tags:
 ## 与其他尺度的关系
 
 365 米约为足球场 105 米边线的 3.5 倍，约为埃菲尔铁塔 330 米高度的 1.1 倍。它比伊丽莎白女王级航母 284 米舰长长 81 米，也约为国际空间站桁架 94 米的 3.9 倍。[1][2] 在港口规划中，这个长度决定泊位、掉头水域与引航方案，因此船宽和吃水必须与船长一起看。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.2 微秒，在时间轴上量级接近「微秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 365 米，换算后是 365 米；约 2.86×10⁻⁵ 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -6,7 +6,7 @@ summary: >-
   kg；它究竟是不是最重态，取决于尚未确定的质量序。
 dimension: mass
 grade: C
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: ≥ 8.8×10⁻³⁸ kg（约 0.0495 eV，下限）
 quantity:
   value: 8.8e-38
@@ -45,7 +45,7 @@ sources:
     publisher: Lawrence Berkeley National Laboratory
     accessed: '2026-11-09'
   - title: Planck Mission
-    url: 'https://www.esa.int/Science_Exploration/Space_Science/Planck'
+    url: 'https://sci.esa.int/web/planck'
     publisher: European Space Agency
     accessed: '2026-11-09'
 tags:
@@ -72,6 +72,7 @@ visual:
   color: '#7fe8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Neutrino mass eigenstate ν₃
 ---
 ## 这个读数是什么
 
@@ -94,3 +95,10 @@ visual:
 ## 怎么继续走
 
 想看不依赖质量序的部分，回 ν₂ 的太阳缝隙；想看整体能标如何被宇宙学限制，去 time.neutrino-background-formation；想从大爆炸一路看到退耦，从 time.big-bang 进入时间轴。
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 8.8×10⁻³⁸ 千克，换算后是 8.8×10⁻³² 微克；约为质子质量（1.67×10⁻²⁷ 千克）的 5.27×10⁻¹¹ 倍。这把尺子只改写单位，不改变量值；它把本条固定在质量轴的 10⁻³⁸ 量级附近。
+
+读图时先看量级，再看倍数：10⁻³⁸ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

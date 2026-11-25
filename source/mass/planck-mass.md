@@ -5,7 +5,7 @@ summary: >-
   普朗克质量 m_P = √(ħc/G) ≈ 2.176434×10⁻⁸ kg，由 CODATA 2022
   的约化普朗克常数、光速与引力常数组合得出。它不是某个粒子的实测质量，而是量子引力效应变得不可忽略的质量标尺。
 dimension: mass
-category: 物理常数
+category: 粒子与基本常数
 displayValue: 2.176×10⁻⁸ kg
 quantity:
   value: 2.176434e-8
@@ -70,6 +70,7 @@ visual:
   color: '#c9a77a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Planck mass
 ---
 ## 这个读数是什么
 

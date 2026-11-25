@@ -20,8 +20,8 @@ related:
   - temperature.gut
   - temperature.quark-gluon
   - temperature.absolute-zero
-  - space.sun
   - time.big-bang
+  - mass.planck-mass
 reviewStatus: reviewed
 sources:
   - title: 'CODATA Value: Planck temperature'
@@ -32,6 +32,14 @@ sources:
     url: 'https://physics.nist.gov/cuu/pdf/all_2010.pdf'
     publisher: NIST / CODATA (definition only; numeric value uses 2022)
     accessed: '2026-11-06'
+  - title: "The Standard Model cross-over on the lattice"
+    url: "https://arxiv.org/abs/1508.07161"
+    publisher: "D’Onofrio & Rummukainen, Phys. Rev. D 93 (2016)"
+    accessed: '2026-11-24'
+  - title: "Unified forces"
+    url: "https://home.web.cern.ch/science/physics/unified-forces/"
+    publisher: "CERN"
+    accessed: '2026-11-24'
 legacy:
   id: planck-temperature
   icon: "\U0001F30B"
@@ -90,3 +98,15 @@ tags:
 ## 与其他温区的关系
 
 1.416784×10³² K 远高于电弱过渡的 1.85×10¹⁵ K、大统一教学时间线的 10²⁷ K 和 QCD 过渡的 1.82×10¹² K。它也远高于核心坍缩超新星的 10¹¹ K 和中子星表面的 2×10⁶ K。与绝对零度相比，它处于温标的另一端。把这些数值排在一起，只能说明数量级差异；它们分别属于实验室、天体、早期宇宙和自然单位外推，不能当成同一条已测得的温度序列。[1][2]
+
+## 普朗克温度不是“最高温度上限”
+
+现有物理在普朗克能标附近失效，但这不构成“温度不能更高”的实验定理；它只说明已知理论无法可靠描述。[1][2] 把普朗克温度当成宇宙的恒温上限，会混淆“理论适用范围”与“自然边界”。它更像一张地图的边缘，而不是一堵墙。
+
+## 五轴对照
+
+在温度轴，普朗克温度约 1.4×10³² K；在时间轴，它对应大爆炸后约 10⁻⁴³ 秒；在空间轴，普朗克长度是同一组常数给出的尺度；在质量轴，普朗克质量约 2.2×10⁻⁸ 千克。四个量共用一组常数，却不是四个已测实体。[1][2]
+
+## 延伸核对
+
+补充的来源 [3]（D’Onofrio & Rummukainen, Phys. Rev. D 93 (2016)）、[4]（CERN） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

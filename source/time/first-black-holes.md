@@ -31,6 +31,10 @@ sources:
     url: 'https://www.britannica.com/science/black-hole'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: The Earliest Supermassive Black Hole and Quasar in the Universe
+    url: 'https://keckobservatory.org/earliest-quasar/'
+    publisher: W. M. Keck Observatory
+    accessed: '2026-11-24'
 legacy:
   id: first-black-holes
   icon: "\U0001F573"
@@ -99,3 +103,7 @@ tags:
 ## 与其他阶段的关系
 
 早期黑洞可能影响宿主星系的恒星形成，并为后来类星体提供成长起点[1][2]。它接在第一代恒星之后，与星系形成、再电离并行。与类星体条目相比，这里强调的是“已存在”的观测线索，而不是最亮或最远的排名。把种子形成、吸积成长与观测到的活动分开，是理解这一段历史的关键。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（W. M. Keck Observatory）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

@@ -16,6 +16,7 @@ related:
   - space.solar-flare-size
   - space.sun_diameter
   - space.earth
+  - time.blink
 reviewStatus: reviewed
 sources:
   - title: sunspot
@@ -26,6 +27,10 @@ sources:
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html'
     publisher: NASA / NSSDCA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 取一个“大黑子群”的整体跨度作为样本，量级约 10⁵ 公里；不包含外围活动区的全部磁结构，也不 等同于单个黑子本影或半影的直径。
 uncertainty: >-
   Britannica 只说黑子“可能比地球大数倍，也可能小到难以用望远镜观测”，没有给出统一群直径。 本条把“数倍地球直径”取为约 8 倍地球直径，得到约
@@ -74,3 +79,7 @@ conceptGroup: sun
 ## 与其他尺度的关系
 
 1×10⁸ 米约为地球直径的 8 倍，太阳直径的 7%。[2] 它比单颗黑子的本影大一个数量级以上，却比整个太阳活动区小；特大耀斑的基座可达 5.9×10⁸ 米，约为黑子群跨度的六倍。[1] 把黑子群放进太阳光球，可以看到磁场如何在有限区域内集中，并决定耀斑与日冕物质抛射的发生位置。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 334 毫秒，在时间轴上量级接近「眨眼」。[3]

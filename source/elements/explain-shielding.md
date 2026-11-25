@@ -4,7 +4,7 @@ title: 屏蔽与有效核电荷：同周期上升、同族下降的根源
 titleEn: Shielding and effective nuclear charge
 dimension: element
 category: 解释层
-summary: '核电荷增加并不等于电子感受到的吸引力同比增加。内层电子的屏蔽让最外层只看到一部分核电荷，这一个差值解释了电离能、原子半径与电负性的三条趋势。'
+summary: 核电荷增加并不等于电子感受到的吸引力同比增加。内层电子的屏蔽让最外层只看到一部分核电荷，这一个差值解释了电离能、原子半径与电负性的三条趋势。
 quantity:
   value: null
   unit: Z
@@ -13,29 +13,34 @@ quantity:
   approximate: false
 displayValue: 解释页 · 不参与 Z 排序
 related:
+  - space.atom
+  - mass.proton
   - elements.ne
   - elements.ar
   - elements.xe
   - elements.explain-energy-levels
-  - elements.explain-configuration
 reviewStatus: reviewed
 review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与主题口径完整；本条为解释/方法/来源页，不参与 Z 排序，不对应单一原子序数。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - 本轮复核：结构、引用编号与主题口径完整；本条为解释/方法/来源页，不参与 Z 排序，不对应单一原子序数。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: '6.5: Periodic Variations in Element Properties'
-    url: 'https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/06%3A_Electronic_Structure_and_Periodic_Properties/6.05%3A_Periodic_Variations_in_Element_Properties'
-    publisher: 'LibreTexts / OpenStax Chemistry 2e'
+    url: >-
+      https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/06%3A_Electronic_Structure_and_Periodic_Properties/6.05%3A_Periodic_Variations_in_Element_Properties
+    publisher: LibreTexts / OpenStax Chemistry 2e
     accessed: '2026-11-08'
   - title: Periodic table
     url: 'https://www.britannica.com/science/periodic-table'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-08'
-  - title: 'Atomic Spectra Database'
+  - title: Atomic Spectra Database
     url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-08'

@@ -29,6 +29,14 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/biography/Christopher-Columbus'
     accessed: '2026-11-06'
+  - title: A primer for Italian renaissance art
+    url: 'https://smarthistory.org/primer-italian-renaissance-art/'
+    publisher: Smarthistory
+    accessed: '2026-11-24'
+  - title: 小知识│何谓活字印刷术？
+    url: 'https://www.nlc.cn/pcab/zlyj/zlyj_djsh/20190418_177776.shtml'
+    publisher: 中国国家图书馆·国家古籍保护中心
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -84,3 +92,11 @@ tags:
 ## 与其他阶段的关系
 
 大航海时代前接中世纪晚期的贸易与城市发展，与文艺复兴的古典兴趣、印刷术的传播相互重叠，后接启蒙运动与工业革命。[1][2] 远洋航行依赖造船、制图、天文导航和补给组织，这些技术又反过来改变欧洲的世界观。把它与太空时代类比时要注意：两者都扩大了活动范围，但殖民扩张带来的权力与暴力不能被“探索”一词抹平。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Smarthistory）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（中国国家图书馆·国家古籍保护中心）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

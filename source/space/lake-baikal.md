@@ -17,6 +17,7 @@ related:
   - space.everest
   - space.pacific-ocean
   - space.glacier
+  - time.millisecond
 reviewStatus: reviewed
 sources:
   - title: Lake Baikal
@@ -27,6 +28,10 @@ sources:
     url: 'https://egov-buryatia.ru/eng/about_republic/baykal-lake/'
     publisher: Government of the Republic of Buryatia
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为俄罗斯西伯利亚贝加尔湖；样本为Britannica与布里亚特共和国政府的数据；口径为湖泊西南—东北向长度，不是面积、平均宽度、最大深度或湖岸线长度。
 uncertainty: 长度636公里两源一致；宽度25–80公里、最大深度1620–1637米存在口径与测量差异。
 review:
@@ -72,3 +77,7 @@ Britannica给出贝加尔湖长度395英里（636公里）、平均宽度30英�
 ## 与其他尺度的关系
 
 636公里约为台湾本岛纵长394公里的1.6倍，也约为大堡礁长度2300公里的28%。[1][2] 与地球直径12742公里相比，它约为后者的5%。贝加尔湖属于区域尺度，向上连接大陆裂谷，向下连接城市与湖岸地形。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.1 毫秒，在时间轴上量级接近「毫秒」。[3]

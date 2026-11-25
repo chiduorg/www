@@ -5,7 +5,7 @@ summary: >-
   埃菲尔铁塔结构总质量约 1.01×10⁷ kg，其中锻铁框架约 7,300 t，其余为楼板、楼梯、电梯、设备与涂装。铁塔高 300 m，1889 年建成，由
   18,038 个铁构件与 250 万颗铆钉组成。
 dimension: mass
-category: 建筑
+category: 工程与交通
 displayValue: 1.01×10⁷ kg
 quantity:
   value: 10100000
@@ -70,6 +70,7 @@ visual:
   color: '#e6c17c'
   scaleMin: -40
   scaleMax: 53
+titleEn: Eiffel Tower
 ---
 ## 这个读数是什么
 

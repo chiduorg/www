@@ -18,6 +18,7 @@ related:
   - temperature.liquid-nitrogen
   - temperature.oxygen-boiling
   - temperature.nitrogen-triple-point
+  - space.moon
 reviewStatus: reviewed
 sources:
   - title: NIST Chemistry WebBook — Oxygen phase change data
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.nist.gov/si-redefinition/kelvin/kelvin-its-90'
     publisher: NIST
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 纯氧样品，固、液、气三相在约 0.146 kPa 的低压下共存。
 uncertainty: ITS-90 赋值 54.3584 K；NIST WebBook 汇总值为 54.33 ± 0.06 K，差异约 0.03 K。
 review:
@@ -72,3 +77,5 @@ NIST 的 ITS-90 温标文件把氧三相点列为定义固定点，赋值为 54.
 ## 与其他尺度的关系
 
 54.36 K 约为液氧沸点 90.2 K 的 0.60 倍，低于液氮的 77.34 K 和液氧的 90.2 K，高于液氢的 20.3 K 与液氦的 4.22 K。[1][2] 与液氧沸点 90.2 K 相比，三相点低约 35.8 K；这说明沸点与三相点是两个不同的热力学坐标，它也是低温温标的重要固定点之一。把既有参照排在一起：液氦 4.22 K、液氢 20.3 K、液氮 77.34 K、液氧 90.2 K、甲烷沸点 111.7 K、氨沸点 239.8 K；54.36 K 低于后三者的常压沸点。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

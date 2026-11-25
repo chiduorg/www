@@ -5,7 +5,7 @@ summary: >-
   一台 4–5 MW 级陆上风机的整机安装总质量约 1.0×10⁶ kg，含塔筒、机舱、轮毂与三支叶片，不含基础。塔筒 150–250 t、机舱 70–120
   t、叶片每支 15–25 t。
 dimension: mass
-category: 能源设备
+category: 工程与交通
 displayValue: 1.0×10⁶ kg
 quantity:
   value: 1000000
@@ -70,6 +70,7 @@ visual:
   color: '#e6c17c'
   scaleMin: -40
   scaleMax: 53
+titleEn: Onshore wind turbine
 ---
 ## 这个读数是什么
 

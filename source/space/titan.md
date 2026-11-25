@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: '5,150 km（体积等效平均直径）'
 related:
+  - mass.titan
+  - mass.earth
   - space.enceladus
   - space.europa
   - space.saturn
   - space.jupiter
-  - space.earth
-  - space.titania
 reviewStatus: reviewed
 sources:
   - title: Saturnian Satellite Fact Sheet
@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Titan-astronomy'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: '对象为土卫六固体表面；采用平均半径2,575公里加倍；不含厚约数百公里的氮气大气与雾霾层，也不把甲烷湖泊的液面当作大地水准面。'
 uncertainty: >-
   2,575公里乘二得5,150公里；NASA表列半径2,575公里，Britannica表列半径2,576公里并明确固体直径5,150公里，1公里差异属四舍五入。
@@ -41,12 +45,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "土卫六 · 卫星"
-  note: "球体、橙黄色雾霾和光照为示意，非按比例，非观测重建；不复现真实云层、湖泊与当日相位。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 土卫六 · 卫星
+  note: 球体、橙黄色雾霾和光照为示意，非按比例，非观测重建；不复现真实云层、湖泊与当日相位。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -73,3 +77,5 @@ NASA土星卫星事实表列出平均半径2,575公里，数据来自旅行者�
 ## 与其他尺度的关系
 
 5,150公里约为地球直径12,742公里的0.40倍，约为月球直径3,474公里的1.48倍，比木卫二3,122公里大65%。[1] 它比木卫三5,268公里略小，是太阳系第二大卫星。[2] 土卫六的轨道半径约122万公里，约为土星赤道半径60,268公里的20倍。[1]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

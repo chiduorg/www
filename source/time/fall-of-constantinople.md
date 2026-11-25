@@ -1,6 +1,6 @@
 ---
 id: time.fall-of-constantinople
-title: '君士坦丁堡陷落：1453年5月29日'
+title: 君士坦丁堡陷落：1453年5月29日
 titleEn: The Fall of Constantinople
 dimension: cosmic-time
 category: 人类与文明
@@ -17,6 +17,7 @@ related:
   - time.renaissance
   - time.roman-empire
   - time.age-of-discovery
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: Fall of Constantinople
@@ -27,6 +28,10 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/place/Byzantine-Empire'
     accessed: '2026-11-07'
+  - title: 'The Middle Ages, an introduction'
+    url: 'https://smarthistory.org/introduction-to-the-middle-ages/'
+    publisher: Smarthistory
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -45,9 +50,9 @@ review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。'
-    - '2026-11-07 用 WebFetch 打开 Britannica 君士坦丁堡陷落条目，核对1453年5月29日、55天围城与火炮轰击。'
-    - '2026-11-07 用 WebFetch 打开 Britannica 拜占庭帝国条目，核对帝国终结与后续残余据点的收尾。'
+    - 2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。
+    - 2026-11-07 用 WebFetch 打开 Britannica 君士坦丁堡陷落条目，核对1453年5月29日、55天围城与火炮轰击。
+    - 2026-11-07 用 WebFetch 打开 Britannica 拜占庭帝国条目，核对帝国终结与后续残余据点的收尾。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -83,3 +88,7 @@ Britannica 的条目把日期记为1453年5月29日，并记载奥斯曼军队�
 ## 与其他阶段的关系
 
 陷落处在中世纪条目约公元500年之后、文艺复兴条目约1400年附近，常被当作中世纪与近代的分界之一。[1] 它使奥斯曼得以向东南欧扩张，也推动了希腊学者西迁；地理大发现条目约1450年，正处在同一时段。[1][2] 与罗马帝国条目相比，1453年标记的是其东部遗产的终点，而不是整个罗马传统的起点。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Smarthistory）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

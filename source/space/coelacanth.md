@@ -18,6 +18,7 @@ related:
   - space.cod
   - space.shark
   - space.octopus
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: coelacanth
@@ -28,6 +29,10 @@ sources:
     url: 'https://www2.geo.utexas.edu/specimens/Latimeria_chalumnae/whole/'
     publisher: Digimorph, University of Texas at Austin
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为腔棘鱼（Latimeria chalumnae）；量吻端到尾鳍末端的体长，不是体重、体高或含肉质鳍的展开长度；1.8 m取在平均1.5 m与上限约2 m之间，接近大型个体。
 uncertainty: >-
@@ -76,3 +81,7 @@ Britannica的腔棘鱼条目说，这类鱼平均约1.5米（5英尺）、45千�
 ## 与其他尺度的关系
 
 1.8米约为1.1个1.7米高的人，是1米长大西洋鲑体长的1.8倍，约为1.5米大西洋鳕体长的1.2倍，约为4米尼罗河鳄全长的0.45倍。[1][2] 在尺度轴上，它处在“一米级”鱼类的上端：向上是金枪鱼和剑鱼，向下是鲑和蜂鸟。用吻端到尾鳍末端的体长，才能把它与用翼展、盘宽描述的动物区分开。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

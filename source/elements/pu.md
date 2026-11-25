@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/94/plutonium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 锕系, 钚]
 rights:
   status: rewritten
@@ -70,3 +74,5 @@ rights:
 ## 它从哪里来
 
 来源记作“r 过程痕量与人工（反应堆）”。[2] 钚在自然界可以由 r 过程留下极少量，但这条路径的产量远不足以形成可用库存；作为元素被认识和使用，靠的是反应堆里铀、镎连续俘获中子。挂到时间轴，它既沾到中子星并合这类 r 过程事件，也落在核时代的人工合成段。[1]
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

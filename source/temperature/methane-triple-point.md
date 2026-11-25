@@ -18,6 +18,7 @@ related:
   - temperature.liquid-ethane
   - temperature.liquid-nitrogen
   - temperature.ammonia-triple-point
+  - space.moon
 reviewStatus: reviewed
 sources:
   - title: NIST Chemistry WebBook — Methane phase change data
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/methane'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 纯甲烷样品，固、液、气三相在约 0.117 bar 的低压下共存。
 uncertainty: NIST 汇总值为 90.67 ± 0.03 K，Britannica 列熔点 −182.5 °C（约 90.65 K）；常见表值取 90.69 K，差异约 0.02–0.04 K。
 review:
@@ -72,3 +77,5 @@ NIST Chemistry WebBook 汇总 25 组实验值，给出甲烷三相点 90.67 ± 0
 ## 与其他尺度的关系
 
 90.69 K 约为甲烷沸点 111.7 K 的 0.81 倍，低于甲烷沸点 111.7 K 与氨沸点 239.8 K，高于液氮的 77.34 K、氧三相点的 54.36 K、液氦的 4.22 K。[1][2] 与 111.7 K 相比，它低约 21 K；这说明“三相点”与“沸点”虽然都以 K 为单位，却对应不同的相变过程。在低温工程中，它常被用来划分甲烷的固相区与液相区。把既有参照排在一起：液氦 4.22 K、液氢 20.3 K、液氮 77.34 K、液氧 90.2 K、甲烷沸点 111.7 K、氨沸点 239.8 K；90.69 K 高于前三者，低于甲烷与氨的常压沸点。90.69 K 约为宇宙微波背景 2.725 K 的 33 倍，也约为液氦 4.22 K 的 21 倍。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

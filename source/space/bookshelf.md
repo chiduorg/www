@@ -17,6 +17,7 @@ related:
   - space.book
   - space.laptop
   - space.door
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: GERSBY bookcase, white, 60x180 cm
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.ikea.com/ae/en/p/gersby-bookcase-white-70261131/'
     publisher: IKEA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为独立式书架；测量口径为从地面到顶板的垂直高度，不含墙上固定件、顶部摆件和加装顶柜。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 1.8 米比 2 米高的衣柜矮约 20 厘米，约为成年人手长 19 厘米的 9.5 倍，也约为 A4 纸长边 29.7 厘米的 6 倍。它比常见门高约 2 米略低，成年人站在柜前通常能够到最高一层。[1] 与一本约 20 厘米高的书相比，书架高度约等于九本书叠放。高而窄的书架稳定性较差，越高越需要与墙体固定，避免倾倒。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

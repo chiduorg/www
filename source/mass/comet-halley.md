@@ -5,7 +5,7 @@ summary: >-
   哈雷彗星总质量约 2.2×10¹⁴ kg，不确定度约一成。它由 Giotto 飞越、非引力加速度与长期轨道观测综合约束得到，属于 B
   级推导值，不能读成精确到个位的数。
 dimension: mass
-category: 彗星与小行星
+category: 行星与小天体
 displayValue: 2.2×10¹⁴ kg
 quantity:
   value: 220000000000000
@@ -80,6 +80,7 @@ visual:
   color: '#b8a58a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Halley's Comet
 ---
 ## 这个读数是什么
 

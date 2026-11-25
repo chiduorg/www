@@ -18,6 +18,7 @@ related:
   - space.car
   - space.human
   - space.door
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Oceanis 40.1 — Cruising yacht
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.beneteau.com/sailing-yachts/oceanis'
     publisher: Beneteau
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为单桅巡航帆船；测量口径为船首最前端到船尾最后端的总长（LOA），含固定船首护栏与船尾构件，不含可拆卸船外机、船首斜桅与登船梯。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 12 米约等于 2.7 辆 4.5 米家用轿车首尾相接，也约等于 6.7 辆 1.8 米自行车。与 365 米的大型邮轮相比，帆船长度约为其 3.3%；与 68.4 米的波音 747 相比约为其 18%。它还是 2.032 米标准门高的约 5.9 倍，桅杆高度 18.33 米则比船体长出约 6 米。按具体型号 12.87 米计算，总长约为门高的 6.3 倍。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 40 纳秒，在时间轴上量级接近「原子跃迁」。[3]

@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/96/curium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 锕系, 锔]
 rights:
   status: rewritten
@@ -70,3 +74,5 @@ rights:
 ## 它从哪里来
 
 来源记作“人工（反应堆与加速器）”。[2] 锔主要由钚、镅靶在反应堆中连续俘获中子生成，更重的同位素则要靠加速器轰击才能得到；两条路径都指向人工合成，不存在天然库存。放到时间轴上，它属于核时代：与 r 过程、天然衰变链无关，相关节点是核时代。[1]
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

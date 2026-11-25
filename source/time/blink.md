@@ -44,6 +44,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8687116/'
     publisher: Frontiers in Medicine / PubMed Central
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -87,3 +91,5 @@ tags:
 ## 与其他尺度的关系
 
 一次眨眼约0.3秒，约为一次心跳周期（0.8秒）的三分之一，比一次呼吸（约4秒）短一个数量级。人一生若按每分钟15次计算，可眨眼数亿次；这些短周期累加起来，构成清醒时间里持续进行的生理背景。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

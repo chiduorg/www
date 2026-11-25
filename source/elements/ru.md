@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/44/ruthenium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第五周期, d 区, 钌]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往回看锝（/entry/elements/tc/），能看到“无稳定同位素”的那一格如何被夹在稳定元素之间；往前看铑（/entry/elements/rh/），能看到 4d 继续加电子、5s 仍是半满。想把稳定性反转讲清楚，去读核稳定性解释页。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

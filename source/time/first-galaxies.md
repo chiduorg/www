@@ -16,6 +16,9 @@ related:
   - time.first-stars
   - time.reionization-epoch
   - time.galaxy-formation
+  - space.observable-universe
+  - temperature.cmb
+  - mass.milky-way
 reviewStatus: reviewed
 sources:
   - title: 'Webb abre el telón a las primeras galaxias del universo'
@@ -26,6 +29,14 @@ sources:
     url: 'https://webbtelescope.org/contents/early-highlights/nasas-webb-reaches-new-milestone-in-quest-for-distant-galaxies'
     publisher: NASA Webb Mission Team / STScI
     accessed: '2026-11-07'
+  - title: "Cosmic eras"
+    url: "https://www.esa.int/Science_Exploration/Space_Science/Cosmic_eras"
+    publisher: "European Space Agency"
+    accessed: '2026-11-24'
+  - title: "Some Times in Standard Cosmology, arXiv:2411.07703v1"
+    url: "https://arxiv.org/html/2411.07703v1"
+    publisher: "Lukas Tobias Hergt and Douglas Scott / University of British Columbia"
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -77,3 +88,23 @@ Webb 的 GLASS-JWST 观测找到两个异常明亮的早期星系，红移约 10
 ## 与其他尺度的关系
 
 第一代恒星约在大爆炸后 2–4 亿年出现，第一代星系紧接着在 3.5–4.5 亿年成形，再电离则在此后逐步展开。[1][2] 4 亿年只有当前宇宙年龄 138 亿年的约 3%，却已经足够让第一批星系从气体云变成可见光源。与银河系 later 的成熟形态相比，这些早期星系更小、更紧凑，恒星形成也更剧烈。
+
+## 红移不是年龄
+
+红移 z 描述光被宇宙膨胀拉伸的程度，必须先经宇宙学模型换算成距离与年龄。[1] 同一个红移在不同宇宙学参数下对应的时间略有差异；把 z=10 直接说成“100 亿年前”并不准确。观测报道通常同时给出红移、模型和换算后的年龄，三者不能只留一个。
+
+## 为什么早期星系看起来更亮
+
+早期星系质量小，但恒星形成率可能很高，单位质量的光度比今天的成熟星系更强；它们也更紧凑，图像上的表面亮度因此不低。[1][2] 这会让“早期星系异常明亮”成为观测挑战，却不自动推翻星系形成模型。亮度、质量与恒星形成率要一起拟合。
+
+## 五轴对照
+
+在时间轴，第一代星系约在大爆炸后 3.5–4.5 亿年；在空间轴，它们处在可观测宇宙的遥远边界；在质量轴，早期星系质量远小于今天的银河系；在温度轴，它们周围的再电离气体经历剧烈加热。红移、质量与光度是三条独立线索。[1][2]
+
+## 红移不是年龄
+
+第一代星系常以红移标记，例如 z≈13 对应宇宙年龄约几亿年；但红移只给观测时刻，不等于星系本身的年龄。星系可能在更早时候已经形成，只是光到得晚。把“红移 13”直接读成“星系 13 亿岁”，会混淆宇宙时间与星系年龄。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（European Space Agency）、[4]（Lukas Tobias Hergt and Douglas Scott / University of British Columbia） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

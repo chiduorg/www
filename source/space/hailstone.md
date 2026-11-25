@@ -17,6 +17,7 @@ related:
   - space.cloud
   - space.hurricane
   - space.everest
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Spotter Weather Reports
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.weather.gov/arx/svrref_hail'
     publisher: NOAA / National Weather Service
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为雷暴云中形成的冰雹；样本为NWS冰雹尺寸参照表；口径为冰雹最大直径，不是质量、下落速度或降雹持续时间。
 uncertainty: 冰雹直径从几毫米到超过10厘米；1英寸是“严重冰雹”的业务阈值，不是典型值或最大纪录。
 review:
@@ -71,3 +76,7 @@ tags:
 ## 与其他尺度的关系
 
 25.4毫米约为雨滴2毫米直径的12.7倍，也约为雪花常见上限1.3厘米的2倍。[1][2] 与1公里的积云相比，冰雹很小；但与尘埃和雨滴相比，它已属厘米级。冰雹处在“毫米到厘米”尺度，向上连接雷暴与强上升气流。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.085 纳秒，在时间轴上量级接近「纳秒」。[3]

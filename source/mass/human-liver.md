@@ -3,7 +3,7 @@ id: mass.human-liver
 title: 成人肝脏：1.5 kg，最重的内脏
 summary: 成人肝脏约 1.5 kg，按成年个体均值、湿重计，指整颗摘除后的肝脏。肝脏血供丰富，含血与灌注后称重可差 10–20%，脂肪肝与体型使不确定度约 ±25%。
 dimension: mass
-category: 人体器官
+category: 生命与人体
 displayValue: 1.5 kg
 quantity:
   value: 1.5
@@ -16,6 +16,8 @@ related:
   - mass.human-brain
   - mass.adult-human
   - mass.human-cell
+  - space.human
+  - temperature.human-body-temperature
 reviewStatus: reviewed
 review:
   method: source-check
@@ -44,6 +46,14 @@ sources:
     url: 'https://www.nature.com/'
     publisher: Nature Portfolio
     accessed: '2026-11-09'
+  - title: "World Health Organization"
+    url: "https://www.who.int/"
+    publisher: "World Health Organization"
+    accessed: '2026-11-24'
+  - title: "Cell Press"
+    url: "https://www.cell.com/"
+    publisher: "Elsevier"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 肝脏
@@ -68,6 +78,7 @@ visual:
   color: '#e0b67b'
   scaleMin: -40
   scaleMax: 53
+titleEn: Human liver
 ---
 ## 这个读数是什么
 
@@ -85,6 +96,30 @@ visual:
 
 1.5 kg 与脑的 1.4 kg 几乎同处一个十进位，两者常被拿来比较，但肝脏的质量随代谢需求变化，脑的质量则相对稳定。它约为成人整体 70 kg 的百分之二，比心脏 0.31 kg 重近五倍。[1] 同为 1.5 kg 左右，肝脏的体积明显大于脑，说明质量相同并不等于体积相同。
 
+## 脂肪肝会显著改变读数
+
+肝脏血供丰富，含血与灌注后的质量可差 10–20%；脂肪肝还会让肝重明显增加，超过 2 千克并不罕见。因此“1.5 千克”是健康成人均值，不是所有肝脏的固定值。称重口径必须说明是否含血、是否含脂肪。[1][S2]
+
+肝脏质量在一天内也会波动：餐后充血、糖原与水合状态改变，活体影像测得的体积可差几个百分点。尸检与活体 CT 的口径不同，比较时要注明测量方式。
+
+肝脏质量还可以按体表面积归一化：标准肝体积与体重、身高相关，活体肝移植用预测肝重与受者体重比来评估风险。
+
 ## 怎么继续走
 
 想看与它质量相近的器官，去 mass.human-brain；想看循环系统的主角，去 mass.human-heart；想看肝脏里数量最多的功能细胞属于哪个量级，可以从 mass.human-cell 进入细胞层，再回到 mass.adult-human 收束到整体。
+
+## 脂肪肝会显著改变读数
+
+肝脏血供丰富，含血与灌注后的质量可差 10–20%；脂肪肝还会让肝重明显增加，超过 2 千克并不罕见。[1][2] 因此“1.5 千克”是健康成人均值，不是所有肝脏的固定值。称重口径必须说明是否含血、是否含脂肪。
+
+## 五轴对照
+
+在质量轴，肝脏约 1.5 千克；在空间轴，它位于右上腹；在时间轴，代谢状态与年龄改变肝重；在温度轴，体温影响肝代谢。质量、血供与病理状态共同决定读数。[1][3]
+
+## 读数的口径与换算
+
+本条采用的量是 1.5 kg，口径是 成年个体肝脏湿重均值；摘除后整颗称重，含肝内血液，不确定度约 ±25%。质量是广延量，读数依赖湿重/干重、含血/不含血、整备/满载等口径；样本与测量条件必须一起引用。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（World Health Organization）、[5]（Elsevier） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

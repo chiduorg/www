@@ -20,6 +20,7 @@ related:
   - temperature.liquid-hydrogen
   - temperature.liquid-nitrogen
   - temperature.absolute-zero
+  - space.moon
 reviewStatus: reviewed
 sources:
   - title: 'Superconductivity at 39 K in magnesium diboride'
@@ -30,6 +31,10 @@ sources:
     url: 'https://arxiv.org/abs/cond-mat/0108265'
     publisher: arXiv (Cristina Buzea and Tsutomu Yamashita)
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   高纯、致密、近零外磁场下的 MgB₂ 样品在电阻—温度或磁化曲线上进入超导态的中点参考；薄膜、掺杂、应变、
   外磁场、电流与测量判据都会改变转变温度或加宽转变。
@@ -82,3 +87,5 @@ tags:
 ## 与其他温区的关系
 
 39 K 高于铌的 9.2 K 和液氢的 20.3 K，低于液氮的 77.4 K，也低于铜氧化物中 Hg1223 的约 138 K 参考值。[1][2] 它处在液氢与液氮之间的温区，适合用来说明“临界温度”与“可实际使用的冷源”并不是同一个问题。液氢与液氖的温区也与 39 K 接近，但工程上选择冷源还要看安全性、成本与热负载。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -5,7 +5,8 @@ titleEn: Initial temperature of quark-gluon plasma
 dimension: temperature
 category: 恒星与宇宙极端
 summary: >-
-  重离子碰撞在极短时间内形成夸克胶子等离子体火球，模型与直接光子观测给出的初始温度约 400–500 MeV，约合 5×10¹² K。它描述碰撞火球的初始温度，与 QCD 手征过渡温标不是同一个量。
+  重离子碰撞在极短时间内形成夸克胶子等离子体火球，模型与直接光子观测给出的初始温度约 400–500 MeV，约合 5×10¹²
+  K。它描述碰撞火球的初始温度，与 QCD 手征过渡温标不是同一个量。
 quantity:
   value: 5000000000000
   unit: K
@@ -18,25 +19,32 @@ related:
   - temperature.electroweak
   - temperature.planck-temperature
   - temperature.supernova
+  - space.supernova-remnant
+  - space.red-giant
 reviewStatus: reviewed
 sources:
   - title: Equation of State and Initial Temperature of Quark Gluon Plasma at RHIC
     url: 'https://arxiv.org/abs/1101.1279'
-    publisher: Csanád & Majer, Cent. Eur. J. Phys. 10 (2012)
+    publisher: 'Csanád & Majer, Cent. Eur. J. Phys. 10 (2012)'
     accessed: '2026-11-07'
   - title: Heavy-Ion Physics (HASCO Summer School 2024)
-    url: 'https://indico.cern.ch/event/1370092/contributions/5761587/attachments/2906507/5099098/reygers_hasco_school_2024.pdf'
+    url: >-
+      https://indico.cern.ch/event/1370092/contributions/5761587/attachments/2906507/5099098/reygers_hasco_school_2024.pdf
     publisher: CERN / HASCO Summer School (K. Reygers)
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
-  对象为重离子碰撞后在约 1–2 fm/c 内达到局部热平衡的火球中心；取碰撞初期、火球尚未显著膨胀时的温度；5×10¹² K 为取整量级，对应约 430 MeV。
-uncertainty: >-
-  不同碰撞能量、中心度、初始时间假设和流体动力学模型给出约 300–600 MeV 的范围；RHIC 与 LHC 的结果不同，不能当作精确测温。
+  对象为重离子碰撞后在约 1–2 fm/c 内达到局部热平衡的火球中心；取碰撞初期、火球尚未显著膨胀时的温度；5×10¹² K 为取整量级，对应约 430
+  MeV。
+uncertainty: 不同碰撞能量、中心度、初始时间假设和流体动力学模型给出约 300–600 MeV 的范围；RHIC 与 LHC 的结果不同，不能当作精确测温。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 来源复核：两条来源本地直连可访问；写作阶段已逐条用 WebFetch 打开核对数值。'
+    - 2026-11-07 来源复核：两条来源本地直连可访问；写作阶段已逐条用 WebFetch 打开核对数值。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -73,3 +81,5 @@ tags:
 ## 与其他尺度的关系
 
 5×10¹² K 约为 QCD 过渡温标 1.8×10¹² K 的 3 倍，也高于核心坍缩中微子球的 10¹¹ K 约 50 倍。它低于电弱过渡的约 1.85×10¹⁵ K 约两个多数量级，更远低于普朗克温度。与早期宇宙 10⁻⁴ 秒的 1.5×10¹² K 相比，高约 3 倍，但一个是实验室火球，一个是宇宙整体热浴。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

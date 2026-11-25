@@ -17,6 +17,7 @@ related:
   - space.apple
   - space.watermelon
   - space.a4-paper
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Rye Bread/Miche Pan 3-Strap Set — specifications
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.pricerunner.se/pl/1268-4097605/Baktillbehoer/Kaiser-Inspiration-Broedform-30-cm-priser'
     publisher: PriceRunner
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为长条形吐司模及其烤出的面包；测量口径为模具顶面长边的内尺寸，不含模具外框、把手和面包冷却后的收缩。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 30 厘米约为成年人手长 19 厘米的 1.6 倍，与 A4 纸长边 29.7 厘米几乎相同。它比一根约 20 厘米长的香蕉长约 1.5 倍，比直径约 8 厘米的苹果长约 3.8 倍。与直径约 40 厘米的西瓜相比，面包长度约为其四分之三。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.0 纳秒，在时间轴上量级接近「纳秒」。[3]

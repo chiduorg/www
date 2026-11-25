@@ -18,6 +18,7 @@ related:
   - time.holocene-epoch
   - time.present
   - time.middle-pleistocene
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,10 @@ sources:
     url: 'https://macrostrat.org/api/defs/intervals?interval_name=Quaternary'
     publisher: Macrostrat, University of Wisconsin–Madison
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -80,3 +85,5 @@ tags:
 ## 与其他尺度的关系
 
 第四纪约 258 万年，只占地球约 45.4 亿年历史的约 0.06%，却包含多次冰期旋回与人类演化。[1] 它远短于上新世约 533 万至 258 万年的跨度，也远长于全新世约 1.17 万年；放到绝对时间轴上，它只是最近的一小段。[2] 若以人类寿命约 80 年计，258 万年约相当于三万多代人，这个比喻只帮助感受尺度，不能替代地层证据。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

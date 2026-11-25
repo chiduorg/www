@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: 约 9.5 × 10²⁰ m（宿主星系参考直径，约 10 万光年）
 related:
+  - mass.sun
+  - temperature.sun-surface
   - space.black-hole-event-horizon
   - space.galactic-center
   - space.milky-way
   - space.m87-black-hole
-  - space.galaxy-cluster
 reviewStatus: reviewed
 sources:
   - title: quasar
@@ -29,6 +30,10 @@ sources:
     url: 'https://imagine.gsfc.nasa.gov/features/cosmic/milkyway_info.html'
     publisher: NASA / GSFC / HEASARC
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   量值指类星体宿主星系的参考直径，取银河系量级约 10 万光年；用于把类星体放回星系尺度，
   不是类星体发光核、吸积盘或喷流的直径，也不代表所有宿主星系的统一大小。
@@ -48,12 +53,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "galaxy"
-  scene: "space.object"
-  caption: "类星体宿主星系参考尺度"
-  note: "星系盘、核心亮点与喷流为示意；10 万光年指的是宿主星系直径，不是中心黑洞或吸积盘；非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: galaxy
+  scene: space.object
+  caption: 类星体宿主星系参考尺度
+  note: 星系盘、核心亮点与喷流为示意；10 万光年指的是宿主星系直径，不是中心黑洞或吸积盘；非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:
@@ -80,3 +85,5 @@ tags:
 ## 与其他尺度的关系
 
 9.5×10²⁰ 米约为银河系直径，是太阳系到比邻星距离的约 2.4×10⁴ 倍。它比 M87* 的事件视界大约 2.5×10⁷ 倍，说明“星系尺度”与“黑洞视界”之间隔着巨大的层级。[2] 把类星体放回尺度轴，应先标出宿主星系、星系核、吸积盘和黑洞视界四个不同口径，再比较数值，否则很容易把 10 万光年误当成类星体本体的尺寸。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

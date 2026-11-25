@@ -19,6 +19,7 @@ related:
   - temperature.boiling-water
   - temperature.paper-autoignition
   - temperature.human-body-temperature
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: Bunsen burner at flame-drying station

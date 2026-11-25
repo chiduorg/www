@@ -13,12 +13,12 @@ quantity:
   approximate: true
 displayValue: t ≈ 137.31 亿年（距今约66.0 Ma）
 related:
+  - space.earth
   - time.cenozoic
   - time.paleocene-epoch
   - time.eocene-epoch
   - time.oligocene-epoch
   - time.k-pg-extinction
-  - time.mammal-radiation
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -29,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/Paleogene-Period'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Constraints on the onset duration of the Paleocene-Eocene Thermal Maximum
+    url: 'https://pubmed.ncbi.nlm.nih.gov/30177565/'
+    publisher: Philosophical Transactions of the Royal Society A / PubMed
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -79,3 +83,7 @@ tags:
 ## 与其他阶段的关系
 
 古近纪承接白垩纪末的灭绝，结束于新近纪的草原扩张与冰盖发展之前。它的起点与白垩纪终点重合，终点与新近纪起点相接；这些界线是同一时间框架中的层级界面，不应被说成彼此独立的灾难或起点。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Philosophical Transactions of the Royal Society A / PubMed）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

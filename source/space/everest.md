@@ -16,7 +16,7 @@ related:
   - space.island
   - space.olympus-mons
   - space.city
-  - space.andes
+  - mass.earth
   - temperature.earth-mantle
 reviewStatus: reviewed
 sources:
@@ -33,6 +33,14 @@ sources:
     url: 'https://www.britannica.com/place/Mount-Everest'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "Earth Fact Sheet"
+    url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+    publisher: "NASA NSSDC"
+    accessed: '2026-11-24'
+  - title: "Is the Earth round?"
+    url: "https://oceanservice.noaa.gov/facts/earth-round.html"
+    publisher: "NOAA / National Ocean Service"
+    accessed: '2026-11-24'
 legacy:
   id: everest
   icon: "\U0001F3D4"
@@ -93,3 +101,27 @@ tags:
 ## 与其他尺度的关系
 
 8848.86米约为哈利法塔828米的10.7倍、金门大桥2737米的3.2倍。与月球直径3474.8公里相比，它约为后者的0.25%。但放在地球半径6371公里面前，它只是地表薄层中的最高点。[3]
+
+## 海拔不是“从山脚量起”
+
+8848.86 米是峰顶雪面相对全球高程基准的高程，不是从大本营或山脚起算的相对高度。[1][2] 珠峰南坡与北坡的爬升、山体起伏和地形切割都是另外的量。把海拔当成“山有多高”，会把基准面与山体高度混为一谈。
+
+## 雪面与岩面差几米
+
+2005 年中国公布的岩面高程是 8844.43 米，2020 年联合测量公布雪面高程 8848.86 米，两者相差约 4.43 米。[2] 这个差来自峰顶雪层厚度与测量口径，不是两次测量谁“错了”。引用珠峰高度时，必须同时写年份和表面类型。
+
+## 五轴对照
+
+在空间轴，珠峰约 8.85 公里；在质量轴，山体质量远小于地球；在时间轴，喜马拉雅仍在抬升与侵蚀；在温度轴，峰顶低温与缺氧限制人体活动。高度、质量、抬升速率与温度是四本账。[1][3]
+
+## 海拔高不等于离地心最远
+
+珠峰海拔 8,848.86 米，是相对大地水准面的高程；地球赤道鼓起，钦博拉索山顶离地心反而更远。峰顶冰雪厚度还会随季节变化，岩面高度与雪面高度不是同一个数。正文的 8,848.86 米是雪面海拔，引用时必须说明基准。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 8,848.86 m（2020年雪面高程），口径是 2020年中尼公布的珠峰峰顶雪面海拔高程。空间轴上的长度还要区分半径、直径、距离与投影跨度；同一对象在不同参考面下会给出不同数值。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（NASA NSSDC）、[5]（NOAA / National Ocean Service） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

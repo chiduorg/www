@@ -31,6 +31,10 @@ sources:
     url: 'https://www.britannica.com/science/amino-acid'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   采用丙氨酸（alanine）在线性伸展、不考虑卷曲与侧链折叠时的估算长度 5.5 埃；同表给出甘氨酸 3.9 埃、色氨酸 10.9
   埃。该值描述孤立分子的最大伸展方向，不是蛋白质中氨基酸残基的间距，也不是水合分子的流体力学尺寸。
@@ -83,3 +87,5 @@ tags:
 ## 与其他尺度的关系
 
 0.55 纳米使氨基酸落在小分子区间：比水分子大，与葡萄糖、核苷酸同处一纳米上下，却远小于折叠蛋白质。[1][2] 当许多氨基酸连成多肽时，分子量线性增加，但三维尺寸受折叠控制，不能按单体长度简单相乘。继续阅读蛋白质、葡萄糖与核苷酸，可比较生物单体的尺寸与聚合后的尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

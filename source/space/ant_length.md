@@ -16,6 +16,7 @@ related:
   - space.ant
   - space.human
   - space.mosquito
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Carpenter Ants, Camponotus sp. — Characteristics'
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/animal/carpenter-ant'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: ant_length
   icon: "\U0001F41C"
@@ -81,3 +86,7 @@ tags:
 ## 与其他尺度的关系
 
 6毫米的木匠蚁小型工蚁约为法老蚁工蚁的四倍，比5毫米的蚊子略长，但仍远小于人的手指。[1][2] 同在昆虫尺度里，它和尘螨、蚊子、法老蚁一起展示“毫米级生物”的跨度；向上是手、铅笔和人体，向下则是细胞与细菌。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.020 纳秒，在时间轴上量级接近「纳秒」。[3]

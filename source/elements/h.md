@@ -5,7 +5,7 @@ titleEn: Hydrogen
 summary: 氢只有一个质子与一个 1s 电子，没有 Z−1 可比；13.598 eV 的电离能与 53 pm 的半径，为氦、锂以及整条元素轴提供第一把标尺。
 dimension: element
 category: 非金属
-displayValue: 'Z = 1 · 1s¹ 元素轴起点'
+displayValue: Z = 1 · 1s¹ 元素轴起点
 quantity:
   value: 1
   unit: Z
@@ -20,7 +20,11 @@ element:
   configuration: 1s1
   valence: 1s1
   level: A
-related: [elements.he, elements.li, time.big-bang, elements.explain-configuration]
+related:
+  - elements.he
+  - elements.li
+  - time.big-bang
+  - elements.explain-configuration
 conditions: 标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。
 visual:
   scene: elements.shell-ladder
@@ -31,26 +35,39 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自 CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - >-
+      本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自
+      CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: 'PubChem Element Summary: Hydrogen'
-    url: https://pubchem.ncbi.nlm.nih.gov/element/1
+    url: 'https://pubchem.ncbi.nlm.nih.gov/element/1'
     publisher: U.S. National Library of Medicine
     accessed: '2026-11-09'
   - title: 'Periodic Table: Hydrogen'
-    url: https://www.rsc.org/periodic-table/element/1/hydrogen
+    url: 'https://www.rsc.org/periodic-table/element/1/hydrogen'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
   - title: NIST Atomic Spectra Database
-    url: https://physics.nist.gov/asd
+    url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-09'
-tags: [元素, 第一周期, s 区, 氢]
+  - title: NIST Chemistry WebBook — Hydrogen phase change data
+    url: 'https://webbook.nist.gov/cgi/cbook.cgi?ID=C1333740&Mask=4'
+    publisher: NIST
+    accessed: '2026-11-24'
+tags:
+  - 元素
+  - 第一周期
+  - s 区
+  - 氢
 rights:
   status: rewritten
-  note: "依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。"
+  note: 依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。
 ---
 ## 第 1 个质子把电子放进了哪里
 
@@ -78,3 +95,12 @@ rights:
 ## 怎么继续走
 
 氢没有 Z−1，只能向右走：氦这一格接着把 1s 填满，锂这一格则展示 1s 满员后电子被迫进入 2s。想看 1s 为什么只能放两个、配对为什么抬高电离能，去电子排布解释页；想看没有内层屏蔽时有效核电荷如何定义，也可以从这一页回到壳层阶梯的起点。
+
+
+## 换一个尺度看它
+
+氢是宇宙最丰富的元素，约占普通物质质量的 75%。它的 21 厘米谱线用于射电天文，质子是恒星核聚变的燃料。与铁相比，氢的核结合能低，聚变到铁会释放能量；与氦相比，氢的电子结构最简单。
+
+## 延伸核对
+
+氢的相变数据（三相点、沸点）可与本条电子排布分开核对；元素的存在形态和单质性质不是同一层信息。[4]

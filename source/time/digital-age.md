@@ -30,6 +30,15 @@ sources:
     url: 'https://www.britannica.com/topic/World-Wide-Web'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Brief History of the Internet
+    url: >-
+      https://www.internetsociety.org/internet/history-internet/brief-history-internet/
+    publisher: Internet Society
+    accessed: '2026-11-24'
+  - title: Climate and the collection
+    url: 'https://blog.sciencemuseumgroup.org.uk/climate-and-the-collection/'
+    publisher: Science Museum Group
+    accessed: '2026-11-24'
 legacy:
   id: digital-age
   icon: "\U0001F4BB"
@@ -104,3 +113,11 @@ CERN档案记录了1989年3月的首份提案、1990年11月与Cailliau共同形
 ## 与其他阶段的关系
 
 数字时代上接工业革命的电气化与大规模生产，下接移动互联网、人工智能与大数据；万维网又与1969年ARPANET、1983年TCP/IP部署共享同一条网络技术谱系。[1][2] 在时间轴上，1989年只是很晚近的一个应用层节点。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Internet Society）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（Science Museum Group）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

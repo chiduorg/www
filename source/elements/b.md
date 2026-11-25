@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/5/boron'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第二周期, p 区, 硼]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往回是铍（/entry/elements/be/），能看到 2s 闭合如何把价层堵住；往前是碳（/entry/elements/c/），2p 继续填充后价层重新获得半满结构。想把 p 轨道的方向性放回成键，去读电子排布解释页；想把中微子过程放回恒星死亡，去读第三代恒星超新星节点。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

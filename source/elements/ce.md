@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/58/cerium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 镧系, 铈]
 rights:
   status: rewritten
@@ -78,3 +82,5 @@ rights:
 ## 怎么继续走
 
 往前是镧，5d 先行、4f 仍空；往后是镨，4f 继续加电子，5d 退出价层。想弄清 4f 为什么屏蔽不良，去读镧系收缩解释页；想弄清 N=82 为什么特别稳，去读核稳定性解释页。铈这一页的重点是：它既是 4f 的第一格，也是整段收缩的起点。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

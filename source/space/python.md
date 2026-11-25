@@ -13,12 +13,12 @@ quantity:
   approximate: true
 displayValue: 约 4 m（缅甸蟒全长参照）
 related:
+  - time.atomic-transition
   - space.crocodile
   - space.komodo-dragon
   - space.human
   - space.mouse
   - space.shark
-  - space.anaconda
 reviewStatus: reviewed
 sources:
   - title: Burmese python
@@ -29,6 +29,10 @@ sources:
     url: 'https://www.floridamuseum.ufl.edu/florida-snake-id/snake/burmese-python/'
     publisher: Florida Museum of Natural History, University of Florida
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为缅甸蟒（Python bivittatus）；量吻端到尾尖的全长，不是体围、体重或只量头部；4 m取在常见成体3–5 m范围的中下部，低于约5.8 m的最大纪录。
 uncertainty: >-
@@ -77,3 +81,7 @@ Britannica的缅甸蟒条目说，成体通常3到5米（10到16英尺），最�
 ## 与其他尺度的关系
 
 4米约为2.4个1.7米高的人，和4米尼罗河鳄、4米大白鲨同量级，比3米科莫多巨蜥长1米，约为30米蓝鲸全长的七点五分之一。[1][2] 在尺度轴上，它属于“几米级”的长条形动物；同样4米，蛇的体重远小于鳄或鲨。用全长比较，才能避免把“长”和“重”混为一谈。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 13.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

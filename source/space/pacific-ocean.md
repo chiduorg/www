@@ -13,10 +13,10 @@ quantity:
 displayValue: 约 19,300 km（东西向最大宽度）
 related:
   - space.earth
-  - space.island
   - space.everest
-  - space.olympus-mons
-  - space.city
+  - temperature.sea-surface
+  - temperature.deep-ocean
+  - mass.earth
   - temperature.earth-mantle
 reviewStatus: reviewed
 sources:
@@ -36,6 +36,10 @@ sources:
     url: 'https://kids.britannica.com/students/article/Pacific-Ocean/276242'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: "Earth Fact Sheet"
+    url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+    publisher: "NASA NSSDC"
+    accessed: '2026-11-24'
 legacy:
   id: pacific-ocean
   icon: "\U0001F30A"
@@ -93,3 +97,23 @@ NOAA说太平洋覆盖约6300万平方英里，含全球一半以上自由水，
 ## 与其他尺度的关系
 
 19,300公里约为地球直径12,742公里的1.5倍，也约为珠穆朗玛峰高度8.849公里的2180倍；它覆盖地球表面约三分之一。[3][4] 与地球周长40075公里相比，太平洋宽度仍不到其一半。它的范围描述属于行星表面的区域尺度，不能当作行星半径或周长。
+
+## 面积与宽度不是一回事
+
+太平洋面积约 1.63 亿平方公里，东西向最大宽度约 19,300 公里；把面积开平方得到的“等效边长”既不是宽度，也不是航程。[1][3] 海盆形状不规则，宽度随纬度和端点变化。面积、宽度、平均深度和体积是四种不同的量。
+
+## 太平洋不是一块孤立的水
+
+NOAA 指出地球只有一个彼此连通的全球海洋，太平洋的边界是历史、文化和地理划分。[1][2] 海水、热量和生物在洋盆之间交换；把它当成一个封闭水池，会漏掉洋流与气候系统的连通性。
+
+## 五轴对照
+
+在空间轴，太平洋宽约 19,300 公里；在质量轴，海水总量对应巨大的质量；在温度轴，海表与深海温差驱动环流；在时间轴，洋盆随板块运动张开与闭合。面积、宽度与热含量不能互换。[1][3]
+
+## 面积、体积与边界
+
+太平洋面积约 1.65 亿平方公里，平均深度约 4,000 米，体积约 6.6 亿立方公里；三个数分别对应海面、水体与洋盆边界。太平洋与周边海的界线在不同机构有不同画法，面积会随之变化。正文的“最大海洋”是面积口径，不是体积或海岸线长度。[1][S1]
+
+## 延伸核对
+
+补充的来源 [5]（NASA NSSDC） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

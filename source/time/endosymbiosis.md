@@ -33,6 +33,10 @@ sources:
     url: 'https://openstax.org/books/biology/pages/23-1-eukaryotic-origins'
     publisher: OpenStax
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -82,3 +86,5 @@ tags:
 ## 与其他阶段的关系
 
 内共生是解释真核细胞复杂性的关键环节。线粒体提供高效能量代谢，使细胞能维持更大的基因组和更复杂的结构；叶绿体则改变了碳循环和氧气收支。它向前连接原核生物与早期真核谱系，向后连接有性生殖、多细胞化和复杂生态系统的建立。时间轴上的这个点，标记的是细胞内部关系的一次重大重组。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

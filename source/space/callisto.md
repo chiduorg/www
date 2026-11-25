@@ -16,6 +16,8 @@ related:
   - space.ganymede
   - space.europa
   - space.moon
+  - time.solar-system
+  - mass.moon
 reviewStatus: reviewed
 sources:
   - title: Planetary Satellite Physical Parameters
@@ -26,15 +28,24 @@ sources:
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html'
     publisher: NASA NSSDCA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为木星卫星木卫四的固体表面；采用JPL所列平均半径2410.30公里加倍；不含稀薄外逸层，也不把轨道半径或磁层范围当作本体尺寸。
-uncertainty: JPL列平均半径2410.30±1.50公里，直径约4820.6±3.0公里；NSSDCA列同一半径值2410.3公里。木卫四接近球形但并非完美球体，平均直径不等于赤道或极直径。
+uncertainty: >-
+  JPL列平均半径2410.30±1.50公里，直径约4820.6±3.0公里；NSSDCA列同一半径值2410.3公里。木卫四接近球形但并非完美球体，平均直径不等于赤道或极直径。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
     - 打开JPL卫星物理参数表与NASA NSSDCA木星卫星事实表，核对平均半径、质量与反照率。
     - 明确平均值由平均半径加倍得到，并区分平均直径、赤道直径和轨道距离。
-    - '2026-11-07 来源可访问性核对：https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html 返回可用响应；https://ssd.jpl.nasa.gov/sats/phys_par/（TypeError: fetch failed） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07
+      来源可访问性核对：https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html
+      返回可用响应；https://ssd.jpl.nasa.gov/sats/phys_par/（TypeError: fetch failed）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -72,3 +83,5 @@ JPL卫星物理参数表列木卫四平均半径2410.30公里，不确定度1.50
 ## 与其他尺度的关系
 
 4820公里约为月球直径3474.8公里的1.39倍，约为水星4879公里的0.99倍，约为木卫三5262公里的0.92倍，约为地球12742公里的38%。[1][2] 在木星系统中它只是第二大的卫星，但已接近水星尺度；与木星平均直径139822公里相比，它只占约3.4%。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

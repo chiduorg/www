@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/graphene'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   0.335 纳米是单层石墨烯常用的厚度约定值，来源于石墨层间距 3.35
   埃；它描述单层碳原子面的法向尺度，不是电子云外缘或可触摸的表面边界。适用于单层石墨烯，不适用于多层、褶皱或吸附体系。
@@ -76,3 +80,5 @@ tags:
 ## 与其他尺度的关系
 
 0.335 纳米比苯环的对位碳间距略大，却远小于碳纳米管管径和量子点直径。[1][2] 它把“原子层”的尺度与“纳米颗粒”的尺度连接起来：石墨烯是二维片，卷成圆筒可成碳纳米管，堆叠可成石墨。继续阅读碳纳米管、苯分子、富勒烯与晶格间距，可比较不同碳材料的维度与尺度口径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

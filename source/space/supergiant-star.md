@@ -14,12 +14,12 @@ quantity:
   approximate: true
 displayValue: 约 1 × 10¹² m（红超巨星直径量级）
 related:
+  - time.hour
   - space.betelgeuse
   - space.red-giant
   - space.sun
   - space.white-dwarf
   - space.neutron-star
-  - space.crab-nebula
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -33,6 +33,10 @@ sources:
     url: 'https://www.britannica.com/science/supergiant-star'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   指红超巨星阶段光球层的直径量级概览，以参宿四为样本；不适用于类太阳恒星的红巨星阶段、蓝超巨星或其他超巨星子类，也不含延伸大气、星风与尘埃壳层。
 uncertainty: >-
@@ -86,3 +90,7 @@ tags:
 ## 与其他尺度的关系
 
 1×10¹² 米相当于约 6.7 天文单位，约为太阳直径的 724 倍，也约为地球轨道半径的 6.7 倍。[1] 与恒星际距离相比，它仍很小：即使直径达到 10¹² 米，也只是 1 光年的约万分之一。它比白矮星直径大约五个数量级，比中子星大约七个数量级；把它与猎户座大星云这类数十光年的结构并排，就能看出恒星个体与星际云尺度的差距。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 55.6 分钟，在时间轴上量级接近「一小时」。[3]

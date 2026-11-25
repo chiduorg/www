@@ -17,6 +17,7 @@ related:
   - space.door
   - space.backpack
   - space.hand
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Liebe 8.0 Popsicle Skateboard — specifications
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.walmart.com/ip/Baker-Brand-Logo-Complete-Skateboard-8-0-Red-White-Black/13500674732'
     publisher: Walmart
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为成人街式滑板；测量口径为板尾端点到板头端点的板身长度，不含桥、轮子和砂纸边缘。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 80 厘米约为成年人手长 19 厘米的 4.2 倍，也约为 A4 纸长边 29.7 厘米的 2.7 倍。它比 48 厘米高的背包长约 1.7 倍，约为 1.7 米长自行车的一半。与 2 米高的门相比，滑板长度约为门高的 0.4 倍。与 68 厘米长的网球拍相比，滑板长约 12 厘米。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.7 纳秒，在时间轴上量级接近「纳秒」。[3]

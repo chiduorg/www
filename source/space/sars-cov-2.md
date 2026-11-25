@@ -16,6 +16,7 @@ related:
   - space.phage
   - space.hiv
   - space.cell_membrane
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -30,6 +31,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7283733/'
     publisher: 'Electrophoresis / PMC, NCBI'
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 透射电镜或冷冻电镜对负染、固定或快速冷冻的病毒颗粒测量；包膜刺突是否计入、颗粒多形性与制样都会影响读数。
 uncertainty: >-
   100 nm 是 60–140 nm 范围内便于比较的中段参照；颗粒常呈圆形、椭圆形或多形，计入表面刺突时表观直径可更大，不能把 100 nm
@@ -78,3 +83,7 @@ tags:
 ## 与其他尺度的关系
 
 100 nm 等于 0.1 μm，约为红细胞直径的七十二分之一，也比大肠杆菌短轴小五倍左右[1]。它与 HIV 颗粒（约 120 nm）接近，比 T4 噬菌体头部宽度（约 86 nm）略大。若把 100 nm 放大到一根头发直径，需要约七百倍；这说明新冠病毒的形态观察必须依赖电子显微镜，普通光学显微镜只能看到被感染细胞的改变。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3e-7 纳秒，在时间轴上量级接近「纳秒」。[3]

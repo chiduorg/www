@@ -16,6 +16,7 @@ related:
   - space.dog
   - space.human
   - space.rabbit
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Canis latrans
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/animal/coyote-mammal'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性郊狼；量取从吻端到尾根的头体长，尾巴不计；不采用含尾总长、肩高或冬季更厚的体况。
 uncertainty: ADW 给出头体长 75–100 cm；Britannica 给出含尾总长 1.0–1.3 m，尾长 30–40 cm，折算头体长约 60–100 cm。1.0 m 取在上限，代表东北部与加拿大东部的大型雄性。
 review:
@@ -70,3 +75,14 @@ Animal Diversity Web 的郊狼条目记录：头体长 75–100 厘米，体重 
 ## 与其他尺度的关系
 
 1.0 米比 0.7 米的赤狐长三十厘米，比 1.2 米的灰狼短二十厘米左右，也略短于 1.3 米的猎豹。[1][2] 在犬科尺度上，郊狼位于赤狐与灰狼之间，属于“一米级”中型成员；和 1.7 米的人相比，大约到人的腰部以上。放到 30 米蓝鲸的尺度上，它约占其三十分之一。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1 米，换算后是 1 米；约 0.588 个成年人身高（1.7 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

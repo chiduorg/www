@@ -18,6 +18,7 @@ related:
   - space.diamond-unit-cell
   - space.hair
   - space.a4-paper
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: E112 Standard Test Methods for Determining Average Grain Size
@@ -28,6 +29,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11820551/'
     publisher: Materials (MDPI) / PMC, Huang et al.
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   以变形铝合金的再结晶等轴晶为对象，取平均晶粒直径约 10 微米；
   未再结晶、粗晶区或铸造组织不在此口径内。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 10 微米约为头发丝 100 微米的 1/10，约为人体细胞 20 微米的一半，与红细胞 7.5 微米同量级。它约相当于 2.5 万个 0.4 纳米的铝晶胞边长。与 A4 纸 297 毫米相比小约三万倍。把本页与晶格间距、金刚石晶胞和 A4 纸并读，可区分原子尺度、晶粒尺度和日常尺度。与钢、钛合金的 10 微米晶粒并置，可看出不同金属在相同尺度下组织形貌仍有差别。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.000033 纳秒，在时间轴上量级接近「纳秒」。[3]

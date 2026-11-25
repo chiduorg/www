@@ -19,6 +19,7 @@ related:
   - temperature.mars-surface
   - temperature.pluto-surface
   - temperature.water-freezing
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: A temperature of -70°C on comet 67P/CG

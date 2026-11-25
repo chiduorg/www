@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/93/neptunium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 锕系, 镎]
 rights:
   status: rewritten
@@ -70,3 +74,5 @@ rights:
 ## 它从哪里来
 
 来源记作“人工（反应堆中子俘获），天然仅痕量”。[2] 反应堆里，铀核吸收中子后经 β 衰变生成镎，这是它作为人工元素的主要路径；天然痕量来自铀的中子反应，数量不足以形成独立矿产。把镎挂到时间轴上，对应的是核时代：人类第一次能稳定制造 Z=93 以后的核，相关节点是核时代。[1]
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

@@ -28,6 +28,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Felis_catus/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 体长为鼻尖到尾根的直线距离，不含尾巴、后肢和胡须；以48 cm为常见家猫参照，不是所有品种、幼猫或含尾全长的定值。
 uncertainty: >-
   Britannica学生版给出家猫鼻尖至尾根46–51 cm、尾长25–38 cm；ADW给出平均长度76.2 cm但未明确是否含尾。本条取48
@@ -76,3 +80,12 @@ Britannica 的学生版 Cat 条目给出家猫鼻尖至尾根的体长 46–51 �
 ## 与其他尺度的关系
 
 48 厘米的家猫体长约为家鼠的六倍，比青蛙长得多，比狗短，约为人手长度的两到三倍。[1][2] 在尺度轴上，它位于“几十厘米”的小型哺乳动物带：向上是狗、象和建筑，向下是鼠、蛙和昆虫。明确不含尾的口径，能避免把猫的体长与含尾全长混在一起，也解释了同一只猫在不同资料里为何会读出不同长度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 0.48 米，换算后是 48 厘米；约 0.282 个成年人身高（1.7 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻¹ 量级附近。
+
+读图时先看量级，再看倍数：10⁻¹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

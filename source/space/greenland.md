@@ -16,6 +16,7 @@ related:
   - space.glacier
   - space.island
   - space.pacific-ocean
+  - time.millisecond
 reviewStatus: reviewed
 sources:
   - title: Greenland
@@ -26,6 +27,10 @@ sources:
     url: 'https://visitgreenland.com/plan-your-trip/faq/'
     publisher: Visit Greenland
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为格陵兰岛；测量口径为最南端至最北端的南北直线长度，不是东西最大宽度、面积、海岸线长度或冰盖面积。
 uncertainty: >-
   Britannica给出约1,660英里（2,670公里），格陵兰官方旅游机构给出约2,800公里；两个数值都取整到百公里，差异来自端点与测量路线，不是岛屿在伸缩。
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 2,700公里约为地球平均半径6,371公里的42%，约为长江6,300公里的43%。它约为台湾本岛南北纵长394公里的6.9倍，说明格陵兰是一个大陆尺度的岛屿。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 9.0 毫秒，在时间轴上量级接近「毫秒」。[3]

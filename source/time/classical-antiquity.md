@@ -17,6 +17,8 @@ related:
   - time.middle-ages
   - time.renaissance
   - time.invention-of-writing
+  - space.human
+  - mass.adult-human
 reviewStatus: reviewed
 sources:
   - title: Classical antiquity
@@ -27,6 +29,15 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/place/ancient-Greece'
     accessed: '2026-11-06'
+  - title: 'The Middle Ages, an introduction'
+    url: 'https://smarthistory.org/introduction-to-the-middle-ages/'
+    publisher: Smarthistory
+    accessed: '2026-11-24'
+  - title: Bronze Age — Archaeology glossary
+    url: >-
+      https://archeologie.culture.gouv.fr/archeo-sous-marine/en/glossaire/bronze-age
+    publisher: 'Ministère de la Culture, France'
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -84,3 +95,11 @@ tags:
 ## 与其他阶段的关系
 
 古典时代前接铁器时代，后接欧洲中世纪；文艺复兴又把古典文化当作学习和模仿的对象。[1] 它与早期文字、城市国家和地中海贸易网络相互交织，也为后来的法律、政治与科学传统提供了词汇和范本。把这些遗产与当时的实际社会状况分开看，才不至于把“古典”误读成没有冲突的单一传统。[2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Smarthistory）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（Ministère de la Culture, France）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

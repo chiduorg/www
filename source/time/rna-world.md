@@ -18,6 +18,7 @@ related:
   - time.luca
   - time.hydrothermal-origin-of-life
   - time.formation-of-oceans
+  - space.cell
 reviewStatus: reviewed
 sources:
   - title: RNA and DNA May Have Shared Building Blocks and May Have Appeared at the Same Time
@@ -28,6 +29,10 @@ sources:
     url: 'https://biologydirect.biomedcentral.com/articles/10.1186/1745-6150-7-23'
     publisher: Biology Direct
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: model-reference
   plot: true
@@ -85,3 +90,5 @@ RNA 世界假说认为，在DNA和蛋白质成为遗传与催化主角之前，�
 ## 与其他阶段的关系
 
 RNA世界假说上承早期地球的化学环境，下接原始细胞、最早生命证据与LUCA等条目。[1][2] 它与热液起源假说相互交织：如果生命始于深海喷口或陆地温泉，RNA的合成与浓缩条件会不同；这些关联条目分别讨论场所与分子阶段，不能互相替代。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

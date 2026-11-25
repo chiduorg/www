@@ -3,7 +3,7 @@ id: mass.sirius-b
 title: 天狼星 B：2.02×10³⁰ kg，地球大小的白矮星
 summary: 天狼星 B 质量约 2.02×10³⁰ kg，约 1.02 太阳质量，半径却只有地球量级。数值由双星轨道拟合并结合引力红移测定，相对不确定度约 2%。
 dimension: mass
-category: 恒星
+category: 恒星与致密天体
 displayValue: 2.02×10³⁰ kg
 quantity:
   value: 2.02e+30
@@ -22,6 +22,8 @@ related:
   - mass.sirius-a
   - mass.sun
   - mass.psr-j0348-0432
+  - space.sun
+  - temperature.sun-surface
 reviewStatus: reviewed
 review:
   method: source-check
@@ -77,6 +79,7 @@ visual:
   color: '#ffd37a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Sirius B
 ---
 ## 这个读数是什么
 

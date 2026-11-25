@@ -17,6 +17,7 @@ related:
   - space.sequoia
   - space.human
   - space.leaf
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: White Oak — Silvics of North America
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/plant/oak'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   树高指从树基地面到最高枝梢的垂直距离；本条以温带常见栎属乔木（白橡类）的成体高度为参照，不包括灌木状栎、幼树、树冠宽度、树干胸径或根系深度。
 uncertainty: >-
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 25米约相当于14.7个1.7米高的人叠起来，也约等于8层每层3米高的楼。[1] 在尺度轴上，它位于蕨类1米与巨杉95米之间，向上还有112米的海岸红杉；向下则回到叶片、手掌和昆虫的厘米级。橡树把“几十米”这个高度带具体化：它高于日常建筑的一小段，却远低于最高的树木。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 83.4 纳秒，在时间轴上量级接近「原子跃迁」。[3]

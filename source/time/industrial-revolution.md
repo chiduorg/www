@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/event/Industrial-Revolution'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: History of the Royal Society
+    url: 'https://royalsociety.org/about-us/who-we-are/history/'
+    publisher: The Royal Society
+    accessed: '2026-11-24'
 legacy:
   id: industrial-revolution
   icon: "\U0001F3ED"
@@ -103,3 +107,16 @@ tags:
 ## 与其他阶段的关系
 
 工业革命上接科学革命与农业社会，下接电气化、大规模生产和数字技术；它把化石能源消耗与经济增长长期绑定，也带来现代气候变化问题。[1][2] 与后来的信息革命相比，工业革命改变的是动力与物质生产，信息革命更多改变计算与通信。
+
+
+## 这个数值的误差档本
+
+工业革命没有单一起点。1760—1840 年是常用分期，但蒸汽机、纺织机械、铁路与工厂制度在不同地区、不同行业先后出现。把它写成 1760 年某天开始，是把长期结构变化压缩成一个标签。不同国家与地区的工业化时间相差几十年到上百年。
+
+## 换一个尺度看它
+
+工业革命距今约 200 多年，约为人类文明史的 1/50，却改变了人口、能源与城市化的斜率。与宇宙年龄相比，它只是一瞬；与一个人的寿命相比，它又跨越了数代人的经验。读这个节点时，应同时看技术、能源、劳动与全球贸易，而不是只记一个年份。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（The Royal Society）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

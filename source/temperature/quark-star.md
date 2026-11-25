@@ -16,11 +16,12 @@ quantity:
   measureLabel: 理论表面温度（未定）
 displayValue: 理论温度未定
 related:
+  - space.sun
+  - time.first-stars
   - temperature.neutron-star-core
   - temperature.neutron-star-surface
   - temperature.quark-gluon
   - temperature.magnetar-surface
-  - temperature.planck-temperature
 reviewStatus: reviewed
 sources:
   - title: Cooling of quark stars from perturbative QCD
@@ -31,6 +32,10 @@ sources:
     url: 'https://arxiv.org/pdf/astro-ph/0608345'
     publisher: 'P. Jaikumar, S. Reddy and A. W. Steiner (arXiv:astro-ph/0608345)'
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为理论假说中的夸克星，即由解禁闭夸克物质构成的致密天体，尚未被观测确认。 温度口径应为表面有效温度，但其数值取决于状态方程、壳层结构、配对与冷却历史，
   目前没有可靠统一预测，故不参与数值比较。
@@ -75,3 +80,5 @@ tags:
 ## 在温标上的位置
 
 本条不参与温度数轴比较，但可以把它与已知致密天体并置理解：中子星表面常在约 10⁶ K 量级，磁星可到约 10⁷ K，而夸克星若存在，其表面温度可能落在相近或更宽的范围。问题不在于“猜一个数”，而在于先确认对象并建立可复现的测量口径。[2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

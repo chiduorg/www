@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: '约 273,560 km（A环外缘直径）'
 related:
+  - temperature.venus-surface
+  - time.solar-system
   - space.saturn
   - space.jupiter
   - space.uranus
   - space.neptune
-  - space.earth
 reviewStatus: reviewed
 sources:
   - title: Saturnian Rings Fact Sheet
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Saturn-planet'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: '对象为土星主环系的可见外缘；采用A环外缘半径136,780公里加倍；不含F环、G环和E环等稀薄外环，也不把环的厚度计入。'
 uncertainty: >-
   A环外缘半径136,780公里，直径273,560公里；若取F环半径139,826公里，外径约279,652公里；若取E环外缘480,000公里，外径约960,000公里。差异来自“外缘”定义。
@@ -40,12 +45,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "distance"
-  scene: "space.object"
-  caption: "土星环 · 环系"
-  note: "环带、缝隙与光照为示意，非按比例，非观测重建；不复现真实环粒子分布与阴影细节。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: distance
+  scene: space.object
+  caption: 土星环 · 环系
+  note: 环带、缝隙与光照为示意，非按比例，非观测重建；不复现真实环粒子分布与阴影细节。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -73,3 +78,12 @@ NASA土星环事实表逐项列出各环的内外缘半径：A环外缘为136,78
 ## 与其他尺度的关系
 
 273,560公里约为地球直径12,742公里的21.5倍，约为土星赤道直径120,536公里的2.27倍。[1] 它约为木星直径142,984公里的1.91倍，但小于木星到土星的平均距离。土星环的直径与土星本体相比很大，但质量只占土星极小一部分。[2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 2.736×10⁸ 米，换算后是 2.74×10⁵ 千米；约 0.712 个地月平均距离（3.844×10⁸ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁸ 量级附近。
+
+读图时先看量级，再看倍数：10⁸ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

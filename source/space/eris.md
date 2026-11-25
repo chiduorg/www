@@ -16,16 +16,24 @@ related:
   - space.kuiper-belt
   - space.makemake
   - space.ceres
+  - time.solar-system
+  - mass.moon
 reviewStatus: reviewed
 sources:
   - title: Eris
     url: 'https://science.nasa.gov/dwarf-planets/eris/'
     publisher: NASA Science
     accessed: '2026-11-07'
-  - title: A Pluto-like radius and a high albedo for the dwarf planet Eris from an occultation
+  - title: >-
+      A Pluto-like radius and a high albedo for the dwarf planet Eris from an
+      occultation
     url: 'https://www.nature.com/articles/nature10550'
     publisher: Nature（Sicardy et al. 2011）
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为阋神星固体表面；采用2010年恒星掩星拟合的有效直径；不含稀薄大气，也不把约68天文单位的轨道半长轴当作本体尺寸。
 uncertainty: 掩星给出半径约1163公里，直径约2326公里；NASA页面给赤道直径约2400公里。两者相差约3%，来自不同测量与取整口径，不能当成同一个精确值。
 review:
@@ -34,7 +42,9 @@ review:
   notes:
     - 打开NASA阋神星页面与Sicardy等2011年Nature掩星论文，核对直径、质量与发现史。
     - 明确2326公里是掩星有效直径，并区分它与NASA约2400公里的赤道直径口径。
-    - '2026-11-07 来源可访问性核对：全部来源页返回可用响应（https://science.nasa.gov/dwarf-planets/eris/；https://www.nature.com/articles/nature10550），数值口径与正文一致。'
+    - >-
+      2026-11-07
+      来源可访问性核对：全部来源页返回可用响应（https://science.nasa.gov/dwarf-planets/eris/；https://www.nature.com/articles/nature10550），数值口径与正文一致。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -72,3 +82,12 @@ tags:
 ## 与其他尺度的关系
 
 2326公里约为冥王星2376公里的0.98倍，约为月球3474.8公里的0.67倍，约为谷神星940公里的2.47倍，约为鸟神星1430公里的1.63倍。[1][2] 与地球12742公里相比，它约为18%；在柯伊伯带天体中，它和冥王星属于最大的成员。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 2.326×10⁶ 米，换算后是 2.33×10³ 千米；约 0.183 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁶ 量级附近。
+
+读图时先看量级，再看倍数：10⁶ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

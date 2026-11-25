@@ -18,6 +18,7 @@ related:
   - space.apple
   - space.laptop
   - space.scarf
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Plain Baseball Cap — product dimensions
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.ruparupa.com/p/ataru-topi-baseball-new-york-script-hitam.html'
     publisher: Ruparupa
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为可调节成人棒球帽；测量口径为帽子平放时帽身外廓的最大跨度，含帽檐，不含后部调节带的伸展长度。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 25 厘米约为成年人手长 19 厘米的 1.3 倍，也约为 A4 纸长边 29.7 厘米的 0.84 倍。它比一个直径约 8 厘米的苹果宽约 3.1 倍，比 34.5 厘米的笔记本屏幕对角线短约 9.5 厘米。戴在头上时，帽宽通常略大于头部左右两侧的宽度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.83 纳秒，在时间轴上量级接近「纳秒」。[3]

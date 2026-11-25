@@ -36,6 +36,10 @@ sources:
     url: 'https://www.britannica.com/science/nucleosynthesis'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 conditions: 过程页；以 time.pop-iii-supernovae 节点为超新星锚点，本页不重复时间数值。
 visual:
   scene: elements.explain
@@ -68,3 +72,5 @@ rights:
 ## 与其他阶段的关系
 
 三α过程把氦变成碳氧，是碳基化学与硅酸盐岩石的起点；铁峰则给元素轴划出分水岭。[2] 它向上接恒星氢燃烧，向下接超新星抛射、s 过程与 r 过程。铁峰之后的元素不再靠静燃烧批量生产，而要靠中子俘获或人工合成，这正是元素轴后半段结构变化的根源。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

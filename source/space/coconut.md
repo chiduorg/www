@@ -18,6 +18,7 @@ related:
   - space.hand
   - space.egg
   - space.mushroom
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Coconut, niu'
@@ -28,6 +29,10 @@ sources:
     url: 'https://gardeningsolutions.ifas.ufl.edu/plants/trees-and-shrubs/palms-and-cycads/coconut-palm.html'
     publisher: University of Florida IFAS Extension
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为带纤维外壳的成熟椰子；量果实外形的最大跨度，通常取长径，不量剥壳后的内果核，不按重量换算；30 cm 取在成熟果实长度上限。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 30 cm 约为椰子果核直径（十几厘米）的两倍，约为鸡蛋长径（5.5 cm）的五倍多，也约为篮球直径（24 cm）的 1.2 倍。在尺度轴上，它处在大型果实位置，向上是西瓜等更大果实，向下是种子和孢子。30 cm 也约为 A4 纸长边（29.7 cm）的同一量级。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.0 纳秒，在时间轴上量级接近「纳秒」。[3]

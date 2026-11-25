@@ -16,6 +16,7 @@ related:
   - space.red-blood-cell
   - space.capillary
   - space.cell
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Histology, Platelets'
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/platelet'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 抗凝血涂片经染色后在光学显微镜下测量；血小板易聚集、活化并改变形状，抗凝剂与制样时间会影响读数。
 uncertainty: 2 μm 是静息血小板的典型直径；活化或聚集后形状变圆、伸出伪足，表观尺寸增大，不同个体与计数方法也可给出约 1.5–3 μm 的分布。
 review:
@@ -72,3 +77,7 @@ tags:
 ## 与其他尺度的关系
 
 2 μm 约为红细胞直径的四分之一，也比中性粒细胞小七倍左右[1]。它与大肠杆菌短轴（约 0.5 μm）相比仍大四倍，但远小于一个典型动物细胞。若把 2 μm 放大到一根头发直径，需要约三十五倍；这也解释了为什么血小板在普通血涂片上只是细小的紫色点，需要油镜或更高分辨率方法才能看清形态细节。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.0000067 纳秒，在时间轴上量级接近「纳秒」。[3]

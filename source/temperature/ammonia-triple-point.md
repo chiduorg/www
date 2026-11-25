@@ -18,6 +18,7 @@ related:
   - temperature.methane-boiling
   - temperature.liquid-ethane
   - temperature.methane-triple-point
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: NIST Chemistry WebBook — Ammonia phase change data
@@ -28,6 +29,10 @@ sources:
     url: 'https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nbsir77-1409.pdf'
     publisher: National Bureau of Standards / NIST
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 纯氨样品，固、液、气三相在约 6.06 kPa 的低压下共存。
 uncertainty: NIST WebBook 列常压熔点 194.95 K 与三相点压力 0.0606 bar；NBS 状态方程报告给出 195.48 K，常见表值取 195.4 K。
 review:
@@ -72,3 +77,5 @@ NIST Chemistry WebBook 的氨相变表列出常压熔点 194.95 K 和三相点�
 ## 与其他尺度的关系
 
 195.4 K 约为氨沸点 239.8 K 的 0.81 倍，低于氨沸点 239.8 K，高于甲烷沸点 111.7 K、液氮的 77.34 K、液氦的 4.22 K。[1][2] 与 239.8 K 相比，它低约 44.4 K；这也说明常压沸点并不是判断物质“冷热”的唯一坐标。把既有参照排在一起：液氦 4.22 K、液氢 20.3 K、液氮 77.34 K、液氧 90.2 K、甲烷沸点 111.7 K、氨沸点 239.8 K；195.4 K 低于氨的常压沸点，高于其余五者。画面只作示意。195.4 K 约为宇宙微波背景 2.725 K 的 72 倍，约为液氦 4.22 K 的 46 倍。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

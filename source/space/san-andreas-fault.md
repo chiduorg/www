@@ -16,6 +16,7 @@ related:
   - space.mid-ocean-ridge
   - space.everest
   - space.earth
+  - time.millisecond
 reviewStatus: reviewed
 sources:
   - title: The San Andreas Fault
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/place/San-Andreas-Fault'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为整个圣安德烈斯断层系；量取沿走向从北端到南端的总长度，包含分支与分段；不含断层带宽度，也不把某一次地震的破裂段长度计入。
 uncertainty: USGS称断层系长于800英里（约1,300公里），Britannica称超过1,300公里，两者一致；清单建议的1,200公里偏短约8%，本条按来源取1,300公里。USGS区划报告对较窄的断层带给出1,082公里，属于不同统计口径。
 review:
@@ -70,3 +75,7 @@ USGS的科普册页指出，整个圣安德烈斯断层系长度超过800英里�
 ## 与其他尺度的关系
 
 1,300公里约为希克苏鲁伯陨石坑直径180公里的7.2倍，约为大峡谷全长446公里的2.9倍，约为珠穆朗玛峰高程8,848.86米的147倍。[1][2] 它远小于地球周长约4万公里，却已横跨一个大陆边缘的多个州。放在板块尺度上，它只是板块边界网络中的一段。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.3 毫秒，在时间轴上量级接近「毫秒」。[3]

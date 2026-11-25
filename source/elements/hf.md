@@ -49,6 +49,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/72/hafnium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 过渡金属, 铪]
 rights:
   status: rewritten
@@ -82,3 +86,5 @@ rights:
 ## 怎么继续走
 
 往前是镥，4f 刚闭合、5d 开始接手；往后是钽，5d 继续增加。想看 4f 屏蔽不足怎样改变有效核电荷，看镧系收缩解释页；想看同族元素为何尺寸相近，看周期律解释页。铪这一格的意义，是把“多加一个质子”从核问题变成了分离化学问题。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

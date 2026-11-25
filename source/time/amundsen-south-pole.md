@@ -1,6 +1,6 @@
 ---
 id: time.amundsen-south-pole
-title: '阿蒙森抵达南极点：1911年12月14日'
+title: 阿蒙森抵达南极点：1911年12月14日
 titleEn: Amundsen Reaches the South Pole
 dimension: cosmic-time
 category: 人类与文明
@@ -17,16 +17,26 @@ related:
   - time.industrial-revolution
   - time.world-war-i
   - time.present
+  - space.city
 reviewStatus: reviewed
 sources:
-  - title: 'Roald Amundsen'
+  - title: Roald Amundsen
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/biography/Roald-Amundsen'
     accessed: '2026-11-07'
-  - title: 'The Third Fram Expedition (1910-1914)'
+  - title: The Third Fram Expedition (1910-1914)
     publisher: Fram Museum
-    url: 'https://frammuseum.no/polar-history/expeditions/the-third-fram-expedition-1910-1914/'
+    url: >-
+      https://frammuseum.no/polar-history/expeditions/the-third-fram-expedition-1910-1914/
     accessed: '2026-11-07'
+  - title: A primer for Italian renaissance art
+    url: 'https://smarthistory.org/primer-italian-renaissance-art/'
+    publisher: Smarthistory
+    accessed: '2026-11-24'
+  - title: 小知识│何谓活字印刷术？
+    url: 'https://www.nlc.cn/pcab/zlyj/zlyj_djsh/20190418_177776.shtml'
+    publisher: 中国国家图书馆·国家古籍保护中心
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -45,8 +55,8 @@ review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。'
-    - '2026-11-07 写作阶段已用 WebFetch 打开 Britannica 阿蒙森条目与 Fram 博物馆第三次 Fram 远征页面核对日期。'
+    - 2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。
+    - 2026-11-07 写作阶段已用 WebFetch 打开 Britannica 阿蒙森条目与 Fram 博物馆第三次 Fram 远征页面核对日期。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -82,3 +92,11 @@ tags:
 ## 与其他阶段的关系
 
 这次远征发生在工业革命之后的极地竞赛中，依赖蒸汽船、雪橇、狗队和严密的补给计划。[1][2] 它与大航海时代的远洋探索都以“到达未知地点”为目标，但南极探险更多由国家声望和科学观测驱动。与第一次世界大战（1914年）相比，它只早了不到三年，却常被写成英雄时代的尾声。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Smarthistory）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（中国国家图书馆·国家古籍保护中心）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

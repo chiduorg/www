@@ -18,6 +18,7 @@ related:
   - temperature.moon-day
   - temperature.space-background
   - temperature.absolute-zero
+  - space.moon
 reviewStatus: reviewed
 sources:
   - title: The Lunar Reconnaissance Orbiter Diviner Lunar Radiometer Experiment
@@ -28,6 +29,10 @@ sources:
     url: 'https://ntrs.nasa.gov/api/citations/20130014492/downloads/20130014492.pdf'
     publisher: NASA NTRS
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 月球极区永久阴影坑底，近地表、无直接阳光照射的冷阱环境。
 uncertainty: 坑底最低可到约 25 K；40 K 是量级参照，纬度、坑口大小和遮挡程度都会改变读数。
 review:
@@ -72,3 +77,5 @@ LRO 上的 Diviner 红外辐射计对月球表面进行热成像。Paige 等人�
 ## 与其他尺度的关系
 
 40 K 约为液氮沸点 77.34 K 的 0.52 倍，高于海卫一的 38 K，低于冥王星的约 44 K，也远高于液氦的 4.22 K 与绝对零度。[1][2] 这说明同一颗天体上也能出现从极冷阴影到高温昼侧的跨度；画面只作示意。40 K 约为宇宙微波背景 2.725 K 的 15 倍，约为液氦 4.22 K 的 9.5 倍，与海卫一 38 K 接近；它仍比绝对零度高约 40 K。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

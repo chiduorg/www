@@ -16,6 +16,8 @@ related:
   - temperature.fever
   - temperature.water-freezing
   - temperature.antarctic_min_temp
+  - space.human
+  - time.present
 reviewStatus: reviewed
 sources:
   - title: 'Hypothermia-Related Deaths — Wisconsin, 2014, and United States, 2003–2013'
@@ -26,6 +28,14 @@ sources:
     url: 'https://www.ncbi.nlm.nih.gov/books/NBK545239/'
     publisher: NCBI Bookshelf (StatPearls)
     accessed: '2026-11-06'
+  - title: "Temperature measurement"
+    url: "https://www.medlineplus.gov/ency/article/003400.htm"
+    publisher: "U.S. National Library of Medicine / MedlinePlus"
+    accessed: '2026-11-24'
+  - title: "Kelvin: Introduction"
+    url: "https://www.nist.gov/si-redefinition/kelvin-introduction"
+    publisher: "NIST"
+    accessed: '2026-11-24'
 conditions:
   medium: 人体深部组织
   measurementSite: 直肠、食管或膀胱等核心温度测点
@@ -77,3 +87,23 @@ tags:
 ## 与其他温度的关系
 
 35 ℃ 低于 human-body-temperature 的正常范围，也低于 fever 的 38 ℃ 阈值；它高于 water-freezing 的 0 ℃，因此低体温并不要求环境结冰。与 permafrost 的约 −10 ℃ 相比，35 ℃ 仍属“温暖”，说明核心温度阈值描述的是人体热平衡，而不是环境温度本身。把核心温度与环境气温分开，是理解本条的关键。
+
+## 核心温度分层
+
+低体温按核心温度分层：32–35 ℃为轻度，28–32 ℃为中度，低于 28 ℃为重度。[2] 分层不是标签游戏，而是决定复温速度与监测强度的依据。把 35 ℃当成唯一界线，会漏掉中度与重度的不同处置。
+
+## 环境不结冰也可能发生
+
+低体温可在气温高于 0 ℃时发生：淋雨、出汗、风寒和冷水浸泡都会加速散热。[1] 核心温度下降与环境的冰点没有直接关系。把低体温等同于“冻伤”或“只有在雪地里才会发生”，会低估风险。
+
+## 五轴对照
+
+在温度轴，低体温阈值 35 ℃；在空间轴，核心与体表位置不同；在质量轴，体脂与体型影响散热；在时间轴，暴露时间决定降温速度。环境、衣着与时间是三本账。[1][2]
+
+## 分级决定处置强度
+
+低体温按核心温度分层：32–35 ℃轻度、28–32 ℃中度、低于 28 ℃重度；不同指南的边界略有差异。分级不是标签，而是决定复温速度、监测频率与是否使用体外循环的依据。把 35 ℃当成唯一红线，会漏掉中度与重度的不同风险。[1][S2]
+
+## 延伸核对
+
+补充的来源 [3]（U.S. National Library of Medicine / MedlinePlus）、[4]（NIST） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

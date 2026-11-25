@@ -17,6 +17,7 @@ related:
   - space.water-molecule
   - space.atom
   - space.hemoglobin
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: 'CCCBDB experimental geometry for O2 — CAS 7782-44-7, charge 0'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/oxygen'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取中性气相 O₂ 的平衡几何；量的是两个氧核之间的距离 1.2075 Å。该值不是范德华直径，也不是液态氧中分子间的接触距离；
   适用于孤立气相双原子分子，不适用于激发态、离子态或高压吸附体系。
@@ -79,3 +84,7 @@ NIST CCCBDB 的实验几何页列出 O₂ 的 O—O 键长为 1.208 埃，并由
 ## 与其他尺度的关系
 
 0.121 纳米与氮分子的 0.110 纳米接近，二者都是双原子气体，键长只差约 10%。[1][2] 它比水分子内的 O—H 键略长，却远小于血红蛋白、病毒与细胞。在标准状态下，氧分子之间的平均距离远大于键长，气体整体仍接近理想气体。[1][2] 继续阅读氮分子、二氧化碳分子和水分子，可比较双原子与三原子分子的“键长”口径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.0e-10 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

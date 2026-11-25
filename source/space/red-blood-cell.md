@@ -27,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/red-blood-cell'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: red-blood-cell
   icon: "\U0001F534"
@@ -83,3 +87,5 @@ tags:
 ## 与其他尺度的关系
 
 在尺度轴上，红细胞比多数细菌大、比典型真核细胞小；它属于“细胞”层级，而不是蛋白质或分子层级。[1][2] 一个7.5微米的红细胞里装着大量纳米级的血红蛋白分子，而一条毛细血管的直径又比单个红细胞大一些。把细胞、蛋白质和毛细血管分别看作不同层级，才能避免把“细胞直径”与“分子直径”混在一起。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

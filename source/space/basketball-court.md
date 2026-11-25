@@ -16,6 +16,7 @@ related:
   - space.football-field
   - space.tennis-court
   - space.human
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: 'Rule No. 1: Court Dimensions – Equipment'
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.basketball-bund.de/wp-content/uploads/sites/2/2024/09/Offizielle-Basketball-Regeln_2024_v1.0_inkl_Anhang_technische_Ausruestung.pdf'
     publisher: Deutscher Basketball Bund (FIBA rules translation)
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为职业或竞赛用篮球场；测量口径为两端底线之间的纵向长度，NBA 按界线内缘量取；不含场外缓冲区、看台与替补席。
 uncertainty: >-
@@ -74,3 +79,7 @@ NBA 官方规则第 1 条把比赛场地标为 94 英尺长、50 英尺宽，换
 ## 与其他尺度的关系
 
 28.65 米约为标准泳池 50 米的 57%，也约为网球双打场地 23.77 米的 1.21 倍。[1][2] 它约等于 6.4 辆 4.5 米轿车首尾相接；成年人以 0.75 米步长走完一条边线约需 38 步。NBA 场地宽度 15.24 米，FIBA 为 15 米，宽度同样存在小额差异。28.65 米约为 11.4 扇标准门高首尾相接的长度，也约为场地宽度 15.24 米的 1.9 倍。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 95.6 纳秒，在时间轴上量级接近「原子跃迁」。[3]

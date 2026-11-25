@@ -17,6 +17,8 @@ related:
   - time.first-flight
   - time.digital-age
   - time.internet-birth
+  - space.solar-system
+  - mass.sun
 reviewStatus: reviewed
 sources:
   - title: The Dawn of the Space Age
@@ -27,6 +29,14 @@ sources:
     publisher: NASA History
     url: 'https://www.nasa.gov/history/65-years-ago-sputnik-ushers-in-the-space-age/'
     accessed: '2026-11-06'
+  - title: "Apollo 11"
+    url: "https://www.britannica.com/topic/Apollo-11"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
+  - title: "The Wright brothers"
+    url: "https://airandspace.si.edu/explore/stories/wright-brothers"
+    publisher: "Smithsonian National Air and Space Museum"
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -82,3 +92,23 @@ NASA 的历史资料记录了这次任务的细节：斯普特尼克1号直径�
 ## 与其他阶段的关系
 
 太空时代前接首次动力飞行、工业革命和火箭技术，后接阿波罗登月、卫星通信、气象观测和数字网络。斯普特尼克引发的竞争推动了航天预算、教育投入和NASA的建立。[1][2] 与航空时代相比，太空时代的关键变化是离开大气层并进入轨道；与数字时代相比，它提供的是通信、导航和遥感的基础设施。
+
+## 斯普特尼克1号有多小
+
+斯普特尼克1号直径约 58 厘米、重 83.6 千克，只携带无线电发射机与电池；它没有复杂的科学仪器，却证明了人造物体可以稳定绕地球运行。[1] 它的“哔哔”声让全球无线电爱好者都能听到，形成强烈的政治与心理冲击。技术尺度小，象征尺度大。
+
+## 五轴对照
+
+在时间轴，太空时代始于 1957 年；在空间轴，卫星进入近地轨道；在温度轴，轨道热环境与电池工作温度限制寿命；在质量轴，83.6 千克的卫星推动了巨大的火箭。一个很小的载荷改变了全球竞争。[1][2]
+
+## 起点取决于“太空”的定义
+
+太空时代常以 1957 年斯普特尼克 1 号起算，但 1944 年德国的 V-2 火箭已越过卡门线，1961 年加加林才实现载人轨道飞行。亚轨道、轨道与载人是三个不同门槛。正文的 1957 年是政治与技术叙事的常用起点，不是物理上的第一次进入太空。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 公元1957年 · t ≈ 138 亿年，口径是 time-after-big-bang-derived-historical-reference。时间轴上的年份是地层、文献或模型给出的坐标，误差从几十年到几十万年不等；分期边界不是一条绝对精确的线。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [3]（Encyclopaedia Britannica）、[4]（Smithsonian National Air and Space Museum） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

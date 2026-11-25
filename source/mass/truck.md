@@ -5,7 +5,7 @@ summary: >-
   沃尔沃 FH16 牵引车整备质量约 9,000 kg，指车头本身：底盘、驾驶室、D16 柴油机、变速箱、后桥、鞍座与油液，不含挂车与货物。6×4
   长驾驶室配置常在 8.5–9.5 t。
 dimension: mass
-category: 车辆
+category: 工程与交通
 displayValue: '9,000 kg'
 quantity:
   value: 9000
@@ -71,6 +71,7 @@ visual:
   color: '#e6c17c'
   scaleMin: -40
   scaleMax: 53
+titleEn: Volvo FH16 tractor unit
 ---
 ## 这个读数是什么
 

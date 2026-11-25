@@ -16,6 +16,7 @@ related:
   - space.swordfish
   - space.human
   - space.orca
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Bottlenose dolphin
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.fisheries.noaa.gov/species/common-bottlenose-dolphin'
     publisher: NOAA Fisheries
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年个体；量取吻端到尾鳍基部的体长，不把尾鳍叶片展平后的额外长度计入；不同海域的种群与性别会造成体型差异。
 uncertainty: 成年宽吻海豚体长约 2.0–3.0 m，近岸型通常小于远洋型，雄性大于雌性；本条取 2.5 m 作常见成体代表值，位于平均区间下端；大型雄性可接近 3 m 甚至更长。
 review:
@@ -69,3 +74,7 @@ Britannica 的宽吻海豚条目写明：平均体长 2.5–3 米，体重 135�
 ## 与其他尺度的关系
 
 2.5 米约为 1.7 米成年人的 1.5 倍，是 4 米剑鱼全长的 63%，却只有 30 米蓝鲸体长的十二分之一。与 1.8 米的斑海豹相比，它长约 0.7 米。[1][2] 这个长度比 2 米的双人床床垫长边还多半米，把海洋动物的尺度拉回到室内经验，也说明“比人长、比鲸短”的中间位置。在人、海豹、剑鱼与蓝鲸之间，它正好处在“比人大一圈、比鲸小一个量级”的中间刻度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 8.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

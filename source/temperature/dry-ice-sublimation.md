@@ -20,6 +20,7 @@ related:
   - temperature.ammonia_boiling
   - temperature.liquid-nitrogen
   - temperature.mars-surface
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: 'Carbon dioxide: phase change data and Antoine equation'
@@ -30,6 +31,10 @@ sources:
     url: 'https://www.britannica.com/science/carbon-dioxide'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: dry-ice-sublimation
   icon: ❄️
@@ -93,3 +98,5 @@ CO₂ 的升华温度由蒸气压与温度的关系确定。NIST 收录了 154.2
 ## 与其他温区的关系
 
 194.7 K 低于水的冰点 273.15 K，也低于氨的沸点 239.8 K，但高于液氮的 77.4 K 和液氢的 20.3 K。它常被用作 −78 °C 附近的冷浴参考，但不能替代更低温度的液氮或液氦系统。与水的冰点、氨的沸点相比，它说明同一压力下不同物质的相变温度差别很大。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

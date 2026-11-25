@@ -4,43 +4,53 @@ title: 妊神星平均直径
 titleEn: Haumea Mean Diameter
 dimension: length
 category: 行星与太阳系
-summary: 妊神星是柯伊伯带中一颗快速自转的矮行星，体积等效平均直径约1,600公里，明显小于它的最长轴2,322公里。
+summary: '妊神星是柯伊伯带中一颗快速自转的矮行星，体积等效平均直径约1,600公里，明显小于它的最长轴2,322公里。'
 quantity:
   value: 1600000
   unit: m
   measure: 由三轴椭球尺寸按体积等效折算的平均直径
   approximate: true
-displayValue: 约 1,600 km（体积等效平均直径）
+displayValue: '约 1,600 km（体积等效平均直径）'
 related:
   - space.pluto
   - space.eris
   - space.makemake
   - space.ceres
+  - time.solar-system
+  - mass.moon
 reviewStatus: reviewed
 sources:
   - title: '“TNOs are Cool”: XIV. Size/albedo characterization of the Haumea family'
-    url: 'https://www.aanda.org/articles/aa/full_html/2018/10/aa32564-17/aa32564-17.html'
+    url: >-
+      https://www.aanda.org/articles/aa/full_html/2018/10/aa32564-17/aa32564-17.html
     publisher: Astronomy & Astrophysics
     accessed: '2026-11-07'
   - title: Haumea
     url: 'https://www.britannica.com/place/Haumea'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为妊神星固体表面；采用体积等效球直径口径，即把三轴椭球按体积折算成同体积球体；不含环、卫星，也不含表面地形起伏与暗红斑。
-uncertainty: 2018年红外分析把体积等效直径记为约1,600公里；Britannica列三轴约2,322×1,704×1,138公里，按几何平均折算约1,650公里，与1,600公里相差约3%。不同掩星与热辐射解算给出的等效直径约在1,500至1,650公里之间。
+uncertainty: >-
+  2018年红外分析把体积等效直径记为约1,600公里；Britannica列三轴约2,322×1,704×1,138公里，按几何平均折算约1,650公里，与1,600公里相差约3%。不同掩星与热辐射解算给出的等效直径约在1,500至1,650公里之间。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。'
-    - '2026-11-07 写作阶段已用 WebFetch 打开 Astronomy & Astrophysics 论文与 Britannica 妊神星条目，核对体积等效直径与三轴尺寸。'
+    - 2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。
+    - >-
+      2026-11-07 写作阶段已用 WebFetch 打开 Astronomy & Astrophysics 论文与 Britannica
+      妊神星条目，核对体积等效直径与三轴尺寸。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
   template: sphere
   scene: space.object
-  caption: 妊神星 · 约 1,600 km 等效直径参照
+  caption: '妊神星 · 约 1,600 km 等效直径参照'
   note: 拉长椭球、反照率斑与环为示意，非按比例，非观测重建。
   color: '#9bbcd7'
   referenceAxis: x
@@ -70,3 +80,12 @@ tags:
 ## 与其他尺度的关系
 
 1,600公里约为冥王星直径2,376公里的0.67倍，约为谷神星940公里的1.7倍，约为月球3,474公里的0.46倍。[1][2] 它比火星6,779公里小得多，却已大到足以在引力作用下形成矮行星形状。放在柯伊伯带的尺度上，它属于仅次于冥王星和阋神星的一档。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1.6×10⁶ 米，换算后是 1.6×10³ 千米；约 0.126 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁶ 量级附近。
+
+读图时先看量级，再看倍数：10⁶ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

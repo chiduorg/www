@@ -18,6 +18,7 @@ related:
   - space.swordfish
   - space.shark
   - space.blue-whale
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Pacific Bluefin Tuna
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.fisheries.noaa.gov/species/western-atlantic-bluefin-tuna'
     publisher: National Oceanic and Atmospheric Administration, NOAA Fisheries
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为蓝鳍金枪鱼（以太平洋蓝鳍Thunnus orientalis为参照）；量吻端到尾鳍末端的全长，叉长另注；3 m取在太平洋蓝鳍最大报告长度，不是成体平均值，也不是大西洋蓝鳍的上限。
 uncertainty: >-
@@ -76,3 +81,7 @@ NOAA Fisheries的太平洋蓝鳍金枪鱼页面说，成体约1.5米、60千克�
 ## 与其他尺度的关系
 
 3米约为1.8个1.7米高的人，等于3米科莫多巨蜥的全长，是1.5米大西洋鳕体长的2倍，比4米剑鱼的全长短1米。[1][2] 在尺度轴上，它处在“几米级”鱼类的上端：向上是剑鱼和鳄，向下是鲑和鳕。用全长并另注叉长，才能把它与用体长、翼展描述的动物放在同一根轴上。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 10 纳秒，在时间轴上量级接近「原子跃迁」。[3]

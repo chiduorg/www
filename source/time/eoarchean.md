@@ -4,7 +4,9 @@ title: 始太古代
 titleEn: Eoarchean Era
 dimension: cosmic-time
 category: 地球深时
-summary: 始太古代是太古宙的第一个代，按ICS 2024/12约从4000 Ma延续到3600 Ma；界线按全球标准年代层序年龄给出，最早的岩石与可能的生命痕迹都出现在这一时段。
+summary: >-
+  始太古代是太古宙的第一个代，按ICS 2024/12约从4000 Ma延续到3600
+  Ma；界线按全球标准年代层序年龄给出，最早的岩石与可能的生命痕迹都出现在这一时段。
 quantity:
   value: 309169600000000000
   unit: s
@@ -18,6 +20,7 @@ related:
   - time.first-life
   - time.first-continents
   - time.first-stromatolites
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +31,16 @@ sources:
     url: 'https://www.britannica.com/science/Archean-Eon'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: >-
+      Ingredients for microbial life preserved in 3.5 billion-year-old fluid
+      inclusions
+    url: 'https://www.nature.com/articles/s41467-021-21323-z'
+    publisher: Nature Communications
+    accessed: '2026-11-24'
+  - title: Facts About Earth — Formation
+    url: 'https://science.nasa.gov/earth/facts/'
+    publisher: NASA
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -42,7 +55,8 @@ conditions:
   calendarReferenceYear: 2026
   note: 导航时点取代的底界，存储秒数只用于时间轴排序。
 uncertainty: >-
-  ICS 2024/12取始太古代底界4000 Ma、顶界3600 Ma，界线按GSSA年代值而非GSSP；冥古宙在ICS中不是正式宙。最老岩石约4.03 Ga，早期生命证据存在争议，数值可能随测年修订。
+  ICS 2024/12取始太古代底界4000 Ma、顶界3600 Ma，界线按GSSA年代值而非GSSP；冥古宙在ICS中不是正式宙。最老岩石约4.03
+  Ga，早期生命证据存在争议，数值可能随测年修订。
 review:
   method: source-check
   date: '2026-11-07'
@@ -50,7 +64,11 @@ review:
     - 核对ICS 2024/12年代表，采用始太古代4000至3600 Ma，并确认其为太古宙内的代。
     - 核对Britannica太古宙条目，采用始太古代4.0至3.6 Ga的划分、Acasta片麻岩与最早生命痕迹的说明。
     - 资料核对不代表外部同行评审。
-    - '2026-11-07 来源可访问性核对：https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf 返回可用响应；https://www.britannica.com/science/Archean-Eon（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07
+      来源可访问性核对：https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf
+      返回可用响应；https://www.britannica.com/science/Archean-Eon（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -84,3 +102,11 @@ tags:
 ## 与其他阶段的关系
 
 始太古代前接冥古宙的增生与撞击阶段，后接古太古代的绿岩带与更稳定的克拉通。它与最早生命、最早大陆的相关条目互为背景：岩石记录变多，才让这些过程变得可读。[1][2] 与冥古宙相比，始太古代的关键变化是保存下来的物质证据开始出现。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Nature Communications）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（NASA）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

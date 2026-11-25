@@ -17,6 +17,7 @@ related:
   - space.cicada
   - space.dragonfly
   - space.beetle
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Tenodera aridifolia'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/animal/mantid'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为螳螂目成虫；量头部前端到腹部末端的体长，不含触角，也不把折叠或伸出的捕捉足计入；不是翼展或前足展开跨度；10 cm 取在中华螳螂 7–10 cm 的上端。
 uncertainty: >-
@@ -73,3 +78,7 @@ ADW 对中华螳螂（Tenodera aridifolia）的记录给出体长范围 5.08–1
 ## 与其他尺度的关系
 
 10 厘米约为蝉含翅体长 5 厘米的两倍，约为蝗虫体长 8 厘米的 1.25 倍，约为蜻蜓翼展 15 厘米的 0.67 倍，也约为成人手长 20 厘米的一半。[1][2] 在尺度轴上，螳螂落在“十厘米级昆虫”的上沿：向下是蝉、蜜蜂和苍蝇，向上是手掌、铅笔和手机。用体长而不是前足跨度记录，才能与蝗虫、蝉等条目保持一致。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.33 纳秒，在时间轴上量级接近「纳秒」。[3]

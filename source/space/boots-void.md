@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: 约 80 Mpc（约2.6亿光年）
 related:
+  - mass.observable-universe
+  - temperature.cmb
   - space.cosmic-web
   - space.local-void
   - space.great-wall
   - space.sloan-great-wall
-  - space.galaxy-cluster
 reviewStatus: reviewed
 sources:
   - title: 'Cosmological Voids: Observational Evidence and Models'
@@ -29,6 +30,10 @@ sources:
     url: 'https://ssd.jpl.nasa.gov/astro_par.html'
     publisher: NASA / JPL Solar System Dynamics
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   采用综述中“约80 Mpc”的直径概览；空洞边界由星系密度阈值定义，不同巡天、红移范围和成员判定会给出不同数值，本页不把约2.5亿光年的常见口语值与80
   Mpc混用。
@@ -45,12 +50,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "field"
-  scene: "space.object"
-  caption: "牧夫座空洞 · 低密度区概览"
-  note: "星系点密度、空洞轮廓与边界为示意，未按真实巡天数据绘制；范围表示低密度区概览直径，非绝对真空球；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: field
+  scene: space.object
+  caption: 牧夫座空洞 · 低密度区概览
+  note: 星系点密度、空洞轮廓与边界为示意，未按真实巡天数据绘制；范围表示低密度区概览直径，非绝对真空球；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -76,3 +81,5 @@ tags:
 ## 与其他尺度的关系
 
 80 Mpc约为本空洞长轴65 Mpc的1.2倍，约为Coma团2000万光年直径的13倍，约为可观测宇宙930亿光年直径的0.28%。[1] 它是宇宙网中与纤维、墙和节点并列的低密度成分，而不是比宇宙本身还大的“虚空”。把空洞、超星系团和宇宙网放在一起比较时，要区分密度边界与引力束缚边界。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -17,12 +17,12 @@ quantity:
   uncertaintyType: 3sigma
 displayValue: 约 421 ± 35 μK
 related:
+  - space.moon
+  - mass.helium-nucleus
   - temperature.dilution-refrigerator
   - temperature.bose-einstein
   - temperature.helium-3-superfluid
   - temperature.absolute-zero
-  - temperature.squid-working-temperature
-  - temperature.adiabatic-demagnetization
 reviewStatus: reviewed
 sources:
   - title: 500 microkelvin nanoelectronics
@@ -33,6 +33,10 @@ sources:
     url: 'https://www.britannica.com/science/adiabatic-demagnetization'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: nuclear-demagnetization-cooling
   icon: "\U0001F9F2"
@@ -95,3 +99,5 @@ Sarsby 等人先用稀释制冷把器件预冷到 13 mK、12 T，再以受控速
 ## 与其他温区的关系
 
 421 μK 低于稀释制冷的 10 mK，也低于氦-3 的 2.444 mK，但高于玻色—爱因斯坦凝聚的 170 nK。它说明电子、声子和自旋系统可以在同一装置中处于不同温区；比较时必须先问“测的是哪一部分”。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

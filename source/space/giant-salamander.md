@@ -16,6 +16,7 @@ related:
   - space.common-toad
   - space.crocodile
   - space.human
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Andrias davidianus (Chinese Giant Salamander)
@@ -26,6 +27,10 @@ sources:
     url: 'https://animals.sandiegozoo.org/animals/chinese-giant-salamander'
     publisher: San Diego Zoo Wildlife Alliance
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年中国大鲵（Andrias davidianus）；量取吻端到尾尖的全长，含躯干与粗大的尾；以身体沿体轴自然伸展为准，不含张口或四肢展开的额外长度。
 uncertainty: ADW 给出平均体长约 1 m、最大可达 1.8 m；圣迭戈动物园给出历史最大近 1.8 m、今天常见约 115 cm。本条取 1.5 m 作大型成体参照，高于平均值、低于上限；野生与养殖个体、年龄差异会造成明显偏差。
 review:
@@ -70,3 +75,14 @@ ADW 给出平均体长约 1 米、体重约 11 千克，过去发现过 1.8 米�
 ## 与其他尺度的关系
 
 1.5 米约为 1.7 米成年人身高的九成，是 15 厘米普通蟾蜍的 10 倍，也是 8 厘米林蛙的 18 倍多。[1][2] 它比 3 米科莫多巨蜥短 1.5 米，却比 1 米级的大型蜥蜴更长。体重约 11 千克，接近一只中型犬。作为两栖类，它已经进入接近人体尺度的区间。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 5.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1.5 米，换算后是 1.5 米；约 0.882 个成年人身高（1.7 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

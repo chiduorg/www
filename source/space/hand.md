@@ -30,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/science/hand-anatomy'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: hand
   icon: "\U0001F91A"
@@ -87,3 +91,5 @@ PubMed 收录的一项研究测量了500名15–78岁的受试者，男女各250
 ## 与其他尺度的关系
 
 20厘米的手比17.78厘米的铅笔略长，比22.25毫米的硬币大近九倍，比100微米的发丝宽约两千倍。[1] 它也是人体尺度中最方便随身比较的“尺子”：张开手掌，从腕到中指尖大致就是本条的参照长度。向上是身高、臂展和人体，向下是铅笔、硬币、米粒与细胞。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

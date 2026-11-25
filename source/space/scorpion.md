@@ -16,6 +16,7 @@ related:
   - space.ant
   - space.crab
   - space.mouse
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Scorpion
@@ -26,6 +27,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Pandinus_imperator/'
     publisher: Animal Diversity Web, University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年帝王蝎（Pandinus imperator）；量取口器前端到尾节末端的体长，不含末端尾刺，也不把螯肢向前伸展的额外长度计入。
 uncertainty: Britannica 给出帝王蝎体长约 18 cm、体重可达 60 g；ADW 给出平均全长 20 cm。本条取 0.15 m 作常见成体的保守参照，低于 18–20 cm 的记录值；是否含尾刺、螯肢姿态与个体大小会造成几厘米差异。
 review:
@@ -70,3 +75,14 @@ Britannica 的 scorpion 条目写明帝王蝎体长约 18 厘米（7 英寸）�
 ## 与其他尺度的关系
 
 0.15 米和 15 厘米普通蟾蜍体长相当，约为 8 厘米林蛙的两倍，是 5 毫米蚂蚁的 30 倍。[1][2] 它不到 1.7 米成年人身高的十分之一，却接近一部 15 厘米长智能手机的长度。体重却只有 30–60 克，远轻于同长的蟾蜍。作为节肢动物，它已属于能用单手托住的大个体。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.50 纳秒，在时间轴上量级接近「纳秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 0.15 米，换算后是 15 厘米；约 0.625 个篮球直径（24 厘米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻¹ 量级附近。
+
+读图时先看量级，再看倍数：10⁻¹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -18,8 +18,8 @@ related:
   - space.galaxy-cluster
   - space.coma-cluster
   - space.local-group
-  - space.milky-way
-  - space.fornax-cluster
+  - mass.virgo-cluster
+  - time.galaxy-formation
 reviewStatus: reviewed
 sources:
   - title: Virgo Cluster — NED Level 5 essay
@@ -34,6 +34,14 @@ sources:
     url: 'https://ssd.jpl.nasa.gov/astro_par.html'
     publisher: NASA / JPL Solar System Dynamics
     accessed: '2026-11-06'
+  - title: "Cosmic Distance Scale — Local Supercluster"
+    url: "https://imagine.gsfc.nasa.gov/features/cosmic/local_supercluster_info.html"
+    publisher: "NASA / GSFC / HEASARC"
+    accessed: '2026-11-24'
+  - title: "Tully et al. (2014), The Laniakea Supercluster of Galaxies"
+    url: "https://arxiv.org/pdf/1409.0880"
+    publisher: "Tully et al. / Nature"
+    accessed: '2026-11-24'
 conditions: 采用约10°成员分布角直径和约20 Mpc距离换算出的横向跨度；这是星系成员在天空中的投影范围，不是维里半径、暗物质晕边界或室女座超星系团的范围。
 uncertainty: 距离估计在15—22 Mpc之间，取20 Mpc会带来约两成的尺度不确定性；10°角直径本身是成员分布的概览，不同成员判定和投影改正会改变边界。
 review:
@@ -79,3 +87,23 @@ tags:
 ## 与其他尺度的关系
 
 3.5 Mpc约为Coma团2000万光年直径的一半，与本星系群约1000万光年的跨度相近，约为室女座超星系团1亿光年跨度的九分之一。[1] 它处在星系团尺度，向上连接超星系团，向下连接星系群和单个星系。用角直径换算出的跨度与维里半径不是同一口径，跨条目比较时要先对齐定义，否则容易把“看起来铺得多开”误当成“引力束缚得多紧”。
+
+## 投影跨度不是维里半径
+
+10° 角直径换算出的 3.5 Mpc 是成员星系在天空上的投影跨度，不是引力束缚的维里半径，也不是暗物质晕边界。[1] 维里半径要从成员速度弥散和引力势推算；投影跨度会随成员证认、距离和前景结构改变。两个数都描述星系团，但回答的问题不同。
+
+## 室女座星系团不是超星系团
+
+室女座星系团包含约 2,000 个成员星系；室女座超星系团则包含它以及许多星系群，范围约 1 亿光年。[1] 本星系群也在更大的拉尼亚凯亚结构中。把“星系团”和“超星系团”当成同义词，会低估上级结构的尺度。
+
+## 五轴对照
+
+在空间轴，室女座星系团投影跨度约 3.5 Mpc；在质量轴，它的总质量包含星系、热气体和暗物质；在时间轴，星系团在宇宙结构形成中逐级并合；在温度轴，团内热气体可达 10⁷–10⁸ K。尺度、质量与温度共同定义星系团。[1][2]
+
+## 投影跨度不等于真实直径
+
+室女座星系团在天球上的投影跨度约 15 百万光年，但真实三维范围取决于成员分布与投影方向；星系团没有边界，成员按暗物质势阱分布。正文若写“直径”，通常指投影或某个等密度面，不是一条可触摸的边界。比较不同星系团时，必须用同一种定义。[1][S1]
+
+## 延伸核对
+
+补充的来源 [4]（NASA / GSFC / HEASARC）、[5]（Tully et al. / Nature） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

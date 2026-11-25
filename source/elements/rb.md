@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/37/rubidium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第五周期, s 区, 铷]
 rights:
   status: rewritten
@@ -74,3 +78,5 @@ rights:
 ## 怎么继续走
 
 往回看氪（/entry/elements/kr/），能看到 4p 闭合如何把电离能顶到 14.000 eV；往前看锶（/entry/elements/sr/），能看到 5s 补成一对后半径为何回落。若想弄清 s 过程怎样在 AGB 星里逐格推进，去读重元素富集一节。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

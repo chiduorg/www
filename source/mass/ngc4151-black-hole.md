@@ -5,7 +5,7 @@ summary: >-
   NGC 4151 是天空中最亮的塞弗特星系核之一，中心黑洞质量约 7.96×10³⁷ kg，折合约四千万个太阳质量。数值来自宽线区反响映射，相对不确定度约
   15%。
 dimension: mass
-category: 黑洞
+category: 恒星与致密天体
 displayValue: 7.96×10³⁷ kg
 quantity:
   value: 7.96e+37
@@ -79,6 +79,7 @@ visual:
   color: '#ff9a4a'
   scaleMin: -40
   scaleMax: 53
+titleEn: NGC 4151 black hole
 ---
 ## 这个读数是什么
 

@@ -17,6 +17,7 @@ related:
   - space.coin
   - space.credit-card
   - space.electric-kettle
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'SANDSKÄDDA Mug, yellow, 27 cl — Measurements'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.ikea.com/my/en/p/sandskaedda-mug-yellow-50607732/'
     publisher: IKEA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为 IKEA SANDSKÄDDA 27 cl 陶瓷马克杯（货号
   506.077.32）；测量口径为杯口外缘最大圆直径，不是杯底直径、把手宽度或包装长度；不适用于一次性纸杯与浓缩咖啡杯。
@@ -74,3 +79,14 @@ IKEA 产品页在“测量”栏列出高度 8 厘米、容量 27 cl、直径 9 
 ## 与其他尺度的关系
 
 90 毫米约为银行卡长边 85.60 毫米的 1.05 倍，也约为成人食指长度 70 毫米的 1.3 倍。它比 A4 纸短边 210 毫米的一半略小，单手握持时杯口约跨过三到四根手指。[1] 与 270 毫升容量相比，一个普通水杯常为 250–350 毫升，二者属于同一日常尺度。口径越大，香气挥发表面越大，但单手拿稳所需的握力也越高。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.30 纳秒，在时间轴上量级接近「纳秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 0.09 米，换算后是 9 厘米；约 0.375 个篮球直径（24 厘米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻² 量级附近。
+
+读图时先看量级，再看倍数：10⁻² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

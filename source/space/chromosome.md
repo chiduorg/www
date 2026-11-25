@@ -17,6 +17,7 @@ related:
   - space.cell
   - space.neuron
   - space.ovum
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.ncbi.nlm.nih.gov/books/NBK557784/'
     publisher: StatPearls / NCBI Bookshelf
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 中期染色体铺展标本经固定、染色后在光学或电子显微镜下测量；物种、染色体大小、凝缩程度与铺展方式都会影响长度。
 uncertainty: >-
   6 μm 是约 229 Mb 人染色体在中期 5.4–7.2 μm 范围内的参照；不同染色体从不足 1 μm 到十余 μm
@@ -77,3 +82,7 @@ tags:
 ## 与其他尺度的关系
 
 6 μm 约为红细胞直径的八成，也比大肠杆菌杆长（约 2 μm）大三倍[1]。它比细胞核（约 5–10 μm）略小，说明一条中期染色体可以容纳在核内；但比 DNA 双螺旋直径（约 2 nm）大三千倍。若把 6 μm 放大到一根头发直径，需要约十二倍；这也解释了为什么中期染色体在光学显微镜下就能被染色并计数。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.000020 纳秒，在时间轴上量级接近「纳秒」。[3]

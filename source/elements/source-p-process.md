@@ -36,6 +36,10 @@ sources:
     url: 'https://www.britannica.com/science/cosmic-ray'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 conditions: 过程页；散裂是持续过程，p 过程发生在恒星高温层，时间锚点只作参考。
 visual:
   scene: elements.explain
@@ -68,3 +72,5 @@ p 过程不是“质子俘获过程”，这个旧名容易误导；实际机制
 ## 与其他阶段的关系
 
 p 过程与散裂补上了 s、r 过程没有覆盖的角落，使太阳系丰度曲线上的富质子核素与轻元素有了来源。[2] 它们与 AGB 星、超新星、宇宙线传播都有关。元素轴的锂、铍、硼页把来源指向这里，而碳氮氧页指向恒星核合成，铀钍页指向 r 过程。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

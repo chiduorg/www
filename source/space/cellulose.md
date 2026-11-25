@@ -18,6 +18,7 @@ related:
   - space.carbon-nanotube
   - space.dna
   - space.graphene
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: 'Cellulose Biosynthesis: Current Views and Evolving Concepts'
@@ -28,6 +29,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6571874/'
     publisher: Polymers / PubMed Central
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取纤维素 I 微纤丝的横截面直径，并以被囊动物纤维素的上端 20 nm 作代表值；
   多数植物初生壁为 3–4 nm。不是单条葡聚糖链的约 0.5 nm 粗细，也不是棉纤维的微米级直径。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 20 nm 约为 DNA 直径 2 nm 的 10 倍，约为苯环的 70 倍。[1][2] 它与几丁质微纤丝同量级，却比单壁碳纳米管粗一个数量级。继续阅读葡萄糖、石墨烯与碳纳米管，可比较分子链、微纤丝与人工纳米管的尺度。把 3–4 nm 的常见植物微纤丝与 20 nm 的被囊动物微纤丝并排，可以看到同一材料内部的巨大差异。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.7e-8 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

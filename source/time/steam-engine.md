@@ -17,6 +17,8 @@ related:
   - time.scientific-revolution
   - time.electricity-grid
   - time.enlightenment
+  - temperature.boiling-water
+  - mass.car
 reviewStatus: reviewed
 sources:
   - title: steam engine
@@ -27,6 +29,14 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/technology/Newcomen-steam-engine'
     accessed: '2026-11-06'
+  - title: "Climate and the collection"
+    url: "https://blog.sciencemuseumgroup.org.uk/climate-and-the-collection/"
+    publisher: "Science Museum Group"
+    accessed: '2026-11-24'
+  - title: "History of the Royal Society"
+    url: "https://royalsociety.org/about-us/who-we-are/history/"
+    publisher: "The Royal Society"
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -82,3 +92,23 @@ tags:
 ## 与其他阶段的关系
 
 蒸汽机前接科学革命对热与机械的研究，后接工业革命、铁路、电网和早期航空。它把煤炭中的化学能转成可控的机械运动，使工厂不再依赖河流水力。[1][2] 今天蒸汽轮机仍用于发电，但它在交通中的位置已被内燃机和电动机取代；这说明“技术出现”与“技术主导”并不是同一件事。
+
+## 分离式冷凝器为什么关键
+
+纽科门机在气缸内喷水冷凝蒸汽，反复加热和冷却同一个气缸，大量热量被浪费；瓦特把冷凝器分离出来，让气缸保持较高温度，热效率显著提高。[1] 这项改进不是全新原理，而是对热损失路径的工程修正。效率提升使蒸汽机从矿井抽水扩展到工厂动力。
+
+## 五轴对照
+
+在时间轴，实用蒸汽机约 1712 年；在空间轴，它把煤炭与工厂连接成网络；在温度轴，锅炉压力与冷凝温度决定效率；在质量轴，机器与燃料的重量影响运输。热、功、压力与质量共同构成蒸汽机的账本。[1][2]
+
+## 热效率决定它能不能走出矿井
+
+早期蒸汽机热效率只有百分之几，主要用在矿井抽水；瓦特分离式冷凝器把效率提高，才让它进入纺织、交通与发电。效率不是唯一指标，功率、燃料成本与可靠性同样重要。正文的“蒸汽机”是多次改进的链条，不是 1769 年的一次专利。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 公元1712年 · t ≈ 138 亿年，口径是 time-after-big-bang-derived-historical-reference。时间轴上的年份是地层、文献或模型给出的坐标，误差从几十年到几十万年不等；分期边界不是一条绝对精确的线。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [3]（Science Museum Group）、[4]（The Royal Society） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

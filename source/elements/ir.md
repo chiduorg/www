@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/77/iridium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 5d 区, 铱]
 rights:
   status: rewritten
@@ -74,3 +78,5 @@ rights:
 ## 怎么继续走
 
 往前是锇，5d6 与 5d7 只差一颗；往后是铂，5d 与 6s 发生重排，规则排布被打破。想看那一步重排怎么发生，去看铂条目与构型解释页；想理解电负性为什么在这里停住，去看有效核电荷与屏蔽解释页。铱这一页的关键词是平台。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

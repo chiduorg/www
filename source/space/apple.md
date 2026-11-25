@@ -17,6 +17,7 @@ related:
   - space.coin
   - space.golf-ball
   - space.hand
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: apple — Physical Features and Growth
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.ag.ndsu.edu/news/columns/prairie-fare/prairie-fare-enjoy-apple-season'
     publisher: North Dakota State University Extension
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为中等大小的鲜食苹果；测量口径为果实横截面的最大直径，不含果柄、果萼凹陷和包装。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 8 厘米约为成年人手长 19 厘米的 0.42 倍，也约为 A4 纸长边 29.7 厘米的 0.27 倍。它比直径约 4.27 厘米的高尔夫球大约 1.9 倍，比直径约 2.4 厘米的硬币大约 3.3 倍。与直径约 24 厘米的篮球相比，苹果直径约为其三分之一。与长约 5.5 厘米的鸡蛋相比，苹果直径约为其 1.5 倍。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.27 纳秒，在时间轴上量级接近「纳秒」。[3]

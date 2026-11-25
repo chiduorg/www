@@ -17,6 +17,7 @@ related:
   - space.hailstone
   - space.everest
   - space.earth
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Science of Snow
@@ -27,6 +28,10 @@ sources:
     url: 'https://nsidc.org/learn/cryosphere-glossary/snow-grains'
     publisher: National Snow and Ice Data Center
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为由多个雪晶聚合成的雪花；样本为NSIDC对雪花尺寸的概述；口径为雪花横向直径，不是单个雪晶尺寸、降雪深度或雪水当量。
 uncertainty: 雪花尺寸随温度、风与聚合过程变化；多数小于1.3厘米，特殊条件下可接近5厘米，且没有常规测量。
 review:
@@ -72,3 +77,7 @@ NSIDC说明，多数雪花小于1.3厘米（0.5英寸）宽；在特殊条件下
 ## 与其他尺度的关系
 
 1.3厘米约为雨滴2毫米直径的6.5倍，也约为头发直径的180倍。[1][2] 与冰雹的厘米级尺寸相比，两者接近；但与云和风暴相比，雪花仍很小。雪花处在“毫米到厘米”尺度，是云中水汽变成地面降水的中间环节。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.043 纳秒，在时间轴上量级接近「纳秒」。[3]

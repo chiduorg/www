@@ -16,6 +16,7 @@ related:
   - space.crab-nebula
   - space.orion-nebula
   - space.light-year
+  - time.century
 reviewStatus: reviewed
 sources:
   - title: A Puzzle of 10 Million Stars
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/globular-cluster'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: omega-centauri
   icon: ✨
@@ -84,3 +89,7 @@ tags:
 ## 与其他尺度的关系
 
 1.42×10¹⁸米约合150光年，是太阳系奥尔特云外缘100,000 au的约95倍。[1] 与银河系盘约10万光年的尺度相比，它只是一个很小的子系统。150光年在球状星团中偏大；典型球状星团直径多为几十光年。它到地球约15,800光年，视直径约半度，接近满月。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 150 年，在时间轴上量级接近「一个世纪」。[3]

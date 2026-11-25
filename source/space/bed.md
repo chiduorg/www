@@ -13,12 +13,12 @@ quantity:
   approximate: true
 displayValue: 约 2 m（双人床床垫长边）
 related:
+  - time.atomic-transition
   - space.door
   - space.chair
   - space.laptop
   - space.hand
   - space.mattress
-  - space.nightstand
 reviewStatus: reviewed
 sources:
   - title: MALM bed frame, high, black-brown, 160x200 cm
@@ -29,6 +29,10 @@ sources:
     url: 'https://www.ikea.com/au/en/p/malm-bed-frame-high-white-90249483/'
     publisher: IKEA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为 160×200 厘米规格的双人床；测量口径为床垫长边的标称长度，不含床架、床头板和床尾板额外占用的长度。
 uncertainty: >-
@@ -75,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 2 米与常见门高约 2 米相当，约为成年人手长 19 厘米的 10.5 倍，也约为 A4 纸长边 29.7 厘米的 6.7 倍。它比 34.5 厘米的笔记本屏幕对角线长约 5.8 倍，比一把餐椅的座高约 45 厘米长约 4.4 倍。若两个人并排睡，每人可分到约 80 厘米的床垫宽度。床垫 200 厘米与床架外长 209 厘米之间约 9 厘米的差额，是搬床进门时最容易被忽略的余量。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

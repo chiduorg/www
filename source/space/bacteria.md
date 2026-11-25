@@ -27,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/bacteria'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: bacteria
   icon: "\U0001F9A0"
@@ -82,3 +86,5 @@ OpenStax将原核细胞的直径概括为约0.1–5.0微米，并把它与直径
 ## 与其他尺度的关系
 
 把细菌放在本站的尺度轴上，它位于病毒与人体细胞之间：比多数病毒大，比典型真核细胞小。[1] 线粒体和叶绿体在演化上与细菌有亲缘关系，但它们已经成为真核细胞内的细胞器，不能与自由生活的细菌直接等同。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

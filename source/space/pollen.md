@@ -27,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/pollen'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: pollen
   icon: "\U0001F33C"
@@ -83,3 +87,12 @@ tags:
 ## 与其他尺度的关系
 
 38微米与人体细胞（约20微米）同一量级，却远小于一粒米（约5毫米）。[1] 花粉粒内部还有细胞核和生殖细胞，尺度又小一个层次。这种从几十微米到毫米的跨度，是植物繁殖结构的一个典型尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 3.8×10⁻⁵ 米，换算后是 38 微米；约 0.475 根头发丝直径（8×10⁻⁵ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻⁵ 量级附近。
+
+读图时先看量级，再看倍数：10⁻⁵ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

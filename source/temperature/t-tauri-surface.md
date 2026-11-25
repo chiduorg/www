@@ -19,6 +19,8 @@ related:
   - temperature.k-type-star
   - temperature.sun-surface
   - temperature.brown-dwarf
+  - space.supernova-remnant
+  - space.red-giant
 reviewStatus: reviewed
 sources:
   - title: Are We Beginning to Understand T Tauri Stars
@@ -29,16 +31,22 @@ sources:
     url: 'https://www.britannica.com/science/T-Tauri-star'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为低质量前主序星的光球；约 4,000 K 指较冷端的有效温度量级，综述给出的典型光球范围约 4,000–5,000 K。
   吸积热点、色球和星风可局部更热；它不是核心温度，也不表示同一颗星表面处处同温。
 review:
   method: source-check
   date: '2026-11-07'
-  retry: '2026-11-07 复核（verified）：NTRS 19810063630 摘要可读，明确光球约 4,000–5,000 K；Britannica 可读，支持 T Tauri 为年轻收缩前主序星，支持约 4000 K。'
+  retry: >-
+    2026-11-07 复核（verified）：NTRS 19810063630 摘要可读，明确光球约 4,000–5,000 K；Britannica
+    可读，支持 T Tauri 为年轻收缩前主序星，支持约 4000 K。
   notes:
     - '核对 NASA NTRS 19810063630：T Tauri 星常见光球温度约为 4,000–5,000 K。'
-    - '核对 Britannica：T Tauri 星是仍在收缩的年轻恒星，尚未进入稳定氢燃烧阶段。'
+    - 核对 Britannica：T Tauri 星是仍在收缩的年轻恒星，尚未进入稳定氢燃烧阶段。
     - 取 4 × 10³ K 作较冷端参考，并在正文区分光球、吸积热点与核心。
 rights:
   status: rewritten
@@ -82,3 +90,5 @@ tags:
 ## 与其他温区的关系
 
 4,000 K 低于太阳表面的约 5,772 K，接近 K 型星与 M 型星的上端；它高于褐矮星的更低温区，也低于红巨星核心约 10⁸ K 的氦燃烧温度。与红矮星相比，金牛座 T 型星的光球温区可以重叠，但前者已是主序星，后者仍在演化早期，单看温度无法区分身份。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

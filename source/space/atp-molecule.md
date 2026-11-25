@@ -17,6 +17,7 @@ related:
   - space.dna
   - space.protein
   - space.glucose
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: adenosine triphosphate (ATP)
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.ncbi.nlm.nih.gov/books/NBK553175/'
     publisher: NCBI Bookshelf / StatPearls
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取生理 pH 下未与镁结合的 ATP，紧凑构象的长轴约 1.2 nm；三磷酸链可旋转，伸展构象更长。
   该值不是水合动力学直径，也不是 ATP 与蛋白质结合后的包络尺寸；比较时应同时说明构象与是否含 Mg2+。
@@ -79,3 +84,7 @@ ATP 是腺苷三磷酸，由腺嘌呤碱基、核糖和三个依次相连的磷�
 ## 与其他尺度的关系
 
 1.2 纳米比咖啡因的 0.98 纳米略长，与核苷酸、氨基酸等生物单体同一量级，却远小于蛋白质与细胞。[1][2] 它处在“小分子代谢物”与“大分子”的交界处：长轴约 1.2 纳米，约为 DNA 双螺旋宽度的一半。继续阅读核苷酸、DNA 与蛋白质，可比较单体、链状分子与折叠结构的尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.0e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

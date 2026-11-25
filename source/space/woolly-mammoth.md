@@ -17,6 +17,7 @@ related:
   - space.human
   - space.blue-whale
   - space.saber-toothed-cat
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: woolly mammoth
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/animal/mammoth-extinct-mammal'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为真猛犸象（Mammuthus primigenius）；量肩部最高点到地面的垂直高度，不是鼻端到尾端的体长，也不是抬头或含象牙的高度；3.5 m 取在成年个体范围的中上部。
 uncertainty: >-
@@ -73,3 +78,7 @@ Britannica 的 woolly mammoth 条目说，猛犸象站立时肩高约 3–3.7 �
 ## 与其他尺度的关系
 
 3.5 米约等于 2 个 1.7 米高的人叠起来，约等于 1.04 头 3.35 米肩高非洲象，也约等于 12 个 30 厘米菊石壳径。[1][2] 它只有 30 米蓝鲸全长的九分之一左右，但两者一个是肩高、一个是全长，倍数只能作直观参照。放在尺度轴上，猛犸象与大象同处“三米级肩高”的带内，向上才是蓝鲸和腕龙。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 11.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

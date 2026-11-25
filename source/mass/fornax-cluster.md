@@ -5,7 +5,7 @@ summary: >-
   天炉座星系团是南天较近的富星系团，总质量约 1.4×10⁴⁴ kg，折合约 7×10¹³ 个太阳质量，口径包含暗物质。数值由 X
   射线热气与成员速度弥散联合给出，相对不确定度约 30%。
 dimension: mass
-category: 星系团
+category: 星系与宇宙
 displayValue: 1.4×10⁴⁴ kg
 quantity:
   value: 1.4e+44
@@ -79,6 +79,7 @@ visual:
   color: '#a6bfff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Fornax Cluster
 ---
 ## 这个读数是什么
 

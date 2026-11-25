@@ -16,6 +16,8 @@ related:
   - space.andromeda-galaxy
   - space.local-group
   - space.galaxy-cluster
+  - mass.observable-universe
+  - temperature.cmb
 reviewStatus: reviewed
 sources:
   - title: 'Chandra :: Photo Album :: Centaurus A'
@@ -23,29 +25,38 @@ sources:
     publisher: NASA / Chandra X-ray Observatory
     accessed: '2026-11-07'
   - title: Extragalactic radio and X-ray sources
-    url: 'https://www.britannica.com/science/galaxy/Extragalactic-radio-and-X-ray-sources'
+    url: >-
+      https://www.britannica.com/science/galaxy/Extragalactic-radio-and-X-ray-sources
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 采用星系主体加外围暗弱包层的概览外径约2×10⁵光年；不把射电瓣、星系群范围和到地球的距离计入。
-uncertainty: Chandra图像视场中的明亮主体约5.8×10⁴光年；本页2×10²¹米包含更暗的外围包层，属量级概览。射电瓣跨度可远大于光学主体，未计入，因此不同文献的“大小”会相差很多。
+uncertainty: >-
+  Chandra图像视场中的明亮主体约5.8×10⁴光年；本页2×10²¹米包含更暗的外围包层，属量级概览。射电瓣跨度可远大于光学主体，未计入，因此不同文献的“大小”会相差很多。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
     - 打开Chandra半人马座A图像页，核对约16.7角分视场对应约5.8×10⁴光年、约1300万光年距离与活动核描述。
     - 打开Britannica的星系射电与X射线源条目，核对半人马座A是光学星系被更大双瓣射电结构包围的射电源；正文按1光年≈9.46×10¹⁵米换算。
-    - '2026-11-07 来源可访问性核对：https://chandra.si.edu/photo/2014/cena/ 返回可用响应；https://www.britannica.com/science/galaxy/Extragalactic-radio-and-X-ray-sources（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07 来源可访问性核对：https://chandra.si.edu/photo/2014/cena/
+      返回可用响应；https://www.britannica.com/science/galaxy/Extragalactic-radio-and-X-ray-sources（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "galaxy"
-  scene: "space.object"
-  caption: "半人马座 A · 星系主体与外晕概览"
-  note: "尘埃带、星系主体与外围包层为示意，未按真实观测结构绘制；范围表示光学主体加暗弱包层的概览外径，不含射电瓣；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  variant: "peculiar"
-  referenceAxis: "x"
+  template: galaxy
+  scene: space.object
+  caption: 半人马座 A · 星系主体与外晕概览
+  note: 尘埃带、星系主体与外围包层为示意，未按真实观测结构绘制；范围表示光学主体加暗弱包层的概览外径，不含射电瓣；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  variant: peculiar
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -72,3 +83,5 @@ Chandra的图像显示，明亮主体在约16.7角分视场内对应约5.8×10�
 ## 与其他尺度的关系
 
 2×10²¹米约为银河系盘直径的2倍，与仙女座星系盘20万光年相当，约为室女座星系团1100万光年跨度的1.8%。[1][2] 它比星系团小两个数量级，但射电瓣可使整个活动系统的跨度接近星系群尺度。比较时必须说明取的是光学主体、外围包层还是射电结构。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

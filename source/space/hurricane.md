@@ -17,6 +17,7 @@ related:
   - space.cloud
   - space.raindrop
   - space.tsunami-wavelength
+  - time.millisecond
 reviewStatus: reviewed
 sources:
   - title: Hurricane Facts
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.aoml.noaa.gov/hrd/tcfaq/E5.html?print=yes'
     publisher: NOAA Atlantic Oceanographic and Meteorological Laboratory
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为热带气旋（飓风或台风）；样本为典型飓风与历史极值记录；口径为风暴水平直径，通常按大风或云系范围估计，不是眼径、路径长度或风暴潮高度。
 uncertainty: 飓风大小差异很大；典型约300英里（约480公里），有记录的风暴外围大风半径可超过1000公里，也有不足20公里的小型系统。
 review:
@@ -72,3 +77,7 @@ tags:
 ## 与其他尺度的关系
 
 480公里约为台湾本岛纵长394公里的1.2倍，也约为地球直径12742公里的3.8%。[1][2] 与一朵1公里的积云相比，飓风大数百倍；与海啸波长相比，它又小一个量级。飓风属于天气尺度，连接云团与行星环流。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.6 毫秒，在时间轴上量级接近「毫秒」。[3]

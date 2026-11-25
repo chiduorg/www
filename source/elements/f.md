@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/9/fluorine'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第二周期, p 区, 卤素, 氟]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往回是氧（/entry/elements/o/），能看到 2p4 与 2p5 之间那一步为什么让电负性封顶；往前是氖（/entry/elements/ne/），2p 闭合后价层重新变成惰性。想把“缺一个电子”的账目算清楚，去读电子排布解释页与周期律解释页；想把中微子过程放回恒星死亡，去读第三代恒星超新星节点。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

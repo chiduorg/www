@@ -48,6 +48,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/67/holmium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 镧系, 钬]
 rights:
   status: rewritten
@@ -81,3 +85,5 @@ Ho³⁺ 的 4f10 有四个未成对电子，自旋与轨道角动量同向叠加
 ## 怎么继续走
 
 往前是镝，4f 刚到 4f10、半径还在回升；往后是铒，4f 加到 4f12，半径停在 226 pm。想看 4f 屏蔽如何让半径变化忽大忽小，看镧系收缩解释页；想看稳定线附近哪些核能长期存活，看核稳定性解释页。钬这一格说明，核来源与电子排布是两条独立的账，不能互相替代。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

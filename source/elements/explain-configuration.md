@@ -4,7 +4,7 @@ title: 电子排布：为什么顺序是 1s→2s→2p→3s→3p→4s→3d
 titleEn: Electron configuration and the Aufbau order
 dimension: element
 category: 解释层
-summary: '元素的性质不是按质子数平铺，而是按电子填入的次序分段。这一页解释 Aufbau 次序、4s 与 3d 的交错，以及铬、铜、钆、铂为什么是例外。'
+summary: 元素的性质不是按质子数平铺，而是按电子填入的次序分段。这一页解释 Aufbau 次序、4s 与 3d 的交错，以及铬、铜、钆、铂为什么是例外。
 quantity:
   value: null
   unit: Z
@@ -13,25 +13,30 @@ quantity:
   approximate: false
 displayValue: 解释页 · 不参与 Z 排序
 related:
+  - space.atom
+  - mass.proton
   - elements.he
   - elements.ar
   - elements.kr
   - elements.explain-energy-levels
-  - elements.explain-periodic-law
 reviewStatus: reviewed
 review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与主题口径完整；本条为解释/方法/来源页，不参与 Z 排序，不对应单一原子序数。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - 本轮复核：结构、引用编号与主题口径完整；本条为解释/方法/来源页，不参与 Z 排序，不对应单一原子序数。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: '6.4: Electronic Structure of Atoms (Electron Configurations)'
-    url: 'https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/06%3A_Electronic_Structure_and_Periodic_Properties/6.04%3A_Electronic_Structure_of_Atoms_(Electron_Configurations)'
-    publisher: 'LibreTexts / OpenStax Chemistry 2e'
+    url: >-
+      https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/06%3A_Electronic_Structure_and_Periodic_Properties/6.04%3A_Electronic_Structure_of_Atoms_(Electron_Configurations)
+    publisher: LibreTexts / OpenStax Chemistry 2e
     accessed: '2026-11-08'
-  - title: 'Atomic Spectra Database'
+  - title: Atomic Spectra Database
     url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-08'

@@ -19,6 +19,7 @@ related:
   - time.green-revolution
   - time.covid-pandemic
   - time.human-lifespan
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: penicillin
@@ -34,6 +35,10 @@ sources:
     url: >-
       https://www.acs.org/education/whatischemistry/landmarks/flemingpenicillin.html
     accessed: '2026-11-06'
+  - title: About Edward Jenner
+    url: 'https://www.jenner.ac.uk/about/edward-jenner'
+    publisher: 'The Jenner Institute, University of Oxford'
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -92,3 +97,7 @@ tags:
 ## 耐药性与后续
 
 抗生素让肺炎、败血症、手术后感染等不再必然致命，也支撑了现代外科与化疗。但细菌会通过突变与基因交换获得耐药性，使用越广、选择压力越大。今天的新药研发与合理用药，仍是在延续这场开始于二十世纪中叶的医学转变。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（The Jenner Institute, University of Oxford）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

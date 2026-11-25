@@ -5,7 +5,7 @@ summary: >-
   以常见蚊种为样本，单个成年雌蚊在未吸血状态下的湿重均值约 2.5×10⁻⁶ kg（约 2.5 mg），样本间差异约
   ±40%。吸血后短时间内的体重可以翻数倍。
 dimension: mass
-category: 昆虫
+category: 自然与生物
 displayValue: 约 2.5×10⁻⁶ kg
 quantity:
   value: 0.0000025
@@ -70,6 +70,7 @@ visual:
   color: '#c9a77a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Adult female mosquito
 ---
 ## 这个读数是什么
 

@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: 约 1.2 亿光年（长轴延伸下限）
 related:
+  - mass.observable-universe
+  - temperature.cmb
   - space.great-attractor
   - space.laniakea
   - space.virgo-supercluster
   - space.galaxy-cluster
-  - space.cosmic-web
 reviewStatus: reviewed
 sources:
   - title: The largest matter concentration on large scale of the local Universe
@@ -52,12 +53,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "cluster"
-  scene: "space.object"
-  caption: "沙普利超星系团 · 成员延伸概览"
-  note: "星系团、星系群图符与纤维连接为示意，未按真实成员目录排布；范围表示长轴延伸下限，非球对称直径；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: cluster
+  scene: space.object
+  caption: 沙普利超星系团 · 成员延伸概览
+  note: 星系团、星系群图符与纤维连接为示意，未按真实成员目录排布；范围表示长轴延伸下限，非球对称直径；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:

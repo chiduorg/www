@@ -21,6 +21,8 @@ related:
   - temperature.sun-surface
   - temperature.absolute-zero
   - temperature.betelgeuse-surface
+  - time.first-stars
+  - space.supernova-remnant
 reviewStatus: reviewed
 sources:
   - title: Discovery of a ~250 K Brown Dwarf at 2 pc from the Sun
@@ -31,6 +33,10 @@ sources:
     url: 'https://www.britannica.com/science/brown-dwarf'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: coldest-brown-dwarf
   icon: "\U0001F7E4"
@@ -94,3 +100,5 @@ WISE 0855 是一颗离太阳约 2.2 pc 的超冷褐矮星，2014 年由 WISE 多
 ## 与其他温区的关系
 
 250 K 高于宇宙微波背景的 2.7 K，低于红矮星主体的约 2,500–3,900 K，也低于地球表面的平均约 288 K。它处在褐矮星 L/T 型向行星状大气过渡的温区，是研究冷大气与云层的天然实验室。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

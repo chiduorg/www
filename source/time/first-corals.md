@@ -31,6 +31,10 @@ sources:
     url: 'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf'
     publisher: International Commission on Stratigraphy
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -80,3 +84,5 @@ tags:
 ## 与其他阶段的关系
 
 最早珊瑚出现在奥陶纪生物多样化期间，与腕足类、三叶虫、头足类和早期鱼类的扩展同时发生。它们后来经历多次灭绝与重建，在古生代和中生代形成不同的礁系统。沿时间轴向后，可以看到珊瑚礁如何成为海洋生物多样性的重要结构，也能理解现代珊瑚对温度、酸化和污染的敏感性并非全新问题。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

@@ -21,6 +21,7 @@ related:
   - time.big-bang
   - temperature.absolute-zero
   - space.sun
+  - space.observable-universe
 reviewStatus: reviewed
 sources:
   - title: 'FIRAS overview: cosmic microwave background spectrum'
@@ -28,9 +29,17 @@ sources:
     publisher: NASA LAMBDA / COBE
     accessed: '2026-11-06'
   - title: Planck
-    url: 'https://www.esa.int/Science_Exploration/Space_Science/Planck'
+    url: 'https://sci.esa.int/web/planck'
     publisher: European Space Agency
     accessed: '2026-11-06'
+  - title: "The early universe"
+    url: "https://home.cern/science/physics/early-universe"
+    publisher: "CERN"
+    accessed: '2026-11-24'
+  - title: "cosmic microwave background"
+    url: "https://www.britannica.com/science/cosmic-microwave-background"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 legacy:
   id: cmb
   icon: "\U0001F310"
@@ -93,3 +102,20 @@ COBE 卫星上的 FIRAS 仪器测量了全天微波光谱，把不同频率的�
 ## 与其他温区的关系
 
 2.725 K 略高于绝对零度，也高于宇宙中微子背景约 1.95 K 的理论参数。它低于液氢约 20.3 K 和液氮约 77 K，更远低于恒星表面、白矮星表面与超新星核心。与太阳表面 5,772 K 相比，CMB 低了三个数量级；但它覆盖整个天空，不能按单个物体的温度来理解。把这些温标放在一起时，最重要的是分清辐射场、物质和局部环境。[1][2]
+
+
+## 换一个尺度看它
+
+2.725 K 比绝对零度高 2.725 K，约为室温的 1%。它低于液氦沸点 4.2 K，也低于宇宙中许多分子云。CMB 是宇宙最古老的光，今天被红移冷却到微波波段；把它当成“宇宙边缘的温度”会混淆最后散射面与当前宇宙。
+
+## 误差与前景
+
+2.725 K 的误差约 0.002 K，但这个精度是全天光谱拟合的结果，不等于每个方向都一样。银河系尘埃、同步辐射和仪器定标会污染微波天空，必须先扣除前景，才能得到 CMB 的微小涨落。[1][2] 红蓝斑点的幅度通常只有几十到几百微开尔文，颜色是夸张映射；把它当成“天空各处差几度”会读错图。
+
+## 五轴对照
+
+在温度轴，它是 2.725 K 的辐射场；在时间轴，它来自复合时期，约 38 万年；在空间轴，它覆盖整个可观测天空；在质量轴，光子的静质量为零，但辐射能量参与宇宙的总能量账本。把 CMB 当成“太空的温度”或“某颗星的光”，都会丢掉对象与口径。[1][2]
+
+## 延伸核对
+
+补充的来源 [3]（CERN）、[4]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

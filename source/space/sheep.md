@@ -16,6 +16,7 @@ related:
   - space.domestic-pig
   - space.horse
   - space.domestic-goat
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Ovis aries
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/animal/domesticated-sheep'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年绵羊；量取从吻端沿体轴到尾根的头体长，尾巴与羊毛不计；不含肩高；品种、性别与剪毛状态差异明显。
 uncertainty: ADW 给出头体长 1200–1800 mm、肩高 650–1270 mm；Britannica 给出成熟个体体重约 35–180 kg。成年绵羊头体长常见约 1.2–1.8 m，本条取 1.2 m，对应较小或较典型的成年个体，大型品种可接近 1.8 m。
 review:
@@ -69,3 +74,7 @@ Animal Diversity Web 的绵羊条目给出：头体长 1200–1800 毫米，肩�
 ## 与其他尺度的关系
 
 1.2 米约为 1.7 米成年人的七成，和 1.2 米的灰狼头体长相当，比 1.4 米的牛肩高矮 0.2 米，也短于 1.5 米的猪。[1][2] 在常见家畜中，绵羊属于“一米级”：向上是牛、马，向下是狗、猫和家兔。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

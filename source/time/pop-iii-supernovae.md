@@ -27,6 +27,10 @@ sources:
     url: 'https://webbtelescope.org/contents/news-releases/2018/news-2018-23'
     publisher: NASA Webb Mission Team / STScI
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -78,3 +82,5 @@ Spitzer 的说明把第一代恒星的出现定在大爆炸后约 2–4 亿年�
 ## 与其他尺度的关系
 
 星族 III 超新星出现在第一代恒星之后、第一代星系形成的大致同一时代，并把碳、氧、铁等元素注入星际气体。[1][2] 3 亿年约为 4 亿年星系锚点的四分之三，说明恒星死亡与星系组装在时间上相互重叠，而不是先后分明的两幕。与再电离时代相比，它更早，却为后者准备了重元素与部分辐射背景。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

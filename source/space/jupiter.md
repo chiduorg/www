@@ -14,10 +14,10 @@ displayValue: '139,822 km（体积等效平均直径）'
 related:
   - space.solar-system
   - space.saturn
-  - space.earth
   - space.ganymede
   - space.sun
   - temperature.sun-surface
+  - mass.jupiter
 reviewStatus: reviewed
 sources:
   - title: Jupiter Fact Sheet
@@ -28,6 +28,14 @@ sources:
     url: 'https://www.britannica.com/place/Jupiter-planet'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "Kuiper Belt and Oort Cloud (NASA lithograph)"
+    url: "https://www.nasa.gov/sites/default/files/files/Kuiper_Belt_Lithograph_h.pdf"
+    publisher: "NASA"
+    accessed: '2026-11-24'
+  - title: "Planetary Satellite Physical Parameters — Ganymede"
+    url: "https://ssd.jpl.nasa.gov/sats/phys_par/sep.html"
+    publisher: "NASA / JPL Solar System Dynamics"
+    accessed: '2026-11-24'
 legacy:
   id: jupiter
   icon: "\U0001F7E4"
@@ -82,3 +90,23 @@ NASA事实表列体积平均半径69,911公里，并另列1巴层赤道半径71,
 ## 与其他尺度的关系
 
 139,822公里约为地球直径12,742公里的11倍，约为土星平均直径116,464公里的1.2倍。与太阳直径约139万公里相比，木星约为其十分之一。它仍是行星，不是恒星。[1][2]
+
+## 1 巴层与云顶不是同一表面
+
+木星没有固体表面，NASA 以 1 巴气压层定义半径；可见云顶位于更高、更冷的层次。[1] 赤道半径 71,492 公里、极半径 66,854 公里，平均半径 69,911 公里。不同气压层会给出不同半径，不能把云顶照片的边缘当成唯一边界。
+
+## 扁率来自快速自转
+
+木星约 9.9 小时自转一周，赤道离心效应让赤道鼓起、两极压扁，扁率约 0.0649。[1] 因此赤道直径比极直径大约 9,000 公里。把木星画成完美球体，会丢掉这个可测的形状信息；它的环系统也不在本条直径内。
+
+## 五轴对照
+
+在空间轴，木星平均直径约 139,822 公里；在质量轴，它约 1.898×10²⁷ 千克，是地球的 318 倍；在时间轴，木星形成于太阳系早期；在温度轴，云顶温度约 165 K，内部却远更热。直径、质量与内部温度不能互相替代。[1][2]
+
+## 云顶半径与扁率
+
+木星半径常取赤道半径约 71,500 公里，但它是明显扁球：赤道半径比极半径大约 6,700 公里。云顶也没有唯一高度，氨冰云、水云和更深的气体层给出不同参考面。正文的木星直径若按赤道半径算，就不能同时拿极半径做体积换算。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（NASA）、[4]（NASA / JPL Solar System Dynamics） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

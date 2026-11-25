@@ -20,6 +20,7 @@ related:
   - time.industrial-revolution
   - time.first-humans
   - time.rise-homo-sapiens
+  - space.small-magellanic-cloud
 reviewStatus: reviewed
 sources:
   - title: writing
@@ -30,6 +31,18 @@ sources:
     url: 'https://www.britannica.com/topic/civilization'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: The Origins of Writing
+    url: 'https://www.metmuseum.org/toah/hd/wrtg/hd_wrtg.htm'
+    publisher: The Metropolitan Museum of Art
+    accessed: '2026-11-24'
+  - title: The Origins of Agriculture in the Near East
+    url: 'https://profiles.si.edu/display/sro_109973'
+    publisher: Smithsonian / Current Anthropology
+    accessed: '2026-11-24'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -80,3 +93,13 @@ tags:
 ## 与其他尺度的关系
 
 5 000 年约为人类个体寿命的六十多倍，却只是农业革命以来时间的一半左右，也远短于物种寿命的 100 万年。[1][2] 与工业革命的约两百五十年相比，文字文明参考长度又长二十倍。它位于人类历史尺度，向上连接农业革命和人类演化，向下连接王朝、城市与制度的具体年代。使用这个数字时，最好同时说明“文明”的定义和起止边界。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（The Metropolitan Museum of Art）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（Smithsonian / Current Anthropology）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+按同一真空光速计算，光在这段时间内约走 5.0 千光年，在空间轴上量级接近「小麦哲伦云」。[5]

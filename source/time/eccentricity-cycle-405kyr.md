@@ -20,6 +20,7 @@ related:
   - time.one-billion-seconds
   - time.one-trillion-seconds
   - time.year
+  - space.dark-matter-halo
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -31,6 +32,10 @@ sources:
     url: 'https://www.pnas.org/doi/10.1073/pnas.1807020115'
     publisher: PNAS (Linda A. Hinnov)
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -82,3 +87,7 @@ tags:
 ## 与其他尺度的关系
 
 40.5 万年约等于 4.05×10⁵ 年，是米兰科维奇体系中倾角周期 4.1 万年的近 10 倍，也是岁差周期 2.6 万年的约 15.6 倍。与十亿秒的 31.69 年相比，它长约 1.28 万倍；与一万亿秒的 3.17 万年相比，长约 12.8 倍；与一千万亿秒的 3169 万年相比，则约为其 1.28%[2]。与人类文明五千年相比，它长约 81 倍；与人类寿命 73 年相比，则长约 5548 倍。这些倍数只用于定位尺度，不表示气候事件与人生长度之间存在联系。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+按同一真空光速计算，光在这段时间内约走 405 千光年，在空间轴上量级接近「暗物质晕」。[3]

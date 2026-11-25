@@ -5,7 +5,7 @@ summary: >-
   天鹅座 X-1 的动力学质量约 4.22×10³¹ kg，即 21.2 太阳质量。数值由双星轨道拟合得到，相对不确定度约
   1%，是最可靠的恒星级黑洞质量之一。
 dimension: mass
-category: 黑洞
+category: 恒星与致密天体
 displayValue: 4.22×10³¹ kg
 quantity:
   value: 4.22e+31
@@ -80,6 +80,7 @@ visual:
   color: '#ffd37a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Cygnus X-1
 ---
 ## 这个读数是什么
 

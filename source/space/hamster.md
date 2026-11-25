@@ -16,6 +16,7 @@ related:
   - space.bat
   - space.cat
   - space.human
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Mesocricetus auratus
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/animal/golden-hamster'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年叙利亚仓鼠（金仓鼠）；量取从吻端到尾根的头体长，尾巴不计；不采用含尾总长，也不把鼓起的颊囊算进去。
 uncertainty: ADW 给出头体长 13–13.5 cm、尾长 1.5 cm；Britannica 给出身体长度可达 18 cm，并说明雌性通常大于雄性。0.16 m 位于两者之间，代表较大的成年个体。
 review:
@@ -70,3 +75,7 @@ Animal Diversity Web 的金仓鼠条目记录：头体长 13–13.5 厘米，尾
 ## 与其他尺度的关系
 
 0.16 米大约是一支普通铅笔的长度，比 0.28 米的灰松鼠短十二厘米，也比 0.4 米的家兔短得多，更只有 1.7 米人的十分之一左右。[1][2] 在小型哺乳动物里，叙利亚仓鼠属于“十几厘米级”，向上是松鼠、兔和猫，向下是更小的野鼠与蝙蝠。放到 30 米蓝鲸的尺度上，它约占其一百八十七分之一。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.53 纳秒，在时间轴上量级接近「纳秒」。[3]

@@ -20,6 +20,7 @@ related:
   - temperature.liquid-helium
   - temperature.dilution-refrigerator
   - temperature.absolute-zero
+  - mass.helium-nucleus
 reviewStatus: reviewed
 sources:
   - title: 'ARCADE Superfluid Pumps'
@@ -31,6 +32,14 @@ sources:
       https://www.nist.gov/mml/acmd/cryogenic-technologies-project/about-cryogenics
     publisher: NIST
     accessed: '2026-11-07'
+  - title: "superfluidity"
+    url: "https://www.britannica.com/science/superfluidity"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
+  - title: "The Provisional Low Temperature Scale from 0.9 mK to 1 K, PLTS-2000"
+    url: "https://www.bipm.org/documents/20126/41791796/PLTS-2000.pdf"
+    publisher: "BIPM / CIPM Recommendation C1 (2000)"
+    accessed: '2026-11-24'
 conditions: >-
   纯氦-4 在饱和蒸气压（约 1 atm）下由氦 I 转变为超流氦 II 的 λ 点；压力升高时 λ 线会移动，
   不能把它当作任意压力下的统一转变温度，也不适用于氦-3 或混合物样品。
@@ -82,3 +91,23 @@ tags:
 ## 与其他温区的关系
 
 2.177 K 低于液氦正常沸点 4.22 K，高于氦-3 超流 A 点的 2.444 mK，也高于绝对零度。[1][2] 它把普通低温制冷与量子流体实验连接起来：稀释制冷机和核退磁等装置继续向毫开尔文温区推进，而 λ 点本身仍是理解超流转变的经典参照。零黏度、第二声与喷泉效应都常被用来演示量子流体，而 λ 点正是这些现象的入口温度。
+
+## 二阶相变没有汽化潜热
+
+λ 点是液氦 I 与超流氦 II 之间的二阶相变：比热容出现尖峰，但没有像沸腾那样吸收固定潜热。[1] 转变是连续发生的，超流组分随温度降低而增加。把 λ 点当成“另一种沸点”，会误解它的热力学性质。
+
+## 五轴对照
+
+在温度轴，λ 点约 2.177 K；在空间轴，超流氦会沿容器壁爬升；在质量轴，氦-4 原子核是玻色子；在时间轴，转变在降温过程中发生。温度、量子统计与容器几何共同决定现象。[1][2]
+
+## 二阶相变没有汽化潜热
+
+λ 点是液氦 I 与超流氦 II 之间的二阶相变：比热容出现尖峰，但没有像沸腾那样吸收固定潜热。转变连续发生，超流组分随温度降低而增加。把 λ 点当成“另一种沸点”，会误解它的热力学性质。[1][S2]
+
+## 读数的口径与换算
+
+本条采用的量是 2.177 K（−270.973 °C），口径是 氦-4饱和蒸气压附近的λ点。温度是强度量，读数依赖温标、测点与热平衡；同一对象的不同部位、不同时刻可以有不同温度。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [3]（Encyclopaedia Britannica）、[4]（BIPM / CIPM Recommendation C1 (2000)） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

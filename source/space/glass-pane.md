@@ -18,6 +18,7 @@ related:
   - space.laptop
   - space.hair
   - space.crystal-lattice
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Standard Specification for Flat Glass (C1036-01)
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.astm.org/news/standards-through-the-looking-glass'
     publisher: ASTM International
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   以建筑用退火平板玻璃的单片公称厚度为对象，取 6.0 毫米档；
   中空、夹层、压花或特殊用途玻璃的组件厚度需按相应产品规格另计。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 6 毫米约为头发丝 100 微米的 60 倍，约为人体细胞 20 微米的 300 倍，却只有 A4 纸长边 297 毫米的约 1/50。它约为石墨烯单层 0.335 纳米的 1800 万倍。与笔记本电脑 345 毫米相比，约为其 1/58。把本页与 A4 纸、头发丝并读，可体会“毫米级构件”与“微米级组织”的差距。与混凝土粗骨料 10 毫米的公称粒径相比，6 毫米玻璃还更薄一些，但两者是完全不同的对象。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.020 纳秒，在时间轴上量级接近「纳秒」。[3]

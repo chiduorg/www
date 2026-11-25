@@ -16,6 +16,7 @@ related:
   - space.a4-paper
   - space.stapler
   - space.sticky-note
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: BIC Clic Stic Grip Pen — Product Specifications
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.bicclic.ca/product-details/p27/cs-clic-stic'
     publisher: BIC
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为常用按动式圆珠笔；量取笔尖最前端到笔尾按压帽外缘，笔芯处于收回状态；笔夹外凸与带帽款不计入口径。
 uncertainty: 按动式圆珠笔长度多在 13.5–14.5 cm；两条来源分别给出约 138 mm 与 5 7/16 英寸（约 138.1 mm），本条取 138 mm；带帽的 BIC Cristal 约 149 mm，属于另一种结构，不能混用。
 review:
@@ -70,3 +75,7 @@ BIC Clic Stic 的官方推广页给出产品长度约 138 毫米、直径约 12.
 ## 与其他尺度的关系
 
 13.8 厘米比 17.78 厘米的铅笔短约 4 厘米，比 15 厘米的订书机短 1.2 厘米，约为 7.6 厘米便利贴边长的 1.8 倍。[1][2] 它比 21 厘米的 A5 纸长边短 7.2 厘米，放进 A5 笔记本的封袋里仍有余量。与 14.76 厘米的手机高度相比只短约 1 厘米，说明圆珠笔是典型的单手握持尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.46 纳秒，在时间轴上量级接近「纳秒」。[3]

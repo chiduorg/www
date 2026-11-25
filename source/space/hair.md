@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/hair-anatomy'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: hair
   icon: "\U0001F487"
@@ -83,3 +87,5 @@ tags:
 ## 与其他尺度的关系
 
 把发丝放在本站尺度轴上，它比多数人体细胞大、比手和人体小得多。一个100微米宽的发丝，横向并排约十个就能接近1毫米；而人手全长的参照是20厘米，发丝宽度只有它的约两千分之一。[1] 继续向上看是肉眼可见的日常物体，向下看则是细胞、细菌和分子层级。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

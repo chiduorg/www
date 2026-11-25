@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: '约 16,500 km（东西向长度，2014年）'
 related:
+  - temperature.venus-surface
+  - time.solar-system
   - space.jupiter
   - space.earth
   - space.saturn
   - space.neptune
-  - space.sun
 reviewStatus: reviewed
 sources:
   - title: NASA's Hubble Shows Jupiter's Great Red Spot is Smaller than Ever Measured
@@ -28,6 +29,10 @@ sources:
     url: 'https://svs.gsfc.nasa.gov/cgi-bin/details.cgi?aid=12021'
     publisher: NASA Goddard SVS
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: '对象为木星大红斑在云顶的可见轮廓；采用2014年哈勃测量的东西向长轴约16,500公里；不含风速场、云层厚度与不同波长下的轮廓差异。'
 uncertainty: >-
   NASA
@@ -76,3 +81,5 @@ conceptGroup: jupiter
 ## 与其他尺度的关系
 
 16,500公里约为地球直径12,742公里的1.29倍，约为木星赤道直径142,984公里的0.115倍。[1] 它比土星直径116,464公里小得多，但比海王星49,244公里的一半还小。大红斑的长度与木星半径71,492公里相比约为0.23倍，说明它虽巨大，仍只是行星表面的一小块区域。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

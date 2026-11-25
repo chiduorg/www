@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/chloroplast'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: chloroplast
   icon: "\U0001F33F"
@@ -83,3 +87,5 @@ tags:
 ## 与其他尺度的关系
 
 5微米的叶绿体长度与线粒体（约2微米）同一量级，却只有典型细胞（20微米）的四分之一。[1] 它内部还有纳米级的类囊体膜和色素分子，构成从细胞器到分子的又一层尺度。[2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

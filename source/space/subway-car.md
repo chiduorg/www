@@ -18,6 +18,7 @@ related:
   - space.car
   - space.door
   - space.human
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: 长沙交通迈向地铁时代 首列地铁列车亮相长沙黄兴车辆段
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.crrcgc.cc/zj/2016-12/26/article_6EEF29B5430F4DCB9A9CD31177F65922.html'
     publisher: 中车株洲电力机车有限公司
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为城市轨道交通单节地铁车辆；测量口径为车体两端外缘之间的纵向长度，不含车钩、贯通道与车外附加设备；不适用于有轨电车、市域铁路动车组或双节铰接车辆。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 20 米约等于 11.1 辆 1.8 米自行车首尾相接，也约等于 4.4 辆 4.5 米家用轿车。与 25 米的铁路客车车厢相比，地铁车厢约为其 80%；与 68.4 米的波音 747 相比约为其 29%。它还是 2.032 米标准门高的约 9.8 倍，一节车厢通常设有多组车门。与 94 米的国际空间站相比，地铁车厢约为其 21%。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 66.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

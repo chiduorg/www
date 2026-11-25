@@ -33,6 +33,10 @@ sources:
     url: 'https://www.britannica.com/technology/glass'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: glass_melting
   icon: "\U0001FAD7"
@@ -103,3 +107,5 @@ Corning 的材料属性表按黏度给出特性点：工作点对应 10⁴ poise
 ## 与其他温区的关系
 
 1,525 K 低于纯硅熔点 1,687 K 和纯铁熔点 1,811 K，高于铝熔点 933.15 K。它低于炼钢出钢的约 1,893 K，与本生灯高温区的 1,773 K 同一量级，说明玻璃软化并不需要达到金属熔化的温度；这与黏度口径有关。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

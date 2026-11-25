@@ -16,6 +16,7 @@ related:
   - time.dark-ages
   - time.cosmic-dawn
   - time.first-stars
+  - space.cmb-surface
 reviewStatus: reviewed
 sources:
   - title: 'An absorption profile centred at 78 megahertz in the sky-averaged spectrum'
@@ -26,6 +27,10 @@ sources:
     url: 'https://arxiv.org/html/2103.04241v1'
     publisher: 'Fulvio Melia / The University of Arizona'
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -77,3 +82,5 @@ EDGES 合作组在天空平均频谱中报告了一个中心约 78 兆赫的扁�
 ## 与其他尺度的关系
 
 这个时代位于黑暗时代之后、宇宙黎明之中，早于再电离基本完成，也早于 3.5 亿年气体加热变得普遍的阶段。[2] 2.2 亿年约为 4 亿年第一批星系锚点的一半多一点，说明吸收信号记录的是恒星与星系尚未充分照亮宇宙的较早时刻。它与第一代恒星的出现窗口相接，却不等同于恒星形成本身。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

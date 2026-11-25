@@ -18,6 +18,7 @@ related:
   - space.iss
   - space.human
   - space.train-car
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: Airbus A380-800 — Lufthansa fleet
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.singaporeair.com/en_UK/us/flying-withus/our-story/our-fleet/airbus-a380-800/'
     publisher: Singapore Airlines
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为标准空客 A380-800 客机；测量口径为机头最前端到机尾最末端的机身纵向长度，不含翼展、发动机短舱外伸部分与地面登机设备。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 72.7 米约等于 16.2 辆 4.5 米家用轿车首尾相接，也约等于 40 辆 1.8 米自行车。与 68.4 米的波音 747 相比，A380 约长 4.3 米，相当于多出两辆轿车；与 365 米的大型邮轮相比约为其 20%。它还是 2.032 米标准门高的约 35.8 倍。若把 72.7 米竖起来，约等于 24 层、每层 3 米高的建筑。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 243 纳秒，在时间轴上量级接近「微秒」。[3]

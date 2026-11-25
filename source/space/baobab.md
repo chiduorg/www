@@ -18,6 +18,7 @@ related:
   - space.sequoia
   - space.palm-tree
   - space.elephant
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: 'Adansonia digitata'
@@ -28,6 +29,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC7413363/'
     publisher: Scientific Reports (Nature Portfolio)
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为非洲猴面包树 Adansonia digitata；量地面到树冠顶端的垂直高度，不含树干周长、树干直径和树冠横向伸展；20 m 取在成熟高度范围内。
 uncertainty: >-
@@ -74,3 +79,7 @@ Trees for Life 的物种资料把非洲猴面包树的成熟高度记为 20 m，
 ## 与其他尺度的关系
 
 20 m 与银杏树高（20 m）同量级，约为棕榈树高度（15 m）的 1.3 倍，也约为人类身高（1.7 m）的 12 倍。它的树干直径可达数米，单是树干就接近一间小屋的宽度。它处在大型乔木带，向上是巨杉和橡树，向下是灌木与草本。它约为巨杉高度（95 m）的五分之一，也约为标准泳池长度（25 m）的八成。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 66.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

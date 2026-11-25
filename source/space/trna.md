@@ -17,6 +17,7 @@ related:
   - space.protein
   - space.bacteria
   - space.mitochondria
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -29,6 +30,10 @@ sources:
     url: 'https://pdb101.rcsb.org/motm/15'
     publisher: RCSB Protein Data Bank / David Goodsell
     accessed: '2026-11-04'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: trna
   icon: "\U0001F340"
@@ -84,3 +89,7 @@ tRNA必须同时被核糖体和氨酰-tRNA合成酶识别；L形折叠把反密�
 ## 与其他尺度的关系
 
 8纳米的tRNA处在核酸与蛋白质机器的交界尺度：它比单个核苷酸大得多，却远小于核糖体和细胞。[1] 在翻译过程中，tRNA、mRNA和核糖体共同组成一个更大的复合体，尺度又上升一个层次。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.7e-8 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

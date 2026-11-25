@@ -23,16 +23,22 @@ related:
   - temperature.red-dwarf-surface
   - temperature.k-type-star
   - temperature.b-type-star
+  - space.brown-dwarf
+  - time.first-stars
 reviewStatus: reviewed
 sources:
   - title: Brown dwarf
     url: 'https://www.britannica.com/science/brown-dwarf'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
-  - title: 'The Spectral Sequence'
-    url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectral-sequence'
-    publisher: 'OpenStax Astronomy 2e（CC BY 4.0）'
+  - title: The Spectra of Stars (and Brown Dwarfs)
+    url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectra-of-stars-and-brown-dwarfs'
+    publisher: OpenStax Astronomy 2e（CC BY 4.0）
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为质量低于约 0.075 倍太阳质量、不能稳定氢聚变的亚恒星天体；温度指光球有效温度， 随质量与年龄变化。1,000 K 是 L/T 型附近的锚点，Y
   型可冷到数百开尔文。
@@ -79,3 +85,12 @@ tags:
 ## 与恒星和行星的比较
 
 1,000 K 低于 M 型红矮星的温区，也低于太阳的约 5,772 K，却高于多数巨行星的有效温度。[1][2] 冷到数百开尔文的 Y 型已经接近行星温区。正是这段连续过渡，使褐矮星成为检验恒星与行星分界的研究对象。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1000 K，即 726.9 ℃（按 T/K−273.15 换算）；约为水的沸点（373.1 K）的 2.68 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10³ 量级附近。
+
+读图时先看量级，再看倍数：10³ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

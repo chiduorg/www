@@ -10,12 +10,14 @@ quantity:
   unit: m
   measure: NASA三轴半径7.8、6.0、5.1 km取平均后加倍约12.6 km，常用取整为12 km（中间轴附近口径，非最长径）
   approximate: true
-displayValue: '约 12 km（常用直径口径）'
+displayValue: 约 12 km（常用直径口径）
 related:
   - space.mars
   - space.phobos
   - space.moon
   - space.earth
+  - time.solar-system
+  - mass.moon
 reviewStatus: reviewed
 sources:
   - title: Mars Fact Sheet
@@ -26,15 +28,22 @@ sources:
     url: 'https://science.nasa.gov/mars/moons/deimos/'
     publisher: NASA Science
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为火星卫星火卫二的固体表面；采用NASA三轴半径7.8、6.0、5.1公里的平均口径；不含表面风化层厚度，也不把轨道半径当作本体尺寸。
-uncertainty: 三轴半径平均约6.3公里，平均直径约12.6公里；NASA任务页写三轴尺寸15×12×11公里，最长径约15.6公里，最短径约10.2公里。12公里是常用取整值，不是最长径。
+uncertainty: >-
+  三轴半径平均约6.3公里，平均直径约12.6公里；NASA任务页写三轴尺寸15×12×11公里，最长径约15.6公里，最短径约10.2公里。12公里是常用取整值，不是最长径。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
     - 打开NASA火星事实表与NASA火卫二页面，核对三轴半径、平均口径与轨道周期。
     - 明确12公里是常用平均口径，不把最长径15.6公里或最短径10.2公里混为一谈。
-    - '2026-11-07 来源可访问性核对：全部来源页返回可用响应（https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html；https://science.nasa.gov/mars/moons/deimos/），数值口径与正文一致。'
+    - >-
+      2026-11-07
+      来源可访问性核对：全部来源页返回可用响应（https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html；https://science.nasa.gov/mars/moons/deimos/），数值口径与正文一致。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -72,3 +81,12 @@ NASA火星事实表列火卫二三轴半径分别为7.8、6.0、5.1公里，取�
 ## 与其他尺度的关系
 
 12公里约为火卫一平均直径22.3公里的0.54倍，约为月球直径3474.8公里的0.35%，约为火星直径6779公里的0.18%。[1][2] 它约为贝努小行星490米的24倍，却只有地球直径12742公里的约千分之一，属于典型的小卫星尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 12000 米，换算后是 12 千米；约 9.42×10⁻⁴ 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁴ 量级附近。
+
+读图时先看量级，再看倍数：10⁴ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -5,7 +5,7 @@ summary: >-
   子弹星系团（1E 0657-56）是两个星系团正在并合的系统，总质量约 3.0×10⁴⁵ kg，折合约 1.5×10¹⁵
   个太阳质量，口径包含暗物质。数值由引力透镜与 X 射线气体联合给出，相对不确定度约 30%。
 dimension: mass
-category: 星系团
+category: 星系与宇宙
 displayValue: 3.0×10⁴⁵ kg
 quantity:
   value: 3e+45
@@ -80,6 +80,7 @@ visual:
   color: '#a6bfff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Bullet Cluster
 ---
 ## 这个读数是什么
 

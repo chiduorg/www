@@ -18,6 +18,7 @@ related:
   - space.basketball
   - space.hand
   - space.tennis-racket
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Yankees' new 'Torpedo' bats create a stir
@@ -28,6 +29,10 @@ sources:
     url: 'https://img.mlbstatic.com/mlb-images/image/upload/mlb/wqn5ah4c3qtivwx3jatm.pdf'
     publisher: Major League Baseball
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为成人木制棒球棒；测量口径为棒尾到棒头的整体长度，不含握把胶带缠绕后的额外厚度。
 uncertainty: >-
@@ -74,3 +79,7 @@ MLB 的报道在解释球棒规则时写明：球棒长度不得超过 42 英寸
 ## 与其他尺度的关系
 
 1.067 米约为成年人手长 19 厘米的 5.6 倍，也约为 A4 纸长边 29.7 厘米的 3.6 倍。它与一把约 1 米展开直径的雨伞相近，约为 2 米高门的一半。与一把约 30 厘米长的锤子相比，棒球棒长度约为其 3.6 倍。与 68 厘米长的网球拍相比，棒球棒长约 0.39 米。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.6 纳秒，在时间轴上量级接近「原子跃迁」。[3]

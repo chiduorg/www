@@ -18,6 +18,7 @@ related:
   - space.rose
   - space.butterfly
   - space.moss
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: 'Helianthus annuus L'
@@ -28,6 +29,10 @@ sources:
     url: 'https://prosea.prota4u.org/view.aspx?id=833'
     publisher: PROSEA Foundation
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为栽培向日葵 Helianthus annuus；量地面到主茎顶端的垂直高度，不含花盘向下弯垂的弧长、根系深度和花盘直径；2 m 取在常见栽培株高范围内。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 2 m 约为玫瑰株高（1 m）的两倍，约为人类身高（1.7 m）的 1.2 倍，也约为向日葵花盘直径（15 cm）的 13 倍。它和标准门高（2.03 m）几乎相当。在尺度轴上，它处在高草本位置，向上是仙人掌和银杏，向下是苔藓和地衣。2 m 约为篮球直径（24 cm）的八倍多，也约为巨杉高度（95 m）的四十七分之一。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

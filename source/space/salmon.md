@@ -13,12 +13,12 @@ quantity:
   approximate: true
 displayValue: 约 1 m（大西洋鲑体长参照）
 related:
+  - time.atomic-transition
   - space.tuna
   - space.cod
   - space.swordfish
   - space.penguin
   - space.shark
-  - space.coelacanth
 reviewStatus: reviewed
 sources:
   - title: Atlantic Salmon
@@ -29,6 +29,10 @@ sources:
     url: 'https://iepnb.gob.es/en/areas-tematicas/especies-silvestres/eidos/12142/salmo-salar-linnaeus-1758'
     publisher: Inventario Español del Patrimonio Natural y de la Biodiversidad (MITECO)
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为大西洋鲑（Salmo salar）；量吻端到尾鳍末端的体长，不是叉长、体重或只量躯干；1 m取在NOAA美国种群上限约76 cm与全球上限1.5 m之间，是大型成体参照。
 uncertainty: >-
@@ -77,3 +81,7 @@ NOAA Fisheries的大西洋鲑页面给出美国种群的简短数据：体长可
 ## 与其他尺度的关系
 
 1米约为0.6个1.7米高的人，比1.5米长的大西洋鳕短0.5米，约为3米蓝鳍金枪鱼体长的三分之一，比0.3米变色龙的全长长3.3倍。[1][2] 在尺度轴上，它处在“一米级”动物的中段：向上是鳕和金枪鱼，向下是变色龙和蜂鸟。用吻端到尾鳍末端的体长，才能把它与用全长、翼展描述的动物区分开。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

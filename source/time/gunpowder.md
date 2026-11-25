@@ -17,6 +17,8 @@ related:
   - time.renaissance
   - time.age-of-discovery
   - time.industrial-revolution
+  - space.human
+  - temperature.rocket_plume
 reviewStatus: reviewed
 sources:
   - title: gunpowder
@@ -27,6 +29,14 @@ sources:
     publisher: Clemson University Open Textbooks
     url: 'https://opentextbooks.clemson.edu/sciencetechnologyandsociety/chapter/gunpowder-in-medieval-china/'
     accessed: '2026-11-07'
+  - title: "The Middle Ages, an introduction"
+    url: "https://smarthistory.org/introduction-to-the-middle-ages/"
+    publisher: "Smarthistory"
+    accessed: '2026-11-24'
+  - title: "Climate and the collection"
+    url: "https://blog.sciencemuseumgroup.org.uk/climate-and-the-collection/"
+    publisher: "Science Museum Group"
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -83,3 +93,23 @@ Britannica 的火药条目给出黑火药的成分、配比与燃烧产物，并
 ## 与其他阶段的关系
 
 火药处在中世纪条目约公元500年之后、文艺复兴条目约1400年之前的技术积累段。[2] 它改变了攻城与海战，后来与地理大发现和工业革命的火器、采矿需求相连；工业革命条目约在250年前。与蒸汽机以煤为动力不同，火药把化学能直接转为爆轰和推进。
+
+## 黑火药是“低爆速”炸药
+
+黑火药燃烧时产生大量气体与热，但爆速远低于现代高爆炸药；它更适合推进与爆破，而不是形成超音速冲击波。[1] 配比改变会同时改变燃速、残留物与安全性。把黑火药与 TNT 当成同类，会高估它的破坏方式，也忽略它在火器发展中的推进作用。
+
+## 五轴对照
+
+在时间轴，火药配方约公元 850 年；在空间轴，它把抛射物送出战场的距离；在温度轴，燃烧温度足以熔化某些金属；在质量轴，相同质量的火药释放的化学能远低于核燃料。化学能、推进与爆炸效应不能只看一个温度。[1][2]
+
+## 黑火药不是现代炸药
+
+黑火药由硝石、硫黄与木炭组成，爆速约数百米每秒，远低于 TNT 的约 6,900 米每秒；它更像快速燃烧的推进剂，而非高爆药。配方比例在不同地区与用途中变化，硝石纯度决定能否稳定点火。正文的“火药配方”是早期文献与考古的综合，不是一条固定化学式。[1][S2]
+
+## 读数的口径与换算
+
+本条采用的量是 约公元850年 · 距今约1176年 · t ≈ 138 亿年，口径是 time-after-big-bang-derived-historical-reference。时间轴上的年份是地层、文献或模型给出的坐标，误差从几十年到几十万年不等；分期边界不是一条绝对精确的线。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [3]（Smarthistory）、[4]（Science Museum Group） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

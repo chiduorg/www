@@ -31,6 +31,10 @@ sources:
     url: 'https://www.britannica.com/place/Mars-planet'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: mars-surface
   icon: "\U0001F534"
@@ -95,3 +99,5 @@ conceptGroup: mars
 ## 与其他温区的关系
 
 208 K 低于水的 273.15 K 冰点，也低于地球的典型地表温度，但高于冥王星的 24–55 K 表面温区。[1][2] 在太阳系行星表面温区的比较中，火星属于偏冷的一侧；同一颗火星上，184 K 的夜间低值与 242 K 的白天高值都围绕平均值分布，比较时不能只取一个端点。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

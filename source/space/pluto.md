@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: '2,376 km（体积等效平均直径）'
 related:
+  - mass.pluto
+  - mass.earth
   - space.neptune
   - space.kuiper-belt
   - space.earth
   - space.moon_diameter
-  - space.solar-system
-  - space.haumea
 reviewStatus: reviewed
 sources:
   - title: Pluto Fact Sheet
@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Pluto-dwarf-planet'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: '对象为冥王星固体表面；采用平均半径1,188公里加倍；不含稀薄大气，也不把卫星卡戎计入冥王星本体。'
 uncertainty: '1,188公里乘二得2,376公里；NASA事实表列赤道、极和体积平均半径均为1,188公里，扁率显示为零，实际形状差异在测量精度以内。'
 review:
@@ -40,12 +44,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "冥王星 · 矮行星"
-  note: "球体、心形亮区纹理和光照为示意，非按比例，非观测重建；不复现真实表面细节与当日相位。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 冥王星 · 矮行星
+  note: 球体、心形亮区纹理和光照为示意，非按比例，非观测重建；不复现真实表面细节与当日相位。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -73,3 +77,5 @@ NASA事实表列出赤道半径、极半径和体积平均半径均为1,188公�
 ## 与其他尺度的关系
 
 2,376公里约为月球直径3,474公里的0.68倍，约为水星4,879公里的一半，但约为谷神星940公里的2.5倍。[1][2] 它比木卫三5,268公里小一半多。冥王星轨道半长轴约39.48 au，与它的身体尺寸相差七个数量级以上。[2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -23,6 +23,7 @@ related:
   - temperature.hii-region
   - temperature.coldest-brown-dwarf
   - temperature.cmb
+  - space.cmb-surface
 reviewStatus: reviewed
 sources:
   - title: Molecular cloud
@@ -33,6 +34,10 @@ sources:
     url: 'https://arxiv.org/pdf/1210.6990'
     publisher: 'N. Z. Scoville, Caltech (arXiv:1210.6990)'
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为银河系分子云及其致密云核；10 K 指气体动理学温度，常由 CO 等分子的转动谱线激发或尘埃连续谱推断。
   分子云内部存在密度与温度梯度，受热区、激波区和原恒星附近会明显更暖。
@@ -79,3 +84,5 @@ tags:
 ## 与更热或更冷的环境比较
 
 分子云比冷中性星际介质的约 100 K 更冷，但比宇宙微波背景的约 2.7 K 暖得多。[1] 一旦附近出现大质量原恒星，紫外辐射和激波会把局部加热到数千甚至上万开尔文，进入电离氢区或更热的环境。10 K 描述的是安静分子云的主体，不是恒星形成全过程。[2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

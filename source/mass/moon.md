@@ -5,7 +5,7 @@ summary: >-
   月球是地球唯一的天然卫星，总质量约 7.346×10²² kg，约为地球的八十一分之一。激光测月与月球轨道器跟踪给出的相对不确定度约
   0.01%，是天体质量中测得最准的几个之一。
 dimension: mass
-category: 卫星
+category: 行星与小天体
 displayValue: 7.346×10²² kg
 quantity:
   value: 7.346e+22
@@ -25,6 +25,7 @@ related:
   - space.moon
   - mass.mercury
   - mass.pluto
+  - time.moon-age
 reviewStatus: reviewed
 review:
   method: source-check
@@ -53,6 +54,14 @@ sources:
     url: 'https://science.nasa.gov/'
     publisher: NASA
     accessed: '2026-11-09'
+  - title: "Early formation of the Moon 4.51 billion years ago"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5226643/"
+    publisher: "Science Advances (Barboni et al.), via PubMed Central"
+    accessed: '2026-11-24'
+  - title: "Age of the Earth"
+    url: "https://pubs.usgs.gov/gip/geotime/age.html"
+    publisher: "United States Geological Survey (USGS)"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 卫星
@@ -80,6 +89,7 @@ visual:
   color: '#8fc9d8'
   scaleMin: -40
   scaleMax: 53
+titleEn: Moon
 ---
 ## 这个读数是什么
 
@@ -97,6 +107,30 @@ visual:
 
 7.346×10²² kg 位于 B11 带中段，比冥王星重约五倍，比水星轻约 4.5 倍，比地球轻约八十一倍。[1] 在太阳系卫星里，它排在木卫三、土卫六、木卫四、木卫一之后，是第五大卫星。
 
+## 激光测月把误差压到厘米
+
+月球质量主要由轨道动力学给出，激光测月通过阿波罗与月球勘测轨道器留下的反射镜，测量地月距离到厘米级。质量与距离、轨道周期共同约束，误差约万分之一。正文的 7.346×10²² 千克是动力学质量，不是把月球放上秤。[1][S2]
+
 ## 怎么继续走
 
 想看它的母行星与地月系统，去 mass.earth 与 space.moon；想看更大的岩石行星，去 mass.mercury；想看同为冰质世界的矮行星，去 mass.pluto。
+
+## 为什么月球质量测得这么准
+
+月球质量主要不是靠“看大小”估出来的，而是靠轨道动力学：激光测月测量地球与月球反射器之间的距离变化，轨道器跟踪给出引力场系数，地月共同质心运动约束质量比。[2][3] 这些数据把月球质量压到约 0.01% 的相对不确定度，远优于大多数小天体。
+
+## 激光反射器怎样工作
+
+阿波罗 11、14、15 号以及月球号探测器在月面留下了角反射器阵列。地面站向这些反射器发射激光，测量往返时间，再换算成地月距离；多次测距还能得到月球轨道的细微变化。[2][3] 角反射器把入射光按原方向返回，使回波强度足以被探测。月球质量与地月距离的约束，正是从这类长期测距和轨道跟踪中来的。
+
+## 质量与重力不是一回事
+
+月球质量约 7.346×10²² 千克，表面重力却只有地球的约六分之一，因为重力还取决于半径。若只知道质量、不知道半径，就不能推出表面重力；反过来，仅凭重力也不能唯一确定质量。[1][2] 这也是行星科学里总把质量、半径和轨道参数一起报告的原因。
+
+## 五轴对照
+
+在质量轴，月球是 10²² 千克级卫星；在空间轴，它的直径约 3,475 公里；在时间轴，月球年龄与地月潮汐演化相关；在温度轴，月球表面昼夜温差极大。质量与直径一起决定表面重力，但不能用“看起来小”推断“质量小”。[1][2]
+
+## 延伸核对
+
+补充的来源 [4]（Science Advances (Barboni et al.), via PubMed Central）、[5]（United States Geological Survey (USGS)） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

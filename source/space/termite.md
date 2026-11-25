@@ -18,6 +18,7 @@ related:
   - space.beetle
   - space.rice-grain
   - space.mosquito
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Reticulitermes flavipes'
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/animal/termite'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为白蚁工蚁（worker caste），量头部前端到腹部末端的体长，不含触角；不是兵蚁、繁殖蚁或蚁巢、蚁丘的尺寸；5 mm 取在工蚁 5–6 mm 范围的下端。
 uncertainty: >-
@@ -74,3 +79,7 @@ ADW 对 Reticulitermes flavipes 的记录写明，工蚁呈乳白色，体长约
 ## 与其他尺度的关系
 
 5 毫米约等于一粒大米的长轴，约为常见蚊子体长的 1 倍、普通蚂蚁体长 6 毫米的 0.83 倍，也约为头发丝直径 0.1 毫米的五十倍。[1][2] 在尺度轴上，白蚁工蚁落在“毫米级”的中段：向下是尘螨、细菌和花粉，向上是米粒、蚊子与蚂蚁。把它与巢体分开，才能避免把建筑尺寸误当成动物尺寸。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.017 纳秒，在时间轴上量级接近「纳秒」。[3]

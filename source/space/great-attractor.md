@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: 约 1.39 × 10²⁴ m（约1.47亿光年，参考距离）
 related:
+  - mass.observable-universe
+  - temperature.cmb
   - space.laniakea
   - space.shapley-supercluster
   - space.virgo-supercluster
   - space.local-group
-  - space.cosmic-web
 reviewStatus: reviewed
 sources:
   - title: Great Attractor
@@ -29,6 +30,10 @@ sources:
     url: 'https://ssd.jpl.nasa.gov/astro_par.html'
     publisher: NASA / JPL Solar System Dynamics
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   本条量值取“参考距离”而非直径；Britannica估计其中心距地球约1.47亿光年，同时给出约3亿光年的直径。低红移下距离口径差异较小，但仍不能把距离与直径混用。
 uncertainty: 巨引源没有锐利边界，质量归属和本动速度模型仍有争议；1.47亿光年与1.5—2.5亿光年的文献范围不完全一致，3亿光年直径也只是估计。
@@ -44,12 +49,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "distance"
-  scene: "space.object"
-  caption: "巨引源 · 参考距离示意"
-  note: "视线方向、距离标尺与质量聚集区轮廓为示意，未按真实巡天数据绘制；范围只表示中心参考距离，不代表直径；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: distance
+  scene: space.object
+  caption: 巨引源 · 参考距离示意
+  note: 视线方向、距离标尺与质量聚集区轮廓为示意，未按真实巡天数据绘制；范围只表示中心参考距离，不代表直径；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:
@@ -75,3 +80,5 @@ tags:
 ## 与其他尺度的关系
 
 1.47亿光年约为室女座超星系团1亿光年跨度的1.5倍，约为沙普利超星系团1.2亿光年延伸范围的1.2倍，约为拉尼亚凯亚约5.2亿光年跨度的28%。[1] 它处在超星系团和更大尺度结构的交界处。与星系团相比，它的“直径”不是维里化系统的边界，而是由质量聚集和速度场推断出的区域。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

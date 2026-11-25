@@ -41,6 +41,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2173875/'
     publisher: Archives of Biochemistry and Biophysics / PubMed Central
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -84,3 +88,5 @@ tags:
 ## 与其他尺度的关系
 
 1毫秒约为一次眨眼（0.3秒）的三百分之一，约为一次心跳（0.8秒）的八百分之一，却比原子自发辐射寿命（约10⁻⁸秒）长十万倍。一个细胞周期内可连续完成数千万轮这样的折叠；分子尺度的快过程累积成细胞尺度的慢过程。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

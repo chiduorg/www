@@ -18,8 +18,8 @@ related:
   - space.coma-cluster
   - space.virgo-supercluster
   - space.boots-void
-  - space.local-void
-  - space.sloan-great-wall
+  - mass.total-matter-universe
+  - time.galaxy-formation
 reviewStatus: reviewed
 sources:
   - title: Void and Density Walls Inhomogeneous Cosmic Web and Dark Energy
@@ -30,6 +30,14 @@ sources:
     url: 'https://ssd.jpl.nasa.gov/astro_par.html'
     publisher: NASA / JPL Solar System Dynamics
     accessed: '2026-11-06'
+  - title: "Cluster Merger: Galaxy Clusters Caught in a First Kiss"
+    url: "https://chandra.si.edu/photo/2019/cluster_merge/"
+    publisher: "NASA / Chandra X-ray Center"
+    accessed: '2026-11-24'
+  - title: "Hubble's sweeping view of the Coma Galaxy Cluster"
+    url: "https://esahubble.org/news/heic0813/"
+    publisher: "ESA / Hubble"
+    accessed: '2026-11-24'
 conditions: 采用综述中“纤维典型长度50—100 Mpc”的中值75 Mpc；宇宙网没有单一外径，本页量值只代表典型纤维长度，不是整个网络的大小。
 uncertainty: 纤维长度随巡天、识别算法和红移范围变化；综述给出50—100 Mpc的范围，取75 Mpc只是中间概览，纤维直径另为2—5 Mpc，不能与长度混用。
 review:
@@ -73,3 +81,23 @@ tags:
 ## 与其他尺度的关系
 
 75 Mpc约为Coma团2000万光年直径的12倍，约为室女座超星系团1亿光年跨度的2.4倍，约为可观测宇宙930亿光年直径的0.26%。[1] 它连接星系团尺度与超星系团尺度，是宇宙网的基本组成单元。比较时要把纤维长度、纤维直径和空洞直径分别标明，不能都笼统称作“宇宙网的大小”。
+
+## 纤维、墙与空洞
+
+宇宙网不是只有纤维。星系沿纤维成串，纤维交汇处形成节点和星系团；纤维之间是空洞，空洞周围还可能有较薄的墙。[1] 纤维典型直径 2–5 Mpc、长度 50–100 Mpc；墙厚度约 5–10 Mpc；空洞直径可达数十 Mpc。把这些结构统称为“网线”，会抹掉密度和尺度的差别。
+
+## 红移巡天怎样画出三维图
+
+巡天先测星系红移，再用哈勃膨胀把红移换成距离，得到三维分布；红移空间畸变还会让结构沿视线方向看起来被拉伸。[1] 数值模拟从暗物质引力演化重现纤维与空洞，但模拟的分辨率和星系形成模型会影响小尺度细节。观测图与模拟图不是同一类证据。
+
+## 五轴对照
+
+在空间轴，典型纤维长约 75 Mpc；在质量轴，宇宙网的骨架由暗物质主导；在时间轴，结构随引力不稳定性逐渐长大；在温度轴，纤维内气体与星系团热气体温度不同。宇宙网是尺度结构，不是单一物体。[1][2]
+
+## 纤维与空洞是统计结构
+
+宇宙网的“纤维”和“空洞”不是像云一样有边的物体，而是星系密度场的统计特征：纤维是密度较高的连接带，空洞是低密度区。典型纤维长度数十到数百百万光年，空洞直径可达数百百万光年，但边界依赖平滑尺度。正文的尺度是相关长度，不是某个结构的实测直径。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（NASA / Chandra X-ray Center）、[4]（ESA / Hubble） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

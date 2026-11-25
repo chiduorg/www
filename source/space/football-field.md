@@ -30,6 +30,10 @@ sources:
       https://legal.fifa.com/innovation/stadium-guidelines/technical-guidelines/stadiums-guidelines/pitch-dimensions-and-surrounding-areas
     publisher: Fédération Internationale de Football Association
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: football-field
   icon: ⚽
@@ -85,3 +89,5 @@ tags:
 ## 与其他尺度的关系
 
 105米约为哈利法塔828米的八分之一，比金门大桥总长2737米短约26倍。与珠峰高程8848.86米相比，它约为后者的1.2%。放进城市尺度，它只是街区级长度，而不是城市直径。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

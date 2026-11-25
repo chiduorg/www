@@ -1,6 +1,6 @@
 ---
 id: time.black-death
-title: '黑死病高峰：14世纪欧洲的瘟疫大流行'
+title: 黑死病高峰：14世纪欧洲的瘟疫大流行
 titleEn: The Black Death
 dimension: cosmic-time
 category: 人类与文明
@@ -18,6 +18,7 @@ related:
   - time.origin-of-cities
   - time.columbus-voyage
   - time.covid-pandemic
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: Black Death
@@ -26,8 +27,17 @@ sources:
     accessed: '2026-11-07'
   - title: Origins of the Black Death identified
     publisher: Max-Planck-Gesellschaft
-    url: 'https://www.mpg.de/18778852/0607-evan-origins-of-the-black-death-identified-150495-x'
+    url: >-
+      https://www.mpg.de/18778852/0607-evan-origins-of-the-black-death-identified-150495-x
     accessed: '2026-11-07'
+  - title: 'The Middle Ages, an introduction'
+    url: 'https://smarthistory.org/introduction-to-the-middle-ages/'
+    publisher: Smarthistory
+    accessed: '2026-11-24'
+  - title: 小知识│何谓活字印刷术？
+    url: 'https://www.nlc.cn/pcab/zlyj/zlyj_djsh/20190418_177776.shtml'
+    publisher: 中国国家图书馆·国家古籍保护中心
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -48,7 +58,11 @@ review:
   notes:
     - 核对 Britannica《Black Death》，采用1347至1351年的流行时间与约2500万人死亡、病原体为鼠疫耶尔森菌的表述。
     - 核对马克斯·普朗克学会的病原体起源研究报道，采用欧洲流行约1346至1353年的范围。
-    - '2026-11-07 来源可访问性核对：https://www.mpg.de/18778852/0607-evan-origins-of-the-black-death-identified-150495-x 返回可用响应；https://www.britannica.com/event/Black-Death（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07
+      来源可访问性核对：https://www.mpg.de/18778852/0607-evan-origins-of-the-black-death-identified-150495-x
+      返回可用响应；https://www.britannica.com/event/Black-Death（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -83,3 +97,11 @@ tags:
 ## 与其他阶段的关系
 
 黑死病处在中世纪晚期，前接城市复兴与贸易扩张，后接文艺复兴、宗教改革和近代国家建设。它与哥伦布航行、印刷术传播同处一个半世纪多的时段，共同改变了欧洲的社会条件。[1][2] 在时间轴上，1350年标记的是一场急性灾难，而它引发的结构变化要慢得多。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Smarthistory）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（中国国家图书馆·国家古籍保护中心）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

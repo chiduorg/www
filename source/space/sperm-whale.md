@@ -15,6 +15,7 @@ related:
   - space.blue-whale
   - space.bottlenose-dolphin
   - space.human
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Sperm Whale
@@ -25,6 +26,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Physeter_catodon/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性抹香鲸（Physeter macrocephalus）；从吻端沿身体到尾鳍缺口量取；不含尾鳍叶片的弯曲与伸展，也不含背鳍高度。
 uncertainty: NOAA 给出雄性 52 英尺（约 15.8 m）、雌性 40 英尺（约 12.2 m）；ADW 给出雄性可达 19 m、雌性 12 m，幼鲸约 4 m。两处上限差约 3 m，19 m 属于历史记录或极大个体。本条取 16 m，接近 NOAA 的雄性上限，代表大型成年雄性而非平均个体。
 review:
@@ -69,3 +74,14 @@ NOAA Fisheries 的物种页列出雄性体长约 52 英尺（约 15.8 米）、�
 ## 与其他尺度的关系
 
 16 米的体长约为 30 米蓝鲸的一半，比 15 米座头鲸略长，是 8 米虎鲸的两倍，也是 1.7 米成年人的约 9.4 倍。[1][2] 它约为 30 米蓝鲸体长的一半，在鲸类中属于“十几米级”，向上是蓝鲸，向下是座头鲸、虎鲸与宽吻海豚。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 53.4 纳秒，在时间轴上量级接近「原子跃迁」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 16 米，换算后是 16 米；约 0.152 个足球场长度（105 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10¹ 量级附近。
+
+读图时先看量级，再看倍数：10¹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

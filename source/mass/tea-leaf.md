@@ -3,7 +3,7 @@ id: mass.tea-leaf
 title: 一片干茶叶：约 5×10⁻⁵ kg，单叶干重的均值
 summary: 一片成品干茶叶的单叶干重均值约 5×10⁻⁵ kg（50 mg），常见区间 0.02–0.08 g。芽头与小叶种偏轻，成熟叶偏重；条索卷得再紧也不改变干重。
 dimension: mass
-category: 植物叶片
+category: 自然与生物
 displayValue: 约 5×10⁻⁵ kg
 quantity:
   value: 0.00005
@@ -69,6 +69,7 @@ visual:
   color: '#c9a77a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Dried tea leaf
 ---
 ## 这个读数是什么
 

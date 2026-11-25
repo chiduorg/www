@@ -16,6 +16,7 @@ related:
   - space.ant
   - space.dust-mite
   - space.honeybee
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Drosophila melanogaster
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/animal/fruit-fly'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 体长为成虫头部前端到腹部末端的直线距离，不含翅膀展开的跨度和触角；以黑腹果蝇约3 mm为参照，不是所有果蝇科或实蝇科种类的定值。
 uncertainty: >-
   ADW记录黑腹果蝇体长约3 mm、宽约2
@@ -76,3 +81,7 @@ Animal Diversity Web 对黑腹果蝇的记录是体长约 3 毫米、宽约 2 �
 ## 与其他尺度的关系
 
 3 毫米的黑腹果蝇约为家蚊体长的三分之一到二分之一，比尘螨大，比蜜蜂小一个数量级。[1][2] 在尺度轴上，它靠近“毫米级”生物的下段：向上是蚊子、蚂蚁和蜜蜂，向下是花粉、细胞与细菌。正因为它小且易于饲养，才成为遗传学研究的模式生物。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.010 纳秒，在时间轴上量级接近「纳秒」。[3]

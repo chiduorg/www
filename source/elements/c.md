@@ -20,7 +20,11 @@ element:
   configuration: '[He] 2s2 2p2'
   valence: 2s2 2p2
   level: A
-related: [elements.li, elements.n, time.first-stars, elements.explain-configuration]
+related:
+  - elements.li
+  - elements.n
+  - time.first-stars
+  - elements.explain-configuration
 conditions: 标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。
 visual:
   scene: elements.shell-ladder
@@ -31,26 +35,42 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自 CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - >-
+      本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自
+      CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: 'PubChem Element Summary: Carbon'
-    url: https://pubchem.ncbi.nlm.nih.gov/element/6
+    url: 'https://pubchem.ncbi.nlm.nih.gov/element/6'
     publisher: U.S. National Library of Medicine
     accessed: '2026-11-09'
   - title: 'Periodic Table: Carbon'
-    url: https://www.rsc.org/periodic-table/element/6/carbon
+    url: 'https://www.rsc.org/periodic-table/element/6/carbon'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
   - title: NIST Atomic Spectra Database
-    url: https://physics.nist.gov/asd
+    url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-09'
-tags: [元素, 第二周期, p 区, 碳]
+  - title: >-
+      Deep-water first occurrences of Ediacara biota prior to the Shuram carbon
+      isotope excursion
+    url: >-
+      https://www.usgs.gov/publications/deep-water-first-occurrences-ediacara-biota-prior-shuram-carbon-isotope-excursion
+    publisher: USGS / Geobiology
+    accessed: '2026-11-24'
+tags:
+  - 元素
+  - 第二周期
+  - p 区
+  - 碳
 rights:
   status: rewritten
-  note: "依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。"
+  note: 依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。
 ---
 ## 第 6 个质子把电子放进了哪里
 
@@ -78,3 +98,16 @@ rights:
 ## 怎么继续走
 
 往回看是硼，它不在本批 A 级条目里；再往回是锂，展示了 2s 如何接棒。往前一步是氮，2p 将从 2 个电子走到 3 个。想看 2s 与 2p 如何混合成四根键、为什么碳能形成那么多同素异形体，去电子排布解释页（/entry/elements/explain-configuration/）。时间轴上，time.first-stars 解释碳为什么必须等第一代恒星。
+
+
+## 这个数值的误差账本
+
+碳的原子序数 Z=6，原子量约 12.011，是 ¹²C 与 ¹³C 等丰度加权值。¹²C 恰好是原子质量单位 u 的定义基准，因此它的原子质量定义为 12 u；但碳的原子量不是 12，因为还有同位素。把“碳=12”当成原子量，会忽略丰度。
+
+## 换一个尺度看它
+
+碳是生命的骨架，也是钢、塑料、钻石与石墨的共同元素。金刚石与石墨都是碳的同素异形体，硬度与导电性差异来自键合方式，而不是元素身份。碳循环把大气、海洋、生物与岩石连接起来，是理解气候与能源的关键。
+
+## 延伸核对
+
+碳的同位素记录常用于环境与地质过程；本条只讨论元素身份与价态，不把同位素异常当成元素定义的一部分。[4]

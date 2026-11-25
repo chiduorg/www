@@ -36,6 +36,10 @@ sources:
     url: 'https://www.britannica.com/science/nucleosynthesis'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 conditions: 过程页；时间锚点为 time.agb-phase，本页不重复秒数。
 visual:
   scene: elements.explain
@@ -68,3 +72,5 @@ s 过程不负责铁峰以上的全部重元素，r 过程贡献了相当一部�
 ## 与其他阶段的关系
 
 s 过程与 r 过程互补，共同塑造太阳系重元素丰度，也为锕系元素的天然库存提供部分种子。[2] 它向上接恒星核合成与 AGB 星风，向下接行星与生命的重元素供应链。元素轴的锶、钡、铅页都把来源指向这里，而铕、金、铀页则指向中子星并合。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

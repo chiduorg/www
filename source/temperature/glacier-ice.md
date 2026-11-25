@@ -15,11 +15,12 @@ quantity:
   measureLabel: 冷冰川冰体温度参考
 displayValue: 约 260 K（−13 ℃）
 related:
+  - space.antarctic-ice-thickness
+  - mass.water-molecule
   - temperature.ice-sheet
   - temperature.permafrost
   - temperature.sea-ice
   - temperature.water-freezing
-  - temperature.antarctic_min_temp
 reviewStatus: reviewed
 sources:
   - title: 'Glaciers: Things to Know'
@@ -34,6 +35,10 @@ sources:
     url: 'https://www.cambridge.org/core/product/7172D10A493C2EEACE3F529FC12F2CAB'
     publisher: Journal of Glaciology / Cambridge University Press
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 冰川冰体，含气泡、积雪与杂质
   depth: 10–200 m 深度参考，接近底部时受压力与地热影响
@@ -84,3 +89,5 @@ tags:
 ## 与其他温区的关系
 
 260 K 低于水的冰点 273.15 K，与冰盖表面的约 250 K 相近，却高于南极极端低温。它高于液氮的 77 K，也高于干冰的约 195 K，说明冰川冰仍是相对“温暖”的低温固体。冰川冰温连接着表面气候与底部融水：当深部接近压熔点时，底部可能出现液态水，进而影响冰川滑动和冰下水系。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

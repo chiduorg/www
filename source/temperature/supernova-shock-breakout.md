@@ -4,8 +4,7 @@ title: 超新星激波突破温度
 titleEn: Supernova shock breakout temperature
 dimension: temperature
 category: 恒星与宇宙极端
-summary: >-
-  超新星激波到达恒星表面并突破时，后激波气体可被加热到约 10⁹ K 量级，辐射随后迅速逃逸。这是激波突破瞬间的气体温度，不是持续可见的光球温度。
+summary: 超新星激波到达恒星表面并突破时，后激波气体可被加热到约 10⁹ K 量级，辐射随后迅速逃逸。这是激波突破瞬间的气体温度，不是持续可见的光球温度。
 quantity:
   value: 1000000000
   unit: K
@@ -18,25 +17,31 @@ related:
   - temperature.supernova-remnant
   - temperature.type-ia-supernova
   - temperature.gamma-ray-burst
+  - space.sun
+  - mass.sun
 reviewStatus: reviewed
 sources:
   - title: X- and Gamma-Ray Flashes from Type Ia Supernovae?
     url: 'https://arxiv.org/abs/0909.1357'
-    publisher: Höflich & Schaefer, ApJ 705 (2009)
+    publisher: 'Höflich & Schaefer, ApJ 705 (2009)'
     accessed: '2026-11-07'
-  - title: 'Type IIP SN 2024bch: Hydrodynamic Model, Shock Breakout, and Circumstellar Interaction'
+  - title: >-
+      Type IIP SN 2024bch: Hydrodynamic Model, Shock Breakout, and Circumstellar
+      Interaction
     url: 'https://arxiv.org/abs/2512.01552'
-    publisher: Utrobin & Chugai, arXiv (2025)
+    publisher: 'Utrobin & Chugai, arXiv (2025)'
     accessed: '2026-11-07'
-conditions: >-
-  对象为激波刚到达并突破恒星外层时、激波后方的受热气体；取爆发后数小时内的短暂时段；10⁹ K 为取整量级，对应约 86 keV。
-uncertainty: >-
-  实际温度随前身星半径、包层密度、激波速度和爆炸能量变化；不同超新星模型给出约 10⁸–10⁹ K 甚至更高的峰值，不能当作精确测温。
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
+conditions: 对象为激波刚到达并突破恒星外层时、激波后方的受热气体；取爆发后数小时内的短暂时段；10⁹ K 为取整量级，对应约 86 keV。
+uncertainty: 实际温度随前身星半径、包层密度、激波速度和爆炸能量变化；不同超新星模型给出约 10⁸–10⁹ K 甚至更高的峰值，不能当作精确测温。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 来源复核：两条来源本地直连可访问；写作阶段已逐条用 WebFetch 打开核对数值。'
+    - 2026-11-07 来源复核：两条来源本地直连可访问；写作阶段已逐条用 WebFetch 打开核对数值。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -73,3 +78,5 @@ tags:
 ## 与其他尺度的关系
 
 10⁹ K 与 Ia 型爆燃火焰的约 10⁹ K 同量级，但一个是激波加热气体，一个是白矮星内部燃烧波。它高于太阳核心约 1.57×10⁷ K，低于核心坍缩中微子球的 10¹¹ K，也低于夸克胶子等离子体的 5×10¹² K。与超新星遗迹约 10⁶ K 相比，高约三个数量级；比较时应区分“突破瞬间”和“遗迹长期冷却”。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

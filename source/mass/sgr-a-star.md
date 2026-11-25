@@ -5,7 +5,7 @@ summary: >-
   人马座 A* 是银河系中心的超大质量黑洞，质量约 8.55×10³⁶ kg，折合 4.297×10⁶ 个太阳质量。数值由银心 S
   星轨道拟合得出，GRAVITY 干涉测量把相对不确定度压到约 0.3%。
 dimension: mass
-category: 黑洞
+category: 恒星与致密天体
 displayValue: 8.55×10³⁶ kg
 quantity:
   value: 8.55e+36
@@ -24,6 +24,9 @@ related:
   - mass.gcirs-13e
   - mass.m87-black-hole
   - space.sagittarius-a-star
+  - temperature.black-hole-accretion-disk
+  - time.present
+  - mass.milky-way
 reviewStatus: reviewed
 review:
   method: source-check
@@ -52,6 +55,14 @@ sources:
     url: 'https://www.esa.int/'
     publisher: European Space Agency
     accessed: '2026-11-09'
+  - title: "NASA/IPAC Extragalactic Database"
+    url: "https://ned.ipac.caltech.edu/"
+    publisher: "NASA/IPAC"
+    accessed: '2026-11-24'
+  - title: "black hole"
+    url: "https://www.britannica.com/science/black-hole"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 黑洞
@@ -79,6 +90,7 @@ visual:
   color: '#ff9a4a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Sagittarius A*
 ---
 ## 这个读数是什么
 
@@ -96,6 +108,26 @@ GRAVITY 干涉仪把 S2 等恒星的位置测到几十微角秒，配合径向�
 
 8.55×10³⁶ kg 位于 B14 带中段，比 GCIRS 13E 这类候选重约三千倍，比 M87* 轻约一千五百倍。[1] 它对应的事件视界半径约一千二百万千米，远小于水星轨道。对银河系而言，这颗黑洞只占极小份额，却决定了银心几十光年内的恒星运动。把太阳质量当作单位，它相当于四百多万颗太阳，却仍只占银河系恒星总质量的很小一部分。
 
+## 黑洞质量是时空参数
+
+人马座 A* 的质量描述视界外引力场强度，不是把黑洞内部物质逐块称重。观测只能通过恒星轨道、气体运动或阴影大小推断这个参数。把黑洞质量当成“它吃掉了多少千克物质”，会混淆参数与历史。[1][S2]
+
+人马座 A* 的质量还依赖银心距离：距离若从 8.2 千秒差距改到 8.0 千秒差距，质量估计会按比例变化。轨道拟合同时给出距离与质量，两者相关，不能只引用质量而忽略距离。
+
+人马座 A* 质量还可以用恒星轨道的近星点进动检验：广义相对论修正与暗物质分布都会影响轨道，质量与距离必须联合拟合。
+
 ## 怎么继续走
 
 想看同一条质量轴上更小的中等质量候选，去 mass.gcirs-13e；想看 EHT 拍到阴影的 M87*，去 mass.m87-black-hole；想看银心这个天体本身的图景，去 space.sagittarius-a-star。从候选到确认再到成像，这三步正好展示了黑洞质量测量的三种精度层级，也让数字背后的方法差异一目了然。
+
+## 黑洞质量不是“物质质量”
+
+人马座 A* 的质量是时空参数，描述视界外引力场的强度，不是把黑洞内部的物质逐块称重。[1] 观测只能通过恒星轨道、气体运动或阴影大小推断这个参数。把黑洞质量当成“它吃掉了多少千克物质”，会混淆参数与历史。
+
+## 五轴对照
+
+在质量轴，人马座 A* 约 4.3×10⁶ 太阳质量；在空间轴，视界半径约 1,200 万公里；在时间轴，它持续吸积与喷发；在温度轴，吸积盘可达高温。质量、尺度与吸积状态共同决定它是否可见。[1][2]
+
+## 延伸核对
+
+补充的来源 [4]（NASA/IPAC）、[5]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

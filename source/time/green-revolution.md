@@ -19,6 +19,7 @@ related:
   - time.industrial-revolution
   - time.antibiotics
   - time.origin-of-cities
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: Green Revolution
@@ -32,6 +33,10 @@ sources:
     url: >-
       https://openknowledge.fao.org/server/api/core/bitstreams/6e4df55d-52d3-4903-a7a4-dd00cf8dc43a/content/y5160e08.htm
     accessed: '2026-11-06'
+  - title: The Origins of Agriculture in the Near East
+    url: 'https://profiles.si.edu/display/sro_109973'
+    publisher: Smithsonian / Current Anthropology
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -89,3 +94,7 @@ FAO 的报告强调，这些半矮秆品种主要由公共部门培育，种质�
 ## 代价与后续
 
 增产降低了部分地区的饥荒风险，也带来化肥、农药过量、地下水枯竭、土壤退化与生物多样性下降等问题；小农能否负担投入同样关键。博洛格本人在1970年诺奖演说中称，绿色革命只是“朝正确方向的变化”，并未把世界变成乌托邦。[1][2] 这些争议延续到今天的粮食安全与农业技术讨论中。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Smithsonian / Current Anthropology）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

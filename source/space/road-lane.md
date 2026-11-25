@@ -16,6 +16,7 @@ related:
   - space.bicycle
   - space.football-field
   - space.human
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: 'Design Bulletin #43/2007 — Painted Lane Width for Alberta Highways'
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.cityservices.act.gov.au/__data/assets/pdf_file/0009/396891/DS13_Pedestrian_and_Cycle_Facilities.pdf'
     publisher: ACT Government, City Services
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为常规机动车道；测量口径为一条车道两侧边线之间的横向宽度，不含路肩、中央分隔带与非机动车道；不适用于停车位、收费站车道或临时施工便道。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 3.5 米约等于 1.7 扇标准门高，也约为两辆自行车 1.8 米长度之和。[1][2] 两辆 1.8 米宽的轿车并排需要 3.6 米，已超过 3.5 米，因此车道内不能长期并排行驶。与标准泳池 50 米相比，车道宽度约为其 7%。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 11.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

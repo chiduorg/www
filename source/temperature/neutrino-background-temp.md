@@ -28,6 +28,10 @@ sources:
     url: 'https://arxiv.org/abs/1803.11545'
     publisher: 'Martina Gerbino, NuPhys2017 review'
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: neutrino-background-temp
   icon: "\U0001F47B"
@@ -88,3 +92,5 @@ tags:
 ## 与其他温区的关系
 
 1.95 K 低于宇宙微波背景的 2.725 K，但两者都是宇宙背景辐射的温标，不是局部物质温度。它高于绝对零度，低于液氢约 20.3 K。与恒星表面、白矮星表面和超新星核心相比，它低了很多个数量级。把 CMB 与中微子背景放在一起比较时，要注意它们来自同一段早期热史，却在退耦之后各自演化。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -36,6 +36,10 @@ sources:
     url: 'https://ligo.org/detections/gw170817/'
     publisher: LIGO Scientific Collaboration
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 conditions: 过程页；时间锚点为 time.neutron-star-merger，本页不重复秒数。
 visual:
   scene: elements.explain
@@ -68,3 +72,5 @@ r 过程挂在中子星并合节点上，但并合不是一次性事件：双中
 ## 与其他阶段的关系
 
 r 过程与 s 过程互补：s 过程沿稳定线慢爬，r 过程绕到稳定线外侧再回来。[2] 两者共同解释太阳系重元素丰度，并为锕系元素提供天然库存。元素轴的铕、金、铂、铀、钍页都指向这里，而锶、钡、铅页指向 AGB 星的 s 过程。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

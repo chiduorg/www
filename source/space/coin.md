@@ -28,6 +28,10 @@ sources:
       https://www.scio.gov.cn/xwfb/bwxwfb/gbwfbh/rmyx/202207/t20220715_213469.html
     publisher: 国务院新闻办公室（来源：人民银行网站）
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: coin
   icon: "\U0001FA99"
@@ -82,3 +86,5 @@ tags:
 ## 与其他尺度的关系
 
 22.25毫米的硬币直径比5毫米的米粒大，比100微米的发丝宽得多，也比20厘米的人手小一个数量级。[1] 它适合作为“厘米级日常物体”的参照：四枚硬币并排约8.9厘米，接近手掌宽度的一部分。向上是手、人脸和人体，向下是米粒、沙粒、尘螨与细胞。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

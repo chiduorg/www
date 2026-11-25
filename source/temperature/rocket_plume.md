@@ -18,8 +18,9 @@ related:
   - temperature.fusion-reactor-plasma
   - temperature.liquid-hydrogen
   - temperature.tungsten-melting
-  - temperature.oxyacetylene-flame
   - temperature.reentry-plasma
+  - space.solar-system
+  - time.space-age
 reviewStatus: reviewed
 sources:
   - title: 'Aerospace Castings: RS-25 combustion chamber'
@@ -35,6 +36,14 @@ sources:
       https://www.nasa.gov/centers/stennis/news/newsreleases/2005/MBO-05-143.html
     publisher: NASA Stennis Space Center
     accessed: '2026-11-06'
+  - title: "ITER Facts and Figures: plasma temperature design"
+    url: "https://www.iter.org/facts-figures"
+    publisher: "ITER Organization"
+    accessed: '2026-11-24'
+  - title: "About Cryogenics: normal boiling points"
+    url: "https://www.nist.gov/mml/acmd/cryogenic-technologies-project/about-cryogenics"
+    publisher: "NIST"
+    accessed: '2026-11-24'
 legacy:
   id: rocket_plume
   icon: "\U0001F680"
@@ -94,3 +103,23 @@ NASA 的 RS-25 资料把主燃烧室温度描述为约 6,000 °F；NASA 图像�
 ## 与其他温区的关系
 
 3,589 K 高于纯铁熔点 1,811 K，也高于氧乙炔火焰的约 3,473 K，但低于钨熔点 3,687 K；这解释了燃烧室内衬为何需要耐高温合金和再生冷却。[1][3] 它仍远低于太阳表面 5,772 K 和聚变等离子体的上亿开尔文。
+
+## 燃烧室与尾焰不是同一个温度
+
+RS-25 燃烧室燃气约 3,600 K，但喷管膨胀把热能转为高速气流，出口静温显著下降；尾焰与空气混合后还会继续降温。[1][2] 把燃烧室温度当成整片尾焰温度，会高估尾焰的热负荷。发动机壁面靠再生冷却保护，也远低于燃气温度。
+
+## 五轴对照
+
+在温度轴，燃烧室约 3,600 K；在空间轴，喷管把燃气加速到高速；在质量轴，推进剂流量决定推力；在时间轴，试车点火持续数百秒。温度、压力与流量共同决定发动机性能。[1][2]
+
+## 燃烧室与尾焰不是同一个温度
+
+RS-25 燃烧室燃气约 3,600 K，但喷管膨胀把热能转为高速气流，出口静温显著下降；尾焰与空气混合后还会继续降温。把燃烧室温度当成整片尾焰温度，会高估尾焰热负荷。发动机壁面靠再生冷却保护，也远低于燃气温度。[1][S2]
+
+## 读数的口径与换算
+
+本条采用的量是 约 3,600 K（6,000 °F量级），口径是 RS-25燃烧室高温量级参考。温度是强度量，读数依赖温标、测点与热平衡；同一对象的不同部位、不同时刻可以有不同温度。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（ITER Organization）、[5]（NIST） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

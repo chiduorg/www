@@ -5,7 +5,7 @@ summary: >-
   哈勃体积指以哈勃半径 c/H₀ 为半径的球，其内按临界密度折算的总质量约 8.8×10⁵²
   kg。这个口径包含暗能量的能量当量，不是普通物质质量，也不等于可观测宇宙内的物质总量。
 dimension: mass
-category: 宇宙尺度
+category: 星系与宇宙
 displayValue: 8.8×10⁵² kg
 quantity:
   value: 8.8e+52
@@ -26,6 +26,8 @@ related:
   - mass.observable-universe
   - mass.dark-matter-mass
   - mass.total-matter-universe
+  - space.milky-way
+  - temperature.cmb
 reviewStatus: reviewed
 review:
   method: source-check
@@ -43,7 +45,7 @@ review:
       字段保留。
 sources:
   - title: ESA Planck
-    url: 'https://www.esa.int/Science_Exploration/Space_Science/Planck'
+    url: 'https://sci.esa.int/web/planck'
     publisher: European Space Agency
     accessed: '2026-11-09'
   - title: NASA Science
@@ -82,6 +84,7 @@ visual:
   color: '#c9d8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Critical mass in the Hubble volume
 ---
 ## 这个读数是什么
 

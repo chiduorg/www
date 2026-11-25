@@ -13,12 +13,12 @@ quantity:
   approximate: true
 displayValue: 0.6 m（小提琴琴身总长）
 related:
+  - time.nanosecond
   - space.guitar
   - space.cello
   - space.piano
   - space.human
   - space.hand
-  - space.flute
 reviewStatus: reviewed
 sources:
   - title: Violin — German, 19th century
@@ -29,6 +29,10 @@ sources:
     url: 'https://www.metmuseum.org/art/collection/search/504299'
     publisher: The Metropolitan Museum of Art
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为全尺寸（4/4）小提琴；测量口径为琴头最前端到琴尾最后端的纵向总长，包含琴身、琴颈与琴头，不含琴弓、肩托和琴盒。
 uncertainty: >-
@@ -75,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 0.6 米约等于 3 个 0.2 米的全手长度，也约等于 0.33 辆 1.8 米自行车。与 1.5 米的三角钢琴相比，小提琴约为其 40%；与 4.5 米家用轿车相比约为其 13%。它还是 2.032 米标准门高的约 30%，琴盒长度通常还要再长几厘米。把小提琴与 1.2 米大提琴并排，小提琴约到大提琴的一半高度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.0 纳秒，在时间轴上量级接近「纳秒」。[3]

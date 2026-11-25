@@ -49,6 +49,10 @@ sources:
     url: 'https://www.britannica.com/place/Andromeda-Galaxy'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Cosmic Distance Scale — The Local Group
+    url: 'https://imagine.gsfc.nasa.gov/features/cosmic/local_group_info.html'
+    publisher: NASA / GSFC / HEASARC
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -63,11 +67,11 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "future-arc"
-  scene: "time.object"
-  caption: "银河-仙女座碰撞 · 两座旋涡星系并合示意"
-  note: "星系盘、潮汐尾与并合形态为风格化示意，非按比例、非观测重建；颜色、光线与尺寸独立归一化，不能作为时间比例尺。"
-  color: "#8aa8c4"
+  template: future-arc
+  scene: time.object
+  caption: 银河-仙女座碰撞 · 两座旋涡星系并合示意
+  note: 星系盘、潮汐尾与并合形态为风格化示意，非按比例、非观测重建；颜色、光线与尺寸独立归一化，不能作为时间比例尺。
+  color: '#8aa8c4'
 mode: 未来
 tags:
   - 现在与未来
@@ -93,3 +97,7 @@ tags:
 ## 与其他尺度的关系
 
 这次接近略早于太阳红巨星阶段（约50亿年后），但远早于最后一代恒星（约10^14年后）。[1] 它发生在太阳仍处于主序的阶段，因此地球上若有观测者，看到的将是仙女座在夜空中逐渐变大。把星系并合与恒星演化放在同一时间轴上，能看清不同过程各自的主导机制。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（NASA / GSFC / HEASARC）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

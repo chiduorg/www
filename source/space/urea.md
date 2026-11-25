@@ -18,6 +18,7 @@ related:
   - space.methane-molecule
   - space.benzene
   - space.amino-acid
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: CCCBDB experimental data for urea — CAS 57-13-6
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/urea'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取中性、孤立尿素分子的实验几何；量两个氨基氮之间的跨度，并在两端加氮的范德华半径。
   不是尿素晶体的晶胞边长，也不是分子量 60.06，更不是溶液中水合分子的流体力学直径。
@@ -76,3 +81,7 @@ NIST CCCBDB 给出尿素的实验几何：分子近似平面，两个氮原子�
 ## 与其他尺度的关系
 
 0.5 nm 约为苯环对位间距 0.28 nm 的 1.8 倍，约为甲烷分子跨度的 3 倍。[1][2] 它比氨基酸的 0.7–1 nm 小，比硬脂酸链 2.5 nm 小五倍。与更小的对象相比，0.5 nm 约为氢原子范德华直径 0.24 nm 的两倍。这些比较说明尿素虽是最小的有机分子之一，却已明显大于单个原子。继续阅读二氧化碳、甲烷与苯，可比较小分子骨架与范德华外形的不同口径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.7e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

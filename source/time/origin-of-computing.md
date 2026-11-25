@@ -15,12 +15,12 @@ quantity:
   measureLabel: 自大爆炸起的推算历史参考时间
 displayValue: 公元1941年 · t ≈ 138 亿年
 related:
+  - space.city
   - time.digital-age
   - time.internet-birth
   - time.internet-era-duration
   - time.smartphone-era
   - time.ai-era
-  - time.transistor
 reviewStatus: reviewed
 sources:
   - title: '1941: The Zuse Z3 Computer'

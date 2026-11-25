@@ -16,6 +16,7 @@ related:
   - space.common-toad
   - space.fire-salamander
   - space.ant
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Hyla cinerea (Green Treefrog)
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.apsubiology.org/tnamphibiansatlas/frog.HTM'
     publisher: Austin Peay State University
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年绿雨蛙（Hyla cinerea）；量取吻端到泄殖腔的吻肛长，不含后肢伸展；雌性通常大于雄性，测量时应让身体自然平展。
 uncertainty: ADW 给出全长 34–62 mm、范围 32–64 mm；田纳西两栖动物图集给出成体头体长 3.2–5.7 cm。本条取 0.06 m 即 60 mm，接近范围上端，代表较大的成年雌性；常见成体多在 0.035–0.055 m。
 review:
@@ -70,3 +75,14 @@ ADW 给出绿雨蛙全长 34–62 毫米，并给出 32–64 毫米的范围，�
 ## 与其他尺度的关系
 
 0.06 米约为 8 厘米欧洲林蛙体长的四分之三，比 5 毫米蚂蚁长约 11 倍。[1][2] 它不到 15 厘米普通蟾蜍的一半，却和一枚 6 厘米长的大号曲别针相当。成体常见 3–5 厘米，体重只有几克。这个尺度说明绿雨蛙是能停在手指上的小动物。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.20 纳秒，在时间轴上量级接近「纳秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 0.06 米，换算后是 6 厘米；约 0.25 个篮球直径（24 厘米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻² 量级附近。
+
+读图时先看量级，再看倍数：10⁻² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

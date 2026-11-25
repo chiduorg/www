@@ -17,7 +17,8 @@ related:
   - time.united-nations
   - time.berlin-wall-fall
   - time.space-age
-  - time.present
+  - temperature.nuclear-fireball
+  - mass.aircraft-carrier
 reviewStatus: reviewed
 sources:
   - title: 80 Years Since the End of World War II
@@ -28,6 +29,14 @@ sources:
     publisher: U.S. National Archives
     url: 'https://www.archives.gov/research/military/ww2'
     accessed: '2026-11-07'
+  - title: "World War I"
+    url: "https://www.britannica.com/event/World-War-I"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
+  - title: "History of the United Nations"
+    url: "https://www.un.org/en/about-us/history-of-the-un"
+    publisher: "United Nations"
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -84,3 +93,23 @@ tags:
 ## 与其他阶段的关系
 
 二战接在第一次世界大战与工业革命的技术积累之后，后接联合国、冷战、去殖民化和太空时代。它推动核能、计算机、航空和国际制度的重组，也留下难民、审判与记忆政治的问题。[1][2] 在时间轴上，1945年既是战争终点，也是战后秩序的起点。
+
+## 结束不是一天
+
+欧洲战场在 1945 年 5 月 8 日停火，太平洋战场在 9 月 2 日签署投降书；各地受降、遣返与审判持续更久。[1][2] 把“二战结束”压缩成一天，会忽略不同战场的节奏。纪念日也因国家与地区而异。
+
+## 五轴对照
+
+在时间轴，二战 1939–1945 年；在空间轴，战火遍及欧洲、太平洋与北非；在温度轴，冬季气候影响东线战事；在质量轴，航母、坦克与飞机的工业产能决定战局。战争不是单一战役，而是全球系统的对抗。[1][2]
+
+## 结束时间有多个口径
+
+二战结束时间在欧洲是 1945 年 5 月 8 日德国投降，在太平洋是 9 月 2 日日本正式投降；亚洲战场部分地区的战斗延续更久。伤亡估计 7,000 万到 8,500 万，含平民与饥荒、疫病死亡。正文的 9 月 2 日是国际受降仪式的口径，不是所有战场的停火时刻。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 公元1945年 · 距今约81年 · t ≈ 138 亿年，口径是 time-after-big-bang-derived-historical-reference。时间轴上的年份是地层、文献或模型给出的坐标，误差从几十年到几十万年不等；分期边界不是一条绝对精确的线。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [3]（Encyclopaedia Britannica）、[4]（United Nations） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

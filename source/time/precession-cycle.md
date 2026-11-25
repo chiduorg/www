@@ -29,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/precession'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Milutin Milankovitch
+    url: 'https://earthobservatory.nasa.gov/features/Milankovitch'
+    publisher: NASA Earth Observatory
+    accessed: '2026-11-24'
 chronology:
   status: duration
   plot: false
@@ -79,3 +83,7 @@ tags:
 ## 与其他尺度的关系
 
 岁差是米兰科维奇轨道周期体系的组成部分之一。地轴进动约 2.6 万年，与约 4.1 万年的倾角周期、约 10 万年的偏心率周期共同调制到达地球的太阳辐射分布。[1][2] 与银河年的约 2.3 亿年相比，岁差短得多；与人类文明约五千年的文字记录相比，它又长得多。它处在行星轨道运动的时间尺度，不进入宇宙学事件的时间轴。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（NASA Earth Observatory）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

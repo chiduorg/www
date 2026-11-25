@@ -5,7 +5,7 @@ summary: >-
   波音 747-8 的运行空重约 220,000 kg，含机体、发动机、系统、内饰与不可用燃油，不含载荷与可加燃油。最大起飞质量约 447,700
   kg，空重略低于它的一半。
 dimension: mass
-category: 飞行器
+category: 工程与交通
 displayValue: '220,000 kg'
 quantity:
   value: 220000
@@ -70,6 +70,7 @@ visual:
   color: '#e6c17c'
   scaleMin: -40
   scaleMax: 53
+titleEn: Boeing 747-8
 ---
 ## 这个读数是什么
 

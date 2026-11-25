@@ -17,6 +17,8 @@ related:
   - time.renaissance
   - time.age-of-discovery
   - time.scientific-revolution
+  - space.earth
+  - space.pacific-ocean
 reviewStatus: reviewed
 sources:
   - title: compass
@@ -31,6 +33,14 @@ sources:
     publisher: 人民网·文化
     url: 'https://culture.people.com.cn/GB/n1/2018/0605/c1013-30036149.html'
     accessed: '2026-11-07'
+  - title: "The Middle Ages, an introduction"
+    url: "https://smarthistory.org/introduction-to-the-middle-ages/"
+    publisher: "Smarthistory"
+    accessed: '2026-11-24'
+  - title: "History of the Royal Society"
+    url: "https://royalsociety.org/about-us/who-we-are/history/"
+    publisher: "The Royal Society"
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -88,3 +98,23 @@ Britannica 的罗盘条目说，磁罗盘是最古老的导航仪器，中国与
 ## 与其他阶段的关系
 
 罗盘使远洋航行不再完全依赖星日和地标，直接支撑“地理大发现”条目所取的约1450年之后的跨洋航行。[1] 与中世纪条目约公元500年相比，11世纪处在航海技术积累的中段；与文艺复兴条目约1400年相比，罗盘已经先行扩散。它把方向从经验判断变成可读的仪表。
+
+## 磁偏角不是误差
+
+磁针指向地磁南北，而不是地理南北；两者之间的夹角就是磁偏角，随地点和时间变化。[3] 沈括已注意到“常微偏东”，这是对磁偏角的早期记录。航海者必须按所在海域的磁偏角修正航向，否则“按针走直线”会偏离目标。
+
+## 五轴对照
+
+在时间轴，航海罗盘约 11 世纪；在空间轴，它把方向变成可读的角度；在温度轴，极寒或剧烈温度变化可能影响磁针装置；在质量轴，磁针与方位盘的质量很小，却改变了远洋航行。方向、角度与地理坐标必须一起读。[1][3]
+
+## 磁罗盘要校正磁偏角
+
+磁罗盘指的不是地理北，而是地磁北；磁偏角随位置与时间变化，航海者必须用太阳、北极星或已知方位校正。中国文献中的“指南针”包括磁针与旱罗盘，与欧洲后来的航海罗盘不是同一条技术谱系。正文的“11 世纪”是文献证据的节点，不是唯一发明时间。[1][S2]
+
+## 读数的口径与换算
+
+本条采用的量是 约1088年 · 距今约938年 · t ≈ 138 亿年，口径是 time-after-big-bang-derived-historical-reference。时间轴上的年份是地层、文献或模型给出的坐标，误差从几十年到几十万年不等；分期边界不是一条绝对精确的线。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（Smarthistory）、[5]（The Royal Society） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

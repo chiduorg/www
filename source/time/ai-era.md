@@ -20,6 +20,7 @@ related:
   - time.smartphone-era
   - time.internet-era-duration
   - time.covid-pandemic
+  - elements.si
 reviewStatus: reviewed
 sources:
   - title: Artificial Intelligence (AI) Coined at Dartmouth
@@ -31,6 +32,14 @@ sources:
     publisher: Stanford Institute for Human-Centered Artificial Intelligence
     url: 'https://hai.stanford.edu/ai-index/2025-ai-index-report'
     accessed: '2026-11-06'
+  - title: "1941: The Zuse Z3 Computer"
+    url: "https://www.computerhistory.org/timeline/1941/"
+    publisher: "Computer History Museum"
+    accessed: '2026-11-24'
+  - title: "Konrad Zuse"
+    url: "https://www.britannica.com/biography/Konrad-Zuse"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 chronology:
   status: model-reference
   plot: true
@@ -90,3 +99,19 @@ tags:
 ## 与计算机、智能手机的关系
 
 AI 依赖可编程计算机、互联网、数据与算力；智能手机又为它提供了传感器、使用场景与分发渠道。[1][2] 从1941年的可编程机器到1956年的学科命名，再到今天的移动与云端模型，这条线索是能力、基础设施与制度共同累积的结果，而不是某一次“智能爆炸”。
+
+## 为什么 1956 不是普及起点
+
+1956 年会议提出的是研究议程，不是可用的消费产品；当时的计算机昂贵、算力有限，AI 系统只能处理玩具问题。[1] 今天的大模型依赖数据、芯片与网络，这些基础设施在数十年后才成熟。把学科命名当成社会普及，会把“概念诞生”和“技术扩散”混为一谈。
+
+## 五轴对照
+
+在时间轴，AI 学科始于 1956 年；在空间轴，数据中心与网络把模型分发到全球；在温度轴，芯片散热限制算力密度；在质量轴，模型参数与训练数据规模不断增长。算法、算力与数据共同推动 AI，而不是单一突破。[1][2]
+
+## 学科起点与普及起点
+
+人工智能作为学科常以 1956 年达特茅斯会议起算，但“AI 时代”作为社会分期更依赖算力、数据与应用的普及，时间落在 2010 年代以后。能力、应用与治理三条时间线并不同步。正文的“AI 时代”是正在形成的历史叙述，不是已经封口的分期。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（Computer History Museum）、[4]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

@@ -17,6 +17,7 @@ related:
   - space.earth
   - space.lake-baikal
   - space.everest
+  - time.millisecond
 reviewStatus: reviewed
 sources:
   - title: Fascinating facts about the Great Barrier Reef
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/place/Great-Barrier-Reef'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为大堡礁海洋公园的珊瑚礁体系；样本为澳大利亚大堡礁海洋公园管理局的概览值；口径为沿昆士兰海岸的南北纵向长度，不是礁体面积、宽度或单个礁块尺寸。
 uncertainty: 官方长度约2300公里；Britannica给出约2000公里，差异来自统计范围与版本；本条采用GBRMPA的2300公里。
 review:
@@ -72,3 +77,7 @@ tags:
 ## 与其他尺度的关系
 
 2300公里约为台湾本岛纵长394公里的5.8倍，也约为贝加尔湖长度636公里的3.6倍。[1][2] 与地球直径12742公里相比，它约为后者的18%。大堡礁属于区域到大陆边缘尺度，向上连接海洋盆地，向下连接单个珊瑚礁。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 7.7 毫秒，在时间轴上量级接近「毫秒」。[3]

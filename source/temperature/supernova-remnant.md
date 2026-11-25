@@ -19,12 +19,12 @@ quantity:
     unit: K
 displayValue: 约 10⁶ K（约 10⁶ °C，量级）
 related:
+  - space.neutron-star
   - temperature.supernova
   - temperature.neutron-star-surface
   - temperature.magnetar-surface
   - temperature.interstellar-medium
   - temperature.hypernova
-  - temperature.supernova-shock-breakout
 reviewStatus: reviewed
 sources:
   - title: Supernova remnant
@@ -37,6 +37,10 @@ sources:
     url: 'https://chandra.si.edu/photo/2005/n132d/index.html'
     publisher: NASA Chandra X-ray Observatory
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为超新星遗迹中由激波加热的星际气体或抛射气体；10⁶ K 指后激波气体的 X 射线拟合温度，
   不是遗迹中所有物质的统一温度，也不是超新星爆发瞬间的光球温度。年轻遗迹可到约 10⁷ K， 老遗迹会逐渐冷却。
@@ -81,3 +85,12 @@ tags:
 ## 与其他极端温区比较
 
 10⁶ K 高于电离氢区的约 10⁴ K，也远高于分子云的约 10 K；年轻遗迹的 10⁷ K 则接近太阳耀斑等离子体的温区。[2] 但超新星遗迹的热来自爆炸动能，而不是恒星稳定燃烧，这一点把它与行星状星云和普通电离氢区区分开。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1×10⁶ K，即 999700 ℃（按 T/K−273.15 换算）；约为太阳核心（1.57×10⁷ K）的 0.0637 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10⁶ 量级附近。
+
+读图时先看量级，再看倍数：10⁶ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

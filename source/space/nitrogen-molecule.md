@@ -16,6 +16,7 @@ related:
   - space.co2-molecule
   - space.water-molecule
   - space.atom
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: 'CCCBDB experimental geometry for N2 — CAS 7727-37-9, charge 0'
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/nitrogen'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取中性气相 N₂ 的平衡几何；量的是 N≡N 三键的两个氮核间距 1.0977 Å。该值不是范德华直径，也不是液氮中分子间的接触距离；
   适用于孤立气相双原子分子，不适用于离子态或高压吸附体系。
@@ -78,3 +83,7 @@ NIST CCCBDB 的实验几何页列出 N₂ 的 N—N 键长为 1.098 埃，并由
 ## 与其他尺度的关系
 
 0.110 纳米与氧分子的 0.121 纳米接近，二者都是双原子气体，键长只差约 9%。[1][2] 它比水分子内的 O—H 键略长，却远小于蛋白质、病毒与细胞。继续阅读氧分子、二氧化碳分子和水分子，可比较双原子与三原子分子的“键长”口径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.7e-10 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

@@ -16,6 +16,8 @@ related:
   - space.local-group
   - space.small-magellanic-cloud
   - space.light-year
+  - mass.large-magellanic-cloud
+  - mass.observable-universe
 reviewStatus: reviewed
 sources:
   - title: Magellanic Cloud
@@ -26,6 +28,10 @@ sources:
     url: 'https://ssd.jpl.nasa.gov/astro_par.html'
     publisher: NASA / JPL Solar System Dynamics
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 采用主星系体约1.4万光年的直径；潮汐尾、麦哲伦流以及与大麦哲伦云共享的气体包层不计入本页尺度。
 uncertainty: 1.4万光年来自角直径约5°与约16万光年距离的换算，属概览值；不规则星系的外缘随示踪物和密度阈值变化，实际成员与潮汐结构可延伸得更远。
 review:
@@ -40,12 +46,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "galaxy"
-  scene: "space.object"
-  caption: "大麦哲伦云 · 主星系体跨度"
-  note: "不规则星系轮廓、星点与气体着色为示意，未表现潮汐尾和麦哲伦流；范围只取主星系体概览直径；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: galaxy
+  scene: space.object
+  caption: 大麦哲伦云 · 主星系体跨度
+  note: 不规则星系轮廓、星点与气体着色为示意，未表现潮汐尾和麦哲伦流；范围只取主星系体概览直径；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:
@@ -71,3 +77,5 @@ tags:
 ## 与其他尺度的关系
 
 1.4万光年约为银河系盘直径的七分之一，约为小麦哲伦云直径的两倍，也约为本星系群跨度1000万光年的七百分之一。[1] 16万光年的距离意味着我们看到的是它16万年前的样子。它比仙女座星系小得多，却是本星系群中除两大旋涡星系外最显眼的成员之一。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

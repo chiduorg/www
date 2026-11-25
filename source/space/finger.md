@@ -17,6 +17,7 @@ related:
   - space.smartphone
   - space.coin
   - space.eyelash
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -32,6 +33,10 @@ sources:
     url: 'https://europepmc.org/article/PMC/PMC11184424'
     publisher: Anatomy & Cell Biology / Europe PMC
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成人食指，从指根关节量到指尖；样本分别来自 400 名成年人与 51 名 18–30 岁年轻人；测量口径为食指全长，不包括拇指、手掌或手总长。
 uncertainty: >-
   男性均值 7.049 厘米、女性均值 6.521 厘米；另一研究混合样本均值 63.9±4.1 毫米。人群、年龄、性别与关节起点不同会造成厘米级差异，不能把
@@ -81,3 +86,7 @@ tags:
 ## 与其他尺度的关系
 
 70.5 毫米约为银行卡长边 85.60 毫米的 0.82 倍，约为 A4 纸长边 297 毫米的 0.24 倍。它比上睫毛 8 毫米长约 8.8 倍，也比米粒 5 毫米长约 14 倍。与手机高度 147.6 毫米相比，食指约为其 0.48 倍。[1] 这些比较都用同一单位，避免厘米与毫米混用。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.24 纳秒，在时间轴上量级接近「纳秒」。[3]

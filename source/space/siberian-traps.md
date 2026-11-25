@@ -16,6 +16,7 @@ related:
   - space.deccan-traps
   - space.tectonic-plate
   - space.earth
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: Paleomagnetism of the Siberian flood basalts of the Noril'sk area
@@ -26,6 +27,10 @@ sources:
     url: 'https://pubs.er.usgs.gov/publication/70019298'
     publisher: U.S. Geological Survey
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为西伯利亚暗色岩省诺里尔斯克一带的火山岩系；采用代表性剖面的累计厚度口径，即从底部火山岩到顶部火山岩的垂直总和；不含下伏沉积岩，也不把侵入岩床单独计入。
 uncertainty: USGS收录的两项研究均把诺里尔斯克剖面记为超过3,500米或3,500米厚；整个省的最大厚度可达约6,500米，其他剖面从数百米到数千米不等。本条取3,500米作为代表剖面值，不代表全盆平均。
 review:
@@ -70,3 +75,7 @@ USGS收录的研究摘要把诺里尔斯克剖面描述为超过3,500米厚的�
 ## 与其他尺度的关系
 
 3,500米约为德干暗色岩代表剖面2,000米的1.75倍，约为珠穆朗玛峰高程8,848.86米的40%，约为地壳平均厚度约35公里的10%。[1][2] 它高于多数单个火山锥，却只是地壳的一薄层。放在地质剖面上，它足以记录数百万年至更短时间内的巨量喷发。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 11.7 微秒，在时间轴上量级接近「微秒」。[3]

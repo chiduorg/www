@@ -16,6 +16,7 @@ related:
   - space.city
   - space.iss
   - space.geostationary-orbit
+  - time.millisecond
 reviewStatus: reviewed
 sources:
   - title: The Large Hadron Collider
@@ -26,6 +27,10 @@ sources:
     url: 'https://home.cern/resources/faqs/facts-and-figures-about-lhc'
     publisher: CERN
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为 CERN 的大型强子对撞机；测量口径为束流轨道环周长，不是隧道外径、直线跨度、地下深度或对撞能量；采用当前 LHC 的 26 659 米读数。
 uncertainty: >-
   CERN 介绍页取整为 27 公里，事实页给出 26 659 米；两者是同一量的不同精度。环非完美圆，按周长除以 2π 得到的平均半径约 4.24
@@ -73,3 +78,14 @@ CERN 的 LHC 介绍页写明它是一个 27 公里的超导磁体环，位于地
 ## 与其他尺度的关系
 
 26 659 米约为马拉松 42.195 公里的 63%，约为上海中心大厦 632 米的 42 倍。它比足球场 105 米边线长约 254 倍，也比地球同步轨道高度 35 786 公里小约 1 340 倍。[2] 在人类建造物中，它属于公里级的环形设施。环形加速器的周长决定了粒子每圈可获得的总能量增益。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 88.9 微秒，在时间轴上量级接近「毫秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 26660 米，换算后是 26.66 千米；约 0.00209 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁴ 量级附近。
+
+读图时先看量级，再看倍数：10⁴ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

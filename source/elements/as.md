@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/33/arsenic'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第四周期, p 区, 砷, 类金属]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往回是锗（/entry/elements/ge/），能看到 4p2 如何开始翻转性格；往前是硒（/entry/elements/se/），4p4 让非金属倾向占上风。想把半满的额外稳定性放回轨道能量，去读电子排布解释页；想把 s 过程与弱 r 过程的差别弄清楚，去读重元素富集节点。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

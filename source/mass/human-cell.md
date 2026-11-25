@@ -5,7 +5,7 @@ summary: >-
   以 HeLa 细胞为代表，一个培养的人体细胞湿重均值约 2.0×10⁻¹² kg（2 ng），干重约为湿重的 20–30%。不同细胞类型差异很大，条目取
   ±50% 的区间，不把它当作所有人体细胞的统一值。
 dimension: mass
-category: 人体细胞
+category: 生命与人体
 displayValue: 2.0×10⁻¹² kg
 quantity:
   value: 2.e-12
@@ -19,6 +19,7 @@ related:
   - mass.bacterium
   - mass.sperm-cell
   - space.cell
+  - time.first-life
 reviewStatus: reviewed
 review:
   method: source-check
@@ -47,6 +48,14 @@ sources:
     url: 'https://www.cell.com/'
     publisher: Elsevier
     accessed: '2026-11-09'
+  - title: "NCBI Bookshelf"
+    url: "https://www.ncbi.nlm.nih.gov/books/"
+    publisher: "National Center for Biotechnology Information"
+    accessed: '2026-11-24'
+  - title: "eLife"
+    url: "https://elifesciences.org/"
+    publisher: "eLife Sciences Publications"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 人体细胞
@@ -71,6 +80,7 @@ visual:
   color: '#b48cff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Human cell
 ---
 ## 这个读数是什么
 
@@ -88,6 +98,30 @@ visual:
 
 2.0×10⁻¹² kg 位于 B5 带的中段偏上，比红细胞重约二十倍，比大肠杆菌重约两千倍。它距 1 克还差九个数量级，却已经包含完整的基因组、膜系统与代谢机器；从这一档再往上，质量主要由细胞数量而非单个细胞大小决定。
 
+## HeLa 只是代表
+
+HeLa 细胞约 2 纳克，但人体细胞差异远大于测量误差：红细胞约 0.1 纳克，心肌细胞可达 20 纳克，卵细胞接近 1 微克。用 HeLa 代表“人体细胞”，只是选择一个实验常用参照。细胞类型、体积、含水量与细胞周期都会改变质量。[1][S2]
+
+细胞质量还随细胞周期变化：分裂前细胞体积接近加倍，G1 期与 G2 期的湿重可以差一倍。2 纳克是培养群体均值，不是每一个 HeLa 细胞的固定值。
+
+细胞质量还可以用干质量表示：HeLa 细胞干重约 0.4–0.6 纳克，约为湿重的 20%–30%；不同测量方法给出的干湿比不同。
+
 ## 怎么继续走
 
 想看形状最特殊的神经细胞，去 mass.neuron；想看没有细胞核的红细胞，去 mass.red-blood-cell；想看细胞在空间轴上的尺度，去 space.cell。注意质量不是直径的函数，长而细的细胞可以比小而圆的细胞更轻。
+
+## 人体细胞差异远大于测量误差
+
+红细胞约 0.1 纳克，心肌细胞可达 20 纳克，卵细胞接近 1 微克；用 HeLa 细胞的 2 纳克代表“人体细胞”，只是选择一个实验常用参照。[1][2] 细胞类型、体积、含水量与细胞周期都会改变质量。把 2 纳克当成所有细胞，会低估差异。
+
+## 五轴对照
+
+在质量轴，HeLa 细胞约 2×10⁻¹² 千克；在空间轴，它约 10–20 微米；在时间轴，细胞周期影响体积；在温度轴，培养温度影响生长。质量、尺寸与状态必须一起记录。[1][3]
+
+## 读数的口径与换算
+
+本条采用的量是 2.0×10⁻¹² kg，口径是 以 HeLa 细胞为代表的单个培养人体细胞湿重均值；由约 2–3 pL 的细胞体积与约 1.05 g/cm³ 的密度估算，不确定度约 ±50%。质量是广延量，读数依赖湿重/干重、含血/不含血、整备/满载等口径；样本与测量条件必须一起引用。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（National Center for Biotechnology Information）、[5]（eLife Sciences Publications） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

@@ -18,6 +18,7 @@ related:
   - space.train-car
   - space.human
   - space.motorcycle
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Maximum length of vehicles used in Great Britain
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.legislation.gov.uk/eudr/1996/53/annexes'
     publisher: legislation.gov.uk
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为牵引车加半挂车组成的铰接式货车；测量口径为牵引车头最前端到挂车尾部的整车总长，不含后视镜、尾部加装装置与超长货物；不适用于单车货车或公路列车。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 16.5 米约等于 3.7 辆 4.5 米家用轿车首尾相接，也约等于 9.2 辆 1.8 米自行车。与 25 米的铁路客车车厢相比，半挂卡车约为其 66%；与 68.4 米的波音 747 相比约为其 24%。它还是 2.032 米标准门高的约 8.1 倍，转弯时所需扫掠空间远大于车身长度。在标准 3.5 米车道内，16.5 米卡车的车尾外摆尤其明显，并排超车需要更大的横向间距。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 55 纳秒，在时间轴上量级接近「原子跃迁」。[3]

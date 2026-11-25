@@ -32,6 +32,10 @@ sources:
     url: 'https://www.lpi.usra.edu/meetings/lpsc2006/pdf/2107.pdf'
     publisher: 'Lunar and Planetary Science XXXVII (LPI Contribution)'
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   冥卫一近地表水冰的示例温度，取 50 K 作为约 35–55 K 观测/模型范围内的代表值；不是全球同时均温，
   也不代表内部、稀薄外逸层或太空背景温度，区域、反照率与季节都会改变局部读数。
@@ -84,3 +88,5 @@ tags:
 ## 与其他温区的关系
 
 50 K 远低于地球室温 293 K、水的冰点 273.15 K 和甲烷沸点 111.7 K，也低于土卫六表面的约 94 K，但高于绝对零度。[1][2] 它处在氮、甲烷等挥发物大多冻结的温区，说明冥卫一的表面过程更多依赖冰的升华、沉积和极区光照，而不是液态水的循环。与冥王星相比，冥卫一缺少厚氮大气，表面热惯量与反照率反馈也不同。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

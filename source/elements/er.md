@@ -48,6 +48,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/68/erbium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 镧系, 铒]
 rights:
   status: rewritten
@@ -81,3 +85,5 @@ Er³⁺ 的 4f11 有三个未成对电子，磁矩比钬小，但 4f 壳的屏�
 ## 怎么继续走
 
 往前是钬，4f10 的磁矩很突出；往后是铥，4f 只剩一个空位，未成对电子继续减少。想看 4f 屏蔽为什么让谱线变窄，看电子排布解释页；想看 4f 收缩如何在下游压到铪，看镧系收缩解释页。铒这一格的分量，在于它把“4f 越来越满”翻译成了可测量的光谱稳定性。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

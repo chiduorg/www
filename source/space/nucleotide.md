@@ -16,6 +16,7 @@ related:
   - space.trna
   - space.amino-acid
   - space.glucose
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: 'Biochemistry, DNA Structure — StatPearls'
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/nucleotide'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   采用 B-DNA 双螺旋中碱基沿轴的平均间距 0.34
   纳米，作为“每个核苷酸重复单元沿链轴的长度”；该值描述聚合物中的轴向上升，不是游离核苷酸分子从碱基到磷酸末端的最长尺寸。适用于常规 B-DNA，不适用于单链
@@ -80,3 +85,7 @@ DNA 结构的经典模型来自 X 射线衍射与化学分析。NCBI 的 StatPea
 ## 与其他尺度的关系
 
 0.34 纳米处在小分子与生物大分子之间，与氨基酸、葡萄糖的尺寸同一量级。[1][2] 当核苷酸聚合成 DNA 时，轴向长度按碱基对数目线性增加，但双螺旋直径仍保持在纳米量级。继续阅读 DNA、tRNA、氨基酸与葡萄糖，可比较单体尺寸与聚合物尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.1e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

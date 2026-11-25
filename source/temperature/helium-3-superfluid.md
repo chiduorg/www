@@ -35,6 +35,10 @@ sources:
       https://www.bipm.org/documents/20126/41773843/Guide-PLTS-2000.pdf/43f543da-0a62-2677-fc38-c8ab70d0539a
     publisher: BIPM / Consultative Committee for Thermometry
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: helium-3-superfluid
   icon: "\U0001F9DB"
@@ -103,3 +107,5 @@ tags:
 ## 与其他温区的关系
 
 2.444 mK 低于稀释制冷的 10 mK，高于核退磁实验的 421 μK 电子温度，也高于 170 nK 的玻色凝聚。它比氦-4 的 2.17 K 超流转变低约九百倍，说明同位素量子统计差异会把同一元素的相变温区拉开极大距离。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

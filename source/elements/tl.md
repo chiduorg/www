@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/81/thallium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, p 区, 铊]
 rights:
   status: rewritten
@@ -74,3 +78,5 @@ rights:
 ## 怎么继续走
 
 往前是汞，6s2 满壳的极端；往后是铅，6p 再添一颗并继续走向更重的惰性对元素。想看相对论效应怎样压紧 6s，去看屏蔽与有效核电荷解释页；想看 p 区在第六周期的整体走势，去看周期律解释页。铊这一页的关键词是惰性对。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

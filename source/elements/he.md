@@ -2,10 +2,12 @@
 id: elements.he
 title: 氦：第 2 个质子把 1s 填满，第一周期在这里收尾
 titleEn: Helium
-summary: 第二个电子进入同一 1s 并配对；第一电离能从 13.598 eV 升到 24.587 eV，半径从 53 pm 缩到 31 pm，闭壳让氦几乎不参与化学反应。
+summary: >-
+  第二个电子进入同一 1s 并配对；第一电离能从 13.598 eV 升到 24.587 eV，半径从 53 pm 缩到 31
+  pm，闭壳让氦几乎不参与化学反应。
 dimension: element
 category: 闭壳节点
-displayValue: 'Z = 2 · 1s² 闭壳'
+displayValue: Z = 2 · 1s² 闭壳
 quantity:
   value: 2
   unit: Z
@@ -24,7 +26,11 @@ element:
   periodStart: 1
   periodEnd: 2
   level: A
-related: [elements.h, elements.li, time.big-bang, elements.explain-nuclear-stability]
+related:
+  - elements.h
+  - elements.li
+  - time.big-bang
+  - elements.explain-nuclear-stability
 conditions: 标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。
 visual:
   scene: elements.shell-ladder
@@ -35,26 +41,39 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自 CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - >-
+      本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自
+      CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: 'PubChem Element Summary: Helium'
-    url: https://pubchem.ncbi.nlm.nih.gov/element/2
+    url: 'https://pubchem.ncbi.nlm.nih.gov/element/2'
     publisher: U.S. National Library of Medicine
     accessed: '2026-11-09'
   - title: 'Periodic Table: Helium'
-    url: https://www.rsc.org/periodic-table/element/2/helium
+    url: 'https://www.rsc.org/periodic-table/element/2/helium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
   - title: NIST Atomic Spectra Database
-    url: https://physics.nist.gov/asd
+    url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-09'
-tags: [元素, 第一周期, 闭壳, 氦]
+  - title: The Helium Atom
+    url: 'https://svs.gsfc.nasa.gov/10133'
+    publisher: NASA Scientific Visualization Studio
+    accessed: '2026-11-24'
+tags:
+  - 元素
+  - 第一周期
+  - 闭壳
+  - 氦
 rights:
   status: rewritten
-  note: "依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。"
+  note: 依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。
 ---
 ## 第 2 个质子把电子放进了哪里
 
@@ -82,3 +101,7 @@ rights:
 ## 怎么继续走
 
 往回一步是氢，往前一步是锂；氢提供原料，锂展示 1s 满员后电子被迫进入 2s 的下一步。想弄清 1s 为什么只能容纳两个电子、配对为什么抬高电离能，去看电子排布解释页；想弄清 ⁴He 为什么被称为紧束缚核、α 衰变为什么偏爱它，去看核稳定性解释页。氦这一格的价值，正在于它同时结束了第一能层和第一周期的化学。
+
+## 延伸核对
+
+氦在宇宙中的丰度与恒星核合成背景，可作为本条“惰性气体”性质的补充；它在地球上稀有，但在宇宙中是第二多元素。[4]

@@ -16,6 +16,7 @@ related:
   - space.football-field
   - space.coin
   - space.hand
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: The Laws of Table Tennis 2026–27
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.ctta.cn/xwzx/ppxw/2014/1017/101204.html'
     publisher: 中国乒乓球协会
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: ping-pong-ball
   icon: "\U0001F3D3"
@@ -81,3 +86,7 @@ tags:
 ## 与其他尺度的关系
 
 40毫米的球比22.25毫米的硬币大近一倍，比20厘米的手小五倍，比5毫米的米粒大八倍；它的直径也约为常见硬币的两倍。[1][2] 它处在“厘米级日常物体”的层级：球台长2.74米，约等于68.5个球的直径。向上是球台、房间和人体，向下是硬币、米粒、沙粒与细胞。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.13 纳秒，在时间轴上量级接近「纳秒」。[3]

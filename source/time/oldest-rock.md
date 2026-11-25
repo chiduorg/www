@@ -18,6 +18,7 @@ related:
   - time.oldest-zircon
   - time.first-continents
   - time.earth-formation
+  - space.solar-system
 reviewStatus: reviewed
 sources:
   - title: 'Geologic Time: Age of the Earth'
@@ -28,6 +29,10 @@ sources:
     url: 'https://natural-resources.canada.ca/simply-science/where-do-you-find-old-iconic-rock-stars-canada-course/24979'
     publisher: Natural Resources Canada
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -85,3 +90,5 @@ tags:
 ## 与其他阶段的关系
 
 阿卡斯塔片麻岩位于冥古宙与始太古代交界附近，为早期大陆地壳、板块作用和地表水环境提供直接样品。[1][2] 它与最古老锆石、早期大陆形成和晚期重轰炸等条目相连：锆石给出更早的矿物线索，岩石给出可触摸的岩体，二者证据类型不同。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

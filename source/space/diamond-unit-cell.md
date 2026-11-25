@@ -28,6 +28,10 @@ sources:
     url: 'https://chem.libretexts.org/Courses/Iowa_State_University/Advanced_Inorganic_Chemistry_CHEM-5020%3A_Fall_2026/06%3A_Chemistry_of_the_Main_Group_Elements_(Barron)/6.07%3A_Group_14/6.7.01%3A_The_Group_14_Elements'
     publisher: Chemistry LibreTexts / Rice University (Andrew R. Barron)
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取室温下的金刚石立方碳结构，常规立方晶胞边长 a ≈ 0.357 nm；不是 C–C 键长（约 0.154 nm），
   也不是含两个碳原子的原胞边长。该值适用于纯碳金刚石，不适用于掺杂、纳米晶或高压相。
@@ -80,3 +84,5 @@ conceptGroup: crystal
 ## 与其他尺度的关系
 
 0.357 纳米比 NaCl 的最近邻距离 0.282 纳米大，也略大于苯环的碳骨架间距，却仍远小于蛋白质与细胞。[1][2] 它把“晶胞”这一周期性单元放回尺度轴：晶胞边长描述重复周期，键长描述原子间连接，二者共同决定晶体的衍射与力学性质。同一晶胞包含八个碳原子，晶胞体积与密度可由此互相校验。[1][2] 继续阅读晶格间距、NaCl 晶体与石墨烯，可比较晶胞、最近邻距离与层间距的口径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

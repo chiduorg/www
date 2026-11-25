@@ -3,7 +3,7 @@ id: mass.eta-carinae
 title: 船底座 η：1.99×10³² kg，只能给量级的大质量双星
 summary: 船底座 η 的主星质量约 1.99×10³² kg，大致为 100 太阳质量。数值依赖演化模型与双星结构假设，只能给量级，相对不确定度约 30%。
 dimension: mass
-category: 恒星
+category: 恒星与致密天体
 displayValue: 1.99×10³² kg
 quantity:
   value: 1.99e+32
@@ -78,6 +78,7 @@ visual:
   color: '#ffd37a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Eta Carinae
 ---
 ## 这个读数是什么
 

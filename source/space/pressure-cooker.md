@@ -16,6 +16,7 @@ related:
   - space.wok
   - space.refrigerator
   - space.chopsticks
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 622-412-06-070/0 Vitavit Premium 高压锅 6L – 22CM
@@ -26,6 +27,10 @@ sources:
     url: 'https://global.fissler.com/en/products/vitaquick-premium-2-teiliges-schnellkochtopf-set-3-5-6-0-liter'
     publisher: FISSLER
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为 6 升家用高压锅；量取锅口内径，不含锅耳、手柄与锅盖；同一口径可配不同锅深，容量不等。
 uncertainty: 家用高压锅口径多在 18–24 cm，6 升机型常见 22 cm；本条取 22 cm；锅底直径通常比锅口小 2–3 cm（Fissler 这款为 19 cm），量外径会大出数毫米。
 review:
@@ -70,3 +75,7 @@ Fissler Vitavit Premium 6 升高压锅的产品页写明“6 L，22 cm Ø”，�
 ## 与其他尺度的关系
 
 22 厘米比 24 厘米的汤锅口径小 2 厘米，比 28 厘米的平底锅口径小 6 厘米，比 A5 纸 21 厘米的长边仅长 1 厘米。[1][2] 它约为 9 厘米咖啡杯口径的 2.4 倍，放在 32 厘米炒锅旁边明显小一圈。与 25 厘米的筷子相比，口径短 3 厘米，但锅体是立体的，容量远大于一根筷子所占的空间。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.73 纳秒，在时间轴上量级接近「纳秒」。[3]

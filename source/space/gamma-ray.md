@@ -17,6 +17,7 @@ related:
   - space.crab-nebula
   - space.atom
   - space.neutrino
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: gamma ray
@@ -27,6 +28,10 @@ sources:
     url: 'https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html'
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为伽马射线波段的电磁波波长；介质取真空；1皮米是代表值，不是伽马与X射线的分界。
 uncertainty: 伽马与X射线的分界按能量或产生机制约定，常见阈值有约100 keV与数万电子伏等写法；本条取1皮米。
 review:
@@ -71,3 +76,7 @@ Britannica 说伽马射线波长通常小于几个十分之一埃，即小于约
 ## 与其他尺度的关系
 
 1皮米约为X射线代表波长1纳米的千分之一，比可见光中值550纳米小约五十万倍。[1][2] 伽马射线位于X射线之外，是电磁波谱的短波端；更长的一侧依次是X射线、紫外、可见光与射电。它把核尺度与宇宙高能过程连接在同一张谱上。伽马射线暴与超新星遗迹也是多信使天文学的重要观测目标。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3e-12 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

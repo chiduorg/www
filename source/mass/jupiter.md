@@ -5,7 +5,7 @@ summary: >-
   木星是太阳系质量最大的行星，行星总质量约 1.898×10²⁷ kg，约为地球质量的 318 倍。质量由航天器跟踪与伽利略卫星轨道拟合得出，相对不确定度约
   0.02%。
 dimension: mass
-category: 行星
+category: 行星与小天体
 displayValue: 1.898×10²⁷ kg
 quantity:
   value: 1.898e+27
@@ -80,6 +80,7 @@ visual:
   color: '#7fb5e6'
   scaleMin: -40
   scaleMax: 53
+titleEn: Jupiter
 ---
 ## 这个读数是什么
 

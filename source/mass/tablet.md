@@ -5,7 +5,7 @@ summary: >-
   标示 500 mg 的对乙酰氨基酚片，“500 mg”是有效成分含量，不是片重。加上填充剂、黏合剂、崩解剂与润滑剂，单片总质量约 6×10⁻⁴ kg（0.6
   g）。
 dimension: mass
-category: 药品
+category: 生命与人体
 displayValue: 约 6×10⁻⁴ kg
 quantity:
   value: 0.0006
@@ -18,6 +18,8 @@ related:
   - mass.coin
   - mass.insulin
   - mass.water-molecule
+  - space.human
+  - temperature.human-body-temperature
 reviewStatus: reviewed
 review:
   method: source-check
@@ -70,6 +72,7 @@ visual:
   color: '#c9a77a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Acetaminophen tablet
 ---
 ## 这个读数是什么
 

@@ -17,6 +17,7 @@ related:
   - space.platelet
   - space.alveolus
   - space.cell
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Histology, Blood Vascular System'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/capillary'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 组织切片或活体显微观察中测量管腔横径；血管收缩、切片角度、固定与灌注状态都会影响读数，不同器官差异明显。
 uncertainty: 8 μm 位于 4–10 μm 范围中段，是入门参照；不同器官与血管类型可从约 4 μm 到 10 μm 以上，肺泡毛细血管等特殊床可更窄或更宽。
 review:
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 8 μm 约等于一个红细胞直径，说明红细胞通过时几乎贴合管壁，这也是微循环交换效率高的原因[1]。它比血小板（约 2 μm）宽四倍，却比中性粒细胞（约 15 μm）窄，因此白细胞通过时需要变形。若把 8 μm 放大到一根头发直径，需要约九倍；这也解释了为什么毛细血管在普通切片上常需要高倍镜才能看清管腔与内皮细节。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.000027 纳秒，在时间轴上量级接近「纳秒」。[3]

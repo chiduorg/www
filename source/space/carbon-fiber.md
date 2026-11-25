@@ -18,6 +18,7 @@ related:
   - space.carbon-nanotube
   - space.red-blood-cell
   - space.graphene
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: TORAYCA T300 Carbon Fiber Technical Data Sheet
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.toraycma.com/wp-content/uploads/T700S-Data-Sheet.pdf'
     publisher: Toray Composite Materials America
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   以聚丙烯腈基碳纤维的单丝为对象，取制造商数据表中的公称直径 7 微米；
   不同牌号、不同原料和前驱体工艺的纤维直径可能不同，丝束整体尺寸另计。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 7 微米与红细胞 7.5 微米几乎相同，约为头发丝 100 微米的 1/14，约为人体细胞 20 微米的 1/3。它约为碳纳米管直径 1 纳米的 7 000 倍，也约为石墨烯单层 0.335 纳米的 2 万倍。把本页与头发丝、红细胞和碳纳米管并读，可比较“单丝—细胞—纳米管”的尺度。碳纤维直径与红细胞相当，说明生物细胞与工程纤维可以在同一尺度相遇，但二者结构完全不同。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.000023 纳秒，在时间轴上量级接近「纳秒」。[3]

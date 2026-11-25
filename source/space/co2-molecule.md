@@ -28,6 +28,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11243175/'
     publisher: Nanomaterials (MDPI) / PubMed Central
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取中性气相 CO2 的直线形平衡几何；0.33 nm 是动力学直径/范德华尺度口径，不是 C=O 键长（NIST CCCBDB 实验值 1.162 Å），
   也不是两个氧核之间的距离（2.3242 Å）。该口径适用于气体碰撞与孔道筛分，不适用于干冰或液态 CO2 中的分子间距。
@@ -80,3 +84,5 @@ NIST CCCBDB 汇总光谱实验得到的平衡几何：CO₂ 的 C=O 键长为 1.
 ## 与其他尺度的关系
 
 0.33 纳米比水分子和氧分子的核间距大，却仍远小于蛋白质、病毒与细胞。[1][2] 它与甲烷的 0.38 纳米、氮气的 0.364 纳米同属小分子气体，常用同一套孔道筛分口径比较。继续阅读甲烷、氧分子、氮分子与晶格间距，可看到“键长、分子跨度、晶格常数”并不是同一种长度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

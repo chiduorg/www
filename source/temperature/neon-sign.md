@@ -20,6 +20,7 @@ related:
   - temperature.led-junction
   - temperature.room-temperature
   - temperature.oven
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: neon lamp
@@ -30,6 +31,10 @@ sources:
     url: 'https://neonlibrary.com/neon_sign_tech_info.html'
     publisher: Neon Library
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 低气压氖气与玻璃管壁
   measurementSite: 灯管外壁或电极附近，非气体内部单点温度
@@ -84,3 +89,5 @@ tags:
 ## 与其他温度的关系
 
 77 °C 高于 room-temperature 的 20 °C 示例和 human-body-temperature 的约 37 °C，接近 sauna 的约 80 °C 空气温区，但低于 boiling-water 的 100 °C。与 tungsten-filament 的白炽灯丝相比，霓虹灯管壁的温升低得多；与 led-junction 相比，它测的是外壁而不是半导体结区。把发光器件并列时，必须区分管壁、灯丝、结温和色温四种口径。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

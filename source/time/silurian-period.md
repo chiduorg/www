@@ -13,12 +13,12 @@ quantity:
   approximate: true
 displayValue: t ≈ 133.54 亿年（距今约443.1 Ma）
 related:
+  - space.earth
   - time.paleozoic
   - time.ordovician-radiation
   - time.devonian-period
   - time.first-fish
   - time.land-plants
-  - time.first-corals
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -29,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/Silurian-Period'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Triassic Period
+    url: 'https://www.nps.gov/articles/000/triassic-period.htm'
+    publisher: U.S. National Park Service
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -81,3 +85,7 @@ tags:
 ## 与其他阶段的关系
 
 志留纪承接奥陶纪末的冰期与生物危机，结束于泥盆纪鱼类与森林扩展的前夜。它的起点与奥陶纪终点相接，终点与泥盆纪起点重合；同一条界线在纪的层级上换了名称，并不是两次事件。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. National Park Service）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

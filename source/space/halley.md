@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 15 km（彗核长轴）
 related:
+  - temperature.venus-surface
+  - time.solar-system
   - space.earth
   - space.solar-system
   - space.sun
   - space.moon_diameter
-  - space.kuiper-belt
 reviewStatus: reviewed
 sources:
   - title: Halley's Comet
@@ -27,6 +28,10 @@ sources:
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/cometfact.html'
     publisher: NASA NSSDCA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为哈雷彗星彗核固体表面；采用长轴约15公里；不含彗发、离子尾和尘埃尾，也不把1986年观测到的喷流算入本体。
 uncertainty: >-
   Britannica给出彗核约15×8公里；NASA彗星事实表给出公转周期76.1年、近日点0.587
@@ -41,12 +46,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "哈雷彗星彗核 · 彗核"
-  note: "不规则深色块体、喷流和光照为示意，非按比例，非观测重建；不复现真实彗核形状与彗发结构。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 哈雷彗星彗核 · 彗核
+  note: 不规则深色块体、喷流和光照为示意，非按比例，非观测重建；不复现真实彗核形状与彗发结构。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -73,3 +78,5 @@ Britannica条目给出彗核约15×8公里的尺寸，并记录欧洲空间局�
 ## 与其他尺度的关系
 
 15公里约为月球直径3,474公里的0.43%，约为地球直径12,742公里的0.12%，也约为贝努490米的30倍。[1][2] 它远小于谷神星940公里，但比多数近地小行星的彗核大。哈雷的轨道半长轴约17.94 au，远大于彗核尺寸，二者相差约十个数量级。[2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

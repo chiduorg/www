@@ -19,6 +19,8 @@ related:
   - temperature.neutron-star-core
   - temperature.supernova
   - temperature.black-hole-accretion-disk
+  - space.sun
+  - mass.sun
 reviewStatus: reviewed
 sources:
   - title: 'NICER Nuggets: 2 January 2020, J0030+0451 surface regions'
@@ -31,6 +33,10 @@ sources:
     url: 'https://arxiv.org/abs/1912.05705'
     publisher: 'Miller et al., ApJL 887 (2019)'
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: millisecond_pulsar
   icon: ⚡
@@ -91,3 +97,5 @@ NICER 通过长时间记录 X 射线到达时间，得到随自转变化的脉�
 ## 与其他温区的关系
 
 10⁶ K 高于太阳表面 5,772 K，约为仙后座 A 中子星表面 2×10⁶ K 的一半。它远低于核心坍缩超新星的 10¹¹ K 量级，更低于夸克—胶子等离子体约 1.8×10¹² K 的理论温标。与黑洞吸积盘气体的 10⁷ K 相比，它又低一个数量级。把这些数值放在一起时，要记住它们分别对应热斑、星面、坍缩核心和模拟盘气体，而不是同一种物理环境。[2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

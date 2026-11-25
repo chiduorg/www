@@ -28,6 +28,10 @@ sources:
     url: 'https://pdg.lbl.gov/2026/reviews/rpp2026-rev-bbang-nucleosynthesis.pdf'
     publisher: Particle Data Group
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为辐射主导早期宇宙中的光子—重子等离子体；取氘光致瓦解与氘合成接近平衡的“氘瓶颈”附近；10⁹ K 为取整量级，对应约 0.1 MeV，并随膨胀继续下降。
 uncertainty: >-
@@ -73,3 +77,5 @@ tags:
 ## 与其他尺度的关系
 
 10⁹ K 约为太阳核心温度的 64 倍，与 Ia 型超新星爆燃火焰的约 10⁹ K 属同一量级，但两者对象完全不同：一个是早期宇宙等离子体，一个是白矮星内部的燃烧波。它低于正负电子湮灭的约 10¹⁰ K 和中微子退耦的约 10¹⁰ K，更远低于夸克胶子等离子体的 10¹² K 量级。跨条目比较时，应先对齐“测的是什么”，再比较数字。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

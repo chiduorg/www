@@ -3,7 +3,7 @@ id: mass.cat
 title: 家猫：4.5 kg，成年家猫湿重均值
 summary: 成年家猫的整体质量约 4.5 kg，按活体体重（整体湿重）计。品种与体况差异很大，暹罗约 3–4 kg、缅因可到 6–8 kg，不确定度约 ±30%。
 dimension: mass
-category: 哺乳动物
+category: 自然与生物
 displayValue: 4.5 kg
 quantity:
   value: 4.5
@@ -15,6 +15,8 @@ related:
   - mass.dog
   - mass.newborn
   - mass.adult-human
+  - space.cat
+  - space.human
 reviewStatus: reviewed
 review:
   method: source-check
@@ -67,6 +69,7 @@ visual:
   color: '#e0b67b'
   scaleMin: -40
   scaleMax: 53
+titleEn: Domestic cat
 ---
 ## 这个读数是什么
 

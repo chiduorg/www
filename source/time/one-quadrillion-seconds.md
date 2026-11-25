@@ -20,6 +20,7 @@ related:
   - time.species-lifetime
   - time.milankovitch-cycle
   - time.earth-age
+  - space.coma-cluster
 reviewStatus: reviewed
 sources:
   - title: How Do You Measure a Second?
@@ -35,6 +36,10 @@ sources:
       https://metanorma.github.io/bipm-si-brochure/si-brochure-3.01/BIPM%20SI%20Brochure%209e%20v3_01%20(2019_2024,%20E)/_21bd452c-81e1-620e-9c5d-a5156d5ca0e8_si-brochure-en/
     publisher: International Bureau of Weights and Measures (BIPM)
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -87,3 +92,5 @@ tags:
 ## 与其他尺度的关系
 
 10¹⁵ 秒约 3169 万年，是 10⁹ 秒的 100 万倍，是 10¹² 秒的 1000 倍，又是 10¹⁸ 秒的千分之一。它约为物种辐射代表值 1000 万年的 3.17 倍，却仅为地球年龄 45.4 亿年的约 0.7%[2]。与人类文明五千年的记录相比，它长约 6338 倍；与人类寿命 73 年相比，则长约 434 万倍。它也比 405 千年的偏心周期长约 78 倍，说明同一“千万年”尺度可以容纳许多轨道节律。
+
+按同一真空光速计算，光在这段时间内约走 31.7 百万光年，在空间轴上量级接近「后发座星系团」。[4]

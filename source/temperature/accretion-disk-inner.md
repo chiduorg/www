@@ -13,12 +13,14 @@ quantity:
   measure: 黑洞吸积盘内区气体温度量级
   approximate: true
   measureLabel: 黑洞吸积盘内区气体温度量级
-displayValue: '约 10⁷ K（约 10⁷ °C，量级）'
+displayValue: 约 10⁷ K（约 10⁷ °C，量级）
 related:
   - temperature.black-hole-accretion-disk
   - temperature.hawking-temperature
   - temperature.sun-core
   - temperature.neutron-star-surface
+  - time.first-stars
+  - space.supernova-remnant
 reviewStatus: reviewed
 sources:
   - title: NASA-Led Study Explains How Black Holes Shine in Hard X-rays
@@ -29,6 +31,10 @@ sources:
     url: 'https://arxiv.org/abs/1207.2693'
     publisher: 'J. D. Schnittman, J. H. Krolik and S. C. Noble, ApJ 769 (2013)'
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为黑洞事件视界外吸积盘的内区气体；约 10⁷ K 取一位有效数字，对应模拟中约 1.2 × 10⁷ K。
   内区盘温依赖黑洞质量、质量吸积率、盘半径和辐射效率；它不是黑洞本体温度，也不与盘上日冕的 10⁹ K 混用。
@@ -37,9 +43,11 @@ review:
   date: '2026-11-07'
   notes:
     - '核对 NASA SVS 11206：盘气体靠近中心时可被加热到约 1,200 万 °C，并发出软 X 射线。'
-    - '核对 arXiv 1207.2693：非旋转黑洞的广义相对论磁流体模拟通过改变质量吸积率复现不同 X 射线状态。'
+    - 核对 arXiv 1207.2693：非旋转黑洞的广义相对论磁流体模拟通过改变质量吸积率复现不同 X 射线状态。
     - 取 10⁷ K 作量级坐标，正文明确它依赖黑洞质量与吸积率，并与日冕、视界温度区分。
-    - '2026-11-07 来源可访问性核对：全部来源页返回可用响应（https://svs.gsfc.nasa.gov/11206；https://arxiv.org/abs/1207.2693），数值口径与正文一致。'
+    - >-
+      2026-11-07
+      来源可访问性核对：全部来源页返回可用响应（https://svs.gsfc.nasa.gov/11206；https://arxiv.org/abs/1207.2693），数值口径与正文一致。
 rights:
   status: rewritten
   note: 依据所列资料重新撰写，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -81,3 +89,5 @@ tags:
 ## 与其他温区的关系
 
 10⁷ K 约为太阳核心 1.57 × 10⁷ K 的一半，远高于太阳表面 5,772 K，也高于中子星表面约 2 × 10⁶ K 的例子。它低于核心坍缩超新星的 10¹¹ K 量级，更远低于夸克–胶子等离子体约 1.8 × 10¹² K 的理论温标。比较时要注意，这些数值分别属于盘气体、恒星核心、中子星表面和理论相变，并不是同一种测量对象。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

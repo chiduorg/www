@@ -17,12 +17,12 @@ quantity:
   uncertaintyType: 点火门槛与模型差异
 displayValue: 约 10⁸ K（氦燃烧参考）
 related:
+  - space.sun
+  - mass.sun
   - temperature.carbon-fusion
   - temperature.oxygen-fusion
   - temperature.sun-core
   - temperature.sun-surface
-  - temperature.silicon-burning
-  - temperature.agb-surface
 reviewStatus: reviewed
 sources:
   - title: What is Your Cosmic Connection to the Elements?
@@ -33,6 +33,10 @@ sources:
     url: 'https://ned.ipac.caltech.edu/level5/Sept16/Rauscher/Rauscher4.html'
     publisher: 'T. Rauscher and A. Patkos, NASA/IPAC NED'
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: red-giant-core
   icon: "\U0001F534"
@@ -92,3 +96,5 @@ tags:
 ## 与其他温区的关系
 
 10⁸ K 高于太阳核心的约 15 MK，也高于红巨星光球的几千开；它低于碳燃烧的约 0.7 GK 和氧燃烧的约 2 GK。把它放在温区图上，必须同时标出“核心”与“光球”两个位置，否则会把红巨星的低温外表和一亿开的核心混为一谈。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

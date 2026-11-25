@@ -18,6 +18,7 @@ related:
   - time.middle-ages
   - time.egyptian-pyramids
   - time.renaissance
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Roman Empire
@@ -28,6 +29,14 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/biography/Augustus-Roman-emperor'
     accessed: '2026-11-07'
+  - title: "The Middle Ages, an introduction"
+    url: "https://smarthistory.org/introduction-to-the-middle-ages/"
+    publisher: "Smarthistory"
+    accessed: '2026-11-24'
+  - title: "The Giza Project"
+    url: "https://giza.fas.harvard.edu/"
+    publisher: "Harvard University"
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -84,3 +93,23 @@ Britannica 的罗马帝国条目把年代写作公元前27年至公元476年；�
 ## 与其他阶段的关系
 
 罗马帝国前接古典时代与铁器时代的地中海世界，后接中世纪、拜占庭和伊斯兰文明。它的道路、法律、城市和拉丁语影响了后来的欧洲，也与更早的埃及和两河流域文明形成对照。[1][2] 在时间轴上，公元前27年是一个制度节点，而非整个古代世界的终点。
+
+## 元首制不是一夜建成
+
+公元前27年的“恢复共和”安排，把军队、行省与财政的实际权力集中到屋大维手中，同时保留元老院、执政官与共和头衔。[1][2] 这是一种模糊的制度：名义上共和，实质上由一位统治者主导。把这一天当成“帝国开关”，会忽略共和晚期的内战与权力集中。
+
+## 五轴对照
+
+在时间轴，罗马帝国始于公元前27年；在空间轴，它横跨地中海与欧亚非；在温度轴，不同行省的气候塑造农业与补给；在质量轴，帝国的人口与粮食运输支撑城市。制度、地理与资源共同维持帝国。[1][2]
+
+## 共和到元首制不是一天完成
+
+罗马从共和国转向元首制经历内战、凯撒独裁与屋大维胜利；公元前 27 年的“恢复共和”只是制度包装，实权已集中。帝国边界、行省数量与公民权也在数百年中变化。正文的“帝国建立”是政治体制的转折点，不是一条清晰的建国日。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 约公元前27年 · 距今约2000年 · t ≈ 138 亿年，口径是 time-after-big-bang-derived-historical-reference。时间轴上的年份是地层、文献或模型给出的坐标，误差从几十年到几十万年不等；分期边界不是一条绝对精确的线。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [3]（Smarthistory）、[4]（Harvard University） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

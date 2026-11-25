@@ -18,6 +18,7 @@ related:
   - space.swordfish
   - space.octopus
   - space.shark
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Atlantic Cod
@@ -28,6 +29,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Gadus_morhua/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为大西洋鳕（Gadus morhua）；量吻端到尾鳍末端的体长，不是叉长、体重或只量躯干；1.5 m取在NOAA美国记录130 cm与ADW上限200 cm之间，是大型个体参照。
 uncertainty: >-
@@ -76,3 +81,7 @@ NOAA Fisheries的大西洋鳕页面给出：体长可达51英寸（约130厘米�
 ## 与其他尺度的关系
 
 1.5米约为0.9个1.7米高的人，比1米长的大西洋鲑长0.5米，是3米蓝鳍金枪鱼体长的一半，比4米尼罗河鳄的全长短2.5米。[1][2] 在尺度轴上，它处在“一米级”鱼类的上端：向上是金枪鱼和剑鱼，向下是鲑和蜂鸟。用吻端到尾鳍末端的体长，才能把它与用翼展、盘宽描述的动物区分开。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 5.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

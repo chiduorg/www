@@ -20,6 +20,7 @@ related:
   - temperature.liquid-hydrogen
   - temperature.methane-boiling
   - temperature.absolute-zero
+  - space.moon
 reviewStatus: reviewed
 sources:
   - title: 'Argon: phase change data'
@@ -30,6 +31,10 @@ sources:
     url: 'https://periodic-table.rsc.org/element/18/argon/'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   纯氩在 1 atm（101.325 kPa）下液—气平衡的正常沸点参考；不是约 83.8 K、对应更低压力的三相点，
   也不适用于含氧、氮等杂质的工业氩或加压储罐中的液氩。
@@ -81,3 +86,5 @@ NIST 同一数据页还列出三相点约 83.8 K，对应比 1 atm 更低的压�
 ## 与其他温区的关系
 
 在低温尺度上，87.3 K 位于液氮与液氧之间，远高于液氦的 4.22 K 和液氢的 20.3 K，也高于绝对零度。[1][2] 工业上氩来自空气分馏，液氩可作为惰性低温介质；比较时仍要说明压力、纯度和相态，不能只看一个沸点数字。焊接保护气、金属冶炼与低温清洗是常见用途，储运安全仍要按低温液体规范处理。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -18,6 +18,7 @@ related:
   - time.mesoarchean
   - time.great-oxidation-event
   - time.first-continents
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,10 @@ sources:
     url: 'https://macrostrat.org/api/defs/intervals?interval_name=Neoarchean'
     publisher: Macrostrat, University of Wisconsin–Madison
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -80,3 +85,5 @@ tags:
 ## 与其他尺度的关系
 
 新太古代距今约 28 亿年，约是地球年龄的 62%。[1] 它晚于中太古代（约 32 亿至 28 亿年），早于古元古代（约 25 亿至 16 亿年）；与最早大陆、最古老锆石等条目相比，它更接近现代大陆轮廓形成的前夜。[2] 若把 45.4 亿年压缩成一年，28 亿年大致落在八月中旬，剩余历史约占四个半月。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

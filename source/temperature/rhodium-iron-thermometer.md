@@ -19,11 +19,12 @@ quantity:
     unit: K
 displayValue: 参考函数约 0.65–24.5561 K（轴取0.65 K）
 related:
+  - space.moon
+  - mass.helium-nucleus
   - temperature.neon-triple-point
   - temperature.dilution-refrigerator
   - temperature.nuclear-demagnetization-cooling
   - temperature.absolute-zero
-  - temperature.helium-3-superfluid
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -39,6 +40,10 @@ sources:
     url: 'https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=908763'
     publisher: NIST / Special Publication 250-91
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: rhodium-iron-thermometer
   icon: "\U0001F321"
@@ -100,3 +105,5 @@ NIST 的研究汇总了 60 支不同批次铑铁温度计的数据，建立了�
 ## 与其他温区的关系
 
 0.65 K 低于液氦-4 的 2.17 K 超流转变，也低于液氦的 4.2 K 沸点，因此这类温度计常与稀释制冷或氦-3 系统配合。它与核退磁实验的 421 μK、氦-3 的 2.444 mK 相比仍属较暖的低温段，适合做温标传递而不是极限冷却。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

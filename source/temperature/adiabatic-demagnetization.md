@@ -20,6 +20,7 @@ related:
   - temperature.absolute-zero
   - temperature.laser-cooling
   - temperature.squid-working-temperature
+  - space.cmb-surface
 reviewStatus: reviewed
 sources:
   - title: 'X-ray Microcalorimeter Spectrometer: cooling system'

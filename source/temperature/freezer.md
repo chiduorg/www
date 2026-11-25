@@ -19,6 +19,7 @@ related:
   - temperature.permafrost
   - temperature.dry-ice-sublimation
   - temperature.ice-cream-freezer
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Freezing and Food Safety
@@ -30,6 +31,10 @@ sources:
     url: 'https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts'
     publisher: FoodSafety.gov (USDA/FDA/HHS)
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 冷冻室空气
   measurementSite: 冷冻室中部，避开出风口与门架
@@ -78,3 +83,5 @@ tags:
 ## 与其他温度的关系
 
 −18 ℃ 低于 fridge 的 4 ℃ 和 water-freezing 的 0 ℃，也低于 human-body-temperature 与 room-temperature。它高于 absolute-zero，却低于 permafrost 的约 −10 ℃ 和 dry-ice-sublimation 的约 −78.5 ℃。这个温度处在家用冷冻与低温工程的交界处：对食品足够冷，但远未达到液氮或液氦温区。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

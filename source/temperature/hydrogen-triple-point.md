@@ -18,6 +18,7 @@ related:
   - temperature.liquid-helium
   - temperature.absolute-zero
   - temperature.nitrogen-triple-point
+  - space.cmb-surface
 reviewStatus: reviewed
 sources:
   - title: NIST Chemistry WebBook — Hydrogen phase change data
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.nist.gov/si-redefinition/kelvin/kelvin-its-90'
     publisher: NIST
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 平衡氢样品，固、液、气三相在约 7.2 kPa 的低压下共存。
 uncertainty: ITS-90 赋值 13.8033 K；NIST WebBook 另列 13.95–13.96 K，差异来自样品正—仲态比例与测量方法。
 review:
@@ -72,3 +77,5 @@ ITS-90 把平衡氢三相点列为定义固定点，赋值 13.8033 K，用于标
 ## 与其他尺度的关系
 
 13.8 K 约为液氢沸点 20.3 K 的 0.68 倍，低于 20.3 K，高于液氦的 4.22 K，也远高于绝对零度。[1][2] 与 20.3 K 相比，它低约 6.5 K；它把氢的固相区与液相区在相图上区分开来。把既有参照排在一起：液氦 4.22 K、液氢 20.3 K、液氮 77.34 K、液氧 90.2 K、甲烷沸点 111.7 K、氨沸点 239.8 K；13.8 K 位于液氦与液氢之间。13.8 K 约为宇宙微波背景 2.725 K 的 5.1 倍，也约为液氦 4.22 K 的 3.3 倍。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

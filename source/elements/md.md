@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/101/mendelevium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 锕系, 钔]
 rights:
   status: rewritten
@@ -70,3 +74,5 @@ rights:
 ## 它从哪里来
 
 来源记作“人工（加速器）”。钔由加速器中的离子轰击锕系靶核得到，产量极低，只能靠衰变链识别。[2] 挂到核时代节点之后：它的存在完全依赖人类制造的束流与靶。钔没有稳定同位素，任何宏观样品都无法长期保存，这也是它只能以单原子化学方式研究的原因。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

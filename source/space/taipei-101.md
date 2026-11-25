@@ -16,6 +16,7 @@ related:
   - space.burj-khalifa
   - space.eiffel-tower
   - space.city
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: Taipei 101 Mall — Audio Guide
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.great-towers.com/tower/taipei-101'
     publisher: World Federation of Great Towers
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为台北市信义区的台北 101 大楼；测量口径为建筑总高，从地面到塔顶，含塔尖与顶部结构；不是最高楼层、观景台高度或城市海拔。
 uncertainty: 来源登记总高 508 米；部分数据库给出建筑高度 508.2 米、到尖端 509.2 米，差异来自端点与精度，不能把 508 米当成可到达高度。
 review:
@@ -71,3 +76,14 @@ tags:
 ## 与其他尺度的关系
 
 508 米约为上海中心大厦 632 米的 80%，约为哈利法塔 828 米的 61%。它比埃菲尔铁塔 330 米高约 1.54 倍，也约为自由女神像含基座 92.99 米的 5.5 倍。[2] 在台北城市尺度中，它是一座显著地标，但高度仍不到一公里的量级。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.7 微秒，在时间轴上量级接近「微秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 508 米，换算后是 508 米；约 3.99×10⁻⁵ 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

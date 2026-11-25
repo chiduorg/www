@@ -16,6 +16,7 @@ related:
   - space.ovum
   - space.chromosome
   - space.red-blood-cell
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Histology at SIU, Testis'
@@ -26,6 +27,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5029953/'
     publisher: 'International Journal of Molecular Medicine / PMC, NCBI'
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 精液涂片或组织切片经固定染色后在光学显微镜下测量；固定、涂片铺展与尾部弯曲程度都会影响全长读数。
 uncertainty: 60 μm 是成熟人精子的全长代表值；头部长度约 3–5 μm、尾部约 45–50 μm，不同个体、制样与测量方式可给出约 50–65 μm 的分布。
 review:
@@ -72,3 +77,7 @@ tags:
 ## 与其他尺度的关系
 
 60 μm 约等于红细胞直径的八倍，也接近一根头发直径的九成[1]。它比卵细胞（约 120 μm）短一半，但比中性粒细胞（约 15 μm）长四倍。若把精子放在 1 mm 的刻度上，它只占百分之六；然而其尾部每秒可摆动多次，使这个微小细胞能在生殖道内完成长距离运动。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.00020 纳秒，在时间轴上量级接近「纳秒」。[3]

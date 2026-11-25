@@ -20,6 +20,7 @@ related:
   - temperature.paper-autoignition
   - temperature.boiling-water
   - temperature.forest-fire
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: A citizen's guide to incineration
@@ -85,3 +86,10 @@ tags:
 ## 与其他温区的关系
 
 1,273 K 高于纸的自动点火温度约 505 K 和水的沸点 373 K，低于水泥窑烧成带的 1,723 K。它与火化炉的约 1,073 K 相近，但垃圾焚烧更强调烟气停留时间和二噁英分解。[1][3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1273 K，即 999.9 ℃（按 T/K−273.15 换算）；约为水的沸点（373.1 K）的 3.41 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10³ 量级附近。
+
+读图时先看量级，再看倍数：10³ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

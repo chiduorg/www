@@ -28,6 +28,10 @@ sources:
     url: 'https://ned.ipac.caltech.edu/level5/March06/Padmanabhan/Nabhan2.html'
     publisher: NASA/IPAC Extragalactic Database (NED), Caltech
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为辐射主导早期宇宙中的光子—电子—正电子等离子体；取电子对产生与湮灭明显偏离平衡、湮灭接近尾声的温度量级；1.1×10¹⁰ K 为取整坐标，对应约 0.95 MeV。
 uncertainty: >-
@@ -73,3 +77,5 @@ tags:
 ## 与其他尺度的关系
 
 1.1×10¹⁰ K 约为太阳核心温度的 700 倍，与中微子退耦的约 10¹⁰ K 几乎同一量级，但两者描述不同事件：一个是对湮灭，一个是弱相互作用冻结。它高于大爆炸核合成的 10⁹ K 约一个数量级，低于夸克胶子等离子体的 10¹² K 约两个数量级，也远低于电弱过渡与普朗克温度。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

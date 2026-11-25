@@ -19,6 +19,7 @@ related:
   - temperature.bread_baking
   - temperature.dishwashing
   - temperature.hot-spring
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Two New Bonavita Coffee Brewers Join the SCA Certified Home Brewer Lineup
@@ -33,6 +34,10 @@ sources:
       https://sca.coffee/sca-news/read/just-published-brewing-temperature-and-the-sensory-profile-of-brewed-coffee-37dt6
     publisher: Specialty Coffee Association (SCA)
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 水
   measurementSite: 水与咖啡粉接触处
@@ -81,3 +86,12 @@ tags:
 ## 与其他温度的关系
 
 365 K 低于 boiling-water 的 373.15 K，只差约 8 K，所以高海拔时沸水可能落进这个区间。它高于 human-body-temperature 的约 310 K，也高于 dishwashing 的 333 K。与 oven 的 453 K 相比，咖啡冲泡属于“接近沸点但未沸腾”的温区，这个窄带正是萃取化学最活跃的范围。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 365 K，即 91.85 ℃（按 T/K−273.15 换算）；约为水的沸点（373.1 K）的 0.978 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

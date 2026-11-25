@@ -17,6 +17,7 @@ related:
   - space.atom
   - space.crystal-lattice
   - space.urea
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: 'CCCBDB experimental geometry for methane — CAS 74-82-8, charge 0'
@@ -27,6 +28,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11243175/'
     publisher: Nanomaterials (MDPI) / PubMed Central
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取中性气相 CH4 的正四面体平衡几何；0.38 nm 是动力学直径/范德华尺度口径，不是 C–H 键长（1.087 Å），
   也不是两个氢核之间的距离（约 1.78 Å）。该口径适用于气体碰撞与孔道筛分，不适用于液态或水合甲烷。
@@ -79,3 +84,7 @@ NIST CCCBDB 的实验几何页给出甲烷的 C—H 键长为 1.087 埃，H—C�
 ## 与其他尺度的关系
 
 0.38 纳米比二氧化碳的 0.33 纳米略大，却仍远小于蛋白质与细胞。[2] 在气体分离与吸附研究中，甲烷、二氧化碳、氮气和氧分子常用同一套动力学直径比较，因此“分子大小”在这里是一种工程口径，而不是几何外壳。继续阅读二氧化碳、氧分子、氮分子与水分子，可看到同一尺度轴上不同口径的差别。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.3e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

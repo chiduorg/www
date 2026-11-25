@@ -17,11 +17,12 @@ quantity:
   uncertaintyType: 本影/半影与活动区差异
 displayValue: '约 4,000 K（区域参考）'
 related:
+  - space.sun
+  - time.first-stars
   - temperature.sun-surface
   - temperature.solar-chromosphere
   - temperature.solar-transition-region
   - temperature.solar-corona
-  - temperature.sun-core
 reviewStatus: reviewed
 sources:
   - title: Introduction to the Solar Interior and Atmosphere

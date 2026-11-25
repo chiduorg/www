@@ -4,7 +4,7 @@ title: 镧系收缩与相对论效应：重元素为什么反常
 titleEn: Lanthanide contraction and relativistic effects
 dimension: element
 category: 解释层
-summary: '4f 电子彼此屏蔽不良，使第六周期整体收缩；内层电子速度接近光速，又让 6s 轨道进一步收紧。汞在常温下是液体、金呈黄色、铂化学惰性，都由此而来。'
+summary: 4f 电子彼此屏蔽不良，使第六周期整体收缩；内层电子速度接近光速，又让 6s 轨道进一步收紧。汞在常温下是液体、金呈黄色、铂化学惰性，都由此而来。
 quantity:
   value: null
   unit: Z
@@ -17,14 +17,19 @@ related:
   - elements.xe
   - elements.explain-shielding
   - elements.explain-configuration
+  - space.atom
+  - mass.proton
 reviewStatus: reviewed
 review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与主题口径完整；本条为解释/方法/来源页，不参与 Z 排序，不对应单一原子序数。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - 本轮复核：结构、引用编号与主题口径完整；本条为解释/方法/来源页，不参与 Z 排序，不对应单一原子序数。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: lanthanide contraction
     url: 'https://www.britannica.com/science/lanthanide-contraction'
@@ -35,8 +40,9 @@ sources:
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-08'
   - title: '6.4: Electronic Structure of Atoms (Electron Configurations)'
-    url: 'https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/06%3A_Electronic_Structure_and_Periodic_Properties/6.04%3A_Electronic_Structure_of_Atoms_(Electron_Configurations)'
-    publisher: 'LibreTexts / OpenStax Chemistry 2e'
+    url: >-
+      https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/06%3A_Electronic_Structure_and_Periodic_Properties/6.04%3A_Electronic_Structure_of_Atoms_(Electron_Configurations)
+    publisher: LibreTexts / OpenStax Chemistry 2e
     accessed: '2026-11-08'
 conditions: 解释 4f 屏蔽不足与相对论收缩的定性机制；数值半径与颜色成因涉及能带与相对论计算，不在本页给出精确值。
 visual:

@@ -18,6 +18,7 @@ related:
   - space.ginkgo
   - space.baobab
   - space.human
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: 'Saguaro Cactus'
@@ -28,6 +29,10 @@ sources:
     url: 'https://arboretum.arizona.edu/snyder-preserve-carnegiea-gigantea'
     publisher: University of Arizona Campus Arboretum
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为大型柱状仙人掌，以巨柱仙人掌 Carnegiea gigantea 为代表；量地面到直立主茎顶端的垂直高度，不含茎粗、臂展或根系范围；3 m 取在成熟高度区间的下限。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 3 m 约为向日葵株高（2 m）的 1.5 倍，约为人类身高（1.7 m）的 1.8 倍，也约为棕榈树高度（15 m）的五分之一。它处在小型树到大型草本的交界：向上是银杏和猴面包树，向下是玫瑰和苔藓。与巨柱仙人掌相比，3 m 只是其高度区间的下限，向上还有 12 m 以上的个体。[1] 3 m 也约为巨杉高度（95 m）的三十二分之一。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 10 纳秒，在时间轴上量级接近「原子跃迁」。[3]

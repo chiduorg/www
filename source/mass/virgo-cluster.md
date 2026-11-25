@@ -5,7 +5,7 @@ summary: >-
   室女座星系团是离我们最近的富星系团，总质量约 2.4×10⁴⁵ kg，折合约 1.2×10¹⁵ 个太阳质量，口径包含暗物质。数值由 X
   射线热气与成员速度弥散联合给出，相对不确定度约 30%。
 dimension: mass
-category: 星系团
+category: 星系与宇宙
 displayValue: 2.4×10⁴⁵ kg
 quantity:
   value: 2.4e+45
@@ -24,8 +24,9 @@ related:
   - mass.m87-galaxy
   - mass.coma-cluster
   - mass.local-group
-  - mass.laniakea
+  - space.virgo-cluster
   - space.galaxy-cluster
+  - time.first-galaxies
 reviewStatus: reviewed
 review:
   method: source-check
@@ -54,6 +55,14 @@ sources:
     url: 'https://chandra.harvard.edu/'
     publisher: NASA/CXC
     accessed: '2026-11-09'
+  - title: "ESA Science"
+    url: "https://www.esa.int/"
+    publisher: "European Space Agency"
+    accessed: '2026-11-24'
+  - title: "Constellation of Virgo and Coma Berenices (ground-based image)"
+    url: "https://esahubble.org/images/heic0815h/"
+    publisher: "ESA / Hubble"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 星系团
@@ -81,6 +90,7 @@ visual:
   color: '#a6bfff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Virgo Cluster
 ---
 ## 这个读数是什么
 
@@ -98,6 +108,30 @@ X 射线望远镜测得团内气体的表面亮度与温度剖面，由流体静
 
 2.4×10⁴⁵ kg 位于 B15 带上段，约为天炉座星系团的十七倍，约为后发座星系团的八成。[1] 它是本超星系团的引力核心，银河系所在的本星系群只是它外围的一个小成员。这个总质量约为银河系的八百倍，星系团这一级的质量尺度由此可见。
 
+## 高温气体是可见的质量大头
+
+室女座星系团的重子质量大部分不是恒星，而是团内炽热气体，温度可达数千万 K，发出 X 射线。恒星只占重子的一小部分，暗物质则占主导。把星系团质量等同于成员星系质量之和，会低估一个量级以上。[1][S2]
+
+室女座星系团的质量还依赖成员判定：前景/背景星系投影会污染速度弥散，X 射线气体是否处于流体静力学平衡也受子结构影响。1.2×10¹⁵ 太阳质量是统计估计，不是精确称重。
+
+室女座星系团质量还可以用弱引力透镜测量：背景星系形状的剪切给出投影质量，与 X 射线气体和速度弥散互相校验。
+
 ## 怎么继续走
 
 想看它的中心巨星系，去 mass.m87-galaxy；想看更重的星系团，去 mass.coma-cluster；想看自己所在星系群的起点，去 mass.local-group；想理解这类系统的空间图景，可去 space.galaxy-cluster。[2] 这四条把室女座星系团放进中心、对比、起点与图景四个视角。若想继续往外，可去 mass.laniakea 看它所属的超星系团。
+
+## 高温气体是可见的质量大头
+
+室女座星系团的重子质量大部分不是恒星，而是团内炽热气体，温度可达数千万 K，发出 X 射线。[1][2] 恒星只占重子的一小部分，暗物质则占主导。把星系团质量等同于成员星系质量之和，会低估一个量级以上。
+
+## 五轴对照
+
+在质量轴，室女座星系团约 1.2×10¹⁵ 太阳质量；在空间轴，它距我们约 5,400 万光年；在时间轴，它仍在吸积成员；在温度轴，团内气体数千万 K。质量、气体温度与引力势共同定义星系团。[1][3]
+
+## 读数的口径与换算
+
+本条采用的量是 2.4×10⁴⁵ kg，口径是 室女座星系团总质量（含暗物质，约 1.2×10¹⁵ 太阳质量）；由 X 射线热气与成员速度弥散联合给出，相对不确定度约 30%。质量是广延量，读数依赖湿重/干重、含血/不含血、整备/满载等口径；样本与测量条件必须一起引用。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（European Space Agency）、[5]（ESA / Hubble） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

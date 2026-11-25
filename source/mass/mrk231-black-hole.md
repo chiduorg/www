@@ -5,7 +5,7 @@ summary: >-
   Mrk 231 是一个正在并合的极亮红外星系，中心黑洞质量约 2.98×10³⁸
   kg，折合约一亿五千万个太阳质量。源被尘埃严重遮蔽，只能靠反响映射与模型联合拟合，相对不确定度约 30%，属于量级估算。
 dimension: mass
-category: 黑洞
+category: 恒星与致密天体
 displayValue: 2.98×10³⁸ kg
 quantity:
   value: 2.98e+38
@@ -79,6 +79,7 @@ visual:
   color: '#ff9a4a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Mrk 231 black hole
 ---
 ## 这个读数是什么
 

@@ -5,7 +5,7 @@ summary: >-
   以大脑皮层锥体细胞为代表，一个人类神经元的湿重均值估计约 1.0×10⁻¹² kg（1
   ng），不确定度可达一个量级。胞体与树突、轴突的体积很难完整测量，条目只能给量级，不给精确值。
 dimension: mass
-category: 神经细胞
+category: 生命与人体
 displayValue: 1.0×10⁻¹² kg
 quantity:
   value: 1.e-12
@@ -18,6 +18,8 @@ related:
   - mass.human-cell
   - mass.red-blood-cell
   - space.cell
+  - mass.human-brain
+  - temperature.human-body-temperature
 reviewStatus: reviewed
 review:
   method: source-check
@@ -46,6 +48,14 @@ sources:
     url: 'https://www.nature.com/'
     publisher: Nature Portfolio
     accessed: '2026-11-09'
+  - title: "Cells of the nervous system (Chapter 2 slides)"
+    url: "https://labs.la.utexas.edu/gonzalez-lima/files/2016/03/Chapter-2-slides-2.pdf"
+    publisher: "University of Texas at Austin"
+    accessed: '2026-11-24'
+  - title: "Cell Press"
+    url: "https://www.cell.com/"
+    publisher: "Elsevier"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 神经元
@@ -70,6 +80,7 @@ visual:
   color: '#b48cff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Human neuron
 ---
 ## 这个读数是什么
 
@@ -87,6 +98,30 @@ visual:
 
 1.0×10⁻¹² kg 与 HeLa 细胞同处 B5 带中段，但两者的构成完全不同：HeLa 细胞的质量集中在胞体，神经元的质量有相当部分在细长的突起里。它比红细胞重约十倍，比卵细胞轻约九百倍。人脑约 860 亿个神经元，若每个按 1 ng 计，仅神经元本体就有约 86 克。
 
+## 突起占多少质量
+
+神经元的质量有相当部分在树突和轴突里，而这些突起极细，完整重建困难。只称胞体、或只按胞体直径估算，会严重低估整个神经元的质量。不同神经元类型的突起比例差异很大，因此 1 纳克只是量级。[1][S2]
+
+神经元质量还与髓鞘有关：有髓轴突的髓鞘由胶质细胞包裹，不计算在神经元本体质量内；若把髓鞘算进去，白质中的轴突质量会显著增加。
+
+神经元质量还可以按蛋白含量估算：单个神经元蛋白约 0.1–0.3 纳克，其余是水、脂质与核酸；质量口径不同，数字会差几倍。
+
 ## 怎么继续走
 
 想看神经元在空间轴上的形态与尺度，去 space.neuron；想看普通人体细胞的量级，去 mass.human-cell；想比较没有突起的细胞，去 mass.red-blood-cell。质量不能由长度直接推算，一米长的轴突可能只占极小一部分质量。
+
+## 突起质量怎么估
+
+神经元的质量有相当部分在树突和轴突里，而这些突起极细，完整重建困难。[1] 只称胞体、或只按胞体直径估算，会严重低估整个神经元的质量。不同神经元类型的突起比例差异很大，因此 1 纳克只是量级。
+
+## 五轴对照
+
+在质量轴，神经元约 10⁻¹² 千克；在空间轴，胞体约 20 微米、轴突可到厘米级；在时间轴，神经元发育与学习改变突起；在温度轴，体温影响膜与酶。质量不能由胞体直径直接推算。[1][2]
+
+## 读数的口径与换算
+
+本条采用的量是 1.0×10⁻¹² kg，口径是 以皮层锥体细胞为代表的单个神经元湿重均值估计；由胞体与突起的三维重建体积及干湿比换算，不确定度约一个量级。质量是广延量，读数依赖湿重/干重、含血/不含血、整备/满载等口径；样本与测量条件必须一起引用。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（University of Texas at Austin）、[5]（Elsevier） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

@@ -30,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/science/crystal'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   采用硅的金刚石立方结构，晶格参数 a = 0.5431020511 纳米；最近邻原子间距按 a√3/4 换算为约 0.2352
   纳米。该值适用于硅晶体，不是所有晶体的通用原子间距；离子晶体、金属与分子晶体的最近邻距离不同。
@@ -79,3 +83,5 @@ tags:
 ## 与其他尺度的关系
 
 0.235 纳米处在原子间距的常见范围，与苯环碳间距、石墨烯层间距同一量级，却远小于晶粒、量子点与器件尺寸。[1][2] 晶格间距是“原子如何堆成固体”的基本尺度：它决定了 X 射线衍射峰的位置，也影响声子、电子能带与力学性质。继续阅读石墨烯、碳纳米管、苯分子与量子点，可比较分子内键长、层间距与晶体周期性的不同口径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

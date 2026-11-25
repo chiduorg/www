@@ -17,6 +17,7 @@ related:
   - space.bookshelf
   - space.bed
   - space.door
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: NORDLI 五斗抽屉柜, 白色, 120x76 厘米 — 商品尺寸
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.ikea.com/es/en/p/nordli-chest-of-5-drawers-white-s09295286/'
     publisher: IKEA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为五抽抽屉柜；测量口径为柜体正面从左外缘到右外缘的最大宽度，不含拉手、外挂件和抽屉拉开后的延伸。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 1.2 米约为成年人手长 20 厘米的 6 倍，也约为 A4 纸长边 29.7 厘米的 4 倍。它比 118 厘米的茶几长 2 厘米，比 70 厘米的 T 恤衣长长 50 厘米。摆在卧室里，1.2 米宽的柜子通常占去一面墙的一半，旁边还能留出约 60 厘米的走动空间。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

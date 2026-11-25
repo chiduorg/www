@@ -5,7 +5,7 @@ summary: >-
   12 m 级柴油城市公交的整备质量约 12,000 kg，含车身、底盘、空调、座椅与全部油液，不含乘客。同长度纯电动车型因电池通常再重 2–3
   t，最大允许总质量约 18–19.5 t。
 dimension: mass
-category: 车辆
+category: 工程与交通
 displayValue: '12,000 kg'
 quantity:
   value: 12000
@@ -71,6 +71,7 @@ visual:
   color: '#e6c17c'
   scaleMin: -40
   scaleMax: 53
+titleEn: City bus
 ---
 ## 这个读数是什么
 

@@ -17,6 +17,7 @@ related:
   - space.milky-way
   - space.light-year
   - time.galaxy-formation
+  - mass.total-matter-universe
 reviewStatus: reviewed
 sources:
   - title: 'Gott et al. (2005), A Map of the Universe, §II'
@@ -31,6 +32,14 @@ sources:
     url: 'https://www.nist.gov/measuring-cosmos/how-was-universe-born'
     publisher: NIST
     accessed: '2026-11-04'
+  - title: "universe"
+    url: "https://www.britannica.com/topic/universe"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
+  - title: "How Did the Solar System Form?"
+    url: "https://spaceplace.nasa.gov/solar-system-formation/en/"
+    publisher: "NASA Space Place"
+    accessed: '2026-11-24'
 legacy:
   id: observable-universe
   icon: "\U0001F320"
@@ -79,3 +88,27 @@ tags:
 ## 比较时保留模型边界
 
 从银河系向外探索，可以逐步进入星系群和大尺度结构，但不能只因模型用了球形边界，就断言宇宙以我们为物理中心，或边界外什么都没有。NASA也提醒，关于宇宙的气球等类比最终都会失效。[2] 本页固定采用已注明版本的视界直径约数，不把长小数或精致图景当成额外观测精度。[1]
+
+## 粒子视界与共动距离
+
+可观测宇宙的半径通常指粒子视界：从大爆炸到今天，光最多能走过的共动距离。[1] 它不是“宇宙年龄乘以光速”的简单乘积，因为空间在光传播期间也在膨胀。共动距离把膨胀因子提出来，便于比较不同时代的结构；光行距离则描述光实际走过的路径。三种距离不能互换。
+
+## 为什么边缘不是墙
+
+粒子视界是一个观测极限，不是物质边界。视界之外的光还没有足够时间到达我们，但那里的空间可能仍在延续。[1][2] 随着时间推移，粒子视界会略微扩大，更多遥远区域进入可见范围；宇宙加速膨胀又会让某些区域逐渐退出。可观测宇宙因此是动态的，不是固定球壳。
+
+## 五轴对照
+
+在空间轴，可观测宇宙直径约 930 亿光年；在时间轴，它对应 138 亿年的光传播历史；在质量轴，总物质约 9.9×10⁵³ 千克；在温度轴，微波背景约 2.7 K。四个数分别描述范围、年龄、质量和遗迹温度。[1][3]
+
+## 共动距离与光行距离
+
+可观测宇宙半径约 465 亿光年，是共动距离；宇宙年龄 138 亿年对应的是光行时间，不是半径。因为空间在膨胀，最远可见光走过的“即时距离”大于 138 亿光年。把 138 亿年直接换成 138 亿光年，会混淆两种距离口径。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 约 8.8 × 10²⁶ m（约930亿光年，模型估算），口径是 特定宇宙学模型中当前时刻粒子视界直径的约数。空间轴上的长度还要区分半径、直径、距离与投影跨度；同一对象在不同参考面下会给出不同数值。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（Encyclopaedia Britannica）、[5]（NASA Space Place） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

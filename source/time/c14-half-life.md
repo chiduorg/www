@@ -29,6 +29,15 @@ sources:
     url: 'https://www.britannica.com/science/carbon-14'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'International Chronostratigraphic Chart, version 2024/12'
+    url: 'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf'
+    publisher: International Commission on Stratigraphy
+    accessed: '2026-11-24'
+  - title: Early Life on Earth – Animal Origins
+    url: >-
+      https://naturalhistory.si.edu/education/teaching-resources/life-science/early-life-earth-animal-origins
+    publisher: Smithsonian National Museum of Natural History
+    accessed: '2026-11-24'
 chronology:
   status: duration
   plot: false
@@ -79,3 +88,11 @@ tags:
 ## 与其他尺度的关系
 
 与铀-238 的四十多亿年半衰期相比，碳-14 的寿命短得多；与人的寿命相比，它又长得多。正因为这个中间位置，碳-14 适合给较近的考古与古环境样品断代，而更古老的地质样品通常要用寿命更长的核素。[1][2] 它属于核素寿命尺度，不进入宇宙事件的时间轴；把它放到“大爆炸后多少秒”的位置，会混淆“持续多久”和“发生在何时”。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（International Commission on Stratigraphy）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（Smithsonian National Museum of Natural History）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

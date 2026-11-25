@@ -1,6 +1,6 @@
 ---
 id: time.meiji-restoration
-title: '明治维新开始：1868年'
+title: 明治维新开始：1868年
 titleEn: Meiji Restoration Begins
 dimension: cosmic-time
 category: 人类与文明
@@ -17,16 +17,21 @@ related:
   - time.world-war-i
   - time.digital-age
   - time.present
+  - space.city
 reviewStatus: reviewed
 sources:
-  - title: 'Meiji Restoration'
+  - title: Meiji Restoration
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/event/Meiji-Restoration'
     accessed: '2026-11-07'
-  - title: 'Meiji'
+  - title: Meiji
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/biography/Meiji'
     accessed: '2026-11-07'
+  - title: Climate and the collection
+    url: 'https://blog.sciencemuseumgroup.org.uk/climate-and-the-collection/'
+    publisher: Science Museum Group
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -45,8 +50,8 @@ review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。'
-    - '2026-11-07 写作阶段已用 WebFetch 打开 Britannica 明治维新条目与明治天皇条目核对年代。'
+    - 2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。
+    - 2026-11-07 写作阶段已用 WebFetch 打开 Britannica 明治维新条目与明治天皇条目核对年代。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -82,3 +87,7 @@ tags:
 ## 与其他阶段的关系
 
 明治维新发生在工业革命扩散到东亚的时期，前接幕末的对外危机，后接日本的工业化、帝国扩张与第一次世界大战。[1][2] 与工业革命相比，明治维新的时间更短、国家主导更强；与后来数字时代的技术追赶相比，它依靠的是蒸汽动力、铁路和电报。它改变的不只是日本，也改变了东亚的力量格局。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Science Museum Group）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

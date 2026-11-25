@@ -36,6 +36,10 @@ sources:
     url: 'https://science.nasa.gov/universe/stars/'
     publisher: National Aeronautics and Space Administration
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 conditions: 过程页；恒星质量与金属丰度决定 pp 链与 CNO 循环的相对贡献。
 visual:
   scene: elements.explain
@@ -68,3 +72,5 @@ CNO 循环不“消耗”碳氮氧，它们起催化作用，净效果仍是氢�
 ## 与其他阶段的关系
 
 恒星核合成把原初的氢氦加工成碳、氮、氧、氖、镁、硅等元素，为三α过程与铁峰铺路。[2] 它向上接大爆炸核合成，向下接 AGB 星与超新星。元素轴上碳、氮、氧三页的“来源”一栏都指向这条路径，而它们的具体产额还要看恒星质量与金属丰度。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

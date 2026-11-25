@@ -20,6 +20,7 @@ related:
   - time.oldest-rock
   - time.sun-age
   - time.moon-age
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: Age of the Earth
@@ -30,6 +31,14 @@ sources:
     url: 'https://www.britannica.com/place/Earth'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: "Facts About Earth — Formation"
+    url: "https://science.nasa.gov/earth/facts/"
+    publisher: "NASA"
+    accessed: '2026-11-24'
+  - title: "How Do You Know the Age of Fossils and Other Old Things?"
+    url: "https://www.nist.gov/how-do-you-measure-it/how-do-you-know-age-fossils-and-other-old-things"
+    publisher: "NIST"
+    accessed: '2026-11-24'
 chronology:
   status: duration
   plot: false
@@ -81,3 +90,15 @@ tags:
 ## 与其他尺度的关系
 
 45.4 亿年是 10¹⁷ 秒量级：它约为十亿秒的 31.69 年的 1.43 亿倍、一万亿秒的 3.17 万年的 14.3 万倍、一千万亿秒的 3169 万年的 14.3 倍、一百亿亿秒的 316.9 亿年的 0.143 倍。它比星系穿越星系团时间 100 亿年短一半多，却约为银河年 2.3 亿年的 19.7 倍[1]。它约为人类寿命 73 年的 622 万倍，也约为文明五千年记录的 9.08 万倍；这些倍数只用于定位尺度。
+
+## 误差账本：45.4 亿年不是“一次读数”
+
+铅-铅定年给出约 45.4 亿年，误差小于 1%；不同陨石、不同矿物与不同同位素体系会给出略有差异的年龄，但都落在 45.3–45.8 亿年的范围内。[1] 这个误差不是“小数点后几位”的测量精度，而是对地球与陨石共同演化系统的模型估计。把 45.4 亿年写成 45.400000000 亿年，会制造不存在的精度。
+
+## 五轴对照
+
+在时间轴，它是一段年龄，不是形成时刻的坐标；在空间轴，地球的当前直径与形成初期的尺寸并不相同；在质量轴，地球质量约 5.972×10²⁴ 千克，与年龄共同约束热演化；在温度轴，早期地球的岩浆海与今天的海表温度属于不同阶段。四条轴都在描述地球，却不能互相替代。[1][2]
+
+## 延伸核对
+
+补充的来源 [3]（NASA）、[4]（NIST） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

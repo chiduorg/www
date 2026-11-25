@@ -19,6 +19,7 @@ related:
   - temperature.ethanol_boiling
   - temperature.paper-autoignition
   - temperature.boiling-water
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: >-

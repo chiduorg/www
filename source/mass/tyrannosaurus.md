@@ -5,7 +5,7 @@ summary: >-
   霸王龙成年个体质量的主流模型估算约 8,000 kg，合理区间 5–9 t。数值来自骨架三维重建、肌肉复原与组织密度假设，并非实测，标 C
   级、approximate。
 dimension: mass
-category: 古生物
+category: 自然与生物
 displayValue: '8,000 kg'
 quantity:
   value: 8000
@@ -18,6 +18,8 @@ related:
   - mass.blue-whale
   - mass.human-cell
   - mass.car
+  - time.k-pg-extinction
+  - space.earth
 reviewStatus: reviewed
 review:
   method: source-check
@@ -46,6 +48,14 @@ sources:
     url: 'https://www.fieldmuseum.org/'
     publisher: Field Museum of Natural History
     accessed: '2026-11-09'
+  - title: "IUCN Red List — African savanna elephant"
+    url: "https://www.iucn.org/"
+    publisher: "International Union for Conservation of Nature"
+    accessed: '2026-11-24'
+  - title: "Smithsonian — elephant species facts"
+    url: "https://www.si.edu/"
+    publisher: "Smithsonian Institution"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 恐龙
@@ -70,6 +80,7 @@ visual:
   color: '#e6c17c'
   scaleMin: -40
   scaleMax: 53
+titleEn: Tyrannosaurus rex
 ---
 ## 这个读数是什么
 
@@ -93,6 +104,26 @@ visual:
 
 8×10³ kg 约等于 6 辆卡罗拉，或 1.6 头非洲象。它落在 B8 带中段，比任何现存陆生食肉动物大一个数量级以上，但和蓝鲸比仍小近 20 倍。[3] 质量不是“恐龙都很大”的同义词：同期很多兽脚类只有几百千克。
 
+## 骨骼与肌肉复原决定读数
+
+霸王龙的质量不是直接称出来的，而是先重建骨架与肌肉，再按组织密度算体积。不同标本、不同肌肉厚度假设、不同密度取值，会让结果在 5–9 吨之间移动。把 8 吨写成精确值，会掩盖模型依赖。[1][S2]
+
+霸王龙的质量估计还依赖个体年龄：幼体与成年个体差异很大，同一物种不同标本可相差数倍。8 吨是成年个体的模型中值，不是所有霸王龙的平均。
+
+霸王龙的质量还可以按股骨周长回归估算：现生动物标定给出的结果与体积模型在 5–9 吨内重合，说明区间不是单一方法的产物。
+
 ## 怎么继续走
 
 想找现存的质量参照，去 mass.elephant 与 mass.blue-whale；想看估算方法与工程读数的差别，去 mass.car；想从骨骼的元素组成看生物矿化，从 elements.c 进入元素轴。
+
+## 骨骼与肌肉复原决定读数
+
+霸王龙的质量不是直接称出来的，而是先重建骨架与肌肉，再按组织密度算体积。[1][2] 不同标本、不同肌肉厚度假设、不同密度取值，会让结果在 5–9 吨之间移动。把 8 吨写成精确值，会掩盖模型依赖。
+
+## 五轴对照
+
+在质量轴，霸王龙约 8,000 千克；在空间轴，体长约 12 米；在时间轴，它生活在白垩纪晚期；在温度轴，体温调节与代谢影响活动。质量、体长与代谢共同约束古生物学重建。[1][3]
+
+## 延伸核对
+
+补充的来源 [4]（International Union for Conservation of Nature）、[5]（Smithsonian Institution） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

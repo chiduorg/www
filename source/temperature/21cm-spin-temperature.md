@@ -23,6 +23,8 @@ related:
   - temperature.molecular-cloud
   - temperature.cmb
   - temperature.liquid-hydrogen
+  - space.moon
+  - mass.helium-nucleus
 reviewStatus: reviewed
 sources:
   - title: 'Essential Radio Astronomy, Chapter 7: Spectral Lines'
@@ -85,3 +87,10 @@ tags:
 ## 与星际介质和宇宙学的关系
 
 100 K 落在冷中性星际介质的典型温区，比分子云的约 10 K 暖，比电离氢区的约 10⁴ K 冷。[3] 在宇宙学中，21 厘米信号还被用来追踪早期中性氢，此时自旋温度与背景辐射温度的差异决定信号是发射还是吸收。理解这个口径，才能正确比较不同观测。
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 100 K，即 -173.1 ℃（按 T/K−273.15 换算）；约为液氮沸点（77 K）的 1.3 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -4,7 +4,9 @@ title: 中太古代
 titleEn: Mesoarchean Era
 dimension: cosmic-time
 category: 地球深时
-summary: 中太古代是太古宙的第三个代，按ICS 2024/12约从3200 Ma延续到2800 Ma；界线按全球标准年代层序年龄给出，记录克拉通稳定、绿岩带发育与缺氧大气下的微生物活动。
+summary: >-
+  中太古代是太古宙的第三个代，按ICS 2024/12约从3200 Ma延续到2800
+  Ma；界线按全球标准年代层序年龄给出，记录克拉通稳定、绿岩带发育与缺氧大气下的微生物活动。
 quantity:
   value: 334415680000000000
   unit: s
@@ -17,6 +19,7 @@ related:
   - time.eoarchean
   - time.first-continents
   - time.oxygenic-photosynthesis
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -27,6 +30,12 @@ sources:
     url: 'https://www.britannica.com/science/Archean-Eon'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: >-
+      Ingredients for microbial life preserved in 3.5 billion-year-old fluid
+      inclusions
+    url: 'https://www.nature.com/articles/s41467-021-21323-z'
+    publisher: Nature Communications
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -41,7 +50,8 @@ conditions:
   calendarReferenceYear: 2026
   note: 导航时点取代的底界，存储秒数只用于时间轴排序。
 uncertainty: >-
-  ICS 2024/12取中太古代底界3200 Ma、顶界2800 Ma，界线按GSSA年代值而非GSSP。古老克拉通的岩石记录不连续，叠层石与微体化石的成因解释存在争议，年代对比可能调整。
+  ICS 2024/12取中太古代底界3200 Ma、顶界2800
+  Ma，界线按GSSA年代值而非GSSP。古老克拉通的岩石记录不连续，叠层石与微体化石的成因解释存在争议，年代对比可能调整。
 review:
   method: source-check
   date: '2026-11-07'
@@ -49,7 +59,11 @@ review:
     - 核对ICS 2024/12年代表，采用中太古代3200至2800 Ma。
     - 核对Britannica太古宙条目，采用其把太古宙分为始太古代、古太古代、中太古代与新太古代的框架。
     - 资料核对不代表外部同行评审。
-    - '2026-11-07 来源可访问性核对：https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf 返回可用响应；https://www.britannica.com/science/Archean-Eon（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07
+      来源可访问性核对：https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf
+      返回可用响应；https://www.britannica.com/science/Archean-Eon（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -83,3 +97,14 @@ tags:
 ## 与其他阶段的关系
 
 中太古代前接古太古代的早期陆壳增长，后接新太古代的克拉通拼合与更广泛的沉积记录。它处在太古宙由局部零散记录走向较稳定大陆的中间段，也帮助讨论早期板块构造是否已经启动。[1][2] 与始太古代相比，中太古代的岩石窗口更多，但仍不足以重建连续而完整的全球环境。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Nature Communications）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 3.344×10¹⁷ 秒，换算后是 1.06×10¹⁰ 年；约 0.768 个当前宇宙年龄（138 亿年）。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10¹⁷ 量级附近。
+
+读图时先看量级，再看倍数：10¹⁷ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

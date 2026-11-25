@@ -16,6 +16,7 @@ related:
   - space.cell
   - space.capillary
   - space.platelet
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Histology, White Blood Cell'
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/white-blood-cell'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 血涂片经 Giemsa 或 Leishman 染色，在光学显微镜下测量贴壁、铺展前的细胞直径；抗凝、涂片厚度与细胞类型都会影响读数。
 uncertainty: 15 μm 是中性粒细胞 12–15 μm 范围的上端，用于与红细胞比较；淋巴细胞、单核细胞和嗜酸/嗜碱性粒细胞的直径各不相同，白细胞不是单一尺寸的细胞群。
 review:
@@ -72,3 +77,7 @@ tags:
 ## 与其他尺度的关系
 
 15 μm 约为红细胞直径（约 7–8 μm）的两倍，也接近毛细血管管径（约 4–10 μm）的上端，因此中性粒细胞通过狭窄毛细血管时需要变形[1]。它比血小板（约 2 μm）大七倍，却仍只有一根头发直径的五分之一左右。这个尺度说明白细胞既能挤过微血管，又足以容纳复杂的细胞核和颗粒系统。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.000050 纳秒，在时间轴上量级接近「纳秒」。[3]

@@ -1,6 +1,6 @@
 ---
 id: time.magellan-circumnavigation
-title: '麦哲伦船队完成环球航行：1522年'
+title: 麦哲伦船队完成环球航行：1522年
 titleEn: Magellan Expedition Completes Circumnavigation
 dimension: cosmic-time
 category: 人类与文明
@@ -18,16 +18,21 @@ related:
   - time.middle-ages
   - time.origin-of-money
   - time.zheng-he-voyages
+  - space.city
 reviewStatus: reviewed
 sources:
-  - title: 'Ferdinand Magellan'
+  - title: Ferdinand Magellan
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/biography/Ferdinand-Magellan'
     accessed: '2026-11-07'
-  - title: 'Magellan’s Circumnavigation of the Earth'
+  - title: Magellan’s Circumnavigation of the Earth
     publisher: 'Origins: Current Events in Historical Perspective, Ohio State University'
     url: 'https://origins.osu.edu/milestones/magellan-circumnavigation-earth'
     accessed: '2026-11-07'
+  - title: A primer for Italian renaissance art
+    url: 'https://smarthistory.org/primer-italian-renaissance-art/'
+    publisher: Smarthistory
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -46,8 +51,10 @@ review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。'
-    - '2026-11-07 写作阶段已用 WebFetch 打开 Britannica 麦哲伦条目与俄亥俄州立大学 Origins 页面核对年代与返航日期。'
+    - 2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。
+    - >-
+      2026-11-07 写作阶段已用 WebFetch 打开 Britannica 麦哲伦条目与俄亥俄州立大学 Origins
+      页面核对年代与返航日期。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -83,3 +90,7 @@ tags:
 ## 与其他阶段的关系
 
 这次航行处在大航海时代的早期，前接中世纪晚期的贸易与航海技术，后接全球贸易、殖民扩张与地图学的发展。[1][2] 它与哥伦布的跨大西洋航行、郑和下西洋同属远洋探索，但目的和后果不同：前者连接美洲，后者以印度洋贡赐贸易为主。航行还让欧洲人第一次在实践中意识到日期与国际日期变更的问题。[2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Smarthistory）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

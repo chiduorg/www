@@ -27,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/Scientific-Revolution'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Climate and the collection
+    url: 'https://blog.sciencemuseumgroup.org.uk/climate-and-the-collection/'
+    publisher: Science Museum Group
+    accessed: '2026-11-24'
 legacy:
   id: scientific-revolution
   icon: "\U0001F52C"
@@ -102,3 +106,7 @@ tags:
 ## 与其他阶段的关系
 
 科学革命为18至19世纪的工业化提供知识与仪器基础，但不是唯一原因；工业革命又反过来改变科研的资助与仪器条件。[1][2] 与20世纪的大科学和今天的空间望远镜相比，17世纪的科学研究规模小得多，但公共交流与可重复检验的规范已开始成形。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Science Museum Group）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

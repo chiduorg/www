@@ -16,6 +16,7 @@ related:
   - time.eoarchean
   - time.mesoarchean
   - time.neoarchean
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'Mars Scientists Investigate Ancient Life in Australia'
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.smithsonianmag.com/science-nature/earth-earliest-life-fossils-stromatolites-180974442/'
     publisher: Smithsonian Magazine
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -77,3 +82,5 @@ NASA 的报道说，皮尔巴拉地区在约 34.8 亿年前是一片被海水填
 ## 与其他尺度的关系
 
 34.8 亿年位于始太古代之后、中太古代之前的古太古代，比 24 亿年前的休伦冰期早约 10.8 亿年。[1][2] 它比 10 亿年前的罗迪尼亚聚合早约 25 亿年，说明叠层石记录覆盖了地球历史中很长的前段。与约 45.4 亿年的地球年龄相比，34.8 亿年约为其四分之三，已经接近最古老岩石记录的范围。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

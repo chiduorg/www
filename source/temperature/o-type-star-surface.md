@@ -17,17 +17,17 @@ quantity:
   uncertaintyType: 类别内部离散与教学取整
 displayValue: '约 40,000 K（教学示例）'
 related:
+  - space.sun
+  - mass.sun
   - temperature.rigel-surface
   - temperature.a-type-star
   - temperature.sirius-surface
   - temperature.vega-surface
-  - temperature.silicon-burning
-  - temperature.wolf-rayet-surface
 reviewStatus: reviewed
 sources:
-  - title: 'The Spectral Sequence'
-    url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectral-sequence'
-    publisher: 'OpenStax Astronomy 2e（CC BY 4.0）'
+  - title: The Spectra of Stars (and Brown Dwarfs)
+    url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectra-of-stars-and-brown-dwarfs'
+    publisher: OpenStax Astronomy 2e（CC BY 4.0）
     accessed: '2026-11-07'
   - title: Spectral Classification of Stars (Space Math 43)
     url: >-

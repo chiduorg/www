@@ -28,6 +28,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Rana_temporaria/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 体长为吻端到泄殖腔开口的距离，不含向后伸展的后腿和前肢；以欧洲林蛙成体8 cm为参照，不是全部蛙类或幼体的定值。
 uncertainty: >-
   Britannica给出无尾目成体吻端至泄殖腔长度约9.8 mm–30 cm；ADW记录欧洲林蛙体长7.5–8 cm。8 cm落在该种范围内，但蛙类从不足1
@@ -76,3 +80,5 @@ Britannica 的 Frog 条目给出无尾目成体的吻端至泄殖腔长度约 9.
 ## 与其他尺度的关系
 
 8 厘米的欧洲林蛙约等于小鼠头体长的长度，比蜜蜂大数倍，比猫的体长小得多，也小于人手张开后的跨度。[1][2] 在尺度轴上，它位于“几厘米到十厘米”的生物带：向上是猫、狗和书，向下是蜜蜂、蝴蝶和蜘蛛。体长口径让不同蛙种之间可以比较，也避免把腿长误当成身体大小。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

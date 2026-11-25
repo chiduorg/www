@@ -16,6 +16,7 @@ related:
   - space.amoeba
   - space.bacteria
   - space.ecoli
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Paramecium
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/protozoan'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 光学显微镜下对活体或固定标本测量体长；不同种、不同培养密度与分裂前后个体差异明显。
 uncertainty: 0.2 mm 位于所引 0.05–0.32 mm 范围的中段，是入门参照而非所有草履虫的定值；P. caudatum 等大型种偏向上端，小型种可接近下端。
 review:
@@ -72,3 +77,7 @@ tags:
 ## 与其他尺度的关系
 
 0.2 mm 等于 200 μm，约为红细胞直径的二十五倍、典型大肠杆菌杆长的一百倍[2]。它比变形虫的最大伸展尺寸小三倍左右，但仍比大多数人体细胞大一个数量级。放在 1 mm 的刻度上，草履虫约占五分之一格；这使它在低倍显微镜下就清晰可见，却仍远小于一粒盐（约 0.3–0.5 mm）的尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.00067 纳秒，在时间轴上量级接近「纳秒」。[3]

@@ -18,6 +18,7 @@ related:
   - temperature.helium-3-superfluid
   - temperature.helium-4-lambda-point
   - temperature.absolute-zero
+  - space.cmb-surface
 reviewStatus: reviewed
 sources:
   - title: NIST Center for Neutron Research Reference Tables
@@ -28,6 +29,10 @@ sources:
     url: 'https://indico.stfc.ac.uk/event/742/attachments/1713/3016/CI-Lectures-AJM-2023.pdf'
     publisher: Science and Technology Facilities Council
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 纯氦-3 样品，液—气两相在 1 atm（101.325 kPa）下平衡共存。
 uncertainty: 不同资料在 3.19–3.20 K 之间取值；同位素纯度与压力标定会带来小幅差异。
 review:
@@ -72,3 +77,5 @@ tags:
 ## 与其他尺度的关系
 
 在温度轴上，3.19 K 约为液氦 4.22 K 的 0.76 倍，低于液氢的 20.3 K 和液氮的 77.34 K，但高于氦-4 的 λ 点 2.177 K 与绝对零度。[1][2] 它说明同位素差异足以改变一个相变温度；画面的液面、气泡与颜色只作示意。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

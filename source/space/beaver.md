@@ -16,6 +16,7 @@ related:
   - space.human
   - space.dog
   - space.brown-bear
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Castor canadensis
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/animal/beaver'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年北美河狸；量取从吻端到尾根的头体长，扁平的尾巴不计；不采用含尾总长，也不把后足或门齿长度算进去。
 uncertainty: ADW 给出总长 900–1170 mm，含约 20–30 cm 的扁尾；Britannica 明确说身体可长到 80 cm，尾另计。任务建议 0.9 m，但按头体长口径取 0.8 m；若按含尾总长才会接近 0.9–1.2 m。
 review:
@@ -70,3 +75,14 @@ Animal Diversity Web 的北美河狸条目记录：总长 900–1170 毫米，�
 ## 与其他尺度的关系
 
 0.8 米比 0.4 米的家兔长一倍，比 0.7 米的赤狐略长，也比 1.0 米的郊狼短二十厘米；和 1.7 米的人相比，大约到人的腰部。[1][2] 在啮齿类里，北美河狸是“最大一档”，向下是松鼠和仓鼠。放到 30 米蓝鲸的尺度上，它约占其三十七分之一。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.7 纳秒，在时间轴上量级接近「纳秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 0.8 米，换算后是 80 厘米；约 0.471 个成年人身高（1.7 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻¹ 量级附近。
+
+读图时先看量级，再看倍数：10⁻¹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

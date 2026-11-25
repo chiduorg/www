@@ -29,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/animal/white-shark'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为大白鲨（Carcharodon carcharias）；量从吻端到尾鳍末端的全长，不是尾鳍上叶缺口的叉长、体重、体高或张口宽度；4 m取在出生约1.2 m与成体上限约6.4 m之间。
 uncertainty: >-
@@ -78,3 +82,5 @@ NOAA Fisheries的白鲨页面给出两个端点：出生时约4英尺（1.2米�
 ## 与其他尺度的关系
 
 4米约为2.4个1.7米高的人，约为40个0.1米菌盖的直径首尾相接，也约为30米蓝鲸全长的七分之一。[1][2] 在尺度轴上，大白鲨处在“几米级动物”的上端：向上是蓝鲸和巨杉，向下是章鱼、蕨类和蘑菇。用全长这一口径，才能把它与用臂展描述的章鱼、用翼展描述的金雕区分开。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

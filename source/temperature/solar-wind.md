@@ -24,6 +24,7 @@ related:
   - temperature.solar-flare
   - temperature.thermosphere
   - temperature.aurora
+  - space.white-dwarf
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -36,6 +37,10 @@ sources:
     url: 'https://wind.nasa.gov/imp8/abstracts/93-Osherovich.htm'
     publisher: 'NASA Goddard Space Flight Center / WIND, Osherovich et al.'
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为太阳风中的质子和电子群体；10⁵ K 是粒子温度的量级参考，不是单一热平衡温度。 慢风质子约 3×10⁴ K、电子约 10⁵ K；快风质子可到约
   2×10⁵ K。超热尾部和波—粒子相互作用 使速度分布偏离麦克斯韦分布。
@@ -84,3 +89,5 @@ tags:
 ## 与日冕和地球大气的比较
 
 10⁵ K 远高于地球热层的温度，却低于日冕核心的百万开尔文量级。[1] 太阳风在向外膨胀时冷却，但波和湍流又会持续加热，因此温度随距离的下降并非简单绝热。把它与耀斑的 10⁷ K 区分开，有助于理解太阳大气的不同能量过程。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -30,6 +30,10 @@ sources:
     url: 'https://www.nasa.gov/blogs/wallops/2025/08/15/turbulence-at-edge-of-space/'
     publisher: NASA Wallops Flight Facility
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 极稀薄的大气气体，含流星烧蚀产生的金属原子
   height: 约 50–85 km，中间层顶随季节变化
@@ -79,3 +83,5 @@ tags:
 ## 与其他温区的关系
 
 190 K 低于平流层的约 220 K，也低于对流层平均约 255 K，是地球大气中最低的常规温区。[1] 它高于水的冰点以下的南极极端低温，却远高于液氮的 77 K。中间层顶再往上，热层温度可升至数百至数千开尔文；同一高度范围内，流星烧蚀产生的金属原子还会形成短暂的高温发光轨迹。中间层因此是低温大气与高温高层空间之间的过渡带。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

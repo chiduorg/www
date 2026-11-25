@@ -15,6 +15,7 @@ related:
   - space.bottlenose-dolphin
   - space.blue-whale
   - space.human
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Orcinus orca
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.fisheries.noaa.gov/species/killer-whale'
     publisher: NOAA Fisheries
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性虎鲸（Orcinus orca）；从吻端沿身体到尾鳍缺口量取；不含背鳍高度，也不含尾鳍叶片的弯曲。
 uncertainty: ADW 给出雄性平均 8 m、最大 9.75 m，雌性平均 7 m、最大 8.5 m，新生 2–2.4 m；NOAA 给出可达 32 英尺（约 9.75 m）、11 吨。两处上限一致。本条取 8.0 m 为雄性平均值，不是最大个体；不同生态型体型差异明显。
 review:
@@ -69,3 +74,14 @@ Animal Diversity Web 的条目给出雄性平均体长 8 米、最大 9.75 米�
 ## 与其他尺度的关系
 
 8.0 米的体长约为 2.5 米宽吻海豚的 3.2 倍，是 16 米抹香鲸的一半，也是 1.7 米成年人的约 4.7 倍。[1][2] 它约为 30 米蓝鲸体长的 27%。在鲸类中，虎鲸位于“十米以下”的上端，向上是座头鲸与抹香鲸，向下是宽吻海豚。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 26.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 8 米，换算后是 8 米；约 0.0762 个足球场长度（105 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

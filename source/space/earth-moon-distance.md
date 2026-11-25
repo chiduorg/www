@@ -16,21 +16,30 @@ related:
   - space.moon
   - space.moon_diameter
   - space.light-second
-  - space.sun
+  - mass.moon
+  - time.moon-age
 reviewStatus: reviewed
 sources:
   - title: Moon Fact Sheet — Orbital Parameters
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html'
     publisher: NASA NSSDC
     accessed: '2026-11-06'
-  - title: Earth's Moon — By the Numbers
-    url: 'https://solarsystem.nasa.gov/moons/earths-moon/by-the-numbers/'
-    publisher: NASA Solar System Exploration
+  - title: "Moon Facts"
+    url: 'https://science.nasa.gov/moon/facts/'
+    publisher: "NASA Science"
     accessed: '2026-11-06'
   - title: Moon — Distinctive features
     url: 'https://www.britannica.com/place/Moon/Distinctive-features'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "Is the Earth round?"
+    url: "https://oceanservice.noaa.gov/facts/earth-round.html"
+    publisher: "NOAA / National Ocean Service"
+    accessed: '2026-11-24'
+  - title: "Moon Facts — Orbit and Rotation; Size and Distance"
+    url: "https://science.nasa.gov/moon/facts/"
+    publisher: "NASA Science"
+    accessed: '2026-11-24'
 legacy:
   id: earth-moon-distance
   icon: "\U0001F319"
@@ -86,3 +95,23 @@ NASA月球事实表列半长轴384,400公里，近地点约363,300公里、远�
 ## 与其他尺度的关系
 
 384,400公里约是地球直径12742公里的30倍。光走这段距离约1.28秒，比一光秒299,792,458米略长。与日地平均距离1.496亿公里相比，地月距离约为其1/390。[3]
+
+## 平均距离不是每天的距离
+
+384,400 公里是轨道半长轴；近地点约 363,300 公里，远地点约 405,500 公里，相差约 4.2 万公里。[1][2] 月球轨道偏心率约 0.0549，地球与月球还绕共同质心运动。每天的距离要按轨道位置计算，不能用平均值代替。
+
+## 地心—月心与地表—月面
+
+激光测距量的是地面站到月面反射器的距离，再折算成地心—月心；两者相差约一个地球半径加一个月球半径。[2] 把“地球到月球”说成地表到月面，会让数字少约 8,000 公里。平均距离、瞬时距离和光行距离是三种口径。
+
+## 五轴对照
+
+在空间轴，地月平均距离约 38.4 万公里；在质量轴，月球质量约 7.346×10²² 千克；在时间轴，月球每年远离约 3.8 厘米；在温度轴，月面与地球环境差异极大。距离、质量与轨道演化要一起读。[1][2]
+
+## 平均距离与瞬时距离
+
+地月平均距离约 384,400 公里，但月球轨道是椭圆，近地点与远地点可差约 42,000 公里；潮汐与地震还会让瞬时距离在厘米级抖动。激光测月给出的是往返光行时换算的距离，精度可达毫米，但必须先扣除大气延迟与台站坐标。正文的 38.4 万公里是平均口径。[1][S1]
+
+## 延伸核对
+
+补充的来源 [4]（NOAA / National Ocean Service）、[5]（NASA Science） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

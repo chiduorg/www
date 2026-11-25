@@ -32,6 +32,10 @@ sources:
     url: 'https://www.britannica.com/place/Acasta-Gneiss'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'International Chronostratigraphic Chart, version 2024/12'
+    url: 'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf'
+    publisher: International Commission on Stratigraphy
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -82,3 +86,7 @@ tags:
 ## 与其他阶段的关系
 
 最早陆壳证据位于冥古宙与太古宙之交，和早期海洋、大气以及板块构造的启动问题相互关联。陆壳的形成改变了岩石的化学组成、海水的元素收支和碳循环，也为后来的大陆架与陆地生态提供基础。沿时间轴继续阅读，可以把矿物年龄、岩石年龄和大陆拼合历史分成三条线来理解。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（International Commission on Stratigraphy）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

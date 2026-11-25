@@ -18,6 +18,7 @@ related:
   - space.piano
   - space.human
   - space.door
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Cello — musical instrument
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.vsl.co.at/academy/strings/cello'
     publisher: Vienna Symphonic Library
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为全尺寸（4/4）大提琴；测量口径为琴底最下端到琴头最上端的纵向总高，包含琴身、琴颈与琴头，不含琴弓、琴架和尾柱伸出的部分。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 1.2 米约等于 6 个 0.2 米的全手长度，也约等于 0.67 辆 1.8 米自行车。与 1.5 米的三角钢琴相比，大提琴约为其 80%；与 4.5 米家用轿车相比约为其 27%。它还是 2.032 米标准门高的约 59%，立起来运输时接近成人胸口高度。与 1.7 米的人类身高相比，大提琴约为其 71%，1.2 米也是多数琴盒标称内长的上限。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

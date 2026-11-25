@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/62/samarium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 镧系, 钐]
 rights:
   status: rewritten
@@ -78,3 +82,5 @@ rights:
 ## 怎么继续走
 
 往前是钷，4f5 却没有稳定核；往后是铕，4f 到半满，+2 价会更常见，本批没有为它单独写页。想弄清 4f 半满为什么特别稳，去读镧系收缩解释页；想弄清同一条核合成路径为什么产出不同的稳定性，去读核稳定性解释页。钐这一页的重点是：电子构型与核命运在这里第一次明显脱钩。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

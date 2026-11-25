@@ -16,6 +16,7 @@ related:
   - space.human
   - space.rice-grain
   - space.pencil
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Sand — White Sands National Park
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/sand'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: sand-grain
   icon: "\U0001F3D6"
@@ -82,3 +87,7 @@ tags:
 ## 与其他尺度的关系
 
 0.5毫米的砂粒比5毫米的米粒小十倍，比100微米的发丝宽约五倍，比一节手指小得多。[1] 它处在“肉眼勉强可辨”的边界附近：细砂在手指间能感到颗粒感，粗砂则更容易逐粒看见。向下是尘螨和细胞，向上是米粒、铅笔、手掌和人体。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.0017 纳秒，在时间轴上量级接近「纳秒」。[3]

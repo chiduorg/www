@@ -28,6 +28,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Loxodonta_africana/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 肩高为地面到肩部最高点的垂直距离，不含头顶、耳朵和抬起的象鼻；以非洲象成体雄性约3.35 m为参照，不是雌象、幼象或亚洲象的定值。
 uncertainty: >-
   WWF给出肩高约11英尺（约3.35 m）；ADW给出雄性肩高3.2–4 m、雌性2.2–2.6 m。3.35
@@ -76,3 +80,12 @@ WWF 的 African elephants 页面把非洲象的肩高记为约 11 英尺，约�
 ## 与其他尺度的关系
 
 3.35 米的肩高约为 1.7 米成年人的两倍，比 3.3 米的长颈鹿肩高略高，但远低于 5.5 米以上的长颈鹿总高，也远小于 30 米的蓝鲸体长。[1][2] 在尺度轴上，象站在“米级大型陆生动物”的上端：向上是建筑与红杉，向下是狗、猫和人。肩高口径让象能与长颈鹿、人等条目放在同一把尺子上，而不被耳朵或象鼻的额外高度干扰。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 3.35 米，换算后是 3.35 米；约 1.97 个成年人身高（1.7 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

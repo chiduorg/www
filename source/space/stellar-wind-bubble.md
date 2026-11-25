@@ -17,6 +17,7 @@ related:
   - space.supernova-remnant
   - space.orion-nebula
   - space.open-cluster
+  - time.decade
 reviewStatus: reviewed
 sources:
   - title: Hubble captures birthday bubble
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/stellar-wind'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   以气泡星云（NGC 7635）作为星风泡样本，取 ESA/Hubble 所述“直径约 10 光年”；适用于大质量
   恒星风吹出的可见壳层。不包含恒星本身、电离氢区的外围或超新星遗迹。
@@ -78,3 +83,7 @@ tags:
 ## 与其他尺度的关系
 
 9.5×10¹⁶ 米约合 10 光年，是太阳到比邻星距离的 2.4 倍，与蟹状星云的直径同量级。[1] 它比行星状星云大数倍，却远小于银河系。把星风泡放进恒星形成区，可以看到大质量恒星如何用星风与辐射改变周围分子云的结构，并为下一代恒星的形成创造条件。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 10 年，在时间轴上量级接近「十年」。[3]

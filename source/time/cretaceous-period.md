@@ -13,11 +13,12 @@ quantity:
   approximate: true
 displayValue: t ≈ 136.54 亿年（距今约143.1 Ma）
 related:
+  - space.earth
+  - mass.earth
   - time.mesozoic
   - time.jurassic-period
   - time.k-pg-extinction
   - time.first-flowering-plants
-  - time.dinosaurs
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,14 @@ sources:
     url: 'https://www.britannica.com/science/Cretaceous-Period'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Jurassic Period
+    url: 'https://www.nps.gov/articles/000/jurassic-period.htm'
+    publisher: U.S. National Park Service
+    accessed: '2026-11-24'
+  - title: 'Earth Sciences Research: Rise of the Mammals'
+    url: 'https://www.dmns.org/science/research/rise-of-the-mammals/'
+    publisher: Denver Museum of Nature & Science
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -80,3 +89,11 @@ tags:
 ## 与其他阶段的关系
 
 白垩纪承接侏罗纪的恐龙与裸子植物景观，结束于古近纪初的生态重组。它的起点与侏罗纪终点相接，终点则是白垩纪—古近纪界线；这条界线附近有撞击坑、铱异常与全球分布的撞击喷出物层，但界线本身仍是一个时间框架，而不是某一天所有事件的清单。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. National Park Service）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（Denver Museum of Nature & Science）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

@@ -16,6 +16,7 @@ related:
   - space.brown-bear
   - space.human
   - space.gray-wolf
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Panthera tigris
@@ -26,6 +27,10 @@ sources:
     url: 'https://animals.sandiegozoo.org/animals/tiger'
     publisher: San Diego Zoo Wildlife Alliance
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性孟加拉虎；量取从吻端到尾根的头体长，尾巴不计；不含肩高、站立高度或含尾的总长。
 uncertainty: ADW 给出虎的体长范围 1.98–3.7 m（跨亚种，部分记录含尾）；San Diego Zoo 明确给出不含尾的体长 1.5–2.9 m、尾长 0.7–1.1 m。2.2 m 落在后者范围内，代表较大的孟加拉虎雄性，而非全部亚种的平均。
 review:
@@ -70,3 +75,7 @@ Animal Diversity Web 的虎条目给出 1.98–3.7 米的体长范围，这个�
 ## 与其他尺度的关系
 
 2.2 米比 1.7 米的人高出半米，也略长于 2.0 米的非洲狮和 2.2 米的棕熊，是陆生食肉动物“两米级”的上端。[1][2] 但和 30 米长的蓝鲸相比，它只有约十四分之一。向上是大型草食动物与车辆，向下是豹、狼、狗和猫，虎在这条轴上正好卡在“两米”这一档。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 7.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

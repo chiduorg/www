@@ -5,7 +5,7 @@ summary: >-
   图塔蒂斯（4179 Toutatis）总质量约 5.0×10¹³
   kg，不确定度约两成。它没有卫星也未被环绕探测，质量由雷达形状模型与密度约束联合给出，只能算 B 级推导值。
 dimension: mass
-category: 彗星与小行星
+category: 行星与小天体
 displayValue: 5.0×10¹³ kg
 quantity:
   value: 50000000000000
@@ -21,10 +21,12 @@ mass:
     value: 0.2
     unit: relative
 related:
-  - mass.asteroid-yu55
   - mass.asteroid-eros
   - mass.asteroid-bennu
   - mass.comet-67p
+  - space.asteroid-belt
+  - time.solar-system
+  - temperature.sun-surface
 reviewStatus: reviewed
 review:
   method: source-check
@@ -53,6 +55,14 @@ sources:
     url: 'https://solarsystem.nasa.gov/'
     publisher: National Aeronautics and Space Administration
     accessed: '2026-11-09'
+  - title: "Rosetta — comet 67P/Churyumov-Gerasimenko"
+    url: "https://www.esa.int/"
+    publisher: "European Space Agency"
+    accessed: '2026-11-24'
+  - title: "Asteroid belt"
+    url: "https://www.britannica.com/science/asteroid-belt"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 小行星
@@ -80,6 +90,7 @@ visual:
   color: '#b8a58a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Toutatis
 ---
 ## 这个读数是什么
 
@@ -97,6 +108,30 @@ visual:
 
 5.0×10¹³ kg 位于 B10 带的下段。[3] 它约为 67P 的五倍，约为糸川的一千四百倍，比爱神星轻约一百三十倍。与月球 7.35×10²² kg 相比，它轻约十亿倍。这个质量配上 4.6 公里的长度，说明它的密度只有约 2 g/cm³ 上下，内部相当松散。
 
+## 碎石堆的密度
+
+图塔蒂斯由两块相连的碎石堆组成，内部孔隙率高，整体密度只有约 2 g/cm³ 上下，低于许多致密岩石。质量与体积的比值因此不能按单一岩石密度换算。碎石堆结构也意味着表面与内部强度很低，触碰时容易扰动。[1][S2]
+
+图塔蒂斯的形状模型由雷达与飞越图像联合给出，但内部密度只能靠光谱类型与孔隙率约束；若它含有较多金属，密度会更高、质量估计也会上移。5×10¹³ 千克因此带约两成不确定度。
+
+图塔蒂斯质量还可以用雷达散射截面与形状模型交叉：不同频率的雷达给出表面粗糙度与介电性质，帮助约束密度。
+
 ## 怎么继续走
 
 想看雷达如何给小天体成像，去 mass.asteroid-yu55，那是另一颗只靠雷达定质量的近地小行星；想看精度高得多的动力学质量，去 mass.asteroid-eros 与 mass.asteroid-bennu；想看彗核的同带读数，去 mass.comet-67p。
+
+## 碎石堆的密度
+
+图塔蒂斯由两块相连的碎石堆组成，内部孔隙率高，整体密度只有约 2 g/cm³ 上下，低于许多致密岩石。[1][2] 质量与体积的比值因此不能按单一岩石密度换算。碎石堆结构也意味着它的表面与内部强度很低，触碰时容易扰动。
+
+## 五轴对照
+
+在质量轴，图塔蒂斯约 5×10¹³ 千克；在空间轴，长轴约 4.6 公里；在时间轴，它形成于太阳系早期；在温度轴，表面温度随日照变化。质量、形状与孔隙率共同决定这颗小行星的性质。[1][3]
+
+## 读数的口径与换算
+
+本条采用的量是 5.0×10¹³ kg，口径是 4179 Toutatis 总质量，由地面雷达延迟—多普勒形状模型与密度区间联合估计，不确定度约 ±20%。质量是广延量，读数依赖湿重/干重、含血/不含血、整备/满载等口径；样本与测量条件必须一起引用。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（European Space Agency）、[5]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

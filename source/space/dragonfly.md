@@ -17,6 +17,7 @@ related:
   - space.honeybee
   - space.mosquito
   - space.cicada
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'The Orders of Insects: Odonata'
@@ -27,6 +28,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Anax_junius/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为蜻蜓目差翅亚目（Anisoptera）成虫；翼展为两前翅向两侧展开后左右翅尖之间的最大直线距离，不是体长、单翅长度或翅面积；15 cm 取在大型种类的一端。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 15 厘米约等于成人手掌张开宽度的一半多，约为蜜蜂体长 12 毫米的十二倍，也约为帝王蝶翼展 95 毫米的 1.6 倍。[2] 在尺度轴上，蜻蜓翼展落在“十厘米级”的上沿：向上是 20 厘米的手、22 厘米的足球，向下是蜜蜂、蚊子与米粒。把翼展和体长分开记录，才能避免与蝴蝶、蛾类比较时口径错位。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.50 纳秒，在时间轴上量级接近「纳秒」。[3]

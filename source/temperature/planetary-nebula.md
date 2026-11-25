@@ -24,6 +24,7 @@ related:
   - temperature.supernova-remnant
   - temperature.boomerang-nebula
   - temperature.solar-corona
+  - space.white-dwarf
 reviewStatus: reviewed
 sources:
   - title: Planetary nebula
@@ -34,6 +35,10 @@ sources:
     url: 'https://www.aanda.org/articles/aa/pdf/2009/19/aa11654-09.pdf'
     publisher: 'Astronomy & Astrophysics, Pottasch et al. (2009)'
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为低质量恒星抛出并被中心星电离的气体壳层；10⁴ K 指星云气体的电子温度，
   由禁线强度比和模型拟合得到。中心星有效温度通常远高于此，且星云内区与外区存在温度梯度。
@@ -78,3 +83,12 @@ NGC 6210 的研究把星云电子温度近似当作常数，采用约 9,500 K。
 ## 在恒星演化温标上的位置
 
 10⁴ K 与电离氢区的电子温度接近，但行星状星云的能量来源是晚年恒星，而非年轻大质量星。[2] 它远低于超新星遗迹激波气体的约 10⁶ K，也远高于分子云的约 10 K。理解这个中间温区，有助于把恒星平静抛壳与爆炸事件区分开。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 10000 K，即 9727 ℃（按 T/K−273.15 换算）；约为太阳表面（5772 K）的 1.73 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10⁴ 量级附近。
+
+读图时先看量级，再看倍数：10⁴ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

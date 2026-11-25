@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/85/astatine'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, p 区, 砹]
 rights:
   status: rewritten
@@ -74,3 +78,5 @@ rights:
 ## 怎么继续走
 
 往前是钋，同样无稳定同位素，半衰期长一些；往上是碘，第五周期的卤素，稳定且可称量，正好作为对照。想看稳定线在重核区为何整体塌缩，去看核稳定性解释页；想看衰变链的时间尺度，去看 ²³⁸U 半衰期节点。砹这一页的关键词是位置的确定与存在的短暂。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

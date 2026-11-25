@@ -21,6 +21,8 @@ related:
   - temperature.red-giant-core
   - temperature.sun-surface
   - temperature.vega-surface
+  - space.sun
+  - mass.sun
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -29,9 +31,9 @@ sources:
     url: 'https://arxiv.org/abs/2002.10463'
     publisher: 'Levesque and Massey (2020), ApJ Letters preprint'
     accessed: '2026-11-06'
-  - title: 'The Spectral Sequence'
-    url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectral-sequence'
-    publisher: 'OpenStax Astronomy 2e（CC BY 4.0）'
+  - title: The Spectra of Stars (and Brown Dwarfs)
+    url: 'https://openstax.org/books/astronomy-2e/pages/17-3-the-spectra-of-stars-and-brown-dwarfs'
+    publisher: OpenStax Astronomy 2e（CC BY 4.0）
     accessed: '2026-11-07'
   - title: Betelgeuse
     url: 'https://www.britannica.com/place/Betelgeuse-star'

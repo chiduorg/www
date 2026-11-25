@@ -17,6 +17,8 @@ related:
   - time.heavy-element-enrichment
   - time.first-stars
   - time.quiescent-galaxy-emergence
+  - space.milky-way
+  - mass.milky-way
 reviewStatus: reviewed
 sources:
   - title: Studying Galaxy Growth Spurts in the Early Universe with NASA's Roman

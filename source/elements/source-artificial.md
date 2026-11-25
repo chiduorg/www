@@ -36,6 +36,10 @@ sources:
     url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
     publisher: International Union of Pure and Applied Chemistry
     accessed: '2026-11-09'
+  - title: 'Standard Atomic Weights'
+    url: 'https://ciaaw.org/atomic-weights.htm'
+    publisher: 'IUPAC Commission on Isotopic Abundances and Atomic Weights (CIAAW)'
+    accessed: '2026-11-25'
 conditions: 过程页；时间锚点为 time.nuclear-age，本页不重复秒数。
 visual:
   scene: elements.explain
@@ -68,3 +72,5 @@ rights:
 ## 与其他阶段的关系
 
 人工合成是元素来源的第三条路径，接在 s、r 过程之后，把元素轴从天然存在的范围推到 118 号。[2] 它让锝、钷的空缺被填补，也让 93 号以后的元素有了可研究的样品。元素轴的 P7 后半段与鿫页都挂在这个节点上，而它们的“预测值/无稳定同位素”标注，正是这条路径的直接后果。
+
+本条的原子量口径参考 CIAAW 标准原子量。[3]

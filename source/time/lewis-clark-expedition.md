@@ -1,6 +1,6 @@
 ---
 id: time.lewis-clark-expedition
-title: '刘易斯与克拉克远征启程：1804年'
+title: 刘易斯与克拉克远征启程：1804年
 titleEn: Lewis and Clark Expedition Sets Out
 dimension: cosmic-time
 category: 人类与文明
@@ -17,16 +17,21 @@ related:
   - time.columbus-voyage
   - time.industrial-revolution
   - time.world-population-1-billion
+  - space.city
 reviewStatus: reviewed
 sources:
-  - title: 'Lewis and Clark Expedition'
+  - title: Lewis and Clark Expedition
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/event/Lewis-and-Clark-Expedition'
     accessed: '2026-11-07'
-  - title: 'Lewis & Clark Expedition'
+  - title: Lewis & Clark Expedition
     publisher: U.S. National Archives and Records Administration
     url: 'https://www.archives.gov/education/lessons/lewis-clark'
     accessed: '2026-11-07'
+  - title: A primer for Italian renaissance art
+    url: 'https://smarthistory.org/primer-italian-renaissance-art/'
+    publisher: Smarthistory
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -45,8 +50,8 @@ review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。'
-    - '2026-11-07 写作阶段已用 WebFetch 打开 Britannica 远征条目与美国国家档案馆教学页面核对启程年份。'
+    - 2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。
+    - 2026-11-07 写作阶段已用 WebFetch 打开 Britannica 远征条目与美国国家档案馆教学页面核对启程年份。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -56,7 +61,8 @@ visual:
   caption: 北美河流、独木舟与营地的示意场景
   note: 示意，非按比例
 uncertainty: >-
-  启程日通常记为1804年5月14日，也有资料概括为“1804年夏”；营地名称有 Camp Dubois 与 Camp Wood 等写法。远征结束日通常记为1806年9月23日。队伍人数约四五十人，早期记录并不完整。这里只把年份级锚点用于排序，轴上秒值不表示行程速度。
+  启程日通常记为1804年5月14日，也有资料概括为“1804年夏”；营地名称有 Camp Dubois 与 Camp Wood
+  等写法。远征结束日通常记为1806年9月23日。队伍人数约四五十人，早期记录并不完整。这里只把年份级锚点用于排序，轴上秒值不表示行程速度。
 mode: 时点
 tags:
   - 人类与文明
@@ -82,3 +88,7 @@ tags:
 ## 与其他阶段的关系
 
 远征处在大航海时代之后、工业革命早期的美国扩张阶段，与哥伦布航行一样把“探索”与土地占有绑在一起。[1][2] 它与同年的世界人口10亿节点相叠：1804年既是远征启动的年份，也是全球人口估算跨过10亿的年份。与后来的铁路和电报时代相比，这次远征仍依赖步行、马匹和独木舟。[1]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Smarthistory）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

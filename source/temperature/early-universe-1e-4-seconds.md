@@ -29,6 +29,10 @@ sources:
     url: 'https://sites.astro.caltech.edu/~george/ay127/kamionkowski-earlyuniverse-notes.pdf'
     publisher: Caltech Astronomy
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为辐射主导早期宇宙的整体热浴；取大爆炸后约 10⁻⁴ 秒的宇宙时；1.5×10¹² K 为取整量级，对应约 130 MeV。
 uncertainty: >-
@@ -74,3 +78,5 @@ tags:
 ## 与其他尺度的关系
 
 1.5×10¹² K 约为太阳核心温度的 10⁵ 倍，与大爆炸核合成的 10⁹ K 相差约三个数量级。它低于夸克胶子等离子体初始温度的 5×10¹² K，也低于电弱过渡的约 1.85×10¹⁵ K 和普朗克温度。与正负电子湮灭的 10¹⁰ K 相比，高约两个数量级；这些比较说明早期宇宙温度随时间是连续下降的。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

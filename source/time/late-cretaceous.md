@@ -18,6 +18,7 @@ related:
   - time.early-cretaceous
   - time.k-pg-extinction
   - time.dinosaurs
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,10 @@ sources:
     url: 'https://macrostrat.org/api/defs/intervals?interval_name=Late%20Cretaceous'
     publisher: Macrostrat, University of Wisconsin–Madison
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -80,3 +85,5 @@ tags:
 ## 与其他尺度的关系
 
 晚白垩世约 3450 万年，占白垩纪约 7710 万年的 45%。[1] 它比早白垩世短；与白垩纪—古近纪灭绝条目相比，晚白垩世是包含该事件的时段，而灭绝本身只是界线附近的一个过程。[2] 3450 万年若按 80 年一代计算，约相当于四十三万代人；它比早白垩世短，却以界线附近的灭绝最为人所知。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

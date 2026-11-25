@@ -15,8 +15,9 @@ related:
   - space.ceres
   - space.vesta
   - space.jupiter
-  - space.mars
   - space.solar-system
+  - mass.asteroid-toutatis
+  - time.k-pg-extinction
 reviewStatus: reviewed
 sources:
   - title: Asteroid belt
@@ -27,6 +28,14 @@ sources:
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html'
     publisher: NASA NSSDCA
     accessed: '2026-11-06'
+  - title: "Kuiper Belt and Oort Cloud (NASA lithograph)"
+    url: "https://www.nasa.gov/sites/default/files/files/Kuiper_Belt_Lithograph_h.pdf"
+    publisher: "NASA"
+    accessed: '2026-11-24'
+  - title: "JPL Small-Body Database"
+    url: "https://ssd.jpl.nasa.gov/"
+    publisher: "NASA Jet Propulsion Laboratory"
+    accessed: '2026-11-24'
 conditions: 对象为主小行星带的径向范围；下界取2.3 au、上界取3.3 au；不包含柯伊伯带、特洛伊群和近地小行星，也不把带的厚度当作宽度。
 uncertainty: >-
   Britannica给出主带约2.3–3.3 au；NASA地球事实表给出1 au=149.598×10⁶公里；按1
@@ -75,3 +84,23 @@ Britannica将主带范围描述为距太阳约2.3至3.3 au，这个范围来自�
 ## 与其他尺度的关系
 
 1.5×10¹¹米约为地球轨道半径1 au 的1倍，约为地月距离3.84×10⁸米的390倍。[2] 它远大于谷神星940公里或灶神星526公里，但远小于木星轨道半径5.2 au。主带内侧2.3 au 约为火星轨道1.52 au 的1.5倍，外侧3.3 au 则接近木星轨道的一半。[1]
+
+## 主带很空，质量也很小
+
+小行星带内天体之间的平均距离可达数百万公里，航天器穿过时通常不需要“闪避”。[1] 带内已编目天体总质量只有月球质量的很小一部分，谷神星一颗就占了很大比例。电影里的密集碎石带，是把空间压缩后造成的视觉错觉。
+
+## 边界为什么有出入
+
+不同文献把主带内缘写成 2.2 或 2.3 au、外缘写成 3.2 或 3.3 au，差别来自小行星分类、轨道共振边界和巡天完备度。[1][2] 这些边界不是一条实体线，而是天体密度逐渐下降的区域。引用宽度时，应同时说明采用的边界定义。
+
+## 五轴对照
+
+在空间轴，主带径向宽度约 1 au；在质量轴，主带总质量远小于月球；在时间轴，它是太阳系形成后未聚成行星的残留；在温度轴，不同日心距离决定小行星表面温度。宽度、质量与形成历史不能互相替代。[1][2]
+
+## 总质量与单颗质量
+
+小行星带总质量约 2.4×10²¹ 千克，只有月球的约 3%，其中谷神星占约三分之一。带内天体间距极大，平均距离以百万公里计，探测器穿越时并不像电影里那样密集。正文若写“小行星带质量”，说的是整个带的统计，不是某一颗小行星的读数。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（NASA）、[4]（NASA Jet Propulsion Laboratory） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

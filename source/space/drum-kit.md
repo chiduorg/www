@@ -18,6 +18,7 @@ related:
   - space.violin
   - space.human
   - space.cello
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Roland TD-30K V-Drums specifications
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.roland.com/uk/products/td-50k/support/'
     publisher: Roland Corporation
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为已摆开、可演奏的整套架子鼓；测量口径为鼓架、镲片和鼓凳共同形成的最大外廓横向尺寸，不是单个鼓面直径；不适用于未安装或折叠收纳状态。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 1.5 米约等于 7.5 个 0.2 米的全手长度，也约等于 0.83 辆 1.8 米自行车。与 4.5 米家用轿车相比，鼓组占地宽度约为其 33%；与 2.032 米标准门高相比约为其 74%。它比 1.0 米的民谣吉他长约 50%，在房间里通常需要一块接近 1.5 米见方的练习区。与 1.2 米的大提琴相比，鼓组宽度约为其 1.25 倍。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 5.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

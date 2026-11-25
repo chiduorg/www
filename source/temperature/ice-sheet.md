@@ -15,11 +15,12 @@ quantity:
   measureLabel: 冰盖表面温区圆整参考
 displayValue: 约 250 K（−23 ℃）
 related:
+  - space.antarctic-ice-thickness
+  - mass.water-molecule
   - temperature.glacier-ice
   - temperature.antarctic_min_temp
   - temperature.sea-ice
   - temperature.permafrost
-  - temperature.water-freezing
 reviewStatus: reviewed
 sources:
   - title: >-

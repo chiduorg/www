@@ -16,6 +16,7 @@ related:
   - space.football-field
   - space.swimming-pool
   - space.human
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: ITF Rules of Tennis 2020
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/sports/tennis'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为室外或室内的标准网球场地；测量口径为两条底线外缘之间的纵向长度，包含线宽；不含底线后与边线外的缓冲跑动区，也不取对角线。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 23.77 米约为篮球场 28.65 米长度的 83%，也约为标准泳池 50 米的一半。[1][2] 它约等于 13 辆 1.8 米长的自行车首尾相接，或 5 辆 4.5 米轿车加一辆自行车。对成年人来说，从底线走到对面底线约需 32 步。一片标准场地加两侧跑动区，总占地长度常超过 30 米。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 79.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

@@ -19,6 +19,7 @@ related:
   - space.brown-dwarf
   - space.exoplanet
   - space.jupiter
+  - time.heartbeat
 reviewStatus: reviewed
 sources:
   - title: Proxima Centauri
@@ -33,6 +34,10 @@ sources:
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html'
     publisher: NASA / NSSDCA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   以比邻星作为红矮星样本，用 Britannica 所述“比木星大 50%”换算直径；适用于低质量主序星的
   尺度比较。不同红矮星质量与年龄不同，直径会变化，且本条不含恒星耀斑或延伸大气。
@@ -82,3 +87,5 @@ tags:
 ## 与其他尺度的关系
 
 2.1×10⁸ 米约为太阳直径的 15%，木星直径的 1.5 倍，地球直径的 16 倍。[1][3] 它比褐矮星的典型直径略大，却仍远小于红巨星。把红矮星放进尺度轴，可以看到恒星质量跨越不到一个数量级时，直径却能相差数倍；这也是红矮星周围行星凌星信号较深、较易被探测的原因之一。
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 699 毫秒，在时间轴上量级接近「心跳周期」。[4]

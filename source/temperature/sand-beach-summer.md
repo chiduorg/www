@@ -19,6 +19,7 @@ related:
   - temperature.asphalt-summer
   - temperature.room-temperature
   - temperature.human-body-temperature
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -31,6 +32,10 @@ sources:
     url: 'https://www.ndbc.noaa.gov/education/seabreeze.shtml'
     publisher: National Oceanic and Atmospheric Administration (NDBC)
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 干燥的沙滩沙层
   measurementSite: 沙面或极浅表层，非百叶箱气温
@@ -85,3 +90,5 @@ tags:
 ## 与其他温度的关系
 
 47 °C 高于 room-temperature 的 20 °C 示例，也高于 human-body-temperature 的约 37 °C；低于 boiling-water 的 100 °C。它低于 desert-ground 的约 70 °C 代表值，但两者都是受日照影响的表面温度，不能直接拿来与气温比较。与 asphalt-summer 并列时，可以看到不同材质在相似日照下因颜色、热容和含水量而呈现不同读数。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

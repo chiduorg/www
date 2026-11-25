@@ -20,7 +20,7 @@ related:
   - temperature.planck-temperature
   - temperature.neutron-star-surface
   - temperature.absolute-zero
-  - temperature.space-background
+  - mass.m87-black-hole
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -37,6 +37,14 @@ sources:
     url: 'https://arxiv.org/abs/0710.4345'
     publisher: 'Brout, Massar, Parentani & Spindel, arXiv (2007)'
     accessed: '2026-11-06'
+  - title: "NASA-Led Study Explains Decades of Black Hole Observations"
+    url: "https://www.nasa.gov/universe/nasa-led-study-explains-decades-of-black-hole-observations/"
+    publisher: "NASA Goddard, research-team report (2013)"
+    accessed: '2026-11-24'
+  - title: "FIRAS overview: cosmic microwave background spectrum"
+    url: "https://lambda.gsfc.nasa.gov/product/cobe/firas_overview.html"
+    publisher: "NASA LAMBDA / COBE"
+    accessed: '2026-11-24'
 conditions: >-
   球对称、无旋转、无电荷的史瓦西黑洞；质量取 10 倍太阳质量（约 1.99×10³¹
   kg），温度指无穷远观测者看到的霍金辐射黑体温度，不是视界局部温度或吸积盘气体温度。
@@ -91,3 +99,23 @@ tags:
 ## 与其他温区的关系
 
 6.2×10⁻⁹ K 比宇宙微波背景的 2.725 K 低约八个量级，也比激光冷却的 1 μK 低。它低于任何已测到的天体温度，只对极小质量黑洞才可能显著。[1][2] 与 Unruh 效应类似，它把加速度、引力和量子真空联系起来，但两者是不同的理论设定，不能直接互换。[3]
+
+## 为什么恒星级黑洞几乎不可见
+
+10 倍太阳质量黑洞的霍金温度约 6×10⁻⁹ K，远低于宇宙微波背景 2.725 K；它会吸收背景辐射多于发出霍金辐射。[1][2] 因此恒星级黑洞的霍金辐射无法用现有望远镜直接探测。只有极小质量原初黑洞才可能热到可见，但这类黑洞尚未被确认。
+
+## 五轴对照
+
+在温度轴，霍金温度约 10⁻⁹ K；在质量轴，温度与质量成反比；在空间轴，辐射来自视界附近；在时间轴，黑洞蒸发到最后阶段会急剧升温。质量、温度与寿命构成黑洞热力学的账本。[1][3]
+
+## 负热容与蒸发
+
+黑洞的霍金温度随质量减小而升高，热容为负：越蒸发越热，最后可能爆炸。恒星级黑洞的温度远低于宇宙微波背景，实际在吸收背景辐射而非净辐射。把霍金温度当成“黑洞表面温度计读数”，会忽略观测条件。[1][S2]
+
+## 读数的口径与换算
+
+本条采用的量是 约 6.2 × 10⁻⁹ K（10 倍太阳质量黑洞，理论），口径是 10 倍太阳质量史瓦西黑洞的霍金温度（理论）。温度是强度量，读数依赖温标、测点与热平衡；同一对象的不同部位、不同时刻可以有不同温度。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（NASA Goddard, research-team report (2013)）、[5]（NASA LAMBDA / COBE） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

@@ -5,7 +5,7 @@ summary: >-
   Teide 1 的质量约 1.08×10²⁹ kg，相当于约 57 个木星质量。数值来自演化模型对星团年龄与光度的拟合，属于模型依赖值，相对不确定度约
   10%。
 dimension: mass
-category: 褐矮星
+category: 行星与小天体
 displayValue: 1.08×10²⁹ kg
 quantity:
   value: 1.08e+29
@@ -24,6 +24,8 @@ related:
   - mass.barnard-star
   - mass.proxima-centauri
   - mass.jupiter
+  - space.earth
+  - temperature.venus-surface
 reviewStatus: reviewed
 review:
   method: source-check
@@ -79,6 +81,7 @@ visual:
   color: '#ffd37a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Teide 1
 ---
 ## 这个读数是什么
 

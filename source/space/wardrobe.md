@@ -18,6 +18,7 @@ related:
   - space.laptop
   - space.hand
   - space.dresser
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: PAX wardrobe frame, white, 100x58x201 cm
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.ikea.com/ph/en/p/pax-2-wardrobe-frames-white-s49896035/'
     publisher: IKEA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为整体衣柜柜体；测量口径为从地面到柜顶的垂直高度，不含顶柜、装饰线条和开门后向上翻起的门板。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 2 米与常见门高约 2 米相当，约为成年人手长 19 厘米的 10.5 倍，也约为 A4 纸长边 29.7 厘米的 6.7 倍。它比 180 厘米的书架高约 20 厘米，比 34.5 厘米的笔记本屏幕对角线高约 5.8 倍。柜顶通常高过大多数成年人的头顶，取放顶层物品往往需要踩凳。柜深 58 厘米约等于成人前臂加手掌的长度，衣物挂好后不会轻易露出柜门。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

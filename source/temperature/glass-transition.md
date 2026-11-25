@@ -23,6 +23,7 @@ related:
   - temperature.quartz-melting
   - temperature.rubber-vulcanization
   - temperature.oven
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: >-

@@ -18,6 +18,7 @@ related:
   - space.laptop
   - space.hand
   - space.coffee-table
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: GRÖNLID 3-seat section, Tallmyra blue
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.ikea.com/be/en/p/naemmaroe-3-seat-sofa-outdoor-with-footstool-light-brown-stained-s39579311/'
     publisher: IKEA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为三人座沙发；测量口径为扶手外缘到扶手外缘的总长，不含贵妃榻、脚凳和靠背枕向外突出的部分。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 2.1 米约为成年人手长 19 厘米的 11 倍，约为 A4 纸长边 29.7 厘米的 7 倍。它比常见门高约 2 米略长，也比一辆小汽车宽度 1.8 米更宽。[2] 与 34.5 厘米的笔记本屏幕对角线相比，沙发总长约为其 6.1 倍；并排坐三人时，每人约占 70 厘米。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 7.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

@@ -17,6 +17,7 @@ related:
   - time.bronze-age
   - time.classical-antiquity
   - time.industrial-revolution
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: Iron Age
@@ -27,6 +28,11 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/event/Bronze-Age'
     accessed: '2026-11-06'
+  - title: Bronze Age — Archaeology glossary
+    url: >-
+      https://archeologie.culture.gouv.fr/archeo-sous-marine/en/glossaire/bronze-age
+    publisher: 'Ministère de la Culture, France'
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -82,3 +88,7 @@ tags:
 ## 与其他阶段的关系
 
 铁器时代前接青铜时代，后接以地中海世界为中心的古典时代。铁制农具和武器扩大了生产与战争规模，也促进了跨地区贸易；但这些变化是长期过程，不是某一年完成的转折。[1][2] 与后来的工业革命相比，铁器时代改变的首先是农具、兵器和手工生产，而不是化石能源驱动的机器体系。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Ministère de la Culture, France）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

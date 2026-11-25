@@ -15,6 +15,7 @@ related:
   - space.human
   - space.rabbit
   - space.brown-bear
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Red Kangaroo
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.snhm.org.cn/cpjc/info.htm?eid=856'
     publisher: 上海自然博物馆
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性；量取后肢伸直、身体直立时从脚底到头顶的垂直距离；尾巴自然下垂，不计入高度；不含头体长与含尾全长。
 uncertainty: 成年雄性站立高度约 1.3–1.6 m，雌性更矮；本条取 1.5 m 作常见成年雄性的代表值，大型个体可超过 1.8 m，个别记录接近 2 m；测量姿势与亚种会让读数相差十厘米级。
 review:
@@ -68,3 +73,7 @@ tags:
 ## 与其他尺度的关系
 
 1.5 米约为成年男性 1.7 米的 88%，比 0.40 米的家兔高约 1.1 米，却比 2.2 米的棕熊矮约 0.7 米。它处在“成人胸口到肩部”的高度：向上是棕熊与人，向下是家兔和家鼠。[1][2] 与人相比，红袋鼠靠粗壮后肢和尾巴支撑，躯干更前倾，同样的高度看上去重心更低。与人并排时，它的头顶大约到成人胸口；若把尾巴算进全长，它的“长度”才会接近一个成年人的身高。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 5.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

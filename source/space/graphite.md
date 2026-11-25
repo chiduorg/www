@@ -18,6 +18,7 @@ related:
   - space.crystal-lattice
   - space.carbon-nanotube
   - space.fullerene
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Improved crystallographic data for graphite
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.acsu.buffalo.edu/~ddlchung/Graphite.pdf'
     publisher: Journal of Materials Science / D. D. L. Chung, University at Buffalo
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   以 AB 堆叠的六方石墨为对象，取约 100 层、层间距 0.335 纳米的乘积作为堆垛厚度；
   不适用于插层石墨、湍层石墨或褶皱多层体系。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 33.5 纳米约为单层石墨烯的 100 倍，也约为二硫化钼单层 0.65 纳米的 50 倍；它比碳纳米管直径 1 纳米大三十多倍，却只有碳纤维直径 7 微米的约 1/200。放到日常尺度，它约为头发丝直径 100 微米的 1/3000。继续比较石墨烯、晶格间距与碳纳米管，可看出“层内”“层间”“堆垛”是三种不同口径。它处在“纳米材料”与“亚微米组织”之间，用纳米或几十纳米表达都合适。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.1e-7 纳秒，在时间轴上量级接近「纳秒」。[3]

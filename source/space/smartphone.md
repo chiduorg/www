@@ -17,6 +17,7 @@ related:
   - space.finger
   - space.hand
   - space.a4-paper
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: iPhone 16 — Technical Specifications
@@ -27,6 +28,10 @@ sources:
     url: 'https://support.apple.com/en-us/121029'
     publisher: Apple Inc.
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为 Apple iPhone 16（2024 年发布）；测量口径为机身高度（长边），不含保护壳、贴膜、镜头凸起或包装盒；不适用于其他代际或其他品牌手机。
 uncertainty: >-
   官网标称高度 147.6 毫米，宽度 71.6 毫米，厚度 7.80 毫米；制造公差与配件会使实际外形略有变化，但不能把 6.1
@@ -75,3 +80,14 @@ Apple 的技术规格页在“尺寸与重量”栏列出：宽度 2.82 英寸�
 ## 与其他尺度的关系
 
 147.6 毫米约为成人手掌长度 18–19 厘米的 0.8 倍，也约为 A4 纸短边 210 毫米的 0.7 倍。它比银行卡长边 85.60 毫米长约 1.7 倍，可以轻松放进大多数上衣口袋。与 6.1 英寸屏幕相比，机身还包含边框与听筒区域，所以两者不能直接互换。[1]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.49 纳秒，在时间轴上量级接近「纳秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 0.1476 米，换算后是 14.76 厘米；约 0.615 个篮球直径（24 厘米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻¹ 量级附近。
+
+读图时先看量级，再看倍数：10⁻¹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

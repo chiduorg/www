@@ -15,12 +15,12 @@ quantity:
   approximate: true
 displayValue: 约 100 万年（常用下限；范围约 100 万–1000 万年，≈3.16×10^13 秒）
 related:
+  - space.fornax-cluster
   - time.dinosaurs
   - time.k-pg-extinction
   - time.first-mammals
   - time.hominins-emerge
   - time.luca
-  - time.species-radiation-timescale
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -34,6 +34,14 @@ sources:
     url: 'https://www.britannica.com/science/extinction-biology'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Triassic Period
+    url: 'https://www.nps.gov/articles/000/triassic-period.htm'
+    publisher: U.S. National Park Service
+    accessed: '2026-11-24'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -84,3 +92,9 @@ tags:
 ## 与其他尺度的关系
 
 100 万年约为人类寿命的一万倍，也约为人类文明文字记录的五分之一到二百分之一，具体取决于采用 5000 年还是更长的文明定义。它比银河年的 2.3 亿年短两个数量级，却比太阳活动周期长得多。[1][2] 与恐龙、哺乳动物辐射和灭绝事件等条目一起看，可以理解物种寿命是演化时间尺度上的统计单位，而不是单个生命的计时器。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. National Park Service）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+按同一真空光速计算，光在这段时间内约走 1.0 百万光年，在空间轴上量级接近「天炉座星系团」。[4]

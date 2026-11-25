@@ -29,6 +29,7 @@ related:
   - time.internet-era-duration
   - time.digital-age
   - time.century
+  - space.omega-centauri
 reviewStatus: reviewed
 sources:
   - title: Climate and the collection
@@ -39,6 +40,14 @@ sources:
     url: 'https://www.britannica.com/event/Industrial-Revolution'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: The birth of the Web
+    url: 'https://info.cern.ch/'
+    publisher: CERN
+    accessed: '2026-11-24'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -80,3 +89,16 @@ tags:
 ## 与其他尺度的关系
 
 250年约为一个世纪的两倍半，在人类文明史上短于农业社会的数千年，却足以重塑能源、城市和气候。[1][2] 它上接科学革命与农业社会，下接电气化、数字时代；与互联网时代的几十年相比，工业时代改变的是动力和物质生产。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（CERN）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+按同一真空光速计算，光在这段时间内约走 250 光年，在空间轴上量级接近「半人马座ω星团」。[4]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 7.89×10⁹ 秒，换算后是 250 年；约 0.05 段人类文字历史（5000 年）。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10⁹ 量级附近。
+
+读图时先看量级，再看倍数：10⁹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

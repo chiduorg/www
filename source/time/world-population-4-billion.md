@@ -17,6 +17,7 @@ related:
   - time.green-revolution
   - time.united-nations
   - time.world-population-8-billion
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: 'United Nations Population Fund Moves Day of Six Billion Based on New Estimates'
@@ -27,6 +28,10 @@ sources:
     publisher: United Nations Population Fund (UNFPA)
     url: 'https://www.unfpa.org/world-population-trends'
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -82,3 +87,12 @@ tags:
 ## 与其他阶段的关系
 
 40亿节点上承1804年的10亿，下接2022年的80亿，是人口增长最快的一段。[1] 它与绿色革命、工业化、城市化相互叠加，也与联合国把人口纳入发展议程的尝试同步。[2] 从10亿到40亿用了约170年，而从40亿到80亿只用了约48年，增长速度并不均匀。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 4.354×10¹⁷ 秒，换算后是 1.38×10¹⁰ 年；约 1 个当前宇宙年龄（138 亿年）。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10¹⁷ 量级附近。
+
+读图时先看量级，再看倍数：10¹⁷ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

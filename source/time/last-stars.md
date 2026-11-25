@@ -47,6 +47,10 @@ sources:
     url: 'https://www.astronomy.ohio-state.edu/gaudi.1/AST161/Unit7/lecture47.html'
     publisher: 'Ohio State University, Astronomy 161'
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -88,3 +92,5 @@ tags:
 ## 与其他尺度的关系
 
 最后一代恒星上接恒星形成高峰与星系演化，下接简并时代、黑洞时代和热死亡。[1][2] 它远晚于太阳红巨星阶段（约50亿年后），也远早于黑洞蒸发完成（约10^100年后）。在整条时间轴上，它标记的是核聚变主导的宇宙结束，而不是宇宙本身的终结。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

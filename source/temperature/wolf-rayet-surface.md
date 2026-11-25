@@ -13,25 +13,31 @@ quantity:
   measure: 沃尔夫–拉叶星光球有效温度量级
   approximate: true
   measureLabel: 沃尔夫–拉叶星光球有效温度量级
-displayValue: '约 5 × 10⁴ K（约 5 × 10⁴ °C，量级）'
+displayValue: 约 5 × 10⁴ K（约 5 × 10⁴ °C，量级）
 related:
   - temperature.o-type-star-surface
   - temperature.b-type-star
   - temperature.supernova
   - temperature.betelgeuse-surface
+  - space.supernova-remnant
+  - space.red-giant
 reviewStatus: reviewed
 sources:
   - title: A Wolf-Rayet Star in Its Final Hours (Description)
     url: 'https://imagine.gsfc.nasa.gov/descriptions/death_cry.html'
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-07'
-  - title: 'A Sheep in Wolf-Rayet''s Clothing'
+  - title: A Sheep in Wolf-Rayet's Clothing
     url: 'https://www.nasa.gov/mission_pages/hubble/science/hen3-1333.html'
     publisher: NASA Hubble Space Telescope
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
-  对象为沃尔夫–拉叶星的光球；约 5 × 10⁴ K 指蓝白色表面所对应的有效温度量级，
-  NASA 资料给出的典型范围约 25,000–50,000 °C。它不是核心的核燃烧温度，也不表示同一亚型或同一演化时刻的精确值。
+  对象为沃尔夫–拉叶星的光球；约 5 × 10⁴ K 指蓝白色表面所对应的有效温度量级， NASA 资料给出的典型范围约 25,000–50,000
+  °C。它不是核心的核燃烧温度，也不表示同一亚型或同一演化时刻的精确值。
 review:
   method: source-check
   date: '2026-11-07'
@@ -39,7 +45,11 @@ review:
     - '核对 NASA Imagine 页面：蓝白色沃尔夫–拉叶星表面温度约 50,000 °C。'
     - '核对 NASA Hubble 页面：这类星表面通常为 25,000–50,000 °C，远高于太阳表面。'
     - 取 5 × 10⁴ K 作量级锚点，并在正文说明亚型、谱线与大气模型会改变拟合结果。
-    - '2026-11-07 来源可访问性核对：https://imagine.gsfc.nasa.gov/descriptions/death_cry.html 返回可用响应；https://www.nasa.gov/mission_pages/hubble/science/hen3-1333.html（429） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07
+      来源可访问性核对：https://imagine.gsfc.nasa.gov/descriptions/death_cry.html
+      返回可用响应；https://www.nasa.gov/mission_pages/hubble/science/hen3-1333.html（429）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料重新撰写，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -82,3 +92,5 @@ tags:
 ## 与其他温区的关系
 
 5 × 10⁴ K 高于太阳表面的约 5,772 K，也高于参宿七的约 11,000 K；它与 O 型星的上端温区相接，但低于红巨星核心约 10⁸ K 的氦燃烧温度。把它放在温区图上，应同时标出“光球”和“核心”两个位置，避免把一颗星的外表和内部当成同一温度。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

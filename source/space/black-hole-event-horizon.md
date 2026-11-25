@@ -16,7 +16,8 @@ related:
   - space.m87-black-hole
   - space.neutron-star
   - space.sun
-  - space.quasar
+  - mass.m87-black-hole
+  - mass.sgr-a-star
 reviewStatus: reviewed
 sources:
   - title: black hole
@@ -27,6 +28,14 @@ sources:
     url: 'https://imagine.gsfc.nasa.gov/science/objects/black_holes1.html'
     publisher: NASA / GSFC / Imagine the Universe
     accessed: '2026-11-06'
+  - title: "Astronomers Reveal First Image of the Black Hole at the Heart of Our Galaxy"
+    url: "https://eventhorizontelescope.org/blog/astronomers-reveal-first-image-black-hole-heart-our-galaxy"
+    publisher: "Event Horizon Telescope Collaboration"
+    accessed: '2026-11-24'
+  - title: "New NASA Mission to Study Mysterious Neutron Stars, Aid in Deep Space Navigation"
+    url: "https://www.nasa.gov/universe/new-nasa-mission-to-study-mysterious-neutron-stars-aid-in-deep-space-navigation/"
+    publisher: "NASA / Goddard Space Flight Center"
+    accessed: '2026-11-24'
 conditions: >-
   指不旋转球对称黑洞的事件视界半径，取 10 倍太阳质量作为恒星级黑洞样本；按 Rs=2GM/c² 换算。不适用于快速自转的 Kerr
   黑洞，也不等同于望远镜图像中的阴影半径。
@@ -76,3 +85,23 @@ tags:
 ## 与其他尺度的关系
 
 2.95×10⁴ 米只有约 30 公里，不到地球直径（约 1.27×10⁷ 米）的四百分之一，与一座城市或一颗小行星的尺度相近。把质量放大到 400 万倍太阳质量，半径就增到约 1.2×10¹⁰ 米，正好是银河系中心黑洞的量级；再放大到 65 亿倍太阳质量，则进入 M87* 的尺度。由此可见，黑洞“大小”几乎完全由质量决定，而不是由形成它的恒星半径决定。
+
+## 视界与阴影不是同一个圆
+
+事件视界是理论边界，半径由质量决定；望远镜看到的“阴影”是光线在强引力场中弯曲后形成的暗区，通常比视界更大。[1][2] EHT 图像的亮环来自吸积流，暗影边缘也不是视界的精确轮廓。把两者当成同一个圆，会高估黑洞的“可见大小”。
+
+## 自转改变视界形状
+
+史瓦西半径只适用于不旋转、无电荷的黑洞。真实黑洞多有自转，视界形状偏离球面，能层与参考系拖曳也会改变周围光线。[2] 质量相同、自转不同的黑洞，阴影与吸积流结构可以不同。事件视界仍存在，但不能只用一个 Rs 概括全部几何。
+
+## 五轴对照
+
+在空间轴，10 倍太阳质量黑洞的视界半径约 30 公里；在质量轴，半径与质量成正比；在时间轴，黑洞会通过吸积与并合增长；在温度轴，霍金温度随质量增大而降低。视界、阴影、质量与温度是四个不同概念。[1][2]
+
+## 视界不是发光边界
+
+事件视界是“有去无回”的零曲面，本身不发光；望远镜拍到的是视界周围吸积流与光子环形成的阴影。阴影直径略大于视界直径，因为光线在强引力场中弯曲。正文若把阴影当成视界，会高估或误解黑洞的“大小”。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（Event Horizon Telescope Collaboration）、[4]（NASA / Goddard Space Flight Center） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

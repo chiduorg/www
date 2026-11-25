@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/91/protactinium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 锕系, 镤]
 rights:
   status: rewritten
@@ -70,3 +74,5 @@ rights:
 ## 它从哪里来
 
 来源记作“天然衰变链（铀-235 系）”。[2] 镤在自然界是铀-235 链上的中间核，靠母核 α、β 衰变补给；它没有稳定同位素，所以天然存在只说明“链还在供”，不说明“核能长期留住”。铀-235 本身来自 r 过程，镤的最终来源仍指向快中子俘获，相关页面是 r 过程来源；这条链的时间尺度可参照铀-238 半衰期节点。[1]
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

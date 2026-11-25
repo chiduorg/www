@@ -5,7 +5,7 @@ summary: >-
   参宿四质量约 3.28×10³¹ kg，大致在 16.5 到 19 太阳质量之间。它没有可测轨道的伴星，数值完全依赖演化模型，只能给量级，相对不确定度约
   30%。
 dimension: mass
-category: 恒星
+category: 恒星与致密天体
 displayValue: 3.28×10³¹ kg
 quantity:
   value: 3.28e+31
@@ -80,6 +80,7 @@ visual:
   color: '#ffd37a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Betelgeuse
 ---
 ## 这个读数是什么
 

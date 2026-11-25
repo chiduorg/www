@@ -14,12 +14,12 @@ quantity:
   approximate: true
 displayValue: 约 1.4 × 10¹⁰ m（直径量级，约 10 太阳半径）
 related:
+  - time.minute
   - space.sun
   - space.betelgeuse
   - space.red-giant
   - space.white-dwarf
   - space.neutron-star
-  - space.planetary-nebula
 reviewStatus: reviewed
 sources:
   - title: Jumbo Jellyfish or Massive Star?
@@ -30,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/science/Wolf-Rayet-star'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   指经典沃尔夫–拉叶星光球直径的数量级概览，取半径约 10 个太阳半径的常见量级；不适用于行星状星云中心星的 [WR] 光谱类型，也不含星风泡、尘埃环或双星相互作用结构。
 uncertainty: >-
@@ -85,3 +89,7 @@ tags:
 ## 与其他尺度的关系
 
 1.4×10¹⁰ 米约为太阳直径的 10 倍、地球直径的 1000 多倍。[2] 它比红超巨星的 10¹² 米小约两个数量级，却比白矮星大约三个数量级；与中子星相比仍大约六个数量级。若把这样的恒星放进太阳系，它的光球只有水星轨道的一小部分，但它强烈的星风会在更大范围内塑造星际介质。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 46.7 秒，在时间轴上量级接近「一分钟」。[3]

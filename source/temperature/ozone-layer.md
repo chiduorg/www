@@ -29,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/ozone-layer'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 大气中的氮氧混合气体，臭氧浓度较高
   height: 约 15–35 km，属平流层范围
@@ -84,3 +88,5 @@ tags:
 ## 与其他温区的关系
 
 250 K 低于水的冰点 273.15 K，却高于平流层下部的约 217 K，也高于中间层的约 190 K。它与对流层质量加权平均约 255 K 相近，但二者所在高度和热力结构完全不同。继续向上，平流层顶可升至约 270 K，再进入中间层重新降温。比较这些数值时，应把“典型温区”与“某次探空读数”分开，避免把一条平均廓线当成实时天气。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

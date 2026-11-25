@@ -15,6 +15,7 @@ related:
   - space.elephant
   - space.cattle
   - space.human
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Ceratotherium simum
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.britannica.com/animal/perissodactyl'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性白犀（Ceratotherium simum）；从吻端沿身体到尾根量取，尾巴不计；不含角长与肩高；不把“全长”与头体长混用。
 uncertainty: ADW 给出头体长（不含尾）3.35–3.77 m，尾长 0.57–0.77 m，肩高 1.71–2.85 m；Britannica 给出白犀等 4–5 m long、肩高至 2 m。清单建议值为 4.0 m，但 4.0–5.0 m 更接近含尾的全长或大型个体上限；按本条“不含尾”的口径，取 3.6 m，与 ADW 的 3.35–3.77 m 一致。
 review:
@@ -70,3 +75,14 @@ Animal Diversity Web 的条目明确写出：头体长（not including tail）�
 ## 与其他尺度的关系
 
 3.6 米的头体长略大于 3.35 米非洲象的肩高，比 4.0 米的河马短约半米，也是肩高 1.4 米家牛的 2.6 倍。[1][2] 它约为 1.7 米成年人的 2.1 倍，却只有 30 米蓝鲸体长的八分之一。在陆生动物里，白犀与河马同处“三到四米级”，上方只有象。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 12 纳秒，在时间轴上量级接近「原子跃迁」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 3.6 米，换算后是 3.6 米；约 0.0343 个足球场长度（105 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

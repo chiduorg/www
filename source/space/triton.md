@@ -16,6 +16,8 @@ related:
   - space.pluto
   - space.kuiper-belt
   - space.enceladus
+  - mass.moon
+  - mass.uranus
 reviewStatus: reviewed
 sources:
   - title: Planetary Satellite Physical Parameters
@@ -26,15 +28,23 @@ sources:
     url: 'https://science.nasa.gov/neptune/moons/triton/'
     publisher: NASA Science
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为海王星卫星海卫一的固体表面；采用JPL所列平均半径1352.60公里加倍；不含稀薄氮气大气，也不把轨道半径、喷流高度当作本体尺寸。
-uncertainty: JPL列平均半径1352.60±2.40公里，直径约2705.2±4.8公里；NASA页面给出约2700公里，属于取整表达。海卫一接近球形但并非完美球体，平均直径不等于赤道或极直径。
+uncertainty: >-
+  JPL列平均半径1352.60±2.40公里，直径约2705.2±4.8公里；NASA页面给出约2700公里，属于取整表达。海卫一接近球形但并非完美球体，平均直径不等于赤道或极直径。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
     - 打开JPL卫星物理参数表与NASA海卫一条目，核对平均半径、直径、逆行轨道与表面活动。
     - 明确2700公里是平均直径，不把5.877天的轨道周期或喷流高度当作尺寸。
-    - '2026-11-07 来源可访问性核对：https://science.nasa.gov/neptune/moons/triton/ 返回可用响应；https://ssd.jpl.nasa.gov/sats/phys_par/（TypeError: fetch failed） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07 来源可访问性核对：https://science.nasa.gov/neptune/moons/triton/
+      返回可用响应；https://ssd.jpl.nasa.gov/sats/phys_par/（TypeError: fetch failed）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -72,3 +82,12 @@ JPL卫星物理参数表列海卫一平均半径1352.60公里，不确定度2.40
 ## 与其他尺度的关系
 
 2700公里约为月球直径3474.8公里的0.78倍，约为冥王星2376公里的1.14倍，约为地球12742公里的21%。[1][2] 与海王星平均直径49528公里相比，它约占5.5%。在卫星中它大于冥王星，却仍远小于木卫三和土卫六。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 2.7×10⁶ 米，换算后是 2.7×10³ 千米；约 0.212 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁶ 量级附近。
+
+读图时先看量级，再看倍数：10⁶ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -16,9 +16,9 @@ related:
   - temperature.bose-einstein
   - temperature.dilution-refrigerator
   - temperature.liquid-nitrogen
-  - temperature.vacuum-temperature
   - space.moon
   - time.big-bang
+  - mass.helium-nucleus
 reviewStatus: reviewed
 sources:
   - title: 'Kelvin: Introduction'
@@ -33,6 +33,14 @@ sources:
     url: 'https://www.nist.gov/si-redefinition/kelvin/kelvin-boltzmann-constant'
     publisher: NIST
     accessed: '2026-11-04'
+  - title: "Bose-Einstein condensate"
+    url: "https://www.britannica.com/science/Bose-Einstein-condensate"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
+  - title: "Nitrogen: Phase change data"
+    url: "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7727379&Mask=4"
+    publisher: "NIST Chemistry WebBook, SRD 69"
+    accessed: '2026-11-24'
 legacy:
   id: absolute-zero
   icon: ❄
@@ -83,3 +91,28 @@ tags:
 ## 在尺度图上怎样理解零
 
 从液氮到更低温体系，读数可以不断靠近温标起点；图中的 0 K 却是定义位置，不是实验纪录。这里保留这个精确零点，以便理解其他温度距离它有多远；装置外观和运动均为概念示意。
+
+
+## 这个数值的误差账本
+
+绝对零度是 0 K，即 −273.15 ℃，是热力学温度的理论下限。它不能被有限步骤达到，只能无限接近；宇宙微波背景约 2.725 K，是当前宇宙的低温背景，不是绝对零度。把 0 K 写成“没有能量”不准确：量子零点能仍然存在。
+
+## 换一个尺度看它
+
+0 K 与室温 293 K 相差 293 K；与太阳表面 5772 K 相比，室温更接近绝对零度而不是太阳。液氦在 4.2 K 以下进入超流态，超导体在临界温度以下出现零电阻。绝对零度不是一个可到达的房间，而是一条渐近线。
+
+## 0 K 是渐近线，不是可到达的房间
+
+热力学第三定律指出，有限步骤无法把系统冷却到绝对零度；每降低一点温度，需要移走的热量越来越多。[1][2] 实验室能达到的最低温度以皮开尔文、纳开尔文计，却仍不是 0 K。把 0 K 画成温度计底端的一条实线，只是坐标约定。
+
+## 五轴对照
+
+在温度轴，0 K 是定义零点；在空间轴，低温实验装置把样品与外界隔绝；在时间轴，宇宙微波背景约 2.7 K，是当前宇宙的低温背景；在质量轴，氦-4 原子核的零点能说明 0 K 仍有量子运动。零点、背景温度与量子基态不是同一个概念。[1][3]
+
+## 负温度不是比 0 K 更冷
+
+粒子数反转的系统可以出现“负温度”，但它的能量高于正无穷温度，仍比 0 K 热得多。负温度只在特定孤立量子系统的统计描述中出现，不是把冰箱再调低一度。把负温度画在 0 K 左边，会误解温标的顺序。[1][S1]
+
+## 延伸核对
+
+补充的来源 [4]（Encyclopaedia Britannica）、[5]（NIST Chemistry WebBook, SRD 69） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

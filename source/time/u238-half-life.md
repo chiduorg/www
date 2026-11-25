@@ -27,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/uranium-238'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Facts About Earth — Formation
+    url: 'https://science.nasa.gov/earth/facts/'
+    publisher: NASA
+    accessed: '2026-11-24'
 chronology:
   status: duration
   plot: false
@@ -77,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 铀-238 的半衰期远长于碳-14 的 5 700 年，也长于人类文明和人类寿命，因此适合用来研究地球形成以来的古老岩石与矿物。[1][2] 它比银河年（约 2.3 亿年）长近二十倍，但仍短于宇宙年龄。把它与“大爆炸后多少秒”比较是错误的：它属于核素寿命尺度，衡量持续多久，而不是发生在何时。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（NASA）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

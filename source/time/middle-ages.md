@@ -29,6 +29,10 @@ sources:
     publisher: Smarthistory
     url: 'https://smarthistory.org/introduction-to-the-middle-ages/'
     accessed: '2026-11-06'
+  - title: 小知识│何谓活字印刷术？
+    url: 'https://www.nlc.cn/pcab/zlyj/zlyj_djsh/20190418_177776.shtml'
+    publisher: 中国国家图书馆·国家古籍保护中心
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -84,3 +88,7 @@ tags:
 ## 与其他阶段的关系
 
 中世纪前接古典时代，后接文艺复兴、大航海时代和印刷术的传播。黑死病、城市自治、大学与商业网络都在这一时期积累，后来的变化并非从零开始。[1][2] 把中世纪看成长时间的重组，而不是一段被“黑暗”抹掉的历史，更容易理解它与近代欧洲的连续与断裂。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（中国国家图书馆·国家古籍保护中心）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

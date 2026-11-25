@@ -16,6 +16,7 @@ related:
   - space.crab-nebula
   - space.milky-way
   - space.light-year
+  - time.supernova-duration
 reviewStatus: reviewed
 sources:
   - title: The Eagle Nebula in 3D
@@ -26,6 +27,10 @@ sources:
     url: 'https://esahubble.org/images/heic1501a/'
     publisher: ESA / Hubble
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: pillars-of-creation
   icon: "\U0001F3DB"
@@ -83,3 +88,7 @@ tags:
 ## 与其他尺度的关系
 
 2.84×10¹⁶米约合3光年，约为太阳系奥尔特云外缘100,000 au的1.9倍。[1] 与鹰状星云55光年的整体跨度相比，创生之柱只是其中相对较小的一部分。[1] 太阳到最近恒星约4.2光年，因此3光年已接近恒星际间距的四分之三。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.0 年，在时间轴上量级接近「超新星过程」。[3]

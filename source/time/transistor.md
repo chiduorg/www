@@ -17,6 +17,8 @@ related:
   - time.digital-age
   - time.internet-birth
   - time.scientific-revolution
+  - mass.electron
+  - elements.si
 reviewStatus: reviewed
 sources:
   - title: transistor
@@ -27,6 +29,14 @@ sources:
     publisher: Computer History Museum
     url: 'https://computerhistory.org/blog/who-invented-the-transistor/'
     accessed: '2026-11-07'
+  - title: "A short history of the Web"
+    url: "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/"
+    publisher: "CERN"
+    accessed: '2026-11-24'
+  - title: "Brief History of the Internet"
+    url: "https://www.internetsociety.org/internet/history-internet/brief-history-internet/"
+    publisher: "Internet Society"
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -83,3 +93,23 @@ Britannica 的晶体管条目说，晶体管在1947至1948年由三位美国物�
 ## 与其他阶段的关系
 
 晶体管接在电子管和早期计算机之后：计算机起源条目取1941年，比它早六年；数字时代条目约在50年前，互联网诞生条目取1969年。[1][2] 它使复杂电路小型化，成为集成电路、微处理器和现代通信的共同基础。与蒸汽机把热转为机械功不同，晶体管把微小电信号变成可控的开关与放大。
+
+## 点接触与结型不是同一种器件
+
+1947 年的点接触晶体管用两根金属触针接触半导体表面，结构简单但性能不稳定；肖克利后来设计的双极结型晶体管用掺杂层形成发射极、基极与集电极，更可靠、可制造。[1][2] 两者共享“半导体控制电流”的原理，却不是同一代器件。把实验室演示当成现代芯片的起点，会跳过这段工程改进。
+
+## 五轴对照
+
+在时间轴，晶体管 1947 年；在空间轴，它把电子器件从厘米级电子管缩到毫米级；在温度轴，半导体性能受温度影响；在质量轴，一个晶体管的质量极小，却支撑了庞大计算系统。尺寸、质量与算力不是线性关系。[1][2]
+
+## 点接触与结型是两代技术
+
+1947 年的点接触晶体管用两根金属针接触锗片，结构脆弱、难以量产；1950 年代的结型晶体管用掺杂半导体结，才成为现代电子学的基础。把“晶体管发明”当成一种器件的起点，会忽略从实验室演示到工业产品的十余年。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 1947年 · 距今约79年 · t ≈ 138 亿年，口径是 time-after-big-bang-derived-historical-reference。时间轴上的年份是地层、文献或模型给出的坐标，误差从几十年到几十万年不等；分期边界不是一条绝对精确的线。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [3]（CERN）、[4]（Internet Society） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

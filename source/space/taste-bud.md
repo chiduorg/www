@@ -15,6 +15,7 @@ related:
   - space.neuron
   - space.cell
   - space.cell_membrane
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Immunohistochemical Analysis of Human Vallate Taste Buds
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.britannica.com/science/taste-bud'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 人轮廓乳头组织切片经固定、包埋、切片与免疫染色后在光学显微镜下测量；样本量、切面角度与个体差异都会影响读数。
 uncertainty: >-
   31 μm 是 15 个人轮廓乳头味蕾样本的平均短径；同一研究平均长约 66.7 μm，范围约 46 × 26 μm 到 89 × 38
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 31 μm 约为红细胞直径的四倍，也比中性粒细胞（约 15 μm）大两倍[1]。它比一个典型神经元胞体（约 20 μm）略大，但远小于一个舌乳头（可达毫米级）。若把 31 μm 放大到一根头发直径，需要约两倍多；这使味蕾在高倍光学显微镜下即可辨认，但仍需染色或特殊成像才能看清其内部细胞排列。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.00010 纳秒，在时间轴上量级接近「纳秒」。[3]

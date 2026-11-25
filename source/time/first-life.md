@@ -18,6 +18,7 @@ related:
   - time.luca
   - time.formation-of-oceans
   - temperature.earth-mantle
+  - mass.bacterium
 chronology:
   status: reference
   plot: true
@@ -37,6 +38,14 @@ sources:
     url: 'https://pubs.usgs.gov/fs/2007/3004/pdf/FS07-3004_508.pdf'
     publisher: U.S. Geological Survey
     accessed: '2026-11-06'
+  - title: "Earth Fact Sheet"
+    url: "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+    publisher: "NASA NSSDC"
+    accessed: '2026-11-24'
+  - title: "Is the Earth round?"
+    url: "https://oceanservice.noaa.gov/facts/earth-round.html"
+    publisher: "NOAA / National Ocean Service"
+    accessed: '2026-11-24'
 legacy:
   id: first-life
   icon: "\U0001F9EB"
@@ -102,3 +111,27 @@ tags:
 ## 与其他阶段的关系
 
 这条记录出现在地球冷却、海洋存在的早期阶段之后，早于大氧化事件与真核生物出现。[2][3] 它为讨论 LUCA 与生命树根提供下限，但 LUCA 是分子系统学推断的祖先节点，不能与最老化石画等号。[1][2]
+
+## 最老化石为什么总有争议
+
+35 亿年前的岩石经历了变质、流体改造和构造变形，微体化石的形态可能与矿物假象混淆；有机分子的来源也要排除后期污染。[1][3] 研究者通常要求形态、化学与同位素证据相互独立，才能把候选材料定为生物成因。单一条线索不足以把“最老生命”前移。
+
+## 生物标志物不是化石
+
+生物标志物是特定生物合成的有机分子，保存在岩石或流体包裹体中；它们能提供代谢线索，却容易被热成熟、迁移和污染改造。[1] 把一种分子直接对应到某类微生物，需要现代类比与实验校准。化石形态与分子信号一致时，证据才更强。
+
+## 五轴对照
+
+在时间轴，最早生命证据约 35 亿年前；在空间轴，它们保存在地球早期海洋与热液系统的岩石中；在温度轴，液态水与热梯度决定可居住环境；在质量轴，单个微生物约 10⁻¹⁵ 千克。时间、环境与细胞尺度共同约束生命起源。[1][2]
+
+## 微化石与同位素证据各有争议
+
+最早生命证据包括约 35 亿年前的叠层石、微化石，以及更老的碳同位素异常。微化石可能被后期矿物或非生物结构冒充，同位素信号也可能受热液改造。正文的“最早生命”因此是一个证据区间，而不是已确认的单一起点。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 t ≈ 103 亿年（距今约35亿年），口径是 time-after-big-bang-derived-geological-evidence。时间轴上的年份是地层、文献或模型给出的坐标，误差从几十年到几十万年不等；分期边界不是一条绝对精确的线。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（NASA NSSDC）、[5]（NOAA / National Ocean Service） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

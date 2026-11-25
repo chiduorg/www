@@ -4,7 +4,7 @@ title: 铀：第 92 个质子填进 5f，5f/6d 交错与无稳定同位素同时
 titleEn: 'Uranium: the 92nd proton enters 5f'
 dimension: element
 category: 锕系
-summary: '镤的 5f 添一个电子，铀成为 5f3 6d1 7s2；5f 与 6d 交错带来多种氧化态，它没有稳定同位素，238U 半衰期为 4.468×10⁹ 年。'
+summary: 镤的 5f 添一个电子，铀成为 5f3 6d1 7s2；5f 与 6d 交错带来多种氧化态，它没有稳定同位素，238U 半衰期为 4.468×10⁹ 年。
 quantity:
   value: 92
   unit: Z
@@ -19,7 +19,7 @@ element:
   group: 3
   block: f
   configuration: '[Rn] 5f3 6d1 7s2'
-  valence: '5f3 6d1 7s2'
+  valence: 5f3 6d1 7s2
   level: A
   predicted: false
 related:
@@ -32,9 +32,14 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自 CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - >-
+      本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自
+      CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: 'PubChem Element Summary: Uranium'
     url: 'https://pubchem.ncbi.nlm.nih.gov/element/92'
@@ -44,10 +49,16 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/92/uranium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
-  - title: 'NIST Atomic Spectra Database'
+  - title: NIST Atomic Spectra Database
     url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-09'
+  - title: >-
+      Uranium—Deposits, production and resources, market dynamics, and supply
+      chain risks
+    url: 'https://pubs.usgs.gov/publication/fs20253057/full'
+    publisher: U.S. Geological Survey
+    accessed: '2026-11-24'
 conditions: 标准状态（298 K，1 bar）下的中性气态原子；电离能为孤立原子口径，半径为经验值而非计算值。
 visual:
   scene: elements.shell-ladder
@@ -94,3 +105,7 @@ tags:
 ## 怎么继续走
 
 往前是镤，5f 少一个电子；往后是镎，5f 继续填充，但本组没有为它单独写页。真正把铀的故事收束的是铅：铀系衰变链的终点是 ²⁰⁶Pb，铀与铅构成一条从产生到终结的完整因果链。想弄清 5f 与 6d 为什么交错、锕系与镧系为何不同，去看电子排布解释页；想弄清“没有稳定同位素”意味着什么、半衰期如何决定留存，去看核稳定性解释页。铀这一页的核心不是“放射性元素”这个标签，而是 5f 的弥散、6d 的参与，以及一颗核在四十多亿年里慢慢减少。
+
+## 延伸核对
+
+铀的放射性衰变与矿床分布是核燃料链条的起点；本条只给元素身份与同位素背景，不展开提纯与反应堆工程。[4]

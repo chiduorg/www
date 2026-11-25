@@ -17,6 +17,7 @@ related:
   - space.iss
   - space.football-field
   - space.airbus-a380
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: 波音 747-8 技术参数
@@ -28,6 +29,10 @@ sources:
       https://investors.boeing.com/investors/news/press-release-details/2022/Final-Boeing-747-Airplane-Leaves-Everett-Factory/default.aspx
     publisher: Boeing
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为波音 747-8（洲际客机与货机共用同一机翼）；测量口径为翼展，即两侧翼尖之间的最大横向距离，不是机身长度、飞机高度或停机包围尺寸；不适用于
   747-400 等早期型号。
@@ -78,3 +83,7 @@ tags:
 ## 与其他尺度的关系
 
 68.4 米约为足球场 105 米边线的 65%，约为伊丽莎白女王级航母舰长 284 米的 24%。[1] 它也比国际空间站桁架长度 94 米短约四分之一。把翼展与机身长度分开，才能正确描述这架飞机的横向尺寸；讨论跑道、机库和登机桥时，用的往往不是翼展，而是翼展与机长的组合包围框。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 228 纳秒，在时间轴上量级接近「微秒」。[3]

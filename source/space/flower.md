@@ -16,6 +16,7 @@ related:
   - space.honeybee
   - space.butterfly
   - space.hand
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Sunflower
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/plant/common-sunflower'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 量向日葵头状花序（花盘）的最大直径，不是单朵小花、花梗或整株高度；以野生类型7.5–15 cm的上限15 cm为参照，栽培类型可更大。
 uncertainty: 野生向日葵花盘约7.5–15 cm，栽培品种可达30 cm以上；15 cm只是野生类型上限的取整参照，不代表所有向日葵，也不代表其他菊科植物的花。
 review:
@@ -72,3 +77,7 @@ Britannica 的“Sunflower”条目在描述普通向日葵时写道，野生类
 ## 与其他尺度的关系
 
 15厘米的花盘约为人手长度的四分之三，接近篮球直径的六成，约为蜜蜂体长的十二倍。[1][2] 在尺度轴上，它位于厘米级物体的偏大一端：向上可比较人脸、书本和球类，向下可落到蜜蜂、花粉与细胞。向日葵也说明，生物个体的“大小”常常同时取决于野生或栽培、品种和生长条件。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.50 纳秒，在时间轴上量级接近「纳秒」。[3]

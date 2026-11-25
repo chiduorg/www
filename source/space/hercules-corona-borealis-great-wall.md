@@ -16,6 +16,8 @@ related:
   - space.cosmic-web
   - space.laniakea
   - space.observable-universe
+  - mass.hercules-corona-borealis-great-wall
+  - mass.observable-universe
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -28,26 +30,36 @@ sources:
     url: 'https://arxiv.org/abs/2609.03452'
     publisher: I. I. Racz et al. / arXiv
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 采用3×10²⁵米（约1 Gpc）的保守取整；不把文献2–3 Gpc的上限当作确定长度，长度为统计结构的长轴跨度而非厚度。
-uncertainty: 文献给出的长度估计为2–3 Gpc（约6.5–9.8×10⁹光年），本页取3×10²⁵米（约1 Gpc、约3.2×10⁹光年）是较保守的量级；端点识别、GRB样本和宇宙学模型都会改变结果，该结构是否为一个物理连通系统也仍有争议。
+uncertainty: >-
+  文献给出的长度估计为2–3 Gpc（约6.5–9.8×10⁹光年），本页取3×10²⁵米（约1
+  Gpc、约3.2×10⁹光年）是较保守的量级；端点识别、GRB样本和宇宙学模型都会改变结果，该结构是否为一个物理连通系统也仍有争议。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - 打开arXiv:2008.03679，核对红移约2的GRB成团、统计显著性与2–3 Gpc的尺度估计。
-    - 打开arXiv:2609.03452，核对综述将武仙–北冕巨墙长度描述为超过10×10⁹光年的上限口径；正文按1 Gpc≈3.0857×10²⁵米换算，并说明本页取整与文献上限的差异。
-    - '2026-11-07 来源可访问性核对：全部来源页返回可用响应（https://arxiv.org/abs/2008.03679；https://arxiv.org/abs/2609.03452），数值口径与正文一致。'
+    - '打开arXiv:2008.03679，核对红移约2的GRB成团、统计显著性与2–3 Gpc的尺度估计。'
+    - >-
+      打开arXiv:2609.03452，核对综述将武仙–北冕巨墙长度描述为超过10×10⁹光年的上限口径；正文按1
+      Gpc≈3.0857×10²⁵米换算，并说明本页取整与文献上限的差异。
+    - >-
+      2026-11-07
+      来源可访问性核对：全部来源页返回可用响应（https://arxiv.org/abs/2008.03679；https://arxiv.org/abs/2609.03452），数值口径与正文一致。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "cluster"
-  variant: "wall"
-  scene: "space.object"
-  caption: "武仙–北冕巨墙 · 长轴概览"
-  note: "星系丝带、节点与颜色为示意，未按真实GRB或星系目录重建；范围表示统计结构的长轴跨度，不是实体墙厚度；图为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: cluster
+  variant: wall
+  scene: space.object
+  caption: 武仙–北冕巨墙 · 长轴概览
+  note: 星系丝带、节点与颜色为示意，未按真实GRB或星系目录重建；范围表示统计结构的长轴跨度，不是实体墙厚度；图为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:
@@ -74,3 +86,5 @@ tags:
 ## 与其他尺度的关系
 
 3×10²⁵米约为斯隆长城1.37×10²⁵米的2.2倍，约为可观测宇宙8.8×10²⁶米直径的3.4%，约为银河系盘直径的3万倍。[1][2] 它位于星系团和超星系团之上的大尺度结构层级。若采用文献上限3 Gpc，长度会接近1×10²⁶米，比较时必须先说明取的是哪一版估计。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

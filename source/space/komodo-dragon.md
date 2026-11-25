@@ -13,12 +13,12 @@ quantity:
   approximate: true
 displayValue: 约 3 m（科莫多巨蜥全长参照）
 related:
+  - time.atomic-transition
   - space.python
   - space.crocodile
   - space.galapagos-tortoise
   - space.human
   - space.cat
-  - space.iguana
 reviewStatus: reviewed
 sources:
   - title: Komodo dragon
@@ -29,6 +29,10 @@ sources:
     url: 'https://animals.sandiegozoo.org/animals/komodo-dragon'
     publisher: San Diego Zoo Wildlife Alliance
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为科莫多巨蜥（Varanus komodoensis）；量吻端到尾尖的全长，不是体重、体高或只量躯干；3 m取在大型成体范围的上端，接近核实最长个体3.13 m。
 uncertainty: >-
@@ -77,3 +81,7 @@ Britannica的科莫多巨蜥条目写明，它可长到3米（10英尺），体�
 ## 与其他尺度的关系
 
 3米约为1.8个1.7米高的人，比4米尼罗河鳄和4米缅甸蟒各短1米，是1.2米加拉帕戈斯象龟背甲长的2.5倍，也是0.3米变色龙全长的10倍。[1][2] 在尺度轴上，它处在“几米级”爬行动物的上端：向上是鳄与蟒，向下是龟、变色龙和蛙。用全长而不是体重，才能把它与这些动物放在同一根轴上。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 10 纳秒，在时间轴上量级接近「原子跃迁」。[3]

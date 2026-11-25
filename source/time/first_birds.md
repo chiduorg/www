@@ -18,6 +18,7 @@ related:
   - time.first-mammals
   - time.jurassic-period
   - time.k-pg-extinction
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Archaeopteryx

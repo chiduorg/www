@@ -17,6 +17,7 @@ related:
   - space.tectonic-plate
   - space.earth
   - space.glacier
+  - time.blink
 reviewStatus: reviewed
 sources:
   - title: 'Seismicity of the Earth 1900–2013, seismotectonics of South America (Nazca Plate Region)'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Andes-Mountains'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为南美洲西缘的安第斯山系；测量口径为沿大陆边缘的弧形纵向长度，起止点取智利南部三联点至巴拿马断裂带附近，不是东西宽度、山系面积或火地岛至加勒比海岸的完整山链长度。
 uncertainty: >-
   USGS把南美西缘的弧形构造带量得超过7,000公里；Britannica把从南美最南端到加勒比海岸的整条山系记为约5,500英里（8,900公里）。差异来自起止点与是否计入南端延伸，不是测量误差。
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 7,000公里约为地球平均半径6,371公里的1.1倍，约为赤道周长40,075公里的17%。它比喜马拉雅的2,500公里长约2.8倍，也略长于长江的6,300公里。[2] 这些比较都只说明水平延伸，不代表山体体积或高度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 23.3 毫秒，在时间轴上量级接近「眨眼」。[3]

@@ -4,7 +4,7 @@ title: 金：第 79 个质子填满 5d，相对论把它的颜色与惰性一起
 titleEn: 'Gold: the 79th proton completes 5d'
 dimension: element
 category: 贵金属
-summary: '铂的 5d 添一个电子，金成为 5d10 6s1；电负性从 2.28 升到 2.54，可见光吸收让它呈黄色，单一同位素 197Au 暴露 r 过程通道之窄。'
+summary: 铂的 5d 添一个电子，金成为 5d10 6s1；电负性从 2.28 升到 2.54，可见光吸收让它呈黄色，单一同位素 197Au 暴露 r 过程通道之窄。
 quantity:
   value: 79
   unit: Z
@@ -19,7 +19,7 @@ element:
   group: 11
   block: d
   configuration: '[Xe] 4f14 5d10 6s1'
-  valence: '4f14 5d10 6s1'
+  valence: 4f14 5d10 6s1
   level: A
   predicted: false
 related:
@@ -32,9 +32,14 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自 CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - >-
+      本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自
+      CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: 'PubChem Element Summary: Gold'
     url: 'https://pubchem.ncbi.nlm.nih.gov/element/79'
@@ -44,10 +49,14 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/79/gold'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
-  - title: 'NIST Atomic Spectra Database'
+  - title: NIST Atomic Spectra Database
     url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-09'
+  - title: Gold in Ancient Egypt
+    url: 'https://www.metmuseum.org/essays/gold-in-ancient-egypt'
+    publisher: The Metropolitan Museum of Art
+    accessed: '2026-11-24'
 conditions: 标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。
 visual:
   scene: elements.shell-ladder
@@ -94,3 +103,7 @@ tags:
 ## 怎么继续走
 
 往前是铂，5d 还差一个电子，是这一页最直接的对照；往后是汞，6s 终于闭合，5d10 6s2 把“重排”收束成闭壳。想弄清相对论收缩为什么同时改变颜色与电离能，去看屏蔽与有效核电荷解释页；想弄清 ²³⁸U 的长半衰期如何为 r 过程事件计时，去看铀-238 半衰期条目。金这一页的核心不是“贵”，而是 5d 填满之后，6s 仍被留了一颗。
+
+## 延伸核对
+
+金的化学稳定性与古代工艺是两条证据线；本条给元素属性，博物馆藏品给加工与使用背景。[4]

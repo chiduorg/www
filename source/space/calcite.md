@@ -18,6 +18,7 @@ related:
   - space.nacl-crystal
   - space.diamond-unit-cell
   - space.co2-molecule
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Calcite
@@ -28,6 +29,10 @@ sources:
     url: 'https://geo.libretexts.org/Bookshelves/Geology/Mineralogy_(Perkins_et_al.)/14:_Mineral_Descriptions/14.07:_Carbonates_and_Nitrates/14.7.01:_Calcite_Group_Minerals'
     publisher: Geosciences LibreTexts / University of North Dakota
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取常温常压下的方解石 R3c 六方晶胞，量 a 轴长度；c 轴为 17.061 Å，二者相差三倍多。
   该值不是手标本尺寸、不是 C—O 键长，也不是解理菱面体的宏观边长。
@@ -77,3 +82,7 @@ conceptGroup: crystal
 ## 与其他尺度的关系
 
 0.499 nm 约为 NaCl 晶格常数 0.564 nm 的 0.88 倍，与石英 a 轴 0.491 nm 几乎相同。[1][2] 但方解石的 c 轴 1.706 nm 明显更长，说明晶胞可以高度各向异性。与二氧化碳分子 0.23 nm 相比，a 轴约为其两倍；与 DNA 直径 2 nm 相比则约为四分之一。[2] 继续阅读晶格间距、NaCl 晶体与二氧化碳，可比较碳酸盐与卤化物的结构参数。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.7e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

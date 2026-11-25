@@ -20,6 +20,7 @@ related:
   - temperature.plasma-cutter
   - temperature.aurora
   - temperature.thermosphere
+  - space.sun
 reviewStatus: reviewed
 sources:
   - title: 'ball lightning'
@@ -30,6 +31,10 @@ sources:
     url: 'https://physicsworld.com/a/burning-soil-fuels-ball-lightning/'
     publisher: Physics World
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   本条不设温度数值；球状闪电罕见、不可重复，目击与光谱样本有限，现有证据不足以给出统一的温度口径。
 review:
@@ -86,3 +91,5 @@ tags:
 ## 与其他温区的关系
 
 在没有可靠温度的情况下，只能把它和普通闪电、等离子切割等对象作定性比较：球状闪电的亮度远低于闪电通道，部分模型预期它比闪电通道冷得多，另一些模型则允许内部存在高温等离子体。[1][2] 本站因此把它保留为“未定”，等未来有可重复的光谱和温度诊断再纳入数轴。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

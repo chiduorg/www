@@ -17,6 +17,7 @@ related:
   - temperature.iron-melting
   - temperature.cement-kiln
   - temperature.oxyacetylene-flame
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Blast furnace: metallurgy'
@@ -30,6 +31,10 @@ sources:
       https://www.steel-technology.com/articles/blast-furnace-operation-temperature-burden-gas-flow-control
     publisher: Steel Technology
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   高炉炉缸、出铁口的液态生铁（铁水），约 1 atm 炉内压力，含碳约 4% 的铁碳合金；
   温度随焦比、风温、喷煤量、出铁节奏和炉况变化。测点指出铁铁水，不是炉衬或炉顶空间。
@@ -79,3 +84,12 @@ tags:
 ## 与其他温区的关系
 
 1,773 K 低于纯铁熔点 1,811 K，但因生铁含碳约 4%，其液相线更低，所以在该温度下仍为液态。[1] 它高于水泥窑烧成带的 1,723 K，低于钢包出钢的约 1,893 K，也远低于氧乙炔火焰的约 3,473 K。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1773 K，即 1500 ℃（按 T/K−273.15 换算）；约为太阳表面（5772 K）的 0.307 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10³ 量级附近。
+
+读图时先看量级，再看倍数：10³ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

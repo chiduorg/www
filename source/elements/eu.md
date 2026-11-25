@@ -48,6 +48,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/63/europium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 镧系, 铕]
 rights:
   status: rewritten
@@ -79,3 +83,5 @@ rights:
 铕的核来源记为 r 过程为主。快中子俘获在富中子环境中连续发生，β 衰变链把产物推到质量数 152 附近，再随并合或爆发抛射进入星际介质。[2] 钐是 s 与 r 混合的产物，从钐到铕，路径权重变了。
 
 把铕挂到“早期宇宙的重元素富集”节点上：r 过程产物不是第一代恒星里就齐全的，它需要富中子物质被抛射、再被后代恒星继承。铕的丰度记录的是累积账。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

@@ -16,6 +16,8 @@ related:
   - time.present
   - time.matter-radiation-equality
   - time.peak-star-formation
+  - space.milky-way
+  - mass.milky-way
 reviewStatus: reviewed
 sources:
   - title: dark energy
@@ -31,6 +33,10 @@ sources:
       https://www.esa.int/Science_Exploration/Space_Science/What_are_dark_matter_and_dark_energy
     publisher: European Space Agency
     accessed: '2026-11-06'
+  - title: How Did the Solar System Form?
+    url: 'https://spaceplace.nasa.gov/solar-system-formation/en/'
+    publisher: NASA Space Place
+    accessed: '2026-11-24'
 legacy:
   id: dark-energy-domination
   icon: "\U0001F52E"
@@ -97,3 +103,7 @@ tags:
 ## 与其他阶段的关系
 
 暗能量主导发生在物质主导和宇宙正午之后，延续至今[1][2]。它抑制大尺度结构增长，使遥远星系退行加快。与再电离、星系形成等早期阶段相比，这一阶段由膨胀动力学定义，而不是由恒星或气体辐射定义。它也是当前宇宙学模型中最主要的未解成分之一。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（NASA Space Place）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

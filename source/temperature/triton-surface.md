@@ -18,6 +18,7 @@ related:
   - temperature.charon-surface
   - temperature.titan-surface
   - temperature.methane-boiling
+  - space.moon
 reviewStatus: reviewed
 sources:
   - title: Triton
@@ -28,6 +29,10 @@ sources:
     url: 'https://solarsystem.nasa.gov/resources/219/global-color-mosaic-of-triton/'
     publisher: NASA Solar System Exploration
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 海卫一近地表氮冰、甲烷冰与霜层的辐射温度代表值，不区分纬度与季节。
 uncertainty: 极区与赤道、日照面与背阴面存在差异；38 K 是量级代表值，不是全球同时均温。
 review:
@@ -72,3 +77,5 @@ tags:
 ## 与其他尺度的关系
 
 38 K 约为液氮 77.34 K 的 0.49 倍，低于冥王星表面的约 44 K，高于阋神星与鸟神星的约 30 K，也远高于液氦的 4.22 K。[1][2] 这说明外太阳系天体的表面温度主要由太阳辐照和反照率决定；画面只作示意。38 K 约为宇宙微波背景 2.725 K 的 14 倍，也约为液氦 4.22 K 的 9 倍。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

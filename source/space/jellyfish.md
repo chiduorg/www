@@ -17,6 +17,7 @@ related:
   - space.octopus
   - space.shark
   - space.crab
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: 'Cyanea capillata'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/animal/jellyfish'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为大型钵水母，以狮鬃水母（Cyanea capillata）的伞径数据为参照；量伞盖的最大直径，不含触手、口腕和拖曳的生殖腺；不是触手长度或整只水母的纵向长度；1 m 取在常见伞径 30–80 cm 与最大 180 cm 之间。
 uncertainty: >-
@@ -73,3 +78,7 @@ ADW 的 Cyanea capillata 条目写明，狮鬃水母的伞径通常为 30–80 �
 ## 与其他尺度的关系
 
 1 米约等于珊瑚群体直径 1 米，也约等于章鱼臂展 1 米，约为海胆壳径 10 厘米的十倍，约为 1.7 米高成人的 0.59 倍。[1][2] 在尺度轴上，大型水母的伞径进入“米级”的下段：向上是章鱼、鲨鱼与人类，向下是海胆、牡蛎和藤壶。把伞盖与触手分开，才能避免把水母的“总长”虚增成好几米。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

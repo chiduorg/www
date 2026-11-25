@@ -16,6 +16,7 @@ related:
   - space.electron-compton
   - space.strong-force
   - space.quark
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: PDG 2025 — π± Listings
@@ -30,6 +31,10 @@ sources:
     url: 'https://physics.nist.gov/cgi-bin/cuu/Value?hbarev'
     publisher: NIST / CODATA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: pion
   icon: ⭕
@@ -85,3 +90,5 @@ tags:
 ## 与其他尺度的关系
 
 它与质子尺度同量级（约 1 飞米），却比原子（约 10⁻¹⁰ 米）小五个数量级；与电子康普顿波长（约 2.426×10⁻¹² 米）相比则小约 1700 倍。[1][3] 沿尺度轴，π介子把亚原子粒子与原子核尺度连接起来；1.4 飞米与核子间距同量级，这也是介子交换能给出合理核力范围的直观原因。
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.7e-15 纳秒，在时间轴上量级接近「强相互作用时间」。[4]

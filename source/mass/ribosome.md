@@ -5,7 +5,7 @@ summary: >-
   大肠杆菌 70S 核糖体由 30S 与 50S 两个亚基组成，含三条 rRNA 与约 54 种蛋白，总质量约 2.5 MDa，合 4.15×10⁻²¹
   kg。这个值由冷冻电镜结构、沉降系数与质谱共同推导。
 dimension: mass
-category: 分子机器
+category: 生命与人体
 displayValue: 4.2×10⁻²¹ kg（约 2.5 MDa）
 quantity:
   value: 4.15e-21
@@ -71,6 +71,7 @@ visual:
   color: '#9cc8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: E. coli 70S ribosome
 ---
 ## 这个读数是什么
 

@@ -16,6 +16,7 @@ related:
   - space.sheep
   - space.human
   - space.bison
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: cattle
@@ -26,6 +27,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Bos_taurus/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年家牛；量取肩胛最高点到平整地面的垂直距离；不含头角、头顶和背线；瘤牛的肩峰是否计入会改变读数，需事先说明。
 uncertainty: Britannica 给出成年家牛肩高平均约 1.2–1.5 m，ADW 给出 49–52 英寸（约 1.24–1.32 m）。品种、性别与饲养方式差异明显，家牛肩高常见约 1.2–1.5 m；本条取 1.4 m，接近较大品种或公牛的读数。
 review:
@@ -69,3 +74,7 @@ Britannica 的学生条目给出：成年家牛肩高平均约 4–5 英尺，�
 ## 与其他尺度的关系
 
 1.4 米约为 1.7 米成年人的八成，略低于 1.6 米的马肩高，也低于 3.35 米的非洲象肩高；比 0.72 米的狗高近一倍。[1][2] 在家畜里，牛处在中等偏上：向上是马、象，向下是羊、狗。用肩高比较时，牛与马、人的差距最直观。若把牛与马放在同一张体尺表上，牛的肩高通常低一头，但体长和体重可能并不逊色。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

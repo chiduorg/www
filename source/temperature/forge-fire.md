@@ -20,6 +20,7 @@ related:
   - temperature.oxyacetylene-flame
   - temperature.iron-melting
   - temperature.coke-oven
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: forging
@@ -31,6 +32,10 @@ sources:
       https://www.js-nyct.com/news/industry-news/forging-temperature-guide-optimal-heat-ranges-for-metal-working.html
     publisher: js-nyct.com
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   碳钢坯料在锻造炉中加热到热锻区间，取工件温度口径；钢种、坯料截面、炉型、加热速率、
   保温时间和测温位置都会改变实际温度。本条不指炉膛火焰温度、感应圈温度或锻后冷却温度。
@@ -82,3 +87,5 @@ tags:
 ## 与其他温区的关系
 
 1,400 K 高于垃圾焚烧炉的常见 1,273 K，低于水泥窑烧成带物料温度的 1,723 K，也低于钢的液相线。它低于纯铁熔点 1,811 K，因此锻造仍在固态进行；这正是锻造与铸造、炼钢在温度口径上的区别。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

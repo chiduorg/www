@@ -2,7 +2,9 @@
 id: elements.pr
 title: 镨：第 59 个质子把 5d 收回去，4f 一次拿到三个电子
 titleEn: Praseodymium
-summary: 铈的 4f1 5d1 6s2 到镨的 4f3 6s2：5d 那个电子退回 4f，新质子也进 4f，4f 从一跳到三。第一电离能降 0.077 eV，计算半径升到 247 pm，与收缩直觉相反，只能按口径读。
+summary: >-
+  铈的 4f1 5d1 6s2 到镨的 4f3 6s2：5d 那个电子退回 4f，新质子也进 4f，4f 从一跳到三。第一电离能降 0.077
+  eV，计算半径升到 247 pm，与收缩直觉相反，只能按口径读。
 dimension: element
 category: 镧系
 displayValue: 'Z = 59 · [Xe] 4f³ 6s² 镧系'
@@ -18,9 +20,15 @@ element:
   group: null
   block: f
   configuration: '[Xe] 4f3 6s2'
-  valence: '4f3 6s2'
+  valence: 4f3 6s2
   level: B
-related: [elements.ce, elements.nd, elements.explain-lanthanide-contraction, elements.explain-nuclear-stability]
+related:
+  - elements.ce
+  - elements.nd
+  - elements.explain-lanthanide-contraction
+  - elements.explain-nuclear-stability
+  - space.atomic-nucleus
+  - time.first-stars
 conditions: 标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径，半径取计算值。
 visual:
   scene: elements.shell-ladder
@@ -31,9 +39,14 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自 CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - >-
+      本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自
+      CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: 'PubChem Element Summary: Praseodymium'
     url: 'https://pubchem.ncbi.nlm.nih.gov/element/59'
@@ -43,10 +56,18 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/59/praseodymium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
-tags: [元素, 第六周期, 镧系, 镨]
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
+tags:
+  - 元素
+  - 第六周期
+  - 镧系
+  - 镨
 rights:
   status: rewritten
-  note: "依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。"
+  note: 依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。
 ---
 ## 第 59 个质子把电子放进了哪里
 
@@ -78,3 +99,5 @@ rights:
 ## 怎么继续走
 
 往前是铈，4f1 与 5d1 并存；往后是钕，4f 继续加电子，5d 不再回来。想弄清 4f 与 5d 为什么轮流占位，去读镧系收缩解释页；想弄清 N=82 为什么让核更稳，去读核稳定性解释页。镨这一页的重点是：一个质子换来一次重排，价层从此交给 4f。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

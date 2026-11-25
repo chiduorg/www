@@ -16,20 +16,30 @@ related:
   - space.earth-moon-distance
   - space.earth
   - space.ganymede
+  - mass.moon
+  - time.moon-age
 reviewStatus: reviewed
 sources:
   - title: Moon Fact Sheet — Bulk Parameters
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html'
     publisher: NASA NSSDC
     accessed: '2026-11-06'
-  - title: Earth's Moon — By the Numbers
-    url: 'https://solarsystem.nasa.gov/moons/earths-moon/by-the-numbers/'
-    publisher: NASA Solar System Exploration
+  - title: "Moon Facts"
+    url: 'https://science.nasa.gov/moon/facts/'
+    publisher: "NASA Science"
     accessed: '2026-11-06'
   - title: Moon — Distinctive features
     url: 'https://www.britannica.com/place/Moon/Distinctive-features'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "Moon Facts — Orbit and Rotation; Size and Distance"
+    url: "https://science.nasa.gov/moon/facts/"
+    publisher: "NASA Science"
+    accessed: '2026-11-24'
+  - title: "Is the Earth round?"
+    url: "https://oceanservice.noaa.gov/facts/earth-round.html"
+    publisher: "NOAA / National Ocean Service"
+    accessed: '2026-11-24'
 legacy:
   id: moon_diameter
   icon: "\U0001F319"
@@ -86,3 +96,27 @@ NASA月球事实表列体积平均半径1737.4公里，赤道半径1738.1公里�
 ## 与其他尺度的关系
 
 3474.8公里约为地球直径12742公里的27.3%，约为木卫三平均直径5262.4公里的66%。与太阳直径约139万公里相比，月球约为其0.25%。它小于水星和火星。[1][3]
+
+## 平均直径、赤道直径与视直径
+
+平均直径 3,474.8 公里是把月球折成同体积球体后的结果；赤道直径约 3,476.2 公里，极直径约 3,472.0 公里。[1] 从地球看到的视直径还会随距离变化，近地点约 33.5 角分、远地点约 29.4 角分。三种“直径”不能互换。
+
+## 超级月亮没有改变月球
+
+“超级月亮”变大是近地点视直径变大，不是月球实体膨胀；月球平均直径不会随月相、潮汐或观测地点改变。[2][3] 同样，月食时的“血月”只是地球大气折射与散射改变了颜色，不改变大小。把视直径的短期变化当成实体变化，是常见的尺度误读。
+
+## 五轴对照
+
+在空间轴，月球直径约 3,475 公里；在质量轴，月球约 7.346×10²² 千克；在时间轴，月球正以每年约 3.8 厘米远离地球；在温度轴，月面昼夜温差极大。直径、质量、距离和温度是四本不同的账。[1][2]
+
+## 半径、直径与扁率
+
+月球平均半径约 1,737 公里，直径是它的两倍；但月球不是完美球体，潮汐锁定与内部质量分布让它略呈扁球，赤道与极半径差几公里。激光测月、掩星和探测器定轨给出的是不同参考面下的数值。正文的直径是平均几何直径，不是某一条经线或纬线的即时测量。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 约 3,474.8 km（平均直径），口径是 体积等效平均半径1737.4 km的两倍。空间轴上的长度还要区分半径、直径、距离与投影跨度；同一对象在不同参考面下会给出不同数值。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（NASA Science）、[5]（NOAA / National Ocean Service） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

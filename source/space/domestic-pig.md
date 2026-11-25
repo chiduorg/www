@@ -15,6 +15,7 @@ related:
   - space.sheep
   - space.dog
   - space.human
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: pig
@@ -25,6 +26,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Sus_scrofa/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年家猪；量取从吻端沿体轴到尾根的头体长，尾巴不计；不含肩高与体重；品种、性别与肥育程度差异明显。
 uncertainty: Britannica 给出猪体长约 0.6–2.1 m，ADW 给出野猪体长 1.53–2.4 m。家猪头体长常见约 0.9–1.8 m，小型品种不足 1 m，大型肥育猪可超过 1.7 m；本条取 1.5 m 作成年个体的代表值。
 review:
@@ -68,3 +73,7 @@ Britannica 的儿童条目写明：猪的体长约为 2–7 英尺，即 0.6–2
 ## 与其他尺度的关系
 
 1.5 米比 1.2 米的绵羊长约 0.3 米，约为 0.72 米狗的两倍，也接近 1.4 米家牛肩高的水平；但比 1.7 米的人矮一头。[1][2] 在家畜里，猪的体长与牛、马相近，肩高却低得多，说明“长”和“高”必须分开说。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 5.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

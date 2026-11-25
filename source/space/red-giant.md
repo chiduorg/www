@@ -14,11 +14,12 @@ quantity:
   approximate: true
 displayValue: 约 3 × 10¹¹ m（类太阳红巨星阶段直径概览）
 related:
+  - mass.sun
+  - temperature.sun-surface
   - space.sun
   - space.sun_diameter
   - space.betelgeuse
   - space.white-dwarf
-  - space.planetary-nebula
 reviewStatus: reviewed
 sources:
   - title: 'Caught in the Act: Astronomers Detect a Star Devouring a Planet'
@@ -51,12 +52,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "类太阳红巨星阶段直径概览"
-  note: "恒星表面与颜色为示意；直径按模型量级绘制，不代表某一颗具体红巨星；非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 类太阳红巨星阶段直径概览
+  note: 恒星表面与颜色为示意；直径按模型量级绘制，不代表某一颗具体红巨星；非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:

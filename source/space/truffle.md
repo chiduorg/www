@@ -18,6 +18,7 @@ related:
   - space.oak-tree
   - space.seed
   - space.hand
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Tuber melanosporum Vittad'
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.smnf.fr/wp-content/Photos_SMNF/Photos_SMNF_T/Tuber_melanosporum.htm'
     publisher: Société Mycologique du Nord de la France
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为松露（以黑松露 Tuber melanosporum 为代表）的子实体；量最宽处的直径，不含表面疣突的局部凸起，不按重量换算，也不量埋藏深度。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 6 cm 约为蘑菇菌盖直径（10 cm）的六成，约为鸡蛋长径（5.5 cm）的 1.1 倍，也约为菜豆种子（12 mm）的五倍。它处在几厘米的地下真菌带，向上是伞菌和块菌属中的大个体，向下是菌丝和孢子。与 6 cm 相比，松露的疣突只有几毫米，菌丝则只有几微米，三个尺度相差上千倍。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.20 纳秒，在时间轴上量级接近「纳秒」。[3]

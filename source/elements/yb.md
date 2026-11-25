@@ -48,6 +48,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/70/ytterbium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 镧系, 镱]
 rights:
   status: rewritten
@@ -81,3 +85,5 @@ Yb²⁺ 保留 4f14 闭壳，丢掉两个 6s 电子就能得到；这个二价�
 ## 怎么继续走
 
 往前是铥，4f 只剩一个空位；往后是镥，4f 无处可填，新电子只能进 5d，镧系在这里收尾。想看满壳如何改变电负性，看周期律解释页；想看 4f14 的屏蔽不足如何压到铪，看镧系收缩解释页。镱这一格的价值，是让人看到“填满”并不等于化学反应性归零。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

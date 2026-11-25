@@ -18,6 +18,7 @@ related:
   - time.devonian-period
   - time.first-tetrapods
   - time.late-devonian-extinction
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: The oldest gnathostome teeth
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.science.org/doi/10.1126/science.aah3764'
     publisher: Science
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -85,3 +90,5 @@ tags:
 ## 与其他阶段的关系
 
 有颌类从寒武纪的无颌鱼形动物中分化，在奥陶纪与志留纪逐步扩展，到泥盆纪成为海洋与淡水生态系统的重要捕食者。[1][2] 颌的出现改变了取食方式，也为后来四足动物的演化提供了身体结构基础；但它只是脊椎动物演化的一步，不是终点。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

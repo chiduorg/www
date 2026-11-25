@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: '3,122 km（体积等效平均直径）'
 related:
+  - mass.europa
+  - mass.earth
   - space.io
   - space.titan
   - space.jupiter
   - space.ganymede
-  - space.earth
 reviewStatus: reviewed
 sources:
   - title: Jovian Satellite Fact Sheet
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Europa-satellite-of-Jupiter'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: '对象为木卫二冰壳表面；采用平均半径1,560.8公里加倍；不含稀薄大气，也不把地下海洋或冰壳厚度计入直径。'
 uncertainty: >-
   1,560.8公里乘二得3,121.6公里，取整为3,122公里；NASA表列半径1,560.8公里，Britannica给出约3,120公里量级的描述，差异来自有效数字而非测量冲突。
@@ -40,12 +45,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  scene: "space.object"
-  caption: "木卫二 · 冰卫星"
-  note: "球体、冰壳裂纹纹理和光照为示意，非按比例，非观测重建；不复现真实裂纹网络与当日相位。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: sphere
+  scene: space.object
+  caption: 木卫二 · 冰卫星
+  note: 球体、冰壳裂纹纹理和光照为示意，非按比例，非观测重建；不复现真实裂纹网络与当日相位。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -72,3 +77,5 @@ NASA木星卫星事实表列出木卫二平均半径1,560.8公里，数据来自
 ## 与其他尺度的关系
 
 3,122公里约为月球直径3,474公里的0.90倍，比木卫一3,643公里小约14%，但比谷神星940公里大得多。[1] 它约为木卫三5,268公里的0.59倍。木卫二与地球的平均距离随木星轨道变化，最近约5.9亿公里，最远约9.7亿公里，这个距离与它的直径不是同一口径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -17,7 +17,7 @@ related:
   - space.cell
   - space.earth
   - temperature.human-body-temperature
-  - space.dromedary-camel
+  - mass.adult-human
   - time.industrial-revolution
 reviewStatus: reviewed
 sources:
@@ -29,6 +29,14 @@ sources:
     url: 'https://www.britannica.com/science/anthropometry'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "Anthropometric parameters of the hand and their importance for the free skin autograft"
+    url: "https://pubmed.ncbi.nlm.nih.gov/2796213/"
+    publisher: "PubMed / National Library of Medicine"
+    accessed: '2026-11-24'
+  - title: "Biology 2e, §4.2 Prokaryotic Cells"
+    url: "https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells"
+    publisher: "OpenStax / Rice University"
+    accessed: '2026-11-24'
 legacy:
   id: human
   icon: "\U0001F9CD"
@@ -84,3 +92,28 @@ CDC 国家卫生统计中心的《2021人体测量程序手册》把站立身高
 ## 与其他尺度的关系
 
 1.7米的人比20厘米的手高约8.5倍，比30米的蓝鲸小得多，比地球直径小约七个数量级（约750万倍）。[1][2] 在尺度轴上，人正好处在“米级”日常尺度：向上是建筑、山脉与行星，向下是手、铅笔、昆虫、细胞与分子。用人的身高作锚点，最容易把其他条目放进同一张尺度图。
+
+
+## 这个数值的误差账本
+
+成人身高取 1.7 米，是成年人群的圆整示例；全球成年男性与女性的平均身高不同，地区、营养与年龄也会改变。1.7 米不是“人类标准”，更不是儿童或古人类的身高。用这个数比较家具、门框或航天器时，应把它当成一个方便的人体尺度，而不是精确人口统计值。
+
+## 换一个尺度看它
+
+1.7 米约是红细胞直径的 20 万倍，也约是珠峰高度的 1/5,200。若把一个人缩成 1 毫米，地球直径约 7.5 公里，月球约 2 公里。人体处在“米”的尺度，向上连接到城市与行星，向下连接到细胞与分子，是本站最常用的参照之一。
+
+## 人群均值不是“标准人”
+
+1.7 米是方便比较的圆整参照，但全球成年人的身高分布很宽；地区、性别、营养、年代和测量方法都会改变均值。[1][2] 把 1.7 米当成“标准人”，会让门框、座椅、服装和航天器的人体尺度设计失去分布信息。人体尺度通常要用百分位，而不是一个固定数。
+
+## 身高会随一天和姿势变化
+
+站立身高在早晨与晚上可能相差约 1 厘米，椎间盘受压、姿势、赤足与否都会影响读数。[1] 规范测量要求赤足、直立、头部处于法兰克福平面。把身份证上的身高当成精确物理常数，会忽略这些测量条件。
+
+## 五轴对照
+
+在空间轴，人约 1.7 米；在质量轴，成人约 70 千克；在温度轴，体温约 37 ℃；在时间轴，现代人的身体尺度与寿命都和古代人群不同。人的“大小”同时是长度、质量与生理状态。[1][2]
+
+## 延伸核对
+
+补充的来源 [3]（PubMed / National Library of Medicine）、[4]（OpenStax / Rice University） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

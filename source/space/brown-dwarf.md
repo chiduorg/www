@@ -16,6 +16,7 @@ related:
   - space.red-dwarf
   - space.exoplanet
   - space.sun
+  - time.blink
 reviewStatus: reviewed
 sources:
   - title: 'TWA 5B: More Images'
@@ -30,6 +31,10 @@ sources:
     url: 'https://www.britannica.com/science/brown-dwarf'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取“与木星大小相近”的典型褐矮星尺度，并用木星体积平均直径作为数值基准；适用于亚恒星天体的
   入门比较。不同质量、年龄的褐矮星直径有差异，且不含其大气外层或伴星。
@@ -79,3 +84,5 @@ tags:
 ## 与其他尺度的关系
 
 1.4×10⁸ 米与木星直径相当，约为地球直径的 11 倍，太阳直径的十分之一。[2] 它比红矮星略小，却比地球大一个数量级；与恒星相比，褐矮星跨越了“行星”与“恒星”之间那条模糊的边界。把褐矮星、红矮星和木星并排，能直观看到质量相差数十倍时，直径却可以非常接近。
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 466 毫秒，在时间轴上量级接近「眨眼」。[4]

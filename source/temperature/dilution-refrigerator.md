@@ -32,6 +32,10 @@ sources:
       https://www.nist.gov/ncnr/sample-environment/equipment/below-1k-inserts/ice-dil-fridge
     publisher: NIST Center for Neutron Research
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: dilution-refrigerator
   icon: "\U0001F9CA"
@@ -94,3 +98,5 @@ NIST 的扫描探针显微镜设施用定制稀释制冷机，在最高 15 T 磁
 ## 与其他温区的关系
 
 10 mK 比氦-3 超流 A 点的 2.444 mK 高，比核退磁实验的 421 μK 电子温度高，却比液氦-4 的 2.17 K 超流转变低两个多量级。它也远高于 170 nK 的玻色—爱因斯坦凝聚，说明不同低温技术覆盖不同温区，不能相互替代。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

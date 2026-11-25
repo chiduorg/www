@@ -17,6 +17,7 @@ related:
   - space.hurricane
   - space.great-barrier-reef
   - space.mid-ocean-ridge
+  - time.millisecond
 reviewStatus: reviewed
 sources:
   - title: Tsunami Frequently Asked Questions
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.weather.gov/mtr/tsunami_info'
     publisher: NOAA / National Weather Service
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为深海传播中的海啸波；样本为NWS海啸问答与地方台说明；口径为相邻波峰间的波长，不是波高、周期、传播速度或近岸爬高。
 uncertainty: 海啸波长随水深与波源变化，常见约100–480公里；本条取300公里作代表值，近岸变浅时波长会缩短。
 review:
@@ -71,3 +76,7 @@ tags:
 ## 与其他尺度的关系
 
 300公里约为台湾本岛纵长394公里的76%，也约为典型飓风直径480公里的63%。[1][2] 与地球直径12742公里相比，它约为后者的2.4%。海啸波长属于海洋盆地尺度，向上连接板块运动，向下连接近岸波浪。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.0 毫秒，在时间轴上量级接近「毫秒」。[3]

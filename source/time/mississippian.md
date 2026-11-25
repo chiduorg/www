@@ -18,6 +18,7 @@ related:
   - time.pennsylvanian
   - time.permian-period
   - time.first-trees
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,10 @@ sources:
     url: 'https://macrostrat.org/api/defs/intervals?interval_name=Mississippian'
     publisher: Macrostrat, University of Wisconsin–Madison
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -80,3 +85,5 @@ tags:
 ## 与其他尺度的关系
 
 密西西比纪约 3546 万年，约占石炭纪（约 3.5886 亿至 2.989 亿年）的 59%。[1] 它前接泥盆纪、后接宾夕法尼亚纪；与最早树木条目相比，森林在密西西比纪已扩展到更多湿地环境。[2] 若以人类寿命 80 年计，3546 万年约相当于四十四万代人，这个数字只用于感受尺度。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

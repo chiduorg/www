@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 9.5 × 10¹⁶ m（直径，约 10 光年）
 related:
+  - temperature.supernova-remnant
+  - mass.sun
   - space.crab-nebula
   - space.neutron-star
   - space.planetary-nebula
   - space.stellar-wind-bubble
-  - space.milky-way
 reviewStatus: reviewed
 sources:
   - title: supernova remnant
@@ -50,12 +51,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "nebula"
-  scene: "space.object"
-  caption: "超新星遗迹直径 · 以蟹状星云为例约 10 光年"
-  note: "丝状气壳与颜色为示意；直径按蟹状星云圆整值绘制，不代表所有遗迹；非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: nebula
+  scene: space.object
+  caption: 超新星遗迹直径 · 以蟹状星云为例约 10 光年
+  note: 丝状气壳与颜色为示意；直径按蟹状星云圆整值绘制，不代表所有遗迹；非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 距离
 tags:

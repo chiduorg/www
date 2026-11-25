@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Mars-planet'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: '对象为火星固体表面；采用体积平均半径3,389.5公里加倍；不含稀薄二氧化碳大气，也不把奥林匹斯山等局部地形计入直径。'
 uncertainty: >-
   3,389.5公里乘二得6,779公里；赤道半径3,396.2公里、极半径3,376.2公里，对应赤道直径6,792.4公里、极直径6,752.4公里，差异属扁率。
@@ -74,3 +78,5 @@ NASA事实表列出赤道半径3,396.2公里、极半径3,376.2公里和体积�
 ## 与其他尺度的关系
 
 6,779公里约为地球直径12,742公里的0.53倍，约为月球直径3,474公里的1.95倍，也比水星4,879公里大约39%。[2] 它约为木星139,822公里的二十分之一。火星轨道半长轴约1.524 au，约为地球轨道半径的1.5倍。[1]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

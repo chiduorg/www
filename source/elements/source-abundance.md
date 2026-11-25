@@ -36,6 +36,10 @@ sources:
     url: 'https://www.britannica.com/science/meteorite'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 conditions: 过程页；丰度口径为太阳光球与 CI 球粒陨石，比较时必须先统一归一基准。
 visual:
   scene: elements.explain
@@ -68,3 +72,5 @@ rights:
 ## 与其他阶段的关系
 
 太阳系丰度是元素轴所有来源页的汇总账本：它把大爆炸、恒星、AGB、并合与人工合成放在同一条曲线上检验。[2] 它向上接太阳系形成与地球分异，向下为元素页提供丰度背景。元素页写“来源”时，最终都要能在这张账单上找到位置，否则就只是一个孤立的故事。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

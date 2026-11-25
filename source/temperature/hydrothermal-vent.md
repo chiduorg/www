@@ -16,6 +16,7 @@ related:
   - temperature.deep-ocean
   - temperature.boiling-water
   - temperature.lava-temperature
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: Hydrothermal Systems in Escanaba Trough
@@ -28,6 +29,10 @@ sources:
       https://oceanexplorer.noaa.gov/wp-content/uploads/2022/10/hydrothermal-vents-fact-sheet.pdf
     publisher: NOAA Ocean Exploration
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 液态海水与溶解气体、矿物的混合流体
   measurementSite: 海底喷口出口附近
@@ -78,3 +83,5 @@ tags:
 ## 与其他温度的关系
 
 350 ℃ 高于 boiling-water 的 100 ℃，也高于 oven 的 180 ℃ 设定，但低于 lava-temperature。它与 hot-spring 的约 40 ℃ 同属地热系统，却处在压力完全不同的一端：温泉在地表低压下散热，热液喷口在深海高压下保持液态。与 deep-ocean 的约 2 ℃ 并列时，能看出同一海域内喷口与背景海水的巨大温差。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

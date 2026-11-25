@@ -37,6 +37,14 @@ sources:
     url: 'https://www.britannica.com/technology/steel/Secondary-steelmaking'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "Iron: element data"
+    url: "https://periodic-table.rsc.org/element/26/iron"
+    publisher: "Royal Society of Chemistry"
+    accessed: '2026-11-24'
+  - title: "Corning Glass Material Properties — Soda Borosilicate, Code 7740"
+    url: "https://www.corning.com/media/worldwide/csm/documents/Soda_Borosilicate_7740.pdf"
+    publisher: "Corning, manufacturer material data"
+    accessed: '2026-11-24'
 legacy:
   id: steelmaking_temp
   icon: "\U0001F3ED"
@@ -109,3 +117,23 @@ tags:
 ## 与其他温区的关系
 
 1,893 K 高于纯铁熔点 1,811 K，也高于硅熔点 1,687 K，低于钨熔点 3,687 K。它高于基拉韦厄熔岩的 1,433 K，低于氧乙炔火焰的 3,473 K。炼钢出钢处在“金属熔化后过热”的温区，温度不高到能熔化钨，但足以使钢液流动和浇注。
+
+## 测温方法与误差
+
+出钢温度不是炉内平均温度，而是钢包内的目标温度。现场常用一次性热电偶、连续测温探头或红外测温，测量位置、插入深度、响应时间和钢渣覆盖都会影响读数。[1][3] 1,620 °C 是工序参考，不是单炉实测均值；不同钢种、合金加入量和钢包预热状态会让目标上下移动。
+
+## 为什么不是越高越好
+
+出钢温度过高会增加能耗、耐材侵蚀和夹杂物，过低则可能在连铸前凝固。目标温度是“足够流动、又不过热”的窗口，不是越高越好。[1][3]
+
+## 五轴对照
+
+在温度轴，它是 1,893 K 的工艺窗口；在元素轴，钢是铁碳合金，碳含量与合金元素改变相变温度；在时间轴，它属于工业革命之后的规模化炼钢；在质量轴，一炉钢液的质量与温度共同决定能耗。把“电弧温度 3,500 °C”当成钢液温度，是把局部热源与熔池平均温度混为一谈。[1][2]
+
+## 出钢温度不是炉温
+
+电弧炉出钢温度约 1,620 ℃，指钢水离开炉子时的温度；炉内热点、炉壁与渣层温度可能更高，钢包还会继续升温或降温。测温多用热电偶、红外测温与消耗式探头，不同位置给出不同读数。正文的 1,620 ℃是出钢口径，不是整个炉子的平均温度。[1][S1]
+
+## 延伸核对
+
+补充的来源 [4]（Royal Society of Chemistry）、[5]（Corning, manufacturer material data） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

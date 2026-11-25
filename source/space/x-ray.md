@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 1 nm（X 射线代表波长）
 related:
+  - time.nuclear-timescale
   - space.ultraviolet
   - space.gamma-ray
   - space.neutron-star
   - space.atom
   - space.crab-nebula
-  - space.soft-x-ray
 reviewStatus: reviewed
 sources:
   - title: X-ray
@@ -28,6 +28,10 @@ sources:
     url: 'https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html'
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为X射线波段的电磁波波长；介质取真空；1纳米是代表值，不是软、硬X射线的分界。
 uncertainty: 软X射线与硬X射线的分界随领域不同；常见波长范围写为10至0.01纳米，本条取1纳米。
 review:
@@ -74,3 +78,7 @@ Britannica 给出X射线波长约10⁻⁸至10⁻¹²米，即10纳米至0.01纳
 ## 与其他尺度的关系
 
 1纳米约为可见光中值550纳米的1/550，也比紫外代表波长100纳米短100倍。[1][2] X射线位于紫外与伽马射线之间，波长越短光子能量越高。它既是医学成像工具，也是研究高温等离子体与致密天体的重要窗口。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

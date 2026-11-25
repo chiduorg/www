@@ -15,11 +15,12 @@ quantity:
   measureLabel: 蒸发冷却实验达到温度参考
 displayValue: 约 1 nK（10⁻⁹ K）
 related:
+  - space.moon
+  - mass.helium-nucleus
   - temperature.laser-cooling
   - temperature.bose-einstein
   - temperature.quantum-degeneracy
   - temperature.dilution-refrigerator
-  - temperature.absolute-zero
 reviewStatus: reviewed
 sources:
   - title: Thirty years of Bose-Einstein Condensates

@@ -15,6 +15,7 @@ related:
   - space.snail
   - space.earth
   - space.crust
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: earthworm
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.nationalgeographic.com/animals/invertebrates/facts/common-earthworm'
     publisher: National Geographic
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为常见陆正蚓（Lumbricus terrestris）成体；量取起点为口前叶前端，终点为尾端；测量时虫体自然伸展，不刻意拉直，也不把蜷缩、受刺激收缩或洞穴长度计入。
 uncertainty: Britannica给陆正蚓成体约25厘米，National Geographic记为可达14英寸（约36厘米），二者差异来自样本年龄、伸展程度与测量方式；本条取30厘米作为成体自然伸展的代表值，个体范围大致为20至36厘米。
 review:
@@ -69,3 +74,7 @@ Britannica给出的陆正蚓成体长度约为25厘米，并指出澳大利亚�
 ## 与其他尺度的关系
 
 30厘米约为成年蜗牛壳径5厘米的6倍，约为人的手指长度约8厘米的3.8倍；与体长可达30米的蓝鲸相比，只是后者的1%。[1][2] 它远小于地表常见的地形尺度，却足以在土壤孔隙与落叶层中构成一个完整的活动空间。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.0 纳秒，在时间轴上量级接近「纳秒」。[3]

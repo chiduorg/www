@@ -6,27 +6,34 @@ dimension: cosmic-time
 category: 现在与未来
 summary: 太阳在主序阶段随核心氢聚变而逐渐增亮，模型估计约 10 亿年后亮度比今天高约一成。这是连续演化趋势的模型参考时点，不是某天突然发生的日历事件。
 quantity:
-  value: 4.669576e+17
+  value: 466957600000000000
   unit: s
   measure: future-reference-time
   approximate: true
   measureLabel: 自大爆炸起的推算未来参考时间
-displayValue: '距今约 10^9 年（t ≈ 4.67 × 10^17 秒）'
+displayValue: 距今约 10^9 年（t ≈ 4.67 × 10^17 秒）
 related:
   - time.earth-uninhabitable
   - time.solar-red-giant-time
   - time.last-stars
   - time.heat-death
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: Under the Bright Lights of an Aging Sun
-    url: 'https://astrobiology.nasa.gov/news/under-the-bright-lights-of-an-aging-sun/'
+    url: >-
+      https://astrobiology.nasa.gov/news/under-the-bright-lights-of-an-aging-sun/
     publisher: NASA Astrobiology
     accessed: '2026-11-07'
   - title: Sun
     url: 'https://www.britannica.com/place/Sun'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'Solar Forecast: 1.5 Billion Years of Habitability'
+    url: >-
+      https://www.lpi.usra.edu/nuggets/2014/nugget_solar_forecast-_runaway_greenhouse_20140710.pdf
+    publisher: Lunar and Planetary Institute
+    accessed: '2026-11-24'
 chronology:
   status: future
   plot: false
@@ -45,7 +52,10 @@ review:
   notes:
     - 核对 NASA 天体生物学报道，确认太阳持续增亮、三维气候模型把约 15.5% 增亮与至少约 15 亿年的宜居时限联系起来。
     - 核对 Britannica 太阳条目，确认太阳能量来自核心氢聚变，并在主序阶段随氦积累而逐渐增亮。
-    - '2026-11-07 来源可访问性核对：https://astrobiology.nasa.gov/news/under-the-bright-lights-of-an-aging-sun/ 返回可用响应；https://www.britannica.com/place/Sun（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07
+      来源可访问性核对：https://astrobiology.nasa.gov/news/under-the-bright-lights-of-an-aging-sun/
+      返回可用响应；https://www.britannica.com/place/Sun（403） 受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -82,3 +92,7 @@ tags:
 ## 与其他尺度的关系
 
 太阳亮度上升上接现在与地球不再宜居，下接太阳红巨星阶段、白矮星冷却和更远的恒星形成终止。[1][2] 它把“气候失效”与“恒星吞噬”分开：前者由太阳缓慢增亮驱动，后者由恒星晚期演化决定。它是理解地球远期命运的第一个关键环节。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Lunar and Planetary Institute）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

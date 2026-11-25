@@ -17,6 +17,7 @@ related:
   - space.octopus
   - space.human
   - space.shark
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Ammonites
@@ -27,6 +28,10 @@ sources:
     url: 'https://blogs.ucl.ac.uk/museums/2017/12/19/the-giant-ammonites-of-the-jurassic-seas-and-ucl/'
     publisher: UCL Museums Blog, University College London
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为菊石（Ammonoidea）；量壳体旋卷平面的最大外径，不是缝合线展开长度、壳口宽度或软体部分体长；0.3 m 是常见中型菊石的取整参照。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 30 厘米约等于 3 个 0.1 米三叶虫首尾相接，约为成年人手掌宽度的 1.5 倍，也约为 1.7 米人类身高的六分之一。[1][2] 它只有 1.5 米巨型菊石的五分之一，却比 1 米章鱼的全长小得多。放在尺度轴上，菊石落在“几十厘米”这一带：向上是章鱼和人类，向下是三叶虫、蚂蚁和花粉。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.0 纳秒，在时间轴上量级接近「纳秒」。[3]

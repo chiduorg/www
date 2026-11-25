@@ -17,6 +17,7 @@ related:
   - space.mantis
   - space.frog
   - space.mouse
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: short-horned grasshopper
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/animal/grasshopper-insect'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为剑尾亚目（Caelifera）蝗虫成虫；量头部前端到腹部末端的体长，不含触角与后足；不是两翅展开的翼展，也不是跳跃时后足的伸展长度；8 cm 取在 5 mm–11 cm 范围的中上段。
 uncertainty: >-
@@ -73,3 +78,7 @@ Britannica 的短角蝗（short-horned grasshopper）条目写明，蝗科体长
 ## 与其他尺度的关系
 
 8 厘米约等于一只常见青蛙的体长，约为蝉含翅体长 5 厘米的 1.6 倍，约为蚂蚁体长 6 毫米的十三倍，也约为成人手指长 70.5 毫米的 1.13 倍。[1][2] 在尺度轴上，蝗虫落在“厘米级”的上段：向下是蝉、蜜蜂和米粒，向上是手掌、手机和家鼠。把体长与翼展、后足长度分开，才能与蝴蝶、蜻蜓等条目公平比较。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.27 纳秒，在时间轴上量级接近「纳秒」。[3]

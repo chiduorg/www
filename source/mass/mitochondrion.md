@@ -5,7 +5,7 @@ summary: >-
   肝细胞线粒体常呈长约 1 µm、直径约 0.5 µm 的短棒状。单个线粒体湿重均值约 2.0×10⁻¹⁶ kg，由圆柱等效体积与 1.1 g/cm³
   密度估算，随融合分裂状态变化。
 dimension: mass
-category: 细胞器
+category: 生命与人体
 displayValue: 2.0×10⁻¹⁶ kg
 quantity:
   value: 2.e-16
@@ -71,6 +71,7 @@ visual:
   color: '#b7a6ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Mitochondrion
 ---
 ## 这个读数是什么
 

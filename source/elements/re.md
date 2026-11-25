@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/75/rhenium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 5d 区, 铼]
 rights:
   status: rewritten
@@ -74,3 +78,5 @@ rights:
 ## 怎么继续走
 
 往前是钨，5d4 6s2 处于半满前夜；往后是锇，5d 越过半满进入 5d6。想知道半满为什么带来额外稳定性，可以看构型解释页；想知道 4f14 如何改变整段收缩，可以看镧系收缩解释页。铼这一页的关键词是半满的代价。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

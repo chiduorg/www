@@ -23,6 +23,7 @@ related:
   - temperature.copper-melting-point
   - temperature.tin-melting
   - temperature.zinc-melting
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'C27000 Yellow Brass, 65% alloy data'
@@ -33,6 +34,10 @@ sources:
     url: 'https://www.britannica.com/technology/brass-alloy'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   典型 Cu-Zn 黄铜（C27000：Cu 63.0–68.5%，Zn 余量，杂质有限），约 1
   atm。液相线为完全变为液体的温度，固相线为开始熔化的温度；锌含量、铅/锡添加和压力都会移动区间。
@@ -81,3 +86,5 @@ tags:
 ## 与其他温区的关系
 
 黄铜的固相线—液相线区间 1,177–1,205 K 低于纯铜熔点约 1,358 K，也低于青铜的 1,173–1,273 K 上端；它高于纯锌熔点 692.68 K 和锡熔点 505.08 K。[1] 与铝的 933 K 相比，黄铜液相线高出约 240–270 K。这个温区适合普通铸造和热加工，但低于钢铁熔炼温度，因此黄铜炉不能直接用来熔化钢。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

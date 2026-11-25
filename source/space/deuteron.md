@@ -17,6 +17,7 @@ related:
   - space.alpha-particle
   - space.atomic-nucleus
   - space.strong-force
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: 'CODATA Value: deuteron rms charge radius'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/deuteron'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   2022 CODATA
   推荐的氘核均方根电荷半径，适用于氘核基态；数值描述电荷分布的整体宽度，不是核子的可见边界。它不直接等于质子与中子各自半径的简单相加，也不适用于激发态或其他同位素。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 在核子与原子核之间，氘核是结构最简单的复合核：它比单个核子大，却比 α 粒子和典型原子核小。[1][2] 把 2.13 飞米与 1 飞米量级的核子、几飞米到十几飞米的原子核放在同一条轴上，可以直观看到“核子组成核”时尺度只增加数倍，而原子整体却比核大四个数量级以上。继续阅读质子、中子和 α 粒子，可比较不同核系统的半径口径。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 7.1e-15 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

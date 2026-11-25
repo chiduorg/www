@@ -33,6 +33,10 @@ sources:
       https://naturalhistory.si.edu/education/teaching-resources/life-science/early-life-earth-animal-origins
     publisher: Smithsonian National Museum of Natural History
     accessed: '2026-11-04'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: cambrian
   icon: "\U0001F41A"
@@ -93,3 +97,5 @@ tags:
 ## 怎样继续探索
 
 可以向前阅读埃迪卡拉生物群，向后阅读早期鱼形脊椎动物，比较不同证据所记录的时代。场景中的海底生物、相对大小与动作是解释插画，不是某处古海底的精确复原。把时期边界、某件化石的年龄与一个类群真正的起源分开，会比记住一个“生命诞生日”更接近这段历史。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

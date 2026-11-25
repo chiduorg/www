@@ -5,7 +5,7 @@ summary: >-
   丰田陆地巡洋舰 300 系整备质量约 2,600 kg，非承载式车身、四驱系统与大油箱都计入其中。规格书按配置给出 2,495–2,600
   kg，最大允许总质量约 3,000 kg。
 dimension: mass
-category: 车辆
+category: 工程与交通
 displayValue: '2,600 kg'
 quantity:
   value: 2600
@@ -71,6 +71,7 @@ visual:
   color: '#e6c17c'
   scaleMin: -40
   scaleMax: 53
+titleEn: Toyota Land Cruiser
 ---
 ## 这个读数是什么
 

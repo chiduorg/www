@@ -16,6 +16,7 @@ related:
   - space.lung
   - space.hand
   - space.kidney
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: heart — anatomy
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.ncbi.nlm.nih.gov/books/NBK482452/'
     publisher: StatPearls / NCBI Bookshelf
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成人心脏；量取整体长径，不含心包外的大血管与周围脂肪；体型、性别和测量时的心腔充盈状态都会影响读数。
 uncertainty: 12 厘米是取整的成人代表值，来源同时给出宽约 8 厘米、厚约 6 厘米；不同个体与不同测量方法可相差数厘米，不能把长径当成重量或容积。
 review:
@@ -73,3 +78,7 @@ Britannica 的 heart 条目在“人体心脏速览”中把成人心脏的尺�
 ## 与其他尺度的关系
 
 12 厘米约为成人手掌长度 19 厘米的 0.63 倍，也比一支约 19 厘米的铅笔短。它比股骨 45 厘米短得多，却比眼球 24 毫米的直径大约五倍。把心脏长径放在厘米尺度上，可以与肺高度 25 厘米、肝脏最大径 20 厘米等器官尺寸直接比较，而不会把不同方向的口径混在一起。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.40 纳秒，在时间轴上量级接近「纳秒」。[3]

@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/21/scandium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第四周期, d 区, 钪]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往回是钙（/entry/elements/ca/），能看到 3d 门前最后一个纯 s 价层；往前是钛（/entry/elements/ti/），3d2 让更高氧化态开始常见。想把 4s 与 3d 的能量交错弄清楚，去读电子排布解释页；想把 3d 填充与半径变化连起来，去读屏蔽解释页。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

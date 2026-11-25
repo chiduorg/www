@@ -18,9 +18,9 @@ related:
   - temperature.boiling-water
   - temperature.water-triple-point
   - temperature.room-temperature
-  - temperature.snow-surface
   - space.human
   - time.present
+  - mass.water-molecule
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -35,6 +35,14 @@ sources:
       https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes
     publisher: NIST Special Publication 811
     accessed: '2026-11-04'
+  - title: "FAQs About Water and Steam: effect of pressure on boiling"
+    url: "https://iapws.org/faqs/faq1"
+    publisher: "International Association for the Properties of Water and Steam"
+    accessed: '2026-11-24'
+  - title: "SI Brochure Appendix 2: mise en pratique for the kelvin"
+    url: "https://www.bipm.org/documents/20126/41489682/SI-App2-kelvin.pdf/"
+    publisher: "BIPM"
+    accessed: '2026-11-24'
 legacy:
   id: water-freezing
   icon: "\U0001F9CA"
@@ -85,3 +93,28 @@ conceptGroup: water
 ## 怎样理解这里的画面
 
 冰块、水面和容器表示固态与液态的联系，并没有计算结晶速率或容器内每一点的温度场。温度尺上的参考点回答“采用哪种相变条件”，动画快慢不回答“一杯水需要多久才能冻住”。继续阅读水的沸点，可以比较同一种物质在另一组压力与物态条件下的参考温度。[1]
+
+
+## 这个数值的误差账本
+
+水的冰点 273.15 K（0 ℃）是在标准大气压下的定义点；压力、溶解物与过冷都会改变实际结冰温度。海水冰点约 −2 ℃，高盐卤水更低；纯净水在无扰动条件下可过冷到 0 ℃以下仍不结冰。0 ℃不是所有水同时结冰的温度。
+
+## 换一个尺度看它
+
+0 ℃等于 273.15 K，比绝对零度高 273.15 K，约为室温的 93%。它与人体核心温度 37 ℃相差 37 K；与太阳表面 5772 K相比，水的液态窗口很窄。地球生命的很多反应都发生在 0–100 ℃之间，但这不是宇宙中水的唯一状态。
+
+## 过冷与成核
+
+纯净水在无扰动、无尘埃的条件下可以冷却到 0 ℃以下仍保持液态，这叫过冷。[1] 结冰需要成核位点，容器壁、杂质或气泡会降低成核能垒。看到“低于 0 ℃还没结冰”不说明冰点错了，只说明相变需要动力学条件。
+
+## 溶解物会降低冰点
+
+海水、盐水和含糖溶液的冰点低于 0 ℃；溶质降低水的气相化学势，需要更低温度才能与冰平衡。[1][2] 道路撒盐融冰利用的正是这个效应。冰点不是纯水的唯一定值，必须说明样品成分与压力。
+
+## 五轴对照
+
+在温度轴，纯水冰点约 273.15 K；在空间轴，冰晶与水面是不同相；在质量轴，水分子质量约 2.99×10⁻²⁶ 千克；在时间轴，结冰快慢取决于成核与散热。温度、成分与时间共同决定是否结冰。[1][2]
+
+## 延伸核对
+
+补充的来源 [3]（International Association for the Properties of Water and Steam）、[4]（BIPM） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

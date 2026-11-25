@@ -16,6 +16,7 @@ related:
   - space.frog
   - space.common-toad
   - space.mouse
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Axolotl
@@ -26,6 +27,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Ambystoma_mexicanum/'
     publisher: Animal Diversity Web, University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年墨西哥钝口螈（Ambystoma mexicanum），含人工繁育品系；量取吻端到尾尖的全长，含躯干与尾，不含外鳃展开的额外长度；以水中自然伸展状态为准。
 uncertainty: Britannica 给出全长约 25 cm；ADW 给出平均约 20 cm、常见约 23 cm、最大可超过 30 cm。本条取 0.25 m 作大型成年个体的代表值，接近 Britannica 的单一数值；常见成体可短至 0.20 m，圈养与野生、品系差异明显。
 review:
@@ -70,3 +75,7 @@ Britannica 的条目写明墨西哥钝口螈全长约 25 厘米（10 英寸）�
 ## 与其他尺度的关系
 
 0.25 米约为 8 厘米欧洲林蛙体长的 3 倍，也比 15 厘米普通蟾蜍长约 10 厘米。[2] 它不到 1.7 米成年人身高的六分之一，却接近一根 25 厘米筷子的长度。放在两栖类里，它属于能放在两只手掌上的中型对象，远小于 1.7 米的成年人。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.83 纳秒，在时间轴上量级接近「纳秒」。[3]

@@ -30,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/place/Venus-planet'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: venus-surface
   icon: "\U0001F7E0"
@@ -90,3 +94,5 @@ conceptGroup: venus
 ## 与其他温区的关系
 
 737 K 比地球表面平均约 288 K 高约 449 K，比火星表面平均约 210 K 高约 527 K；它高于铅的熔点 600.612 K，也高于水的沸点 373.15 K。[1] 它低于铝的熔点 933.473 K，更低于铁的约 1,811 K。金星表面因此处在“铅会熔化、铝仍固态”的温区，是行星科学中比较温室效应与材料稳定性的一个极端参照。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -14,12 +14,12 @@ quantity:
   measureLabel: 无可比定年的参考时间
 displayValue: 年代未定 · 热液与浅水池塘假说并存
 related:
+  - space.cell
   - time.rna-world
   - time.protocell
   - time.first-life
   - time.luca
   - time.formation-of-oceans
-  - time.hadean
 reviewStatus: reviewed
 sources:
   - title: The water paradox and the origins of life
@@ -30,6 +30,10 @@ sources:
     url: 'https://www.unsw.edu.au/newsroom/news/2024/11/minerals-in-hot-springs-performed-a-key-chemical-reaction-for-ea'
     publisher: UNSW Sydney
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: undetermined
   plot: false
@@ -80,3 +84,5 @@ tags:
 ## 与其他阶段的关系
 
 热液起源假说与RNA世界、原始细胞、最早生命和LUCA等条目直接相连，但各自回答不同问题：场所、分子机制、实体证据与共同祖先。[1][2] 它也依赖冥古宙的海洋、地壳和撞击环境；只有把这些条件分别约束清楚，才能讨论生命究竟始于深海还是浅水。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

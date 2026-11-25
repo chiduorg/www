@@ -15,6 +15,8 @@ related:
   - space.ryugu
   - space.bennu
   - space.vesta
+  - mass.comet-67p
+  - mass.moon
 reviewStatus: reviewed
 sources:
   - title: Getting to know Rosetta's comet
@@ -22,17 +24,26 @@ sources:
     publisher: European Space Agency
     accessed: '2026-11-07'
   - title: 67P/Churyumov-Gerasimenko
-    url: 'https://arcnav.psi.edu/urn:nasa:pds:context:target:comet.67p_churyumov-gerasimenko'
+    url: >-
+      https://arcnav.psi.edu/urn:nasa:pds:context:target:comet.67p_churyumov-gerasimenko
     publisher: NASA Planetary Data System
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为67P彗核的固体部分；量取较大一瓣的长轴跨度，起止点取该瓣两端最外侧；不含彗发、彗尾、喷流尘埃，也不把两瓣颈部弯折后的整体对角距离计入。
-uncertainty: ESA与NASA PDS均给出较大瓣约4.1×3.3×1.8公里，较小瓣约2.6×2.3×1.8公里；不同形状模型对“最长轴”端点的选取略有差异，公里级取整后一般仍记为4.1公里。
+uncertainty: >-
+  ESA与NASA
+  PDS均给出较大瓣约4.1×3.3×1.8公里，较小瓣约2.6×2.3×1.8公里；不同形状模型对“最长轴”端点的选取略有差异，公里级取整后一般仍记为4.1公里。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。'
-    - '2026-11-07 写作阶段已用 WebFetch 打开 ESA 罗塞塔任务科学页与 NASA PDS 的 67P 目标页，核对两瓣尺寸与体积、密度。'
+    - 2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。
+    - >-
+      2026-11-07 写作阶段已用 WebFetch 打开 ESA 罗塞塔任务科学页与 NASA PDS 的 67P
+      目标页，核对两瓣尺寸与体积、密度。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -69,3 +80,12 @@ ESA的罗塞塔任务在2014年抵达彗星后，用OSIRIS相机和导航相机�
 ## 与其他尺度的关系
 
 4.1公里约为贝努小行星平均直径490米的8.4倍，约为灵神星226公里的1.8%，约为月球3,474公里的0.12%。[1][2] 它比珠穆朗玛峰8848.86米的一半还短，却足以在近距离上形成复杂的地形与喷发。放在太阳系小天体序列里，它属于“公里级”彗核。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 4100 米，换算后是 4.1 千米；约 3.22×10⁻⁴ 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10³ 量级附近。
+
+读图时先看量级，再看倍数：10³ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -18,6 +18,7 @@ related:
   - space.octopus
   - space.oyster
   - space.barnacle
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Red King Crab
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/animal/king-crab'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为红帝王蟹（Paralithodes camtschaticus）；量两螯足与步足向两侧伸展时左右最远端的最大跨距，不是甲壳（头胸甲）宽度，也不是体重或体长；1.5 m 是 5 英尺的取整值，适用于大个体。
 uncertainty: >-
@@ -74,3 +79,7 @@ NOAA Fisheries 的红帝王蟹页面写明，这种蟹可以长到 24 磅，腿�
 ## 与其他尺度的关系
 
 1.5 米约为 1.7 米高成人的 88%，约为龙虾体长 0.5 米的 3 倍，约为大白鲨全长 4 米的 0.375 倍，也约为成人手长 20 厘米的 7.5 倍。[1][2] 在尺度轴上，帝王蟹腿展进入“米级动物”的下段：向上是章鱼、鲨鱼和人类，向下是龙虾、牡蛎和藤壶。用腿展而不是甲宽比较，才能体现这类蟹的真实占位。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 5.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

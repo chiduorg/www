@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/87/francium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, s 区, 钫]
 rights:
   status: rewritten
@@ -70,3 +74,5 @@ rights:
 ## 它从哪里来
 
 来源记作“天然衰变链（铀-235 支链）与人工合成”。[2] 天然钫只是铀-235 衰变支链上的中间核，母核放出 α 或 β 粒子后才短暂出现；它没有独立库存。人工制备主要取自锕系核的衰变产物。它的供给节奏由母核半衰期决定，可参照铀-238 半衰期节点。[1]
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

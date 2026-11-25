@@ -20,6 +20,7 @@ related:
   - time.cambrian-explosion
   - time.ordovician-radiation
   - time.one-trillion-seconds
+  - space.local-group
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -32,6 +33,10 @@ sources:
     url: 'https://www.pnas.org/doi/full/10.1073/pnas.1819366116'
     publisher: PNAS (Paterson, Edgecombe & Lee)
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -83,3 +88,7 @@ tags:
 ## 与其他尺度的关系
 
 1000 万年约为物种寿命常用下限 100 万年的 10 倍，却与物种寿命上限 1000 万年相当。它约为十亿秒的 31.69 年的 31.6 万倍，为一万亿秒的 3.17 万年的约 316 倍，也只有一千万亿秒的 3169 万年的约 0.32%。与 405 千年偏心周期相比，它长约 24.7 倍[2]。它约为人类寿命 73 年的 13.7 万倍，也约为文明五千年记录的 2000 倍；这些对照帮助把“千万年”放回可感知的尺度。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+按同一真空光速计算，光在这段时间内约走 10 百万光年，在空间轴上量级接近「本星系群」。[3]

@@ -28,6 +28,10 @@ sources:
     url: 'https://pages.astro.umd.edu/~mcmiller/teaching/astr121s18/class22.pdf'
     publisher: University of Maryland Astronomy
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为辐射主导早期宇宙的整体热浴；取大爆炸后约 10⁻⁸ 秒的宇宙时；1.5×10¹⁴ K 为取整量级，对应约 13 GeV。
 uncertainty: >-
@@ -73,3 +77,5 @@ tags:
 ## 与其他尺度的关系
 
 1.5×10¹⁴ K 约为太阳核心温度的 10⁷ 倍，高于大爆炸后 10⁻⁴ 秒的 1.5×10¹² K 约 100 倍。它高于夸克胶子等离子体初始温度的 5×10¹² K 约 30 倍，低于电弱过渡的约 1.85×10¹⁵ K 约一个数量级，也远低于普朗克温度。可见从 10⁻⁸ 秒到 10⁻⁴ 秒，宇宙温度下降了约两个数量级。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

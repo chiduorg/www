@@ -16,6 +16,7 @@ related:
   - space.finger
   - space.human
   - space.hand
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -28,6 +29,10 @@ sources:
     url: 'https://pubmed.ncbi.nlm.nih.gov/19804590/'
     publisher: National Library of Medicine (PubMed)
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成人上睑睫毛；测量口径为自然睫毛从睑缘到末端的长度，不是下睫毛、睫毛根部深度或嫁接后的长度；不适用于儿童或接受前列腺素类药物治疗者。
 uncertainty: 来源给出上睫毛 8–12 毫米、下睫毛 6–8 毫米的范围；个体、族群、年龄与生长周期会造成毫米级差异，本条取上限范围的下限，属于保守取值。
 review:
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 8 毫米约为成人食指 70.5 毫米的 0.11 倍，约为 A4 纸厚度 0.11 毫米的 73 倍。它比一根头发直径 0.07 毫米大约 114 倍，比米粒 5 毫米长约 1.6 倍。与银行卡厚度 0.76 毫米相比，睫毛约为其 10.5 倍。[1] 在眼部尺度中，它属于毫米级的细线结构。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.027 纳秒，在时间轴上量级接近「纳秒」。[3]

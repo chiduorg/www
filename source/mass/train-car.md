@@ -5,7 +5,7 @@ summary: >-
   高铁动车组单节车厢整备质量约 40,000 kg，含铝合金车体、转向架、牵引与制动设备、空调和座椅，不含乘客。不同车型与头车、动车配置可差到 40–55
   t。
 dimension: mass
-category: 轨道车辆
+category: 工程与交通
 displayValue: '40,000 kg'
 quantity:
   value: 40000
@@ -71,6 +71,7 @@ visual:
   color: '#e6c17c'
   scaleMin: -40
   scaleMax: 53
+titleEn: High-speed rail car
 ---
 ## 这个读数是什么
 

@@ -15,12 +15,12 @@ quantity:
   measureLabel: 汽车发动机冷却液正常工作温度（代表值）
 displayValue: '363 K（约 89.9 °C，代表值）'
 related:
+  - space.human
   - temperature.boiling-water
   - temperature.oven
   - temperature.sauna
   - temperature.room-temperature
   - temperature.human-body-temperature
-  - temperature.exhaust-gas
 reviewStatus: reviewed
 sources:
   - title: 'Thermostat, Temperature Sender, Thermoswitch, Temperature Sensor, CHT'
@@ -31,6 +31,10 @@ sources:
     url: 'https://www.britannica.com/technology/cooling-system'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 乙二醇基冷却液
   measurementSite: 发动机冷却液通道或冷却液温度传感器处
@@ -85,3 +89,5 @@ tags:
 ## 与其他温度的关系
 
 90 °C 低于 boiling-water 的 100 °C 常压沸点，也高于 sauna 的约 80 °C 空气温度和 human-body-temperature 的约 37 °C。与 oven 的 180 °C 设定相比，它处在日常机械温区的下段。把冷却液与 boiling-water 并列时，必须说明前者在加压密闭回路中工作，后者的 100 °C 是常压沸点，两者不能直接等同。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

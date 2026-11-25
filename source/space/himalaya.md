@@ -28,6 +28,10 @@ sources:
     url: 'https://climate.nasa.gov/climate_resources/92/the-himalayas/'
     publisher: NASA Climate Change
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为喜马拉雅山脉主脊；测量口径为南迦帕尔巴特峰至南迦巴瓦峰的东西向长度，不是南北宽度、山系面积或包含喀喇昆仑等邻近山体的更大范围。
 uncertainty: 'Britannica给出约2,500公里，NASA说三条平行山脉合计超过2,900公里；后者口径更宽。差异来自对象边界，不是测量误差。'
 review:
@@ -73,3 +77,12 @@ tags:
 ## 与其他尺度的关系
 
 2,500公里约为地球平均半径6,371公里的39%，也约为尼罗河长度6,650公里的38%。珠峰高程8,848.86米只有2.5公里的千分之三左右；把山峰高度叠起来也远达不到山脉长度。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 2.5×10⁶ 米，换算后是 2.5×10³ 千米；约 0.196 个地球直径（1.2742×10⁷ 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁶ 量级附近。
+
+读图时先看量级，再看倍数：10⁶ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

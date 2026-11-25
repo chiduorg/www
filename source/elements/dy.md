@@ -48,6 +48,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/66/dysprosium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 镧系, 镝]
 rights:
   status: rewritten
@@ -81,3 +85,5 @@ Dy³⁺ 的 4f9 有五个未成对电子，自旋-轨道耦合强，晶体场又
 ## 怎么继续走
 
 往前是铽，5d 刚被收回 4f；往后是钬，4f 继续加到 4f11，未成对电子开始减少。想看 4f 电子为何不参与成键，看电子排布解释页；想看周期律在镧系内部的变形，看周期律解释页。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

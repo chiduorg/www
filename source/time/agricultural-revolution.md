@@ -19,6 +19,7 @@ related:
   - time.present
   - space.human
   - temperature.room-temperature
+  - mass.adult-human
 reviewStatus: reviewed
 sources:
   - title: The Origins of Agriculture in the Near East
@@ -29,6 +30,14 @@ sources:
     url: 'https://www.britannica.com/topic/Neolithic-Revolution'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: "The Origins of Writing"
+    url: "https://www.metmuseum.org/toah/hd/wrtg/hd_wrtg.htm"
+    publisher: "The Metropolitan Museum of Art"
+    accessed: '2026-11-24'
+  - title: "Bronze Age — Archaeology glossary"
+    url: "https://archeologie.culture.gouv.fr/archeo-sous-marine/en/glossaire/bronze-age"
+    publisher: "Ministère de la Culture, France"
+    accessed: '2026-11-24'
 legacy:
   id: agricultural-revolution
   icon: "\U0001F33E"
@@ -101,3 +110,27 @@ tags:
 ## 与其他阶段的关系
 
 农业转变发生在大约1.2万年前的全新世早期，随后出现村落、人口增长和剩余产品，为城市、青铜技术与文字记录提供条件。[1][2] 它与工业革命相距约1.1万年，不能把两次“革命”当成同一种速度的连续加速。
+
+## 驯化不是一次决定
+
+从采集到种植，中间有很长一段“管理野生资源”的阶段：人们可能焚烧、播种、除草、保护目标物种，却尚未改变其形态。[1] 驯化的可见标志——更大的籽粒、不易折断的穗轴——往往在数百年到数千年后才出现。把农业起源当成某一天的发明，会忽略这段渐进过程。
+
+## 代价与人口
+
+农业提高了单位土地的食物产量，却降低了饮食多样性、增加了劳动强度与传染病风险；定居与人口密集又让社会分层和资源冲突更复杂。[2] 农业不是单向前进，而是用稳定性换取了更高的承载力和新的脆弱性。比较采集与农业，不能只看产量。
+
+## 五轴对照
+
+在时间轴，农业起源约 1.2 万年前；在空间轴，新月沃地、中国、中美洲等中心各自独立；在温度轴，全新世气候变暖提供了条件；在质量轴，人口与作物生物量增加。时间、地理与气候共同塑造这场转变。[1][2]
+
+## 农业起源是多中心过程
+
+农业并非从一个“新月沃地”单点扩散；中国、墨西哥、安第斯、非洲等地都有独立驯化。各地从采集到种植的过渡持续数千年，驯化性状逐渐固定。正文的“农业革命”是后世的概括，不是某一年发生的选择。[1][S1]
+
+## 读数的口径与换算
+
+本条采用的量是 t = 138亿年（约1万年前），口径是 time-after-big-bang。时间轴上的年份是地层、文献或模型给出的坐标，误差从几十年到几十万年不等；分期边界不是一条绝对精确的线。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [3]（The Metropolitan Museum of Art）、[4]（Ministère de la Culture, France） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

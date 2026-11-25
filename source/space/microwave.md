@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 1 cm（微波波段代表波长）
 related:
+  - temperature.planck-temperature
+  - time.big-bang
   - space.radio-wave
   - space.infrared
   - space.visible-light
   - space.water-molecule
-  - space.atmosphere
 reviewStatus: reviewed
 sources:
   - title: microwave
@@ -27,6 +28,10 @@ sources:
     url: 'https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html'
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为微波波段的电磁波波长；介质取真空，空气中的差异可忽略；1厘米是代表值，不是谱段边界。
 uncertainty: 不同资料把微波上界写在1米或10厘米，下界写在1毫米；本条取1厘米作为代表值。
 review:
@@ -39,12 +44,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "wave"
-  scene: "space.object"
-  caption: "微波约1厘米波长参照"
-  note: "波形与波长标记为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: wave
+  scene: space.object
+  caption: 微波约1厘米波长参照
+  note: 波形与波长标记为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 波长
 tags:
@@ -71,3 +76,5 @@ Britannica 明确给出1吉赫兹至1太赫兹、1毫米至1米的范围。[1] N
 ## 与其他尺度的关系
 
 1厘米约为指甲宽度的十分之一，比可见光波长长约两万倍。[2] 微波介于射电波与红外线之间；同一波段内，波长从1米缩到1毫米，跨越三个数量级。[1] 通信选择频率时还受大气吸收和天线尺寸约束，不能只看波长。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

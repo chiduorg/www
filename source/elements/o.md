@@ -2,7 +2,9 @@
 id: elements.o
 title: 氧：第 8 个质子补满 2p 的第二格，电负性升到 3.44
 titleEn: Oxygen
-summary: 从氮到氧，2p 从 3 个电子增到 4 个；第一电离能反而降到 13.618 eV，半径缩到 48 pm，3.44 的电负性让氧成为第二周期里最会抢电子的元素。
+summary: >-
+  从氮到氧，2p 从 3 个电子增到 4 个；第一电离能反而降到 13.618 eV，半径缩到 48 pm，3.44
+  的电负性让氧成为第二周期里最会抢电子的元素。
 dimension: element
 category: 非金属
 displayValue: 'Z = 8 · [He]2s²2p⁴'
@@ -20,7 +22,11 @@ element:
   configuration: '[He] 2s2 2p4'
   valence: 2s2 2p4
   level: A
-related: [elements.n, elements.ne, time.first-stars, elements.explain-shielding]
+related:
+  - elements.n
+  - elements.ne
+  - time.first-stars
+  - elements.explain-shielding
 conditions: 标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。
 visual:
   scene: elements.shell-ladder
@@ -31,26 +37,41 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自 CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - >-
+      本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自
+      CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: 'PubChem Element Summary: Oxygen'
-    url: https://pubchem.ncbi.nlm.nih.gov/element/8
+    url: 'https://pubchem.ncbi.nlm.nih.gov/element/8'
     publisher: U.S. National Library of Medicine
     accessed: '2026-11-09'
   - title: 'Periodic Table: Oxygen'
-    url: https://www.rsc.org/periodic-table/element/8/oxygen
+    url: 'https://www.rsc.org/periodic-table/element/8/oxygen'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
   - title: NIST Atomic Spectra Database
-    url: https://physics.nist.gov/asd
+    url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-09'
-tags: [元素, 第二周期, p 区, 氧]
+  - title: >-
+      Oldest thylakoids in fossil cells directly evidence oxygenic
+      photosynthesis
+    url: 'https://www.nature.com/articles/s41586-023-06896-7'
+    publisher: Nature
+    accessed: '2026-11-24'
+tags:
+  - 元素
+  - 第二周期
+  - p 区
+  - 氧
 rights:
   status: rewritten
-  note: "依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。"
+  note: 依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。
 ---
 ## 第 8 个质子把电子放进了哪里
 
@@ -78,3 +99,7 @@ rights:
 ## 怎么继续走
 
 往回一步是氮，往前一步是氖；氮展示 2p 半满，氖则把 2p 填满并关闭第二周期。想看为什么 2p 电子越填越感受到更高的有效核电荷、屏蔽怎样随亚层变化，去屏蔽与有效核电荷解释页（/entry/elements/explain-shielding/）。时间轴上，time.first-stars 解释氦燃烧如何把碳加工成氧；这条线索与氧分子的顺磁性无关，却是氧库存的真正来源。
+
+## 延伸核对
+
+氧的活泼性与光合作用释氧是不同尺度的问题；本条只给元素身份，生物地球化学循环另引。[4]

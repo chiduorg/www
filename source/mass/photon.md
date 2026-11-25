@@ -4,7 +4,7 @@ title: 光子：静质量为零的特例，不参与质量阶梯排序
 summary: 标准模型给光子的静质量为零；实验只给出约 10⁻⁶³ kg 的上限。零质量粒子没有对数刻度位置，因此本条单独成条，不进入 16 个覆盖带。
 dimension: mass
 grade: C
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: 静质量 0 · 实验上限约 10⁻⁶³ kg
 quantity:
   value: 0
@@ -70,6 +70,7 @@ visual:
   color: '#e8f0e6'
   scaleMin: -40
   scaleMax: 53
+titleEn: Photon
 ---
 ## 这个读数是什么
 
@@ -90,3 +91,12 @@ visual:
 ## 怎么继续走
 
 想看质量如何转成能量，去 mass.electron 与 time.electron-positron-annihilation；想看光子主导宇宙的时代，去 time.photon-epoch；想看不变量质量的定义，从 space.quantum-fluctuation 进入空间轴。
+
+
+## 这个数值的误差账本
+
+光子静质量按标准模型为零；实验给出极严格上限，但未证明绝对为零。它有能量与动量，E=pc，因此有等效质量 E/c²，但这不是静质量。把光子写成“有质量”时，必须区分静质量、等效质量与引力响应。
+
+## 换一个尺度看它
+
+光子没有对数质量轴上的位置，因此在本站单独列为特例。它的能量由频率决定，可见光光子能量约 2–3 eV；与电子静质量 511 keV/c² 相比，光子能量可以很小，也可以极高。光子是电磁相互作用的载体，也是宇宙信息的主要信使。

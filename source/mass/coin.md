@@ -5,7 +5,7 @@ summary: >-
   美国 5 分镍币的法定质量为 5.000 g，即 5.000×10⁻³ kg；直径 21.21 mm、厚 1.95 mm，成分为 75% 铜、25%
   镍。这是单枚净重，由美国铸币局规格规定。
 dimension: mass
-category: 硬币
+category: 日常与人造
 displayValue: 5.000×10⁻³ kg
 quantity:
   value: 0.005
@@ -18,6 +18,8 @@ related:
   - mass.tablet
   - mass.sand-grain
   - mass.rain-drop
+  - space.coin
+  - space.human
 reviewStatus: reviewed
 review:
   method: source-check
@@ -70,6 +72,7 @@ visual:
   color: '#c9a77a'
   scaleMin: -40
   scaleMax: 53
+titleEn: US nickel
 ---
 ## 这个读数是什么
 

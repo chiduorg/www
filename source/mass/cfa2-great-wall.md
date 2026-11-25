@@ -5,7 +5,7 @@ summary: >-
   CfA2 长城是星系红移巡天发现的纤维状大尺度结构，总质量约 2.0×10⁴⁶ kg，折合约 1×10¹⁶
   个太阳质量，口径包含暗物质。数值由红移巡天与结构模型估算，相对不确定度约 50%，属量级估算。
 dimension: mass
-category: 大尺度结构
+category: 星系与宇宙
 displayValue: 2.0×10⁴⁶ kg
 quantity:
   value: 2e+46
@@ -24,6 +24,8 @@ related:
   - mass.coma-cluster
   - mass.laniakea
   - mass.virgo-cluster
+  - space.milky-way
+  - temperature.cmb
 reviewStatus: reviewed
 review:
   method: source-check
@@ -79,6 +81,7 @@ visual:
   color: '#a6bfff'
   scaleMin: -40
   scaleMax: 53
+titleEn: CfA2 Great Wall
 ---
 ## 这个读数是什么
 

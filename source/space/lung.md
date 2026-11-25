@@ -16,6 +16,7 @@ related:
   - space.capillary
   - space.red-blood-cell
   - space.human
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Sistema respiratório — pulmões
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.ncbi.nlm.nih.gov/books/NBK470197/'
     publisher: StatPearls / NCBI Bookshelf
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成人肺；量取肺尖到肺底的最大垂直距离，不含胸膜腔外组织；吸气程度、体位与离体固定方式都会改变高度。
 uncertainty: 25 厘米是成人代表值；深吸气时肺底下降、高度增加，呼气时回升，左右肺因心脏与膈肌位置不同也不完全等高。
 review:
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 25 厘米约为成人手掌长度 19 厘米的 1.3 倍，比心脏长径 12 厘米长约一倍。它比肝脏最大径 20 厘米多 5 厘米，又远小于股骨 45 厘米。单个肺泡直径约 200 微米，而肺高度 25 厘米，二者相差约一千倍，说明宏观器官是由大量微观气囊堆叠而成的。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.83 纳秒，在时间轴上量级接近「纳秒」。[3]

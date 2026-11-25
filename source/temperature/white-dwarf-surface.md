@@ -31,6 +31,10 @@ sources:
     url: 'https://chandra.harvard.edu/photo/2000/0065/'
     publisher: NASA Chandra X-ray Center
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: white-dwarf-surface
   icon: ⚪
@@ -91,3 +95,5 @@ tags:
 ## 与其他温区的关系
 
 25,000 K 约为太阳表面 5,772 K 的四倍多，却远低于中子星表面约 2×10⁶ K 的例子。它也低于 Ia 型超新星内部燃烧区的温度，更无法与坍缩核心的 10¹¹ K 量级相比。与宇宙微波背景的 2.725 K 相比，它又高出四个数量级。温度高低只能说明表面辐射，不能单独决定天体的总光度或演化阶段。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

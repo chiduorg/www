@@ -4,7 +4,8 @@ title: 最早两栖类
 titleEn: Earliest Amphibians
 dimension: cosmic-time
 category: 复杂生命与演化
-summary: 早期四足动物在泥盆纪晚期进入化石记录，约3.70亿年前的骨骼与足迹材料记录了鱼类向两栖生活的过渡。它们并非现代两栖类的直接起点，化石首现也不等于支系起源时刻。
+summary: >-
+  早期四足动物在泥盆纪晚期进入化石记录，约3.70亿年前的骨骼与足迹材料记录了鱼类向两栖生活的过渡。它们并非现代两栖类的直接起点，化石首现也不等于支系起源时刻。
 quantity:
   value: 423723688000000000
   unit: s
@@ -18,6 +19,7 @@ related:
   - time.carboniferous-period
   - time.land-plants
   - time.late-devonian-extinction
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: Devonian Period
@@ -28,6 +30,10 @@ sources:
     url: 'https://www.nps.gov/articles/000/devonian-period.htm'
     publisher: U.S. National Park Service
     accessed: '2026-11-07'
+  - title: 'International Chronostratigraphic Chart, version 2024/12'
+    url: 'https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf'
+    publisher: International Commission on Stratigraphy
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -50,7 +56,10 @@ review:
   notes:
     - 核对 Britannica 泥盆纪条目，采用森林与最早四足动物在泥盆纪出现的时间框架。
     - 核对 NPS 泥盆纪页面，采用419.2—358.9 Ma的年代范围与早期四足动物首次出现的表述；资料核对不代表外部同行评审。
-    - '2026-11-07 来源可访问性核对：https://www.nps.gov/articles/000/devonian-period.htm 返回可用响应；https://www.britannica.com/science/Devonian-Period（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07 来源可访问性核对：https://www.nps.gov/articles/000/devonian-period.htm
+      返回可用响应；https://www.britannica.com/science/Devonian-Period（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -85,3 +94,7 @@ tags:
 ## 与其他阶段的关系
 
 四足动物由肉鳍鱼的一支演化而来，泥盆纪之后在石炭纪的沼泽环境中多样化，并最终分化出羊膜动物。[1][2] 两栖类因此不是通往人类的直线台阶，而是四足动物早期实验的一支；理解它们有助于区分“长出腿”“离开水”和“现代类群形成”三件事。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（International Commission on Stratigraphy）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

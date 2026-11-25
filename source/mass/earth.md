@@ -5,7 +5,7 @@ summary: >-
   地球总质量约 5.972×10²⁴ kg，明确包含大气与海洋。数值由人造卫星轨道跟踪与引力场模型拟合，相对不确定度约 1×10⁻³，主要受引力常数 G
   的精度限制。
 dimension: mass
-category: 行星
+category: 行星与小天体
 displayValue: 5.972×10²⁴ kg
 quantity:
   value: 5.972e+24
@@ -26,6 +26,7 @@ related:
   - mass.pluto
   - space.earth
   - elements.fe
+  - time.earth-age
 reviewStatus: reviewed
 review:
   method: source-check
@@ -54,6 +55,14 @@ sources:
     url: 'https://science.nasa.gov/'
     publisher: NASA
     accessed: '2026-11-09'
+  - title: "Is the Earth round?"
+    url: "https://oceanservice.noaa.gov/facts/earth-round.html"
+    publisher: "NOAA / National Ocean Service"
+    accessed: '2026-11-24'
+  - title: "PubChem Element Summary: Iron"
+    url: "https://pubchem.ncbi.nlm.nih.gov/element/26"
+    publisher: "U.S. National Library of Medicine"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 行星
@@ -81,6 +90,7 @@ visual:
   color: '#8fc9d8'
   scaleMin: -40
   scaleMax: 53
+titleEn: Earth
 ---
 ## 这个读数是什么
 
@@ -98,6 +108,31 @@ visual:
 
 5.972×10²⁴ kg 位于 B11 带的顶端，比水星重约十八倍，比冥王星重约四百六十倍。[1] 它是类地行星中质量最大的，也是本批 10 个天体里唯一以“含大气与海洋”为口径必须特别注明的对象。再往上就进入巨行星与恒星所在的 B12 及更高带。
 
+## 总质量包含大气与海洋
+
+地球质量 5.972×10²⁴ 千克包含固体、海洋与大气；大气只有约 5×10¹⁸ 千克，海洋约 1.4×10²¹ 千克，两者合计不到总质量的 0.03%。质量主要由地幔与地核贡献，地壳只是薄薄一层。[1][S2]
+
 ## 怎么继续走
 
 想看它的卫星与地月系统，去 mass.moon；想看更小的类地行星，去 mass.mercury；想看冰质矮行星，去 mass.pluto；想看地球的空间图景，去 space.earth；想看铁在地球核中的角色，从 elements.fe 进入元素轴。
+
+
+## 这个数值的误差账本
+
+地球质量约 5.972×10²⁴ kg，由重力、轨道与卫星测距组合推算；它包含大气、海洋、地壳、地幔与地核的总质量。不同模型给出的值在 10¹⁷ kg 量级内一致。把地球质量当成“岩石质量”会忽略大气与海洋，虽然它们占比很小。
+
+## 换一个尺度看它
+
+地球质量约为月球的 81 倍，约为太阳的 1/333,000。若把地球缩成 1 千克，月球约 12 克，太阳约 333 吨。这个比例说明太阳主导太阳系引力，而地球质量足以塑造月球轨道与地月共同质心。
+
+## 误差账本：0.1% 不是“精确到个位”
+
+地球质量的相对不确定度约 1×10⁻³，主要受引力常数 G 的精度限制。卫星轨道与引力场模型给出的是 GM，除以 G 才得到质量；G 的不确定度会直接进入结果。[2][3] 5.972×10²⁴ kg 保留四位有效数字，不表示可以精确到 10²⁰ kg。不同资料写成 5.97 或 5.972，是有效数字取舍，不是两次测量。
+
+## 五轴对照
+
+在质量轴，地球是 10²⁴ kg 的岩石行星；在空间轴，平均直径约 12,742 公里；在时间轴，年龄约 45.4 亿年；在温度轴，海表、大气与内部各有不同温区。质量与半径一起决定重力，年龄与热演化一起解释内部结构；四个量不能互相替代。[1][2][3]
+
+## 延伸核对
+
+补充的来源 [4]（NOAA / National Ocean Service）、[5]（U.S. National Library of Medicine） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

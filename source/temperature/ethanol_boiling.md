@@ -32,6 +32,10 @@ sources:
     url: 'https://www.britannica.com/science/ethanol'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: ethanol_boiling
   icon: "\U0001F377"
@@ -91,3 +95,5 @@ tags:
 ## 与其他温区的关系
 
 351.5 K 比水的常压沸点 373.15 K 低约 21.7 K，比氨的沸点约 239.8 K 高约 112 K；它远低于汞的沸点 629.81 K，也低于钠的沸点约 1,156 K。[1] 它高于水的三相点 273.16 K，也高于室温约 293 K。乙醇沸点因此位于“常温附近即可汽化”的一端，是蒸馏、消毒和燃料挥发性讨论中常用的参照。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

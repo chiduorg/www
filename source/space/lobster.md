@@ -17,6 +17,7 @@ related:
   - space.shark
   - space.octopus
   - space.jellyfish
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Homarus americanus'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/animal/lobster'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为美洲螯龙虾（Homarus americanus）；量眼柄前端到尾扇末端的全长，不是头胸甲长度、体重或螯足跨度；50 cm 取在常见渔获约 25 cm 与最大约 1.1 m 之间。
 uncertainty: >-
@@ -73,3 +78,7 @@ ADW 的 Homarus americanus 条目写明，美洲螯龙虾是最大的龙虾种�
 ## 与其他尺度的关系
 
 50 厘米约为帝王蟹腿展 1.5 米的三分之一，约为 1.7 米高成人的 0.29 倍，约为章鱼臂展 1 米的一半，也约为成人手长 20 厘米的 2.5 倍。[1][2] 在尺度轴上，龙虾处在“几十厘米级”的上段：向下是牡蛎、藤壶和海胆，向上是章鱼、鲨鱼与人类。用全长这一口径，才能把它与用腿展描述的蟹类区分开。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.7 纳秒，在时间轴上量级接近「纳秒」。[3]

@@ -19,6 +19,7 @@ related:
   - temperature.tungsten-melting
   - temperature.fusion-reactor-plasma
   - temperature.steelmaking_temp
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: Gas turbine propulsion
@@ -83,3 +84,10 @@ tags:
 ## 与其他温区的关系
 
 1,973 K 高于钢的出钢温度约 1,893 K 和铜的熔点 1,358 K，低于钨的 3,695 K。它已接近镍基合金的固相线，因此热端部件必须依赖涂层与冷却，而不是单纯靠材料耐热。[2][3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1973 K，即 1700 ℃（按 T/K−273.15 换算）；约为太阳表面（5772 K）的 0.342 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10³ 量级附近。
+
+读图时先看量级，再看倍数：10³ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

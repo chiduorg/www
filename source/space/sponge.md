@@ -16,6 +16,7 @@ related:
   - space.jellyfish
   - space.octopus
   - space.crab
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Breadcrumb sponge (Halichondria panicea)
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.naturporten.dk/leksikon/danmarks-dyr/smadyr/brodkrummesvamp'
     publisher: Naturporten
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为常见沿海碎面包海绵（Halichondria panicea）的块状群体；量取从固着基底到群体顶端的垂直高度，不含横向铺展宽度；以完整群体为准。
 uncertainty: MarLIN 给出避浪水域块状群体厚达 20 cm，并记录过约 25 cm 高的标本；Naturporten 给出高度可达 25 cm、横向长度 50–60 cm。本条取 0.2 m 作常见群体高度上限，低于个别 25 cm 记录；水流条件与群体形态会造成明显差异。
 review:
@@ -70,3 +75,14 @@ MarLIN 的物种页说，在避浪水域碎面包海绵可长成厚达 20 厘米
 ## 与其他尺度的关系
 
 0.2 米约为 1.7 米成年人身高的八分之一，是 15 厘米普通蟾蜍的 1.3 倍，也是 8 厘米林蛙的 2.5 倍。[1][2] 它比 5 毫米蚂蚁长约 40 倍，却只有 33 厘米大棕蝠翼展的六成。作为固着动物，它的高度只描述群体厚度，不代表活动范围。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.67 纳秒，在时间轴上量级接近「纳秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 0.2 米，换算后是 20 厘米；约 0.833 个篮球直径（24 厘米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻¹ 量级附近。
+
+读图时先看量级，再看倍数：10⁻¹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -24,6 +24,7 @@ related:
   - temperature.earths-core
   - temperature.venus-surface
   - temperature.mars-surface
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: Hot basalt lava flowing over the surface of a cooled basalt lava flow

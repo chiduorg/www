@@ -18,6 +18,7 @@ related:
   - space.carbon-nanotube
   - space.dna
   - space.graphene
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: 'Chitin nanofibers: preparations, modifications, and applications'
@@ -28,6 +29,10 @@ sources:
     url: 'https://pubs.acs.org/doi/abs/10.1021/bm900163d'
     publisher: Biomacromolecules / American Chemical Society
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取 α-几丁质微纤丝（蟹壳、虾壳等甲壳类材料）的横截面直径，代表值取 10–20 nm 的上端；
   不是单条高分子链的约 0.5 nm 粗细，也不是整片甲壳的毫米级厚度。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 20 nm 约为 DNA 直径 2 nm 的 10 倍，约为尿素分子 0.5 nm 的 40 倍。[1][2] 它与纤维素微纤丝几乎同一量级，却远小于一根头发。继续阅读葡萄糖、石墨烯与碳纳米管，可比较天然多糖微纤丝与人造纳米结构。把 20 nm 与 3–4 nm 的植物纤维素、2 nm 的 DNA 比较，可看出天然多糖微纤丝的宽度区间。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.7e-8 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

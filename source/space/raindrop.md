@@ -17,6 +17,7 @@ related:
   - space.snowflake
   - space.hailstone
   - space.earth
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Raindrops are Different Sizes
@@ -29,6 +30,10 @@ sources:
       https://www.usgs.gov/water-science-school/science/precipitation-and-water-cycle
     publisher: U.S. Geological Survey
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为液态降雨雨滴；样本为USGS降水强度表与雨滴形成说明；口径为雨滴水平直径，不是下落距离、雨强或雨滴体积。
 uncertainty: 雨滴直径通常在0.5–4毫米之间；不同雨强与云型给出不同中位直径，约2毫米只是便于比较的代表值。
 review:
@@ -73,3 +78,7 @@ USGS说明，水滴靠凝结与碰并增长，达到0.5毫米才算雨滴，超�
 ## 与其他尺度的关系
 
 2毫米约为一张纸厚度的20倍，也约为头发直径的30倍。[1][2] 与1公里的积云相比，雨滴小50万倍；与25毫米的严重冰雹相比，它又小一个量级。雨滴处在“毫米”尺度，向上连接云与风暴，向下连接尘埃与细胞。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.0067 纳秒，在时间轴上量级接近「纳秒」。[3]

@@ -17,6 +17,7 @@ related:
   - space.atom
   - space.hydrogen-21cm
   - space.visible-light
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Astronomers Spot Distant Galaxy Group Driving Ancient Cosmic Makeover
@@ -27,6 +28,10 @@ sources:
     url: 'https://esawebb.org/news/weic2402/'
     publisher: ESA/Webb
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为氢原子n=2到n=1跃迁的静止波长；介质取真空；121.6纳米是近似静止值，观测值会受宇宙红移与气体运动影响。
 uncertainty: 精确静止波长约121.567纳米，不同资料四舍五入为121.6纳米；天体观测中的波长还受红移、多普勒频移与辐射转移影响。
 review:
@@ -73,3 +78,7 @@ NASA 把莱曼α发射的波长写成121.6纳米，并说明中性氢会吸收�
 ## 与其他尺度的关系
 
 121.6纳米约为可见光紫端400纳米的0.3倍，也比氢21厘米线静止波长0.21米短约170万倍。[1][2] 莱曼α线位于远紫外，是研究早期星系、中性氢分布与宇宙再电离的重要探针；在天体物理中，它常被当作年轻恒星与活跃恒星形成的标志。[2] 谱线轮廓还会因气体运动而展宽，分析时需同时考虑红移与辐射转移。不同谱线的位置可用于识别气体成分与运动状态。氢21厘米线则来自同一元素的另一种跃迁，波长长得多。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.1e-7 纳秒，在时间轴上量级接近「纳秒」。[3]

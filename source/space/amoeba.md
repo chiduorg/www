@@ -16,6 +16,7 @@ related:
   - space.bacteria
   - space.paramecium
   - space.cell_membrane
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Studies on Reproduction in Amoeba proteus
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/protozoan'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 活体或固定标本在光学显微镜下测量最大伸展轮廓；变形虫不断改变形状，饥饿、培养密度与温度都会影响读数。
 uncertainty: 0.6 mm 是该论文对 A. proteus 记的最大直径，属于伸展状态的上端；收缩、运动中的个体常明显更小，不同物种与培养条件差异很大，不能视为定值。
 review:
@@ -46,7 +51,7 @@ visual:
   note: 示意/非按比例/非观测重建，仅用于尺度直观参照。
   color: '#9bbcd7'
   referenceAxis: x
-  framePadding: 0.3
+  framePadding: 0.42
 measureType: 尺寸
 tags:
   - 生命与人体
@@ -72,3 +77,7 @@ tags:
 ## 与其他尺度的关系
 
 0.6 mm 约等于 600 μm，是红细胞直径的七十多倍，也是大肠杆菌杆长的三百倍左右[1]。它比草履虫的常见体长（约 0.05–0.32 mm）更大，但仍远小于一粒米（约 5 mm）。若把变形虫放在 1 mm 的网格纸上，它大约占据半个格子；这也解释了为什么它处于“显微镜下很大、肉眼下极小”的过渡位置。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.0020 纳秒，在时间轴上量级接近「纳秒」。[3]

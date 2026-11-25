@@ -17,6 +17,7 @@ related:
   - space.atom
   - space.crystal-lattice
   - space.perovskite-cell
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Nanotransducers — Quantum Dots and Nanoparticles (course handout)
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/quantum-dot'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   采用半导体纳米晶量子点的常见直径范围 2–10 纳米，并取 5 纳米作为范围中点代表值；不同材料（CdSe、CdS、InP
   等）、核壳结构与合成条件会改变直径。该值描述颗粒外径，不含配体壳层与团聚体。
@@ -79,3 +84,7 @@ tags:
 ## 与其他尺度的关系
 
 5 纳米使量子点位于“分子”与“纳米材料”之间：比蛋白质小或相近，比碳纳米管管径大，却远小于细胞。[1][2] 它和石墨烯、碳纳米管同属纳米碳/半导体材料家族，但量子点的零维限域使其能级离散。继续阅读碳纳米管、石墨烯、原子与晶格间距，可比较零维、一维、二维与三维结构的尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.7e-8 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

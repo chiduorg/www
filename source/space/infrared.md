@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 10 µm（红外波段代表波长）
 related:
+  - time.nanosecond
   - space.microwave
   - space.visible-light
   - space.red-light
   - space.atmosphere
   - space.earth
-  - space.terahertz
 reviewStatus: reviewed
 sources:
   - title: infrared radiation
@@ -28,6 +28,10 @@ sources:
     url: 'https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html'
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为红外波段的电磁波波长；介质取真空，地面观测路径中的水汽与二氧化碳会吸收部分红外；10微米是代表值。
 uncertainty: 红外分近、中、远三区，边界随探测器响应与大气窗口变化；常见总范围为0.7至1000微米，本条取10微米。
 review:
@@ -72,3 +76,7 @@ Britannica 把红外分为近红外0.78至约2.5微米、中红外2.5至约50微
 ## 与其他尺度的关系
 
 10微米约为头发直径的几分之一，比红光700纳米长约14倍。[1][2] 红外位于可见光与微波之间，是热辐射与分子振动谱的主要窗口。地面红外受水汽影响明显，空间红外望远镜因此常需要低温冷却和轨道环境。[2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.000033 纳秒，在时间轴上量级接近「纳秒」。[3]

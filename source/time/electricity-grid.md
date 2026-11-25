@@ -17,6 +17,7 @@ related:
   - time.industrial-revolution
   - time.digital-age
   - time.first-flight
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: Model of Edison's Pearl Street power station
@@ -27,6 +28,10 @@ sources:
     publisher: U.S. Department of Energy
     url: 'https://www.energy.gov/articles/history-light-bulb'
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -82,3 +87,5 @@ tags:
 ## 与其他阶段的关系
 
 电网前接蒸汽机与工业革命，后接数字时代、航空和几乎所有现代基础设施。它把燃料或水力的能量转换成可远距离分配的电能，改变了工厂、城市和家庭的运作方式。[1][2] 与蒸汽动力相比，电网的关键不只是“发多少电”，还包括如何稳定地输送、分配和计量。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

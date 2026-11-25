@@ -33,6 +33,10 @@ sources:
       https://www.usgs.gov/publications/thermal-state-permafrost-north-america-a-contribution-international-polar-year
     publisher: U.S. Geological Survey
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 土壤、沉积物或岩石
   measurementSite: 钻孔中的多年冻土层，非地表气温
@@ -81,3 +85,5 @@ tags:
 ## 与其他温度的关系
 
 约 −10 ℃ 低于 water-freezing 的 0 ℃，也低于 fridge 的 4 ℃，但高于 freezer 的 −18 ℃。它高于 absolute-zero，远低于 human-body-temperature。与 deep-ocean 的约 2 ℃ 相比，二者都冷，但一个是含冰土壤、一个是液态海水。理解冻土温度，关键是把地温、气温和冰点三者的口径分开。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -17,6 +17,7 @@ let theme=params.get('theme')||cookieTheme||storedTheme||sysTheme;
 if(theme!=='light'&&theme!=='dark')theme=sysTheme;
 let lang=params.get('lang')||cookieLang||storedLang||sysLang;
 if(lang==='en')lang='en';else if(lang==='zh'||lang==='zh-CN')lang='zh-CN';else lang=sysLang;
+if(location.pathname.indexOf('/en/')===0)lang='en';
 html.dataset.theme=theme;
 html.dataset.lang=lang;
 html.lang=lang==='en'?'en':'zh-CN';
@@ -167,8 +168,8 @@ function updateLangButton(button){
 function updateThemeButton(button){
  if(!button)return;
  button.textContent=theme==='light'?'☀':'☾';
- button.setAttribute('aria-label',theme==='light'?'Switch to dark theme':'切换为浅色主题');
- button.title=theme==='light'?'Dark theme':'Light theme';
+ button.setAttribute('aria-label',lang===EN?(theme==='light'?'Switch to dark theme':'Switch to light theme'):(theme==='light'?'切换为深色主题':'切换为浅色主题'));
+ button.title=lang===EN?(theme==='light'?'Dark theme':'Light theme'):(theme==='light'?'深色主题':'浅色主题');
 }
 function updateFullscreenButton(button){
  if(!button)return;
@@ -283,7 +284,7 @@ function translateDataEnglish(root=document){
  }
 }
 async function applyLanguage(){
- if(lang===EN&&!Object.keys(EN_DICT).length)await ensureDictionary();
+ if(lang===EN&&!Object.keys(EN_DICT).length&&location.pathname.indexOf('/en/')!==0)await ensureDictionary();
  html.lang=lang===EN?'en':'zh-CN';
  html.dataset.lang=lang===EN?'en':'zh-CN';
  setHeaderLabels();

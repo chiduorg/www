@@ -19,12 +19,12 @@ quantity:
     unit: K
 displayValue: 约 10⁹ K（温度量级；摄氏读数同量级）
 related:
+  - space.sun
+  - mass.sun
   - temperature.supernova
   - temperature.hypernova
   - temperature.kilonova_temp
   - temperature.black-hole-accretion-disk
-  - temperature.magnetar-surface
-  - temperature.quark-star
 reviewStatus: reviewed
 sources:
   - title: Fireballs
@@ -86,3 +86,10 @@ tags:
 ## 与其他极端事件比较
 
 10⁹ K 高于磁星表面的约 10⁶ K 和太阳耀斑的约 10⁷ K，也高于超新星遗迹激波的约 10⁶ K。[2][3] 它接近早期宇宙等离子体的温区，但持续时间极短。理解这个温度，需要同时考虑相对论运动、光学厚度和辐射转移，而不能只凭亮度判断。
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1×10⁹ K，即 10×10⁸ ℃（按 T/K−273.15 换算）；约为太阳核心（1.57×10⁷ K）的 63.7 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10⁹ 量级附近。
+
+读图时先看量级，再看倍数：10⁹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -26,6 +26,10 @@ sources:
     url: 'https://www.nobelprize.org/prizes/chemistry/2020/summary/'
     publisher: Nobel Prize Outreach
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: crispr
   icon: ✂️
@@ -98,3 +102,12 @@ CRISPR-Cas9是一种可编程的基因编辑工具：引导RNA把Cas9核酸酶�
 ## 与其他阶段的关系
 
 CRISPR建立在人类基因组计划提供的参考序列与DNA测序技术之上，也依赖分子生物学对细菌免疫系统的长期研究。[1][2] 它把基因编辑从少数模式生物推广到更多物种与细胞类型，但伦理、监管与临床验证仍在持续。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 4.35×10¹⁷ 秒，换算后是 1.38×10¹⁰ 年；约 0.999 个当前宇宙年龄（138 亿年）。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10¹⁷ 量级附近。
+
+读图时先看量级，再看倍数：10¹⁷ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

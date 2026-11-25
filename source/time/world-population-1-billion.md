@@ -17,6 +17,7 @@ related:
   - time.origin-of-cities
   - time.industrial-revolution
   - time.world-population-4-billion
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: 'United Nations Population Fund Moves Day of Six Billion Based on New Estimates'
@@ -27,6 +28,10 @@ sources:
     publisher: Our World in Data
     url: 'https://ourworldindata.org/world-population-growth'
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -82,3 +87,5 @@ tags:
 ## 与其他阶段的关系
 
 10亿节点出现在农业社会向工业社会过渡的时期，与城市兴起、农业革命后的长期积累，以及工业革命早期的能源与交通变化相连。[1][2] 与后来的40亿（1974年）和80亿（2022年）相比，1804年仍处在缓慢增长的阶段。放在138亿年的宇宙时间轴上，它只是极靠近“现在”的一小段。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

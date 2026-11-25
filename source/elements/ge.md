@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/32/germanium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第四周期, p 区, 锗]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往回是镓（/entry/elements/ga/），能看到 4p1 如何把 d 区拉回 p 区；往前是砷（/entry/elements/as/），4p3 半满后类金属性格进一步固化。想把 4p 与 3d10 的相对位置读清楚，去读电子排布解释页；想把 s 与 r 两条路径分开，去读重元素富集节点。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

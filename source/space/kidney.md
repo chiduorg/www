@@ -16,6 +16,7 @@ related:
   - space.human
   - space.liver
   - space.heart
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Anatomy, Abdomen and Pelvis: Kidneys'
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/science/kidney'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成人肾脏；量取肾上极到肾下极的最大长径，不含肾周脂肪与肾上腺；身高、年龄与测量方法都会影响读数。
 uncertainty: 11 厘米落在 10–12 厘米的常见区间内，是代表值；Britannica 给出约 10 厘米的取整值，左肾通常略长、略重，右肾因肝脏挤压位置略低。
 review:
@@ -73,3 +78,7 @@ NCBI Bookshelf 的肾脏解剖章节把成人肾脏的典型尺寸列为长 10�
 ## 与其他尺度的关系
 
 11 厘米约为成人手掌长度 19 厘米的 0.58 倍，比心脏长径 12 厘米短 1 厘米。它约为眼球直径 24 毫米的 4.6 倍，也比股骨 45 厘米短得多。肾脏长度与肝脏最大径 20 厘米、肺高度 25 厘米同处十厘米级，但各自量的是不同方向。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.37 纳秒，在时间轴上量级接近「纳秒」。[3]

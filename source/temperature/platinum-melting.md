@@ -20,6 +20,7 @@ related:
   - temperature.gold-melting-point
   - temperature.silver-melting
   - temperature.tungsten-melting
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Platinum: element data'

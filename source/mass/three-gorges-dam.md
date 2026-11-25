@@ -5,7 +5,7 @@ summary: >-
   三峡大坝主体混凝土浇筑量约 2,794 万 m³，按 2.4 t/m³ 折算约 6.7×10¹⁰ kg。这是混凝土的估算质量，不含库区 393 亿 m³
   的水；后者质量比坝体大四个数量级。
 dimension: mass
-category: 水利工程
+category: 工程与交通
 displayValue: 6.7×10¹⁰ kg
 quantity:
   value: 67000000000
@@ -45,6 +45,10 @@ sources:
     url: 'https://www.ice.org.uk/'
     publisher: Institution of Civil Engineers
     accessed: '2026-11-09'
+  - title: 'SI base unit: kilogram (kg)'
+    url: 'https://www.bipm.org/en/si-base-units/kilogram'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 tags:
   - 质量
   - 三峡
@@ -69,6 +73,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Three Gorges Dam
 ---
 ## 这个读数是什么
 
@@ -89,3 +94,5 @@ visual:
 ## 怎么继续走
 
 想看同量级的另一座巨型重力坝，去 mass.grand-coulee-dam；想回到 10⁹ kg 档，去 mass.hoover-dam；想比较钢铁桥梁的质量效率，去 mass.golden-gate-bridge；想把坝体与它拦住的江水放在同一颗行星上看，去 space.earth。
+
+本条的质量单位与换算依据 BIPM 对千克的定义。[3]

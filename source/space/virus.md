@@ -16,6 +16,8 @@ related:
   - space.dna
   - space.protein
   - space.bacteria
+  - mass.bacterium
+  - temperature.vaccine-cold-chain
 reviewStatus: reviewed
 sources:
   - title: Viruses Are Diverse
@@ -30,6 +32,14 @@ sources:
     url: 'https://www.genome.gov/genetics-glossary/Virus'
     publisher: NIH / National Human Genome Research Institute
     accessed: '2026-11-04'
+  - title: "Biology 2e, §4.2 Prokaryotic Cells"
+    url: "https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells"
+    publisher: "OpenStax / Rice University"
+    accessed: '2026-11-24'
+  - title: "Cell"
+    url: "https://www.britannica.com/science/cell-biology"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 legacy:
   id: virus
   icon: "\U0001F9A0"
@@ -79,3 +89,23 @@ tags:
 ## 与分子和细胞一起比较
 
 病毒颗粒、构成它的蛋白质及供其复制的细胞，处于不同组织层级。病毒携带的遗传信息也不能全部统一画成DNA，因为遗传物质可以是DNA或RNA。[3] 本页球形模型用来理解选定的纳米尺度；刺突、颜色和光晕是视觉提示，不用它们推断感染性、传播风险或真实颗粒的精确边界。
+
+## 为什么病毒不算细胞
+
+病毒没有独立的代谢系统，不能靠自身完成能量转换与复制；它必须进入宿主细胞，借用核糖体、氨基酸和能量。这个“必须寄生”的特征是病毒与细菌的关键差别，而不是“更小”本身。[2][3] 因此把病毒称为“最小的生命”会引发定义争议：它有遗传信息与演化，却没有独立维持生命的能力。
+
+## 尺寸测量的三种口径
+
+病毒尺寸可以用负染电镜、冷冻电镜或光散射测量，但三种方法给出的“尺寸”不完全相同：负染可能改变颗粒形态，冷冻电镜更接近溶液状态，光散射得到的是群体平均。[1] 同一病毒若分别量直径、长轴和包膜外缘，也会得到不同数。读一个纳米数时，先问它是哪一种测量、对哪个方向、在什么状态下取的。[1][2] 这也是本页只把 100 纳米作示意，而不称“病毒直径”的原因。
+
+## 五轴对照
+
+在空间轴，100 纳米是 10⁻⁷ 米；在质量轴，一个病毒颗粒约 10⁻¹⁸–10⁻¹⁶ 千克，比大肠杆菌轻几个数量级；在温度轴，疫苗冷链的 2–8 ℃讨论的是病毒/抗原稳定性，不是病毒自身的体温；在时间轴，病毒与宿主共同演化，不能只看单次感染。[2][3] 尺度小不等于结构简单，更不等于可以独立生存。
+
+## 直径不是体积
+
+病毒条目常给“直径 20–300 纳米”，但病毒形态差异极大：球形、杆状、丝状、二十面体，同一“直径”对应的体积可以差几十倍。测量多用冷冻电镜、动态光散射或过滤截留，不同方法给出的是不同几何量。把直径当成体积，会错判病毒与细菌、孔径滤膜之间的尺度关系。[1][S1]
+
+## 延伸核对
+
+补充的来源 [4]（OpenStax / Rice University）、[5]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

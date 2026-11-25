@@ -29,9 +29,13 @@ sources:
     accessed: '2026-11-06'
   - title: The cosmic microwave background and inflation
     url: >-
-      https://www.esa.int/Science_Exploration/Space_Science/Planck/The_cosmic_microwave_background_and_inflation
+      https://sci.esa.int/web/planck/The_cosmic_microwave_background_and_inflation
     publisher: ESA / Planck
     accessed: '2026-11-06'
+  - title: The early universe
+    url: 'https://home.cern/science/physics/early-universe'
+    publisher: CERN
+    accessed: '2026-11-24'
 legacy:
   id: baryon-acoustic-oscillations
   icon: "\U0001F30A"
@@ -101,3 +105,7 @@ BOSS 用超过 15 万个类星体的光谱，把莱曼α森林的三维密度图
 ## 与其他阶段的关系
 
 BAO 上承复合与光子脱耦，下接星系形成和暗能量测量。[1][3] 它与物质—辐射相等时代相连：相等之后物质主导，声波不再以同样方式传播，但留下的尺度继续随膨胀被拉伸。[2][3] 与微波背景条目对照，一个看早期光面的纹理，一个看晚期物质分布的统计尺。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（CERN）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

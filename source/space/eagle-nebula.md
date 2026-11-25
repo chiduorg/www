@@ -4,9 +4,7 @@ title: 鹰状星云
 titleEn: Eagle Nebula
 dimension: length
 category: 恒星与星际
-summary: >-
-  鹰状星云（M16）是巨蛇座中的恒星形成区，以“创生之柱”闻名。APOD 说明用约 20
-  光年概括其发光区跨度，本页换算约 2×10¹⁷ 米。
+summary: 鹰状星云（M16）是巨蛇座中的恒星形成区，以“创生之柱”闻名。APOD 说明用约 20 光年概括其发光区跨度，本页换算约 2×10¹⁷ 米。
 quantity:
   value: 200000000000000000
   unit: m
@@ -14,12 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 2 × 10¹⁷ m（约 20 光年跨度）
 related:
+  - temperature.sun-surface
+  - temperature.supernova
   - space.pillars-of-creation
   - space.orion-nebula
   - space.crab-nebula
   - space.open-cluster
-  - space.milky-way
-  - space.light-year
 reviewStatus: reviewed
 sources:
   - title: Inside the Eagle Nebula
@@ -30,20 +28,27 @@ sources:
     url: 'https://esahubble.org/images/heic0506b/'
     publisher: ESA / Hubble
     accessed: '2026-11-07'
-conditions: >-
-  指鹰状星云可辨认发光区的概览跨度，取约 20 光年的圆整口径；不是球体直径，也不等于包含周围分子云复合体或单根气柱的尺度。
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
+conditions: 指鹰状星云可辨认发光区的概览跨度，取约 20 光年的圆整口径；不是球体直径，也不等于包含周围分子云复合体或单根气柱的尺度。
 uncertainty: >-
-  约 20 光年是 APOD 对发光区的概览值，星云没有硬边界，边界与波段选择会改变跨度，因此不能当作精确直径。另一条资料强调的气柱尺度约 9.5 光年，只是星云内部的局部结构，不应与整体跨度混用。
+  约 20 光年是 APOD 对发光区的概览值，星云没有硬边界，边界与波段选择会改变跨度，因此不能当作精确直径。另一条资料强调的气柱尺度约 9.5
+  光年，只是星云内部的局部结构，不应与整体跨度混用。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
     - >-
-      用 WebFetch 打开 NASA APOD 2003 年 9 月 21 日页面，核对约 6,500 光年距离、约 20 光年跨度及恒星形成区描述。
-    - >-
-      用 WebFetch 打开 ESA Hubble 鹰状星云气柱图页，核对气柱高约 9.5 光年、约 7,000 光年距离与紫外辐射侵蚀机制。
+      用 WebFetch 打开 NASA APOD 2003 年 9 月 21 日页面，核对约 6,500 光年距离、约 20
+      光年跨度及恒星形成区描述。
+    - '用 WebFetch 打开 ESA Hubble 鹰状星云气柱图页，核对气柱高约 9.5 光年、约 7,000 光年距离与紫外辐射侵蚀机制。'
     - 明确 20 光年为发光区概览，气柱长度只代表内部结构。
-    - '2026-11-07 来源可访问性核对：https://apod.nasa.gov/apod/ap030921.html 返回可用响应；https://esahubble.org/images/heic0506b/（TimeoutError: The operation was aborted due to timeout） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07 来源可访问性核对：https://apod.nasa.gov/apod/ap030921.html
+      返回可用响应；https://esahubble.org/images/heic0506b/（TimeoutError: The operation
+      was aborted due to timeout） 受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料重新撰写，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -53,8 +58,7 @@ visual:
   color: '#bc95b5'
   referenceAxis: x
   caption: 鹰状星云发光区概览跨度 · 约 20 光年
-  note: >-
-    点云、颜色与内部亮度为程序示意；跨度按约 20 光年绘制，气柱等局部结构不单独计入；示意，非按比例，非观测重建。
+  note: 点云、颜色与内部亮度为程序示意；跨度按约 20 光年绘制，气柱等局部结构不单独计入；示意，非按比例，非观测重建。
   framePadding: 0.3
   sourceMeasure: 所引 APOD 说明中约 20 光年的星云发光区跨度
   scene: space.object
@@ -83,3 +87,5 @@ tags:
 ## 与其他尺度的关系
 
 2×10¹⁷ 米约为 20 光年，是马头星云约 3 光年跨度的近 7 倍，也是昴星团核心区约 7 光年的近 3 倍。[1] 与蟹状星云约 10 光年相比，它大了一倍；但放进银河系盘面，它仍只是一个局部恒星形成区。光从星云到达地球需要约 6,500 年，这个时间尺度与它的空间跨度是两回事。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

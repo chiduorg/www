@@ -16,6 +16,7 @@ related:
   - space.chimpanzee
   - space.brown-bear
   - space.giraffe
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Pongo pygmaeus
@@ -26,6 +27,10 @@ sources:
     url: 'https://animals.sandiegozoo.org/animals/orangutan'
     publisher: San Diego Zoo Wildlife Alliance
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性猩猩；量取从吻端到尾根的头体长，猩猩无外尾；不采用两臂平伸的臂展，也不把站立高度直接当作头体长。
 uncertainty: ADW 记录的婆罗洲猩猩雄性平均高度约 970 mm、体重 87 kg；San Diego Zoo 给出的雄性平均站高约 136 cm。两条来源偏重站高而非头体长，本条取 1.4 m 代表较大的成年雄性，接近资料上限。
 review:
@@ -70,3 +75,7 @@ Animal Diversity Web 的婆罗洲猩猩条目记录：雄性平均高度约 970 
 ## 与其他尺度的关系
 
 1.4 米比成年人大约矮一头，却比黑猩猩约 0.8–1.0 米的头体长长出半米左右；和 1.7 米的山地大猩猩相比又短约三十厘米。[1][2] 在树栖动物里，它属于最大的一档；放到 30 米蓝鲸的尺度上，只有约二十三分之一。猩猩、山地大猩猩和人放在同一把尺子上，正好构成“一米级大型灵长类”的连续带。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

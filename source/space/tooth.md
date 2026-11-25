@@ -16,6 +16,7 @@ related:
   - space.femur
   - space.eye
   - space.hand
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 3D finite element analysis of occlusal contact effects on mandibular second molar mobility
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.ncbi.nlm.nih.gov/books/NBK557543/'
     publisher: StatPearls / NCBI Bookshelf
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成人磨牙；量取牙冠最高点到牙根尖的全高，不含牙周膜与牙槽骨；牙位、个体与测量方法都会影响读数。
 uncertainty: 2 厘米是取整代表值；所引研究的下颌第二磨牙全长约 20.0 毫米，其中牙冠约 7.6 毫米、牙根约 12.4 毫米，不同牙位与个体可略有差异。
 review:
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 2 厘米约为成人手掌长度 19 厘米的 0.11 倍，也接近一枚硬币的直径。它比眼球直径 24 毫米略小，比血红蛋白分子 6.4 纳米则大约三百万倍。磨牙全高处在厘米级器官尺度，但它由毫米级的牙冠、牙根和微米级的牙釉质结构组成，内部同样跨越多个尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.067 纳秒，在时间轴上量级接近「纳秒」。[3]

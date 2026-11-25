@@ -5,7 +5,7 @@ summary: >-
   福特号（CVN-78）满载排水量约 100,000 长吨，即约 1.0×10⁸ kg；按 1 长吨 = 1,016 kg 换算约 1.02×10⁸
   kg。这是含航空燃油与弹药的全舰质量，不是标准排水量。
 dimension: mass
-category: 船舶
+category: 工程与交通
 displayValue: 1.0×10⁸ kg
 quantity:
   value: 100000000
@@ -18,6 +18,8 @@ related:
   - mass.cargo-ship
   - mass.airliner
   - mass.iss
+  - space.earth
+  - time.world-war-ii
 reviewStatus: reviewed
 review:
   method: source-check
@@ -45,6 +47,14 @@ sources:
     url: 'https://www.ice.org.uk/'
     publisher: Institution of Civil Engineers
     accessed: '2026-11-09'
+  - title: "Cunard — Queen Mary 2 ship information"
+    url: "https://www.cunard.com/"
+    publisher: "Cunard Line"
+    accessed: '2026-11-24'
+  - title: "Maersk — fleet and vessel specifications"
+    url: "https://www.maersk.com/"
+    publisher: "A.P. Moller — Maersk"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 航空母舰
@@ -69,6 +79,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Gerald R. Ford-class aircraft carrier
 ---
 ## 这个读数是什么
 
@@ -86,6 +97,30 @@ visual:
 
 1.0×10⁸ kg 约等于 1,700 辆主战坦克，或 670 头蓝鲸，比玛丽皇后二号重约三成。[1] 它刚好越过 10⁸ kg 这条线，是“十万吨级”的典型代表；再往上，就是 10⁹ kg 量级的大坝与超大型船舶。满载与轻载之间可差数万吨，出港与归港的吃水因此不同。
 
+## 满载排水量包含什么
+
+福特号的 10 万吨是满载排水量：舰体、设备、舰载机、航空燃油与弹药全部到位时的总质量。标准排水量不含燃油、滑油与备用锅炉水，会低一截。核动力不烧舰用燃油，但航空燃油仍是满载的一部分。[1][S2]
+
+航母的满载排水量还随载况变化：执行不同任务时，舰载机联队、弹药与航空燃油配置不同，吃水与排水量随之改变。10 万吨是设计满载，不是每次出港的实测值。
+
+航母质量还可以按排水体积换算：满载吃水下的水下体积乘海水密度，得到排水量；倾斜试验再给出重心位置。
+
 ## 怎么继续走
 
 想看同量级的民用船，去 mass.cruise-ship；想看装得更多、但跑得更慢的商船，去 mass.cargo-ship；想比较会飞的钢铁结构，去 mass.airliner；想看长期在轨的工程物，去 mass.iss。
+
+## 核动力不烧舰用燃油，但航空燃油仍很重
+
+福特级用核反应堆提供动力，不需要舰用燃油，但舰载机使用的航空燃油仍是满载排水量的一部分。[1] 一次部署携带的航空燃油可达数千吨，直接影响吃水与补给周期。把“核动力”理解成“完全不需要燃料”，会漏掉航空燃油这笔账。
+
+## 五轴对照
+
+在质量轴，福特级满载约 10 万吨；在空间轴，舰长 337 米；在时间轴，航母在二战中成为主力舰种；在温度轴，反应堆与航空燃油各有热管理。质量、空间与动力共同定义航母。[1][2]
+
+## 读数的口径与换算
+
+本条采用的量是 1.0×10⁸ kg，口径是 满载排水量：美国海军公布约 100,000 长吨（约 1.02×10⁸ kg），含舰体、设备、航空燃油与弹药。质量是广延量，读数依赖湿重/干重、含血/不含血、整备/满载等口径；样本与测量条件必须一起引用。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [3]（Cunard Line）、[4]（A.P. Moller — Maersk） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

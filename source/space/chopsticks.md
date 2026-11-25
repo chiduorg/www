@@ -15,6 +15,7 @@ related:
   - space.rice-grain
   - space.coffee-cup
   - space.table
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Chopstick
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.britannica.com/topic/chopsticks'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为单根中式筷子；量取筷头到筷尾的直线长度，不含装饰穗与挂绳；不同材质、不同菜系与不同地区的筷子长度不同。
 uncertainty: 中式筷子常见 22–26 cm，日式筷子多为 20–23 cm；本条取 25 cm 作中式代表值；合金、竹木材质在同一长度下重量差别很大，斜放量取会读到偏大的数值。
 review:
@@ -68,3 +73,7 @@ tags:
 ## 与其他尺度的关系
 
 25 厘米约为 5 毫米米粒的 50 倍，比 9 厘米咖啡杯口径长约 1.8 倍；两根筷子首尾相接正好 50 厘米，接近 45 厘米砧板的长边。[1][2] 放在 1.8 米长的餐桌上，一根筷子约占桌长的七分之一，也大约等于成人前臂加手掌的长度。与西餐刀叉相比，它没有刃口，夹取依靠两根细棒的开合。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.83 纳秒，在时间轴上量级接近「纳秒」。[3]

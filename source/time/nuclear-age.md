@@ -4,7 +4,9 @@ title: 人工核合成时代
 titleEn: The Nuclear Age
 dimension: cosmic-time
 category: 人类与文明
-summary: 1940 年代起，反应堆与加速器让人类能够制造自然界中不存在或仅痕量存在的元素。锝、钷的空缺被填补，镎、钚与 104 号以后的超重元素接连出现，元素轴的后半段从此由人工合成推进。
+summary: >-
+  1940 年代起，反应堆与加速器让人类能够制造自然界中不存在或仅痕量存在的元素。锝、钷的空缺被填补，镎、钚与 104
+  号以后的超重元素接连出现，元素轴的后半段从此由人工合成推进。
 quantity:
   value: 435399997286046400
   unit: s
@@ -22,10 +24,14 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮审核修正：人工核合成起点原秒数与 conditions 的 presentSeconds − 86×secondsPerYear 差约 94,978 年，已按公式重算为 435399997286046400 s；displayValue「1940 年」不变。"
-    - "本轮复核：结构、引用编号与时间换算完整；quantity.value 与 conditions 的 timeBasis/换算公式逐条核对。"
-    - "来源可达性：Britannica 对自动请求返回 403，有头浏览器抽验可读；NASA、IUPAC、LIGO 直接返回 2xx。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指结构与来源口径核对，不是外部同行评审；参考锚点、chronology 与 uncertainty 按正文保留。"
+    - >-
+      本轮审核修正：人工核合成起点原秒数与 conditions 的 presentSeconds − 86×secondsPerYear 差约
+      94,978 年，已按公式重算为 435399997286046400 s；displayValue「1940 年」不变。
+    - 本轮复核：结构、引用编号与时间换算完整；quantity.value 与 conditions 的 timeBasis/换算公式逐条核对。
+    - >-
+      来源可达性：Britannica 对自动请求返回 403，有头浏览器抽验可读；NASA、IUPAC、LIGO 直接返回
+      2xx。本轮未逐页重读全文，沿用条目既有 accessed 记录。
+    - reviewed 指结构与来源口径核对，不是外部同行评审；参考锚点、chronology 与 uncertainty 按正文保留。
 sources:
   - title: transuranium element
     url: 'https://www.britannica.com/science/transuranium-element'
@@ -35,6 +41,10 @@ sources:
     url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
     publisher: International Union of Pure and Applied Chemistry
     accessed: '2026-11-09'
+  - title: 'PubChem Element Summary: Neptunium'
+    url: 'https://pubchem.ncbi.nlm.nih.gov/element/93'
+    publisher: U.S. National Library of Medicine
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -45,7 +55,9 @@ conditions:
   lookbackYears: 86
   conversion: presentSeconds - lookbackYears × secondsPerYear
   note: 以 1940 年作人工核合成的参考起点；宇宙时间按年作近似导航。
-uncertainty: 人工核合成的起点取决于“首次合成”如何界定：1934 年的中子轰击实验、1940 年的镎与钚、1945 年的核试验都常被引用。本条取 1940 年，秒数只用于时间轴排序。
+uncertainty: >-
+  人工核合成的起点取决于“首次合成”如何界定：1934 年的中子轰击实验、1940 年的镎与钚、1945 年的核试验都常被引用。本条取 1940
+  年，秒数只用于时间轴排序。
 visual:
   template: nuclear-network
   scene: time.object
@@ -58,7 +70,7 @@ tags:
   - 超重元素
 rights:
   status: rewritten
-  note: "依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。"
+  note: 依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。
 ---
 ## 它是什么
 
@@ -79,3 +91,7 @@ rights:
 ## 与其他阶段的关系
 
 人工核合成与 s 过程、r 过程构成元素来源的第三种路径：前两者在恒星与并合中发生，后者在反应堆与加速器中进行。[1][2] 元素轴的 93–118 号条目主要挂在这个节点上；它们的“预测值/无稳定同位素”标注，正是人工来源与核稳定性共同造成的。往上游走，这个节点接在中子星并合与太阳系形成之后。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. National Library of Medicine）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

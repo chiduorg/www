@@ -16,6 +16,7 @@ related:
   - space.brain
   - space.neuron
   - space.hair
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Gross Anatomy of the Eye
@@ -26,6 +27,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4238270/'
     publisher: PubMed Central (PMC)
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成人眼球；量取前后径或横径的整体轮廓，不含眼外肌、眼眶脂肪与视神经；屈光状态、年龄和测量方法都会影响读数。
 uncertainty: 24 毫米是取整代表值；眼球前后径约 24–25 毫米、横径约 24 毫米，健康成人轴长范围约 22.0–24.8 毫米，近视眼轴可能偏长。
 review:
@@ -73,3 +78,7 @@ NCBI Bookshelf 的《Gross Anatomy of the Eye》把眼球描述为略不对称�
 ## 与其他尺度的关系
 
 24 毫米约为成人手掌长度 19 厘米的 0.13 倍，比磨牙全高 2 厘米略大。它约为心脏长径 12 厘米的五分之一，也约为血红蛋白分子 6.4 纳米的 375 万倍。眼球处在厘米级器官尺度，但其内部视网膜、感光细胞和蛋白质分子跨越多个数量级。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.080 纳秒，在时间轴上量级接近「纳秒」。[3]

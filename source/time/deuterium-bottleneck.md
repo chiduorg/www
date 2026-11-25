@@ -32,6 +32,10 @@ sources:
     url: 'https://home.cern/science/physics/early-universe'
     publisher: CERN
     accessed: '2026-11-06'
+  - title: 'The Primordial Lithium Problem, arXiv:1203.3551'
+    url: 'https://arxiv.org/pdf/1203.3551'
+    publisher: Brian D. Fields / Annual Review of Nuclear and Particle Science
+    accessed: '2026-11-24'
 legacy:
   id: deuterium-bottleneck
   icon: "\U0001F4A7"
@@ -102,3 +106,7 @@ PDG 给出定量判据：氘的结合能约 2.23 MeV，但真正决定能否积�
 ## 与其他阶段的关系
 
 氘瓶颈位于核合成窗口的前段，打开后才有氦-4 和锂-7 等后续产物。[1] 它上承弱脱耦固定的中子—质子比，下接原初核合成丰度定型与复合。[1][3] 与“锂-7合成”条目相连，可看到同一网络里不同产物的竞争；与微波背景条目相连，则可用重子密度约束这条链路。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（Brian D. Fields / Annual Review of Nuclear and Particle Science）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

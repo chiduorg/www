@@ -15,12 +15,12 @@ quantity:
   measureLabel: 纯氦-4常压正常沸点参考
 displayValue: 约 4.22 K（−268.93 °C）
 related:
-  - temperature.liquid-hydrogen
   - temperature.liquid-nitrogen
   - temperature.helium-4-lambda-point
   - temperature.helium-3-superfluid
   - temperature.superfluid
   - temperature.absolute-zero
+  - mass.helium-nucleus
 reviewStatus: reviewed
 sources:
   - title: 'Helium: element data'
@@ -32,6 +32,14 @@ sources:
       https://www.nist.gov/ncnr/sample-environment/sample-mounting/reference-tables
     publisher: NIST Center for Neutron Research
     accessed: '2026-11-07'
+  - title: "Nitrogen: Phase change data"
+    url: "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7727379&Mask=4"
+    publisher: "NIST Chemistry WebBook, SRD 69"
+    accessed: '2026-11-24'
+  - title: "Nitrogen Asphyxiation — report appendix: nitrogen material safety data"
+    url: "https://www.csb.gov/assets/1/20/final_union_carbide_report.pdf?13768="
+    publisher: "U.S. Chemical Safety and Hazard Investigation Board, report 98-05-I-LA, appended nitrogen data"
+    accessed: '2026-11-24'
 conditions: >-
   纯氦-4 在 1 atm（101.325 kPa）下液—气平衡的正常沸点参考；不是 2.177 K 的 λ 点，也不是需要约 25 atm
   压力才出现的凝固点，不适用于含其他同位素或杂质的氦样品。
@@ -84,3 +92,19 @@ tags:
 ## 在低温尺度上的位置
 
 在温度轴上，4.22 K 低于液氢的 20.3 K、液氮的 77.4 K 和液氩的 87.3 K，高于 λ 点的 2.177 K 与绝对零度。[1][2] 液氦常用于冷却超导磁体和基础低温实验，但容器外壁、液面与样品可能处在不同温度；画面的颜色、液面和气泡只作示意。液氦汽化时吸收大量热，储存与输送要按低温液体规范处理；这些工程细节并不改变 4.22 K 的物理定义。
+
+## 4.22 K 不是“接近绝对零度”的全部故事
+
+液氦在 4.22 K 沸腾，但继续降温到 2.177 K 会进入超流氦 II；这不是凝固，而是黏度消失、热导率异常的二阶相变。[1][2] 液氦没有常压固相，真正的凝固需要约 25 atm。把“沸点”“λ 点”“凝固点”三个词混用，会得到完全不同的物理图像。
+
+## 氦-3 为什么更低
+
+氦-3 的正常沸点约 3.19 K，比氦-4 的 4.22 K 更低；这不是因为氦-3“更冷”，而是它的原子质量更小、零点运动更强，液体的结合更弱。[1][2] 在稀释制冷机里，氦-3/氦-4 混合物的相分离还被用来把温度降到毫开尔文量级。比较这两种同位素时，必须同时写清同位素、压力和相态。
+
+## 五轴对照
+
+在温度轴，4.22 K 是液—气平衡；在空间轴，氦原子与原子核的尺度远小于容器；在质量轴，氦-4 原子核约 6.64×10⁻²⁷ 千克，是液氦质量的微观基础；在时间轴，液氦的发现与低温技术进步相连。低温工程关心的是漏热、蒸发与压力，不是单一温度数字。[1][2]
+
+## 延伸核对
+
+补充的来源 [3]（NIST Chemistry WebBook, SRD 69）、[4]（U.S. Chemical Safety and Hazard Investigation Board, report 98-05-I-LA, appended nitrogen data） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

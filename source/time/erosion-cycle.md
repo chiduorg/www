@@ -40,6 +40,10 @@ sources:
       https://www.usgs.gov/news/volcano-watch-you-can-see-history-landscape-kauai
     publisher: U.S. Geological Survey
     accessed: '2026-11-06'
+  - title: 'This Dynamic Earth: The Story of Plate Tectonics'
+    url: 'https://pubs.usgs.gov/gip/dynamic/dynamic.html'
+    publisher: U.S. Geological Survey
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -79,3 +83,14 @@ Britannica把侵蚀定义为地表物质的移除与搬运，并区分风化、�
 ## 与其他尺度的关系
 
 侵蚀周期与造山过程相互对抗：造山抬升地表，侵蚀削减地表，二者共同塑造山脉寿命。[1][2] 它比超大陆旋回短，却比人类观测记录长；在更长尺度上，反复侵蚀还会影响大陆漂移所留下的地质记录。因此，同一个数值在不同景观区不能直接套用。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. Geological Survey）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 3.156×10¹³ 秒，换算后是 1×10⁶ 年；约 2.17×10⁻⁴ 个地球年龄（46 亿年）。这把尺子只改写单位，不改变量值；它把本条固定在时间轴的 10¹³ 量级附近。
+
+读图时先看量级，再看倍数：10¹³ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

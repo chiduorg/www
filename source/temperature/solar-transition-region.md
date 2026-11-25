@@ -25,6 +25,8 @@ related:
   - temperature.solar-corona
   - temperature.sun-surface
   - temperature.sunspot
+  - space.supernova-remnant
+  - space.red-giant
 reviewStatus: reviewed
 sources:
   - title: Layers of the Sun

@@ -19,6 +19,7 @@ related:
   - temperature.steelmaking_temp
   - temperature.cement-kiln
   - temperature.incinerator
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Coke Ovens & Coal Chemical Plant'
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.eia.gov/tools/glossary/index.php?id=coke'
     publisher: U.S. Energy Information Administration
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   炼焦煤在焦炉炭化室内隔绝空气加热，取炭化室中煤料—焦饼的温度口径；煤种、装煤量、炉宽、
   火道温度和结焦周期都会改变实际读数。本条不指燃烧室火道炉气、炉顶荒煤气或推焦后的焦炭温度。
@@ -80,3 +85,5 @@ tags:
 ## 与其他温区的关系
 
 1,300 K 高于垃圾焚烧炉常取的 1,273 K，低于水泥窑烧成带的 1,723 K，也低于炼钢出钢的约 1,893 K。它比玻璃熔窑工作温度低约 500 K，说明焦炉属于“加热固体煤料”的高温工艺，而不是把物料加热到熔融流动的工艺。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

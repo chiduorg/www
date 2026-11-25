@@ -5,7 +5,7 @@ summary: >-
   半人马座 A 星系群以 NGC 5128 为核心，总质量约 2.6×10⁴³ kg，折合约 1.3×10¹³
   个太阳质量，口径包含暗物质。数值由成员星系速度弥散估算，相对不确定度约 50%，属量级估算。
 dimension: mass
-category: 星系群
+category: 星系与宇宙
 displayValue: 2.6×10⁴³ kg
 quantity:
   value: 2.6e+43
@@ -79,6 +79,7 @@ visual:
   color: '#a6bfff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Centaurus A Group
 ---
 ## 这个读数是什么
 

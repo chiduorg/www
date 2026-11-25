@@ -5,7 +5,7 @@ summary: >-
   流感病毒是有包膜的负链 RNA 病毒，包膜直径约 100 nm，也常见拉长的丝状颗粒。单个颗粒湿重均值约 1.6×10⁻¹⁸ kg，按等效球直径约 140
   nm 与 1.1 g/cm³ 密度估算。
 dimension: mass
-category: 病毒
+category: 生命与人体
 displayValue: 1.6×10⁻¹⁸ kg
 quantity:
   value: 1.6e-18
@@ -71,6 +71,7 @@ visual:
   color: '#b7a6ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Influenza virion
 ---
 ## 这个读数是什么
 

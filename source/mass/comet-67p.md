@@ -5,7 +5,7 @@ summary: >-
   Rosetta 通过探测器轨道拟合给出 67P 彗核总质量 9.982×10¹² kg，约一百亿吨。密度仅 533
   kg/m³，说明它是一颗高孔隙率的碎石堆彗星，不是实心冰块。
 dimension: mass
-category: 彗星与小行星
+category: 行星与小天体
 displayValue: 9.982×10¹² kg
 quantity:
   value: 9982000000000
@@ -80,6 +80,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: 67P/Churyumov–Gerasimenko
 ---
 ## 这个读数是什么
 

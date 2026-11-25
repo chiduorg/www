@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/49/indium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第五周期, 5p 区, 铟]
 rights:
   status: rewritten
@@ -78,3 +82,5 @@ rights:
 ## 怎么继续走
 
 往左是镉，5s2 满壳、电离能高；往右是锡，5p 再添一个电子，电离能重新上升，可以看到半满前后并不对称。想弄清 p 轨道为什么比 s 轨道松，去读周期律解释页；想弄清 s 与 r 两条路径如何叠加成丰度，去读重元素富集节点。铟这一页的关键是：它换的不只是电子数，而是电子住的亚层。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

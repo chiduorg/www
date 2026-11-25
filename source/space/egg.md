@@ -16,6 +16,7 @@ related:
   - space.pollen
   - space.coin
   - space.hand
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Quick Facts & FAQs
@@ -28,6 +29,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6299883/'
     publisher: NCBI PMC / Journal of Genetic Engineering and Biotechnology
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 量鸡蛋长轴（蛋壳最长方向），不是短轴、周长或重量；以小型母鸡所产鸡蛋的5.5 cm为参照，而非全部鸡蛋的定值。
 uncertainty: >-
   行业资料给出小型母鸡约5.5 cm、大型母鸡约7 cm；蛋鸡品种Bovan Nera
@@ -76,3 +81,7 @@ Egg Producers Federation of New Zealand 的问答页按母鸡体型给出经验�
 ## 与其他尺度的关系
 
 5.5厘米约为米粒的九倍，接近网球直径的八成，约为人手长度的四分之一。[1][2] 在尺度轴上，鸡蛋位于厘米级日常物体的中段：向上可比较手掌、书和球类，向下可落到种子、花粉与细胞。它也提醒我们，生物尺寸通常是一个范围，而不是刻在标准件上的常数。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.18 纳秒，在时间轴上量级接近「纳秒」。[3]

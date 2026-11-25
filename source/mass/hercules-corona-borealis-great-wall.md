@@ -5,7 +5,7 @@ summary: >-
   赫拉克勒斯—北冕座长城是据伽马射线暴分布识别出的超大结构，总质量约 2.0×10⁴⁹ kg，折合约 1×10¹⁹
   个太阳质量。口径为含暗物质的总质量，由伽马暴红移分布与结构模型反推，相对不确定度约 50%，只能给量级。
 dimension: mass
-category: 大尺度结构
+category: 星系与宇宙
 displayValue: 2.0×10⁴⁹ kg
 quantity:
   value: 2e+49
@@ -24,6 +24,8 @@ related:
   - mass.boss-great-wall
   - mass.sloan-great-wall
   - mass.total-matter-universe
+  - space.hercules-corona-borealis-great-wall
+  - space.milky-way
 reviewStatus: reviewed
 review:
   method: source-check
@@ -79,6 +81,7 @@ visual:
   color: '#c9d8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Hercules–Corona Borealis Great Wall
 ---
 ## 这个读数是什么
 

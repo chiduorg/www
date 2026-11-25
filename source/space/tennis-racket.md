@@ -17,6 +17,7 @@ related:
   - space.umbrella
   - space.hand
   - space.basketball
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Pro Staff 97 Classic Tennis Racket — product details
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.itftennis.com/media/2177/rackets-and-strings-product-conformity.pdf'
     publisher: International Tennis Federation
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为成人网球拍；测量口径为拍柄底端到拍头顶端的整体长度，含拍柄，不含拍套和避震器。
 uncertainty: >-
@@ -73,3 +78,7 @@ Wilson 的产品页把 Pro Staff 97 的长度标为 27 英寸，拍头面积 97 
 ## 与其他尺度的关系
 
 68 厘米约为成年人手长 19 厘米的 3.6 倍，也约为 A4 纸长边 29.7 厘米的 2.3 倍。它比约 1 米展开直径的雨伞短约 32 厘米，约为 1.1 米长棒球棒的 0.62 倍。与 48 厘米高的背包相比，网球拍长约 1.4 倍。与 80 厘米长的滑板相比，网球拍短约 11 厘米。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.3 纳秒，在时间轴上量级接近「纳秒」。[3]

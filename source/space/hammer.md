@@ -17,6 +17,7 @@ related:
   - space.screwdriver
   - space.wrench
   - space.pencil
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 16 oz STANLEY FATMAX Curved Claw Graphite Hammer — specifications
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.stanleytools.ca/product/51-616/16-oz-curve-claw-wood-handle-nailing-hammer'
     publisher: STANLEY
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为常见 16 盎司羊角锤；测量口径为手柄尾端到锤头最外缘的整体长度，不含握把胶套向外凸出的部分。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 30 厘米约为成年人手长 19 厘米的 1.6 倍，与 A4 纸长边 29.7 厘米几乎相同。它比一支约 20 厘米长的螺丝刀长约 1.5 倍，与一把约 30 厘米长的菜刀相近。相比 2 米高的门，锤子长度约为门高的六分之一。按实测 33 厘米与参照 30 厘米相比，取整带来的误差约为百分之十。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.0 纳秒，在时间轴上量级接近「纳秒」。[3]

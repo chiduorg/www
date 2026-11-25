@@ -18,6 +18,7 @@ related:
   - space.cod
   - space.shark
   - space.human
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Swordfish
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.fisheries.noaa.gov/species/north-atlantic-swordfish'
     publisher: National Oceanic and Atmospheric Administration, NOAA Fisheries
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为剑鱼（Xiphias gladius）；量吻突前端到尾鳍末端的全长，不是叉长、体重或只量躯干；4 m低于佛罗里达博物馆给出的177英寸（约4.5 m）最大纪录。
 uncertainty: >-
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 4米约为2.4个1.7米高的人，比3米蓝鳍金枪鱼体长长1米，和4米尼罗河鳄的全长同量级，是1.5米大西洋鳕体长的2.7倍。[1][2] 在尺度轴上，它处在“几米级”鱼类的上端：向上是蓝鲸，向下是金枪鱼和鳕。用吻突前端到尾鳍末端的全长，才能把它与用体长、翼展描述的动物区分开。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 13.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

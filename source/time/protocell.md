@@ -18,6 +18,7 @@ related:
   - time.luca
   - time.hydrothermal-origin-of-life
   - time.formation-of-oceans
+  - space.cell
 reviewStatus: reviewed
 sources:
   - title: Concomitant formation of protocells and prebiotic compounds under a plausible early Earth atmosphere
@@ -28,6 +29,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2926753/'
     publisher: Cold Spring Harbor Perspectives in Biology
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: model-reference
   plot: true
@@ -85,3 +90,5 @@ tags:
 ## 与其他阶段的关系
 
 原始细胞位于RNA世界与最早细胞生命之间，是生命起源链条上的一个模型环节。[1][2] 它与热液起源、浅水池塘等假说相连：膜的形成与遗传分子的浓缩需要特定环境；也与最早生命证据和LUCA相连，但后两者分别依赖化石与分子系统学，不能与模型年龄混同。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

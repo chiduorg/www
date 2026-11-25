@@ -14,12 +14,12 @@ quantity:
   approximate: true
 displayValue: 约 3 × 10¹⁶ m（马头部分横向跨度，约 3 光年）
 related:
+  - time.decade
   - space.orion-nebula
   - space.eagle-nebula
   - space.pillars-of-creation
   - space.crab-nebula
   - space.light-year
-  - space.milky-way
 reviewStatus: reviewed
 sources:
   - title: The Horsehead Nebula
@@ -31,6 +31,10 @@ sources:
       https://www.astronomy.com/magazine/news/2022/05/101-must-see-cosmic-objects-the-horsehead-nebula
     publisher: Astronomy magazine
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   指马头状暗云可辨认轮廓的横向跨度，取约 3 光年的概览值；不是沿视线方向的厚度，也不等于整片猎户座 B 分子云或背后电离氢区的尺度。
 uncertainty: >-
@@ -85,3 +89,7 @@ tags:
 ## 与其他尺度的关系
 
 3×10¹⁶ 米约为 3 光年，约为太阳到比邻星距离的 0.7 倍。[2] 它比鹰状星云的约 20 光年跨度小得多，却仍比太阳系行星轨道尺度大数百万倍。把它与昴星团的约 7 光年核心相比，马头只是星际云中一个较小的致密团块；但正是这种小尺度的高密度尘埃，才能形成可辨认的剪影并孕育恒星。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.2 年，在时间轴上量级接近「十年」。[3]

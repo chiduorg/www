@@ -16,6 +16,8 @@ related:
   - space.atom
   - space.planck
   - space.proton
+  - temperature.planck-temperature
+  - time.big-bang
 reviewStatus: reviewed
 sources:
   - title: 'CODATA Value: classical electron radius'
@@ -26,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/electron'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   2022 CODATA 的经典电子半径 r_e =
   e²/(4πε₀m_ec²)，适用于把电子视为带电荷球并计算其静电自能的经典模型；它不是电子在标准模型中的物理尺寸。高能散射把电子视为点粒子，经典半径只作为换算尺度使用。
@@ -43,12 +49,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "field"
-  scene: "space.object"
-  caption: "电子经典半径 · 2.82 fm 模型尺度"
-  note: "场纹、颜色与粒子标记为示意；标线表示经典模型长度，不是电子实体边界；非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: field
+  scene: space.object
+  caption: 电子经典半径 · 2.82 fm 模型尺度
+  note: 场纹、颜色与粒子标记为示意；标线表示经典模型长度，不是电子实体边界；非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -75,3 +81,5 @@ tags:
 ## 与其他尺度的关系
 
 经典电子半径与康普顿波长、玻尔半径构成电子相关的三个不同尺度：经典半径约 2.82 飞米，康普顿波长在皮米量级，玻尔半径约 0.053 纳米。[1] 它们依次描述经典电磁模型、量子散射与原子结构，不能放在同一口径下直接比较“电子大小”。继续阅读电子康普顿波长、原子与普朗克长度，可看清这些尺度的区别。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

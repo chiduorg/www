@@ -6,7 +6,7 @@ summary: >-
   3×10⁻¹⁰。
 dimension: mass
 grade: A
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: 9.109×10⁻³¹ kg
 quantity:
   value: 9.1093837139e-31
@@ -47,6 +47,14 @@ sources:
     url: 'https://home.cern/science/physics/standard-model'
     publisher: CERN
     accessed: '2026-11-09'
+  - title: "Compton effect"
+    url: "https://www.britannica.com/science/Compton-effect"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
+  - title: "PubChem Element Summary: Hydrogen"
+    url: "https://pubchem.ncbi.nlm.nih.gov/element/1"
+    publisher: "U.S. National Library of Medicine"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 电子
@@ -71,6 +79,7 @@ visual:
   color: '#7fe8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Electron
 ---
 ## 这个读数是什么
 
@@ -90,6 +99,26 @@ visual:
 
 电子是 B1 带里唯一有确定点值的粒子：比中微子本征态重约 10⁷ 倍，比质子轻 1836 倍。这个比例决定了原子的尺度：电子质量越小，玻尔半径越大，氢原子的 1s 云才会铺到 10⁻¹⁰ m 量级。
 
+## 电子没有测得半径
+
+电子在标准模型中被视为点粒子，实验只给出电荷半径上限，约 10⁻¹⁸ 米量级；这个上限来自散射与精密测量，不等于电子真的有一个小球壳。把“电子半径上限”当成实际半径，会误解点粒子的含义。[1][S1]
+
 ## 怎么继续走
 
 想看它的反粒子，去 mass.positron；想看它与质子如何组成氢，去 mass.hydrogen-atom 与 elements.h；想看康普顿波长如何把质量换成长度，从 space.electron-compton 进入空间轴。
+
+## 为什么电子质量能测得这么准
+
+电子质量不是用天平称出来的，而是把质量转换成频率比：Penning 阱测回旋频率，原子反冲测里德伯常数，再把两者与原子质量标尺连接。[1][2] 频率可以测得极准，因此电子质量的相对不确定度能压到 10⁻¹⁰ 量级；这也是 CODATA 常数网络里最精确的条目之一。
+
+## 与质子质量的比值
+
+电子质量常与质子质量成对出现：质子/电子质量比约 1836.15，是一个没有单位的纯数。[1][2] 这个比值决定了原子中电子与原子核的质量分配，也影响玻尔半径和原子能级。它比单独记住 9.11×10⁻³¹ 千克更有用，因为不同单位制下比值不变。若这个比值明显不同，化学结构也会随之改变。CODATA 把这两个质量放在同一套常数网络中，正是为了让这种比值可以被独立检验。
+
+## 五轴对照
+
+在质量轴，电子是 10⁻³¹ 千克的轻子；在空间轴，康普顿波长把质量换成长度；在温度轴，电子质量不直接给温度，但决定原子能级与辐射；在时间轴，电子是稳定粒子，寿命下限极长。把“质量小”当成“尺度小”会混淆康普顿波长与经典半径。[1][2][3]
+
+## 延伸核对
+
+补充的来源 [4]（Encyclopaedia Britannica）、[5]（U.S. National Library of Medicine） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

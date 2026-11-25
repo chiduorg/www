@@ -18,6 +18,7 @@ related:
   - space.nacl-crystal
   - space.diamond-unit-cell
   - space.graphene
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Quartz
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.mindat.org/min-3337.html'
     publisher: 'Mindat.org（Hudson Institute of Mineralogy）'
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取常温常压下的 α-石英六方晶胞，量 a 轴长度；c 轴为 5.405 Å，二者不是同一方向。
   该值不是手标本尺寸、不是 Si—O 键长，也不是石英玻璃的无序网络间距。
@@ -77,3 +82,7 @@ X 射线粉末与单晶精修给出 α-石英的六方晶胞：a = 4.9135 Å、c
 ## 与其他尺度的关系
 
 0.491 nm 约为 NaCl 晶格常数 0.564 nm 的 0.87 倍，约为金刚石晶胞 0.357 nm 的 1.4 倍。[1][2] 它比苯环大 1.75 倍，却仍远小于一个细胞。与 Si—O 键长约 0.161 nm 相比，a 轴约为其 3 倍；与方解石 a 轴 0.499 nm 相比则几乎相等。[1][2] 这些比较说明不同硅酸盐与碳酸盐的晶胞底面可以落在同一尺度。继续阅读晶格间距、NaCl 晶体与金刚石晶胞，可比较不同晶体结构的晶胞参数。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.6e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

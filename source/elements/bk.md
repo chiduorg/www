@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/97/berkelium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 锕系, 锫]
 rights:
   status: rewritten
@@ -70,3 +74,5 @@ rights:
 ## 它从哪里来
 
 来源记作“人工（加速器）”。锫不在天然衰变链里，只能由轻核轰击锕系靶核合成，一次实验往往只得几个原子，靠α衰变链识别。[2] 挂到时间轴上，这是核时代之后的事：反应堆能堆到锔，再往上更多依赖加速器。锫没有稳定同位素，只能现做现测。[2]
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

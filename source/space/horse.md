@@ -16,6 +16,7 @@ related:
   - space.elephant
   - space.cattle
   - space.moose
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Horses (livestock farming)
@@ -26,6 +27,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Equus_caballus/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年家马；量取肩胛最高点（鬐甲）到平整地面的垂直距离；不含头顶高度与体长；品种、性别与个体差异明显，矮马与重挽马不可混用同一数值。
 uncertainty: Britannica 按掌给出常见骑乘马 15–16 掌（约 1.5–1.6 m）、重挽马 15.5–17 掌（约 1.57–1.73 m），1 掌等于 10.16 cm；ADW 给出肩高 0.9–1.7 m。家马肩高常见约 1.4–1.8 m，本条取 1.6 m 作代表值。
 review:
@@ -69,3 +74,7 @@ Britannica 的养马章节用“掌”作单位，1 掌等于 4 英寸（10.16 �
 ## 与其他尺度的关系
 
 1.6 米接近 1.7 米成年人的高度，是 1.4 米家牛肩高的 1.14 倍，也约为 3.35 米非洲象肩高的一半；比 0.72 米的狗高出一倍多。[1][2] 在人与家畜之间，马处在“接近成年人”的层级：向上是大象、长颈鹿，向下是牛、羊、狗。肩高口径让马能与这些动物直接比较。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 5.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

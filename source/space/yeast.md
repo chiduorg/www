@@ -16,6 +16,7 @@ related:
   - space.mitochondria
   - space.bacteria
   - space.ecoli
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 2.57 Yeast
@@ -27,6 +28,10 @@ sources:
     url: 'https://pubmed.ncbi.nlm.nih.gov/38142225/'
     publisher: 'FEMS Yeast Research / PubMed, NCBI'
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对数期培养、出芽前的单细胞在光学显微镜下测量；细胞常呈球形或卵形，制样与渗透压会影响直径。
 uncertainty: 5 μm 是面包酵母球形细胞的教材代表值；酿酒酵母实际为卵形到球形，长径与短径不等，不同菌株和培养阶段常见数微米到十余微米。
 review:
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 5 μm 约为大肠杆菌杆长的两倍多，却只有红细胞直径的约三分之二，正好卡在原核与典型动物细胞之间[2]。与线粒体（约 1–2 μm）相比，一个酵母细胞可以容纳多个线粒体；与 20 μm 的动物细胞相比，它的体积又小一个数量级。这个“比细菌大、比动物细胞小”的位置，使酵母成为连接微生物尺度与真核细胞尺度的重要参照。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.000017 纳秒，在时间轴上量级接近「纳秒」。[3]

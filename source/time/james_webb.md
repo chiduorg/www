@@ -15,6 +15,7 @@ related:
   - time.first-galaxy-clusters
   - time.first-black-holes
   - time.present
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: James Webb Space Telescope
@@ -22,9 +23,14 @@ sources:
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
   - title: Webb mission overview
-    url: 'https://www.esa.int/Science_Exploration/Space_Science/Webb'
+    url: 'https://sci.esa.int/web/jwst'
     publisher: European Space Agency
     accessed: '2026-11-06'
+  - title: Webb Reveals Early-Universe Prequel to Huge Galaxy Cluster
+    url: >-
+      https://www.nasa.gov/universe/webb-reveals-early-universe-prequel-to-huge-galaxy-cluster/
+    publisher: NASA
+    accessed: '2026-11-24'
 legacy:
   id: james_webb
   icon: "\U0001F52D"
@@ -100,3 +106,7 @@ ESA任务页记录：2021年12月25日由阿丽亚娜5号火箭从法属圭亚�
 ## 与其他阶段的关系
 
 韦布上接哈勃与斯皮策等空间望远镜，下接对早期星系、系外行星大气的观测；它的红外能力与宇宙膨胀导致的高红移直接相关。[1][2] 与引力波探测一样，它代表21世纪多信使、多波段天文学的分工。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（NASA）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

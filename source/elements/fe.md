@@ -20,7 +20,11 @@ element:
   configuration: 1s2 2s2 2p6 3s2 3p6 3d6 4s2
   valence: 3d6 4s2
   level: A
-related: [elements.mn, elements.co, time.pop-iii-supernovae, time.heavy-element-enrichment]
+related:
+  - elements.mn
+  - elements.co
+  - time.pop-iii-supernovae
+  - time.heavy-element-enrichment
 conditions: 标准状态（298 K，1 bar）下的中性气态原子；电离能与半径均为孤立原子口径。
 visual:
   scene: elements.shell-ladder
@@ -31,9 +35,14 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自 CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - >-
+      本轮复核：结构、引用编号与六项差值完整；正文的第一电离能、原子半径、电负性与 N/Z 已与站内元素属性表（PeriodicTableJSON，源自
+      CRC/NIST 汇编）逐条交叉核对，未发现数值不一致。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: 'PubChem Element Summary: Iron'
     url: 'https://pubchem.ncbi.nlm.nih.gov/element/26'
@@ -43,14 +52,22 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/26/iron'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
-  - title: 'NIST Atomic Spectra Database'
+  - title: NIST Atomic Spectra Database
     url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-09'
-tags: [元素, 第四周期, 铁峰, 铁]
+  - title: 'Iron: element data'
+    url: 'https://periodic-table.rsc.org/element/26/iron'
+    publisher: Royal Society of Chemistry
+    accessed: '2026-11-24'
+tags:
+  - 元素
+  - 第四周期
+  - 铁峰
+  - 铁
 rights:
   status: rewritten
-  note: "依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。"
+  note: 依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。
 ---
 ## 第 26 个质子把电子放进了哪里
 
@@ -84,3 +101,12 @@ rights:
 ## 怎么继续走
 
 往回看锰（/entry/elements/mn/），能看到半充满的 3d5 4s2 为什么在铁这里被打破；往前看钴（/entry/elements/co/），能看到铁峰之后的元素如何靠超新星而不是静燃烧产生。想把铁峰放回恒星能量学，去读第三代恒星超新星节点；想看重元素如何一代代累积，去读重元素富集节点。铁这一格是元素轴上的分水岭：在它之前，聚变是能源；在它之后，聚变是消耗。
+
+
+## 换一个尺度看它
+
+铁是地核的主要成分，也是钢的基础。地球磁场由外核液态铁的对流产生；血红蛋白靠铁原子结合氧。与碳相比，铁的核聚变到铁峰释放能量，铁之后的元素多需中子俘获或爆炸条件。
+
+## 延伸核对
+
+铁的相变与合金性质是工程用铁的基础；本条的元素数据与钢的冶金性能需要分开引用。[4]

@@ -48,6 +48,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/64/gadolinium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 镧系, 钆]
 rights:
   status: rewritten
@@ -81,3 +85,5 @@ Gd³⁺ 的 4f7 有七个未成对电子，自旋大；半满壳的轨道角动�
 ## 怎么继续走
 
 往前是铕，4f7 半满、二价稳定；往后是铽，5d 电子被收回 4f，构型变成 4f9 6s2。想把 5d 与 4f 的能量竞争看清楚，看电子排布解释页；想弄清 4f 收缩如何累积到镥与铪，看镧系收缩解释页。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

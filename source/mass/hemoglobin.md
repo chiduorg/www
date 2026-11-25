@@ -5,7 +5,7 @@ summary: >-
   成人血红蛋白 HbA 是 α₂β₂ 四聚体，含四条珠蛋白链与四个血红素，总质量约 64,458 Da，合 1.0703×10⁻²² kg。每个红细胞里约有
   2.7 亿个这样的分子。
 dimension: mass
-category: 蛋白质
+category: 生命与人体
 displayValue: '1.07×10⁻²² kg（64,458 Da）'
 quantity:
   value: 1.0703e-22
@@ -19,6 +19,7 @@ related:
   - space.cell
   - elements.c
   - elements.h
+  - mass.red-blood-cell
 reviewStatus: reviewed
 review:
   method: source-check
@@ -47,6 +48,14 @@ sources:
     url: 'https://bionumbers.hms.harvard.edu/'
     publisher: Harvard Medical School
     accessed: '2026-11-09'
+  - title: "PubChem: Water (CID 962)"
+    url: "https://pubchem.ncbi.nlm.nih.gov/"
+    publisher: "National Library of Medicine"
+    accessed: '2026-11-24'
+  - title: "CODATA Recommended Values of the Fundamental Physical Constants"
+    url: "https://physics.nist.gov/cuu/Constants/"
+    publisher: "National Institute of Standards and Technology"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 血红蛋白
@@ -71,6 +80,7 @@ visual:
   color: '#9cc8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Hemoglobin tetramer
 ---
 ## 这个读数是什么
 
@@ -90,6 +100,24 @@ visual:
 
 1.0703×10⁻²² kg 位于 B3 带的上段，比胰岛素单体重约 11 倍，比核糖体轻约 39 倍。一个红细胞含约 2.7 亿个血红蛋白分子，折算成血红蛋白浓度约 330 g/L，这也是血液呈深红色的原因。[3]
 
+## 四聚体的协同结合
+
+血红蛋白的四个亚基不是各自独立工作：一个亚基结合氧后，会改变其余亚基的构象，使它们更容易结合氧，这叫协同效应。四聚体结构因此不只是“四个蛋白放在一起”，而是功能单位。把血红蛋白拆成单体，氧亲和力曲线会改变。[1][S2]
+
+血红蛋白的质量还包括四个血红素辅基；去掉辅基的珠蛋白约 61,990 Da。临床质谱能分辨 HbA、HbS、HbC 等变体，差异只有十几个 Da，因此“血红蛋白质量”必须带变体名称。
+
 ## 怎么继续走
 
 想看更小的肽类激素，去 mass.insulin；想看蛋白质如何在细胞内合成，从 space.cell 进入空间轴；想看碳、氢、氧这些组成元素的原子质量，去 elements.c、elements.h 与 mass.water-molecule。
+
+## 四聚体与协同结合
+
+血红蛋白的四个亚基不是各自独立工作：一个亚基结合氧后，会改变其余亚基的构象，使它们更容易结合氧，这叫协同效应。[1] 四聚体结构因此不只是“四个蛋白放在一起”，而是功能单位。把血红蛋白拆成单体，氧亲和力曲线会改变。
+
+## 五轴对照
+
+在质量轴，血红蛋白约 1.07×10⁻²² 千克；在空间轴，它位于红细胞内；在时间轴，血红蛋白的演化与脊椎动物携氧需求相关；在元素轴，血红素的核心是铁。质量、结构与元素组成共同决定携氧功能。[1][2]
+
+## 延伸核对
+
+补充的来源 [4]（National Library of Medicine）、[5]（National Institute of Standards and Technology） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

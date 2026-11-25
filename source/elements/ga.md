@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/31/gallium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第四周期, p 区, 镓]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往回是锌（/entry/elements/zn/），能看到 3d10 闭合如何结束 d 区；往前是锗（/entry/elements/ge/），4p2 让共价倾向重新抬头。想把 3d10 的屏蔽作用算清楚，去读屏蔽解释页；想把 s 过程与超新星的分工放回时间轴，去读重元素富集节点。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

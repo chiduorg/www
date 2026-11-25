@@ -19,6 +19,7 @@ related:
   - temperature.aluminum-melting
   - temperature.iron-melting
   - temperature.tungsten-melting
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Silicon: element data'

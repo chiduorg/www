@@ -16,6 +16,7 @@ related:
   - space.earth
   - space.himalaya
   - space.nile
+  - time.millisecond
 reviewStatus: reviewed
 sources:
   - title: Gobi
@@ -26,6 +27,10 @@ sources:
     url: 'https://kids.britannica.com/students/article/Gobi/274581'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为蒙古国南部与中国北部的戈壁荒漠与半荒漠区；测量口径为东西向弧形地带的跨度，不是南北宽度、面积、行政边界或某一年的植被边界。
 uncertainty: >-
   Britannica摘要给出约1,000英里（1,609公里），学生版给出约1,600公里；部分地图把戈壁与周边荒漠合并，会得到1,500至1,600公里不等的另一种口径。差异来自边界定义与圆整。
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 1,600公里约为地球平均半径6,371公里的25%，约为长江6,300公里的四分之一。它比撒哈拉的4,800公里东西跨度短约三分之二，说明戈壁在东西方向上只是中等规模。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 5.3 毫秒，在时间轴上量级接近「毫秒」。[3]

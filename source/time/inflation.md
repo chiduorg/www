@@ -23,7 +23,7 @@ reviewStatus: reviewed
 sources:
   - title: The cosmic microwave background and inflation
     url: >-
-      https://www.esa.int/Science_Exploration/Space_Science/Planck/The_cosmic_microwave_background_and_inflation
+      https://sci.esa.int/web/planck/The_cosmic_microwave_background_and_inflation
     publisher: ESA / Planck
     accessed: '2026-11-06'
   - title: Cosmology — Inflation
@@ -32,9 +32,17 @@ sources:
     accessed: '2026-11-06'
   - title: Planck and the cosmic microwave background
     url: >-
-      https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background
+      https://sci.esa.int/web/planck/Planck_and_the_cosmic_microwave_background
     publisher: ESA / Planck
     accessed: '2026-11-06'
+  - title: "Nonperturbative Dynamics of Reheating After Inflation: A Review"
+    url: "https://arxiv.org/abs/1410.3808"
+    publisher: "Amin, Hertzberg, Kaiser & Karouby / International Journal of Modern Physics D"
+    accessed: '2026-11-24'
+  - title: "The early universe"
+    url: "https://home.cern/science/physics/early-universe"
+    publisher: "CERN"
+    accessed: '2026-11-24'
 legacy:
   id: inflation
   icon: "\U0001F388"
@@ -104,3 +112,15 @@ tags:
 ## 与其他阶段的关系
 
 暴胀结束后需要把场能转为粒子，这就是再加热问题；再加热之后才接上电弱、夸克—强子转变与核合成等热历史。[1][2] 它也与普朗克时代、大统一假说相邻，但相邻只表示理论排序，不表示已有连续观测。[2] 阅读时可把“空间暴胀”与“时间坐标”分开：前者解释为何宇宙平坦，后者只是模型给这段时间贴的标签。[1][2]
+
+## 暴胀解决了什么，不解决什么
+
+暴胀图景能解释宇宙为什么接近平坦、为什么微波背景如此均匀，以及为什么没有观测到大量磁单极子。[1][2] 它不能单独解释暴胀为什么开始、为什么结束，也不能把量子起伏的谱指数精确到唯一模型。不同势能模型可以给出相似的 CMB 统计，数据只能约束参数空间，不能直接选出“正确”的暴胀场。
+
+## 五轴对照
+
+在时间轴，暴胀发生在约 10⁻³⁶–10⁻³² 秒；在空间轴，它把微小区域拉伸到宏观尺度；在温度轴，暴胀后的再加热把场能转为粒子，重新点燃热大爆炸；在质量轴，暴胀产生的密度扰动后来长成星系与星系团。四条轴共享同一段早期历史，但各自量的不是同一事件。[1][2]
+
+## 延伸核对
+
+补充的来源 [4]（Amin, Hertzberg, Kaiser & Karouby / International Journal of Modern Physics D）、[5]（CERN） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

@@ -20,6 +20,7 @@ related:
   - time.year
   - time.century
   - time.season
+  - space.local-bubble
 reviewStatus: reviewed
 sources:
   - title: month
@@ -30,6 +31,15 @@ sources:
     url: 'https://www.britannica.com/topic/Gregorian-calendar'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'A concise summary of the International System of Units, SI'
+    url: >-
+      https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-concise-EN.pdf/2fda4656-e236-0fcb-3867-36ca74eea4e3?download=true&version=1.2
+    publisher: International Bureau of Weights and Measures (BIPM)
+    accessed: '2026-11-24'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -53,12 +63,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "chronometer"
-  scene: "time.object"
-  caption: "一个月 · 月相周期与历法月份示意"
-  note: "月相、观测设备与日历元素为风格化示意，非按比例、非观测重建。"
-  variant: "calendar"
-  color: "#9fc1cf"
+  template: chronometer
+  scene: time.object
+  caption: 一个月 · 月相周期与历法月份示意
+  note: 月相、观测设备与日历元素为风格化示意，非按比例、非观测重建。
+  variant: calendar
+  color: '#9fc1cf'
 mode: 时长
 tags:
   - 时长尺度
@@ -83,3 +93,9 @@ tags:
 ## 与其他尺度的关系
 
 十二个平均月构成一个公历平均年，一个月约含 4.348 周；但日历上的月与周无法整除，所以同一日期在不同月份可能落在不同星期。[2] 月是天文周期与历法安排之间的折中：它借用了月亮的名字，却按太阳年分割，阅读时要看清所用的是哪一种定义。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（International Bureau of Weights and Measures (BIPM)）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+按同一真空光速计算，光在这段时间内约走 5270 天文单位，在空间轴上量级接近「本地泡」。[4]

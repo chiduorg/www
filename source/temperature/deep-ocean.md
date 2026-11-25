@@ -16,6 +16,8 @@ related:
   - temperature.water-freezing
   - temperature.permafrost
   - temperature.hydrothermal-vent
+  - space.earth
+  - space.mariana-trench
 reviewStatus: reviewed
 sources:
   - title: What is the “deep” ocean?
@@ -26,6 +28,14 @@ sources:
     url: 'https://oceanservice.noaa.gov/facts/thermocline.html'
     publisher: NOAA National Ocean Service
     accessed: '2026-11-06'
+  - title: "Assessing the Global Climate in 2024"
+    url: "https://www.ncei.noaa.gov/news/global-climate-202413"
+    publisher: "NOAA National Centers for Environmental Information"
+    accessed: '2026-11-24'
+  - title: "State of the Climate in 2024: Global Oceans"
+    url: "https://repository.library.noaa.gov/view/noaa/74386/noaa_74386_DS1.pdf"
+    publisher: "NOAA / American Meteorological Society"
+    accessed: '2026-11-24'
 conditions:
   medium: 液态海水
   measurementSite: 2000 米以下深层水团
@@ -76,3 +86,23 @@ tags:
 ## 与其他温度的关系
 
 约 2 ℃ 高于 water-freezing 的 0 ℃（严格说海水冰点略低），低于 sea-surface 的约 16.9 ℃，也低于 human-body-temperature。它高于 permafrost 的约 −10 ℃，但两者介质不同：一个是液态海水，一个是含冰的土壤。与 hydrothermal-vent 的 350 ℃ 并列，能看出深海背景水与局部热液之间的极端反差。
+
+## 温跃层把表层与深层分开
+
+海表吸收阳光，深层缺少加热；两者之间由温跃层隔开，温度随深度快速下降。[1][2] 温跃层的深度随纬度、季节和洋流变化，不是固定界面。把海洋当成一桶均匀的水，会忽略这个分层结构。
+
+## 五轴对照
+
+在温度轴，深层水约 2–4 ℃；在空间轴，深海压力随深度增加；在质量轴，水团密度驱动温盐环流；在时间轴，深层水更新周期可达数百年。温度、盐度与压力共同决定水团运动。[1][2]
+
+## 温跃层把表层与深层分开
+
+海表吸收阳光，深层缺少加热；两者之间由温跃层隔开，温度随深度快速下降。温跃层深度随纬度、季节和洋流变化，不是固定界面。把海洋当成一桶均匀的水，会忽略这个分层结构。[1][S2]
+
+## 读数的口径与换算
+
+本条采用的量是 约 2 ℃（275 K），口径是 2000 米以下深层海水温度。温度是强度量，读数依赖温标、测点与热平衡；同一对象的不同部位、不同时刻可以有不同温度。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [3]（NOAA National Centers for Environmental Information）、[4]（NOAA / American Meteorological Society） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

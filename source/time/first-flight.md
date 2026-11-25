@@ -17,6 +17,7 @@ related:
   - time.space-age
   - time.electricity-grid
   - time.industrial-revolution
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: The Wright brothers
@@ -27,6 +28,10 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/biography/Wright-brothers'
     accessed: '2026-11-06'
+  - title: Climate and the collection
+    url: 'https://blog.sciencemuseumgroup.org.uk/climate-and-the-collection/'
+    publisher: Science Museum Group
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -82,3 +87,7 @@ tags:
 ## 与其他阶段的关系
 
 首次动力飞行前接蒸汽机、内燃机和工业革命，后接航空运输、两次世界大战中的空军，以及太空时代。飞机把远距离旅行的时间大幅缩短，也让战争扩大到空中。[1][2] 与后来的航天相比，1903年的飞行仍在地球大气层内，依靠螺旋桨和活塞发动机；但它证明动力飞行可行，为更远的活动范围打开了门。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Science Museum Group）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

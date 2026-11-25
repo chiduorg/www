@@ -5,7 +5,8 @@ titleEn: The Earliest Galaxy Merger
 dimension: cosmic-time
 category: 星系与结构
 summary: >-
-  星系并合是早期星系组装的基本方式。韦布在高分辨率近红外图像中看到，最早期星系周围的小星系正在相互作用和并合，这解释了此前难以说明的氢辐射。本条取距今约 125 亿年作导航锚点，具体“最早”记录仍属观测下界与候选。
+  星系并合是早期星系组装的基本方式。韦布在高分辨率近红外图像中看到，最早期星系周围的小星系正在相互作用和并合，这解释了此前难以说明的氢辐射。本条取距今约
+  125 亿年作导航锚点，具体“最早”记录仍属观测下界与候选。
 quantity:
   value: 40930000000000000
   unit: s
@@ -21,7 +22,9 @@ related:
   - space.andromeda-galaxy
 reviewStatus: reviewed
 sources:
-  - title: Webb reveals that galaxy mergers are the solution to early Universe mystery
+  - title: >-
+      Webb reveals that galaxy mergers are the solution to early Universe
+      mystery
     url: 'https://esawebb.org/news/weic2402/'
     publisher: ESA / Webb
     accessed: '2026-11-07'
@@ -29,6 +32,11 @@ sources:
     url: 'https://www.britannica.com/science/galaxy'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: What Did the Young Universe Look Like?
+    url: >-
+      https://webbtelescope.org/contents/articles/what-did-the-young-universe-look-like
+    publisher: NASA / STScI
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -43,14 +51,18 @@ conditions:
   calendarReferenceYear: 2026
   note: 125 亿年是导航锚点，不表示某一次并合恰好发生在这一年。
 uncertainty: >-
-  125 亿年是时间轴锚点，不是单次并合事件的测年。观测只能说明某些系统在当时已经处于并合状态；最早记录受望远镜灵敏度、样本选择和证认方式影响，应视为观测下界或候选。红移与“距今”不是同一口径，后者依赖宇宙学模型换算。
+  125
+  亿年是时间轴锚点，不是单次并合事件的测年。观测只能说明某些系统在当时已经处于并合状态；最早记录受望远镜灵敏度、样本选择和证认方式影响，应视为观测下界或候选。红移与“距今”不是同一口径，后者依赖宇宙学模型换算。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
     - 核对 ESA/Webb 关于早期星系并合的发布，采用韦布看到小暗星系相互作用与并合、并解释异常氢辐射的表述。
     - 核对 Britannica 星系条目，采用并合与吸积参与星系演化的一般表述。
-    - '2026-11-07 来源可访问性核对：https://esawebb.org/news/weic2402/ 返回可用响应；https://www.britannica.com/science/galaxy（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07 来源可访问性核对：https://esawebb.org/news/weic2402/
+      返回可用响应；https://www.britannica.com/science/galaxy（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料重新撰写，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -84,3 +96,7 @@ tags:
 ## 与其他阶段的关系
 
 星系并合上接暗物质晕聚集与早期星系形成，下连星系团组装、宇宙正午和今天的巨型椭圆星系[1][2]。银河系与仙女座星系未来也会并合，说明并合不是只在早期宇宙发生。与星系形成条目相比，这里强调的是两个系统之间的引力重组，而不是单个星系内部的恒星形成。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（NASA / STScI）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

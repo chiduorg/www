@@ -16,6 +16,7 @@ related:
   - time.neoproterozoic
   - time.tonian
   - time.paleoproterozoic
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'Secular trends in the geologic record and the supercontinent cycle'
@@ -26,6 +27,10 @@ sources:
     url: 'https://pubs.usgs.gov/circ/2004/1264/html/trip1/index.html'
     publisher: U.S. Geological Survey
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -77,3 +82,5 @@ USGS 收录的综述把罗迪尼亚的形成归为约 10 亿年前的一系列�
 ## 与其他尺度的关系
 
 罗迪尼亚聚合发生在古元古代之后、新元古代之前，比 24 亿年前的休伦冰期晚约 14 亿年，比 7.5 亿年前的裂解早约 2.5 亿年。[1][2] 它也是托尼亚纪与新元古代早期构造背景的重要组成。10 亿年约为 34.8 亿年最早叠层石锚点的 29%，说明超大陆旋回只覆盖了地球生命史的一部分。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

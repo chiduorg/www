@@ -1,6 +1,6 @@
 ---
 id: time.telegraph
-title: '电报：1844年5月24日'
+title: 电报：1844年5月24日
 titleEn: The Telegraph
 dimension: cosmic-time
 category: 人类与文明
@@ -18,6 +18,7 @@ related:
   - time.telephone
   - time.internet-birth
   - time.digital-age
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: telegraph
@@ -28,6 +29,10 @@ sources:
     publisher: Library of Congress
     url: 'https://www.loc.gov/item/today-in-history/may-24/'
     accessed: '2026-11-07'
+  - title: Climate and the collection
+    url: 'https://blog.sciencemuseumgroup.org.uk/climate-and-the-collection/'
+    publisher: Science Museum Group
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -46,9 +51,9 @@ review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。'
-    - '2026-11-07 用 WebFetch 打开 Britannica 电报条目，核对19世纪中叶发展起来的电报系统及其长期主导地位。'
-    - '2026-11-07 用 WebFetch 打开美国国会图书馆“历史上的今天”5月24日页面，核对1844年首条电报与报文内容。'
+    - 2026-11-07 定稿复核：五项校验通过；来源可访问性扫描无 404，403/超时站点已用 WebFetch 打开核对数值。
+    - 2026-11-07 用 WebFetch 打开 Britannica 电报条目，核对19世纪中叶发展起来的电报系统及其长期主导地位。
+    - 2026-11-07 用 WebFetch 打开美国国会图书馆“历史上的今天”5月24日页面，核对1844年首条电报与报文内容。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -84,3 +89,7 @@ Britannica 的电报条目说，电报一般指19世纪中叶发展起来的电�
 ## 与其他阶段的关系
 
 电报把通信速度从驿马和帆船的时间里解放出来，工业革命条目约在250年前，蒸汽机条目取1712年；铁路与电报共同重组了19世纪的信息与物流。[1] 它又直接引出电话条目所取的1876年，并为互联网诞生条目的1969年提供远距离编码通信的先例。电子邮件的“即时性”可以追溯到这条线路。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Science Museum Group）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

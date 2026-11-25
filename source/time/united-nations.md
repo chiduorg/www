@@ -1,6 +1,6 @@
 ---
 id: time.united-nations
-title: '联合国成立：1945年10月24日宪章生效'
+title: 联合国成立：1945年10月24日宪章生效
 titleEn: Founding of the United Nations
 dimension: cosmic-time
 category: 人类与文明
@@ -18,6 +18,7 @@ related:
   - time.berlin-wall-fall
   - time.covid-pandemic
   - time.present
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: History of the United Nations
@@ -28,6 +29,11 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/topic/United-Nations'
     accessed: '2026-11-07'
+  - title: 80 Years Since the End of World War II
+    url: >-
+      https://visit.archives.gov/whats-on/explore-exhibits/80-years-end-world-war-ii
+    publisher: U.S. National Archives
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -48,7 +54,10 @@ review:
   notes:
     - 核对联合国官方历史页，采用1945年4月25日至6月26日旧金山会议、10月24日宪章生效成立的表述。
     - 核对 Britannica《United Nations》，采用其主要机关、宗旨与国际组织性质。
-    - '2026-11-07 来源可访问性核对：https://www.un.org/en/about-us/history-of-the-un 返回可用响应；https://www.britannica.com/topic/United-Nations（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07 来源可访问性核对：https://www.un.org/en/about-us/history-of-the-un
+      返回可用响应；https://www.britannica.com/topic/United-Nations（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -84,3 +93,7 @@ tags:
 ## 与其他阶段的关系
 
 联合国接在两次世界大战与国际联盟的经验之后，后接冷战、去殖民化、维和行动与全球治理议程。它与柏林墙倒塌后的欧洲重组、当代公共卫生和气候谈判都有联系。[1][2] 在时间轴上，1945年标记的是国际制度的一次重建，而不是世界和平的自动实现。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. National Archives）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

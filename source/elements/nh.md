@@ -44,6 +44,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/113/nihonium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 超重元素, 第七周期, 鉨, 预测值]
 rights:
   status: rewritten
@@ -75,3 +79,5 @@ rights:
 ## 它从哪里来
 
 鉨由重离子轰击合成，一次实验只产生几个原子，靠 α 衰变链的指纹识别。[2] 它挂在核时代节点上，和鎶一样属于人工来源；已知同位素半衰期极短，样品无法积累。[1]
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

@@ -20,6 +20,8 @@ related:
   - temperature.supernova
   - temperature.neutron-star-core
   - temperature.neutron-star-surface
+  - time.first-stars
+  - space.supernova-remnant
 reviewStatus: reviewed
 sources:
   - title: Optical and UV Spectra of a Blue Kilonova From Fast Polar Ejecta
@@ -31,6 +33,10 @@ sources:
       https://www.nasa.gov/image-article/chandra-makes-first-detection-of-x-rays-from-gravitational-wave-source/
     publisher: NASA Chandra X-ray Center
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: kilonova_temp
   icon: "\U0001F4A5"
@@ -100,3 +106,5 @@ Nicholl 等在并合后 1.5 至 9.5 天取得 nightly 光谱，并用哈勃空�
 ## 与其他温区的关系
 
 5,500 K 与超新星光球温度同量级，但远低于核心坍缩超新星的 10¹¹ K 和中子星表面约 2×10⁶ K。它高于宇宙微波背景的 2.725 K，也高于绝对零度，但低于太阳表面 5,772 K 一点。与极超新星相比，千新星的温度更容易用一个明确时刻的光谱拟合来定位，因为它的抛射物更小、演化更快。比较时仍要记住：一个是抛射物光球，另一个是坍缩核心或星面。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

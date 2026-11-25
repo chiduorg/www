@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: '1,250 km（内核半径）'
 related:
+  - mass.earth
+  - temperature.earth-mantle
   - space.earth
   - space.crust
   - space.tectonic-plate
   - space.moon
-  - space.everest
-  - space.atmosphere
 reviewStatus: reviewed
 sources:
   - title: Inside the Earth
@@ -28,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/Earths-core'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为地球内核；测量口径为从地心到内核与外核边界的半径，不是地球半径、内核直径或地表到地心的深度。
 uncertainty: 'USGS给出约1,250公里的圆整厚度，现代地震学模型常给约1,220公里；差异约2%，来自波速模型与界面起伏。内核边界并非光滑球面。'
 review:
@@ -40,13 +44,13 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "sphere"
-  variant: "core"
-  color: "#d9822b"
-  caption: "地球内核半径与地心位置"
-  note: "示意，非按比例，非观测重建；同心圈层、颜色与边界为简化表示，不代表精确地震学剖面。"
-  scene: "space.object"
-  referenceAxis: "x"
+  template: sphere
+  variant: core
+  color: '#d9822b'
+  caption: 地球内核半径与地心位置
+  note: 示意，非按比例，非观测重建；同心圈层、颜色与边界为简化表示，不代表精确地震学剖面。
+  scene: space.object
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -73,3 +77,5 @@ USGS把内核描述为厚约1,250公里的固态球体，这个“厚度”从�
 ## 与其他尺度的关系
 
 1,250公里约为地球平均半径6,371公里的20%，约为月球平均半径1,737公里的72%。与珠峰高程8,848.86米相比，内核半径约为后者的141倍；但它是地球内部半径，不是地表高度。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

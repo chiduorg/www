@@ -4,7 +4,9 @@ title: 中子星并合时代
 titleEn: The Era of Neutron-Star Mergers
 dimension: cosmic-time
 category: 星系与结构
-summary: 双中子星并合是 r 过程最直接的候选场所：极端中子丰度让快中子俘获生成铕、金、铂、铀、钍等重核。2017 年的 GW170817 首次用引力波与电磁波同时证认了这一过程。
+summary: >-
+  双中子星并合是 r 过程最直接的候选场所：极端中子丰度让快中子俘获生成铕、金、铂、铀、钍等重核。2017 年的 GW170817
+  首次用引力波与电磁波同时证认了这一过程。
 quantity:
   value: 15778800000000000
   unit: s
@@ -22,9 +24,11 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与时间换算完整；quantity.value 与 conditions 的 timeBasis/换算公式逐条核对。"
-    - "来源可达性：Britannica 对自动请求返回 403，有头浏览器抽验可读；NASA、IUPAC、LIGO 直接返回 2xx。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指结构与来源口径核对，不是外部同行评审；参考锚点、chronology 与 uncertainty 按正文保留。"
+    - 本轮复核：结构、引用编号与时间换算完整；quantity.value 与 conditions 的 timeBasis/换算公式逐条核对。
+    - >-
+      来源可达性：Britannica 对自动请求返回 403，有头浏览器抽验可读；NASA、IUPAC、LIGO 直接返回
+      2xx。本轮未逐页重读全文，沿用条目既有 accessed 记录。
+    - reviewed 指结构与来源口径核对，不是外部同行评审；参考锚点、chronology 与 uncertainty 按正文保留。
 sources:
   - title: GW170817
     url: 'https://ligo.org/detections/gw170817/'
@@ -34,6 +38,10 @@ sources:
     url: 'https://www.britannica.com/science/r-process'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-09'
+  - title: 'PubChem Element Summary: Europium'
+    url: 'https://pubchem.ncbi.nlm.nih.gov/element/63'
+    publisher: U.S. National Library of Medicine
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -56,7 +64,7 @@ tags:
   - r 过程
 rights:
   status: rewritten
-  note: "依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。"
+  note: 依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。
 ---
 ## 它是什么
 
@@ -77,3 +85,7 @@ rights:
 ## 与其他阶段的关系
 
 中子星并合与 AGB 星的 s 过程互补，共同解释太阳系重元素丰度：s 过程负责锶、钡、铅等，r 过程负责铕、金、铂、铀、钍。[1] 时间轴上，它接在第一批恒星之后，为后续恒星世代与行星系统提供最重的天然核素。元素轴的来源页与锕系元素页都挂在这个节点上。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. National Library of Medicine）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

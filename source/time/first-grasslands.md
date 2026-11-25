@@ -19,6 +19,7 @@ related:
   - time.first-mammals
   - time.mammal-radiation
   - time.first_primates
+  - space.human
 chronology:
   status: reference
   plot: true
@@ -34,6 +35,10 @@ sources:
     url: 'https://home.nps.gov/articles/000/paleogene-period.htm'
     publisher: National Park Service
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -83,3 +88,5 @@ tags:
 ## 与其他阶段的关系
 
 草原扩张与新生代气候变冷、季节性增强、大气二氧化碳变化和哺乳动物演化相互关联。它改变了食草动物的牙齿与消化方式，也为早期人类在人科演化中利用开阔环境提供背景。沿时间轴向前，草原位于被子植物繁盛之后；向后，则连接哺乳动物辐射、冰期旋回和人类历史。它是一条生态系统尺度的坐标，而不是单一物种的出现记录。[1][2]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

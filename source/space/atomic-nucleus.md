@@ -14,9 +14,10 @@ displayValue: 约 10 fm（通用核直径参考）
 related:
   - space.proton
   - space.neutron
-  - space.carbon-nucleus
-  - space.uranium-nucleus
   - space.atom
+  - mass.helium-nucleus
+  - elements.c
+  - temperature.sun-core
 reviewStatus: reviewed
 sources:
   - title: atom
@@ -27,6 +28,14 @@ sources:
     url: 'https://www-nds.iaea.org/radii/'
     publisher: IAEA Nuclear Data Services / Angeli & Marinova
     accessed: '2026-11-06'
+  - title: "2022 CODATA — proton rms charge radius"
+    url: "https://physics.nist.gov/cgi-bin/cuu/Value?rp"
+    publisher: "NIST / CODATA"
+    accessed: '2026-11-24'
+  - title: "PDG Live — neutron listings"
+    url: "https://pdgprod.lbl.gov/pdgprod/pdgLive/Particle.action?init=0&node=S017"
+    publisher: "Particle Data Group"
+    accessed: '2026-11-24'
 conditions: >-
   本页的 10 fm 是人为选取的通用核直径参考，来源只给出轻核约 4 fm、重核约 15
   fm的范围；它不是某一个具体核素的测量值，也不是所有原子核的统一尺寸。比较具体核素时应改用该核素的电荷半径或直径。
@@ -77,3 +86,23 @@ tags:
 ## 与其他尺度的关系
 
 原子核位于核子与原子之间：单个核子约 1 飞米，原子核直径约几到十几飞米，原子半径约 0.1 纳米。[1] 这条尺度轴上，核只占原子极小部分，却集中了几乎全部质量。继续阅读质子、中子、碳核与铀核，可把“通用量级”替换成具体核素的口径。
+
+## 电荷半径与物质半径
+
+核半径常被画成一个球，但实验给出的通常是电荷半径：质子分布的中途密度位置，或均方根半径。物质半径还包含中子分布，重核的中子皮可能比质子分布更外扩。[2] 同一个核用不同观测量会得到不同半径，不能只写一个“核直径”。本页的 10 飞米是通用量级，不是某个核素的实测值。
+
+## 为什么没有统一直径
+
+从氢核到铅核，核子数增加，半径大致按 A¹ᐟ³ 增长，但系数依核素与测量口径而变。[1][2] 轻核与重核不能共用一个精确直径；用电子散射、缪子谱和光学同位素移位得到的结果也需要分别标注。把“原子核大小”写成一个数，只是入门阶段的方便说法。
+
+## 五轴对照
+
+在空间轴，核在几飞米；在质量轴，核子质量几乎撑起整个原子质量；在温度轴，恒星核心的聚变温度决定核能否结合；在时间轴，核合成发生在宇宙早期。四条轴共用“核”这个对象，但各自量的不是同一个属性。[1][2]
+
+## 电荷半径与物质半径
+
+原子核的“半径”至少有两套口径：电荷半径由电子散射或原子光谱给出，描述质子分布的均方根；物质半径由核力分布或高能散射推断，通常略大。铅-208 的电荷半径约 5.5 费米，物质半径会因中子皮而不同。正文若只写一个“核半径”，必须说明是哪一种，否则不同实验的数值无法直接比较。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（NIST / CODATA）、[4]（Particle Data Group） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

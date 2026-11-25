@@ -18,6 +18,7 @@ related:
   - space.nacl-crystal
   - space.diamond-unit-cell
   - space.olivine
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: Magnetite
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.mindat.org/min-2538.html'
     publisher: Hudson Institute of Mineralogy / Mindat
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取常温常压下的磁铁矿 Fd3m 立方晶胞，量晶胞边长 a；一个晶胞含 8 个 Fe₃O₄ 式量。
   该值不是 Fe—O 键长、不是最近邻距离，也不是磁铁矿颗粒或磁畴的尺寸。
@@ -77,3 +82,7 @@ conceptGroup: crystal
 ## 与其他尺度的关系
 
 0.839 nm 约为 NaCl 晶格常数 0.564 nm 的 1.5 倍，约为金刚石晶胞 0.357 nm 的 2.35 倍。[1][2] 它比苯环大 3 倍，却仍远小于一个磁畴。与石英 a 轴 0.491 nm 相比，磁铁矿边长约为其 1.7 倍；与云母 c 轴 2.0 nm 相比则不到一半。[1][2] 继续阅读晶格间距、NaCl 晶体与金刚石晶胞，可比较简单立方、岩盐与尖晶石结构。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.8e-9 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

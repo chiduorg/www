@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/89/actinium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第七周期, 锕系, 锕]
 rights:
   status: rewritten
@@ -70,3 +74,5 @@ rights:
 ## 它从哪里来
 
 来源记作“天然衰变链（铀-235 系）”。[2] 锕在自然界只是铀-235 衰变链上的中间核，母核持续衰变才补给；它没有稳定同位素，不存在独立的地质库存。铀-235 本身来自更早的 r 过程，因此锕的最终来源仍可追到快中子俘获，相关页面是 r 过程来源。供给的时间尺度则看母核半衰期，铀-238 半衰期节点提供同类时钟的参照。[1]
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

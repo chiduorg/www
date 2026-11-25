@@ -18,6 +18,7 @@ related:
   - temperature.silver-melting
   - temperature.steelmaking_temp
   - temperature.tungsten-melting
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Nickel: element data'
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.webelements.com/nickel/'
     publisher: WebElements
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: nickel-melting
   icon: "\U0001F9B2"
@@ -88,3 +93,5 @@ tags:
 ## 与其他温区的关系
 
 1,728 K 比铜的 1,357.77 K 高约 370 K，比银的 1,234.93 K 高约 493 K，却比铁的约 1,811 K 低约 83 K。[1] 它远低于钨的约 3,695 K。镍因此位于铜基材料与铁基材料之间，是理解不锈钢和镍基合金熔炼温度的一个中间参照，但不能替代具体牌号的数据。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

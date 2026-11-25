@@ -29,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/leaf-plant-anatomy'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 量叶片（叶身）的最大长度，不含叶柄；以糖槭Acer saccharum的叶身5–11 cm为参照，取中位8 cm，不是全部树叶的定值。
 uncertainty: 树叶大小因物种、年龄、光照和位置差异极大；5–11 cm只是糖槭叶身的范围，8 cm为该范围的中位取整。针叶、棕榈叶、复叶的小叶和巨型叶都不适用这一参照。
 review:
@@ -73,3 +77,5 @@ tags:
 ## 与其他尺度的关系
 
 8厘米的叶身约为菜豆种子的六到七倍，接近人手长度的一半，远小于向日葵花盘的直径。[1][2] 在尺度轴上，树叶位于厘米级物体的中段：向上可比较手掌、书本和球类，向下可落到种子、花粉与细胞。它也是“同一类物体内部差异很大”的好例子，提醒读者不要用一个数字覆盖整个类别。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

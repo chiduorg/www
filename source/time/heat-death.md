@@ -27,11 +27,12 @@ uncertainty: >-
   这是理论量级，不是观测日程。10^100年来自黑洞蒸发完毕、宇宙趋向同一温度与最大熵的模型外推；
   若暗能量行为、质子稳定性或量子引力修正不同，时标会改变。热死亡是渐近状态， 并没有一个可观测的“发生瞬间”。[1][2]
 related:
+  - space.earth
+  - mass.earth
   - time.heat-death-time
   - time.proton-decay-era
   - time.black-hole-era
   - time.last-stars
-  - time.dark-energy-domination
 reviewStatus: reviewed
 sources:
   - title: 'Lecture 47: Death in the Universe'
@@ -44,6 +45,10 @@ sources:
     url: 'https://arxiv.org/abs/astro-ph/9701131'
     publisher: arXiv / Reviews of Modern Physics
     accessed: '2026-11-06'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 review:
   method: source-check
   date: '2026-11-06'
@@ -55,11 +60,11 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "future-arc"
-  scene: "time.object"
-  caption: "热死亡 · 宇宙大尺度结构的远期示意"
-  note: "星系、纤维与背景辐射为风格化示意，非按比例、非观测重建；颜色、光线与尺寸独立归一化，不能作为时间比例尺。"
-  color: "#8aa8c4"
+  template: future-arc
+  scene: time.object
+  caption: 热死亡 · 宇宙大尺度结构的远期示意
+  note: 星系、纤维与背景辐射为风格化示意，非按比例、非观测重建；颜色、光线与尺寸独立归一化，不能作为时间比例尺。
+  color: '#8aa8c4'
 mode: 未来
 tags:
   - 现在与未来
@@ -85,3 +90,5 @@ tags:
 ## 与其他尺度的关系
 
 热死亡位于宇宙时间轴的最远端，上接最后一代恒星、质子衰变时代和黑洞时代，下接无法再定义过程的平衡态。[1][2] 与“热死亡时间”条目相比，这一条记录的是未来时点，而不是持续时长；两者数值接近，但口径不同。把它写成模型推断而非未来日程，才能避免把理论量级误当成已排定的宇宙终结日期。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

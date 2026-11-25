@@ -18,6 +18,7 @@ related:
   - time.permian-triassic-extinction
   - time.first-reptiles
   - time.first_seed_plants
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/Permian-Period'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Triassic Period
+    url: 'https://www.nps.gov/articles/000/triassic-period.htm'
+    publisher: U.S. National Park Service
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -78,3 +83,7 @@ tags:
 ## 与其他阶段的关系
 
 二叠纪承接石炭纪的沼泽森林与冰期，结束于地球史上规模最大的灭绝之一。它的起点与石炭纪终点相接，终点则与三叠纪起点重合；这些界线是同一层位在不同层级上的称呼，而不是彼此独立的事件。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. National Park Service）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

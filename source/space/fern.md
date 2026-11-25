@@ -17,6 +17,7 @@ related:
   - space.oak-tree
   - space.leaf
   - space.bamboo
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: fern
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.ars.usda.gov/pacific-west-area/logan-ut/poisonous-plant-research/docs/western-bracken-fern-pteridium-aquilinum/'
     publisher: U.S. Department of Agriculture, Agricultural Research Service
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   株高指从地面到最高叶片顶端的垂直距离；本条以温带常见蕨类（欧洲蕨）为参照，不包括树蕨10–25 m的高度、叶片沿地面伸展的长度、叶尖到叶基的叶长或根状茎范围。
 uncertainty: >-
@@ -76,3 +81,7 @@ Britannica的fern条目说明蕨类在大小上从仅1–1.2厘米高的微小�
 ## 与其他尺度的关系
 
 1米约为0.59个1.7米高的人，约为10个0.1米菌盖的直径首尾相接，也约为橡树25米高度的二十五分之一。[1][2] 在尺度轴上，蕨类处在“米级生物”的下端：向上是灌木、橡树和巨杉，向下是蘑菇菌盖、叶片、细菌和病毒。它把“一米”这个日常高度与植物株型联系起来。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]

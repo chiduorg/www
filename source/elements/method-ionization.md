@@ -13,19 +13,23 @@ quantity:
   approximate: false
 displayValue: 方法页 · 不参与 Z 排序
 related:
+  - space.atom
+  - mass.proton
   - elements.explain-configuration
   - elements.explain-shielding
   - elements.he
   - elements.fr
-  - elements.method-radius
 reviewStatus: reviewed
 review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与主题口径完整；本条为解释/方法/来源页，不参与 Z 排序，不对应单一原子序数。"
-    - "来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验 Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。"
+    - 本轮复核：结构、引用编号与主题口径完整；本条为解释/方法/来源页，不参与 Z 排序，不对应单一原子序数。
+    - >-
+      来源可达性：所列 PubChem/RSC/Britannica 页面在自动请求下返回 Cloudflare/reCAPTCHA 挑战；有头浏览器抽验
+      Britannica 条目页可正常打开并显示对应主题，RSC 周期表页面可加载但元素数据需页面交互。本轮未逐页重读全文，沿用条目既有
+      accessed 记录。
+    - reviewed 指本轮结构与来源口径核对，不是外部同行评审；科学边界与图景说明仍按正文保留。
 sources:
   - title: ionization energy
     url: 'https://www.britannica.com/science/ionization-energy'
@@ -35,6 +39,10 @@ sources:
     url: 'https://physics.nist.gov/asd'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 conditions: 方法页；元素页的电离能一律为气态孤立原子口径，单位为 eV。
 visual:
   scene: elements.explain
@@ -46,7 +54,7 @@ tags:
   - 光谱
 rights:
   status: rewritten
-  note: "依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。"
+  note: 依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。
 ---
 ## 它是什么
 
@@ -67,3 +75,5 @@ rights:
 ## 与其他阶段的关系
 
 元素页的“第一电离能差值”是判断新增电子进入哪个亚层、屏蔽是否变化的重要线索。[1] 它和原子半径、电负性一起，构成“相对 Z−1”的三组数值证据。方法页的作用是说明这些数字从哪来、能比到什么程度：没有口径说明的电离能，只是一串看起来精确的数。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

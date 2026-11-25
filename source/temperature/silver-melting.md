@@ -17,6 +17,7 @@ related:
   - temperature.copper-melting-point
   - temperature.aluminum-melting
   - temperature.lead-melting-point
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: The Kelvin and Temperature Measurements
@@ -27,6 +28,10 @@ sources:
     url: 'https://periodic-table.rsc.org/element/47/silver'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: silver-melting
   icon: "\U0001F948"
@@ -85,3 +90,5 @@ tags:
 ## 与其他温区的关系
 
 1,234.93 K 比铝的 933.473 K 高约 301.5 K，比金的 1,337.33 K 低约 102.4 K，比铜的 1,357.77 K 低约 122.8 K。[1][2] 它高于铅的 600.612 K，也高于水的沸点 373.15 K。银正好位于轻金属固定点与贵金属固定点之间，是温标序列中连接铝、金、铜的一个中间参照。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

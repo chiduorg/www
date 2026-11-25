@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 446 km（沿河峡谷长度）
 related:
+  - temperature.earth-mantle
+  - time.earth-age
   - space.earth
   - space.everest
   - space.himalaya
   - space.tectonic-plate
-  - space.crust
 reviewStatus: reviewed
 sources:
   - title: Geologic Formations
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/place/Grand-Canyon'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为美国亚利桑那州科罗拉多大峡谷主要河段；测量口径为沿科罗拉多河弯曲路径的峡谷长度，不是两端直线距离、峡谷宽度或谷缘至谷底的深度。
 uncertainty: 长度取决于起止点与沿河路径；公开值常以277英里圆整，换算约446公里。不同峡谷边界定义会改变长度，宽度和深度又是另外的量。
 review:
@@ -39,13 +44,13 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "terrain"
-  variant: "canyon"
-  color: "#b06a3f"
-  caption: "沿科罗拉多河弯曲的峡谷长度"
-  note: "示意，非按比例，非观测重建；峡谷轮廓、岩层与河道弯曲为简化表示，不代表精确地形测量。"
-  scene: "space.object"
-  referenceAxis: "x"
+  template: terrain
+  variant: canyon
+  color: '#b06a3f'
+  caption: 沿科罗拉多河弯曲的峡谷长度
+  note: 示意，非按比例，非观测重建；峡谷轮廓、岩层与河道弯曲为简化表示，不代表精确地形测量。
+  scene: space.object
+  referenceAxis: x
   framePadding: 0.3
 measureType: 尺寸
 tags:
@@ -72,3 +77,5 @@ tags:
 ## 与其他尺度的关系
 
 446公里约为珠峰高程8,848.86米的50倍，约为地球平均半径6,371公里的7%。与30公里的大陆地壳平均厚度相比，峡谷长度约是它的15倍；但峡谷深度只有1.8公里，仍远小于地壳厚度。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

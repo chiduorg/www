@@ -20,6 +20,7 @@ related:
   - time.year
   - time.galactic-year
   - time.civilization-duration
+  - space.galactic-center
 reviewStatus: reviewed
 sources:
   - title: How Do You Measure a Second?
@@ -35,6 +36,10 @@ sources:
       https://metanorma.github.io/bipm-si-brochure/si-brochure-3.01/BIPM%20SI%20Brochure%209e%20v3_01%20(2019_2024,%20E)/_21bd452c-81e1-620e-9c5d-a5156d5ca0e8_si-brochure-en/
     publisher: International Bureau of Weights and Measures (BIPM)
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -87,3 +92,5 @@ tags:
 ## 与其他尺度的关系
 
 10¹² 秒约 3.17 万年，是 10⁹ 秒（31.69 年）的 1000 倍，是 10¹⁵ 秒（约 3169 万年）的千分之一，也是 10¹⁸ 秒（约 316.9 亿年）的百万分之一。它比银河年约 2.3 亿年短两个数量级，也比物种寿命的常用下限 100 万年短得多[2]。它约为人类寿命 73 年的 434 倍，也约为文明五千年记录的 6.3 倍；与物种寿命的 100 万年下限相比，仍短约 31.5 倍。
+
+按同一真空光速计算，光在这段时间内约走 31.7 千光年，在空间轴上量级接近「银河系中心」。[4]

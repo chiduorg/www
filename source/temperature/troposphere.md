@@ -30,6 +30,10 @@ sources:
     url: 'https://scied.ucar.edu/learning-zone/atmosphere/troposphere'
     publisher: UCAR Center for Science Education
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 大气中的氮氧混合气体
   height: 地面至约 10 km；赤道可达约 20 km，极地冬季可低至约 7 km
@@ -79,3 +83,5 @@ tags:
 ## 与其他温区的关系
 
 255 K 低于水的冰点 273.15 K，也低于人类舒适室温的约 295 K，却高于平流层的约 220 K 和中间层的约 190 K。它比同温层的稀薄气体温度低得多，但那些高层大气密度极低，传热能力与对流层完全不同。对流层顶的 216 K 常被当作对流层与平流层的分界参考；再往上，平流层因臭氧吸收紫外线而重新升温。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

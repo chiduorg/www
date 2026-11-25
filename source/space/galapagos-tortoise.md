@@ -13,12 +13,12 @@ quantity:
   approximate: true
 displayValue: 约 1.2 m（背甲长参照）
 related:
+  - time.atomic-transition
   - space.komodo-dragon
   - space.elephant
   - space.human
   - space.cat
   - space.mushroom
-  - space.green-sea-turtle
 reviewStatus: reviewed
 sources:
   - title: Galápagos tortoise
@@ -29,6 +29,10 @@ sources:
     url: 'https://www.tokyo-zoo.net/en/ueno/encyclopedia/galapagos-tortoise/index.html'
     publisher: Ueno Zoological Gardens, Tokyo Zoological Park Society
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为加拉帕戈斯象龟（Chelonoidis niger）；量沿背甲中线的直线长度，不是体高、体重、壳面弧长或含颈伸出的总长；1.2 m取在常见成体壳长1–1.3 m的中上部。
 uncertainty: >-
@@ -77,3 +81,7 @@ Britannica的加拉帕戈斯象龟条目说，这类巨龟的壳长可超过1米
 ## 与其他尺度的关系
 
 1.2米约为0.7个1.7米高的人，约为3米科莫多巨蜥全长的五分之二，是0.48米猫体长的2.5倍，也是0.1米蜂鸟体长的12倍。[1][2] 在尺度轴上，它处在“一米级”动物的上端：向上是人和鳄，向下是猫、蜂鸟和蘑菇。用背甲直线长度，才能把它与用站立高、翼展描述的动物区分开。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

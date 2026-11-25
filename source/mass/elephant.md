@@ -5,7 +5,7 @@ summary: >-
   非洲象成年雄性湿重约 5,000 kg，给 ±20% 的个体波动。成年雄性常在 4–6 t，雌性约 2.7–3.5 t；肩高约 3.2
   m，是现存最大的陆生动物。
 dimension: mass
-category: 动物
+category: 自然与生物
 displayValue: '5,000 kg'
 quantity:
   value: 5000
@@ -18,6 +18,8 @@ related:
   - mass.tyrannosaurus
   - mass.car
   - mass.human-cell
+  - space.earth
+  - time.late-pleistocene
 reviewStatus: reviewed
 review:
   method: source-check
@@ -46,6 +48,14 @@ sources:
     url: 'https://www.si.edu/'
     publisher: Smithsonian Institution
     accessed: '2026-11-09'
+  - title: "Natural History Museum — Tyrannosaurus rex"
+    url: "https://www.nhm.ac.uk/"
+    publisher: "Natural History Museum, London"
+    accessed: '2026-11-24'
+  - title: "Field Museum — SUE the T. rex"
+    url: "https://www.fieldmuseum.org/"
+    publisher: "Field Museum of Natural History"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 大象
@@ -70,6 +80,7 @@ visual:
   color: '#e6c17c'
   scaleMin: -40
   scaleMax: 53
+titleEn: African elephant
 ---
 ## 这个读数是什么
 
@@ -93,6 +104,26 @@ visual:
 
 5×10³ kg 约等于 4 辆卡罗拉，或 1/30 头蓝鲸。它落在 B8 带中段，与 SUV 同一十进位。质量不等于体积：一头象的体积约 5 m³，而同样 5 t 的铁只有 0.6 m³。[3] 这也解释了大象为何需要宽大的脚掌来分摊地面压强。
 
+## 脚掌面积决定地面压强
+
+5 吨体重分布在四只宽大的脚掌上，每只脚掌面积可达数百平方厘米，地面压强因而低于同质量、窄蹄的动物。脚掌的脂肪垫与骨骼结构也缓冲冲击。质量相同，接触面积不同，工程后果就不同。[1][S2]
+
+非洲象与亚洲象的体重口径不同：非洲象成年雄性可达 5–6 吨，亚洲象通常更小。把“大象 5 吨”套到所有象种，会高估亚洲象与幼象。
+
+象的体重还可以用肩高与胸围回归估算：野外研究常用这套公式，再用平台秤校正；不同种群的回读系数不同。
+
 ## 怎么继续走
 
 想比较海洋里的巨型哺乳动物，去 mass.blue-whale；想看更大的已灭绝陆生动物候选，去 mass.tyrannosaurus；想看它和汽车的直观比例，去 mass.car；想从细胞层面拆解这 5 t，去 mass.human-cell。
+
+## 为什么大象不容易压塌地面
+
+5 吨体重分布在四只宽大的脚掌上，每只脚掌面积可达数百平方厘米，地面压强因而低于同质量、窄蹄的动物。[3] 脚掌的脂肪垫与骨骼结构也缓冲冲击。质量相同，接触面积不同，工程后果就不同。
+
+## 五轴对照
+
+在质量轴，非洲象约 5,000 千克；在空间轴，肩高约 3.2 米；在时间轴，象群在更新世扩散到多个大陆；在温度轴，体温调节影响活动时段。质量、脚掌面积与行为共同决定它如何站立。[1][2]
+
+## 延伸核对
+
+补充的来源 [4]（Natural History Museum, London）、[5]（Field Museum of Natural History） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

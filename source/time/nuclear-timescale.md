@@ -41,6 +41,10 @@ sources:
     url: 'https://www.britannica.com/science/strong-force'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Nuclear Charge Radii
+    url: 'https://www-nds.iaea.org/radii/'
+    publisher: IAEA Nuclear Data Services / Angeli & Marinova
+    accessed: '2026-11-24'
 review:
   method: source-check
   date: '2026-11-06'
@@ -84,3 +88,7 @@ tags:
 ## 与其他尺度的关系
 
 10⁻²³秒比原子跃迁寿命（约10⁻⁸秒）短一千万亿倍，比一次心跳短约10²³倍。它是已知物理过程中最快的特征时间之一，向上连接到夸克—胶子等离子体的微秒级热史，向下则接近普朗克时间的极限边界。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（IAEA Nuclear Data Services / Angeli & Marinova）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

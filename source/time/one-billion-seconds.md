@@ -20,6 +20,7 @@ related:
   - time.human-lifespan
   - time.species-lifetime
   - time.one-trillion-seconds
+  - space.orion-nebula
 reviewStatus: reviewed
 sources:
   - title: How Do You Measure a Second?
@@ -35,6 +36,10 @@ sources:
       https://metanorma.github.io/bipm-si-brochure/si-brochure-3.01/BIPM%20SI%20Brochure%209e%20v3_01%20(2019_2024,%20E)/_21bd452c-81e1-620e-9c5d-a5156d5ca0e8_si-brochure-en/
     publisher: International Bureau of Weights and Measures (BIPM)
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -87,3 +92,5 @@ tags:
 ## 与其他尺度的关系
 
 10⁹ 秒约 31.69 年；10¹² 秒是它的 1000 倍，约 3.17 万年；10¹⁵ 秒再乘 1000，约 3169 万年；10¹⁸ 秒约 316.9 亿年。四个数只是同一把尺子上相邻的三个“千倍台阶”。与人生尺度相比，10⁹ 秒尚不足半代人；与物种寿命的常用下限 100 万年相比，它只占约三百分之一；与地球年龄约 45.4 亿年相比，则不足百万分之一[1][2]。它约为人类寿命 73 年的 43%，也就是说，一个人一生大约能经历 2.3 个十亿秒；这些倍数只是尺度对照，不代表任何因果联系。
+
+按同一真空光速计算，光在这段时间内约走 31.7 光年，在空间轴上量级接近「猎户座大星云」。[4]

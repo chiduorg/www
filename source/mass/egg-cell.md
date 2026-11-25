@@ -5,7 +5,7 @@ summary: >-
   单个成熟人类卵母细胞（不含透明带与放射冠）的湿重均值约 9.0×10⁻¹⁰ kg（0.9 µg），直径约 120 µm。干重约为湿重的
   20–30%，个体与成熟阶段差异使不确定度约 ±20%。
 dimension: mass
-category: 生殖细胞
+category: 生命与人体
 displayValue: 9.0×10⁻¹⁰ kg
 quantity:
   value: 9.e-10
@@ -71,6 +71,7 @@ visual:
   color: '#b48cff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Human egg cell
 ---
 ## 这个读数是什么
 

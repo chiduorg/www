@@ -5,8 +5,8 @@ titleEn: Asymptotic giant branch effective temperature
 dimension: temperature
 category: 恒星与宇宙极端
 summary: >-
-  渐近巨星支是中等质量恒星演化的晚期阶段，外层包层膨胀变冷，光球有效温度通常处在约 3,000 K 或更低的温区。
-  这一量级描述的是冷包层，不是接近 10⁸ K 的核心氦燃烧温度，也不是单颗天体的精确测量。
+  渐近巨星支是中等质量恒星演化的晚期阶段，外层包层膨胀变冷，光球有效温度通常处在约 3,000 K 或更低的温区。 这一量级描述的是冷包层，不是接近 10⁸
+  K 的核心氦燃烧温度，也不是单颗天体的精确测量。
 quantity:
   value: 3000
   unit: K
@@ -19,23 +19,34 @@ related:
   - temperature.betelgeuse-surface
   - temperature.planetary-nebula
   - temperature.white-dwarf-surface
+  - time.first-stars
+  - space.supernova-remnant
 reviewStatus: reviewed
 sources:
-  - title: Characterizing AGB Stars in Wide-field Infrared Survey Explorer (WISE) Bands
-    url: 'https://www.aanda.org/articles/aa/full_html/2014/04/aa22818-13/aa22818-13.html'
+  - title: >-
+      Characterizing AGB Stars in Wide-field Infrared Survey Explorer (WISE)
+      Bands
+    url: >-
+      https://www.aanda.org/articles/aa/full_html/2014/04/aa22818-13/aa22818-13.html
     publisher: 'J. Lian et al., Astronomy & Astrophysics 564, A84 (2014)'
     accessed: '2026-11-07'
-  - title: 'Basic Properties and Variability (The M-Type Stars)'
+  - title: Basic Properties and Variability (The M-Type Stars)
     url: 'https://ntrs.nasa.gov/citations/19880002211'
     publisher: 'F. R. Querci, NASA Technical Reports Server'
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为渐近巨星支恒星的外层光球；约 3,000 K 是接近冷端上界的量级参考，许多 AGB 星的有效温度低于 3,000 K。
   碳氧比、脉动、尘埃遮蔽和观测波段会改变拟合值；它不是核心温度，也不表示整颗星均匀冷却。
 review:
   method: source-check
   date: '2026-11-07'
-  retry: '2026-11-07 复核（verified）：A&A 564 A84 全文可读，明确给出 AGB 有效温度低于 3000 K；NTRS 19880002211 引用页可读，摘要未列温区（5000 K 至 2000 K 需查该书 PDF），未替换来源。'
+  retry: >-
+    2026-11-07 复核（verified）：A&A 564 A84 全文可读，明确给出 AGB 有效温度低于 3000 K；NTRS
+    19880002211 引用页可读，摘要未列温区（5000 K 至 2000 K 需查该书 PDF），未替换来源。
   notes:
     - '核对 A&A 564, A84：AGB 星具有较低的表面有效温度，通常低于 3,000 K，并伴随强烈质量损失。'
     - '核对 NASA NTRS 19880002211：红巨星 M、S、C 星的光球温度可从约 5,000 K 延伸到低于 2,000 K。'
@@ -44,8 +55,8 @@ rights:
   status: rewritten
   note: 依据所列资料重新撰写，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 uncertainty: >-
-  3,000 K 是量级参考，不是所有 AGB 星的定义温度；A&A 资料给出的趋势是“低于 3,000 K”，NASA 综述则给出约
-  5,000 K 到低于 2,000 K 的更宽范围。恒星质量、演化阶段、尘埃和脉动都会造成差异，核心温度也不能由光球温度外推。
+  3,000 K 是量级参考，不是所有 AGB 星的定义温度；A&A 资料给出的趋势是“低于 3,000 K”，NASA 综述则给出约 5,000 K 到低于
+  2,000 K 的更宽范围。恒星质量、演化阶段、尘埃和脉动都会造成差异，核心温度也不能由光球温度外推。
 visual:
   template: stellar-atmosphere
   profile: photosphere
@@ -82,3 +93,5 @@ tags:
 ## 与其他温区的关系
 
 3,000 K 低于太阳表面的约 5,772 K，也低于参宿四的约 3,600 K；它与红矮星和褐矮星的温区有部分重叠，但半径和演化阶段完全不同。它远低于红巨星核心的约 10⁸ K，也低于行星状星云中心星的更高温区。比较时必须同时说明对象是包层光球还是核心。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

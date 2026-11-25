@@ -18,6 +18,7 @@ related:
   - temperature.methane-boiling
   - temperature.dry-ice-sublimation
   - temperature.liquid-hydrogen
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: 'Ammonia, anhydrous: physical and chemical properties'
@@ -28,6 +29,10 @@ sources:
     url: 'https://webbook.nist.gov/cgi/cbook.cgi?ID=C7664417&Mask=4'
     publisher: NIST Chemistry WebBook
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: ammonia_boiling
   icon: "\U0001F4A8"
@@ -85,3 +90,5 @@ tags:
 ## 与其他温区的关系
 
 239.8 K 低于水的 373.15 K 沸点，高于干冰的 194.7 K 升华点，也高于液氮的 77.4 K。它和甲烷 111.7 K、乙醇约 351 K 等常压沸点一起，展示了分子间作用力对相变温度的影响。这些数值都采用 1 atm 口径，若换成其他压力，彼此的相对顺序也可能改变。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

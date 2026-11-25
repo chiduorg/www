@@ -17,6 +17,7 @@ related:
   - space.honeybee
   - space.cicada
   - space.dragonfly
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: cecropia moth
@@ -27,6 +28,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Hyalophora_cecropia/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为天蚕蛾科（Saturniidae）成虫，以北美天蚕蛾（Hyalophora cecropia）为参照；翼展为两前翅向两侧展开后左右翅尖之间的最大直线距离，不是体长、翅面积或幼虫长度；15 cm 取在该种 110–180 mm 范围的中上段。
 uncertainty: >-
@@ -73,3 +78,7 @@ Britannica 的 cecropia moth 条目写明，北美天蚕蛾的翼展可达约 15
 ## 与其他尺度的关系
 
 15 厘米约等于蜻蜓翼展 15 厘米，约为帝王蝶翼展 95 毫米的 1.6 倍，约为蝉含翅体长 5 厘米的三倍，也约为成人手长 20 厘米的 0.75 倍。[1][2] 在尺度轴上，天蚕蛾翼展处在“十厘米级”的上沿：向下是蝴蝶、蜜蜂和米粒，向上是手掌、铅笔和球类。用翼展记录，才符合观察大型蛾类的习惯。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.50 纳秒，在时间轴上量级接近「纳秒」。[3]

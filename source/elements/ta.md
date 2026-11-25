@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/73/tantalum'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第六周期, 5d 区, 钽]
 rights:
   status: rewritten
@@ -74,3 +78,5 @@ rights:
 ## 怎么继续走
 
 往前是铪，5d2 6s2 的高对称构型与钽的 5d3 只差一颗电子；往后是钨，5d 继续填到 5d4。若想弄清 4f14 为什么屏蔽不足、5d 与 6s 为什么交错，可以去看构型解释页与镧系收缩解释页。钽这一页的关键词是继续填 5d，而不是重排。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

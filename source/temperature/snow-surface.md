@@ -5,8 +5,8 @@ titleEn: Snow surface temperature reference
 dimension: temperature
 category: 低温
 summary: >-
-  273.15 K（0 ℃）是常压下冰水平衡的相变参考，常被用来描述雪面接近融点的状态。
-  它不是所有雪的实际温度：干雪表面可以远低于 0 ℃，雪面温度也不等于气温或雪层内部温度。
+  273.15 K（0 ℃）是常压下冰水平衡的相变参考，常被用来描述雪面接近融点的状态。 它不是所有雪的实际温度：干雪表面可以远低于 0
+  ℃，雪面温度也不等于气温或雪层内部温度。
 quantity:
   value: 273.15
   unit: K
@@ -15,12 +15,12 @@ quantity:
   measureLabel: 雪面冰水相变参考温度
 displayValue: 273.15 K（0 ℃，相变参考）
 related:
+  - space.antarctic-ice-thickness
+  - mass.water-molecule
   - temperature.water-freezing
   - temperature.lake-freezing
   - temperature.sea-ice
   - temperature.glacier-ice
-  - temperature.plant-frost
-  - temperature.permafrost
 reviewStatus: reviewed
 sources:
   - title: Snow
@@ -32,6 +32,10 @@ sources:
       https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes
     publisher: NIST Special Publication 811
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 由冰晶组成的积雪表层
   location: 雪面或新雪表层
@@ -44,14 +48,15 @@ review:
     - NSIDC 的雪条目说明雪是水汽在 0 ℃ 以下凝华形成的冰晶降水，雪本身可归为冰。
     - NIST 的 SI 指南给出摄氏温度定义 t = T − 273.15 K，因此 0 ℃ 对应 273.15 K。
     - 正文把 273.15 K 当作冰水相变参考，而不是所有雪面的实测温度，并区分雪面、气温与雪层内部。
-    - '2026-11-07 来源可访问性核对：全部来源页返回可用响应（https://nsidc.org/learn/parts-cryosphere/snow；https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes），数值口径与正文一致。'
+    - >-
+      2026-11-07
+      来源可访问性核对：全部来源页返回可用响应（https://nsidc.org/learn/parts-cryosphere/snow；https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes），数值口径与正文一致。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 uncertainty: >-
-  273.15 K 是纯水在标准大气压附近冰水平衡的相变参考，不是所有积雪表面的实际温度。
-  干雪表面可因辐射冷却远低于 0 ℃，湿雪则可能接近或略高于 0 ℃；含盐或含杂质的雪会改变融点。
-  雪面温度还随日照、风速、雪层厚度和下垫面变化，不能用一个相变点代替具体测量。
+  273.15 K 是纯水在标准大气压附近冰水平衡的相变参考，不是所有积雪表面的实际温度。 干雪表面可因辐射冷却远低于 0 ℃，湿雪则可能接近或略高于 0
+  ℃；含盐或含杂质的雪会改变融点。 雪面温度还随日照、风速、雪层厚度和下垫面变化，不能用一个相变点代替具体测量。
 visual:
   template: cryo-instrument
   profile: snow
@@ -87,3 +92,5 @@ NSIDC 的雪条目指出，雪是水汽在 0 ℃ 以下凝华形成的冰晶降�
 ## 与其他温区的关系
 
 273.15 K 与水的冰点、淡水湖表层冰点使用同一参考值，但本条强调积雪表面这一位置。它高于冰川冰温的约 260 K，也高于海冰表面的约 258 K，说明同样是冰，实际温度可以相差很多。它低于室温约 293 K，低于人体体温，却高于液氮的 77.4 K。把雪面与这些温区并列时，先问清楚测的是表面、内部还是空气，再看数值差异。[2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

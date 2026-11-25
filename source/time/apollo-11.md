@@ -27,6 +27,14 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/topic/Apollo-11'
     accessed: '2026-11-06'
+  - title: The Wright brothers
+    url: 'https://airandspace.si.edu/explore/stories/wright-brothers'
+    publisher: Smithsonian National Air and Space Museum
+    accessed: '2026-11-24'
+  - title: Climate and the collection
+    url: 'https://blog.sciencemuseumgroup.org.uk/climate-and-the-collection/'
+    publisher: Science Museum Group
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -82,3 +90,11 @@ tags:
 ## 与其他阶段的关系
 
 阿波罗11号前接太空时代、首次动力飞行和火箭技术，后接空间站、航天飞机与今天的月球探测计划。它把载人航天从地球轨道推进到另一个天体，并带回月面样本供实验室研究。[1][2] 与斯普特尼克1号相比，阿波罗11号不只是把物体送入轨道，而是把人的活动范围扩展到月面；这使它在时间轴上成为一个可定位的里程碑。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Smithsonian National Air and Space Museum）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（Science Museum Group）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

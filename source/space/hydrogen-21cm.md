@@ -12,11 +12,12 @@ quantity:
   approximate: true
 displayValue: 21 cm（氢 21 厘米线静止波长）
 related:
+  - temperature.planck-temperature
+  - time.big-bang
   - space.radio-wave
   - space.microwave
   - space.milky-way
   - space.hydrogen-molecule
-  - space.atom
 reviewStatus: reviewed
 sources:
   - title: 21-centimetre radiation
@@ -28,6 +29,10 @@ sources:
       https://www.haystack.mit.edu/astronomy/astronomy-projects/edges-experiment-to-detect-the-global-eor-signature/
     publisher: MIT Haystack Observatory
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为中性氢基态超精细跃迁的静止波长；介质取真空；0.21米是近似静止值，不是原子直径，也未计入多普勒频移。
 uncertainty: 静止波长约21.1厘米、频率约1420.4兆赫兹；观测值受原子运动与宇宙红移影响，本条取0.21米。
 review:
@@ -42,12 +47,12 @@ rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
 visual:
-  template: "wave"
-  scene: "space.object"
-  caption: "氢 21 厘米线静止波长参照"
-  note: "波形与谱线位置为示意，非按比例，非观测重建。"
-  color: "#9bbcd7"
-  referenceAxis: "x"
+  template: wave
+  scene: space.object
+  caption: 氢 21 厘米线静止波长参照
+  note: 波形与谱线位置为示意，非按比例，非观测重建。
+  color: '#9bbcd7'
+  referenceAxis: x
   framePadding: 0.3
 measureType: 波长
 tags:
@@ -74,3 +79,12 @@ Britannica 说明该跃迁发生在电子与质子自旋平行和反平行两种
 ## 与其他尺度的关系
 
 21厘米约为成人手掌宽度的十分之一，也比可见光中值550纳米长约38万倍。[1][2] 它位于射电与微波交界附近，与射电波、微波同属长波端；在银河系尺度上，21厘米辐射被用来追踪中性氢与旋臂结构。[2] 观测记录通常以频率而非波长为主，换算时再回到波长，而这一换算依赖真空光速定义。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 0.21 米，换算后是 21 厘米；约 0.875 个篮球直径（24 厘米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻¹ 量级附近。
+
+读图时先看量级，再看倍数：10⁻¹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

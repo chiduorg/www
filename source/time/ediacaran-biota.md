@@ -33,6 +33,14 @@ sources:
     url: 'https://www.britannica.com/science/Ediacaran-Period'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: Planck 2018 results. VI. Cosmological parameters
+    url: 'https://arxiv.org/abs/1807.06209'
+    publisher: Planck Collaboration / Astronomy & Astrophysics
+    accessed: '2026-11-24'
+  - title: How Did the Solar System Form?
+    url: 'https://spaceplace.nasa.gov/solar-system-formation/en/'
+    publisher: NASA Space Place
+    accessed: '2026-11-24'
 legacy:
   id: ediacaran-biota
   icon: "\U0001FAB8"
@@ -105,3 +113,11 @@ tags:
 ## 与其他阶段的关系
 
 埃迪卡拉生物群位于雪球地球冰期之后、寒武纪多样化之前，是宏体生命首次广泛出现的阶段。[1][2] 它与多细胞真核藻类相隔约十亿年，说明“多细胞化”与“大型软躯体生物群”不是同一事件。[1]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Planck Collaboration / Astronomy & Astrophysics）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（NASA Space Place）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

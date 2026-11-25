@@ -15,6 +15,7 @@ related:
   - space.human
   - space.rabbit
   - space.brown-bear
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Phascolarctos cinereus
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.britannica.com/animal/koala'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年考拉（Phascolarctos cinereus）；从吻端沿身体到尾根量取，退化的尾不计；不含耳长与站立高度。
 uncertainty: ADW 给出南部雄性平均头体长 78 cm、雌性 72 cm，北部个体更小；Britannica 给出 60–85 cm，南部体重可达 14 kg，昆士兰约为一半。本条取 0.75 m，接近南部雄性平均值，落在 60–85 cm 范围的中上部。
 review:
@@ -69,3 +74,14 @@ Animal Diversity Web 的条目给出南部雄性平均头体长 78 厘米、雌�
 ## 与其他尺度的关系
 
 0.75 米的头体长约是 0.40 米家兔的 1.9 倍，约为 1.7 米成年人高度的 44%，也是 2.2 米棕熊头体长的三分之一。[1][2] 它只有 30 米蓝鲸体长的四十分之一。在哺乳动物尺度上，考拉位于“不足一米级”，向上是熊与大型食肉动物，向下是兔与小型啮齿类。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.5 纳秒，在时间轴上量级接近「纳秒」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 0.75 米，换算后是 75 厘米；约 0.441 个成年人身高（1.7 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁻¹ 量级附近。
+
+读图时先看量级，再看倍数：10⁻¹ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

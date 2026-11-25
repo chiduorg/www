@@ -16,10 +16,11 @@ quantity:
 displayValue: 约 1.5 × 10⁸ K（设计参考）
 related:
   - temperature.sun-core
-  - temperature.lightning
   - temperature.tungsten-melting
   - temperature.quark-gluon
   - temperature.laser-fusion-plasma
+  - space.sun
+  - time.big-bang
 reviewStatus: reviewed
 sources:
   - title: 'ITER Facts and Figures: plasma temperature design'
@@ -30,6 +31,14 @@ sources:
     url: 'https://www.iter.org/fusion'
     publisher: ITER Organization
     accessed: '2026-11-06'
+  - title: "Sun: Facts"
+    url: "https://science.nasa.gov/sun/facts/"
+    publisher: "NASA Science"
+    accessed: '2026-11-24'
+  - title: "Helioseismology"
+    url: "https://nso.edu/research/helioseismology/"
+    publisher: "NSF National Solar Observatory, Jack Harvey and Shukur Kholikov"
+    accessed: '2026-11-24'
 legacy:
   id: fusion-reactor-plasma
   icon: ⚛
@@ -90,3 +99,19 @@ tags:
 ## 与其他温区的关系
 
 1.5×10⁸ K 约为太阳核心 1.57×10⁷ K 的十倍，远高于闪电通道约 3×10⁴ K 和钨的熔点约 3,695 K。它也高于中子星表面约 2×10⁶ K 的例子，但远低于夸克—胶子等离子体的 1.82×10¹² K 理论温标。与这些温区比较时，要记住聚变等离子体是靠磁场和加热维持的实验室对象，不是恒星内部或致密天体。[1]
+
+## 劳森判据与“点火”
+
+聚变要净输出能量，需要同时满足温度、密度和约束时间三个条件，这就是劳森判据的工程版本。[1][2] “点火”指聚变产生的能量足以维持等离子体温度，不再依赖外部加热；它与“达到高温”不是同义词。ITER 的 1.5 亿度是设计温度，不是点火已经实现。
+
+## 五轴对照
+
+在温度轴，等离子体约 1.5×10⁸ K；在空间轴，磁场把等离子体约束在环内；在质量轴，燃料离子质量影响碰撞与聚变截面；在时间轴，约束时间需足够长。温度、密度与时间必须同时达标。[1][2]
+
+## 劳森判据与“点火”
+
+聚变要净输出能量，需要同时满足温度、密度和约束时间三个条件，这就是劳森判据的工程版本。“点火”指聚变产生的能量足以维持等离子体温度，不再依赖外部加热；它与“达到高温”不是同义词。ITER 的 1.5 亿度是设计温度，不是点火已经实现。[1][S2]
+
+## 延伸核对
+
+补充的来源 [3]（NASA Science）、[4]（NSF National Solar Observatory, Jack Harvey and Shukur Kholikov） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

@@ -20,6 +20,7 @@ related:
   - temperature.steelmaking_temp
   - temperature.pottery-kiln
   - temperature.blast-furnace
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Continuous energy supply is essential for the flat glass industry'
@@ -31,6 +32,10 @@ sources:
     url: 'https://www.britannica.com/technology/glass'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   浮法平板玻璃熔窑的熔化池与澄清带，配合料由砂、石灰石和纯碱等配制；取窑内玻璃液或火焰空间的
   工作温度口径。配方、窑型、产量、燃料和测点位置都会改变实际读数。
@@ -82,3 +87,5 @@ tags:
 ## 与其他温区的关系
 
 1,800 K 高于 Corning 7740 的工作点约 1,525 K，也高于陶窑的约 1,500 K；高于水泥窑烧成带的 1,723 K，低于炼钢出钢的约 1,893 K。它处在把配合料熔成可流动玻璃液的温区，并已接近纯铁熔点 1,811 K，说明玻璃熔制与钢铁冶金的温度尺度相近。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

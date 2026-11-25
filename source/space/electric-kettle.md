@@ -16,6 +16,7 @@ related:
   - space.stock-pot
   - space.table
   - space.refrigerator
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Daily Collection Kettle HD9350/92 — Specs
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.home-appliances.philips/ro/ro/p/HD9350_90'
     publisher: Philips
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为 1.7 升家用电水壶；量取底座底面到壶盖最高点，不含电源线、插头与外伸壶嘴；不同壶身直径与底座结构会改变高度。
 uncertainty: 1.7 升电水壶高度多在 23–27 cm；两款官方页面均给出 25 cm，与本条建议值一致；量取含底座与不含底座可差 2–3 cm，开盖后壶盖还会再抬高。
 review:
@@ -70,3 +75,7 @@ tags:
 ## 与其他尺度的关系
 
 25 厘米与 25 厘米的筷子等长，比 24 厘米的汤锅口径高 1 厘米，约为 9 厘米咖啡杯高度的 2.8 倍。[1][2] 它比 34.5 厘米的笔记本屏幕对角线短约 9.5 厘米，放在 45 厘米高的台灯旁边只到灯头的一半。与 13.8 厘米的圆珠笔相比，壶高接近其 1.8 倍，说明它是台面上“半臂高”的常用电器。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.83 纳秒，在时间轴上量级接近「纳秒」。[3]

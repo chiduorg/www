@@ -15,6 +15,7 @@ related:
   - space.a4-paper
   - space.paper-clip
   - space.pencil
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Post-it® Notes, 3 in x 3 in, Canary Yellow, Lined, 6 Pads/Pack'
@@ -25,6 +26,10 @@ sources:
     url: 'https://www.3m.com.cn/3M/zh_CN/p/d/v000466802/'
     publisher: 3M 中国
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为 3 英寸 × 3 英寸方形便利贴；量取单张纸面的边长，不含背胶溢出、纸垫厚度与包装尺寸；不同系列、有无横线或超黏配方不改变标称平面尺寸。
 uncertainty: 3 英寸精确换算为 76.2 毫米，3M 美国页标 76.2 毫米，3M 中国页标 76 毫米；本条取 0.076 米作 76 毫米级别的代表值，实际裁切与背胶会带来亚毫米到毫米级差异。
 review:
@@ -68,3 +73,7 @@ tags:
 ## 与其他尺度的关系
 
 76 毫米约为 A4 纸短边 210 毫米的 36%，约为一枚 33 毫米回形针的 2.3 倍，约为 17.78 厘米铅笔的 43%。[1][2] 一张 3 × 3 英寸便利贴的面积约 57.8 平方厘米，差不多是一张 A4 纸面积 623.7 平方厘米的十一分之一。它正好能写下几行短句，又小到可以贴在书本页边或显示器边框上。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.25 纳秒，在时间轴上量级接近「纳秒」。[3]

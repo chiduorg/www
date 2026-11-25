@@ -16,6 +16,7 @@ related:
   - space.kidney
   - space.lung
   - space.heart
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Liver — e-Anatomy
@@ -26,6 +27,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8786943/'
     publisher: PubMed Central (PMC)
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成人肝脏；量取左右方向的最大横径，不含肝外胆道与周围脂肪；呼吸时相、切面角度和影像方法都会影响读数。
 uncertainty: 20 厘米是取整代表值；解剖图谱给出最大横径 20–22.5 厘米，影像研究给出的均值约 19.7 厘米，个体与体型差异可达数厘米。
 review:
@@ -73,3 +78,7 @@ IMAIOS 的解剖图谱把成人肝脏的最大横径记为 20–22.5 厘米，�
 ## 与其他尺度的关系
 
 20 厘米约为成人手掌长度 19 厘米的 1.05 倍，也接近一张 A4 纸短边 21 厘米。它比心脏长径 12 厘米长约 8 厘米，比肺高度 25 厘米短 5 厘米。放到尺度轴上，肝脏最大径与肺高度、股骨长度同处“十厘米级”器官尺度，但它们分别量取横径、高度和全长。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.67 纳秒，在时间轴上量级接近「纳秒」。[3]

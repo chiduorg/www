@@ -16,6 +16,7 @@ related:
   - space.moon
   - space.earth
   - space.jupiter
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Hubble Space Telescope — Main Page
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.nasa.gov/hubble/'
     publisher: NASA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: hubble_aperture
   icon: "\U0001F52D"
@@ -81,3 +86,7 @@ NASA戈达德档案页写明主镜直径2.4米，即94.5英寸；NASA哈勃项�
 ## 与其他尺度的关系
 
 2.4米约为人身高1.7米的1.4倍，约为月球直径3474.8公里的约一百四十五万分之一。与詹姆斯·韦伯望远镜6.6米的主镜相比，哈勃口径约为其36%。它比地面大型望远镜的主镜小，但在轨道上避开了大气扰动。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 8.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

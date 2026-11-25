@@ -18,6 +18,7 @@ related:
   - space.boeing-747
   - space.cruise-ship
   - space.car
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: CRH2 型时速 200～250 公里长编组座车和卧车动车组总体技术方案
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.nist.gov/system/files/documents/mep/specs_single_level_passenger_rail_car.pdf'
     publisher: National Institute of Standards and Technology
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为干线铁路单节客车；测量口径为两端车钩连接面之间的车辆长度，不含车钩本体、缓冲装置与贯通道；不适用于机车、货车或整列编组。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 25 米约等于 13.9 辆 1.8 米自行车首尾相接，也约等于 5.6 辆 4.5 米家用轿车。与 68.4 米的波音 747 相比，一节车厢约为其 37%；与 94 米的国际空间站相比约为其 27%。它还是 2.032 米标准门高的约 12.3 倍，站台上一节车厢通常要跨越十几个车门宽度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 83.4 纳秒，在时间轴上量级接近「原子跃迁」。[3]

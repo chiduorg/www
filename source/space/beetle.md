@@ -17,6 +17,7 @@ related:
   - space.honeybee
   - space.dragonfly
   - space.termite
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: 'Dynastes hercules'
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/animal/Hercules-beetle'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为大力士甲虫（Dynastes hercules）雄虫；量从头角末端到鞘翅末端的含角全长，不是去角体长、体宽或体重；17 cm 取在 44–180 mm 范围的上段。
 uncertainty: >-
@@ -73,3 +78,7 @@ ADW 的 Dynastes hercules 条目给出全长范围 44–180 毫米，雄虫平�
 ## 与其他尺度的关系
 
 17 厘米约等于一支 17.8 厘米铅笔的 95%，约为成人手长 20 厘米的 85%，约为蜻蜓翼展 15 厘米的 1.1 倍，也约为普通蚂蚁体长 6 毫米的二十八倍。[1][2] 在尺度轴上，它处在“十厘米级昆虫”的上端：向下是蝉、蝗虫和蜜蜂，向上是手掌、铅笔与乒乓球拍。用含角全长记录，才符合这类甲虫以角闻名的观察习惯。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.57 纳秒，在时间轴上量级接近「纳秒」。[3]

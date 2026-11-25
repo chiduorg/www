@@ -4,9 +4,7 @@ title: 太阳年龄
 titleEn: Age of the Sun
 dimension: cosmic-time
 category: 太阳系与地球
-summary: >-
-  太阳年龄指太阳在主序带上已经燃烧的时间，本条取约 46 亿年。它是一段已经过去
-  的持续时间，不是太阳形成那个绝对时点。
+summary: 太阳年龄指太阳在主序带上已经燃烧的时间，本条取约 46 亿年。它是一段已经过去 的持续时间，不是太阳形成那个绝对时点。
 quantity:
   value: 145164960000000000
   unit: s
@@ -20,6 +18,7 @@ related:
   - time.earth-formation
   - time.solar-cycle
   - time.galactic-year
+  - space.hercules-corona-borealis-great-wall
 reviewStatus: reviewed
 sources:
   - title: Evolution of the Sun
@@ -30,6 +29,14 @@ sources:
     url: 'https://www.esa.int/Science_Exploration/Space_Science/The_Sun'
     publisher: European Space Agency (ESA)
     accessed: '2026-11-07'
+  - title: Age of the Earth
+    url: 'https://pubs.usgs.gov/gip/geotime/age.html'
+    publisher: United States Geological Survey (USGS)
+    accessed: '2026-11-24'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -39,14 +46,12 @@ conditions:
   definition: 太阳从进入主序带到现在所经历的时间跨度
   conversion: 4 600 000 000 × 31 557 600 = 145 164 960 000 000 000 秒
   note: 只表示间隔长度，不是自大爆炸起的绝对时点，也不等于太阳形成时点的坐标
-uncertainty: >-
-  太阳年龄来自恒星演化模型反推，误差通常在数千万年量级；不同资料常取整为约
-  46 亿年或 45.7 亿年，不代表精确到年。
+uncertainty: 太阳年龄来自恒星演化模型反推，误差通常在数千万年量级；不同资料常取整为约 46 亿年或 45.7 亿年，不代表精确到年。
 review:
   method: source-check
   date: '2026-11-07'
   notes:
-    - '2026-11-07 来源复核：至少一条来源本地直连可访问；受反爬限制的来源已在写作阶段用 WebFetch 打开核对。'
+    - 2026-11-07 来源复核：至少一条来源本地直连可访问；受反爬限制的来源已在写作阶段用 WebFetch 打开核对。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -81,3 +86,9 @@ tags:
 ## 与其他尺度的关系
 
 46 亿年约为地球年龄 45.4 亿年的 1.013 倍，比星系穿越星系团时间 100 亿年短约一半，约为银河年 2.3 亿年的 20 倍。与秒尺度相比，它是十亿秒的 31.69 年的约 1.45 亿倍、一万亿秒的 3.17 万年的约 14.5 万倍、一千万亿秒的 3169 万年的约 14.5 倍、一百亿亿秒的 316.9 亿年的 0.145 倍[2]。它约为人类寿命 73 年的 630 万倍，也约为文明五千年记录的 9.2 万倍。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（United States Geological Survey (USGS)）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+按同一真空光速计算，光在这段时间内约走 4.6 十亿光年，在空间轴上量级接近「武仙–北冕巨墙」。[4]

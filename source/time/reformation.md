@@ -1,6 +1,6 @@
 ---
 id: time.reformation
-title: '宗教改革起点：1517年论纲与欧洲宗教分裂'
+title: 宗教改革起点：1517年论纲与欧洲宗教分裂
 titleEn: The Reformation
 dimension: cosmic-time
 category: 人类与文明
@@ -18,6 +18,7 @@ related:
   - time.enlightenment
   - time.middle-ages
   - time.scientific-revolution
+  - space.city
 reviewStatus: reviewed
 sources:
   - title: Reformation
@@ -28,6 +29,10 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/event/Ninety-five-Theses'
     accessed: '2026-11-07'
+  - title: 小知识│何谓活字印刷术？
+    url: 'https://www.nlc.cn/pcab/zlyj/zlyj_djsh/20190418_177776.shtml'
+    publisher: 中国国家图书馆·国家古籍保护中心
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -45,7 +50,9 @@ conditions:
 review:
   method: source-check
   date: '2026-11-07'
-  retry: '2026-11-07 复核（verified）：Britannica Reformation 可读，年代 c.1517–1600；Ninety-five Theses 条目可读，1517-10-31、维滕贝格，距今约 509 年成立。'
+  retry: >-
+    2026-11-07 复核（verified）：Britannica Reformation 可读，年代 c.1517–1600；Ninety-five
+    Theses 条目可读，1517-10-31、维滕贝格，距今约 509 年成立。
   notes:
     - 核对 Britannica《Reformation》，采用约1517至1600年的时间范围与新教诸传统的形成。
     - 核对 Britannica《Ninety-five Theses》，采用1517年10月31日与维滕贝格的地点记载。
@@ -84,3 +91,7 @@ tags:
 ## 与其他阶段的关系
 
 宗教改革接在文艺复兴与印刷术传播之后，又与科学革命、启蒙运动和近代国家建设交叠。它打破了西欧宗教的统一，也为后来的信仰自由与世俗化争论留下问题。[1][2] 在时间轴上，1517年标记的是争论公开化的节点，而不是制度更替完成的时刻。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（中国国家图书馆·国家古籍保护中心）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

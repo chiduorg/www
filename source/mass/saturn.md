@@ -5,7 +5,7 @@ summary: >-
   土星是太阳系第六颗行星，行星总质量约 5.683×10²⁶ kg，约为地球质量的 95 倍。质量由卡西尼号轨道跟踪与卫星轨道拟合得出，相对不确定度约
   0.02%。
 dimension: mass
-category: 行星
+category: 行星与小天体
 displayValue: 5.683×10²⁶ kg
 quantity:
   value: 5.683e+26
@@ -80,6 +80,7 @@ visual:
   color: '#7fb5e6'
   scaleMin: -40
   scaleMax: 53
+titleEn: Saturn
 ---
 ## 这个读数是什么
 

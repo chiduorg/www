@@ -16,6 +16,7 @@ related:
   - space.crocodile
   - space.komodo-dragon
   - space.mouse
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: King Cobra
@@ -26,6 +27,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Ophiophagus_hannah/'
     publisher: Animal Diversity Web, University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年眼镜王蛇（Ophiophagus hannah）；量取吻端到尾尖的全长，含躯干与尾；以蛇体自然伸展状态为准，不含身体立起的高度。
 uncertainty: Britannica 给出确认最大全长 5.6 m，多数个体不超过 3.6 m；ADW 给出平均 10–12 英尺（约 3–3.7 m），最大 18 英尺。本条取 4.0 m，高于多数成体、低于最大记录，代表较大的成年个体；蜷曲与拉伸程度会造成读数差异。
 review:
@@ -70,3 +75,14 @@ Britannica 写明确认的最大全长为 5.6 米（18 英尺），但多数个�
 ## 与其他尺度的关系
 
 4.0 米约为 2.4 个 1.7 米高的人首尾相接，和 4 米缅甸蟒、4 米尼罗河鳄同量级，比 3 米科莫多巨蜥长 1 米。[1][2] 它不到 30 米蓝鲸全长的七分之一。作为蛇类，4 米已经进入超过两个人身高的范围。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 13.3 纳秒，在时间轴上量级接近「原子跃迁」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 4 米，换算后是 4 米；约 0.0381 个足球场长度（105 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

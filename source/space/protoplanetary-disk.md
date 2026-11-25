@@ -17,6 +17,7 @@ related:
   - space.au
   - space.orion-nebula
   - space.earth
+  - time.cell-division
 reviewStatus: reviewed
 sources:
   - title: 'ALMA Memo 475: Observing Stars & Extrasolar Planetary Systems with ALMA'
@@ -27,6 +28,10 @@ sources:
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html'
     publisher: NASA / NSSDCA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 指年轻恒星周围尘埃与气体的盘状结构，取约 100 AU 的典型半径；适用于行星形成区的量级比较。 不包含恒星本身、外流喷流或已演化成碎片盘的系统。
 uncertainty: >-
   NRAO 的 ALMA 技术备忘录给出“这类盘目前被认为半径约 100 AU”，这是 2003 年的概览，不是对某一
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 1.5×10¹³ 米等于 100 AU，约为太阳到海王星距离的 3.3 倍，也是地球到太阳距离的 100 倍。[2] 它比木星轨道（约 5.2 AU）大近 20 倍，却远小于行星状星云或星团。把原行星盘放进恒星形成序列，可以看到行星系统如何在几百 AU 的盘内完成尘埃聚集、迁移与清空。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 13.9 小时，在时间轴上量级接近「细胞分裂周期」。[3]

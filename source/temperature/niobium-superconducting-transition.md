@@ -20,7 +20,7 @@ related:
   - temperature.ybco-superconducting-transition
   - temperature.absolute-zero
   - temperature.mgb2-critical-temperature
-  - temperature.superconducting-gap
+  - space.atom
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -41,6 +41,14 @@ sources:
       https://www.nist.gov/publications/comparison-methods-computing-residual-resistivity-ratio-high-purity-niobium
     publisher: NIST
     accessed: '2026-11-06'
+  - title: "hydrogen"
+    url: "https://www.britannica.com/science/hydrogen"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
+  - title: "Nitrogen: Phase change data"
+    url: "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7727379&Mask=4"
+    publisher: "NIST Chemistry WebBook, SRD 69"
+    accessed: '2026-11-24'
 legacy:
   id: niobium-superconducting-transition
   icon: ⚕️
@@ -100,3 +108,23 @@ tags:
 ## 与其他温区的关系
 
 9.2 K 高于液氦的 4.2 K，低于液氢的 20.3 K 和液氮的 77.4 K。[1][3] NIST 同一固定点装置中铅的 Tc 为 7.19974 K，说明铌比铅高约 2 K；与钇钡铜氧的约 92 K 相比，铌仍属于低温超导材料。[2][3] 这些比较都必须带磁场与样品条件，不能只看一个 Tc 数字。
+
+## 临界磁场与临界电流
+
+铌的 9.2 K 只是零磁场附近的临界温度；外加磁场会压低 Tc，超过临界磁场后材料恢复电阻。[2] 超导体还有临界电流，电流过大也会失超。把 Tc 当成“低于就永远零电阻”，会忽略磁场与电流这两个维度。
+
+## 五轴对照
+
+在温度轴，铌 Tc 约 9.2 K；在空间轴，超导腔的表面电流分布影响性能；在质量轴，铌原子质量与晶格振动决定电子配对；在时间轴，失超可能在毫秒内发生。温度、磁场与电流共同定义超导态。[1][2]
+
+## 临界磁场与临界电流
+
+铌的 9.2 K 只是零磁场附近的临界温度；外加磁场会压低 Tc，超过临界磁场后恢复电阻。超导体还有临界电流，电流过大也会失超。把 Tc 当成“低于就永远零电阻”，会忽略磁场与电流两个维度。[1][S2]
+
+## 读数的口径与换算
+
+本条采用的量是 约 9.2 K，口径是 体相金属铌低场超导转变参考。温度是强度量，读数依赖温标、测点与热平衡；同一对象的不同部位、不同时刻可以有不同温度。把这条读数和相邻条目比较时，先换成同一单位，再取比值；不要用不同口径的数值直接相减。若只能记住一件事：它回答的是“这个对象大概落在哪个量级”，不是一个可以代入所有样本的常数。
+
+## 延伸核对
+
+补充的来源 [4]（Encyclopaedia Britannica）、[5]（NIST Chemistry WebBook, SRD 69） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

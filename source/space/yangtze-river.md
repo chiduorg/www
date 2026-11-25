@@ -16,6 +16,7 @@ related:
   - space.nile
   - space.earth
   - space.pacific-ocean
+  - time.blink
 reviewStatus: reviewed
 sources:
   - title: 长江
@@ -26,6 +27,10 @@ sources:
     url: 'https://www.britannica.com/place/Yangtze-River'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为长江干流；测量口径为从青藏高原唐古拉山源头至上海附近入海口的沿河路径，不是两端直线距离、流域面积、支流长度或某一河段的长度。
 uncertainty: >-
   中国科学院地理科学与资源研究所与Britannica都给出约6,300公里；若把源头向上游延伸或改变入海口取点，公开值可能在6,300公里上下浮动数十公里。
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 6,300公里约为地球平均半径6,371公里的99%，几乎等于一条地球半径。它比尼罗河6,650公里短约5%，比亚马逊的6,400公里短约2%，三条河的长度处在同一量级。[1][2]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 21 毫秒，在时间轴上量级接近「眨眼」。[3]

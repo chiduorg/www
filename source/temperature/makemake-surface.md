@@ -18,6 +18,7 @@ related:
   - temperature.pluto-surface
   - temperature.triton-surface
   - temperature.methane-boiling
+  - space.moon
 reviewStatus: reviewed
 sources:
   - title: No global Pluto-like atmosphere on dwarf planet Makemake from a stellar occultation
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.aanda.org/articles/aa/full_html/2015/05/aa25575-14/aa25575-14.html'
     publisher: Astronomy & Astrophysics
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 远日矮行星表面的辐射平衡温度代表值，取高反照率、弱日照条件下的量级。
 uncertainty: 掩星大气模型采用约 30 K；后续光谱与热模型给出约 37 K，不同地形与反照率会造成数开尔文差异。
 review:
@@ -72,3 +77,5 @@ tags:
 ## 与其他尺度的关系
 
 30 K 约为海卫一 38 K 的 0.79 倍，低于冥王星的约 44 K，高于绝对零度，也明显高于液氦的 4.22 K。[1][2] 它约为甲烷沸点 111.7 K 的 0.27 倍；与 37 K 的模型值相比，30 K 约低 7 K。30 K 约为宇宙微波背景 2.725 K 的 11 倍，约为液氦 4.22 K 的 7.1 倍；与液氮 77.34 K 相比只有约 0.39 倍。它的轨道半长径约 45.8 AU，阳光强度约为地球的 1/2100。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -5,7 +5,7 @@ summary: >-
   灵神星是主带里的大质量小行星，总质量约 2.287×10¹⁹ kg，当前相对不确定度约 10%。数值来自地面观测与形状—密度模型，Psyche
   探测器抵达后才会由引力场给出更准的读数。
 dimension: mass
-category: 小行星
+category: 行星与小天体
 displayValue: 2.287×10¹⁹ kg
 quantity:
   value: 22870000000000000000
@@ -80,6 +80,7 @@ visual:
   color: '#8fc9d8'
   scaleMin: -40
   scaleMax: 53
+titleEn: Psyche
 ---
 ## 这个读数是什么
 

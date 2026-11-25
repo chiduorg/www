@@ -13,12 +13,12 @@ quantity:
   approximate: true
 displayValue: 约 0.3 m（变色龙全长参照）
 related:
+  - time.nanosecond
   - space.frog
   - space.butterfly
   - space.honeybee
   - space.human
   - space.cat
-  - space.gecko
 reviewStatus: reviewed
 sources:
   - title: Chamaeleo chamaeleon (Linnaeus, 1758)
@@ -29,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/animal/chameleon-reptile'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为变色龙科（Chamaeleonidae），数值以普通变色龙（Chamaeleo chamaeleon）为参照；量吻端到尾尖的全长，含尾，不是吻肛长、体高或只量躯干；0.3 m取在普通变色龙20–30 cm的上限。
 uncertainty: >-
@@ -77,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 0.3米约为3.75只8厘米蛙的首尾相接，约为1厘米蜜蜂体长的30倍，约为9.5厘米蝴蝶体长的3.2倍，约为1.7米高人的0.18倍。[1][2] 在尺度轴上，它处在“几十厘米级”动物的中段：向上是猫和龟，向下是蛙、蜂和蝶。用含尾全长，才能把它与用体长或翼展描述的动物放在一起比较。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.0 纳秒，在时间轴上量级接近「纳秒」。[3]

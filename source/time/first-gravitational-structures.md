@@ -13,12 +13,12 @@ quantity:
   approximate: true
 displayValue: t ≈ 1 亿年（模型参考）
 related:
+  - space.cmb-surface
   - time.recombination
   - time.dark-ages
   - time.first-dark-matter-halos
   - time.first-stars
   - time.galaxy-formation
-  - time.first-galaxy-clusters
 reviewStatus: reviewed
 sources:
   - title: The lingering imprint of the first cosmic structures

@@ -19,6 +19,7 @@ related:
   - temperature.caramelization
   - temperature.food-safe
   - temperature.dishwashing
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -32,6 +33,10 @@ sources:
       https://www.pizzaiuolinapoletani.it/wp-content/uploads/2024/03/RegolamentoAPN-english.pdf
     publisher: Associazione Pizzaiuoli Napoletani (APN)
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 炉膛空气
   measurementSite: 炉膛穹顶与烤盘面附近
@@ -80,3 +85,5 @@ AVPN 规范分别给出烤盘面约 430 ℃、炉穹顶约 485 ℃，并写明�
 ## 与其他温度的关系
 
 723 K 高于 boiling-water 的 373.15 K，也高于 oven 常见的 453 K，低于铝的熔点 933 K。它和 caramelization 的 443 K 处在同一“厨房高温”段，但一个是炉膛空气，一个是糖熔体反应温度。理解这个数值的关键，是同时记住介质、位置和烘烤时间。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -5,7 +5,8 @@ titleEn: The Earliest Spiral Galaxy
 dimension: cosmic-time
 category: 星系与结构
 summary: >-
-  JWST 在 PANORAMIC 巡天中发现候选天体“烛龙”，测光红移约 5.2，具有核球、盘和延伸旋臂，被认为是迄今最远的此类星系候选。它的红移仍是测光值，需要光谱确认；本条取距今约 120 亿年作导航锚点，记录会随观测更新。
+  JWST 在 PANORAMIC 巡天中发现候选天体“烛龙”，测光红移约
+  5.2，具有核球、盘和延伸旋臂，被认为是迄今最远的此类星系候选。它的红移仍是测光值，需要光谱确认；本条取距今约 120 亿年作导航锚点，记录会随观测更新。
 quantity:
   value: 56708800000000000
   unit: s
@@ -21,7 +22,9 @@ related:
   - time.peak-star-formation
 reviewStatus: reviewed
 sources:
-  - title: 'PANORAMIC: Discovery of an ultra-massive grand-design spiral galaxy at z ∼5.2'
+  - title: >-
+      PANORAMIC: Discovery of an ultra-massive grand-design spiral galaxy at z
+      ∼5.2
     url: 'https://www.aanda.org/articles/aa/pdf/2025/04/aa53487-24.pdf'
     publisher: Astronomy & Astrophysics
     accessed: '2026-11-07'
@@ -29,6 +32,15 @@ sources:
     url: 'https://www.britannica.com/science/spiral-galaxy'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: What Did the Young Universe Look Like?
+    url: >-
+      https://webbtelescope.org/contents/articles/what-did-the-young-universe-look-like
+    publisher: NASA / STScI
+    accessed: '2026-11-24'
+  - title: Cosmic eras
+    url: 'https://www.esa.int/Science_Exploration/Space_Science/Cosmic_eras'
+    publisher: European Space Agency
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -43,11 +55,14 @@ conditions:
   calendarReferenceYear: 2026
   note: 120 亿年是导航锚点；测光红移候选不是已确认的最早记录。
 uncertainty: >-
-  120 亿年为时间轴锚点，不是该星系的形成日期。“烛龙”的红移约 5.2 是测光值，尚未完成光谱确认；其质量、尺寸和旋臂结构依赖多波段测光与模型拟合。最早旋涡星系的记录会随新观测改变，本条给出的是候选与观测下界。
+  120 亿年为时间轴锚点，不是该星系的形成日期。“烛龙”的红移约 5.2
+  是测光值，尚未完成光谱确认；其质量、尺寸和旋臂结构依赖多波段测光与模型拟合。最早旋涡星系的记录会随新观测改变，本条给出的是候选与观测下界。
 review:
   method: source-check
   date: '2026-11-07'
-  retry: '2026-11-07 复核（verified）：A&A 2025 论文可读，测光红移 5.2、旋臂跨度 19 kpc、质量近银河系、为最远候选；Britannica 可读支持旋涡结构。120 亿年是导航锚点，非精确年龄。'
+  retry: >-
+    2026-11-07 复核（verified）：A&A 2025 论文可读，测光红移 5.2、旋臂跨度 19
+    kpc、质量近银河系、为最远候选；Britannica 可读支持旋涡结构。120 亿年是导航锚点，非精确年龄。
   notes:
     - 核对 A&A 论文，采用测光红移约 5.2、核球加盘、旋臂跨度约 19 千秒差距、质量约与银河系相当及“迄今最远候选”的表述。
     - 核对 Britannica 旋涡星系条目，采用旋臂、核球、盘与正常旋涡/棒旋分类。
@@ -84,3 +99,11 @@ tags:
 ## 与其他阶段的关系
 
 旋涡星系是星系组装和角动量演化的结果，上接早期并合与暗物质晕增长，下连今天的盘星系[1][2]。银河系与仙女座星系都是旋涡星系，说明这种形态可以长期维持。与星系形成条目相比，这里关注的是盘和旋臂何时出现，而不是星系最初怎样诞生。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（NASA / STScI）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（European Space Agency）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

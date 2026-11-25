@@ -32,6 +32,10 @@ sources:
     url: 'https://www.britannica.com/science/superfluidity'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: superfluid
   icon: "\U0001F4A7"
@@ -90,3 +94,5 @@ NIST 的低温资料把液氦在 2.17 K 及以下描述为超流，并指出它�
 ## 与其他温区的关系
 
 2.17 K 低于液氦在 1 atm 下的沸点 4.2 K，高于氦-3 超流 A 点的 2.444 mK，也远高于 170 nK 的玻色凝聚。它位于稀释制冷与液氦浴之间的温区，是研究量子流体的经典入口。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

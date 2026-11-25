@@ -18,6 +18,7 @@ related:
   - space.antibody
   - space.dna
   - space.amino-acid
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: The cardiac nanoenvironment — form and function at the nanoscale
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.science.org/doi/10.1126/sciadv.ade7375'
     publisher: Science Advances
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   取 I 型或 III 型胶原在组织中的原纤维横截面直径；I 型可粗至约 300 nm，III 型约 100 nm。
   不是单条三螺旋分子（长约 300 nm、粗约 1.5 nm），也不是由原纤维组成的纤维束。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 100 nm 约为胰岛素六聚体 5 nm 的 20 倍，约为 DNA 直径 2 nm 的 50 倍。[1][2] 它比纤维素微纤丝的 20 nm 粗五倍，却仍只有一根头发直径的千分之一。继续阅读血红蛋白、抗体与 DNA，可把蛋白质分子、原纤维与细胞外基质放在同一尺度轴上。把 100 nm 与 20 nm 的纤维素微纤丝、5 nm 的胰岛素六聚体比较，可覆盖细胞外基质的主要层级。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3e-7 纳秒，在时间轴上量级接近「纳秒」。[3]

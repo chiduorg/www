@@ -33,6 +33,10 @@ sources:
       https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004934/Aurora_Infographic.pdf
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 热层/电离层中的稀薄氧氮气体与等离子体
   height: 约 80–200 km，红色与高射线可延伸到更高处
@@ -81,3 +85,5 @@ tags:
 ## 与其他温区的关系
 
 10,000 K 高于太阳表面的约 5,772 K，也高于钨的熔点，却低于聚变等离子体的百万开尔文量级。它和热层的 500–2,000 K 背景温度不是同一口径：热层温度描述稀薄气体的平均动能，极光的 10,000 K 描述受热电子或激发态的能量尺度。[1] 与闪电的通道温度相比，极光的光度高但气体密度极低，因而不能把“温度高”直接等同于“热量大”。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

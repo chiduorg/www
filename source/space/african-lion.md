@@ -12,12 +12,12 @@ quantity:
   approximate: true
 displayValue: 约 2.0 m（非洲狮头体长）
 related:
+  - time.atomic-transition
   - space.cat
   - space.gray-wolf
   - space.dog
   - space.cheetah
   - space.leopard
-  - space.tiger
 reviewStatus: reviewed
 sources:
   - title: lion
@@ -32,6 +32,10 @@ sources:
     url: 'https://www.awf.org/wildlife-conservation/lion'
     publisher: African Wildlife Foundation
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为成年雄性非洲狮；量取从吻端沿体轴到尾根的头体长，尾巴与鬃毛不计；不含肩高；雌性通常更短，亚种与个体差异明显。
 uncertainty: Britannica 给出成年雄性头体长 1.8–2.1 m（不含约 0.9 m 尾），Smithsonian 给出全长约 3 m（含 0.6–0.9 m 尾），AWF 给出全长 2–3.3 m。扣除尾长后，成年雄性头体长常见约 1.7–2.5 m；本条取 2.0 m 作代表值。
 review:
@@ -75,3 +79,5 @@ Britannica 的学生条目写明：成年雄性长 6–7 英尺（约 1.8–2.1 
 ## 与其他尺度的关系
 
 2.0 米约为 1.7 米成年人的 1.2 倍，是 0.48 米家猫的四倍多，比 1.2 米的灰狼长 0.8 米，与 2.2 米的棕熊处在同一档。[1][2] 在猫科中它接近上限，向上是更大的虎，向下是家猫；与家马 1.6 米的肩高相比，两者属于不同方向的量，不能直接比高低。把同一把尺子换成肩高，成年雄狮约 1.2 米，只到人的胸口。
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.7 纳秒，在时间轴上量级接近「原子跃迁」。[4]

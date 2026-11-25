@@ -17,6 +17,7 @@ related:
   - space.raindrop
   - space.hailstone
   - space.snowflake
+  - time.microsecond
 reviewStatus: reviewed
 sources:
   - title: How much does a cloud weigh?
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.noaa.gov/jetstream/clouds'
     publisher: NOAA JetStream
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为典型晴天积云；样本为气象教学中常用的1公里立方体假设；口径为水平尺度，不是云底高度、云的厚度、云量或降水范围。
 uncertainty: 云的形状与尺度差异很大；1公里只是便于估算的代表值，积雨云水平尺度可达数十公里，层云则可延伸数百公里。
 review:
@@ -72,3 +77,7 @@ tags:
 ## 与其他尺度的关系
 
 1公里约为一个足球场105米长的9.5倍，也约为珠峰高程的11%。[1][2] 与飓风数百公里的直径相比，一朵积云很小；但与雨滴毫米级直径相比，它又大了百万倍。云处在“百米到十公里”的天气尺度，向上连接风暴与行星环流。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.3 微秒，在时间轴上量级接近「微秒」。[3]

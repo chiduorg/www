@@ -34,6 +34,10 @@ sources:
     url: 'https://physics.nist.gov/cuu/Constants/Table/allascii.txt'
     publisher: NIST / CODATA
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: electroweak
   icon: "\U0001F300"
@@ -100,3 +104,5 @@ tags:
 ## 与其他温区的关系
 
 1.85×10¹⁵ K 远高于夸克—胶子等离子体的 1.82×10¹² K 温标，也远高于核心坍缩超新星的 10¹¹ K。它低于常见大统一模型讨论的 10²⁷ K 量级，更远低于普朗克温度的 1.4×10³² K。与这些理论温标比较时，要记住它们各自对应不同的物理过渡或自然单位，不能排成一条已测得的温度序列。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

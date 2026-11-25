@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/45/rhodium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第五周期, d 区, 铑]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往回看钌（/entry/elements/ru/），能看到 5s 让位之后 4d 如何继续加电子；再往前看锝（/entry/elements/tc/），能看到同一列里唯一没有稳定同位素的一格。若想弄清 4d 接近全满时价态为何收窄，去读周期性规律解释页。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

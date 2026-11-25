@@ -17,6 +17,7 @@ related:
   - space.soccer-ball
   - space.apple
   - space.banana
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Citrullus lanatus — description
@@ -27,6 +28,10 @@ sources:
     url: 'https://malaysiafruit.com/watermelon/watermelon.php'
     publisher: Malaysia Fruits
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为常见栽培西瓜；测量口径为果实横截面的最大直径，不含瓜柄、藤蔓和包装。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 40 厘米约为成年人手长 19 厘米的 2.1 倍，也约为 A4 纸长边 29.7 厘米的 1.35 倍。它比直径约 24 厘米的篮球大 1.67 倍，比直径约 22 厘米的足球大 1.82 倍。与直径约 8 厘米的苹果相比，西瓜直径约为其五倍。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 1.3 纳秒，在时间轴上量级接近「纳秒」。[3]

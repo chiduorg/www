@@ -4,7 +4,9 @@ title: 奥陶纪
 titleEn: Ordovician Period
 dimension: cosmic-time
 category: 地球深时
-summary: 奥陶纪是古生代第二个纪，按ICS 2024/12约从486.85 Ma延续到443.8 Ma；本条按计划取圆整的485 Ma作导航时点，并以纽芬兰Green Point的GSSP作为底界依据。
+summary: >-
+  奥陶纪是古生代第二个纪，按ICS 2024/12约从486.85 Ma延续到443.8 Ma；本条按计划取圆整的485 Ma作导航时点，并以纽芬兰Green
+  Point的GSSP作为底界依据。
 quantity:
   value: 420094564000000000
   unit: s
@@ -18,6 +20,7 @@ related:
   - time.first-fish
   - time.paleozoic
   - time.end-ordovician-extinction
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +31,11 @@ sources:
     url: 'https://www.britannica.com/science/Ordovician-Period'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: Early Life on Earth – Animal Origins
+    url: >-
+      https://naturalhistory.si.edu/education/teaching-resources/life-science/early-life-earth-animal-origins
+    publisher: Smithsonian National Museum of Natural History
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -42,7 +50,8 @@ conditions:
   calendarReferenceYear: 2026
   note: 导航时点取纪的底界，存储秒数只用于时间轴排序。
 uncertainty: >-
-  ICS 2024/12把奥陶纪底界置于486.85 ±1.5 Ma，顶界约443.8 Ma；部分文献与百科圆整为485.4 Ma或485 Ma。本条按计划采用485 Ma作导航值，数值年龄随牙形石带与同位素测年修订。
+  ICS 2024/12把奥陶纪底界置于486.85 ±1.5 Ma，顶界约443.8 Ma；部分文献与百科圆整为485.4 Ma或485
+  Ma。本条按计划采用485 Ma作导航值，数值年龄随牙形石带与同位素测年修订。
 review:
   method: source-check
   date: '2026-11-07'
@@ -50,7 +59,11 @@ review:
     - 核对ICS 2024/12年代表，采用奥陶纪底界486.85 ±1.5 Ma与顶界443.8 Ma，并说明本条导航取485 Ma。
     - 核对Britannica奥陶纪条目，采用Green Point金钉、牙形石标志与奥陶纪末大灭绝的背景说明。
     - 资料核对不代表外部同行评审。
-    - '2026-11-07 来源可访问性核对：https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf 返回可用响应；https://www.britannica.com/science/Ordovician-Period（403） 受站点反爬/限流限制，保留引用但未逐字复核。'
+    - >-
+      2026-11-07
+      来源可访问性核对：https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf
+      返回可用响应；https://www.britannica.com/science/Ordovician-Period（403）
+      受站点反爬/限流限制，保留引用但未逐字复核。
 rights:
   status: rewritten
   note: 依据所列资料新撰，未沿用旧站正文；正文以 CC BY 4.0 提供，引用来源仅用于事实核对
@@ -84,3 +97,7 @@ tags:
 ## 与其他阶段的关系
 
 奥陶纪前接寒武纪的动物门类建立，后接志留纪的礁体与鱼类扩展；陆生植物也在奥陶纪晚期起步，最早的陆生植物孢子记录说明陆地生态系统开始形成。[1][2] 与寒武纪相比，奥陶纪的海洋生态分层更明显，礁和游泳捕食者增多，这使它成为观察多样性如何累积的关键一段。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Smithsonian National Museum of Natural History）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

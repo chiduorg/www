@@ -19,6 +19,7 @@ related:
   - temperature.jet-turbine
   - temperature.incinerator
   - temperature.oven
+  - space.volcano
 reviewStatus: reviewed
 sources:
   - title: 'Automotive Thermoelectric Generator Design Issues'
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/technology/catalytic-converter'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   汽油乘用车排气系统，取接近排气歧管或催化器入口的尾气温度；发动机负荷、转速、空燃比、
   点火时刻、环境温度和测点位置都会改变读数。本条不指冷却液温度、催化器床温或尾管出口温度。
@@ -80,3 +85,5 @@ tags:
 ## 与其他温区的关系
 
 900 K 高于水的沸点 373 K 和汽车冷却液的约 363 K，低于垃圾焚烧炉的 1,273 K，也低于焦炉的约 1,300 K。它大致处在家用烤箱设定与低温工业炉之间，说明汽车尾气虽热，但仍远低于冶金炉的温区。[1]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

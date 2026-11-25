@@ -5,7 +5,7 @@ summary: >-
   哈利法塔官方公布使用 33 万 m³ 混凝土与 3.9 万吨钢筋，按混凝土密度折算结构总质量约 8.5×10⁸ kg。常被引用的 5×10⁸ kg
   来自“相当于 10 万头大象”的比喻，不是材料清单求和。
 dimension: mass
-category: 建筑
+category: 工程与交通
 displayValue: 8.5×10⁸ kg
 quantity:
   value: 850000000
@@ -14,10 +14,12 @@ quantity:
   approximate: true
 grade: B
 related:
+  - space.burj-khalifa
   - mass.empire-state-building
   - mass.eiffel-tower
   - mass.golden-gate-bridge
   - elements.c
+  - time.present
 reviewStatus: reviewed
 review:
   method: source-check
@@ -45,6 +47,14 @@ sources:
     url: 'https://www.ice.org.uk/'
     publisher: Institution of Civil Engineers
     accessed: '2026-11-09'
+  - title: "Burj Khalifa — The Skyscraper Center"
+    url: "https://www.skyscrapercenter.com/building/burj-khalifa/3"
+    publisher: "Council on Vertical Urbanism / The Skyscraper Center"
+    accessed: '2026-11-24'
+  - title: "CTBUH Ratifies Burj Khalifa Height at 828.00 Metres"
+    url: "https://newsletter.ctbuh.org/eblast/BurjKhalifa/BurjKhalifaHeight.html"
+    publisher: "Council on Tall Buildings and Urban Habitat"
+    accessed: '2026-11-24'
 tags:
   - 质量
   - 超高层
@@ -69,6 +79,7 @@ visual:
   color: '#d8b46a'
   scaleMin: -40
   scaleMax: 53
+titleEn: Burj Khalifa
 ---
 ## 这个读数是什么
 
@@ -86,6 +97,26 @@ visual:
 
 8.5×10⁸ kg 约等于 2.3 座帝国大厦，或 5,700 头蓝鲸。[1] 它落在 10⁸ kg 档的上沿，和金门大桥的总质量同一十进位；再往上，就要进入大坝的 10⁹ 到 10¹⁰ kg 区间。
 
+## 材料量估算的边界
+
+官方公布混凝土 33 万立方米、钢筋 3.9 万吨，按密度折算约 8.5×10⁸ 千克；幕墙铝材、钢构件与机电系统没有单列，因此这是结构质量的下限级估算。网上流传的“5×10⁸ 千克”来自大象比喻的反推，不是材料清单求和。[1][S1]
+
+8.5×10⁸ 千克是结构材料估算，不含室内装修、家具、机电设备与人员；建筑运营时的总质量会更高。超高层设计真正关心的是恒载、活载与风荷载的组合，而不是一个总吨位。
+
+哈利法塔的质量还可以按每平方米恒载估算：超高层核心筒与楼板的自重、幕墙与机电荷载分层叠加，8.5×10⁸ 千克是结构总量的量级。
+
 ## 怎么继续走
 
 想看不含钢筋的纯钢框架怎么算，去 mass.empire-state-building；想看更早的铁结构，去 mass.eiffel-tower；想比较桥梁的总质量口径，去 mass.golden-gate-bridge；想理解混凝土与钢筋里的碳，从 elements.c 进入元素轴。
+
+## 重量沿高度分布
+
+哈利法塔的质量不是均匀堆叠：下部混凝土核心筒与桩基承担大部分恒载，上部逐渐收分，幕墙与机电系统占比上升。[2] 结构设计关心的是质量沿高度的分布与重心位置，而不只是总吨位。把 8.5×10⁸ 千克当成一个均匀数字，会忽略它对抗风与地震的影响。
+
+## 五轴对照
+
+在质量轴，哈利法塔约 8.5×10⁸ 千克；在空间轴，高 828 米；在时间轴，2010 年建成；在温度轴，混凝土水化与热胀冷缩影响施工。质量、高度与材料共同决定超高层结构。[1][2]
+
+## 延伸核对
+
+补充的来源 [3]（Council on Vertical Urbanism / The Skyscraper Center）、[4]（Council on Tall Buildings and Urban Habitat） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

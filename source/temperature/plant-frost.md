@@ -19,6 +19,7 @@ related:
   - temperature.lake-freezing
   - temperature.sea-ice
   - temperature.antarctic_min_temp
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: How to Protect Plants from Frost and Freeze
@@ -31,6 +32,10 @@ sources:
       https://anrcatalog.ucanr.edu/sites/default/files/2025-11/PD-11-08-25-Frost.pdf
     publisher: University of California Agriculture and Natural Resources
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 植物组织与叶面
   measurementSite: 叶面、花芽与细胞间隙
@@ -79,3 +84,5 @@ tags:
 ## 与其他温度的关系
 
 271 K 略低于 lake-freezing 的 273.15 K，说明植物组织可以在淡水冰点附近或稍低时受害。它高于 freezer 的约 255 K，也高于 sea-ice 表面的 258 K 附近。与 water-freezing 相比，271 K 不是水的相变点，而是生物组织对低温的综合响应阈值。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

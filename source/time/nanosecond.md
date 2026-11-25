@@ -19,6 +19,7 @@ related:
   - time.millisecond
   - time.second
   - time.present
+  - space.ammonite
 reviewStatus: reviewed
 sources:
   - title: 'The International System of Units (SI): Prefixes'
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.nist.gov/how-do-you-measure-it/how-do-you-measure-second'
     publisher: National Institute of Standards and Technology (NIST)
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: duration
   plot: false
@@ -83,3 +88,7 @@ tags:
 ## 与其他尺度的关系
 
 一毫秒等于一千微秒，一微秒等于一千纳秒，三者构成秒向下的十进阶梯。[1] 纳秒向下连接皮秒与飞秒，向上连接微秒、毫秒；它常用于描述电子学与光学中的快速过程，而人的反应、眨眼等日常尺度则要用毫秒甚至秒来量。阅读“大爆炸后多少秒”时，那是在说绝对时刻；纳秒只说明一段过程持续多短。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]
+
+按同一真空光速计算，光在这段时间内约走 30 厘米，在空间轴上量级接近「菊石壳径」。[3]

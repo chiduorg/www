@@ -17,6 +17,7 @@ related:
   - space.ecoli
   - space.sars-cov-2
   - space.hiv
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/science/bacteriophage'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 透射电子显微镜或冷冻电镜对纯化病毒颗粒测量；负染、固定与脱水会改变颗粒外观，头部并非标准球体。
 uncertainty: >-
   86 nm 是 T4 头部的宽度，不是所有噬菌体的通用直径；噬菌体形态多样，丝状、二十面体与尾状颗粒尺寸差别很大，T4 头部本身也是 120 nm × 86
@@ -77,3 +82,7 @@ tags:
 ## 与其他尺度的关系
 
 86 nm 不到 0.1 μm，约等于红细胞直径的百分之一，也只有大肠杆菌杆长的二十三分之一左右[1]。它比 SARS-CoV-2 颗粒（约 60–140 nm）处于同一量级，却比一个核糖体（约 20–30 nm）大数倍。若把 86 nm 放大到一根头发直径，需要约八百倍；这解释了为什么观察噬菌体必须借助电子显微镜，而不能只靠普通光学显微镜。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 2.9e-7 纳秒，在时间轴上量级接近「纳秒」。[3]

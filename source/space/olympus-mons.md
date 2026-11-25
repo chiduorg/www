@@ -16,6 +16,8 @@ related:
   - space.earth
   - space.moon
   - space.city
+  - mass.earth
+  - temperature.venus-surface
 reviewStatus: reviewed
 sources:
   - title: 'NASA’s Mars Odyssey Captures Huge Volcano, Nears 100,000 Orbits'
@@ -27,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/place/Olympus-Mons'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: olympus-mons
   icon: "\U0001F30B"
@@ -82,3 +88,5 @@ NASA奥德赛任务文章说基底横跨约600公里、高约27公里；Britanni
 ## 与其他尺度的关系
 
 600公里约为珠峰高程8848.86米的68倍，约为台湾本岛南北长394公里的1.5倍。27公里高度约为珠峰高程的3倍。但在火星直径6779公里面前，它仍只是局部火山。[1]
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

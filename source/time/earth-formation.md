@@ -30,6 +30,10 @@ sources:
       https://www.nist.gov/how-do-you-measure-it/how-do-you-know-age-fossils-and-other-old-things
     publisher: NIST
     accessed: '2026-11-04'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: earth-formation
   icon: "\U0001F30D"
@@ -99,3 +103,5 @@ conceptGroup: earth
 ## 接着发生了什么
 
 NASA将今天的地球描述为具有核心、岩石地幔和固体地壳的行星。认识其历史，需要把物质聚集、内部演化以及后来的表面环境分别讨论。你可以沿关联条目走向月球形成假说或早期生命记录；这些是另一组历史问题，并不由一个行星年龄直接给出答案。[1]
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

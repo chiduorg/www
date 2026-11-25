@@ -5,7 +5,7 @@ summary: >-
   HLX-1 是星系 ESO 243-49 中的超亮 X 射线源，被解释为一颗约 3.98×10³⁴ kg 的中等质量黑洞，折合约两万个太阳质量。数值由 X
   射线吸积光度推算，相对不确定度约 40%，只能给量级并视作候选。
 dimension: mass
-category: 黑洞
+category: 恒星与致密天体
 displayValue: 3.98×10³⁴ kg
 quantity:
   value: 3.98e+34
@@ -79,6 +79,7 @@ visual:
   color: '#ff9a4a'
   scaleMin: -40
   scaleMax: 53
+titleEn: HLX-1
 ---
 ## 这个读数是什么
 

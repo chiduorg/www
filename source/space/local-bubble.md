@@ -4,7 +4,9 @@ title: 本地泡
 titleEn: Local Bubble
 dimension: length
 category: 行星与太阳系
-summary: '本地泡是太阳系所在的一片低密度星际介质区域。观测资料至少把它在多数方向上的延展写到约 300 光年，本页以此作为单侧尺度参照，约合 2.84×10¹⁸ 米；它不是泡的直径。'
+summary: >-
+  本地泡是太阳系所在的一片低密度星际介质区域。观测资料至少把它在多数方向上的延展写到约 300 光年，本页以此作为单侧尺度参照，约合 2.84×10¹⁸
+  米；它不是泡的直径。
 quantity:
   value: 2838219141774240
   unit: m
@@ -12,25 +14,31 @@ quantity:
   approximate: true
 displayValue: 至少 2.84 × 10¹⁸ m（300 光年单侧延展）
 related:
+  - mass.earth
+  - temperature.venus-surface
   - space.sun
   - space.milky-way
   - space.oort-cloud
   - space.local-group
-  - space.heliopause
 reviewStatus: reviewed
 sources:
   - title: Local Bubble
     url: 'https://dictionary.obspm.fr/terms/local-bubble/'
-    publisher: Observatoire de Paris — An Etymological Dictionary of Astronomy and Astrophysics
+    publisher: >-
+      Observatoire de Paris — An Etymological Dictionary of Astronomy and
+      Astrophysics
     accessed: '2026-11-08'
-  - title: 'SHIELDS Up! NASA Rocket to Survey Our Solar System''s Windshield'
-    url: 'https://www.nasa.gov/solar-system/shields-up-nasa-rocket-to-survey-our-solar-systems-windshield/'
+  - title: SHIELDS Up! NASA Rocket to Survey Our Solar System's Windshield
+    url: >-
+      https://www.nasa.gov/solar-system/shields-up-nasa-rocket-to-survey-our-solar-systems-windshield/
     publisher: NASA
     accessed: '2026-11-08'
-conditions: >-
-  采用“在多数方向上至少延展 300 光年”的表述，按单侧尺度记录；泡的边界并不规则，各方向距离不同，不能把它当作球形直径或太阳到边界的统一距离。
-uncertainty: >-
-  300 光年是观测给出的下限式表述，不是精确边界；不同方向的边界距离不同，且泡内热气体与周围中性氢的过渡是渐变而非硬边。
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
+conditions: 采用“在多数方向上至少延展 300 光年”的表述，按单侧尺度记录；泡的边界并不规则，各方向距离不同，不能把它当作球形直径或太阳到边界的统一距离。
+uncertainty: 300 光年是观测给出的下限式表述，不是精确边界；不同方向的边界距离不同，且泡内热气体与周围中性氢的过渡是渐变而非硬边。
 review:
   method: source-check
   date: '2026-11-08'
@@ -76,3 +84,5 @@ tags:
 ## 与其他尺度的关系
 
 把本地泡放进尺度序列：奥尔特云外层模型上端约 100,000 au，约合 1.58 光年；本地泡的 300 光年比它大约一百九十倍。再往外，太阳距银心约 2.7 万光年，银河系恒星盘直径约 10 万光年。[1] 本地泡因此位于“太阳系外缘”与“银河系结构”之间，是一个长期缺少锚点的中间尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

@@ -16,6 +16,7 @@ related:
   - time.reionization-epoch
   - time.first-stars
   - time.first-galaxies
+  - space.cmb-surface
 reviewStatus: reviewed
 sources:
   - title: 'Astronomers Spot Distant Galaxy Group Driving Ancient Cosmic Makeover'
@@ -26,6 +27,10 @@ sources:
     url: 'https://arxiv.org/html/1907.06653v1'
     publisher: 'John H. Wise / Georgia Institute of Technology'
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -77,3 +82,5 @@ NASA 的再电离报道说明，第一代恒星和星系的强烈紫外光会电
 ## 与其他尺度的关系
 
 加热时代紧接第一代恒星，与第一代星系形成重叠，并为再电离准备条件。[1][2] 3.5 亿年约为 4 亿年星系锚点的八分之七，说明两个阶段在时间上几乎并排，而不是截然分开。它也比 2.2 亿年的 21 厘米吸收信号更晚；后者记录的是加热尚未普遍的较冷气体，正好与加热时代的开端相接。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

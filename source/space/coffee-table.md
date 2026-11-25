@@ -17,6 +17,7 @@ related:
   - space.table
   - space.chair
   - space.coffee-cup
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: LACK coffee table, white, 118x78 cm — measurements
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.ikea.com/ee/en/p/lack-coffee-table-black-brown-00104291/'
     publisher: IKEA
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为客厅长方形茶几；测量口径为台面长边从一端外缘到另一端外缘的长度，不含桌腿外扩、边缘倒角和运输包装。
 uncertainty: >-
@@ -73,3 +78,14 @@ tags:
 ## 与其他尺度的关系
 
 118 厘米约为成年人手长 20 厘米的 5.9 倍，也约为 A4 纸长边 29.7 厘米的 4 倍。它比 1.8 米的餐桌短 62 厘米，比 70 厘米的 T 恤衣长长 48 厘米。摆在 2.1 米长的三人沙发前，两端各留约 45 厘米，刚好够人侧身走过。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.9 纳秒，在时间轴上量级接近「原子跃迁」。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 1.18 米，换算后是 1.18 米；约 0.694 个成年人身高（1.7 米）。这把尺子只改写单位，不改变量值；它把本条固定在空间轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -18,6 +18,7 @@ related:
   - space.baobab
   - space.palm-tree
   - space.bamboo
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: 'Ginkgo biloba'
@@ -28,6 +29,10 @@ sources:
     url: 'https://nwmissouri.edu/ARBORETUM/tree/ginkgobilboba.htm'
     publisher: Northwest Missouri State University Arboretum
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为成年银杏 Ginkgo biloba；量地面所在水平面到树冠最高枝梢的垂直高度，不含树干倾斜的实际长度、树干直径和冠幅。
 uncertainty: >-
@@ -74,3 +79,7 @@ tags:
 ## 与其他尺度的关系
 
 20 m 与猴面包树高度（20 m）同量级，约为棕榈树高度（15 m）的 1.3 倍，也约为橡树高度（25 m）的八成。它约为人类身高（1.7 m）的 12 倍。在尺度轴上，它处在中型至大型乔木带，向上是巨杉，向下是灌木和草本。它也约为巨杉高度（95 m）的五分之一，还约为标准泳池长度（25 m）的八成。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 66.7 纳秒，在时间轴上量级接近「原子跃迁」。[3]

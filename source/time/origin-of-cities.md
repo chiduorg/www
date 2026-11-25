@@ -32,6 +32,10 @@ sources:
     publisher: Encyclopaedia Britannica
     url: 'https://www.britannica.com/place/Sumer'
     accessed: '2026-11-06'
+  - title: The Origins of Agriculture in the Near East
+    url: 'https://profiles.si.edu/display/sro_109973'
+    publisher: Smithsonian / Current Anthropology
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -89,3 +93,7 @@ tags:
 ## 城市与文字、国家
 
 城市使大量人口依赖仓储、税收与分工，文字最初正与账目和行政管理纠缠在一起。城市也催生货币、法律与纪念性建筑，并扩大对周边土地、水源和劳动力的争夺。[1][2] 从农业村落到城市，并不是简单的规模放大，而是社会关系被重新组织的过程。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Smithsonian / Current Anthropology）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

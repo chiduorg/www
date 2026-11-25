@@ -17,6 +17,7 @@ related:
   - space.car
   - space.human
   - space.bus
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: Yamaha MT-15 V2.0 brochure
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.yamaha-motor.co.jp/mc/lineup/pdf/Catalog_MT09_2019.pdf'
     publisher: Yamaha Motor Co., Ltd.
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为常见跨骑式两轮摩托车；测量口径为前轮最前缘到后轮或尾部最外缘的整车全长，不含后视镜、边箱、尾箱与加装风挡；不适用于踏板车、巡航车或三轮摩托车。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 2.1 米约等于 1.17 辆 1.8 米自行车，也约等于 0.47 辆 4.5 米家用轿车。与 1.7 米的人类身高相比，摩托车长度约为其 1.24 倍；与 0.2 米的全手长度相比约为其 10.5 倍。它还是 2.032 米标准门高的约 1.03 倍，推车进门时几乎与门洞同宽。与 1.8 米自行车并排时，摩托车约多出 30 厘米。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 7.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

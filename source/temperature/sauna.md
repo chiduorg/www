@@ -18,6 +18,7 @@ related:
   - temperature.oven
   - temperature.boiling-water
   - temperature.human-body-temperature
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -30,6 +31,10 @@ sources:
     url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12889280/pdf/ms9-88-2174.pdf'
     publisher: PMC / National Library of Medicine
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 空气
   measurementSite: 桑拿房内、接近坐姿头部高度的温度计读数
@@ -78,3 +83,5 @@ tags:
 ## 与其他温度的关系
 
 80 ℃ 高于 hot-spring 的约 40 ℃，低于 boiling-water 的 100 ℃，与 oven 的 180 ℃ 设定相差约 100 ℃。它处在人体能短时耐受、但组织温度仍受调节的窄区间内。把 sauna 与 boiling-water 并列时，必须强调前者是空气、后者是水；介质不同，热容、导热和烫伤风险都不同。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

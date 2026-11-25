@@ -5,7 +5,7 @@ summary: >-
   玛丽皇后二号满载排水量约 79,000 t，即约 7.9×10⁷ kg。常被引用的 1.49×10⁵ 是容积总吨（GT），不是质量；把 GT
   与排水量混用，会让这艘邮轮“重”了近一倍。
 dimension: mass
-category: 船舶
+category: 工程与交通
 displayValue: 7.9×10⁷ kg
 quantity:
   value: 79000000
@@ -45,6 +45,10 @@ sources:
     url: 'https://www.ice.org.uk/'
     publisher: Institution of Civil Engineers
     accessed: '2026-11-09'
+  - title: 'SI base unit: kilogram (kg)'
+    url: 'https://www.bipm.org/en/si-base-units/kilogram'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 tags:
   - 质量
   - 邮轮
@@ -69,6 +73,7 @@ visual:
   color: '#e6c17c'
   scaleMin: -40
   scaleMax: 53
+titleEn: Queen Mary 2
 ---
 ## 这个读数是什么
 
@@ -89,3 +94,5 @@ visual:
 ## 怎么继续走
 
 想看越线的军舰，去 mass.aircraft-carrier；想看更大的商船，去 mass.cargo-ship；想比较轨道上的工程物，去 mass.iss；想从浮力与海水密度回到行星尺度，去 space.earth。
+
+本条的质量单位与换算依据 BIPM 对千克的定义。[3]

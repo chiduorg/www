@@ -5,7 +5,7 @@ summary: >-
   希格斯玻色子静质量 125.20 GeV/c²，合 2.2319×10⁻²⁵ kg。它是标准模型里唯一自旋为零的基本粒子，2012 年在 LHC
   上被发现；它的质量不由任何对称性预言，只能测量。
 dimension: mass
-category: 基本粒子
+category: 粒子与基本常数
 displayValue: 2.232×10⁻²⁵ kg（125.20 GeV/c²）
 quantity:
   value: 2.2319e-25
@@ -71,6 +71,7 @@ visual:
   color: '#9cc8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Higgs boson
 ---
 ## 这个读数是什么
 

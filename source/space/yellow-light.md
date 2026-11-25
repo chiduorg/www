@@ -17,6 +17,7 @@ related:
   - space.red-light
   - space.ultraviolet
   - space.sun
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: yellow
@@ -27,6 +28,10 @@ sources:
     url: 'https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html'
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 对象为黄光波段的电磁波波长；介质取真空，空气中的数值差异很小；570纳米是代表值，不是黄光范围端点。
 uncertainty: 黄的波长范围常写为570–580纳米，不同资料对黄与绿、黄与橙的边界有差异；本条取570纳米作为代表值。
 review:
@@ -73,3 +78,7 @@ Britannica 把黄光波长写成570至580纳米，并说明它位于可见光谱
 ## 与其他尺度的关系
 
 570纳米比绿光代表值532纳米长约7%，比红光代表值700纳米短约19%。[1][2] 黄光位于可见光中段偏长波侧，向外是橙红，向内是绿青。它接近人眼明视觉响应较强的区域，因此同样辐射功率下常显得更亮；这是眼睛响应与波长的共同结果，不代表单个光子能量更高。在可见光谱中，黄光常被用作连接绿与橙的参照；但边界没有统一硬线，跨资料比较时需先统一波段定义。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.0000019 纳秒，在时间轴上量级接近「纳秒」。[3]

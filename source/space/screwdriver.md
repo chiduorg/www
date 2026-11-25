@@ -17,6 +17,7 @@ related:
   - space.wrench
   - space.knife
   - space.hand
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Klein Tools 600-4 — screwdriver specifications
@@ -27,6 +28,10 @@ sources:
     url: 'https://data.kleintools.com/sites/all/product_assets/documents/brochures/klein/kleintools_datasheet_6054b.pdf'
     publisher: Klein Tools
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为 4 英寸杆长的常见手动螺丝刀；测量口径为手柄尾端到刀头尖端的整体长度，不含刀头插入螺钉后的深度。
 uncertainty: >-
@@ -73,3 +78,7 @@ tags:
 ## 与其他尺度的关系
 
 20 厘米约为成年人手长 19 厘米的 1.1 倍，与一支约 19 厘米的铅笔相近。它比一把约 30 厘米长的锤子短约三分之一，约为 A4 纸长边 29.7 厘米的三分之二。与一把约 30 厘米长的菜刀相比，螺丝刀整体长度约短 10 厘米。与约 25 厘米长的活动扳手相比，螺丝刀短约 4 厘米。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.67 纳秒，在时间轴上量级接近「纳秒」。[3]

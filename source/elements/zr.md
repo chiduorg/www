@@ -43,6 +43,10 @@ sources:
     url: 'https://www.rsc.org/periodic-table/element/40/zirconium'
     publisher: Royal Society of Chemistry
     accessed: '2026-11-09'
+  - title: 'Periodic Table of Elements'
+    url: 'https://iupac.org/what-we-do/periodic-table-of-elements/'
+    publisher: 'International Union of Pure and Applied Chemistry (IUPAC)'
+    accessed: '2026-11-25'
 tags: [元素, 第五周期, d 区, 锆]
 rights:
   status: rewritten
@@ -76,3 +80,5 @@ rights:
 ## 怎么继续走
 
 往回看钇（/entry/elements/y/），能看到 4d 第一次开启时的样子；往前看铌（/entry/elements/nb/），能看到 5s 让出一枚电子、4d 加到四枚的反常。想把 4d 与 5s 的能量次序弄清楚，去读电子排布解释页。
+
+本条的原子量口径参考 IUPAC 周期表与标准原子量。[3]

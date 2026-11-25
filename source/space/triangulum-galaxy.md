@@ -18,6 +18,8 @@ related:
   - space.local-group
   - space.andromeda-distance
   - space.milky_way_disk
+  - mass.milky-way
+  - time.first-galaxies
 reviewStatus: reviewed
 sources:
   - title: Hubble takes gigantic image of the Triangulum Galaxy — heic1901
@@ -32,6 +34,14 @@ sources:
     url: 'https://ssd.jpl.nasa.gov/astro_par.html'
     publisher: NASA / JPL Solar System Dynamics
     accessed: '2026-11-06'
+  - title: "Milky Way Galaxy"
+    url: "https://www.britannica.com/place/Milky-Way-Galaxy"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
+  - title: "NASA Science"
+    url: "https://science.nasa.gov/"
+    publisher: "NASA"
+    accessed: '2026-11-24'
 legacy:
   id: triangulum-galaxy
   icon: "\U0001F30C"
@@ -88,3 +98,23 @@ tags:
 ## 与其他尺度的关系
 
 M33直径约6万光年，放进本星系群约1000万光年的跨度里只占0.6%。[1][2] 它与银河系相距约300万光年，比两个星系直径之和大一个数量级以上。与可观测宇宙相比，M33连一个像素级别的细节都算不上，却是少数能用肉眼看到的河外星系。
+
+## 星系大小不是一个数
+
+M33的“6万光年”是盘的光学/近红外横向尺度，不是暗物质晕的外缘。按中性氢气体、恒星分布或引力透镜测出的范围会不同；星系没有硬表面，边界取决于示踪物和阈值。[1][2] 因此同一星系可以同时有“盘直径”“气体盘直径”“暗晕半径”几个数，不能只留一个。
+
+## 距离阶梯怎样定标
+
+M33 的约 300 万光年距离不是用一把尺子直接量出来的，而是由造父变星、红巨星分支顶端等标准烛光逐级校准，再与近邻星系的几何测量交叉检验。[1][2] 距离定了，角尺寸才能换成 6 万光年；若距离误差变大，横向尺度也会跟着变。因此“星系多大”与“星系多远”在测量上是一对搭档，不能只引用其中一个。Hubble 图像本身不直接给出距离。
+
+## 五轴对照
+
+在空间轴，M33是10²⁰米级的盘；在质量轴，银河系与M33的总质量差别要用旋转曲线和暗物质口径比较；在时间轴，它属于本星系群中的演化成员，不是第一代星系；在温度轴，星系盘中的气体温度与恒星形成区各不相同。把“6万光年”与“300万光年”分开，是读星系图的第一步。[1][2]
+
+## 本星系群的第三大成员
+
+三角座星系直径约 6 万光年，是本星系群中仅次于仙女座与银河系的第三大旋涡星系。它比银河系小，但距离约 270 万光年，仍可用造父变星与视差阶梯测距。把“本星系群”只记成银河系与仙女座，会漏掉这个重要的第三方参照。[1][S1]
+
+## 延伸核对
+
+补充的来源 [4]（Encyclopaedia Britannica）、[5]（NASA） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

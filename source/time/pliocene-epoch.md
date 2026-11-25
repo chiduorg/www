@@ -18,6 +18,7 @@ related:
   - time.pleistocene-epoch
   - time.hominins-emerge
   - time.first-humans
+  - space.earth
 reviewStatus: reviewed
 sources:
   - title: 'International Chronostratigraphic Chart, version 2024/12'
@@ -28,6 +29,12 @@ sources:
     url: 'https://www.britannica.com/science/Pliocene-Epoch'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: >-
+      Oldest evidence of abundant C4 grasses and habitat heterogeneity in
+      eastern Africa
+    url: 'https://www.science.org/doi/10.1126/science.abq2834'
+    publisher: Science
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -78,3 +85,7 @@ tags:
 ## 与其他阶段的关系
 
 上新世承接中新世的冷却与草原扩张，结束于更新世冰期旋回开始之前。它的起点与中新世终点相接，终点与更新世起点重合；这些界线是同一套地层框架中的层级界面，不是独立事件。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（Science）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

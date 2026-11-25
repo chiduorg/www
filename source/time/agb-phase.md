@@ -22,9 +22,11 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
-    - "本轮复核：结构、引用编号与时间换算完整；quantity.value 与 conditions 的 timeBasis/换算公式逐条核对。"
-    - "来源可达性：Britannica 对自动请求返回 403，有头浏览器抽验可读；NASA、IUPAC、LIGO 直接返回 2xx。本轮未逐页重读全文，沿用条目既有 accessed 记录。"
-    - "reviewed 指结构与来源口径核对，不是外部同行评审；参考锚点、chronology 与 uncertainty 按正文保留。"
+    - 本轮复核：结构、引用编号与时间换算完整；quantity.value 与 conditions 的 timeBasis/换算公式逐条核对。
+    - >-
+      来源可达性：Britannica 对自动请求返回 403，有头浏览器抽验可读；NASA、IUPAC、LIGO 直接返回
+      2xx。本轮未逐页重读全文，沿用条目既有 accessed 记录。
+    - reviewed 指结构与来源口径核对，不是外部同行评审；参考锚点、chronology 与 uncertainty 按正文保留。
 sources:
   - title: s-process
     url: 'https://www.britannica.com/science/s-process'
@@ -34,6 +36,14 @@ sources:
     url: 'https://science.nasa.gov/universe/stars/'
     publisher: National Aeronautics and Space Administration
     accessed: '2026-11-09'
+  - title: 'PubChem Element Summary: Strontium'
+    url: 'https://pubchem.ncbi.nlm.nih.gov/element/38'
+    publisher: U.S. National Library of Medicine
+    accessed: '2026-11-24'
+  - title: 'Periodic Table: Strontium'
+    url: 'https://www.rsc.org/periodic-table/element/38/strontium'
+    publisher: Royal Society of Chemistry
+    accessed: '2026-11-24'
 chronology:
   status: reference
   plot: true
@@ -43,7 +53,9 @@ conditions:
   yearsAfterBigBang: 1000000000
   conversion: yearsAfterBigBang × secondsPerYear
   note: 取大爆炸后约 10 亿年作低质量恒星进入 AGB 的时代参考，不代表某颗星的 AGB 起点。
-uncertainty: 恒星质量越低，到达 AGB 所需时间越长；0.8–8 倍太阳质量的恒星可在约 1–10 吉年内进入该阶段，最早的 AGB 星可能更早出现。秒数只用于时间轴排序。
+uncertainty: >-
+  恒星质量越低，到达 AGB 所需时间越长；0.8–8 倍太阳质量的恒星可在约 1–10 吉年内进入该阶段，最早的 AGB
+  星可能更早出现。秒数只用于时间轴排序。
 visual:
   template: stellar-cycle
   scene: time.object
@@ -56,7 +68,7 @@ tags:
   - s 过程
 rights:
   status: rewritten
-  note: "依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。"
+  note: 依据所列资料重新撰写；第三方来源仅用于事实核对，不随正文再许可。
 ---
 ## 它是什么
 
@@ -77,3 +89,11 @@ AGB 不是超新星爆发，它抛射物质靠星风而不是爆炸。s 过程�
 ## 与其他阶段的关系
 
 AGB 阶段连接第一代恒星、重元素富集与太阳系丰度：锶、钇、锆、钡、镧、铈、铅、铋的相当一部分来自这里。[1][2] 它与中子星并合的 r 过程互补，一个负责“慢”，一个负责“快”。元素轴的来源页把这条路径单独列出，正是因为 s 过程元素在太阳系丰度曲线上形成了可辨认的峰。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（U.S. National Library of Medicine）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（Royal Society of Chemistry）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

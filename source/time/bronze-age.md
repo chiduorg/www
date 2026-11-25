@@ -29,6 +29,14 @@ sources:
     url: 'https://www.britannica.com/topic/Bronze-Age'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: The Origins of Writing
+    url: 'https://www.metmuseum.org/toah/hd/wrtg/hd_wrtg.htm'
+    publisher: The Metropolitan Museum of Art
+    accessed: '2026-11-24'
+  - title: The Origins of Agriculture in the Near East
+    url: 'https://profiles.si.edu/display/sro_109973'
+    publisher: Smithsonian / Current Anthropology
+    accessed: '2026-11-24'
 legacy:
   id: bronze-age
   icon: ⚒️
@@ -103,3 +111,11 @@ tags:
 ## 与其他阶段的关系
 
 青铜时代前接新石器时代的农业村落，后接铁器时代；它与早期文字、城市国家和远距离贸易相互交织。青铜之后，铁器因原料更广、工具更硬而逐步普及，但转变同样因地区而异。[1][2]
+
+## 来源交叉核对
+
+本条的时间锚点另用 [3]（The Metropolitan Museum of Art）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。
+
+## 来源交叉核对
+
+本条的时间锚点另用 [4]（Smithsonian / Current Anthropology）交叉核对；不同来源对年代边界、纪年换算或历史分期的处理可能不同，正文以标注的口径为准。

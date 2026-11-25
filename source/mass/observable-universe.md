@@ -5,7 +5,7 @@ summary: >-
   可观测宇宙内普通物质（重子）的总质量约 1.5×10⁵³ kg，只算重子，不含暗物质与暗能量。数值由宇宙微波背景的 Ω_b
   与临界密度、共动体积换算，相对不确定度约 2%。
 dimension: mass
-category: 宇宙尺度
+category: 星系与宇宙
 displayValue: 1.5×10⁵³ kg
 quantity:
   value: 1.5e+53
@@ -46,7 +46,7 @@ sources:
     publisher: NASA
     accessed: '2026-11-09'
   - title: ESA Planck
-    url: 'https://www.esa.int/Science_Exploration/Space_Science/Planck'
+    url: 'https://sci.esa.int/web/planck'
     publisher: European Space Agency
     accessed: '2026-11-09'
   - title: NASA/IPAC Extragalactic Database
@@ -79,6 +79,7 @@ visual:
   color: '#c9d8ff'
   scaleMin: -40
   scaleMax: 53
+titleEn: Ordinary matter in the observable universe
 ---
 ## 这个读数是什么
 

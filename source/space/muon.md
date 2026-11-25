@@ -17,6 +17,7 @@ related:
   - space.pion
   - space.neutrino
   - space.proton
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: 2022 CODATA adjustment — complete listing
@@ -27,6 +28,10 @@ sources:
     url: 'https://www.britannica.com/science/muon'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   采用 2022 CODATA 的 μ 子质量与康普顿波长，按 λ̄ = ħ/(mμc) 换算为约化康普顿波长；该长度是量子理论中的波长尺度，不是 μ
   子的物理半径或可见尺寸。适用于自由 μ 子，不适用于把 μ 子当成有硬边的小球。
@@ -76,3 +81,7 @@ tags:
 ## 与其他尺度的关系
 
 μ 子的约化康普顿波长与 τ 子、电子和中微子同属“粒子量子长度”序列：质量越大，波长越短。[1] 把 1.87 飞米放在核子尺度旁，会发现它与质子电荷半径同量级，但这只是数值巧合，物理含义不同。继续阅读 τ 子、电子康普顿波长与 π 介子，可比较不同粒子的质量与量子尺度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 6.2e-15 纳秒，在时间轴上量级接近「强相互作用时间」。[3]

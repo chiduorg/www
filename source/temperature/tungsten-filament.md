@@ -17,6 +17,7 @@ related:
   - temperature.silicon-melting
   - temperature.iron-melting
   - temperature.sun-surface
+  - space.sun
 reviewStatus: reviewed
 sources:
   - title: >-

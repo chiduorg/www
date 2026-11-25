@@ -20,6 +20,7 @@ related:
   - temperature.dilution-refrigerator
   - temperature.absolute-zero
   - temperature.helium-3-superfluid
+  - space.cmb-surface
 reviewStatus: reviewed
 sources:
   - title: >-
@@ -32,6 +33,10 @@ sources:
     url: 'https://www.nist.gov/quantum-information-science/sensors-magnetic-world'
     publisher: NIST
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: squid-working-temperature
   icon: "\U0001F52C"
@@ -91,3 +96,5 @@ SQUID 是超导量子干涉仪，核心是包含约瑟夫森结的超导环。�
 ## 与其他温区的关系
 
 4.2 K 低于铌的超导转变温度约 9.2 K，因此铌器件仍处于超导态；它高于液氦-4 的 2.17 K 超流点，也远高于稀释制冷的 10 mK 和 421 μK 核退磁实验。与液氮温区的高温超导器件相比，4.2 K 属于传统低温超导的工作段。[1][2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

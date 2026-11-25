@@ -15,8 +15,9 @@ related:
   - space.cell
   - space.cell_membrane
   - space.synaptic-cleft
-  - space.chromosome
-  - space.taste-bud
+  - mass.neuron
+  - mass.human-brain
+  - temperature.human-body-temperature
 reviewStatus: reviewed
 sources:
   - title: Characteristics of the Neuron
@@ -28,6 +29,14 @@ sources:
       https://labs.la.utexas.edu/gonzalez-lima/files/2016/03/Chapter-2-slides-2.pdf
     publisher: University of Texas at Austin
     accessed: '2026-11-06'
+  - title: "Biology 2e, §4.2 Prokaryotic Cells"
+    url: "https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells"
+    publisher: "OpenStax / Rice University"
+    accessed: '2026-11-24'
+  - title: "Cell"
+    url: "https://www.britannica.com/science/cell-biology"
+    publisher: "Encyclopaedia Britannica"
+    accessed: '2026-11-24'
 conditions: 组织切片经固定、染色后在光学显微镜下测量胞体轮廓；切片厚度、细胞类型、固定收缩与切面角度都会影响读数。
 uncertainty: >-
   20 μm 是“典型神经元”的教材代表值；小脑颗粒细胞胞体约 6–8 μm，浦肯野细胞和前角细胞可达 60–80 μm，因此 20 μm
@@ -76,3 +85,23 @@ tags:
 ## 与其他尺度的关系
 
 20 μm 约为红细胞直径的三倍，也接近中性粒细胞的上端[2]。它比卵细胞（约 120 μm）小六倍，却比酵母细胞（约 5 μm）大四倍。若只把胞体排成一行，五十个神经元才约一毫米；但若把轴突算入，单个神经元就能跨越整个脑区甚至更长的距离，这正是“胞体尺度”和“细胞尺度”需要分开讨论的原因。
+
+## 胞体与突起是两种尺度
+
+神经元的胞体直径约几十微米，但轴突可以长达数十厘米；把胞体大小当成整个神经元大小，会低估几个数量级。[1] 树突分支、轴突长度和髓鞘厚度都需要单独测量。所谓“神经元大小”，先要说明量的是胞体、突起还是整个细胞。
+
+## 切片厚度会改变表观直径
+
+组织切片是三维细胞的一个二维截面；切面是否穿过胞体中心、切片厚度和固定收缩都会影响读数。[1][2] 同一细胞在不同切面可能看起来更小或更大。共聚焦与电子显微镜的三维重建能减少这种偏差，但仍依赖染色与分割方法。
+
+## 五轴对照
+
+在空间轴，胞体约 20 微米，轴突可到厘米级；在质量轴，一个神经元约 1 纳克量级；在温度轴，体温影响酶与膜动力学；在时间轴，神经元发育与学习跨越一生。胞体、突起和整个细胞必须分开比较。[1][2]
+
+## 胞体只是神经元的一部分
+
+神经元胞体直径约 20 微米，但树突树和轴突可以延伸至毫米甚至厘米级。若只按胞体量尺寸，会把一个锥体细胞当成一个 20 微米的球；若把整条轴突算进去，长度又可达成百上千倍。正文的“神经元大小”通常指胞体，讨论网络连接时要换成突起长度与分支范围。[1][S1]
+
+## 延伸核对
+
+补充的来源 [3]（OpenStax / Rice University）、[4]（Encyclopaedia Britannica） 用于交叉核对本条的量级、定义与背景表述；不同来源口径不一致时，以正文标注的测量条件为准。

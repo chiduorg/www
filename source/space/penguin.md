@@ -18,6 +18,7 @@ related:
   - space.condor
   - space.salmon
   - space.blue-whale
+  - time.atomic-transition
 reviewStatus: reviewed
 sources:
   - title: emperor penguin
@@ -28,6 +29,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Aptenodytes_forsteri/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-07'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为帝企鹅（Aptenodytes forsteri）；量站立时脚底到头顶的高度，不是仰卧体长、体重或游泳时的身长；1.2 m取在成年个体101–132 cm的范围内，不是最大个体。
 uncertainty: >-
@@ -76,3 +81,7 @@ Britannica的帝企鹅条目说，个体可长到约1.3米（4.3英尺），体�
 ## 与其他尺度的关系
 
 1.2米约为0.7个1.7米高的人，比2.5米高的非洲鸵鸟矮1.3米，比1米长的大西洋鲑长0.2米，是0.1米蜂鸟体长的12倍。[1][2] 在尺度轴上，它处在“一米级”动物的中段：向上是鸵鸟和人，向下是鲑、蜂鸟和蛙。用站立高，才能把它与用体长、翼展描述的动物区分开。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 4.0 纳秒，在时间轴上量级接近「原子跃迁」。[3]

@@ -17,6 +17,7 @@ related:
   - space.dust-mite
   - space.human
   - space.scorpion
+  - time.nanosecond
 reviewStatus: reviewed
 sources:
   - title: Spider
@@ -27,6 +28,10 @@ sources:
     url: 'https://animaldiversity.org/accounts/Araneus_diadematus/'
     publisher: Animal Diversity Web / University of Michigan
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: 体长为头胸部加腹部沿身体纵轴的直线长度，不含向外伸展的步足、触肢和纺器；以十字园蛛成年雌蛛15 mm为参照，不是全部蜘蛛或同种雄蛛的定值。
 uncertainty: >-
   Britannica给出蜘蛛全类群体长0.5–90 mm；ADW记录十字园蛛雌蛛6.5–20 mm、雄蛛5.5–13 mm。本条取15
@@ -75,3 +80,7 @@ Britannica 的 Spider 条目给出蜘蛛全类群体长约 0.5–90 毫米，跨
 ## 与其他尺度的关系
 
 15 毫米的十字园蛛约为家蚊体长的数倍，比蚂蚁大，但明显小于蜜蜂和人手。[1][2] 在尺度轴上，它处在“毫米到厘米”的生物带：向上是蜜蜂、蝴蝶和蛙，向下是尘螨、花粉和细胞。蜘蛛的体长与足展之差，也说明同一动物可以有多个互不替代的长度。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 0.050 纳秒，在时间轴上量级接近「纳秒」。[3]

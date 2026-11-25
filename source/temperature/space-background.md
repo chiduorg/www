@@ -16,11 +16,12 @@ quantity:
   uncertainty: 0.002
 displayValue: 约 2.725 K（−270.425 °C）
 related:
+  - space.moon
+  - mass.helium-nucleus
   - temperature.cmb
   - temperature.neutrino-background-temp
   - temperature.absolute-zero
   - temperature.hawking-temperature
-  - temperature.liquid-hydrogen
 reviewStatus: reviewed
 sources:
   - title: 'FIRAS overview: cosmic microwave background spectrum'
@@ -32,7 +33,7 @@ sources:
     publisher: NASA WMAP Science Team
     accessed: '2026-11-06'
   - title: Planck
-    url: 'https://www.esa.int/Science_Exploration/Space_Science/Planck'
+    url: 'https://sci.esa.int/web/planck'
     publisher: European Space Agency
     accessed: '2026-11-06'
 conditions: >-
@@ -87,3 +88,10 @@ COBE 卫星的 FIRAS 仪器测量全天微波光谱，把不同频率的强度�
 ## 与其他温区的关系
 
 2.725 K 高于 0 K，也高于中微子背景约 1.95 K 的理论温度；它低于液氢的 20.3 K、液氮的 77.4 K 和恒星表面温度。与霍金温度相比，恒星级黑洞的约 10⁻⁹ K 比 CMB 低得多，因此它们吸收背景辐射的速率高于霍金辐射。[1][2] 这些比较必须区分背景辐射、物质和理论温度。
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 2.725 K，即 -270.4 ℃（按 T/K−273.15 换算）；约为宇宙微波背景（2.7 K）的 1.01 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10⁰ 量级附近。
+
+读图时先看量级，再看倍数：10⁰ 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

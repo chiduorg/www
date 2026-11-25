@@ -19,6 +19,7 @@ related:
   - temperature.plant-frost
   - temperature.permafrost
   - temperature.deep-ocean
+  - space.human
 reviewStatus: reviewed
 sources:
   - title: What is the Cryosphere?
@@ -29,6 +30,10 @@ sources:
     url: 'https://www.britannica.com/science/ice'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   medium: 淡水
   measurementSite: 湖面表层
@@ -77,3 +82,12 @@ NSIDC 的冰圈资料把淡水的冻结点写作 0 ℃，并对比海水约 −1
 ## 与其他温度的关系
 
 273.15 K 与 water-freezing 的参考值相同，但这里强调湖面这一位置。它高于 plant-frost 的 271 K，低于 sea-ice 表面的 258 K。与 deep-ocean 的接近 277 K 相比，湖面在冬季可以更冷，而湖底仍较暖，说明同一个水体内部存在明显温度分层。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]
+
+<!-- deepen-v1:scale-anchor -->
+## 尺度锚点补充
+
+本条取 273.1 K，即 0 ℃（按 T/K−273.15 换算）；约为冰点（273.1 K）的 1 倍。这把尺子只改写单位，不改变量值；它把本条固定在温度轴的 10² 量级附近。
+
+读图时先看量级，再看倍数：10² 的相邻刻度相差十倍，本条与同轴相邻条目的差距，往往比标题里的形容词更能说明位置。这个补充只用于尺度定位；若要与别的条目比较，先确认两者量的是同一属性，再换算到同一单位。换轴比较时，长度、时间、温度、质量与原子序数各有自己的零点和单位，不能把数值直接互换；原始口径与不确定度仍以 [1] 为准。

@@ -18,6 +18,7 @@ related:
   - time.eoarchean
   - time.first-atmosphere
   - time.first-life
+  - space.solar-system
 reviewStatus: reviewed
 sources:
   - title: Geodynamo, Solar Wind, and Magnetopause 3.4 to 3.45 Billion Years Ago
@@ -28,6 +29,10 @@ sources:
     url: 'https://www.earth.ox.ac.uk/article/researchers-find-oldest-undisputed-evidence-earths-magnetic-field'
     publisher: University of Oxford
     accessed: '2026-11-07'
+  - title: 'SI base unit: second (s)'
+    url: 'https://www.bipm.org/en/si-base-units/second'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 chronology:
   status: reference
   plot: true
@@ -85,3 +90,5 @@ tags:
 ## 与其他阶段的关系
 
 地磁场与地球形成后的核幔分异、大气逃逸和海洋保存相关，也被认为影响早期生命的辐射环境。[1][2] 它上承地球形成与大碰撞，下接早期大气和最早生命记录；但“磁场已存在”与“生命已出现”是两个独立的证据链。
+
+本条的时间单位与换算依据 BIPM 对秒的定义。[3]

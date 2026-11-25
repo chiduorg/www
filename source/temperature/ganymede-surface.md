@@ -20,6 +20,7 @@ related:
   - temperature.titan-surface
   - temperature.absolute-zero
   - temperature.water-freezing
+  - space.moon
 reviewStatus: reviewed
 sources:
   - title: Temperature Map of Ganymede
@@ -30,6 +31,10 @@ sources:
     url: 'https://nssdc.gsfc.nasa.gov/planetary/factsheet/galileanfact_table.html'
     publisher: NASA NSSDC
     accessed: '2026-11-07'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions:
   body: 木卫三
   location: 冰壳表面，赤道至极区
@@ -85,3 +90,5 @@ tags:
 ## 与其他温区的关系
 
 110 K 高于木卫二表面约 102 K，低于木卫四表面约 134 K，也高于冥王星表面 33–55 K 的区间。[1] 它低于水的冰点 273.15 K，更低于室温，却高于液氮的 77.4 K。与木星云顶约 165 K 相比，木卫三表面更冷，说明卫星冰壳与巨行星高层大气是两套不同的热环境；继续比较时，应把表面温度、内部温度和大气温度分开看待。[2]
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

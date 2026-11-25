@@ -29,6 +29,10 @@ sources:
     url: 'https://svs.gsfc.nasa.gov/14374'
     publisher: NASA Goddard Space Flight Center
     accessed: '2026-11-08'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 conditions: >-
   对象为辐射主导早期宇宙的整体热浴；取大爆炸后约 10⁻⁶ 秒的宇宙时；1.5×10¹³ K 为按 10⁻⁴ 秒参照外推的取整量级，对应约 1 GeV。
 uncertainty: >-
@@ -76,3 +80,5 @@ tags:
 ## 与其他尺度的关系
 
 在温度轴上线，10¹³ K 位于 10¹² K 量级的 10⁻⁴ 秒温度之上、10¹⁴ K 量级的 10⁻⁸ 秒温度之下，也与夸克—胶子等离子体的模型温标相近。[1] 向更高温走，还有约 10¹⁵ K 的电弱过渡与 10³² K 的普朗克温度；向低温走，则是强子形成、核合成与复合，最终落到今天 2.725 K 的微波背景。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

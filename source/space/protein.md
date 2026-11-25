@@ -29,6 +29,10 @@ sources:
     url: 'https://www.britannica.com/science/protein'
     publisher: Encyclopaedia Britannica
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: protein
   icon: "\U0001F52C"
@@ -84,3 +88,5 @@ tags:
 ## 与其他尺度的关系
 
 5.5纳米的血红蛋白处在纳米尺度，远小于一个典型细胞（约20微米）；它由多条氨基酸链折叠而成，又比单个氨基酸分子大。[1] 一个红细胞内部包含大量血红蛋白分子；从分子到细胞，尺度跨越了三个数量级。
+
+本条的米制长度单位与换算依据 BIPM 对米的定义。[3]

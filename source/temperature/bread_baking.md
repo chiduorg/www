@@ -30,6 +30,10 @@ sources:
       https://www.kingarthurbaking.com/recipes/no-knead-crusty-white-bread-recipe
     publisher: King Arthur Baking
     accessed: '2026-11-06'
+  - title: 'SI base unit: kelvin (K)'
+    url: 'https://www.bipm.org/en/si-base-units/kelvin'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: bread_baking
   icon: "\U0001F35E"
@@ -87,3 +91,5 @@ tags:
 ## 与其他温区的关系
 
 491.5 K 高于水的常压沸点 373.15 K，也高于乙醇沸点 351.5 K；它与新鲜棕榈液油的烟点约 493 K 几乎相同，但两者一个是设备设定，一个是油样测试，不能直接等同。它低于铝的熔点 933.473 K，也低于纸张受热着火所涉及的表面温度。烘焙温区正好落在“水沸腾、油脂冒烟、食材褐变”共同作用的范围。
+
+本条的热力学温度单位与换算依据 BIPM 对开尔文的定义。[3]

@@ -16,6 +16,7 @@ related:
   - space.higgs-boson
   - space.w-z-boson
   - space.quark
+  - time.nuclear-timescale
 reviewStatus: reviewed
 sources:
   - title: 2025 PDG Review — Quarks
@@ -30,6 +31,10 @@ sources:
     url: 'https://physics.nist.gov/cgi-bin/cuu/Value?hbarev'
     publisher: NIST / CODATA
     accessed: '2026-11-06'
+  - title: 'SI base unit: metre (m)'
+    url: 'https://www.bipm.org/en/si-base-units/metre'
+    publisher: 'International Bureau of Weights and Measures (BIPM)'
+    accessed: '2026-11-25'
 legacy:
   id: top-quark
   icon: "\U0001F535"
@@ -85,3 +90,5 @@ PDG 2025 给出直接测量质量 172.56±0.31 GeV，另有从截面提取的 16
 ## 与其他尺度的关系
 
 它比质子（约 1 飞米）小三个数量级，属于亚原子尺度中的高质量端；与 W、Z 及希格斯玻色子条目比较时，应先按各自质量换算，并统一采用普通或约化康普顿波长口径。[1][3] 这些比较都在“质量换算波长”的同一口径下进行。它虽是质量最大的夸克，特征波长仍比普朗克长度大约十七个数量级，两者不可混为一谈。
+
+按 BIPM 定义的真空光速 299,792,458 m/s 计算，光穿过这一长度约需 3.8e-18 纳秒，在时间轴上量级接近「强相互作用时间」。[4]
