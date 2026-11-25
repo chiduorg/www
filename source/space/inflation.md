@@ -21,7 +21,7 @@ reviewStatus: reviewed
 sources:
   - title: The cosmic microwave background and inflation
     url: >-
-      https://sci.esa.int/web/planck/The_cosmic_microwave_background_and_inflation
+      https://www.esa.int/Science_Exploration/Space_Science/Planck/The_cosmic_microwave_background_and_inflation
     publisher: ESA / Planck
     accessed: '2026-11-06'
   - title: How Was the Universe Born?
@@ -43,6 +43,7 @@ review:
   method: source-check
   date: '2026-11-06'
   notes:
+    - 1.4.0 未定量复核：维持 undetermined。现有来源对「暴胀是一类描述极早期宇宙快速膨胀的理论图景。它把微小初始扰动与后来宇宙结构联系起来，但模型时间、视界、扰动波长与宇宙整体大小不能混为一种长度。」只给范围/定性描述或缺少可复核的中心值、单位与条件，未把模型估计包装成测量值；待出现独立测量后再定量。
     - 本轮按五节结构重写；用WebFetch核对ESA、NIST与Britannica页面，区分已观测的微波背景与仍待检验的暴胀图景。
     - 不把模型给出的时长或放大倍数当作宇宙整体尺寸的测量。
   originalQuantity:

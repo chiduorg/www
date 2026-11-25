@@ -199,6 +199,25 @@
     "visual": "field"
   },
   {
+    "id": "space.planck-x3",
+    "title": "普朗克长度 × 3：一次尺度换算",
+    "titleEn": "Planck Length × 3",
+    "summary": "以「普朗克长度」的 1.616×10^-35 m 为基准，按 ×3 换算得到 4.849×10^-35 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "量子与粒子",
+    "displayValue": "4.849×10^-35 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 4.848765e-35,
+    "unit": "m",
+    "measure": "尺度换算量：space.planck 的 1.616×10^-35 m × 3",
+    "measureLabel": "由「普朗克长度」按 ×3 换算的参照值",
+    "visual": "field"
+  },
+  {
     "id": "time.grand-unification-epoch",
     "title": "大统一假说的高能时代",
     "titleEn": "Grand Unification as an Early-Universe Hypothesis",
@@ -279,6 +298,25 @@
     "visual": "mass-scale"
   },
   {
+    "id": "mass.electron-x3",
+    "title": "电子：9.109×10⁻³¹ kg，粒子物理最精确的质量之一 × 3：一次尺度换算",
+    "titleEn": "Electron × 3",
+    "summary": "以「电子：9.109×10⁻³¹ kg，粒子物理最精确的质量之一」的 9.109×10^-31 kg 为基准，按 ×3 换算得到 2.733×10^-30 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "粒子与基本常数",
+    "displayValue": "2.733×10^-30 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 2.73281511417e-30,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.electron 的 9.109×10^-31 kg × 3",
+    "measureLabel": "由「电子：9.109×10⁻³¹ kg，粒子物理最精确的质量之一」按 ×3 换算的参照值",
+    "visual": ""
+  },
+  {
     "id": "mass.up-quark",
     "title": "上夸克：2.16 MeV 的流质量，不能孤立称重",
     "titleEn": "Up quark",
@@ -317,6 +355,25 @@
     "measure": "PDG 2024 MS-bar 流质量 m_d(2 GeV) = 4.67（+0.48/−0.17）MeV/c²；无法孤立观测",
     "measureLabel": "PDG 2024 MS-bar 流质量 m_d(2 GeV) = 4.67（+0.48/−0.17）MeV/c²；无法孤立观测",
     "visual": "mass-scale"
+  },
+  {
+    "id": "mass.neutron-x0p01",
+    "title": "中子：比质子重 0.14%，却决定了自由中子的寿命 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Neutron × 0.01",
+    "summary": "以「中子：比质子重 0.14%，却决定了自由中子的寿命」的 1.675×10^-27 kg 为基准，按 ×0.01 换算得到 1.675×10^-29 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "粒子与基本常数",
+    "displayValue": "1.675×10^-29 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 1.67492750056e-29,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.neutron 的 1.675×10^-27 kg × 0.01",
+    "measureLabel": "由「中子：比质子重 0.14%，却决定了自由中子的寿命」按 ×0.01 换算的参照值",
+    "visual": ""
   },
   {
     "id": "mass.strange-quark",
@@ -579,6 +636,25 @@
     "visual": "mass-scale"
   },
   {
+    "id": "mass.water-molecule-x10",
+    "title": "水分子：2.99×10⁻²⁶ kg，最常见的三原子分子 × 10：一次尺度换算",
+    "titleEn": "Water molecule × 10",
+    "summary": "以「水分子：2.99×10⁻²⁶ kg，最常见的三原子分子」的 2.992×10^-26 kg 为基准，按 ×10 换算得到 2.992×10^-25 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "生命与人体",
+    "displayValue": "2.992×10^-25 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 2.9915000000000003e-25,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.water-molecule 的 2.992×10^-26 kg × 10",
+    "measureLabel": "由「水分子：2.99×10⁻²⁶ kg，最常见的三原子分子」按 ×10 换算的参照值",
+    "visual": ""
+  },
+  {
     "id": "mass.top-quark",
     "title": "顶夸克：3.076×10⁻²⁵ kg，标准模型里最重的基本粒子",
     "titleEn": "Top quark",
@@ -636,6 +712,25 @@
     "measure": "duration-reference",
     "measureLabel": "强相互作用介导的强子/核过程特征时间",
     "visual": "nuclear-network"
+  },
+  {
+    "id": "mass.hemoglobin-x0p1",
+    "title": "血红蛋白四聚体：1.07×10⁻²² kg，红细胞里的氧运输机器 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Hemoglobin tetramer × 0.1",
+    "summary": "以「血红蛋白四聚体：1.07×10⁻²² kg，红细胞里的氧运输机器」的 1.070×10^-22 kg 为基准，按 ×0.1 换算得到 1.070×10^-23 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "生命与人体",
+    "displayValue": "1.070×10^-23 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 1.0702999999999999e-23,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.hemoglobin 的 1.070×10^-22 kg × 0.1",
+    "measureLabel": "由「血红蛋白四聚体：1.07×10⁻²² kg，红细胞里的氧运输机器」按 ×0.1 换算的参照值",
+    "visual": ""
   },
   {
     "id": "mass.hemoglobin",
@@ -798,6 +893,25 @@
     "visual": "wave"
   },
   {
+    "id": "space.top-quark-x3",
+    "title": "顶夸克约化康普顿波长 × 3：一次尺度换算",
+    "titleEn": "Top Quark Compton Wavelength × 3",
+    "summary": "以「顶夸克约化康普顿波长」的 1.144×10^-18 m 为基准，按 ×3 换算得到 3.431×10^-18 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "量子与粒子",
+    "displayValue": "3.431×10^-18 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 3.4305803268428376e-18,
+    "unit": "m",
+    "measure": "尺度换算量：space.top-quark 的 1.144×10^-18 m × 3",
+    "measureLabel": "由「顶夸克约化康普顿波长」按 ×3 换算的参照值",
+    "visual": "wave"
+  },
+  {
     "id": "space.higgs-boson",
     "title": "希格斯玻色子康普顿波长",
     "titleEn": "Higgs Boson Compton Wavelength",
@@ -838,6 +952,25 @@
     "visual": "mass-scale"
   },
   {
+    "id": "mass.bacterium-x0p1",
+    "title": "大肠杆菌：1.0×10⁻¹⁵ kg，一个细胞的湿重均值 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Escherichia coli × 0.1",
+    "summary": "以「大肠杆菌：1.0×10⁻¹⁵ kg，一个细胞的湿重均值」的 1.000×10^-15 kg 为基准，按 ×0.1 换算得到 1.000×10^-16 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "生命与人体",
+    "displayValue": "1.000×10^-16 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 1.0000000000000001e-16,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.bacterium 的 1.000×10^-15 kg × 0.1",
+    "measureLabel": "由「大肠杆菌：1.0×10⁻¹⁵ kg，一个细胞的湿重均值」按 ×0.1 换算的参照值",
+    "visual": ""
+  },
+  {
     "id": "space.tau",
     "title": "τ子",
     "titleEn": "Tau",
@@ -876,6 +1009,25 @@
     "measure": "单个线粒体湿重均值；湿重、密度按 1.1 g/cm³ 估算，按长约 1 µm、直径约 0.5 µm 的圆柱体计，不确定度约 ±40%",
     "measureLabel": "单个线粒体湿重均值；湿重、密度按 1.1 g/cm³ 估算，按长约 1 µm、直径约 0.5 µm 的圆柱体计，不确定度约 ±40%",
     "visual": "mass-scale"
+  },
+  {
+    "id": "space.pion-x0p5",
+    "title": "π介子（派介子） × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Pion (Pi Meson) × 0.5",
+    "summary": "以「π介子（派介子）」的 1.414×10^-15 m 为基准，按 ×0.5 换算得到 7.069×10^-16 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "量子与粒子",
+    "displayValue": "7.069×10^-16 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 7.069084653270654e-16,
+    "unit": "m",
+    "measure": "尺度换算量：space.pion 的 1.414×10^-15 m × 0.5",
+    "measureLabel": "由「π介子（派介子）」按 ×0.5 换算的参照值",
+    "visual": "wave"
   },
   {
     "id": "space.neutron",
@@ -1118,6 +1270,25 @@
     "visual": "nucleus"
   },
   {
+    "id": "space.proton-x10",
+    "title": "质子与中子 × 10：一次尺度换算",
+    "titleEn": "Proton & Neutron × 10",
+    "summary": "以「质子与中子」的 1.000×10^-15 m 为基准，按 ×10 换算得到 1.000×10^-14 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "原子与分子",
+    "displayValue": "1.000×10^-14 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 1.0000000000000002e-14,
+    "unit": "m",
+    "measure": "尺度换算量：space.proton 的 1.000×10^-15 m × 10",
+    "measureLabel": "由「质子与中子」按 ×10 换算的参照值",
+    "visual": "nucleus"
+  },
+  {
     "id": "mass.sperm-cell",
     "title": "人类精子细胞：2.0×10⁻¹⁴ kg，大部分质量是水",
     "titleEn": "Human sperm cell",
@@ -1156,6 +1327,25 @@
     "measure": "单个成熟人类红细胞湿重均值；由约 90 fL 的平均体积与约 1.1 g/cm³ 的密度换算，个体差异约 ±15%",
     "measureLabel": "单个成熟人类红细胞湿重均值；由约 90 fL 的平均体积与约 1.1 g/cm³ 的密度换算，个体差异约 ±15%",
     "visual": "mass-scale"
+  },
+  {
+    "id": "space.iron-nucleus-x100",
+    "title": "铁-56原子核 × 100：一次尺度换算",
+    "titleEn": "Iron-56 Nucleus × 100",
+    "summary": "以「铁-56原子核」的 3.738×10^-15 m 为基准，按 ×100 换算得到 3.738×10^-13 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "原子与分子",
+    "displayValue": "3.738×10^-13 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 3.7377e-13,
+    "unit": "m",
+    "measure": "尺度换算量：space.iron-nucleus 的 3.738×10^-15 m × 100",
+    "measureLabel": "由「铁-56原子核」按 ×100 换算的参照值",
+    "visual": "nucleus"
   },
   {
     "id": "mass.neuron",
@@ -1218,6 +1408,25 @@
     "visual": "particle-reaction"
   },
   {
+    "id": "space.positronium-x0p01",
+    "title": "电子偶素 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Positronium × 0.01",
+    "summary": "以「电子偶素」的 1.058×10^-10 m 为基准，按 ×0.01 换算得到 1.058×10^-12 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "原子与分子",
+    "displayValue": "1.058×10^-12 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 1.058354421088e-12,
+    "unit": "m",
+    "measure": "尺度换算量：space.positronium 的 1.058×10^-10 m × 0.01",
+    "measureLabel": "由「电子偶素」按 ×0.01 换算的参照值",
+    "visual": "atom"
+  },
+  {
     "id": "mass.human-cell",
     "title": "人体细胞：2.0×10⁻¹² kg，以 HeLa 细胞为代表的湿重均值",
     "titleEn": "Human cell",
@@ -1277,6 +1486,25 @@
     "visual": "mass-scale"
   },
   {
+    "id": "space.electron-compton-x30",
+    "title": "电子康普顿波长 × 30：一次尺度换算",
+    "titleEn": "Electron Compton Wavelength × 30",
+    "summary": "以「电子康普顿波长」的 2.426×10^-12 m 为基准，按 ×30 换算得到 7.279×10^-11 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "原子与分子",
+    "displayValue": "7.279×10^-11 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 7.27893070614e-11,
+    "unit": "m",
+    "measure": "尺度换算量：space.electron-compton 的 2.426×10^-12 m × 30",
+    "measureLabel": "由「电子康普顿波长」按 ×30 换算的参照值",
+    "visual": "wave"
+  },
+  {
     "id": "space.hydrogen-molecule",
     "title": "氢分子",
     "titleEn": "Hydrogen Molecule",
@@ -1293,6 +1521,25 @@
     "unit": "m",
     "measure": "分子直径",
     "measureLabel": "分子直径",
+    "visual": "molecule"
+  },
+  {
+    "id": "space.water-molecule-x0p5",
+    "title": "水分子 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Water Molecule × 0.5",
+    "summary": "以「水分子」的 1.514×10^-10 m 为基准，按 ×0.5 换算得到 7.572×10^-11 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "原子与分子",
+    "displayValue": "7.572×10^-11 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 7.572e-11,
+    "unit": "m",
+    "measure": "尺度换算量：space.water-molecule 的 1.514×10^-10 m × 0.5",
+    "measureLabel": "由「水分子」按 ×0.5 换算的参照值",
     "visual": "molecule"
   },
   {
@@ -1738,6 +1985,25 @@
     "measure": "石膏单斜晶胞短轴",
     "measureLabel": "石膏单斜晶胞短轴",
     "visual": "crystal-lattice"
+  },
+  {
+    "id": "space.dna-x0p3",
+    "title": "DNA 双螺旋 × 0.3（缩小）：一次尺度换算",
+    "titleEn": "DNA Double Helix × 0.3",
+    "summary": "以「DNA 双螺旋」的 2.000×10^-09 m 为基准，按 ×0.3 换算得到 6.000×10^-10 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "原子与分子",
+    "displayValue": "6.000×10^-10 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 6e-10,
+    "unit": "m",
+    "measure": "尺度换算量：space.dna 的 2.000×10^-09 m × 0.3",
+    "measureLabel": "由「DNA 双螺旋」按 ×0.3 换算的参照值",
+    "visual": ""
   },
   {
     "id": "space.mos2-monolayer",
@@ -2360,6 +2626,25 @@
     "visual": "mass-scale"
   },
   {
+    "id": "space.helium-atom-x100",
+    "title": "氦原子 × 100：一次尺度换算",
+    "titleEn": "Helium Atom × 100",
+    "summary": "以「氦原子」的 2.800×10^-10 m 为基准，按 ×100 换算得到 2.800×10^-08 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "原子与分子",
+    "displayValue": "2.800×10^-08 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 2.8000000000000003e-8,
+    "unit": "m",
+    "measure": "尺度换算量：space.helium-atom 的 2.800×10^-10 m × 100",
+    "measureLabel": "由「氦原子」按 ×100 换算的参照值",
+    "visual": "atom"
+  },
+  {
     "id": "space.synaptic-cleft",
     "title": "突触间隙",
     "titleEn": "Synaptic Cleft",
@@ -2580,6 +2865,25 @@
     "visual": "cryo-instrument"
   },
   {
+    "id": "temperature.bose-einstein-x1p5",
+    "title": "玻色-爱因斯坦凝聚 × 1.5：一次尺度换算",
+    "titleEn": "Bose–Einstein condensation × 1.5",
+    "summary": "以「玻色-爱因斯坦凝聚」的 1.700×10^-07 K 为基准，按 ×1.5 换算得到 2.550×10^-07 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "极低温",
+    "displayValue": "2.550×10^-07 K（约 -273.15 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 2.55e-7,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.bose-einstein 的 1.700×10^-07 K × 1.5",
+    "measureLabel": "由「玻色-爱因斯坦凝聚」按 ×1.5 换算的参照值",
+    "visual": "cryo-instrument"
+  },
+  {
     "id": "space.uv-a",
     "title": "UV-A 波长",
     "titleEn": "UV-A Wavelength",
@@ -2698,6 +3002,45 @@
     "measure": "真空波长（黄光代表值，570 nm）",
     "measureLabel": "真空波长（黄光代表值，570 nm）",
     "visual": "wave"
+  },
+  {
+    "id": "time.atomic-transition-x60",
+    "title": "原子跃迁 × 60：一次尺度换算",
+    "titleEn": "Atomic Transition × 60",
+    "summary": "以「原子跃迁」的 1.000×10^-08 s 为基准，按 ×60 换算得到 6.000×10^-07 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "6.000×10^-07 s",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 6e-7,
+    "unit": "s",
+    "measure": "尺度换算量：time.atomic-transition 的 1.000×10^-08 s × 60",
+    "measureLabel": "由「原子跃迁」按 ×60 换算的参照值",
+    "visual": "quantum-field"
+  },
+  {
+    "id": "temperature.hawking-temperature-x100",
+    "title": "霍金温度 × 100：一次尺度换算",
+    "titleEn": "Hawking temperature × 100",
+    "summary": "以「霍金温度」的 6.200×10^-09 K 为基准，按 ×100 换算得到 6.200×10^-07 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "极低温",
+    "displayValue": "6.200×10^-07 K（约 -273.15 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 6.2e-7,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.hawking-temperature 的 6.200×10^-09 K × 100",
+    "measureLabel": "由「霍金温度」按 ×100 换算的参照值",
+    "visual": "compact-star"
   },
   {
     "id": "space.red-light",
@@ -3060,6 +3403,25 @@
     "visual": "tissue-section"
   },
   {
+    "id": "temperature.laser-cooling-x10",
+    "title": "激光冷却 × 10：一次尺度换算",
+    "titleEn": "Laser cooling × 10",
+    "summary": "以「激光冷却」的 1.000×10^-06 K 为基准，按 ×10 换算得到 1.000×10^-05 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "极低温",
+    "displayValue": "1.000×10^-05 K（约 -273.15 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 0.000009999999999999999,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.laser-cooling 的 1.000×10^-06 K × 10",
+    "measureLabel": "由「激光冷却」按 ×10 换算的参照值",
+    "visual": "cryo-instrument"
+  },
+  {
     "id": "space.aluminum-alloy",
     "title": "铝合金晶粒直径",
     "titleEn": "Aluminium alloy grain diameter",
@@ -3360,6 +3722,25 @@
     "visual": "microbe"
   },
   {
+    "id": "space.virus-x1000",
+    "title": "病毒 × 1000：一次尺度换算",
+    "titleEn": "Virus × 1000",
+    "summary": "以「病毒」的 1.000×10^-07 m 为基准，按 ×1000 换算得到 1.000×10^-04 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "生命与人体",
+    "displayValue": "1.000×10^-04 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 0.00009999999999999999,
+    "unit": "m",
+    "measure": "尺度换算量：space.virus 的 1.000×10^-07 m × 1000",
+    "measureLabel": "由「病毒」按 ×1000 换算的参照值",
+    "visual": ""
+  },
+  {
     "id": "space.hair",
     "title": "头发丝",
     "titleEn": "Human Hair",
@@ -3478,6 +3859,25 @@
     "measure": "人成熟卵母细胞的直径，所引综述记充分生长的人卵母细胞约 120 μm",
     "measureLabel": "人成熟卵母细胞的直径，所引综述记充分生长的人卵母细胞约 120 μm",
     "visual": "microbe"
+  },
+  {
+    "id": "space.dust-mite-x0p3",
+    "title": "尘螨 × 0.3（缩小）：一次尺度换算",
+    "titleEn": "Dust Mite × 0.3",
+    "summary": "以「尘螨」的 5.000×10^-04 m 为基准，按 ×0.3 换算得到 1.500×10^-04 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "生命与人体",
+    "displayValue": "1.500×10^-04 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 0.00015,
+    "unit": "m",
+    "measure": "尺度换算量：space.dust-mite 的 5.000×10^-04 m × 0.3",
+    "measureLabel": "由「尘螨」按 ×0.3 换算的参照值",
+    "visual": "arthropod"
   },
   {
     "id": "space.alveolus",
@@ -4159,6 +4559,25 @@
     "visual": "sphere"
   },
   {
+    "id": "temperature.cmb-x0p01",
+    "title": "宇宙微波背景辐射 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Cosmic microwave background × 0.01",
+    "summary": "以「宇宙微波背景辐射」的 2.725 K 为基准，按 ×0.01 换算得到 0.02725 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与宇宙极端",
+    "displayValue": "0.02725 K（约 -273.123 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 0.02725,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.cmb 的 2.725 K × 0.01",
+    "measureLabel": "由「宇宙微波背景辐射」按 ×0.01 换算的参照值",
+    "visual": "radiation-field"
+  },
+  {
     "id": "space.paper-clip",
     "title": "回形针长度",
     "titleEn": "Paper Clip Length",
@@ -4217,6 +4636,25 @@
     "measure": "time-after-big-bang-model-reference",
     "measureLabel": "模型条件下的宇宙时代参考",
     "visual": "particle-reaction"
+  },
+  {
+    "id": "temperature.liquid-helium-x0p01",
+    "title": "液氦沸点 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Liquid helium normal boiling point × 0.01",
+    "summary": "以「液氦沸点」的 4.22 K 为基准，按 ×0.01 换算得到 0.0422 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "极低温",
+    "displayValue": "0.0422 K（约 -273.108 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 0.0422,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.liquid-helium 的 4.22 K × 0.01",
+    "measureLabel": "由「液氦沸点」按 ×0.01 换算的参照值",
+    "visual": "phase-vessel"
   },
   {
     "id": "space.golf-ball",
@@ -4397,6 +4835,26 @@
     "measure": "子实体直径（最宽处的直线距离）",
     "measureLabel": "子实体直径（最宽处的直线距离）",
     "visual": "sphere"
+  },
+  {
+    "id": "time.breath-x0p016666666666666666",
+    "title": "呼吸周期 × 0.0166667（缩小）：一次尺度换算",
+    "titleEn": "Breathing Cycle × 0.0166667",
+    "summary": "以「呼吸周期」的 4 s 为基准，按 ×0.0166667 换算得到 0.0666667 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "0.0666667 s",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 0.06666666666666667,
+    "unit": "s",
+    "measure": "尺度换算量：time.breath 的 4 s × 0.0166667",
+    "measureLabel": "由「呼吸周期」按 ×0.0166667 换算的参照值",
+    "visual": "scientific-instrument"
   },
   {
     "id": "space.tennis-ball",
@@ -6178,6 +6636,25 @@
     "visual": "whale"
   },
   {
+    "id": "space.running-shoe-x2",
+    "title": "运动鞋外底长 × 2：一次尺度换算",
+    "titleEn": "Running Shoe Outsole Length × 2",
+    "summary": "以「运动鞋外底长」的 0.29 m 为基准，按 ×2 换算得到 0.58 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "日常与人造",
+    "displayValue": "0.58 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 0.58,
+    "unit": "m",
+    "measure": "尺度换算量：space.running-shoe 的 0.29 m × 2",
+    "measureLabel": "由「运动鞋外底长」按 ×2 换算的参照值",
+    "visual": "field"
+  },
+  {
     "id": "space.violin",
     "title": "小提琴琴身长度",
     "titleEn": "Violin Length",
@@ -6457,6 +6934,44 @@
     "visual": ""
   },
   {
+    "id": "elements.h-2",
+    "title": "氘：氘是氢的稳定重同位素，原子核含一个质子一个中子",
+    "titleEn": "Deuterium",
+    "summary": "氘的原子序数 Z=1、质量数 A=2，稳定；氘是氢的稳定重同位素，原子核含一个质子一个中子；天然氢中约 0.0156% 是氘，重水就是氘替代氢的水。",
+    "category": "同位素",
+    "displayValue": "Z = 1 · 氘（A = 2）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 1,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=2",
+    "measureLabel": "氘的原子序数与质量数口径",
+    "visual": ""
+  },
+  {
+    "id": "elements.h-3",
+    "title": "氚：氚是氢的放射性同位素，半衰期约 12.32 年，β⁻ 衰",
+    "titleEn": "Tritium",
+    "summary": "氚的原子序数 Z=1、质量数 A=3，12.32 年；氚是氢的放射性同位素，半衰期约 12.32 年，β⁻ 衰变后变成氦-3；它的低能β辐射穿透力弱，但吸入或摄入后仍需防护。",
+    "category": "同位素",
+    "displayValue": "Z = 1 · 氚（A = 3）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 1,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=3",
+    "measureLabel": "氚的原子序数与质量数口径",
+    "visual": ""
+  },
+  {
     "id": "space.coral",
     "title": "珊瑚群体直径",
     "titleEn": "Coral colony diameter",
@@ -6615,6 +7130,25 @@
     "measure": "多年冻土活动层厚度示例",
     "measureLabel": "多年冻土活动层厚度示例",
     "visual": "terrain"
+  },
+  {
+    "id": "space.pterosaur-x0p1",
+    "title": "翼龙翼展 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Pterosaur wingspan × 0.1",
+    "summary": "以「翼龙翼展」的 10 m 为基准，按 ×0.1 换算得到 1 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "生命与人体",
+    "displayValue": "1 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 1,
+    "unit": "m",
+    "measure": "尺度换算量：space.pterosaur 的 10 m × 0.1",
+    "measureLabel": "由「翼龙翼展」按 ×0.1 换算的参照值",
+    "visual": "whale"
   },
   {
     "id": "space.radio-wave",
@@ -6833,6 +7367,25 @@
     "measure": "男款32码牛仔裤外缝裤长",
     "measureLabel": "男款32码牛仔裤外缝裤长",
     "visual": "device"
+  },
+  {
+    "id": "temperature.helium-4-lambda-point-x0p5",
+    "title": "氦-4 λ 点 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Helium-4 lambda point × 0.5",
+    "summary": "以「氦-4 λ 点」的 2.177 K 为基准，按 ×0.5 换算得到 1.0885 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "极低温",
+    "displayValue": "1.0885 K（约 -272.061 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 1.0885,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.helium-4-lambda-point 的 2.177 K × 0.5",
+    "measureLabel": "由「氦-4 λ 点」按 ×0.5 换算的参照值",
+    "visual": "thermometer"
   },
   {
     "id": "space.chimpanzee",
@@ -7575,6 +8128,44 @@
     "visual": ""
   },
   {
+    "id": "elements.he-3",
+    "title": "氦-3：氦-3 含两个质子一个中子，是稳定的轻同位素",
+    "titleEn": "Helium-3",
+    "summary": "氦-3的原子序数 Z=2、质量数 A=3，稳定；氦-3 含两个质子一个中子，是稳定的轻同位素；天然氦中丰度只有约 0.0002%，在极低温下会出现超流等量子行为。",
+    "category": "同位素",
+    "displayValue": "Z = 2 · 氦-3（A = 3）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 2,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=3",
+    "measureLabel": "氦-3的原子序数与质量数口径",
+    "visual": ""
+  },
+  {
+    "id": "elements.he-4",
+    "title": "氦-4：氦-4 是天然氦的绝对主成分，原子核与α粒子相同",
+    "titleEn": "Helium-4",
+    "summary": "氦-4的原子序数 Z=2、质量数 A=4，稳定；氦-4 是天然氦的绝对主成分，原子核与α粒子相同；它在 2.17 K 附近进入超流态，是低温物理的基础工质。",
+    "category": "同位素",
+    "displayValue": "Z = 2 · 氦-4（A = 4）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 2,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=4",
+    "measureLabel": "氦-4的原子序数与质量数口径",
+    "visual": ""
+  },
+  {
     "id": "space.african-lion",
     "title": "非洲狮头体长",
     "titleEn": "African Lion Head-Body Length",
@@ -8114,6 +8705,25 @@
     "visual": "whale"
   },
   {
+    "id": "temperature.human-body-temperature-x0p01",
+    "title": "人体体温 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Human body temperature × 0.01",
+    "summary": "以「人体体温」的 310.15 K 为基准，按 ×0.01 换算得到 3.1015 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "常温",
+    "displayValue": "3.1015 K（约 -270.048 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 3.1014999999999997,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.human-body-temperature 的 310.15 K × 0.01",
+    "measureLabel": "由「人体体温」按 ×0.01 换算的参照值",
+    "visual": ""
+  },
+  {
     "id": "temperature.helium-3-boiling",
     "title": "氦-3 沸点",
     "titleEn": "Helium-3 normal boiling point",
@@ -8294,6 +8904,26 @@
     "visual": "whale"
   },
   {
+    "id": "time.protein-folding-x3600",
+    "title": "蛋白质折叠 × 3600：一次尺度换算",
+    "titleEn": "Protein Folding × 3600",
+    "summary": "以「蛋白质折叠」的 0.001 s 为基准，按 ×3600 换算得到 3.6 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "3.6 s",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 3.6,
+    "unit": "s",
+    "measure": "尺度换算量：time.protein-folding 的 0.001 s × 3600",
+    "measureLabel": "由「蛋白质折叠」按 ×3600 换算的参照值",
+    "visual": "microbial-study"
+  },
+  {
     "id": "elements.be",
     "title": "铍：第 4 个质子把 2s 填满，第二周期从金属一侧转向共价",
     "titleEn": "Beryllium",
@@ -8391,6 +9021,25 @@
     "unit": "m",
     "measure": "全长（吻端到尾尖）",
     "measureLabel": "全长（吻端到尾尖）",
+    "visual": "whale"
+  },
+  {
+    "id": "space.saber-toothed-cat-x2",
+    "title": "剑齿虎体长 × 2：一次尺度换算",
+    "titleEn": "Sabre-toothed cat body length × 2",
+    "summary": "以「剑齿虎体长」的 2 m 为基准，按 ×2 换算得到 4 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "生命与人体",
+    "displayValue": "4 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 4,
+    "unit": "m",
+    "measure": "尺度换算量：space.saber-toothed-cat 的 2 m × 2",
+    "measureLabel": "由「剑齿虎体长」按 ×2 换算的参照值",
     "visual": "whale"
   },
   {
@@ -8573,6 +9222,25 @@
     "visual": ""
   },
   {
+    "id": "elements.c-14",
+    "title": "碳-14：碳-14 的半衰期约 5,700 年，定年上限通常约 5",
+    "titleEn": "Carbon-14",
+    "summary": "碳-14的原子序数 Z=6、质量数 A=14，5,700 年；碳-14 的半衰期约 5,700 年，定年上限通常约 5 万年的量级；它测的是生物死亡后碳交换停止的时间，不是岩石年龄。",
+    "category": "同位素",
+    "displayValue": "Z = 6 · 碳-14（A = 14）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 6,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=14",
+    "measureLabel": "碳-14的原子序数与质量数口径",
+    "visual": ""
+  },
+  {
     "id": "space.anaconda",
     "title": "成年雌性亚马逊森蚺全长",
     "titleEn": "Adult Female Green Anaconda Total Length",
@@ -8591,6 +9259,26 @@
     "measure": "成年雌性从吻端到尾尖的全长",
     "measureLabel": "成年雌性从吻端到尾尖的全长",
     "visual": "whale"
+  },
+  {
+    "id": "time.minute-x0p1",
+    "title": "一分钟 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "One Minute × 0.1",
+    "summary": "以「一分钟」的 60 s 为基准，按 ×0.1 换算得到 6 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "6 s",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 6,
+    "unit": "s",
+    "measure": "尺度换算量：time.minute 的 60 s × 0.1",
+    "measureLabel": "由「一分钟」按 ×0.1 换算的参照值",
+    "visual": "chronometer"
   },
   {
     "id": "space.jwst-mirror",
@@ -9175,6 +9863,25 @@
     "visual": ""
   },
   {
+    "id": "temperature.niobium-superconducting-transition-x2",
+    "title": "铌超导转变 × 2：一次尺度换算",
+    "titleEn": "Niobium superconducting transition × 2",
+    "summary": "以「铌超导转变」的 9.2 K 为基准，按 ×2 换算得到 18.4 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "低温",
+    "displayValue": "18.4 K（约 -254.75 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 18.4,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.niobium-superconducting-transition 的 9.2 K × 2",
+    "measureLabel": "由「铌超导转变」按 ×2 换算的参照值",
+    "visual": "superconducting-sample"
+  },
+  {
     "id": "elements.k",
     "title": "钾：第 19 个质子绕开 3d，先把 4s 占住",
     "titleEn": "Potassium",
@@ -9193,6 +9900,44 @@
     "measure": "原子序数（Z）",
     "measureLabel": "原子序数（Z）",
     "visual": ""
+  },
+  {
+    "id": "elements.k-40",
+    "title": "钾-40：钾-40 大约每 100 个原子中有 89 个β⁻ 衰变",
+    "titleEn": "Potassium-40",
+    "summary": "钾-40的原子序数 Z=19、质量数 A=40，12.5 亿年；钾-40 大约每 100 个原子中有 89 个β⁻ 衰变成钙-40，约 11 个电子俘获成氩-40；两条分支让钾-氩与氩-氩定年成为可能。",
+    "category": "同位素",
+    "displayValue": "Z = 19 · 钾-40（A = 40）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 19,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=40",
+    "measureLabel": "钾-40的原子序数与质量数口径",
+    "visual": ""
+  },
+  {
+    "id": "space.jwst-mirror-x3",
+    "title": "韦布主镜 × 3：一次尺度换算",
+    "titleEn": "James Webb Space Telescope Primary Mirror × 3",
+    "summary": "以「韦布主镜」的 6.5 m 为基准，按 ×3 换算得到 19.5 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "日常与人造",
+    "displayValue": "19.5 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 19.5,
+    "unit": "m",
+    "measure": "尺度换算量：space.jwst-mirror 的 6.5 m × 3",
+    "measureLabel": "由「韦布主镜」按 ×3 换算的参照值",
+    "visual": "mirror"
   },
   {
     "id": "elements.ca",
@@ -9395,6 +10140,26 @@
     "visual": ""
   },
   {
+    "id": "time.second-x24",
+    "title": "一秒 × 24：一次尺度换算",
+    "titleEn": "One Second × 24",
+    "summary": "以「一秒」的 1 s 为基准，按 ×24 换算得到 24 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "24 s",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 24,
+    "unit": "s",
+    "measure": "尺度换算量：time.second 的 1 s × 24",
+    "measureLabel": "由「一秒」按 ×24 换算的参照值",
+    "visual": "chronometer"
+  },
+  {
     "id": "temperature.neon-triple-point",
     "title": "氖三相点",
     "titleEn": "Neon triple point on ITS-90",
@@ -9515,6 +10280,25 @@
     "visual": ""
   },
   {
+    "id": "elements.fe-56",
+    "title": "铁-56：铁-56 是天然铁中占比最高的同位素，核结合能约 8.7",
+    "titleEn": "Iron-56",
+    "summary": "铁-56的原子序数 Z=26、质量数 A=56，稳定；铁-56 是天然铁中占比最高的同位素，核结合能约 8.79 MeV/核子；铁峰附近继续聚变不再释放能量，恒星核心因此失去支撑。",
+    "category": "同位素",
+    "displayValue": "Z = 26 · 铁-56（A = 56）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 26,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=56",
+    "measureLabel": "铁-56的原子序数与质量数口径",
+    "visual": ""
+  },
+  {
     "id": "elements.co",
     "title": "钴：第 27 个质子让 3d 开始成对，电离能不升反降",
     "titleEn": "Cobalt",
@@ -9572,6 +10356,25 @@
     "unit": "Z",
     "measure": "原子序数（Z）",
     "measureLabel": "原子序数（Z）",
+    "visual": ""
+  },
+  {
+    "id": "elements.ni-62",
+    "title": "镍-62：镍-62 的每核子结合能约 8.7947 MeV，略高于",
+    "titleEn": "Nickel-62",
+    "summary": "镍-62的原子序数 Z=28、质量数 A=62，稳定；镍-62 的每核子结合能约 8.7947 MeV，略高于铁-56；它是核物理中“结合能最高”的常见答案，但差异只有千分之几。",
+    "category": "同位素",
+    "displayValue": "Z = 28 · 镍-62（A = 62）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 28,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=62",
+    "measureLabel": "镍-62的原子序数与质量数口径",
     "visual": ""
   },
   {
@@ -9755,6 +10558,25 @@
     "visual": ""
   },
   {
+    "id": "temperature.fever-x0p1",
+    "title": "发热体温 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Fever body temperature reference × 0.1",
+    "summary": "以「发热体温」的 311.15 K 为基准，按 ×0.1 换算得到 31.115 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "常温",
+    "displayValue": "31.115 K（约 -242.035 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 31.115,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.fever 的 311.15 K × 0.1",
+    "measureLabel": "由「发热体温」按 ×0.1 换算的参照值",
+    "visual": "thermometer"
+  },
+  {
     "id": "elements.ge",
     "title": "锗：第 32 个质子把 4p 加到两个，第四周期开始向共价倾斜",
     "titleEn": "Germanium",
@@ -9873,6 +10695,25 @@
     "unit": "Z",
     "measure": "原子序数（Z）",
     "measureLabel": "原子序数（Z）",
+    "visual": ""
+  },
+  {
+    "id": "elements.rb-87",
+    "title": "铷-87：铷-87 的半衰期约 488 亿年，长于宇宙年龄",
+    "titleEn": "Rubidium-87",
+    "summary": "铷-87的原子序数 Z=37、质量数 A=87，488 亿年；铷-87 的半衰期约 488 亿年，长于宇宙年龄；它衰变成锶-87，铷-锶等时线可以同时求年龄与初始锶同位素比。",
+    "category": "同位素",
+    "displayValue": "Z = 37 · 铷-87（A = 87）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 37,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=87",
+    "measureLabel": "铷-87的原子序数与质量数口径",
     "visual": ""
   },
   {
@@ -10316,6 +11157,25 @@
     "measure": "原子序数（Z）",
     "measureLabel": "原子序数（Z）",
     "visual": ""
+  },
+  {
+    "id": "space.human-x30",
+    "title": "人类 × 30：一次尺度换算",
+    "titleEn": "Human × 30",
+    "summary": "以「人类」的 1.7 m 为基准，按 ×30 换算得到 51 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "日常与人造",
+    "displayValue": "51 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 51,
+    "unit": "m",
+    "measure": "尺度换算量：space.human 的 1.7 m × 30",
+    "measureLabel": "由「人类」按 ×30 换算的参照值",
+    "visual": "human"
   },
   {
     "id": "elements.te",
@@ -11118,6 +11978,63 @@
     "visual": ""
   },
   {
+    "id": "elements.pb-206",
+    "title": "铅-206：铅-206 是铀-238 衰变链的稳定终点",
+    "titleEn": "Lead-206",
+    "summary": "铅-206的原子序数 Z=82、质量数 A=206，稳定；铅-206 是铀-238 衰变链的稳定终点；岩石中铅-206 与铀-238 的比例越高，通常说明体系封闭的时间越长。",
+    "category": "同位素",
+    "displayValue": "Z = 82 · 铅-206（A = 206）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 82,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=206",
+    "measureLabel": "铅-206的原子序数与质量数口径",
+    "visual": ""
+  },
+  {
+    "id": "elements.pb-207",
+    "title": "铅-207：铅-207 是铀-235 衰变链的稳定终点",
+    "titleEn": "Lead-207",
+    "summary": "铅-207的原子序数 Z=82、质量数 A=207，稳定；铅-207 是铀-235 衰变链的稳定终点；铀-235 与铀-238 的半衰期不同，两条时钟可以互相校验。",
+    "category": "同位素",
+    "displayValue": "Z = 82 · 铅-207（A = 207）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 82,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=207",
+    "measureLabel": "铅-207的原子序数与质量数口径",
+    "visual": ""
+  },
+  {
+    "id": "elements.pb-208",
+    "title": "铅-208：铅-208 是钍-232 衰变链的稳定终点，也是天然铅中",
+    "titleEn": "Lead-208",
+    "summary": "铅-208的原子序数 Z=82、质量数 A=208，稳定；铅-208 是钍-232 衰变链的稳定终点，也是天然铅中占比最高的同位素；钍-铅体系可提供与铀-铅独立的时钟。",
+    "category": "同位素",
+    "displayValue": "Z = 82 · 铅-208（A = 208）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 82,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=208",
+    "measureLabel": "铅-208的原子序数与质量数口径",
+    "visual": ""
+  },
+  {
     "id": "elements.bi",
     "title": "铋：第 83 个质子补到 6p³ 半满，N/Z 第一次不再增加",
     "titleEn": "Bismuth",
@@ -11297,6 +12214,25 @@
     "visual": ""
   },
   {
+    "id": "elements.th-232",
+    "title": "钍-232：钍-232 的半衰期约 140.5 亿年，是天然钍的绝对",
+    "titleEn": "Thorium-232",
+    "summary": "钍-232的原子序数 Z=90、质量数 A=232，140.5 亿年；钍-232 的半衰期约 140.5 亿年，是天然钍的绝对主成分；它的衰变链最终落在稳定的铅-208。",
+    "category": "同位素",
+    "displayValue": "Z = 90 · 钍-232（A = 232）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 90,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=232",
+    "measureLabel": "钍-232的原子序数与质量数口径",
+    "visual": ""
+  },
+  {
     "id": "temperature.liquid-oxygen",
     "title": "液氧温度",
     "titleEn": "Liquid oxygen normal boiling reference",
@@ -11394,6 +12330,44 @@
     "unit": "Z",
     "measure": "原子序数（质子数）",
     "measureLabel": "原子序数 Z",
+    "visual": ""
+  },
+  {
+    "id": "elements.u-235",
+    "title": "铀-235：铀-235 是唯一在热中子下易裂变的天然同位素",
+    "titleEn": "Uranium-235",
+    "summary": "铀-235的原子序数 Z=92、质量数 A=235，7.04 亿年；铀-235 是唯一在热中子下易裂变的天然同位素；天然铀中只占约 0.72%，低浓铀通常把比例提高到 3%–5%。",
+    "category": "同位素",
+    "displayValue": "Z = 92 · 铀-235（A = 235）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 92,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=235",
+    "measureLabel": "铀-235的原子序数与质量数口径",
+    "visual": ""
+  },
+  {
+    "id": "elements.u-238",
+    "title": "铀-238：铀-238 的半衰期约 44.68 亿年，与地球年龄同量",
+    "titleEn": "Uranium-238",
+    "summary": "铀-238的原子序数 Z=92、质量数 A=238，44.68 亿年；铀-238 的半衰期约 44.68 亿年，与地球年龄同量级；它通过一系列 α/β 衰变最终变成稳定的铅-206。",
+    "category": "同位素",
+    "displayValue": "Z = 92 · 铀-238（A = 238）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "同位素",
+      "1.4.0新增",
+      "核素"
+    ],
+    "value": 92,
+    "unit": "Z",
+    "measure": "原子序数 Z；本同位素质量数 A=238",
+    "measureLabel": "铀-238的原子序数与质量数口径",
     "visual": ""
   },
   {
@@ -11924,6 +12898,25 @@
     "visual": ""
   },
   {
+    "id": "space.mariana-trench-x0p01",
+    "title": "马里亚纳海沟 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Mariana Trench × 0.01",
+    "summary": "以「马里亚纳海沟」的 10,935 m 为基准，按 ×0.01 换算得到 109.35 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "地球与地质",
+    "displayValue": "109.35 m",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 109.35000000000001,
+    "unit": "m",
+    "measure": "尺度换算量：space.mariana-trench 的 10,935 m × 0.01",
+    "measureLabel": "由「马里亚纳海沟」按 ×0.01 换算的参照值",
+    "visual": "terrain"
+  },
+  {
     "id": "elements.ds",
     "title": "110 号：6d⁸ 接近满壳，𫟼的第十族身份只有计算支撑",
     "titleEn": "Darmstadtium",
@@ -12172,6 +13165,25 @@
     "visual": ""
   },
   {
+    "id": "temperature.ice-cream-freezer-x0p5",
+    "title": "冰淇淋冷冻机温度 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Ice cream freezer temperature × 0.5",
+    "summary": "以「冰淇淋冷冻机温度」的 255 K 为基准，按 ×0.5 换算得到 127.5 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "低温",
+    "displayValue": "127.5 K（约 -145.65 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 127.5,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.ice-cream-freezer 的 255 K × 0.5",
+    "measureLabel": "由「冰淇淋冷冻机温度」按 ×0.5 换算的参照值",
+    "visual": "kitchen"
+  },
+  {
     "id": "temperature.callisto-surface",
     "title": "木卫四表面温度",
     "titleEn": "Callisto surface temperature",
@@ -12233,6 +13245,25 @@
     "visual": "cryo-instrument"
   },
   {
+    "id": "temperature.sea-surface-x0p5",
+    "title": "海面平均温度 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Global mean sea surface temperature × 0.5",
+    "summary": "以「海面平均温度」的 290 K 为基准，按 ×0.5 换算得到 145 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "常温",
+    "displayValue": "145 K（约 -128.15 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 145,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.sea-surface 的 290 K × 0.5",
+    "measureLabel": "由「海面平均温度」按 ×0.5 换算的参照值",
+    "visual": "planet-environment"
+  },
+  {
     "id": "space.great-pyramid",
     "title": "胡夫金字塔",
     "titleEn": "Great Pyramid of Giza",
@@ -12274,6 +13305,25 @@
     "visual": "planet-environment"
   },
   {
+    "id": "temperature.hot-spring-x0p5",
+    "title": "温泉 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Hot spring water temperature × 0.5",
+    "summary": "以「温泉」的 313 K 为基准，按 ×0.5 换算得到 156.5 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "中温",
+    "displayValue": "156.5 K（约 -116.65 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 156.5,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.hot-spring 的 313 K × 0.5",
+    "measureLabel": "由「温泉」按 ×0.5 换算的参照值",
+    "visual": "planet-environment"
+  },
+  {
     "id": "temperature.jupiter-cloud",
     "title": "木星云顶",
     "titleEn": "Jupiter cloud-top temperature",
@@ -12293,6 +13343,25 @@
     "measure": "木星云顶（1 bar 参考层）温度",
     "measureLabel": "木星云顶（1 bar 参考层）温度",
     "visual": "planet-environment"
+  },
+  {
+    "id": "temperature.cement-kiln-x0p1",
+    "title": "水泥窑 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Cement rotary kiln burning zone × 0.1",
+    "summary": "以「水泥窑」的 1,723 K 为基准，按 ×0.1 换算得到 172.3 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "高温",
+    "displayValue": "172.3 K（约 -100.85 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 172.3,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.cement-kiln 的 1,723 K × 0.1",
+    "measureLabel": "由「水泥窑」按 ×0.1 换算的参照值",
+    "visual": "metal-furnace"
   },
   {
     "id": "time.lithium-7-synthesis",
@@ -13298,6 +14367,25 @@
     "visual": "thermometer"
   },
   {
+    "id": "temperature.liquid-nitrogen-x4",
+    "title": "液氮温度 × 4：一次尺度换算",
+    "titleEn": "Liquid nitrogen × 4",
+    "summary": "以「液氮温度」的 77.34 K 为基准，按 ×4 换算得到 309.36 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "低温",
+    "displayValue": "309.36 K（约 36.21 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 309.36,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.liquid-nitrogen 的 77.34 K × 4",
+    "measureLabel": "由「液氮温度」按 ×4 换算的参照值",
+    "visual": ""
+  },
+  {
     "id": "temperature.human-body-temperature",
     "title": "人体体温",
     "titleEn": "Human body temperature",
@@ -13979,6 +15067,25 @@
     "visual": "kitchen"
   },
   {
+    "id": "temperature.hypothermia-x1p5",
+    "title": "低体温阈值 × 1.5：一次尺度换算",
+    "titleEn": "Hypothermia core temperature threshold × 1.5",
+    "summary": "以「低体温阈值」的 308.15 K 为基准，按 ×1.5 换算得到 462.225 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "常温",
+    "displayValue": "462.225 K（约 189.075 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 462.22499999999997,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.hypothermia 的 308.15 K × 1.5",
+    "measureLabel": "由「低体温阈值」按 ×1.5 换算的参照值",
+    "visual": "thermometer"
+  },
+  {
     "id": "temperature.3d-printer-nozzle",
     "title": "3D 打印喷嘴",
     "titleEn": "FDM 3D printer nozzle temperature",
@@ -14099,6 +15206,25 @@
     "visual": "architecture"
   },
   {
+    "id": "temperature.deep-ocean-x2",
+    "title": "深海温度 × 2：一次尺度换算",
+    "titleEn": "Deep ocean water temperature × 2",
+    "summary": "以「深海温度」的 275 K 为基准，按 ×2 换算得到 550 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "低温",
+    "displayValue": "550 K（约 276.85 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 550,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.deep-ocean 的 275 K × 2",
+    "measureLabel": "由「深海温度」按 ×2 换算的参照值",
+    "visual": "planet-environment"
+  },
+  {
     "id": "temperature.lead-melting-point",
     "title": "铅熔点",
     "titleEn": "Lead melting point",
@@ -14200,6 +15326,25 @@
     "visual": "architecture"
   },
   {
+    "id": "mass.car-x0p5",
+    "title": "丰田卡罗拉：1,310 kg，紧凑级轿车的整备质量 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Toyota Corolla × 0.5",
+    "summary": "以「丰田卡罗拉：1,310 kg，紧凑级轿车的整备质量」的 1,310 kg 为基准，按 ×0.5 换算得到 655 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "工程与交通",
+    "displayValue": "655 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 655,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.car 的 1,310 kg × 0.5",
+    "measureLabel": "由「丰田卡罗拉：1,310 kg，紧凑级轿车的整备质量」按 ×0.5 换算的参照值",
+    "visual": ""
+  },
+  {
     "id": "temperature.zinc-melting",
     "title": "锌熔点",
     "titleEn": "Zinc melting point",
@@ -14218,6 +15363,25 @@
     "measure": "纯锌常压熔点",
     "measureLabel": "纯锌常压熔点",
     "visual": "metal-furnace"
+  },
+  {
+    "id": "mass.adult-human-x10",
+    "title": "成人：70 kg，全球成年个体湿重均值 × 10：一次尺度换算",
+    "titleEn": "Adult human × 10",
+    "summary": "以「成人：70 kg，全球成年个体湿重均值」的 70 kg 为基准，按 ×10 换算得到 700 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "生命与人体",
+    "displayValue": "700 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 700,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.adult-human 的 70 kg × 10",
+    "measureLabel": "由「成人：70 kg，全球成年个体湿重均值」按 ×10 换算的参照值",
+    "visual": ""
   },
   {
     "id": "temperature.mercury-day",
@@ -14522,6 +15686,25 @@
     "visual": "phase-vessel"
   },
   {
+    "id": "temperature.vaccine-cold-chain-x4",
+    "title": "疫苗冷链：2—8 ℃的保存窗口 × 4：一次尺度换算",
+    "titleEn": "Vaccine cold chain at 2–8 °C × 4",
+    "summary": "以「疫苗冷链：2—8 ℃的保存窗口」的 278.15 K 为基准，按 ×4 换算得到 1,112.6 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "常温",
+    "displayValue": "1,112.6 K（约 839.45 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 1112.6,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.vaccine-cold-chain 的 278.15 K × 4",
+    "measureLabel": "由「疫苗冷链：2—8 ℃的保存窗口」按 ×4 换算的参照值",
+    "visual": "thermometer"
+  },
+  {
     "id": "temperature.brass-melting",
     "title": "黄铜熔化",
     "titleEn": "Brass melting range",
@@ -14720,6 +15903,45 @@
     "measure": "基拉韦厄特定喷发熔岩温区参考",
     "measureLabel": "基拉韦厄特定喷发熔岩温区参考",
     "visual": "planet-environment"
+  },
+  {
+    "id": "time.day-x0p016666666666666666",
+    "title": "一天 × 0.0166667（缩小）：一次尺度换算",
+    "titleEn": "One Day × 0.0166667",
+    "summary": "以「一天」的 86,400 s 为基准，按 ×0.0166667 换算得到 1,440 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "1,440 s",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 1440,
+    "unit": "s",
+    "measure": "尺度换算量：time.day 的 86,400 s × 0.0166667",
+    "measureLabel": "由「一天」按 ×0.0166667 换算的参照值",
+    "visual": "chronometer"
+  },
+  {
+    "id": "temperature.boiling-water-x4",
+    "title": "水的沸点 × 4：一次尺度换算",
+    "titleEn": "Boiling water × 4",
+    "summary": "以「水的沸点」的 373.15 K 为基准，按 ×4 换算得到 1,492.6 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "常温",
+    "displayValue": "1,492.6 K（约 1,219.45 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 1492.6,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.boiling-water 的 373.15 K × 4",
+    "measureLabel": "由「水的沸点」按 ×4 换算的参照值",
+    "visual": ""
   },
   {
     "id": "temperature.pottery-kiln",
@@ -15042,6 +16264,25 @@
     "visual": "metal-furnace"
   },
   {
+    "id": "space.african-lion-x1000",
+    "title": "非洲狮头体长 × 1000：一次尺度换算",
+    "titleEn": "African Lion Head-Body Length × 1000",
+    "summary": "以「非洲狮头体长」的 2 m 为基准，按 ×1000 换算得到 2,000 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "生命与人体",
+    "displayValue": "2,000 m（约 2 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 2000,
+    "unit": "m",
+    "measure": "尺度换算量：space.african-lion 的 2 m × 1000",
+    "measureLabel": "由「非洲狮头体长」按 ×1000 换算的参照值",
+    "visual": "whale"
+  },
+  {
     "id": "space.deccan-traps",
     "title": "德干暗色岩累计厚度",
     "titleEn": "Deccan Traps Cumulative Thickness",
@@ -15080,6 +16321,25 @@
     "measure": "纯铂常压熔点",
     "measureLabel": "纯铂常压熔点",
     "visual": "metal-furnace"
+  },
+  {
+    "id": "temperature.salt-melting-x2",
+    "title": "食盐熔化 × 2：一次尺度换算",
+    "titleEn": "Sodium chloride melting point × 2",
+    "summary": "以「食盐熔化」的 1,074 K 为基准，按 ×2 换算得到 2,148 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "高温",
+    "displayValue": "2,148 K（约 1,874.85 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 2148,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.salt-melting 的 1,074 K × 2",
+    "measureLabel": "由「食盐熔化」按 ×2 换算的参照值",
+    "visual": "phase-vessel"
   },
   {
     "id": "temperature.chromium-melting",
@@ -15162,6 +16422,25 @@
     "visual": "filament-lamp"
   },
   {
+    "id": "temperature.lightning-x0p1",
+    "title": "闪电 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Air heated by lightning × 0.1",
+    "summary": "以「闪电」的 28,033.2 K 为基准，按 ×0.1 换算得到 2,803.32 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "高温",
+    "displayValue": "2,803.32 K（约 2,530.17 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 2803.3150000000005,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.lightning 的 28,033.2 K × 0.1",
+    "measureLabel": "由「闪电」按 ×0.1 换算的参照值",
+    "visual": "planet-environment"
+  },
+  {
     "id": "space.greenland-ice-thickness",
     "title": "格陵兰冰盖：约 3 公里的冰穹厚度",
     "titleEn": "Greenland ice sheet thickness at about 3 km",
@@ -15220,6 +16499,44 @@
     "measure": "红矮星特征表温区示例",
     "measureLabel": "红矮星特征表温区示例",
     "visual": "stellar-atmosphere"
+  },
+  {
+    "id": "temperature.forest-fire-x3",
+    "title": "森林大火 × 3：一次尺度换算",
+    "titleEn": "Wildfire flame temperature × 3",
+    "summary": "以「森林大火」的 1,073 K 为基准，按 ×3 换算得到 3,219 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "高温",
+    "displayValue": "3,219 K（约 2,945.85 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 3219,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.forest-fire 的 1,073 K × 3",
+    "measureLabel": "由「森林大火」按 ×3 换算的参照值",
+    "visual": "combustion"
+  },
+  {
+    "id": "temperature.pasteurization-x10",
+    "title": "巴氏杀菌：72 ℃的短时热处理 × 10：一次尺度换算",
+    "titleEn": "High-temperature short-time pasteurization at 72 °C × 10",
+    "summary": "以「巴氏杀菌：72 ℃的短时热处理」的 345.15 K 为基准，按 ×10 换算得到 3,451.5 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "高温",
+    "displayValue": "3,451.5 K（约 3,178.35 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 3451.5,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.pasteurization 的 345.15 K × 10",
+    "measureLabel": "由「巴氏杀菌：72 ℃的短时热处理」按 ×10 换算的参照值",
+    "visual": "kitchen"
   },
   {
     "id": "temperature.oxyacetylene-flame",
@@ -15683,6 +17000,25 @@
     "visual": "stellar-atmosphere"
   },
   {
+    "id": "temperature.neptune-cloud-x100",
+    "title": "海王星云顶 × 100：一次尺度换算",
+    "titleEn": "Neptune cloud-top temperature × 100",
+    "summary": "以「海王星云顶」的 72 K 为基准，按 ×100 换算得到 7,200 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "低温",
+    "displayValue": "7,200 K（约 6,926.85 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 7200,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.neptune-cloud 的 72 K × 100",
+    "measureLabel": "由「海王星云顶」按 ×100 换算的参照值",
+    "visual": "planet-environment"
+  },
+  {
     "id": "mass.tyrannosaurus",
     "title": "霸王龙：8,000 kg，骨骼与软组织模型给出的估算",
     "titleEn": "Tyrannosaurus rex",
@@ -15721,6 +17057,26 @@
     "measure": "等离子切割弧射流温度",
     "measureLabel": "等离子切割弧射流温度",
     "visual": "reaction-field"
+  },
+  {
+    "id": "time.heartbeat-x10000",
+    "title": "心跳周期 × 10000：一次尺度换算",
+    "titleEn": "Heartbeat Interval × 10000",
+    "summary": "以「心跳周期」的 0.8 s 为基准，按 ×10000 换算得到 8,000 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "8,000 s",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 8000,
+    "unit": "s",
+    "measure": "尺度换算量：time.heartbeat 的 0.8 s × 10000",
+    "measureLabel": "由「心跳周期」按 ×10000 换算的参照值",
+    "visual": "scientific-instrument"
   },
   {
     "id": "space.everest",
@@ -15801,6 +17157,25 @@
     "measure": "Sirius A角直径与总辐射通量推断",
     "measureLabel": "Sirius A角直径与总辐射通量推断",
     "visual": "stellar-atmosphere"
+  },
+  {
+    "id": "mass.elephant-x2",
+    "title": "非洲象：5,000 kg，成年雄性的湿重均值 × 2：一次尺度换算",
+    "titleEn": "African elephant × 2",
+    "summary": "以「非洲象：5,000 kg，成年雄性的湿重均值」的 5,000 kg 为基准，按 ×2 换算得到 10,000 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "自然与生物",
+    "displayValue": "10,000 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 10000,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.elephant 的 5,000 kg × 2",
+    "measureLabel": "由「非洲象：5,000 kg，成年雄性的湿重均值」按 ×2 换算的参照值",
+    "visual": ""
   },
   {
     "id": "temperature.aurora",
@@ -15900,6 +17275,25 @@
     "measure": "织女星极区模型有效温度参考",
     "measureLabel": "织女星极区模型有效温度参考",
     "visual": "stellar-atmosphere"
+  },
+  {
+    "id": "temperature.rocket_plume-x3",
+    "title": "RS-25燃烧室热气（参考） × 3：一次尺度换算",
+    "titleEn": "RS-25 hot combustion gas × 3",
+    "summary": "以「RS-25燃烧室热气（参考）」的 3,588.71 K 为基准，按 ×3 换算得到 10,766.1 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "高温",
+    "displayValue": "10,766.1 K（约 10,493 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 10766.116666666667,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.rocket_plume 的 3,588.71 K × 3",
+    "measureLabel": "由「RS-25燃烧室热气（参考）」按 ×3 换算的参照值",
+    "visual": "rocket-chamber"
   },
   {
     "id": "space.mariana-trench",
@@ -16022,6 +17416,44 @@
     "visual": "sphere"
   },
   {
+    "id": "temperature.sun-surface-x3",
+    "title": "太阳表面 × 3：一次尺度换算",
+    "titleEn": "Solar effective temperature × 3",
+    "summary": "以「太阳表面」的 5,772 K 为基准，按 ×3 换算得到 17,316 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与宇宙极端",
+    "displayValue": "17,316 K（约 17,042.8 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 17316,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.sun-surface 的 5,772 K × 3",
+    "measureLabel": "由「太阳表面」按 ×3 换算的参照值",
+    "visual": ""
+  },
+  {
+    "id": "temperature.steelmaking_temp-x10",
+    "title": "电弧炉出钢温度（约1620°C） × 10：一次尺度换算",
+    "titleEn": "Electric arc furnace tapping temperature reference × 10",
+    "summary": "以「电弧炉出钢温度（约1620°C）」的 1,893.15 K 为基准，按 ×10 换算得到 18,931.5 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "高温",
+    "displayValue": "18,931.5 K（约 18,658.3 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 18931.5,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.steelmaking_temp 的 1,893.15 K × 10",
+    "measureLabel": "由「电弧炉出钢温度（约1620°C）」按 ×10 换算的参照值",
+    "visual": "metal-furnace"
+  },
+  {
     "id": "space.neutron-star",
     "title": "中子星",
     "titleEn": "Neutron Star",
@@ -16122,6 +17554,25 @@
     "visual": "coin"
   },
   {
+    "id": "temperature.water-freezing-x100",
+    "title": "水的冰点 × 100：一次尺度换算",
+    "titleEn": "Ice–water equilibrium × 100",
+    "summary": "以「水的冰点」的 273.15 K 为基准，按 ×100 换算得到 27,315 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "常温",
+    "displayValue": "27,315 K（约 27,041.8 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 27314.999999999996,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.water-freezing 的 273.15 K × 100",
+    "measureLabel": "由「水的冰点」按 ×100 换算的参照值",
+    "visual": ""
+  },
+  {
     "id": "temperature.lightning",
     "title": "闪电",
     "titleEn": "Air heated by lightning",
@@ -16180,6 +17631,25 @@
     "measure": "大陆地壳平均厚度（USGS 约30 km 口径）",
     "measureLabel": "大陆地壳平均厚度（USGS 约30 km 口径）",
     "visual": "field"
+  },
+  {
+    "id": "temperature.wet-bulb-temperature-x100",
+    "title": "湿球温度 35 ℃：热应激的物理上限 × 100：一次尺度换算",
+    "titleEn": "Wet-bulb temperature at 35 °C × 100",
+    "summary": "以「湿球温度 35 ℃：热应激的物理上限」的 308 K 为基准，按 ×100 换算得到 30,800 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "高温",
+    "displayValue": "30,800 K（约 30,526.8 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 30800,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.wet-bulb-temperature 的 308 K × 100",
+    "measureLabel": "由「湿球温度 35 ℃：热应激的物理上限」按 ×100 换算的参照值",
+    "visual": "heat-map"
   },
   {
     "id": "mass.train-car",
@@ -16262,6 +17732,26 @@
     "visual": "stellar-atmosphere"
   },
   {
+    "id": "time.mercury-year-x0p01",
+    "title": "水星年 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Mercury Year × 0.01",
+    "summary": "以「水星年」的 7.601×10^06 s 为基准，按 ×0.01 换算得到 76,008 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "76,008 s",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 76008,
+    "unit": "s",
+    "measure": "尺度换算量：time.mercury-year 的 7.601×10^06 s × 0.01",
+    "measureLabel": "由「水星年」按 ×0.01 换算的参照值",
+    "visual": "chronometer"
+  },
+  {
     "id": "space.mesopause",
     "title": "中间层顶：约 85 公里的最冷边界",
     "titleEn": "Mesopause at about 85 km",
@@ -16337,6 +17827,44 @@
     "measure": "duration-reference",
     "measureLabel": "人体昼夜节律起搏器的自由运行内在周期（平均24.18小时）",
     "visual": "scientific-instrument"
+  },
+  {
+    "id": "space.everest-x10",
+    "title": "珠穆朗玛峰 × 10：一次尺度换算",
+    "titleEn": "Mount Everest × 10",
+    "summary": "以「珠穆朗玛峰」的 8,848.86 m 为基准，按 ×10 换算得到 88,488.6 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "地球与地质",
+    "displayValue": "88,488.6 m（约 88.4886 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 88488.6,
+    "unit": "m",
+    "measure": "尺度换算量：space.everest 的 8,848.86 m × 10",
+    "measureLabel": "由「珠穆朗玛峰」按 ×10 换算的参照值",
+    "visual": "terrain"
+  },
+  {
+    "id": "space.black-hole-event-horizon-x3",
+    "title": "恒星级黑洞事件视界 × 3：一次尺度换算",
+    "titleEn": "Stellar-Mass Black Hole Event Horizon × 3",
+    "summary": "以「恒星级黑洞事件视界」的 29,500 m 为基准，按 ×3 换算得到 88,500 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与星际",
+    "displayValue": "88,500 m（约 88.5 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 88500,
+    "unit": "m",
+    "measure": "尺度换算量：space.black-hole-event-horizon 的 29,500 m × 3",
+    "measureLabel": "由「恒星级黑洞事件视界」按 ×3 换算的参照值",
+    "visual": "field"
   },
   {
     "id": "space.atmosphere",
@@ -16439,6 +17967,25 @@
     "visual": "hydrology"
   },
   {
+    "id": "temperature.reentry-plasma-x10",
+    "title": "再入大气层等离子体 × 10：一次尺度换算",
+    "titleEn": "Atmospheric reentry plasma × 10",
+    "summary": "以「再入大气层等离子体」的 10,000 K 为基准，按 ×10 换算得到 1.000×10^05 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "极高温",
+    "displayValue": "1.000×10^05 K（约 99,726.9 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 100000,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.reentry-plasma 的 10,000 K × 10",
+    "measureLabel": "由「再入大气层等离子体」按 ×10 换算的参照值",
+    "visual": "radiation-field"
+  },
+  {
     "id": "temperature.solar-wind",
     "title": "太阳风",
     "titleEn": "Solar wind particle temperature",
@@ -16457,6 +18004,26 @@
     "measure": "太阳风粒子温度（质子与电子分温）",
     "measureLabel": "粒子温度（非热平衡）",
     "visual": "radiation-field"
+  },
+  {
+    "id": "time.season-x0p016666666666666666",
+    "title": "一个季节 × 0.0166667（缩小）：一次尺度换算",
+    "titleEn": "One Season × 0.0166667",
+    "summary": "以「一个季节」的 7.890×10^06 s 为基准，按 ×0.0166667 换算得到 1.315×10^05 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "1.315×10^05 s",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 131500,
+    "unit": "s",
+    "measure": "尺度换算量：time.season 的 7.890×10^06 s × 0.0166667",
+    "measureLabel": "由「一个季节」按 ×0.0166667 换算的参照值",
+    "visual": "chronometer"
   },
   {
     "id": "mass.blue-whale",
@@ -16499,6 +18066,25 @@
     "visual": "terrain"
   },
   {
+    "id": "space.city-x2",
+    "title": "城市 × 2：一次尺度换算",
+    "titleEn": "City × 2",
+    "summary": "以「城市」的 1.000×10^05 m 为基准，按 ×2 换算得到 2.000×10^05 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "地球与地质",
+    "displayValue": "2.000×10^05 m（约 200 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 200000,
+    "unit": "m",
+    "measure": "尺度换算量：space.city 的 1.000×10^05 m × 2",
+    "measureLabel": "由「城市」按 ×2 换算的参照值",
+    "visual": "terrain"
+  },
+  {
     "id": "mass.airliner",
     "title": "波音 747-8：220,000 kg，空重与最大起飞质量的一半",
     "titleEn": "Boeing 747-8",
@@ -16537,6 +18123,25 @@
     "measure": "由三轴尺寸折算的体积等效平均直径",
     "measureLabel": "由三轴尺寸折算的体积等效平均直径",
     "visual": "sphere"
+  },
+  {
+    "id": "temperature.magnetar-surface-x0p25",
+    "title": "磁星表面 × 0.25（缩小）：一次尺度换算",
+    "titleEn": "Magnetar surface temperature × 0.25",
+    "summary": "以「磁星表面」的 1.000×10^06 K 为基准，按 ×0.25 换算得到 2.500×10^05 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与宇宙极端",
+    "displayValue": "2.500×10^05 K（约 249,727 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 250000,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.magnetar-surface 的 1.000×10^06 K × 0.25",
+    "measureLabel": "由「磁星表面」按 ×0.25 换算的参照值",
+    "visual": "compact-star"
   },
   {
     "id": "space.tsunami-wavelength",
@@ -16818,6 +18423,26 @@
     "visual": "hydrology"
   },
   {
+    "id": "time.circadian-rhythm-x10",
+    "title": "昼夜节律 × 10：一次尺度换算",
+    "titleEn": "Circadian Rhythm × 10",
+    "summary": "以「昼夜节律」的 87,048 s 为基准，按 ×10 换算得到 8.705×10^05 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "8.705×10^05 s",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 870480,
+    "unit": "s",
+    "measure": "尺度换算量：time.circadian-rhythm 的 87,048 s × 10",
+    "measureLabel": "由「昼夜节律」按 ×10 换算的参照值",
+    "visual": "scientific-instrument"
+  },
+  {
     "id": "temperature.nova-outburst",
     "title": "LMC 2009a 新星的超软 X 射线阶段",
     "titleEn": "Nova LMC 2009a supersoft X-ray phase",
@@ -17038,6 +18663,25 @@
     "visual": "sphere"
   },
   {
+    "id": "space.earth-x0p1",
+    "title": "地球 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Earth × 0.1",
+    "summary": "以「地球」的 1.274×10^07 m 为基准，按 ×0.1 换算得到 1.274×10^06 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "行星与太阳系",
+    "displayValue": "1.274×10^06 m（约 1,274.2 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 1274200,
+    "unit": "m",
+    "measure": "尺度换算量：space.earth 的 1.274×10^07 m × 0.1",
+    "measureLabel": "由「地球」按 ×0.1 换算的参照值",
+    "visual": ""
+  },
+  {
     "id": "space.san-andreas-fault",
     "title": "圣安德烈斯断层长度",
     "titleEn": "San Andreas Fault Length",
@@ -17076,6 +18720,25 @@
     "measure": "两倍NASA页面所列平均半径约715 km",
     "measureLabel": "两倍NASA页面所列平均半径约715 km",
     "visual": "sphere"
+  },
+  {
+    "id": "temperature.sun-core-x0p1",
+    "title": "太阳核心 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Solar core temperature × 0.1",
+    "summary": "以「太阳核心」的 1.500×10^07 K 为基准，按 ×0.1 换算得到 1.500×10^06 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与宇宙极端",
+    "displayValue": "1.500×10^06 K（约 1.49973e+06 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 1500000,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.sun-core 的 1.500×10^07 K × 0.1",
+    "measureLabel": "由「太阳核心」按 ×0.1 换算的参照值",
+    "visual": ""
   },
   {
     "id": "space.titania",
@@ -17196,6 +18859,25 @@
     "measure": "NASA日冕高温量级参考",
     "measureLabel": "NASA日冕高温量级参考",
     "visual": "stellar-atmosphere"
+  },
+  {
+    "id": "space.red-dwarf-x0p01",
+    "title": "红矮星 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Red Dwarf × 0.01",
+    "summary": "以「红矮星」的 2.097×10^08 m 为基准，按 ×0.01 换算得到 2.097×10^06 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与星际",
+    "displayValue": "2.097×10^06 m（约 2,097 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 2097000,
+    "unit": "m",
+    "measure": "尺度换算量：space.red-dwarf 的 2.097×10^08 m × 0.01",
+    "measureLabel": "由「红矮星」按 ×0.01 换算的参照值",
+    "visual": "sphere"
   },
   {
     "id": "space.great-barrier-reef",
@@ -17338,6 +19020,25 @@
     "visual": "sphere"
   },
   {
+    "id": "temperature.neutron-star-surface-x1p5",
+    "title": "仙后座A中子星表面 × 1.5：一次尺度换算",
+    "titleEn": "Cassiopeia A neutron-star surface reference × 1.5",
+    "summary": "以「仙后座A中子星表面」的 2.000×10^06 K 为基准，按 ×1.5 换算得到 3.000×10^06 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与宇宙极端",
+    "displayValue": "3.000×10^06 K（约 2.99973e+06 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 3000000,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.neutron-star-surface 的 2.000×10^06 K × 1.5",
+    "measureLabel": "由「仙后座A中子星表面」按 ×1.5 换算的参照值",
+    "visual": "compact-star"
+  },
+  {
     "id": "space.europa",
     "title": "木卫二",
     "titleEn": "Europa",
@@ -17356,6 +19057,26 @@
     "measure": "NASA卫星事实表口径的体积等效平均直径（固体冰壳表面）",
     "measureLabel": "NASA卫星事实表口径的体积等效平均直径（固体冰壳表面）",
     "visual": "sphere"
+  },
+  {
+    "id": "time.solar-cycle-x0p01",
+    "title": "太阳活动周期 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Solar Cycle × 0.01",
+    "summary": "以「太阳活动周期」的 3.471×10^08 s 为基准，按 ×0.01 换算得到 3.471×10^06 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "3.471×10^06 s",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 3471336,
+    "unit": "s",
+    "measure": "尺度换算量：time.solar-cycle 的 3.471×10^08 s × 0.01",
+    "measureLabel": "由「太阳活动周期」按 ×0.01 换算的参照值",
+    "visual": "stellar-cycle"
   },
   {
     "id": "space.moon",
@@ -17458,6 +19179,25 @@
     "measure": "南极洲大陆轮廓最大直径（东西向跨度的近似口径）",
     "measureLabel": "南极洲大陆轮廓最大直径（东西向跨度的近似口径）",
     "visual": "terrain"
+  },
+  {
+    "id": "mass.blue-whale-x30",
+    "title": "蓝鲸：150,000 kg，最大动物的湿重均值 × 30：一次尺度换算",
+    "titleEn": "Blue whale × 30",
+    "summary": "以「蓝鲸：150,000 kg，最大动物的湿重均值」的 1.500×10^05 kg 为基准，按 ×30 换算得到 4.500×10^06 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "自然与生物",
+    "displayValue": "4.500×10^06 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 4500000,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.blue-whale 的 1.500×10^05 kg × 30",
+    "measureLabel": "由「蓝鲸：150,000 kg，最大动物的湿重均值」按 ×30 换算的参照值",
+    "visual": ""
   },
   {
     "id": "space.sahara",
@@ -17581,6 +19321,26 @@
     "visual": "sphere"
   },
   {
+    "id": "time.week-x10",
+    "title": "一周 × 10：一次尺度换算",
+    "titleEn": "One Week × 10",
+    "summary": "以「一周」的 6.048×10^05 s 为基准，按 ×10 换算得到 6.048×10^06 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "6.048×10^06 s",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 6048000,
+    "unit": "s",
+    "measure": "尺度换算量：time.week 的 6.048×10^05 s × 10",
+    "measureLabel": "由「一周」按 ×10 换算的参照值",
+    "visual": "chronometer"
+  },
+  {
     "id": "space.yangtze-river",
     "title": "长江",
     "titleEn": "Yangtze River",
@@ -17702,6 +19462,26 @@
     "visual": "chronometer"
   },
   {
+    "id": "time.industrial-era-duration-x0p001",
+    "title": "工业时代时长 × 0.001（缩小）：一次尺度换算",
+    "titleEn": "Duration of the Industrial Era × 0.001",
+    "summary": "以「工业时代时长」的 7.890×10^09 s 为基准，按 ×0.001 换算得到 7.890×10^06 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "7.890×10^06 s",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 7890000,
+    "unit": "s",
+    "measure": "尺度换算量：time.industrial-era-duration 的 7.890×10^09 s × 0.001",
+    "measureLabel": "由「工业时代时长」按 ×0.001 换算的参照值",
+    "visual": "settlement-workshop"
+  },
+  {
     "id": "time.season",
     "title": "一个季节",
     "titleEn": "One Season",
@@ -17720,6 +19500,44 @@
     "measure": "duration-interval",
     "measureLabel": "持续时长；不是绝对时点",
     "visual": "chronometer"
+  },
+  {
+    "id": "mass.tyrannosaurus-x1000",
+    "title": "霸王龙：8,000 kg，骨骼与软组织模型给出的估算 × 1000：一次尺度换算",
+    "titleEn": "Tyrannosaurus rex × 1000",
+    "summary": "以「霸王龙：8,000 kg，骨骼与软组织模型给出的估算」的 8,000 kg 为基准，按 ×1000 换算得到 8.000×10^06 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "自然与生物",
+    "displayValue": "8.000×10^06 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 8000000,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.tyrannosaurus 的 8,000 kg × 1000",
+    "measureLabel": "由「霸王龙：8,000 kg，骨骼与软组织模型给出的估算」按 ×1000 换算的参照值",
+    "visual": ""
+  },
+  {
+    "id": "space.pacific-ocean-x0p5",
+    "title": "太平洋 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Pacific Ocean × 0.5",
+    "summary": "以「太平洋」的 1.930×10^07 m 为基准，按 ×0.5 换算得到 9.650×10^06 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "地球与地质",
+    "displayValue": "9.650×10^06 m（约 9,650 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 9650000,
+    "unit": "m",
+    "measure": "尺度换算量：space.pacific-ocean 的 1.930×10^07 m × 0.5",
+    "measureLabel": "由「太平洋」按 ×0.5 换算的参照值",
+    "visual": "terrain"
   },
   {
     "id": "temperature.accretion-disk-inner",
@@ -17984,6 +19802,26 @@
     "visual": "microbial-study"
   },
   {
+    "id": "time.fortnight-x24",
+    "title": "两周 × 24：一次尺度换算",
+    "titleEn": "Fortnight × 24",
+    "summary": "以「两周」的 1.210×10^06 s 为基准，按 ×24 换算得到 2.903×10^07 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "2.903×10^07 s",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 29030400,
+    "unit": "s",
+    "measure": "尺度换算量：time.fortnight 的 1.210×10^06 s × 24",
+    "measureLabel": "由「两周」按 ×24 换算的参照值",
+    "visual": "chronometer"
+  },
+  {
     "id": "time.year",
     "title": "一年",
     "titleEn": "One Year",
@@ -18042,6 +19880,64 @@
     "visual": "orbital-system"
   },
   {
+    "id": "time.hour-x10000",
+    "title": "一小时 × 10000：一次尺度换算",
+    "titleEn": "One Hour × 10000",
+    "summary": "以「一小时」的 3,600 s 为基准，按 ×10000 换算得到 3.600×10^07 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "3.600×10^07 s（约 1.14077 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 36000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.hour 的 3,600 s × 10000",
+    "measureLabel": "由「一小时」按 ×10000 换算的参照值",
+    "visual": "chronometer"
+  },
+  {
+    "id": "temperature.fusion-reactor-plasma-x0p25",
+    "title": "聚变堆等离子体 × 0.25（缩小）：一次尺度换算",
+    "titleEn": "ITER plasma design reference × 0.25",
+    "summary": "以「聚变堆等离子体」的 1.500×10^08 K 为基准，按 ×0.25 换算得到 3.750×10^07 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与宇宙极端",
+    "displayValue": "3.750×10^07 K（约 3.74997e+07 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 37500000,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.fusion-reactor-plasma 的 1.500×10^08 K × 0.25",
+    "measureLabel": "由「聚变堆等离子体」按 ×0.25 换算的参照值",
+    "visual": "reaction-field"
+  },
+  {
+    "id": "space.earth-moon-distance-x0p1",
+    "title": "地球到月球距离 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Earth-Moon Distance × 0.1",
+    "summary": "以「地球到月球距离」的 3.844×10^08 m 为基准，按 ×0.1 换算得到 3.844×10^07 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "行星与太阳系",
+    "displayValue": "3.844×10^07 m（约 38,440 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 38440000,
+    "unit": "m",
+    "measure": "尺度换算量：space.earth-moon-distance 的 3.844×10^08 m × 0.1",
+    "measureLabel": "由「地球到月球距离」按 ×0.1 换算的参照值",
+    "visual": "distance"
+  },
+  {
     "id": "space.neptune",
     "title": "海王星",
     "titleEn": "Neptune",
@@ -18061,6 +19957,25 @@
     "measure": "NASA事实表口径的1巴层体积等效平均直径（不含环）",
     "measureLabel": "NASA事实表口径的1巴层体积等效平均直径（不含环）",
     "visual": "sphere"
+  },
+  {
+    "id": "space.solar-flare-size-x0p5",
+    "title": "太阳耀斑 × 0.5（缩小）：一次尺度换算",
+    "titleEn": "Solar Flare × 0.5",
+    "summary": "以「太阳耀斑」的 1.000×10^08 m 为基准，按 ×0.5 换算得到 5.000×10^07 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与星际",
+    "displayValue": "5.000×10^07 m（约 50,000 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 50000000,
+    "unit": "m",
+    "measure": "尺度换算量：space.solar-flare-size 的 1.000×10^08 m × 0.5",
+    "measureLabel": "由「太阳耀斑」按 ×0.5 换算的参照值",
+    "visual": "field"
   },
   {
     "id": "space.uranus",
@@ -18122,6 +20037,26 @@
     "measure": "满载排水量：船级社与船舶登记数据约 79,000 t，由排水体积乘海水密度换算",
     "measureLabel": "满载排水量：船级社与船舶登记数据约 79,000 t，由排水体积乘海水密度换算",
     "visual": "mass-scale"
+  },
+  {
+    "id": "time.cell-division-x1000",
+    "title": "细胞分裂周期 × 1000：一次尺度换算",
+    "titleEn": "Cell Division Cycle × 1000",
+    "summary": "以「细胞分裂周期」的 86,400 s 为基准，按 ×1000 换算得到 8.640×10^07 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "8.640×10^07 s（约 2.73785 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 86400000,
+    "unit": "s",
+    "measure": "尺度换算量：time.cell-division 的 86,400 s × 1000",
+    "measureLabel": "由「细胞分裂周期」按 ×1000 换算的参照值",
+    "visual": "microbial-study"
   },
   {
     "id": "mass.aircraft-carrier",
@@ -18223,6 +20158,25 @@
     "measure": "红巨星核心氦燃烧温度参考",
     "measureLabel": "红巨星核心氦燃烧温度参考",
     "visual": "reaction-field"
+  },
+  {
+    "id": "space.moon_diameter-x30",
+    "title": "月球直径 × 30：一次尺度换算",
+    "titleEn": "Moon Diameter × 30",
+    "summary": "以「月球直径」的 3.475×10^06 m 为基准，按 ×30 换算得到 1.042×10^08 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "行星与太阳系",
+    "displayValue": "1.042×10^08 m（约 104,244 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 104244000,
+    "unit": "m",
+    "measure": "尺度换算量：space.moon_diameter 的 3.475×10^06 m × 30",
+    "measureLabel": "由「月球直径」按 ×30 换算的参照值",
+    "visual": "sphere"
   },
   {
     "id": "space.saturn",
@@ -18604,6 +20558,26 @@
     "visual": "information-network"
   },
   {
+    "id": "time.month-x365",
+    "title": "一个月 × 365：一次尺度换算",
+    "titleEn": "One Month × 365",
+    "summary": "以「一个月」的 2.630×10^06 s 为基准，按 ×365 换算得到 9.599×10^08 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "9.599×10^08 s（约 30.416 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 959857290,
+    "unit": "s",
+    "measure": "尺度换算量：time.month 的 2.630×10^06 s × 365",
+    "measureLabel": "由「一个月」按 ×365 换算的参照值",
+    "visual": "chronometer"
+  },
+  {
     "id": "temperature.big-bang-nucleosynthesis-temperature",
     "title": "大爆炸核合成温度",
     "titleEn": "Big Bang nucleosynthesis temperature",
@@ -18746,6 +20720,25 @@
     "visual": "sphere"
   },
   {
+    "id": "space.brown-dwarf-x10",
+    "title": "褐矮星 × 10：一次尺度换算",
+    "titleEn": "Brown Dwarf × 10",
+    "summary": "以「褐矮星」的 1.398×10^08 m 为基准，按 ×10 换算得到 1.398×10^09 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与星际",
+    "displayValue": "1.398×10^09 m（约 1.398e+06 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 1398000000,
+    "unit": "m",
+    "measure": "尺度换算量：space.brown-dwarf 的 1.398×10^08 m × 10",
+    "measureLabel": "由「褐矮星」按 ×10 换算的参照值",
+    "visual": "sphere"
+  },
+  {
     "id": "temperature.oxygen-fusion",
     "title": "氧聚变",
     "titleEn": "Oxygen burning core temperature",
@@ -18824,6 +20817,25 @@
     "visual": "chronometer"
   },
   {
+    "id": "space.jupiter-x30",
+    "title": "木星 × 30：一次尺度换算",
+    "titleEn": "Jupiter × 30",
+    "summary": "以「木星」的 1.398×10^08 m 为基准，按 ×30 换算得到 4.195×10^09 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "行星与太阳系",
+    "displayValue": "4.195×10^09 m（约 4.19466e+06 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 4194660000,
+    "unit": "m",
+    "measure": "尺度换算量：space.jupiter 的 1.398×10^08 m × 30",
+    "measureLabel": "由「木星」按 ×30 换算的参照值",
+    "visual": "planet-environment"
+  },
+  {
     "id": "mass.hoover-dam",
     "title": "胡佛大坝：约 6.6×10⁹ kg，官方混凝土总量",
     "titleEn": "Hoover Dam",
@@ -18842,6 +20854,25 @@
     "measure": "混凝土与结构总质量：美国垦务局公布坝体混凝土 3,250,335 立方码、约 6,600,000 吨，取 6.6×10⁹ kg",
     "measureLabel": "混凝土与结构总质量：美国垦务局公布坝体混凝土 3,250,335 立方码、约 6,600,000 吨，取 6.6×10⁹ kg",
     "visual": "mass-scale"
+  },
+  {
+    "id": "space.sagittarius-a-star-x0p3",
+    "title": "人马座 A* × 0.3（缩小）：一次尺度换算",
+    "titleEn": "Sagittarius A* × 0.3",
+    "summary": "以「人马座 A*」的 2.400×10^10 m 为基准，按 ×0.3 换算得到 7.200×10^09 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与星际",
+    "displayValue": "7.200×10^09 m（约 7.2e+06 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 7200000000,
+    "unit": "m",
+    "measure": "尺度换算量：space.sagittarius-a-star 的 2.400×10^10 m × 0.3",
+    "measureLabel": "由「人马座 A*」按 ×0.3 换算的参照值",
+    "visual": "galaxy"
   },
   {
     "id": "time.industrial-era-duration",
@@ -18923,6 +20954,26 @@
     "visual": "radiation-field"
   },
   {
+    "id": "time.supernova-duration-x365",
+    "title": "超新星过程 × 365：一次尺度换算",
+    "titleEn": "Duration of a Supernova × 365",
+    "summary": "以「超新星过程」的 3.156×10^07 s 为基准，按 ×365 换算得到 1.152×10^10 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "1.152×10^10 s（约 365 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 11518524000,
+    "unit": "s",
+    "measure": "尺度换算量：time.supernova-duration 的 3.156×10^07 s × 365",
+    "measureLabel": "由「超新星过程」按 ×365 换算的参照值",
+    "visual": "stellar-cycle"
+  },
+  {
     "id": "space.wolf-rayet-star",
     "title": "沃尔夫–拉叶星",
     "titleEn": "Wolf-Rayet Star",
@@ -18981,6 +21032,26 @@
     "measure": "事件视界直径（由约 400 万太阳质量推算的 2Rs）",
     "measureLabel": "事件视界直径（由约 400 万太阳质量推算的 2Rs）",
     "visual": "galaxy"
+  },
+  {
+    "id": "time.century-x10",
+    "title": "一个世纪 × 10：一次尺度换算",
+    "titleEn": "A Century × 10",
+    "summary": "以「一个世纪」的 3.156×10^09 s 为基准，按 ×10 换算得到 3.156×10^10 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "3.156×10^10 s（约 999.979 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 31556952000,
+    "unit": "s",
+    "measure": "尺度换算量：time.century 的 3.156×10^09 s × 10",
+    "measureLabel": "由「一个世纪」按 ×10 换算的参照值",
+    "visual": "chronometer"
   },
   {
     "id": "time.millennium",
@@ -19240,6 +21311,64 @@
     "visual": "nuclear-network"
   },
   {
+    "id": "temperature.core-collapse-neutrino-sphere-x2",
+    "title": "核心坍缩中微子球温度 × 2：一次尺度换算",
+    "titleEn": "Core-collapse neutrinosphere temperature × 2",
+    "summary": "以「核心坍缩中微子球温度」的 1.000×10^11 K 为基准，按 ×2 换算得到 2.000×10^11 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与宇宙极端",
+    "displayValue": "2.000×10^11 K（约 2e+11 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 200000000000,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.core-collapse-neutrino-sphere 的 1.000×10^11 K × 2",
+    "measureLabel": "由「核心坍缩中微子球温度」按 ×2 换算的参照值",
+    "visual": "compact-star"
+  },
+  {
+    "id": "time.eccentricity-cycle-405kyr-x0p016666666666666666",
+    "title": "405 千年的轨道偏心周期 × 0.0166667（缩小）：一次尺度换算",
+    "titleEn": "405,000-Year Orbital Eccentricity Cycle × 0.0166667",
+    "summary": "以「405 千年的轨道偏心周期」的 1.278×10^13 s 为基准，按 ×0.0166667 换算得到 2.130×10^11 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "2.130×10^11 s（约 6,750 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 213013800000,
+    "unit": "s",
+    "measure": "尺度换算量：time.eccentricity-cycle-405kyr 的 1.278×10^13 s × 0.0166667",
+    "measureLabel": "由「405 千年的轨道偏心周期」按 ×0.0166667 换算的参照值",
+    "visual": "chronometer"
+  },
+  {
+    "id": "space.light-second-x1000",
+    "title": "光行进一秒 × 1000：一次尺度换算",
+    "titleEn": "Light Second × 1000",
+    "summary": "以「光行进一秒」的 2.998×10^08 m 为基准，按 ×1000 换算得到 2.998×10^11 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "行星与太阳系",
+    "displayValue": "2.998×10^11 m（约 2.99792e+08 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 299792458000,
+    "unit": "m",
+    "measure": "尺度换算量：space.light-second 的 2.998×10^08 m × 1000",
+    "measureLabel": "由「光行进一秒」按 ×1000 换算的参照值",
+    "visual": "wave"
+  },
+  {
     "id": "space.red-giant",
     "title": "红巨星",
     "titleEn": "Red Giant",
@@ -19258,6 +21387,26 @@
     "measure": "类太阳恒星红巨星阶段直径概览（半径约 1 AU 的模型量级）",
     "measureLabel": "类太阳恒星红巨星阶段直径概览（半径约 1 AU 的模型量级）",
     "visual": "sphere"
+  },
+  {
+    "id": "time.species-lifetime-x0p01",
+    "title": "物种寿命 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Species Lifetime × 0.01",
+    "summary": "以「物种寿命」的 3.156×10^13 s 为基准，按 ×0.01 换算得到 3.156×10^11 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "3.156×10^11 s（约 10,000 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 315576000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.species-lifetime 的 3.156×10^13 s × 0.01",
+    "measureLabel": "由「物种寿命」按 ×0.01 换算的参照值",
+    "visual": "fossil-study"
   },
   {
     "id": "mass.asteroid-didymos",
@@ -19339,6 +21488,46 @@
     "visual": "chronometer"
   },
   {
+    "id": "time.decade-x3600",
+    "title": "十年 × 3600：一次尺度换算",
+    "titleEn": "A Decade × 3600",
+    "summary": "以「十年」的 3.156×10^08 s 为基准，按 ×3600 换算得到 1.136×10^12 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "1.136×10^12 s（约 35,999.3 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 1136050272000,
+    "unit": "s",
+    "measure": "尺度换算量：time.decade 的 3.156×10^08 s × 3600",
+    "measureLabel": "由「十年」按 ×3600 换算的参照值",
+    "visual": "chronometer"
+  },
+  {
+    "id": "time.c14-half-life-x7",
+    "title": "碳-14 半衰期 × 7：一次尺度换算",
+    "titleEn": "Carbon-14 Half-Life × 7",
+    "summary": "以「碳-14 半衰期」的 1.799×10^11 s 为基准，按 ×7 换算得到 1.259×10^12 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "1.259×10^12 s（约 39,900 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 1259148240000,
+    "unit": "s",
+    "measure": "尺度换算量：time.c14-half-life 的 1.799×10^11 s × 7",
+    "measureLabel": "由「碳-14 半衰期」按 ×7 换算的参照值",
+    "visual": "nuclear-network"
+  },
+  {
     "id": "time.milankovitch-cycle",
     "title": "米兰科维奇周期",
     "titleEn": "Milankovitch Cycles",
@@ -19376,6 +21565,25 @@
     "measure": "所引2022年研究采用1000太阳半径时的两倍半径",
     "measureLabel": "所引2022年研究采用1000太阳半径时的两倍半径",
     "visual": "sphere"
+  },
+  {
+    "id": "space.asteroid-belt-x10",
+    "title": "小行星带 × 10：一次尺度换算",
+    "titleEn": "Asteroid Belt × 10",
+    "summary": "以「小行星带」的 1.500×10^11 m 为基准，按 ×10 换算得到 1.500×10^12 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "行星与太阳系",
+    "displayValue": "1.500×10^12 m（约 1.5e+09 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 1500000000000,
+    "unit": "m",
+    "measure": "尺度换算量：space.asteroid-belt 的 1.500×10^11 m × 10",
+    "measureLabel": "由「小行星带」按 ×10 换算的参照值",
+    "visual": "orbital-system"
   },
   {
     "id": "temperature.early-universe-1e-4-seconds",
@@ -19458,6 +21666,26 @@
     "visual": "reaction-field"
   },
   {
+    "id": "time.human-lifespan-x1000",
+    "title": "人类寿命 × 1000：一次尺度换算",
+    "titleEn": "Human Lifespan × 1000",
+    "summary": "以「人类寿命」的 2.313×10^09 s 为基准，按 ×1000 换算得到 2.313×10^12 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "2.313×10^12 s（约 73,300 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 2313172080000,
+    "unit": "s",
+    "measure": "尺度换算量：time.human-lifespan 的 2.313×10^09 s × 1000",
+    "measureLabel": "由「人类寿命」按 ×1000 换算的参照值",
+    "visual": "settlement-workshop"
+  },
+  {
     "id": "time.first-molecules",
     "title": "早期分子：氦合氢离子",
     "titleEn": "Helium Hydride in Early Chemistry",
@@ -19496,6 +21724,46 @@
     "measure": "quark-gluon-plasma-initial-temperature",
     "measureLabel": "重离子碰撞火球的初始温度",
     "visual": "reaction-field"
+  },
+  {
+    "id": "time.one-trillion-seconds-x7",
+    "title": "一万亿秒 × 7：一次尺度换算",
+    "titleEn": "One Trillion Seconds × 7",
+    "summary": "以「一万亿秒」的 1.000×10^12 s 为基准，按 ×7 换算得到 7.000×10^12 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "7.000×10^12 s（约 221,817 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 7000000000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.one-trillion-seconds 的 1.000×10^12 s × 7",
+    "measureLabel": "由「一万亿秒」按 ×7 换算的参照值",
+    "visual": "chronometer"
+  },
+  {
+    "id": "time.galactic-year-x0p001",
+    "title": "银河年 × 0.001（缩小）：一次尺度换算",
+    "titleEn": "Galactic Year × 0.001",
+    "summary": "以「银河年」的 7.258×10^15 s 为基准，按 ×0.001 换算得到 7.258×10^12 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "7.258×10^12 s（约 230,000 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 7258248000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.galactic-year 的 7.258×10^15 s × 0.001",
+    "measureLabel": "由「银河年」按 ×0.001 换算的参照值",
+    "visual": "galaxy-assembly"
   },
   {
     "id": "space.kuiper-belt",
@@ -19538,6 +21806,46 @@
     "visual": "distance"
   },
   {
+    "id": "time.civilization-duration-x60",
+    "title": "文明持续时间 × 60：一次尺度换算",
+    "titleEn": "Civilization Duration × 60",
+    "summary": "以「文明持续时间」的 1.578×10^11 s 为基准，按 ×60 换算得到 9.467×10^12 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "9.467×10^12 s（约 300,000 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 9467280000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.civilization-duration 的 1.578×10^11 s × 60",
+    "measureLabel": "由「文明持续时间」按 ×60 换算的参照值",
+    "visual": "settlement-workshop"
+  },
+  {
+    "id": "time.internet-era-duration-x10000",
+    "title": "互联网时代时长 × 10000：一次尺度换算",
+    "titleEn": "Duration of the Internet Era × 10000",
+    "summary": "以「互联网时代时长」的 9.467×10^08 s 为基准，按 ×10000 换算得到 9.467×10^12 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "9.467×10^12 s（约 300,000 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 9467280000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.internet-era-duration 的 9.467×10^08 s × 10000",
+    "measureLabel": "由「互联网时代时长」按 ×10000 换算的参照值",
+    "visual": "information-network"
+  },
+  {
     "id": "mass.comet-67p",
     "title": "67P/丘留莫夫—格拉西缅科：9.982×10¹² kg，一百亿吨的彗核",
     "titleEn": "67P/Churyumov–Gerasimenko",
@@ -19556,6 +21864,46 @@
     "measure": "67P 彗核总质量（不含彗发与彗尾），由 Rosetta 探测器在彗核引力场中的测距测速数据做轨道拟合得到，相对不确定度约万分之三",
     "measureLabel": "67P 彗核总质量（不含彗发与彗尾），由 Rosetta 探测器在彗核引力场中的测距测速数据做轨道拟合得到，相对不确定度约万分之三",
     "visual": "mass-scale"
+  },
+  {
+    "id": "time.one-billion-seconds-x10000",
+    "title": "十亿秒 × 10000：一次尺度换算",
+    "titleEn": "One Billion Seconds × 10000",
+    "summary": "以「十亿秒」的 1.000×10^09 s 为基准，按 ×10000 换算得到 1.000×10^13 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "1.000×10^13 s（约 316,881 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 10000000000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.one-billion-seconds 的 1.000×10^09 s × 10000",
+    "measureLabel": "由「十亿秒」按 ×10000 换算的参照值",
+    "visual": "chronometer"
+  },
+  {
+    "id": "time.millennium-x365",
+    "title": "一千年 × 365：一次尺度换算",
+    "titleEn": "A Millennium × 365",
+    "summary": "以「一千年」的 3.156×10^10 s 为基准，按 ×365 换算得到 1.152×10^13 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "1.152×10^13 s（约 364,993 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 11518287480000,
+    "unit": "s",
+    "measure": "尺度换算量：time.millennium 的 3.156×10^10 s × 365",
+    "measureLabel": "由「一千年」按 ×365 换算的参照值",
+    "visual": "chronometer"
   },
   {
     "id": "time.baryon-acoustic-oscillations",
@@ -19755,6 +22103,26 @@
     "visual": "fossil-study"
   },
   {
+    "id": "time.species-radiation-timescale-x0p1",
+    "title": "物种辐射时间尺度 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Species Radiation Timescale × 0.1",
+    "summary": "以「物种辐射时间尺度」的 3.156×10^14 s 为基准，按 ×0.1 换算得到 3.156×10^13 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "复杂生命与演化",
+    "displayValue": "3.156×10^13 s（约 1e+06 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 31557600000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.species-radiation-timescale 的 3.156×10^14 s × 0.1",
+    "measureLabel": "由「物种辐射时间尺度」按 ×0.1 换算的参照值",
+    "visual": "lineage-tree"
+  },
+  {
     "id": "space.m87-black-hole",
     "title": "M87*",
     "titleEn": "M87*",
@@ -19793,6 +22161,26 @@
     "measure": "4179 Toutatis 总质量，由地面雷达延迟—多普勒形状模型与密度区间联合估计，不确定度约 ±20%",
     "measureLabel": "4179 Toutatis 总质量，由地面雷达延迟—多普勒形状模型与密度区间联合估计，不确定度约 ±20%",
     "visual": "mass-scale"
+  },
+  {
+    "id": "time.one-quadrillion-seconds-x0p1",
+    "title": "一千万亿秒 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "One Quadrillion Seconds × 0.1",
+    "summary": "以「一千万亿秒」的 1.000×10^15 s 为基准，按 ×0.1 换算得到 1.000×10^14 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "1.000×10^14 s（约 3.16881e+06 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 100000000000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.one-quadrillion-seconds 的 1.000×10^15 s × 0.1",
+    "measureLabel": "由「一千万亿秒」按 ×0.1 换算的参照值",
+    "visual": "chronometer"
   },
   {
     "id": "space.sedna",
@@ -19855,6 +22243,26 @@
     "visual": "mass-scale"
   },
   {
+    "id": "time.precession-cycle-x365",
+    "title": "岁差周期 × 365：一次尺度换算",
+    "titleEn": "Precession Cycle × 365",
+    "summary": "以「岁差周期」的 8.133×10^11 s 为基准，按 ×365 换算得到 2.969×10^14 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "2.969×10^14 s（约 9.40678e+06 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 296855400528000,
+    "unit": "s",
+    "measure": "尺度换算量：time.precession-cycle 的 8.133×10^11 s × 365",
+    "measureLabel": "由「岁差周期」按 ×365 换算的参照值",
+    "visual": "planet-foundry"
+  },
+  {
     "id": "time.species-radiation-timescale",
     "title": "物种辐射时间尺度",
     "titleEn": "Species Radiation Timescale",
@@ -19874,6 +22282,25 @@
     "visual": "lineage-tree"
   },
   {
+    "id": "space.solar-system-x100",
+    "title": "太阳系 × 100：一次尺度换算",
+    "titleEn": "Solar System × 100",
+    "summary": "以「太阳系」的 9.000×10^12 m 为基准，按 ×100 换算得到 9.000×10^14 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "行星与太阳系",
+    "displayValue": "9.000×10^14 m（约 9e+11 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 900000000000000,
+    "unit": "m",
+    "measure": "尺度换算量：space.solar-system 的 9.000×10^12 m × 100",
+    "measureLabel": "由「太阳系」按 ×100 换算的参照值",
+    "visual": "distance"
+  },
+  {
     "id": "time.one-quadrillion-seconds",
     "title": "一千万亿秒",
     "titleEn": "One Quadrillion Seconds",
@@ -19891,6 +22318,26 @@
     "unit": "s",
     "measure": "duration-interval",
     "measureLabel": "持续时长，不是自大爆炸起的绝对时点",
+    "visual": "chronometer"
+  },
+  {
+    "id": "time.one-quintillion-seconds-x0p001",
+    "title": "一百亿亿秒 × 0.001（缩小）：一次尺度换算",
+    "titleEn": "One Quintillion Seconds × 0.001",
+    "summary": "以「一百亿亿秒」的 1.000×10^18 s 为基准，按 ×0.001 换算得到 1.000×10^15 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "1.000×10^15 s（约 3.16881e+07 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 1000000000000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.one-quintillion-seconds 的 1.000×10^18 s × 0.001",
+    "measureLabel": "由「一百亿亿秒」按 ×0.001 换算的参照值",
     "visual": "chronometer"
   },
   {
@@ -19931,6 +22378,26 @@
     "measure": "有效标准模型格点计算的Higgs凝聚易感率峰温度",
     "measureLabel": "有效标准模型格点计算的Higgs凝聚易感率峰温度",
     "visual": "reaction-field"
+  },
+  {
+    "id": "time.erosion-cycle-x60",
+    "title": "侵蚀周期 × 60：一次尺度换算",
+    "titleEn": "Duration of an Erosion Cycle × 60",
+    "summary": "以「侵蚀周期」的 3.156×10^13 s 为基准，按 ×60 换算得到 1.893×10^15 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "1.893×10^15 s（约 6e+07 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 1893456000000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.erosion-cycle 的 3.156×10^13 s × 60",
+    "measureLabel": "由「侵蚀周期」按 ×60 换算的参照值",
+    "visual": "planet-foundry"
   },
   {
     "id": "space.local-bubble",
@@ -20031,6 +22498,25 @@
     "measure": "time-after-big-bang-model-reference",
     "measureLabel": "模型下的宇宙时代参考",
     "visual": "cosmic-web"
+  },
+  {
+    "id": "space.m87-black-hole-x100",
+    "title": "M87* × 100：一次尺度换算",
+    "titleEn": "M87* × 100",
+    "summary": "以「M87*」的 3.800×10^13 m 为基准，按 ×100 换算得到 3.800×10^15 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与星际",
+    "displayValue": "3.800×10^15 m（约 3.8e+12 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 3800000000000000,
+    "unit": "m",
+    "measure": "尺度换算量：space.m87-black-hole 的 3.800×10^13 m × 100",
+    "measureLabel": "由「M87*」按 ×100 换算的参照值",
+    "visual": "galaxy"
   },
   {
     "id": "time.cosmic-dawn",
@@ -20529,6 +23015,26 @@
     "measure": "time-after-big-bang-reference",
     "measureLabel": "低质量恒星进入 AGB 的宇宙时间参考",
     "visual": "stellar-cycle"
+  },
+  {
+    "id": "time.mountain-building-x24",
+    "title": "造山过程 × 24：一次尺度换算",
+    "titleEn": "Duration of Mountain Building × 24",
+    "summary": "以「造山过程」的 1.578×10^15 s 为基准，按 ×24 换算得到 3.787×10^16 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "3.787×10^16 s（约 1.2e+09 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 37869120000000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.mountain-building 的 1.578×10^15 s × 24",
+    "measureLabel": "由「造山过程」按 ×24 换算的参照值",
+    "visual": "catastrophe-section"
   },
   {
     "id": "space.proxima-centauri",
@@ -24844,6 +27350,46 @@
     "visual": "cluster"
   },
   {
+    "id": "time.earth-age-x10",
+    "title": "地球年龄 × 10：一次尺度换算",
+    "titleEn": "Age of Earth × 10",
+    "summary": "以「地球年龄」的 1.433×10^17 s 为基准，按 ×10 换算得到 1.433×10^18 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "太阳系与地球",
+    "displayValue": "1.433×10^18 s（约 4.54e+10 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 1432715040000000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.earth-age 的 1.433×10^17 s × 10",
+    "measureLabel": "由「地球年龄」按 ×10 换算的参照值",
+    "visual": "chronometer"
+  },
+  {
+    "id": "time.solar-red-giant-time-x24",
+    "title": "太阳红巨星时间 × 24：一次尺度换算",
+    "titleEn": "Time Until the Sun Becomes a Red Giant × 24",
+    "summary": "以「太阳红巨星时间」的 1.578×10^17 s 为基准，按 ×24 换算得到 3.787×10^18 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "3.787×10^18 s（约 1.2e+11 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 3786912000000000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.solar-red-giant-time 的 1.578×10^17 s × 24",
+    "measureLabel": "由「太阳红巨星时间」按 ×24 换算的参照值",
+    "visual": "stellar-cycle"
+  },
+  {
     "id": "mass.phoebe",
     "title": "土卫九：8.29×10¹⁸ kg，被土星抓住的彗星？",
     "titleEn": "Phoebe",
@@ -24862,6 +27408,45 @@
     "measure": "土卫九 Phoebe 总质量，由 Cassini 2004 年飞越的无线电跟踪与轨道拟合得到，相对不确定度约千分之二",
     "measureLabel": "土卫九 Phoebe 总质量，由 Cassini 2004 年飞越的无线电跟踪与轨道拟合得到，相对不确定度约千分之二",
     "visual": "mass-scale"
+  },
+  {
+    "id": "space.milky_way_disk-x0p01",
+    "title": "银河系银盘直径 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Milky Way Disk Diameter × 0.01",
+    "summary": "以「银河系银盘直径」的 9.461×10^20 m 为基准，按 ×0.01 换算得到 9.461×10^18 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "星系与宇宙",
+    "displayValue": "9.461×10^18 m（约 9.46073e+15 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 9460730472580800000,
+    "unit": "m",
+    "measure": "尺度换算量：space.milky_way_disk 的 9.461×10^20 m × 0.01",
+    "measureLabel": "由「银河系银盘直径」按 ×0.01 换算的参照值",
+    "visual": "galaxy"
+  },
+  {
+    "id": "time.continental-drift-cycle-x1000",
+    "title": "大陆漂移周期 × 1000：一次尺度换算",
+    "titleEn": "Supercontinent Cycle × 1000",
+    "summary": "以「大陆漂移周期」的 1.262×10^16 s 为基准，按 ×1000 换算得到 1.262×10^19 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "1.262×10^19 s（约 4e+11 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 12623040000000000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.continental-drift-cycle 的 1.262×10^16 s × 1000",
+    "measureLabel": "由「大陆漂移周期」按 ×1000 换算的参照值",
+    "visual": "planet-foundry"
   },
   {
     "id": "mass.psyche",
@@ -24942,6 +27527,45 @@
     "visual": "galaxy"
   },
   {
+    "id": "time.moon-age-x1000",
+    "title": "月球年龄 × 1000：一次尺度换算",
+    "titleEn": "Age of the Moon × 1000",
+    "summary": "以「月球年龄」的 1.420×10^17 s 为基准，按 ×1000 换算得到 1.420×10^20 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "太阳系与地球",
+    "displayValue": "1.420×10^20 s（约 4.5e+12 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 142009200000000000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.moon-age 的 1.420×10^17 s × 1000",
+    "measureLabel": "由「月球年龄」按 ×1000 换算的参照值",
+    "visual": "chronometer"
+  },
+  {
+    "id": "space.triangulum-galaxy-x0p3",
+    "title": "三角座星系 × 0.3（缩小）：一次尺度换算",
+    "titleEn": "Triangulum Galaxy × 0.3",
+    "summary": "以「三角座星系」的 5.676×10^20 m 为基准，按 ×0.3 换算得到 1.703×10^20 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "星系与宇宙",
+    "displayValue": "1.703×10^20 m（约 1.70293e+17 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 170293148506454400000,
+    "unit": "m",
+    "measure": "尺度换算量：space.triangulum-galaxy 的 5.676×10^20 m × 0.3",
+    "measureLabel": "由「三角座星系」按 ×0.3 换算的参照值",
+    "visual": "galaxy"
+  },
+  {
     "id": "space.galactic-center",
     "title": "银河系中心",
     "titleEn": "Galactic Center",
@@ -25018,6 +27642,26 @@
     "measure": "NASA哈勃资料中草帽星系约5万光年的横向直径",
     "measureLabel": "NASA哈勃资料中草帽星系约5万光年的横向直径",
     "visual": "galaxy"
+  },
+  {
+    "id": "time.sun-age-x3600",
+    "title": "太阳年龄 × 3600：一次尺度换算",
+    "titleEn": "Age of the Sun × 3600",
+    "summary": "以「太阳年龄」的 1.452×10^17 s 为基准，按 ×3600 换算得到 5.226×10^20 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "太阳系与地球",
+    "displayValue": "5.226×10^20 s（约 1.656e+13 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 522593856000000000000,
+    "unit": "s",
+    "measure": "尺度换算量：time.sun-age 的 1.452×10^17 s × 3600",
+    "measureLabel": "由「太阳年龄」按 ×3600 换算的参照值",
+    "visual": "chronometer"
   },
   {
     "id": "space.whirlpool-galaxy",
@@ -25154,6 +27798,26 @@
     "measure": "并合系统主体最大跨度约1×10⁵光年的量级概览，不含两端更远的潮汐尾",
     "measureLabel": "并合系统主体最大跨度约1×10⁵光年的量级概览，不含两端更远的潮汐尾",
     "visual": "galaxy"
+  },
+  {
+    "id": "time.galaxy-cluster-crossing-x3600",
+    "title": "星系穿越星系团的时间 × 3600：一次尺度换算",
+    "titleEn": "Galaxy Cluster Crossing Time × 3600",
+    "summary": "以「星系穿越星系团的时间」的 3.156×10^17 s 为基准，按 ×3600 换算得到 1.136×10^21 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "星系与结构",
+    "displayValue": "1.136×10^21 s（约 3.6e+13 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 1.1360736e+21,
+    "unit": "s",
+    "measure": "尺度换算量：time.galaxy-cluster-crossing 的 3.156×10^17 s × 3600",
+    "measureLabel": "由「星系穿越星系团的时间」按 ×3600 换算的参照值",
+    "visual": "cosmic-web"
   },
   {
     "id": "space.pinwheel-galaxy",
@@ -25352,6 +28016,25 @@
     "visual": "mass-scale"
   },
   {
+    "id": "mass.earth-x0p01",
+    "title": "地球：5.972×10²⁴ kg，含大气与海洋的总质量 × 0.01（缩小）：一次尺度换算",
+    "titleEn": "Earth × 0.01",
+    "summary": "以「地球：5.972×10²⁴ kg，含大气与海洋的总质量」的 5.972×10^24 kg 为基准，按 ×0.01 换算得到 5.972×10^22 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "行星与小天体",
+    "displayValue": "5.972×10^22 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 5.972000000000001e+22,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.earth 的 5.972×10^24 kg × 0.01",
+    "measureLabel": "由「地球：5.972×10²⁴ kg，含大气与海洋的总质量」按 ×0.01 换算的参照值",
+    "visual": ""
+  },
+  {
     "id": "mass.moon",
     "title": "月球：7.346×10²² kg，激光测月把误差压到万分之一",
     "titleEn": "Moon",
@@ -25485,6 +28168,25 @@
     "unit": "m",
     "measure": "ESA/Hubble资料中Coma星系团超过2000万光年的直径口径",
     "measureLabel": "ESA/Hubble资料中Coma星系团超过2000万光年的直径口径",
+    "visual": "cluster"
+  },
+  {
+    "id": "space.virgo-cluster-x2",
+    "title": "室女座星系团 × 2：一次尺度换算",
+    "titleEn": "Virgo Cluster × 2",
+    "summary": "以「室女座星系团」的 1.080×10^23 m 为基准，按 ×2 换算得到 2.160×10^23 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "星系与宇宙",
+    "displayValue": "2.160×10^23 m（约 2.15969e+20 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 2.159694e+23,
+    "unit": "m",
+    "measure": "尺度换算量：space.virgo-cluster 的 1.080×10^23 m × 2",
+    "measureLabel": "由「室女座星系团」按 ×2 换算的参照值",
     "visual": "cluster"
   },
   {
@@ -25739,6 +28441,25 @@
     "visual": "mass-scale"
   },
   {
+    "id": "space.observable-universe-x0p1",
+    "title": "可观测宇宙 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Observable Universe × 0.1",
+    "summary": "以「可观测宇宙」的 8.800×10^26 m 为基准，按 ×0.1 换算得到 8.800×10^25 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "星系与宇宙",
+    "displayValue": "8.800×10^25 m（约 8.8e+22 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 8.8e+25,
+    "unit": "m",
+    "measure": "尺度换算量：space.observable-universe 的 8.800×10^26 m × 0.1",
+    "measureLabel": "由「可观测宇宙」按 ×0.1 换算的参照值",
+    "visual": ""
+  },
+  {
     "id": "mass.neptune",
     "title": "海王星：1.024×10²⁶ kg，靠笔尖算出来的冰巨星",
     "titleEn": "Neptune",
@@ -25893,6 +28614,25 @@
     "measure": "行星总质量（含大气与内核，不含暗物质）；由航天器跟踪与伽利略卫星轨道拟合得出，相对不确定度约 0.02%",
     "measureLabel": "行星总质量（含大气与内核，不含暗物质）；由航天器跟踪与伽利略卫星轨道拟合得出，相对不确定度约 0.02%",
     "visual": "mass-scale"
+  },
+  {
+    "id": "space.cosmic-web-x1000",
+    "title": "宇宙网 × 1000：一次尺度换算",
+    "titleEn": "Cosmic Web × 1000",
+    "summary": "以「宇宙网」的 2.314×10^24 m 为基准，按 ×1000 换算得到 2.314×10^27 m；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "星系与宇宙",
+    "displayValue": "2.314×10^27 m（约 2.31426e+24 km）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "space"
+    ],
+    "value": 2.314258e+27,
+    "unit": "m",
+    "measure": "尺度换算量：space.cosmic-web 的 2.314×10^24 m × 1000",
+    "measureLabel": "由「宇宙网」按 ×1000 换算的参照值",
+    "visual": "field"
   },
   {
     "id": "mass.2m1207b",
@@ -26071,6 +28811,25 @@
     "measure": "恒星质量（演化模型反推，约 16.5–19 太阳质量）；由光度、有效温度与表面重力拟合演化轨迹得到，只能给量级，相对不确定度约 30%",
     "measureLabel": "恒星质量（演化模型反推，约 16.5–19 太阳质量）；由光度、有效温度与表面重力拟合演化轨迹得到，只能给量级，相对不确定度约 30%",
     "visual": "mass-scale"
+  },
+  {
+    "id": "temperature.planck-temperature-x0p25",
+    "title": "普朗克温度 × 0.25（缩小）：一次尺度换算",
+    "titleEn": "Planck temperature × 0.25",
+    "summary": "以「普朗克温度」的 1.417×10^32 K 为基准，按 ×0.25 换算得到 3.542×10^31 K；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与宇宙极端",
+    "displayValue": "3.542×10^31 K（约 3.54196e+31 °C）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "temperature"
+    ],
+    "value": 3.54196e+31,
+    "unit": "K",
+    "measure": "尺度换算量：temperature.planck-temperature 的 1.417×10^32 K × 0.25",
+    "measureLabel": "由「普朗克温度」按 ×0.25 换算的参照值",
+    "visual": "reaction-field"
   },
   {
     "id": "mass.cygnus-x1",
@@ -26293,6 +29052,25 @@
     "visual": "mass-scale"
   },
   {
+    "id": "mass.ton-618-x0p001",
+    "title": "Ton 618：8.09×10⁴⁰ kg，已知最重的黑洞之一 × 0.001（缩小）：一次尺度换算",
+    "titleEn": "Ton 618 × 0.001",
+    "summary": "以「Ton 618：8.09×10⁴⁰ kg，已知最重的黑洞之一」的 8.090×10^40 kg 为基准，按 ×0.001 换算得到 8.090×10^37 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与致密天体",
+    "displayValue": "8.090×10^37 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 8.09e+37,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.ton-618 的 8.090×10^40 kg × 0.001",
+    "measureLabel": "由「Ton 618：8.09×10⁴⁰ kg，已知最重的黑洞之一」按 ×0.001 换算的参照值",
+    "visual": ""
+  },
+  {
     "id": "mass.mrk231-black-hole",
     "title": "Mrk 231 中心黑洞：2.98×10³⁸ kg，尘埃遮蔽下的量级估算",
     "titleEn": "Mrk 231 black hole",
@@ -26311,6 +29089,25 @@
     "measure": "黑洞反响映射质量（约 1.5×10⁸ 太阳质量）；宽线区受尘埃遮蔽，需把时延与辐射压修正模型联合拟合，相对不确定度约 30%",
     "measureLabel": "黑洞反响映射质量（约 1.5×10⁸ 太阳质量）；宽线区受尘埃遮蔽，需把时延与辐射压修正模型联合拟合，相对不确定度约 30%",
     "visual": "mass-scale"
+  },
+  {
+    "id": "mass.sgr-a-star-x100",
+    "title": "人马座 A*：8.55×10³⁶ kg，银心黑洞的轨道称重 × 100：一次尺度换算",
+    "titleEn": "Sagittarius A* × 100",
+    "summary": "以「人马座 A*：8.55×10³⁶ kg，银心黑洞的轨道称重」的 8.550×10^36 kg 为基准，按 ×100 换算得到 8.550×10^38 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与致密天体",
+    "displayValue": "8.550×10^38 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 8.55e+38,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.sgr-a-star 的 8.550×10^36 kg × 100",
+    "measureLabel": "由「人马座 A*：8.55×10³⁶ kg，银心黑洞的轨道称重」按 ×100 换算的参照值",
+    "visual": ""
   },
   {
     "id": "mass.3c273",
@@ -26490,6 +29287,45 @@
     "measure": "M87 星系总质量（含暗物质晕，约 2.4×10¹² 太阳质量）；由 X 射线热气与恒星运动学联合给出，相对不确定度约 30%",
     "measureLabel": "M87 星系总质量（含暗物质晕，约 2.4×10¹² 太阳质量）；由 X 射线热气与恒星运动学联合给出，相对不确定度约 30%",
     "visual": "mass-scale"
+  },
+  {
+    "id": "time.proton-decay-limit-x7",
+    "title": "质子衰变下限 × 7：一次尺度换算",
+    "titleEn": "Experimental Lower Limit on Proton Decay × 7",
+    "summary": "以「质子衰变下限」的 7.574×10^41 s 为基准，按 ×7 换算得到 5.302×10^42 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "5.302×10^42 s（约 1.68e+35 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 5.3016767999999996e+42,
+    "unit": "s",
+    "measure": "尺度换算量：time.proton-decay-limit 的 7.574×10^41 s × 7",
+    "measureLabel": "由「质子衰变下限」按 ×7 换算的参照值",
+    "visual": "particle-reaction"
+  },
+  {
+    "id": "mass.m87-black-hole-x1000",
+    "title": "M87*：1.29×10⁴⁰ kg，第一个被拍到阴影的黑洞 × 1000：一次尺度换算",
+    "titleEn": "M87* × 1000",
+    "summary": "以「M87*：1.29×10⁴⁰ kg，第一个被拍到阴影的黑洞」的 1.290×10^40 kg 为基准，按 ×1000 换算得到 1.290×10^43 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "恒星与致密天体",
+    "displayValue": "1.290×10^43 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 1.29e+43,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.m87-black-hole 的 1.290×10^40 kg × 1000",
+    "measureLabel": "由「M87*：1.29×10⁴⁰ kg，第一个被拍到阴影的黑洞」按 ×1000 换算的参照值",
+    "visual": ""
   },
   {
     "id": "mass.centaurus-a-group",
@@ -26808,6 +29644,25 @@
     "visual": "mass-scale"
   },
   {
+    "id": "mass.total-matter-universe-x100",
+    "title": "可观测宇宙的总物质：9.9×10⁵³ kg × 100：一次尺度换算",
+    "titleEn": "Total matter in the observable universe × 100",
+    "summary": "以「可观测宇宙的总物质：9.9×10⁵³ kg」的 9.900×10^53 kg 为基准，按 ×100 换算得到 9.900×10^55 kg；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "星系与宇宙",
+    "displayValue": "9.900×10^55 kg",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "mass"
+    ],
+    "value": 9.9e+55,
+    "unit": "kg",
+    "measure": "尺度换算量：mass.total-matter-universe 的 9.900×10^53 kg × 100",
+    "measureLabel": "由「可观测宇宙的总物质：9.9×10⁵³ kg」按 ×100 换算的参照值",
+    "visual": ""
+  },
+  {
     "id": "time.black-hole-evaporation",
     "title": "黑洞蒸发时间",
     "titleEn": "Black Hole Evaporation Time",
@@ -26825,6 +29680,46 @@
     "measure": "duration-model-reference",
     "measureLabel": "按史瓦西黑洞与霍金辐射模型推算的蒸发寿命",
     "visual": "accretion-engine"
+  },
+  {
+    "id": "time.black-hole-evaporation-x60",
+    "title": "黑洞蒸发时间 × 60：一次尺度换算",
+    "titleEn": "Black Hole Evaporation Time × 60",
+    "summary": "以「黑洞蒸发时间」的 6.600×10^77 s 为基准，按 ×60 换算得到 3.960×10^79 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "3.960×10^79 s（约 1.25485e+72 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 3.96e+79,
+    "unit": "s",
+    "measure": "尺度换算量：time.black-hole-evaporation 的 6.600×10^77 s × 60",
+    "measureLabel": "由「黑洞蒸发时间」按 ×60 换算的参照值",
+    "visual": "accretion-engine"
+  },
+  {
+    "id": "time.heat-death-time-x0p1",
+    "title": "热死亡时间 × 0.1（缩小）：一次尺度换算",
+    "titleEn": "Time to Heat Death × 0.1",
+    "summary": "以「热死亡时间」的 3.156×10^107 s 为基准，按 ×0.1 换算得到 3.156×10^106 s；用于把相邻尺度锚点连起来，不是新的独立测量。",
+    "category": "时长尺度",
+    "displayValue": "3.156×10^106 s（约 1e+99 年）",
+    "reviewStatus": "reviewed",
+    "tags": [
+      "尺度换算",
+      "1.4.0新增",
+      "time"
+    ],
+    "mode": "时长",
+    "value": 3.1557599999999997e+106,
+    "unit": "s",
+    "measure": "尺度换算量：time.heat-death-time 的 3.156×10^107 s × 0.1",
+    "measureLabel": "由「热死亡时间」按 ×0.1 换算的参照值",
+    "visual": "cosmic-web"
   },
   {
     "id": "time.heat-death",

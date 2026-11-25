@@ -47,7 +47,7 @@ sources:
     publisher: NASA
     accessed: '2026-11-09'
   - title: ESA Planck
-    url: 'https://sci.esa.int/web/planck'
+    url: 'https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background'
     publisher: European Space Agency
     accessed: '2026-11-09'
   - title: NASA/IPAC Extragalactic Database

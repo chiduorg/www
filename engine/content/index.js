@@ -29,7 +29,10 @@ export function validateEntry(entry) {
     if(value!==null&&(!Number.isInteger(value)||value<1||value>118)) errors.push('元素 quantity.value 必须是 1–118 的整数原子序数');
     const element=entry.element;
     if(element){
-      if(element.symbol&&String(element.symbol).toLowerCase()!==String(entry.id||'').split('.')[1]&&element.hub!==true) errors.push('元素符号与 ID 不一致');
+      const idSlug=String(entry.id||'').split('.')[1];
+      const symbolSlug=String(element.symbol||'').toLowerCase();
+      const isotopeSlug=element.isotope!==undefined?`${symbolSlug}-${element.isotope}`:'';
+      if(element.symbol&&idSlug!==symbolSlug&&idSlug!==isotopeSlug&&element.hub!==true) errors.push('元素符号与 ID 不一致');
       if(element.hub===true&&element.closedShell!==value) errors.push('闭壳 hub 的 closedShell 必须等于 quantity.value');
       if(element.periodStart!==undefined&&element.periodEnd!==undefined&&element.periodStart>element.periodEnd) errors.push('周期起点不能大于终点');
     }

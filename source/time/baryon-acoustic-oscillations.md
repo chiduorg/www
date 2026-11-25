@@ -29,7 +29,7 @@ sources:
     accessed: '2026-11-06'
   - title: The cosmic microwave background and inflation
     url: >-
-      https://sci.esa.int/web/planck/The_cosmic_microwave_background_and_inflation
+      https://www.esa.int/Science_Exploration/Space_Science/Planck/The_cosmic_microwave_background_and_inflation
     publisher: ESA / Planck
     accessed: '2026-11-06'
   - title: The early universe

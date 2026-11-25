@@ -35,7 +35,7 @@ sources:
     accessed: '2026-11-06'
   - title: Planck and the cosmic microwave background
     url: >-
-      https://sci.esa.int/web/planck/Planck_and_the_cosmic_microwave_background
+      https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background
     publisher: ESA / Planck
     accessed: '2026-11-06'
   - title: "cosmic microwave background"

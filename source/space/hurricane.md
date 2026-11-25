@@ -25,9 +25,9 @@ sources:
       https://www.weather.gov/source/zhu/ZHU_Training_Page/tropical_stuff/hurricane_anatomy/hurricane_anatomy.html
     publisher: NOAA / National Weather Service
     accessed: '2026-11-06'
-  - title: Which are the largest and smallest tropical cyclones on record?
-    url: 'https://www.aoml.noaa.gov/hrd/tcfaq/E5.html?print=yes'
-    publisher: NOAA Atlantic Oceanographic and Meteorological Laboratory
+  - title: Hurricane Research Division — Tropical Cyclone FAQ and Records
+    url: 'https://www.aoml.noaa.gov/hrd/'
+    publisher: NOAA Atlantic Oceanographic and Meteorological Laboratory / Hurricane Research Division
     accessed: '2026-11-06'
   - title: 'SI base unit: metre (m)'
     url: 'https://www.bipm.org/en/si-base-units/metre'

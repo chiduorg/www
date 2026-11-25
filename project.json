@@ -2,8 +2,8 @@
   "name": "尺度 MAGNITUDE",
   "tagline": "每一个尺度，都是一个世界。",
   "brandStatus": "working",
-  "contentVersion": "1.3.0",
-  "engineVersion": "1.3.0",
+  "contentVersion": "1.4.0",
+  "engineVersion": "1.4.0",
   "publicOrigin": "https://chidu.org",
   "sites": {
     "home": {

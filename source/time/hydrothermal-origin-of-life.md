@@ -48,6 +48,7 @@ review:
   method: source-check
   date: '2026-11-07'
   notes:
+    - 1.4.0 未定量复核：维持 undetermined。现有来源对「热液起源假说认为生命可能始于深海热液喷口，但与陆地温泉或浅水池塘假说并存。没有一致年代，也无法用单一时刻描述生命起源。」只给范围/定性描述或缺少可复核的中心值、单位与条件，未把模型估计包装成测量值；待出现独立测量后再定量。
     - 核对 Nature 2020年专题报道，采用“水悖论”以及深海喷口与陆地水体两派争论的概述。
     - 核对 UNSW 2024年报道，采用陆地温泉铁硫化物也能促进碳固定、可桥接两类假说的实验结果。
     - '2026-11-07 来源可访问性核对：全部来源页返回可用响应（https://www.nature.com/articles/d41586-020-03461-4；https://www.unsw.edu.au/newsroom/news/2024/11/minerals-in-hot-springs-performed-a-key-chemical-reaction-for-ea），数值口径与正文一致。'

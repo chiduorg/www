@@ -45,7 +45,7 @@ sources:
     publisher: Lawrence Berkeley National Laboratory
     accessed: '2026-11-09'
   - title: Planck Mission
-    url: 'https://sci.esa.int/web/planck'
+    url: 'https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background'
     publisher: European Space Agency
     accessed: '2026-11-09'
 tags:

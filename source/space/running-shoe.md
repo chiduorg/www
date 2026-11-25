@@ -19,7 +19,7 @@ related:
 reviewStatus: reviewed
 sources:
   - title: Shoe Size Guide
-    url: 'https://www.asics.com/gb/en-gb/shoe-size-guide/'
+    url: 'https://www.asics.co.in/shoe-size-guide'
     publisher: ASICS
     accessed: '2026-11-07'
   - title: Men's Footwear Size Chart

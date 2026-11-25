@@ -30,6 +30,7 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
+    - 1.4.0 深读补写：补充量值口径、条件、误差与比较边界；ID、slug、canonical 与原量值不变。
     - >-
       本轮复核：结构、引用编号与量值口径完整；quantity.value 与 displayValue
       数量级一致，bound/zeroMass/approximate、mass.type 与 includesDarkMatter
@@ -46,7 +47,7 @@ sources:
     publisher: NASA
     accessed: '2026-11-09'
   - title: ESA Planck
-    url: 'https://sci.esa.int/web/planck'
+    url: 'https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background'
     publisher: European Space Agency
     accessed: '2026-11-09'
   - title: NASA/IPAC Extragalactic Database
@@ -100,3 +101,16 @@ titleEn: Ordinary matter in the observable universe
 ## 怎么继续走
 
 想看同一体积里另外两种成分，去 mass.dark-matter-mass 与 mass.total-matter-universe；想弄清体积这个前提本身，去 mass.hubble-volume。[3] 前两条与本条共享同一共动体积，可互相加减核对；哈勃体积那条则是另一个体积，还含暗能量当量，不能混入这份账。把体积和成分这两件事分开记，比只记住数字更有用。
+
+
+## 深读一：量值口径
+
+本条的核心量值是 1.500e+53 kg，量的是可观测宇宙内普通物质（重子）总质量，不含暗物质与暗能量；由宇宙微波背景的 Ω_b 与临界密度、共动体积换算，相对不确定度约 2%。数值来自本条既有审阅链，不是按标题重新估算；按当前口径视为确定值。[1] 口径一变，读数就会跟着变，因此正文始终把单位、参照物与条件写在一起。
+
+条件记录为：reference=质量一律以 kg 计；阶梯位置按 log10(m/kg) 计算；不把重量、体积×密度或 E/c² 当作静质量。；scope=可观测宇宙内普通物质（重子）总质量，不含暗物质与暗能量；由宇宙微波背景的 Ω_b 与临界密度、共动体积换算，相对不确定度约 2%；precision=B 级；记录值。；massType=重子质量；includesDarkMatter=否。这些条件决定它能否与另一条读数直接比较；例如把直径换成半径、把瞬时值换成年均值，都会改变量级判断，不能只看数字大小。[2]
+
+## 深读二：误差与边界
+
+放进尺度阶梯时，可对照可观测宇宙的暗物质：8.4×10⁵³ kg（8.400e+53）。本条与它不是简单的倍数关系，而是同一量纲下不同口径的两个锚点；先统一单位与参照，再讨论谁大谁小。[3]
+
+误差与边界：不确定度 0.02 relative。若要做跨条目比较，应保留原始有效数字，不把换算结果补到仪器并不支持的精度；本条的文字解释与图景说明只用于建立尺度感，不替代测量记录。[1][2]

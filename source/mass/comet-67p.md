@@ -30,6 +30,7 @@ review:
   method: source-check
   date: '2026-11-09'
   notes:
+    - 1.4.0 深读补写：补充量值口径、条件、误差与比较边界；ID、slug、canonical 与原量值不变。
     - >-
       本轮复核：结构、引用编号与量值口径完整；quantity.value 与 displayValue
       数量级一致，bound/zeroMass/approximate、mass.type 与 includesDarkMatter
@@ -101,3 +102,16 @@ titleEn: 67P/Churyumov–Gerasimenko
 ## 怎么继续走
 
 想看它的形状、表面温度与着陆点，去空间轴的 space.comet-67p；想比较同一质量带的其他小天体，去 mass.comet-halley、mass.asteroid-toutatis 与 mass.asteroid-bennu；想理解质量与密度的区别，去 mass.asteroid-itokawa。
+
+
+## 深读一：量值口径
+
+本条的核心量值是 9.982e+12 kg，量的是67P 彗核总质量（不含彗发与彗尾），由 Rosetta 探测器在彗核引力场中的测距测速数据做轨道拟合得到，相对不确定度约万分之三。数值来自本条既有审阅链，不是按标题重新估算；按当前口径视为确定值。[1] 口径一变，读数就会跟着变，因此正文始终把单位、参照物与条件写在一起。
+
+条件记录为：reference=质量一律以 kg 计；阶梯位置按 log10(m/kg) 计算；不把重量、体积×密度或 E/c² 当作静质量。；scope=67P 彗核总质量（不含彗发与彗尾），由 Rosetta 探测器在彗核引力场中的测距测速数据做轨道拟合得到，相对不确定度约万分之三；precision=A 级；记录值。；massType=总质量；includesDarkMatter=否。这些条件决定它能否与另一条读数直接比较；例如把直径换成半径、把瞬时值换成年均值，都会改变量级判断，不能只看数字大小。[2]
+
+## 深读二：误差与边界
+
+放进尺度阶梯时，可对照哈雷彗星：2.2×10¹⁴ kg，只能给两位有效数字（2.200e+14）。本条与它不是简单的倍数关系，而是同一量纲下不同口径的两个锚点；先统一单位与参照，再讨论谁大谁小。[3]
+
+误差与边界：不确定度 0.0003 relative。若要做跨条目比较，应保留原始有效数字，不把换算结果补到仪器并不支持的精度；本条的文字解释与图景说明只用于建立尺度感，不替代测量记录。[1][2]
